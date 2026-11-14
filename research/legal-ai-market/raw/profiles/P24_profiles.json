@@ -1,0 +1,2625 @@
+[
+ {
+  "cid": "G052",
+  "name": "Grubel",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "other_offices": [
+   "Tübingen",
+   "Zurich (planned 2027)"
+  ],
+  "founded_year": 2026,
+  "founders": [
+   "Moritz Hardt",
+   "Reinhard Heckel"
+  ],
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": "2026-10",
+   "source": "press / job listings (founding team, hiring founding legal engineers)"
+  },
+  "funding": {
+   "stage": "Pre-seed",
+   "total_raised_usd_m": 3.5,
+   "total_raised_text": "~EUR 3M (~US$3.2-3.5M) pre-seed, Sep 2026",
+   "last_round": {
+    "type": "Pre-seed",
+    "amount_usd_m": 3.5,
+    "date": "2026-09",
+    "lead_investors": [
+     "Point Nine"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Point Nine",
+    "Jeff Dean (angel)",
+    "Chris Ré (angel)",
+    "Ion Stoica (angel)",
+    "Gabe Pereyra (angel)",
+    "Winston Weinberg (angel)"
+   ]
+  },
+  "focus_summary": "AI research lab building matter-specific legal AI: per-matter data engineering and model/agent adaptation, offered first via API to legal-tech vendors, later to large clients.",
+  "primary_problem": "General-purpose legal AI underperforms on the specifics of individual high-stakes legal matters.",
+  "target_customers": [
+   "ALSPs/legal service providers",
+   "Large law firms"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "EU",
+   "DE"
+  ],
+  "products": [
+   {
+    "name": "Matter-specific legal AI API",
+    "description": "Paid API letting legal-tech providers embed AI systems adapted to each individual legal matter.",
+    "capabilities": [
+     "matter-specific model adaptation",
+     "matter data engineering",
+     "agentic legal workflow execution",
+     "legal output evaluation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "matter-specific model adaptation",
+   "matter-specific agent customization",
+   "matter data engineering",
+   "agentic legal workflow execution",
+   "legal output accuracy evaluation",
+   "continuous model improvement tracking",
+   "legal ai api provisioning",
+   "enterprise legal ai pilots"
+  ],
+  "delivery": [
+   "API"
+  ],
+  "ai_approach": "Research-led: engineers matter-specific data, adapts foundation models and agents per matter; team from Max Planck, TUM, Mistral pretraining, Thomson Reuters legal AI.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Per-matter tailored AI rather than one general model",
+   "Founders are leading ML academics (Max Planck, TUM)",
+   "Backed by Harvey co-founders and Jeff Dean"
+  ],
+  "recent_news": [
+   "2026-09: Raised ~EUR 3M pre-seed led by Point Nine",
+   "2026-10: Hiring founding legal engineers in Munich"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.munich-startup.de/en/news/millionendeal-fuer-muenchner-ai-startup-grubel",
+   "https://www.thesaasnews.com/news/grubel-raises-3m-pre-seed/",
+   "https://www.deutsche-startups.de/2026/10/12/wenn-ki-zum-juristischen-spezialisten-wird/"
+  ],
+  "notes": "Round labeled pre-seed by most outlets, seed by some; USD conversions vary (3.2-3.5M). Website not confirmed. Pre-product; API-first model per founder interview."
+ },
+ {
+  "cid": "G020",
+  "name": "Hukumonline",
+  "website": "https://www.hukumonline.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Jakarta",
+  "hq_country": "Indonesia",
+  "other_offices": [],
+  "founded_year": 2000,
+  "founders": null,
+  "employees": {
+   "range": "201-500",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series B",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Series A and Series B (2024) from MDIF; amounts undisclosed",
+   "last_round": {
+    "type": "Series B",
+    "amount_usd_m": null,
+    "date": "2024-02",
+    "lead_investors": [
+     "Media Development Investment Fund (MDIF)"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Media Development Investment Fund (MDIF)",
+    "Assegaf Hamzah & Partners"
+   ]
+  },
+  "focus_summary": "Indonesia's largest legal information platform: regulations/court decision database, legal news, generative-AI legal research (Ask Hukumonline, AIlex) and AI regulatory compliance system for enterprises.",
+  "primary_problem": "Finding, understanding and complying with Indonesia's vast, fast-changing regulatory corpus.",
+  "target_customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "In-house legal",
+   "Compliance teams",
+   "Law students/academia",
+   "Legal aid/non-profits",
+   "Consumers/individuals"
+  ],
+  "practice_areas": [
+   "General",
+   "Regulatory/Compliance"
+  ],
+  "jurisdictions": [
+   "ID"
+  ],
+  "products": [
+   {
+    "name": "Ask Hukumonline (AI)",
+    "description": "Generative-AI legal research assistant (launched Sep 2024) answering legal questions grounded in verified Indonesian legal documents.",
+    "capabilities": [
+     "legal research q&a",
+     "grounded answer citation",
+     "court decision search"
+    ]
+   },
+   {
+    "name": "AIlex",
+    "description": "Regulatory AI product for regulation analysis and research; AIlex Classroom for academia; AIlex for Good free access for legal aid groups (2026).",
+    "capabilities": [
+     "regulatory analysis",
+     "regulation research",
+     "legal education support"
+    ]
+   },
+   {
+    "name": "Regulatory Compliance System (RCS)",
+    "description": "AI-based enterprise compliance platform mapping regulatory obligations and alerting on deadlines and license expiry.",
+    "capabilities": [
+     "regulatory obligation mapping",
+     "compliance deadline alerting",
+     "license expiry tracking"
+    ]
+   },
+   {
+    "name": "Internal Policy Review",
+    "description": "Feature (2026) helping companies check internal policies against latest regulations.",
+    "capabilities": [
+     "internal policy gap analysis"
+    ]
+   },
+   {
+    "name": "Pusat Data / Legal database & Klinik",
+    "description": "Regulation and court decision database, consolidated laws, legal news and Q&A legal clinic.",
+    "capabilities": [
+     "regulation database search",
+     "legal news monitoring"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "grounded answer citation",
+   "court decision search",
+   "regulation database search",
+   "consolidated regulation access",
+   "regulatory analysis",
+   "regulatory change monitoring",
+   "regulatory obligation mapping",
+   "compliance deadline alerting",
+   "license expiry tracking",
+   "internal policy gap analysis",
+   "legal news monitoring",
+   "legal education support",
+   "consumer legal q&a"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "RAG-style generative AI grounded in Hukumonline's proprietary Indonesian regulation and court-decision database; accuracy tested by UGM's CTRL centre.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Largest proprietary Indonesian legal database (since 2000)",
+   "First Indonesian genAI legal research tool (claimed)",
+   "Combined research plus enterprise compliance offering"
+  ],
+  "recent_news": [
+   "2024-02: Series B from MDIF to build genAI and enterprise solutions",
+   "2024-09: Launched Ask Hukumonline AI",
+   "2026-07: AIlex for Good gives 43 organisations free access"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.dailysocial.id/post/Hukumonline-funding-series-b",
+   "https://teknologi.bisnis.com/read/20241003/84/1804520/ask-hukumonline-ai-diluncurkan-tawarkan-akurasi-dan-riset-cepat",
+   "https://www.jpnn.com/news/fitur-kecerdasan-ask-hukumonline-ungguli-platform-ai-lainnya",
+   "https://yespress.io/hukumonline-com"
+  ],
+  "notes": "Founded 2000 (CB Insights says 1999). Funding amounts undisclosed. Employee count not verified (estimate only). Founders not confirmed."
+ },
+ {
+  "cid": "G014",
+  "name": "Inspira",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "São Paulo",
+  "hq_country": "Brazil",
+  "other_offices": [],
+  "founded_year": 2021,
+  "founders": [
+   "Rafael Grimaldi",
+   "Cauê Rodrigues",
+   "Henrique Ferreira"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 2.8,
+   "total_raised_text": "R$15M (~US$2.8M) Series A 2026; earlier backing from Wayra Brasil",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 2.8,
+    "date": "2026-07",
+    "lead_investors": [
+     "Cloud9 Capital"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Cloud9 Capital",
+    "Vivo Ventures",
+    "Wayra Brasil"
+   ]
+  },
+  "focus_summary": "Brazilian AI legal assistant for lawyers, firms, corporate legal teams and government: case-law search over 83M decisions, document analysis, drafting and case management.",
+  "primary_problem": "Brazilian lawyers spend hours on case-law research and drafting across fragmented court systems.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice_areas": [
+   "General",
+   "Litigation"
+  ],
+  "jurisdictions": [
+   "BR"
+  ],
+  "products": [
+   {
+    "name": "Inspira AI legal assistant",
+    "description": "AI assistant with jurisprudence search over 86 courts (~83M decisions), document review, drafting and workflow automation.",
+    "capabilities": [
+     "case-law search",
+     "legal research q&a",
+     "legal document drafting",
+     "document analysis",
+     "case management",
+     "workflow automation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "case-law search",
+   "jurisprudence semantic search",
+   "legal research q&a",
+   "legal document drafting",
+   "petition drafting",
+   "document analysis",
+   "document review",
+   "case management",
+   "legal workflow automation",
+   "court decision database updating"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Generative AI (early ChatGPT integration) layered over proprietary daily-updated database of Brazilian court decisions.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Database of ~83M decisions from 86 Brazilian courts",
+   "14,000+ active users claimed",
+   "Vivo/Telefónica corporate venture backing"
+  ],
+  "recent_news": [
+   "2026-07: Raised R$15M Series A led by Cloud9 Capital with Vivo Ventures"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://latamlist.com/inspira-raises-2-8m-series-a-led-by-cloud9-capital/",
+   "https://startups.com.br/negocios/rodada-de-investimento/legaltech-inspira-capta-r-15m-para-expandir-base-de-clientes/",
+   "https://techindex.law.stanford.edu/companies/inspira"
+  ],
+  "notes": "Round date varies across sources (Jun-Nov 2026; July most cited). Team worked together since 2015; company founded 2021. Website not confirmed; headcount unknown."
+ },
+ {
+  "cid": "G046",
+  "name": "Intapp",
+  "website": "https://www.intapp.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "other_offices": [
+   "London",
+   "Charlotte",
+   "Belfast",
+   "Sydney",
+   "Singapore"
+  ],
+  "founded_year": 2000,
+  "founders": null,
+  "employees": {
+   "range": "1001-5000",
+   "approx": 1300,
+   "as_of": "2025",
+   "source": "company filings (approximate); whole company"
+  },
+  "funding": {
+   "stage": "Public",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Public company (NASDAQ: INTA), IPO 2021",
+   "last_round": {
+    "type": "IPO",
+    "amount_usd_m": null,
+    "date": "2021-06",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Vista Equity Partners (historic)"
+   ]
+  },
+  "focus_summary": "Cloud software for professional/financial services firms; Celeste agentic AI embedded in law-firm intake, conflicts, risk/compliance, time capture and DealCloud client relationship management.",
+  "primary_problem": "Law firms' business-side workflows (intake, conflicts, time, compliance, BD) are manual and risk-laden.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Financial institutions",
+   "Private equity/funds"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "US",
+   "UK",
+   "EU",
+   "APAC"
+  ],
+  "products": [
+   {
+    "name": "Intapp Celeste",
+    "description": "Governed agentic AI platform (Feb 2026, GA mid-2026) embedded across Intapp apps, enforcing ethical walls, MNPI and independence rules on agents.",
+    "capabilities": [
+     "agentic workflow automation",
+     "ethical wall enforcement",
+     "ai governance"
+    ]
+   },
+   {
+    "name": "Intapp Time (with Celeste)",
+    "description": "AI time capture suggesting time entries from email, calendar, documents and AI-tool activity, flagging billing-guideline corrections.",
+    "capabilities": [
+     "passive time capture",
+     "time entry generation",
+     "billing guideline compliance checking"
+    ]
+   },
+   {
+    "name": "Intapp Compliance / Risk (Intake, Conflicts, Walls)",
+    "description": "New business intake, conflicts checking, ethical walls and outside counsel guideline review with AI assistance.",
+    "capabilities": [
+     "matter intake triage",
+     "conflicts checking",
+     "outside counsel guideline review",
+     "ethical wall management"
+    ]
+   },
+   {
+    "name": "DealCloud (with Celeste)",
+    "description": "Relationship intelligence and pipeline CRM for law, banking and accounting firms with AI insights.",
+    "capabilities": [
+     "client relationship intelligence",
+     "business development pipeline management",
+     "experience management"
+    ]
+   },
+   {
+    "name": "Intapp Terms / OCG",
+    "description": "Engagement terms and outside counsel guideline management.",
+    "capabilities": [
+     "engagement terms management",
+     "outside counsel guideline extraction"
+    ]
+   }
+  ],
+  "capabilities": [
+   "agentic workflow automation",
+   "ai governance enforcement",
+   "ethical wall enforcement",
+   "mnpi control",
+   "passive time capture",
+   "time entry generation",
+   "time narrative drafting",
+   "billing guideline compliance checking",
+   "matter intake triage",
+   "new business intake automation",
+   "conflicts checking",
+   "outside counsel guideline review",
+   "outside counsel guideline extraction",
+   "engagement terms management",
+   "client relationship intelligence",
+   "business development pipeline management",
+   "experience management",
+   "independence compliance checking"
+  ],
+  "delivery": [
+   "Web app",
+   "Integrations",
+   "Outlook add-in"
+  ],
+  "ai_approach": "Celeste: governed agentic AI layered on Intapp's firm data; partners with LLM vendors and legal AI (Legora partnership Aug 2026); emphasises explainability.",
+  "key_integrations": [
+   "Microsoft 365",
+   "Legora",
+   "iManage",
+   "NetDocuments",
+   "Aderant",
+   "Elite 3E"
+  ],
+  "notable_customers": [
+   "Buchanan Ingersoll & Rooney",
+   "Wotton Kearney"
+  ],
+  "differentiators": [
+   "Incumbent in law-firm risk/compliance and time systems",
+   "AI governance built on ethical-wall infrastructure",
+   "Spans legal, banking, accounting firms"
+  ],
+  "recent_news": [
+   "2026-02: Announced Celeste agentic AI for professional firms",
+   "2026-07: Celeste generally available",
+   "2026-08: Partnership with Legora on governed AI and time capture"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260225298423/en/Intapp-announces-Celeste-Agentic-AI-for-professional-firms/",
+   "https://itbrief.news/story/intapp-launches-celeste-ai-for-compliance-and-timekeeping",
+   "https://www.intapp.com/news/content-type/press-release/"
+  ],
+  "notes": "Adjacent: horizontal professional-services vendor; profile covers legal-relevant lines. Employee figure approximate from training knowledge, whole company. Founded 2000 per company history."
+ },
+ {
+  "cid": "G032",
+  "name": "Intelligent Legal Solutions (ProVision)",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "other_offices": [
+   "Chicago"
+  ],
+  "founded_year": null,
+  "founders": null,
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": "2026-03",
+   "source": "estimate from seed-stage press"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 3.0,
+   "total_raised_text": ">US$3M incl. seed led by Chicago Ventures (Mar 2026) and earlier strategic investment from The LegalTech Fund (Sep 2025)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 3.0,
+    "date": "2026-03",
+    "lead_investors": [
+     "Chicago Ventures"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Chicago Ventures",
+    "The LegalTech Fund"
+   ]
+  },
+  "focus_summary": "Lawyer-led legal tech for private funds; ProVision side-letter management turns negotiated LP terms into structured obligations, MFN election forms and compliance tracking.",
+  "primary_problem": "Fund side letters and MFN elections are tracked in error-prone spreadsheets.",
+  "target_customers": [
+   "Large law firms",
+   "Private equity/funds"
+  ],
+  "practice_areas": [
+   "Funds/Investment management",
+   "Corporate/M&A"
+  ],
+  "jurisdictions": [
+   "UK",
+   "US"
+  ],
+  "products": [
+   {
+    "name": "ProVision",
+    "description": "AI side-letter management platform: extracts provisions, builds obligations registers, generates MFN election forms and tracks elections; 5,000+ side letters across 450+ matters.",
+    "capabilities": [
+     "side letter provision extraction",
+     "mfn election form generation",
+     "mfn election tracking",
+     "investor obligation tracking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "side letter provision extraction",
+   "side letter clause categorization",
+   "mfn election form generation",
+   "mfn election tracking",
+   "investor obligation register creation",
+   "investor obligation tracking",
+   "fund term compliance monitoring",
+   "fund formation workflow automation",
+   "side letter comparison"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "AI extraction and structuring of negotiated fund terms with lawyer-led review workflow ('disciplined use of AI').",
+  "key_integrations": [],
+  "notable_customers": [
+   "Goodwin"
+  ],
+  "differentiators": [
+   "Founded by ex-Goodwin funds lawyers",
+   "Category focus on side letters/MFN workflows",
+   "Used on 450+ fund matters"
+  ],
+  "recent_news": [
+   "2025-09: Strategic investment from The LegalTech Fund",
+   "2026-03: US$3M seed led by Chicago Ventures"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://tech.eu/2026/03/09/ils-secures-seed-funding-to-expand-provision-legal-workflow-platform/",
+   "https://www.businesswire.com/news/home/20250916364737/en",
+   "https://www.mondaq.com/pressrelease/172748/goodwin-collaborates-with-ai-powered-side-letter-management-platform-provision"
+  ],
+  "notes": "HQ conflicts (London vs Chicago dateline). Founded year and founder names not confirmed. One outlet reports seed as GBP 2.3M (same round)."
+ },
+ {
+  "cid": "G054",
+  "name": "Iqidis",
+  "website": "https://irys.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2024,
+  "founders": [
+   "Sabih Siddiqi"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Undisclosed; listed in F4 Fund portfolio; Caplight lists an unverified Series A (Aug 2025)",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": [
+    "F4 Fund"
+   ]
+  },
+  "focus_summary": "Unified legal AI operating system (Iqidis rebranded Irys) for in-house counsel and mid-size firms: research, drafting, redlining, document analysis and matter management in one workspace.",
+  "primary_problem": "Lawyers juggle separate tools for research, drafting and review without shared matter context.",
+  "target_customers": [
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "General",
+   "Litigation"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Irys One (formerly Iqidis platform)",
+    "description": "Matter-centric legal AI workspace combining research, drafting, redlining, document analysis and matter management; from ~$299/month.",
+    "capabilities": [
+     "legal research q&a",
+     "legal drafting",
+     "contract redlining",
+     "document analysis",
+     "matter management"
+    ]
+   },
+   {
+    "name": "Iqidis Researcher",
+    "description": "Cited legal research tailored to issue, jurisdiction and facts over its own US case-law database; distributed via Epiq.",
+    "capabilities": [
+     "case-law research",
+     "citation checking"
+    ]
+   },
+   {
+    "name": "Citation checker",
+    "description": "Flags hallucinated, overruled and mismatched citations.",
+    "capabilities": [
+     "citation verification",
+     "overruled authority detection"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "case-law research",
+   "jurisdiction-specific research memo generation",
+   "citation verification",
+   "hallucinated citation detection",
+   "overruled authority detection",
+   "legal drafting",
+   "brief drafting",
+   "contract redlining",
+   "document analysis",
+   "document summarization",
+   "matter management",
+   "matter context retention"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Multi-LLM legal workspace with proprietary US case-law database and citation-verification layer; matter-context memory across tasks.",
+  "key_integrations": [
+   "Epiq"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "All-in-one matter-centric workspace",
+   "Built-in citation checker against hallucinations",
+   "Published low-cost pricing with trial"
+  ],
+  "recent_news": [
+   "2025-10: IRYS trademark filed by Iqidis LLC (rebrand)",
+   "2026-02: Irys One trademark filed; product marketed as legal operating system"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://f4.fund/startups/iqidis",
+   "https://www.legaltechnologyhub.com/vendors/irys-one-by-irys-ai/",
+   "https://www.epiqglobal.com/getmedia/0408c805-5b7a-4cb5-84b9-feeda5200df3/Solution-Brief_Iqidis-Researcher.pdf",
+   "https://techindex.law.stanford.edu/companies/irys-ai",
+   "https://www.caplight.com/company/irys-ai"
+  ],
+  "notes": "Rebrand to Irys inferred from trademarks/directories; no official announcement found. Founder per Caplight only. Founded 2024 (Iqidis) vs 2025 (Irys per CodeX). Funding unverified.",
+  "aliases": [
+   "Irys",
+   "Irys AI"
+  ]
+ },
+ {
+  "cid": "G001",
+  "name": "Juztina",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Lima",
+  "hq_country": "Peru",
+  "other_offices": [
+   "Bogotá",
+   "Santiago",
+   "Buenos Aires"
+  ],
+  "founded_year": 2023,
+  "founders": [
+   "Manuel De La Colina",
+   "Michael Rokes",
+   "Rodrigo Álvarez"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 0.5,
+   "total_raised_text": "~US$400-500K (first round US$400K led by Grupo HNG)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 0.4,
+    "date": "2025",
+    "lead_investors": [
+     "Grupo HNG"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Grupo HNG"
+   ]
+  },
+  "focus_summary": "Latin American legal AI research platform letting lawyers and students query legislation, regulations and case law (Peru, Colombia, Chile, Argentina, Mexico) via chat.",
+  "primary_problem": "Manual searching of fragmented state legal sources wastes lawyers' hours.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "PE",
+   "CO",
+   "CL",
+   "AR",
+   "MX"
+  ],
+  "products": [
+   {
+    "name": "Juztina AI legal assistant",
+    "description": "Chat-based legal research over ~4M legislation, resolution and case-law documents, answering only from its own stored sources; freemium and ~US$10/month plans.",
+    "capabilities": [
+     "legal research q&a",
+     "case-law search",
+     "legislation search",
+     "regulatory resolution search"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "case-law search",
+   "legislation search",
+   "administrative resolution search",
+   "jurisprudence analysis",
+   "legal document summarization",
+   "grounded answer citation",
+   "legal education support"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "RAG over proprietary corpus (~4M documents) of Latin American public legal sources; answers only from stored documents, not open web.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Multi-country LatAm legal corpus",
+   "Break-even reached early (2025-26)",
+   "Low-price freemium for students and solos"
+  ],
+  "recent_news": [
+   "2025-03: Expanded to Colombia",
+   "2026-01: Reached break-even; targets ~US$1M revenue in 2026",
+   "2026-03: Launched in Chile; Argentina expansion"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://forbes.pe/negocios/2026-01-22/juztina-conoce-la-legaltech-peruana-que-planea-triplicar-sus-ingresos-y-consolidar-su-estrategia-regional-este-ano/",
+   "https://gestion.pe/economia/empresas/juztina-la-legaltech-que-redisena-el-derecho-y-trabajo-de-abogados-con-ia-el-primer-unicornio-peruano-noticia/",
+   "https://abogados.com.ar/juztina-expande-operaciones-en-argentina-tras-cerrar-una-ronda-de-inversion-y-alcanzar-el-break-even/38416"
+  ],
+  "notes": "Batch's 'US$800K regional raise' (RCN article) appears to refer to Magnar, not Juztina. 100K+ registered users claimed (2025). Headcount and website unverified."
+ },
+ {
+  "cid": "G056",
+  "name": "Jylo",
+  "website": "https://jylo.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "other_offices": [],
+  "founded_year": 2024,
+  "founders": [
+   "Shawn Curran",
+   "Sam Lansley"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Initial investment from Travers Smith at May 2024 spin-out; amount undisclosed",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": null,
+    "date": "2024-05",
+    "lead_investors": [
+     "Travers Smith"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Travers Smith"
+   ]
+  },
+  "focus_summary": "Legal AI platform spun out of Travers Smith letting firms and institutions build and share secure, repeatable genAI products via an internal 'intelligence marketplace'.",
+  "primary_problem": "Turning firms' unstructured documents and know-how into repeatable, secure AI-driven processes.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Government/courts",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "UK",
+   "EU"
+  ],
+  "products": [
+   {
+    "name": "Jylo platform / AI marketplace",
+    "description": "Model-agnostic genAI platform converting unstructured documents into structured data, with a marketplace for building and sharing custom AI products internally.",
+    "capabilities": [
+     "unstructured data structuring",
+     "custom ai tool building",
+     "internal ai product marketplace",
+     "bulk document analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "unstructured data structuring",
+   "bulk document analysis",
+   "tabular data extraction",
+   "custom ai tool building",
+   "no-code prompt workflow creation",
+   "internal ai product marketplace",
+   "know-how reuse",
+   "document summarization",
+   "legal q&a over documents",
+   "model-agnostic llm orchestration"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Model-agnostic genAI orchestration (multiple LLM vendors) with secure deployment; products built from firm intellectual capital; origins in Travers Smith's open-source Analyser/YCNBot.",
+  "key_integrations": [
+   "Microsoft 365"
+  ],
+  "notable_customers": [
+   "Travers Smith",
+   "Hempsons",
+   "Council of Europe (ECHR)"
+  ],
+  "differentiators": [
+   "Law-firm spinout with practitioner DNA",
+   "Marketplace model for reusable AI products",
+   "Won Council of Europe/ECHR tender"
+  ],
+  "recent_news": [
+   "2024-05: Spun out of Travers Smith, CEO Shawn Curran",
+   "2025-02: Hempsons partnership for internal AI marketplace",
+   "2025-07: Selected by Council of Europe as legal AI platform"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.artificiallawyer.com/2024/05/22/travers-smith-spins-out-jylo-ai-company/",
+   "https://www.artificiallawyer.com/2025/02/25/jylo-partners-with-hempsons-for-internal-ai-product-marketplace/",
+   "https://www.cbinsights.com/company/jylo"
+  ],
+  "notes": "Website jylo.ai from training knowledge, not reverified. CB Insights lists 2019 founding (Travers' AI unit origins). Funding amount undisclosed."
+ },
+ {
+  "cid": "G041",
+  "name": "Lawfully",
+  "website": "https://www.lawfully.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2017,
+  "founders": [
+   "Joon Ahn"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 5.05,
+   "total_raised_text": "~US$2.5M seed (Nov 2022); CB Insights total US$5.05M over 7 rounds (other trackers US$2-2.8M)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 2.5,
+    "date": "2022-11",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Bluepoint Partners",
+    "Lotte Ventures",
+    "TBT"
+   ]
+  },
+  "focus_summary": "Immigration legaltech: consumer USCIS/NVC case-tracking app with AI decision predictions and lawyer marketplace, plus Lawfully Pro/Intelligence AI tools for immigration attorneys.",
+  "primary_problem": "Opaque, slow immigration processes leave applicants and attorneys without status visibility or benchmarks.",
+  "target_customers": [
+   "Consumers/individuals",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice_areas": [
+   "Immigration"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Lawfully Case Tracker app",
+    "description": "USCIS/NVC case status tracker with data-science predictions of decision dates and approval odds; 800K+ registered cases.",
+    "capabilities": [
+     "immigration case status tracking",
+     "decision date prediction",
+     "approval likelihood prediction"
+    ]
+   },
+   {
+    "name": "Lawfully Pro",
+    "description": "AI tools for immigration attorneys: proactive case-status updates and automated client communication; bidirectional INSZoom integration (2026).",
+    "capabilities": [
+     "automated client status updates",
+     "client communication automation",
+     "case data synchronization"
+    ]
+   },
+   {
+    "name": "Lawfully Intelligence",
+    "description": "Benchmarking analytics on approval rates, RFE rates and processing times for immigration practices.",
+    "capabilities": [
+     "approval rate benchmarking",
+     "rfe rate analytics",
+     "processing time analytics"
+    ]
+   },
+   {
+    "name": "Lawyer matching / mock interview",
+    "description": "Connects applicants to immigration attorneys and offers interview practice.",
+    "capabilities": [
+     "lawyer matching",
+     "immigration interview preparation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "immigration case status tracking",
+   "decision date prediction",
+   "approval likelihood prediction",
+   "processing time analytics",
+   "approval rate benchmarking",
+   "rfe rate analytics",
+   "automated client status updates",
+   "client communication automation",
+   "case data synchronization",
+   "lawyer matching",
+   "immigration interview preparation",
+   "immigration community q&a"
+  ],
+  "delivery": [
+   "Mobile",
+   "Web app",
+   "Integrations"
+  ],
+  "ai_approach": "Predictive data science on large immigration case dataset; AI-driven client communications in Pro.",
+  "key_integrations": [
+   "INSZoom (Mitratech)"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Large proprietary immigration case dataset (800K+ cases)",
+   "Spans consumer app and attorney tools",
+   "Mitratech INSZoom partnership"
+  ],
+  "recent_news": [
+   "2026-06: INSZoom + Lawfully Pro integration unveiled at AILA 2026"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.lawfully.com/about/",
+   "https://mitratech.com/resource-hub/blog/inszoom-lawfully-pro-ai-powered-immigration-practice/",
+   "https://law360.com/pulse/articles/1545873",
+   "https://www.cbinsights.com/company/lawfully-1/financials"
+  ],
+  "notes": "Founding year 2017 (some say 2019). Total raised conflicts across trackers. Headcount unverified."
+ },
+ {
+  "cid": "G025",
+  "name": "Lawgic",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "other_offices": [],
+  "founded_year": 2023,
+  "founders": [
+   "Max Ye"
+  ],
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Not disclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Singapore AI platform for translating, interpreting and checking legal accuracy of contracts across languages for companies and legal service providers.",
+  "primary_problem": "Cross-language contracts are slow, costly and error-prone to translate and verify legally.",
+  "target_customers": [
+   "In-house legal",
+   "ALSPs/legal service providers",
+   "SMBs"
+  ],
+  "practice_areas": [
+   "Commercial contracts"
+  ],
+  "jurisdictions": [
+   "SG",
+   "CN",
+   "Southeast Asia"
+  ],
+  "products": [
+   {
+    "name": "Lawgic platform",
+    "description": "AI contract translation and interpretation with legal-accuracy checking across languages; document automation.",
+    "capabilities": [
+     "legal contract translation",
+     "contract legal accuracy checking",
+     "bilingual contract comparison"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal contract translation",
+   "multilingual contract interpretation",
+   "contract legal accuracy checking",
+   "bilingual contract comparison",
+   "legal document automation",
+   "contract review"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Generative AI for multilingual legal translation and verification; details not disclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Multilingual legal translation focus",
+   "Singapore base bridging SEA and China"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://asialawportal.com/legal-revolution-lawgics-vision-of-transformative-legal-technology/",
+   "https://techindex.law.stanford.edu/companies/13011"
+  ],
+  "notes": "Thin evidence: one founder interview plus CodeX listing. Website, funding, team size unknown."
+ },
+ {
+  "cid": "G016",
+  "name": "LAWGUE (FRAIM)",
+  "website": "https://lawgue.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": "FRAIM Inc. (formerly Japan Legal System Institute / JLSI)",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "other_offices": [],
+  "founded_year": 2018,
+  "founders": [
+   "Kei Horiguchi"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": null,
+   "total_raised_text": "JPY 300M (2020, incl. MUFG debt) from Shin Nippon Hoki, Daiichi Hoki, Suzuyo, AI inside, UB Ventures; later rounds not found",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 2.8,
+    "date": "2020-09",
+    "lead_investors": [
+     "UB Ventures"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "UB Ventures",
+    "Shin Nippon Hoki",
+    "Daiichi Hoki",
+    "Suzuyo",
+    "AI inside"
+   ]
+  },
+  "focus_summary": "Japanese AI cloud document workspace for contracts, internal regulations, IR documents and minutes: drafting, similar-clause search, playbook-based AI review and versioning.",
+  "primary_problem": "Contract and corporate document drafting relies on manual Word editing and scattered precedents.",
+  "target_customers": [
+   "In-house legal",
+   "Government/courts",
+   "Business teams (non-lawyers)",
+   "Large law firms"
+  ],
+  "practice_areas": [
+   "Commercial contracts",
+   "Corporate/M&A",
+   "Regulatory/Compliance"
+  ],
+  "jurisdictions": [
+   "JP"
+  ],
+  "products": [
+   {
+    "name": "LAWGUE",
+    "description": "AI-powered cloud document editor/workspace: auto-formatting, similar clause search, missing-clause suggestions, playbook-based AI review, accessible from Copilot/Claude/ChatGPT/Gemini.",
+    "capabilities": [
+     "contract drafting",
+     "similar clause search",
+     "missing clause suggestion",
+     "playbook-based contract review",
+     "document auto-formatting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "contract drafting",
+   "internal regulation drafting",
+   "similar clause search",
+   "precedent document search",
+   "missing clause suggestion",
+   "playbook-based contract review",
+   "negotiation history retrieval",
+   "document auto-formatting",
+   "clause numbering correction",
+   "document version comparison",
+   "contract redlining",
+   "knowledge base management",
+   "llm assistant integration"
+  ],
+  "delivery": [
+   "Web app",
+   "Integrations"
+  ],
+  "ai_approach": "Patented AI for similar-document search and clause suggestion; generative AI review grounded in company playbooks; connectors to general LLM assistants.",
+  "key_integrations": [
+   "Microsoft Copilot",
+   "Claude",
+   "ChatGPT",
+   "Gemini"
+  ],
+  "notable_customers": [
+   "Kajima",
+   "Advantest",
+   "Amagasaki City"
+  ],
+  "differentiators": [
+   "Structured cloud editor replacing Word",
+   "Backed by Japanese legal publishers",
+   "Patented similar-clause search"
+  ],
+  "recent_news": [
+   "2026-06: Business alliance with GVA TECH"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://thebridge.jp/2020/09/jlsi-jpy300m-funding",
+   "https://sogyotecho.jp/fraim-horiguchi-interview/",
+   "https://saas.imitsu.jp/cate-contract-management/service/2330",
+   "https://boxil.jp/service/5569/"
+  ],
+  "notes": "Company renamed from JLSI to FRAIM in 2021. Funding beyond 2020 not found (Dealroom ~US$2.8M VC). Headcount unverified; website from knowledge."
+ },
+ {
+  "cid": "G027",
+  "name": "LawPavilion",
+  "website": "https://lawpavilion.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": "LawPavilion Business Solutions Ltd",
+  "hq_city": "Lagos",
+  "hq_country": "Nigeria",
+  "other_offices": [
+   "Abuja"
+  ],
+  "founded_year": 2005,
+  "founders": [
+   "Ope Olugasa"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Bootstrapped",
+   "total_raised_usd_m": null,
+   "total_raised_text": "No external funding found",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Nigeria's leading legal research provider (Prime, Primsol law reports) with LawPavilion AI assistant grounded in verified Nigerian authorities, citation checker, Judges' Corner and case management.",
+  "primary_problem": "Nigerian lawyers and judges need fast, reliable research without hallucinated or fake citations.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "Government/courts",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice_areas": [
+   "General",
+   "Litigation"
+  ],
+  "jurisdictions": [
+   "NG"
+  ],
+  "products": [
+   {
+    "name": "LawPavilion AI",
+    "description": "Generative AI legal assistant trained on verified Nigerian case law and statutes with hyperlinked citations ('AI that does not hallucinate', relaunched Aug 2026).",
+    "capabilities": [
+     "legal research q&a",
+     "grounded answer citation",
+     "legal drafting assistance"
+    ]
+   },
+   {
+    "name": "LawPavilion AI (Judges' Corner)",
+    "description": "Version for Nigerian judges supporting judgment research and writing.",
+    "capabilities": [
+     "judicial research assistance",
+     "judgment drafting support"
+    ]
+   },
+   {
+    "name": "Citation checker",
+    "description": "Verifies cited cases and legislation to curb fake citations.",
+    "capabilities": [
+     "citation verification"
+    ]
+   },
+   {
+    "name": "LawPavilion Prime / Primsol (incl. PrimeGPT, PrimsolGPT)",
+    "description": "Electronic law reports and cloud research platform; integrates Sasegbon's laws and Sachet-Bowles encyclopedia (1957-2026).",
+    "capabilities": [
+     "case-law search",
+     "statute search",
+     "electronic law reporting"
+    ]
+   },
+   {
+    "name": "CaseManager",
+    "description": "Case tracking and workflow management for law firms and Ministries of Justice.",
+    "capabilities": [
+     "case management",
+     "court date tracking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "case-law search",
+   "statute search",
+   "electronic law reporting",
+   "grounded answer citation",
+   "citation verification",
+   "fake citation detection",
+   "legal drafting assistance",
+   "judicial research assistance",
+   "judgment drafting support",
+   "case management",
+   "court date tracking",
+   "legal workflow management"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "Generative AI restricted to LawPavilion's authoritative Nigerian legal corpus (not open web); hyperlinked citations for verification.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Largest Nigerian law report database",
+   "Anti-hallucination closed-corpus AI",
+   "Dedicated judges' edition"
+  ],
+  "recent_news": [
+   "2026-08: Unveiled new AI platform at NBA AGC, Port Harcourt",
+   "2026: Integrated Sasegbon's laws to curb fake citations"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.arise.tv/lawpavilion-unveils-ai-platform-trained-on-verified-nigerian-legal-authorities/",
+   "https://www.thisdaylive.com/2026/08/29/lawpavilion-unveils-ai-that-does-not-hallucinate-for-nigerian-legal-industry/",
+   "https://www.lawpavilion.com/about-us",
+   "https://www.legaltechnologyhub.com/vendors/lawpavilion-ai-by-lawpavilion/"
+  ],
+  "notes": "Founded 2005 per company site. Funding: none found (assumed bootstrapped). Headcount unverified."
+ },
+ {
+  "cid": "G031",
+  "name": "Leasecake",
+  "website": "https://leasecake.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Winter Park",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2017,
+  "founders": [
+   "Taj Adhav",
+   "Dave Schrader"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 27,
+   "total_raised_text": "~US$25-27M incl. US$12M Series A and US$10M Series A extension (2024); later EMERGING Fund strategic investment",
+   "last_round": {
+    "type": "Series A extension",
+    "amount_usd_m": 10,
+    "date": "2024-04",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "PeakSpan Capital",
+    "The EMERGING Fund"
+   ]
+  },
+  "focus_summary": "Lease and location management software for multi-location tenants/franchise operators with AI lease abstraction (Cakebot), lease Q&A and LIFT lease risk scoring.",
+  "primary_problem": "Multi-location operators miss critical lease dates, clauses and risks buried in lease documents.",
+  "target_customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Real Estate"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Cakebot",
+    "description": "LLM lease assistant: abstracts leases and amendments (<5 min), summarizes critical clauses, answers questions across multiple documents.",
+    "capabilities": [
+     "lease abstraction",
+     "lease q&a",
+     "critical clause summarization",
+     "multi-document lease search"
+    ]
+   },
+   {
+    "name": "Leasecake LIFT",
+    "description": "Lease Intelligence and Favorability Tracker (Aug 2025): AI scoring of lease risk areas into LIFT Scores.",
+    "capabilities": [
+     "lease risk scoring",
+     "lease favorability analysis"
+    ]
+   },
+   {
+    "name": "Leasecake platform",
+    "description": "Lease, license and location data management with critical-date alerts.",
+    "capabilities": [
+     "critical date tracking",
+     "license and permit tracking",
+     "lease portfolio management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "lease abstraction",
+   "amendment abstraction",
+   "lease q&a",
+   "critical clause summarization",
+   "multi-document lease search",
+   "lease risk scoring",
+   "lease favorability analysis",
+   "critical date tracking",
+   "lease renewal alerting",
+   "license and permit tracking",
+   "lease portfolio management"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "LLM-based abstraction and chat over lease documents; expert-calibrated scoring models for LIFT.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Tenant-side focus on multi-location operators",
+   "Free self-service AI abstraction",
+   "PropTech Breakthrough lease management award 3 years running"
+  ],
+  "recent_news": [
+   "2025-08: Launched LIFT AI lease risk scoring",
+   "2025-10: Named Alan Panezic CPO"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.newswire.com/news/leasecake-advances-ai-capabilities-with-new-release-of-cakebot-for-22272161",
+   "https://www.newswire.com/news/introducing-leasecake-lift-intelligent-risk-scoring-for-multi-location-22623238",
+   "https://www.pr.com/press-release/909599",
+   "https://www.cbinsights.com/company/leasecake"
+  ],
+  "notes": "Adjacent (proptech lease admin, not law-firm tool). Total raised US$25.1M (CB Insights) vs US$27M. Founders uncertain; CEO Scott Williamson. Headcount unverified."
+ },
+ {
+  "cid": "G030",
+  "name": "LeasePilot",
+  "website": "https://leasepilot.co",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Boston",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2015,
+  "founders": null,
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 1.75,
+   "total_raised_text": "US$1.5M seed (2017) from Rose Park Advisors' Disruptive Innovation Fund; trackers report US$1.5-10M",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 1.5,
+    "date": "2017",
+    "lead_investors": [
+     "Disruptive Innovation Fund (Rose Park Advisors)"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Disruptive Innovation Fund (Rose Park Advisors)"
+   ]
+  },
+  "focus_summary": "Commercial lease drafting platform founded by CRE attorneys: automated first drafts, revisions, calculations and AI data extraction/abstraction for landlords, REITs and their law firms.",
+  "primary_problem": "Commercial lease drafting and negotiation in Word is slow, inconsistent and loses deal data.",
+  "target_customers": [
+   "Business teams (non-lawyers)",
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Real Estate"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "LeasePilot Draft",
+    "description": "Template-driven lease drafting editor generating first drafts and revisions from deal terms, with calculations; replaces Word for leasing.",
+    "capabilities": [
+     "lease drafting automation",
+     "lease revision drafting",
+     "rent calculation"
+    ]
+   },
+   {
+    "name": "LeasePilot Extract",
+    "description": "AI extracts structured data from leases, amendments and LOIs (incl. scanned PDFs) in 30-90 seconds; Word/JSON export.",
+    "capabilities": [
+     "lease data extraction",
+     "lease abstraction",
+     "loi data extraction"
+    ]
+   },
+   {
+    "name": "AI drafting assistance",
+    "description": "Generative AI assistance for lease clause drafting and negotiation edits.",
+    "capabilities": [
+     "ai clause drafting",
+     "negotiation redlining"
+    ]
+   }
+  ],
+  "capabilities": [
+   "lease drafting automation",
+   "lease template management",
+   "lease revision drafting",
+   "negotiation redlining",
+   "ai clause drafting",
+   "rent calculation",
+   "lease data extraction",
+   "lease abstraction",
+   "loi data extraction",
+   "scanned pdf ocr extraction",
+   "lease portfolio data reporting"
+  ],
+  "delivery": [
+   "Web app",
+   "API"
+  ],
+  "ai_approach": "Structured document-assembly engine plus LLM-based extraction and drafting assistance; SOC 2 Type II.",
+  "key_integrations": [
+   "Microsoft Word (export)"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Built by CRE attorneys",
+   "Structured lease data from drafting onward",
+   "Used across 5,000+ properties in 50 states (claimed)"
+  ],
+  "recent_news": [
+   "2025: Launched AI Extract for lease and LOI abstraction"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://leasepilot.co/blog/revolutionizing-commercial-real-estate-lease-drafting-with-ai",
+   "https://leasepilot.co/product/extract",
+   "https://citybizlist.com/article/410534/leasepilot-receives-15m-investment-from-rose-park-advisors-disruptive-innovation-fund",
+   "https://techindex.law.stanford.edu/companies/leasepilot"
+  ],
+  "notes": "HQ Boston per BuiltIn listing. Total funding conflicts (CB Insights US$1.75M; CodeX US$10M). Founders not confirmed. Extract launch date approximate."
+ },
+ {
+  "cid": "G022",
+  "name": "Legal Analytics (Indonesia)",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "South Jakarta",
+  "hq_country": "Indonesia",
+  "other_offices": [],
+  "founded_year": 2022,
+  "founders": null,
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "directory (sgpgrid lists 51-200, inconsistent); unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Not disclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Indonesian SaaS offering AI tools for legal document search, regulatory drafting, regulation analysis/harmonization and workflow tracking, aimed at regulators and organisations.",
+  "primary_problem": "Drafting and harmonizing Indonesian regulations amid a fragmented, conflicting regulatory corpus.",
+  "target_customers": [
+   "Government/courts",
+   "Compliance teams",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Regulatory/Compliance"
+  ],
+  "jurisdictions": [
+   "ID"
+  ],
+  "products": [
+   {
+    "name": "Legal Analytics platform",
+    "description": "Web-based AI for legal document search, regulatory drafting, regulation analysis and harmonization, data visualization and workflow tracking.",
+    "capabilities": [
+     "legal document search",
+     "regulatory drafting",
+     "regulatory harmonization analysis",
+     "workflow tracking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal document search",
+   "regulation search",
+   "regulatory drafting",
+   "regulatory analysis",
+   "regulatory harmonization analysis",
+   "regulatory conflict detection",
+   "legal data visualization",
+   "legislative workflow tracking"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "AI-powered data analysis and visualization over Indonesian regulations; model details undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Focus on regulatory drafting/harmonization rather than research only"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://techindex.law.stanford.edu/companies/16334",
+   "https://sgpgrid.com/company/legal-analytics-ID0000"
+  ],
+  "notes": "Existence supported only by directory listings (CodeX, sgpgrid); no press coverage, website, founders or funding confirmed."
+ },
+ {
+  "cid": "G004",
+  "name": "Legalario",
+  "website": "https://legalario.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Mexico City",
+  "hq_country": "Mexico",
+  "other_offices": [],
+  "founded_year": 2017,
+  "founders": null,
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Series A per directory; amounts undisclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Mexican B2B legal-process platform: document generation, e-signature, identity verification and contract lifecycle management, adding AI after acquiring Ali Tech (2024).",
+  "primary_problem": "Paper-based Mexican legal and contracting processes are slow and hard to verify.",
+  "target_customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions",
+   "SMBs"
+  ],
+  "practice_areas": [
+   "Commercial contracts"
+  ],
+  "jurisdictions": [
+   "MX",
+   "LatAm"
+  ],
+  "products": [
+   {
+    "name": "LegaLario platform",
+    "description": "Automatic document generation, e-signature (NOM-151 style), identity verification and CLM; ~100K contracts/month processed (claimed).",
+    "capabilities": [
+     "contract generation",
+     "electronic signature",
+     "identity verification",
+     "contract lifecycle management"
+    ]
+   },
+   {
+    "name": "Ali (AI, acquired from Ali Tech)",
+    "description": "AI legal assistant tech for Latin American lawyers integrated into LegaLario.",
+    "capabilities": [
+     "legal research q&a",
+     "contract analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "contract generation",
+   "document template automation",
+   "electronic signature",
+   "identity verification",
+   "contract lifecycle management",
+   "contract repository management",
+   "legal research q&a",
+   "contract analysis",
+   "legal process digitization"
+  ],
+  "delivery": [
+   "Web app",
+   "API"
+  ],
+  "ai_approach": "Integrates AI assistant technology from acquired Ali Tech (genAI for Latin American legal work); specifics undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Combines e-signature/ID verification with legal automation",
+   "Acquired LatAm legal AI startup Ali Tech"
+  ],
+  "recent_news": [
+   "2024-02: Acquired Ali Tech (Lawit Legal Tech Competition 2023 winner)",
+   "2024-06: Announced strategic focus on AI"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://emprendedor.com/fusion-legaltech-la-startup-mexicana-legalario-compra-ali-tech/",
+   "https://forbes.com.mx/legalario-la-startup-que-quiere-ser-tu-abogado-tecnologico/",
+   "https://www.descubre.vc/legalario"
+  ],
+  "notes": "Adjacent (e-signature/CLM with AI). Website from knowledge, not reverified. Funding amounts and founders not found; ~70K users claimed."
+ },
+ {
+  "cid": "G009",
+  "name": "Lemontech",
+  "website": "https://www.lemontech.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": "Accel-KKR (controlling PE investor since 2019)",
+  "hq_city": "Santiago",
+  "hq_country": "Chile",
+  "other_offices": [
+   "Mexico City",
+   "Lima",
+   "Bogotá",
+   "Buenos Aires"
+  ],
+  "founded_year": 2007,
+  "founders": null,
+  "employees": {
+   "range": "201-500",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Growth/PE",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Accel-KKR equity investment (2019, undisclosed, reportedly >US$10M)",
+   "last_round": {
+    "type": "Growth/PE",
+    "amount_usd_m": null,
+    "date": "2019-07",
+    "lead_investors": [
+     "Accel-KKR"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Accel-KKR"
+   ]
+  },
+  "focus_summary": "Leading Latin American legal practice-management SaaS (LemonSuite for firms, LemonFlow for legal departments) with LIA genAI assistant and LIA Memory AI time capture.",
+  "primary_problem": "LatAm law firms and legal departments lack integrated matter, time, billing and AI tooling.",
+  "target_customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Compliance teams"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "CL",
+   "MX",
+   "PE",
+   "CO",
+   "AR",
+   "LatAm"
+  ],
+  "products": [
+   {
+    "name": "LIA",
+    "description": "Genai assistant (Jul 2025) inside LemonSuite/LemonFlow trained on LatAm regulatory frameworks: query matter info, log hours, search documents.",
+    "capabilities": [
+     "legal research q&a",
+     "matter information retrieval",
+     "document search",
+     "conversational time entry"
+    ]
+   },
+   {
+    "name": "LIA Memory",
+    "description": "Background AI time capture (2026) linking emails, documents and tasks to clients/matters; piloted by 30+ LatAm firms.",
+    "capabilities": [
+     "passive time capture",
+     "time entry generation",
+     "matter activity attribution"
+    ]
+   },
+   {
+    "name": "LemonSuite (incl. TimeBillingX)",
+    "description": "Law-firm practice management: time, billing, matters, CRM and reporting.",
+    "capabilities": [
+     "time tracking",
+     "legal billing",
+     "matter management",
+     "law firm financial reporting"
+    ]
+   },
+   {
+    "name": "LemonFlow (incl. CaseTracking)",
+    "description": "Legal department and compliance management: matter tracking, litigation tracking, contracts and workflows.",
+    "capabilities": [
+     "legal department matter management",
+     "litigation case tracking",
+     "contract management",
+     "compliance workflow management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "matter information retrieval",
+   "document search",
+   "conversational time entry",
+   "passive time capture",
+   "time entry generation",
+   "matter activity attribution",
+   "time tracking",
+   "legal billing",
+   "matter management",
+   "law firm financial reporting",
+   "legal department matter management",
+   "litigation case tracking",
+   "court docket tracking",
+   "contract management",
+   "compliance workflow management",
+   "legal spend management"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile",
+   "Outlook add-in"
+  ],
+  "ai_approach": "GenAI assistant embedded in practice-management data, tuned to Latin American legal frameworks; agent-style background activity capture.",
+  "key_integrations": [
+   "Microsoft 365"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Largest LatAm legal PMS footprint (1,400+ clients, 19 countries)",
+   "AI embedded in existing firm data",
+   "PE-backed (Accel-KKR)"
+  ],
+  "recent_news": [
+   "2025-07: Launched LIA AI assistant",
+   "2026-03/05: Launched LIA Memory AI time capture in Chile, Peru, Mexico",
+   "2026: Expanding Mexico headcount ~300%"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://portalinnova.cl/?p=159828",
+   "https://www.df.cl/empresas/entre-codigos/lemontech-presenta-herramienta-de-ia-para-automatizar-el-registro-de-horas",
+   "https://www.cronista.com/mexico/finanzas-economia/lemontech-acelera-su-apuesta-por-mexico-aumenta-300-su-plantilla-mientras-la-ia-redefine-el-negocio-legal/",
+   "https://accel-kkr.com/portfolio/lemontech"
+  ],
+  "notes": "Founded 2007 (other sources 2006/2013). Headcount unverified (Indeed 11-50 outdated). ~30K active users claimed. CEO Lautaro Rodríguez."
+ },
+ {
+  "cid": "G023",
+  "name": "LexAI Solutions",
+  "website": "https://lexpilipinas.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Makati City",
+  "hq_country": "Philippines",
+  "other_offices": [],
+  "founded_year": 2024,
+  "founders": null,
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Not disclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Philippine startup building Lex Pilipinas, a generative-AI platform for Philippine legal research, jurisprudence analysis, case digests, drafting and law education.",
+  "primary_problem": "Manual Philippine jurisprudence research and case digesting is slow for lawyers and students.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "PH"
+  ],
+  "products": [
+   {
+    "name": "Lex Pilipinas",
+    "description": "Subscription genAI platform for Philippine legal research, jurisprudence analysis, case digest generation, drafting and legal education.",
+    "capabilities": [
+     "legal research q&a",
+     "jurisprudence analysis",
+     "case digest generation",
+     "legal drafting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "jurisprudence analysis",
+   "case digest generation",
+   "case-law search",
+   "legal drafting",
+   "legal education support"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Generative AI over Philippine jurisprudence and statutes; model details undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Case-digest generation for Philippine law students and lawyers"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://techindex.law.stanford.edu/companies/lexai-solutions",
+   "https://sgpgrid.com/company/lexai-solutions-inc-ID0000"
+  ],
+  "notes": "Existence supported only by directory listings (CodeX, sgpgrid); no press coverage. Website per CodeX listing, unverified."
+ },
+ {
+  "cid": "G060",
+  "name": "Lexlegis.AI",
+  "website": "https://lexlegis.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Mumbai",
+  "hq_country": "India",
+  "other_offices": [],
+  "founded_year": 2024,
+  "founders": [
+   "Saakar S. Yadav"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 7.24,
+   "total_raised_text": "~US$7.2M (aggregator; Series A Sep 2024, unverified); plans Rs 400 crore investment in platform",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": null,
+    "date": "2024-09",
+    "lead_investors": []
+   },
+   "valuation_usd_m": 35.2,
+   "key_investors": []
+  },
+  "focus_summary": "Indian legal-specific LLM and platform (Ask, Interact, Draft) trained on 10M+ Indian judgments, for tax and legal professionals, firms, government and corporates.",
+  "primary_problem": "Indian lawyers and tax professionals face slow research across vast case law amid court backlogs.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "In-house legal",
+   "Government/courts",
+   "SMBs"
+  ],
+  "practice_areas": [
+   "Tax",
+   "Litigation",
+   "General"
+  ],
+  "jurisdictions": [
+   "IN"
+  ],
+  "products": [
+   {
+    "name": "Ask",
+    "description": "AI legal research assistant giving cited answers to Indian legal queries; launched with direct and indirect tax coverage.",
+    "capabilities": [
+     "legal research q&a",
+     "tax research q&a",
+     "grounded answer citation"
+    ]
+   },
+   {
+    "name": "Interact",
+    "description": "Document analysis: summarization, comparison, translation and risk analysis.",
+    "capabilities": [
+     "document summarization",
+     "document comparison",
+     "legal translation",
+     "contract risk analysis"
+    ]
+   },
+   {
+    "name": "Draft",
+    "description": "First-draft generation of NDAs, MoUs, legal notices and commercial agreements using clause libraries, templates and AI rulebooks.",
+    "capabilities": [
+     "contract drafting",
+     "legal notice drafting",
+     "clause library management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "tax research q&a",
+   "case-law search",
+   "grounded answer citation",
+   "document summarization",
+   "document comparison",
+   "legal translation",
+   "contract risk analysis",
+   "contract drafting",
+   "legal notice drafting",
+   "clause library management",
+   "template-based document generation",
+   "ai drafting rulebook configuration"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "Custom-trained legal LLM (10M+ Indian legal documents, 20B+ tokens, NJRS-derived corpus); sovereign cloud deployment via L&T-Vyoma.",
+  "key_integrations": [
+   "L&T-Vyoma sovereign cloud"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Proprietary India-specific legal LLM",
+   "Decades-old Lexlegis case-law compilation heritage",
+   "Strong tax-law coverage"
+  ],
+  "recent_news": [
+   "2024-08: Launched India legal-specific LLM",
+   "2026-01: Founder at Davos AI panel",
+   "2026-02: L&T-Vyoma sovereign cloud partnership"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://artificiallawyer.com/2024/08/27/india-joins-legal-specific-llm-movement-with-lexlegis-ai",
+   "https://cxotoday.com/media-coverage/lexlegis-ai-launches-legal-ai-platform-to-empower-tax-and-legal-professionals/",
+   "https://www.ai-market-watch.com/company/lexlegis-ai",
+   "https://www.newsdrum.in/business/lexlegis-plans-rs-400-cr-investment-in-legal-services-ai-app-6907545"
+  ],
+  "notes": "Funding/valuation from aggregators, conflicting and unverified. Founding 2024 (AI entity) vs 2002 (Lexlegis heritage). Headcount unverified."
+ },
+ {
+  "cid": "G024",
+  "name": "LexMeet",
+  "website": "https://lexmeet.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Pasig",
+  "hq_country": "Philippines",
+  "other_offices": [],
+  "founded_year": 2016,
+  "founders": [
+   "Marlon Valderama"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Not disclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Philippine online legal services marketplace: prepaid video consultations with matched lawyers, free issue posting, and LexDocs AI-driven legal document drafting.",
+  "primary_problem": "Filipinos lack affordable, accessible legal advice and documents.",
+  "target_customers": [
+   "Consumers/individuals",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "PH"
+  ],
+  "products": [
+   {
+    "name": "LexDocs",
+    "description": "AI-driven tool (launched ~2022) for drafting legal documents via automated document assembly.",
+    "capabilities": [
+     "legal document drafting",
+     "automated document assembly"
+    ]
+   },
+   {
+    "name": "Consult",
+    "description": "Prepaid online video legal consultation with lawyer-client matching algorithm.",
+    "capabilities": [
+     "lawyer matching",
+     "online legal consultation"
+    ]
+   },
+   {
+    "name": "Assist",
+    "description": "Free service where users post legal issues and lawyers respond.",
+    "capabilities": [
+     "consumer legal q&a"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal document drafting",
+   "automated document assembly",
+   "contract analysis",
+   "lawyer matching",
+   "online legal consultation",
+   "consumer legal q&a",
+   "legal service marketplace"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "AI-assisted document assembly and matching algorithms; LLM details undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "First on-demand online legal platform in the Philippines (claimed)",
+   "Access-to-justice consumer focus"
+  ],
+  "recent_news": [
+   "2022-01: Launched LexDocs AI-driven document drafting tool"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://theindependentinvestor.ph/legaltech-startup-lexmeet-launches-new-ai-driven-tool-for-drafting-legal-documents/",
+   "https://techindex.law.stanford.edu/companies/lexmeet",
+   "https://asialawportal.com/the-philippines-first-on-demand-online-legal-solutions-platform-an-interview-with-marlon-valderama-president-ceo-lexmeet/"
+  ],
+  "notes": "Adjacent (marketplace with modest AI). LexDocs launch date (~Jan 2022) from single snippet. Website from knowledge. Funding unknown."
+ },
+ {
+  "cid": "G015",
+  "name": "Lisse (LeCHECK)",
+  "website": "https://lisse-law.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "other_offices": [],
+  "founded_year": 2018,
+  "founders": [
+   "Miki Fujita"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series C",
+   "total_raised_usd_m": null,
+   "total_raised_text": "JPY 1.14B (Apr 2025, MPower Partners-led) + JPY 1.0B Series C second close (Nov 2025); earlier JPY 1.8B round",
+   "last_round": {
+    "type": "Series C (second close)",
+    "amount_usd_m": 6.6,
+    "date": "2025-11",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "MPower Partners Fund",
+    "Sansan"
+   ]
+  },
+  "focus_summary": "Japanese AI contract review cloud LeCHECK for SMEs and mid-market legal teams: risk/missing-clause detection, position-based redline suggestions, English contracts and genAI review assistant.",
+  "primary_problem": "SMEs without in-house lawyers struggle to review contract risks quickly and correctly.",
+  "target_customers": [
+   "SMBs",
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice_areas": [
+   "Commercial contracts",
+   "Regulatory/Compliance"
+  ],
+  "jurisdictions": [
+   "JP"
+  ],
+  "products": [
+   {
+    "name": "LeCHECK AI contract review",
+    "description": "Detects unfavorable and missing clauses and proposes alternative wording by party position; supervised by 30+ lawyers; 5,000+ companies (Feb 2026).",
+    "capabilities": [
+     "contract risk detection",
+     "missing clause detection",
+     "position-based redline suggestion"
+    ]
+   },
+   {
+    "name": "AI Legal Assist Review Plus",
+    "description": "GenAI assistant (GA Nov 2025) explaining flagged issues, suggesting clause revisions and answering user questions; AI contract summary.",
+    "capabilities": [
+     "clause revision suggestion",
+     "review comment explanation",
+     "contract summarization"
+    ]
+   },
+   {
+    "name": "English contract support",
+    "description": "English contract translation, review and drafting support with native-lawyer clause alternatives.",
+    "capabilities": [
+     "english contract review",
+     "contract translation",
+     "english contract drafting support"
+    ]
+   },
+   {
+    "name": "Contract cabinet / management",
+    "description": "Secure contract storage with renewal reminders and access permissions.",
+    "capabilities": [
+     "contract repository management",
+     "renewal reminder alerts"
+    ]
+   },
+   {
+    "name": "Toriteki-ho Master",
+    "description": "Module (Jan 2026) checking contracts against Japan's revised subcontracting act (SME Consignment Transaction Act).",
+    "capabilities": [
+     "subcontract act compliance checking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "contract risk detection",
+   "missing clause detection",
+   "position-based redline suggestion",
+   "clause revision suggestion",
+   "review comment explanation",
+   "contract summarization",
+   "english contract review",
+   "contract translation",
+   "english contract drafting support",
+   "contract repository management",
+   "renewal reminder alerts",
+   "access permission management",
+   "subcontract act compliance checking",
+   "contract template library"
+  ],
+  "delivery": [
+   "Web app",
+   "Word add-in",
+   "Integrations"
+  ],
+  "ai_approach": "Proprietary contract-review AI with lawyer-curated knowledge base plus generative AI (LLM) assistant layer.",
+  "key_integrations": [
+   "Sansan"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "SME/mid-market focus in Japan",
+   "30+ supervising lawyers",
+   "5,000+ adopting companies"
+  ],
+  "recent_news": [
+   "2025-04: Raised JPY 1.14B led by MPower Partners; Sansan alliance",
+   "2025-11: JPY 1.0B Series C second close; Review Plus GA",
+   "2026-02: Surpassed 5,000 adopting companies"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://thebridge.jp/2025/04/legal-tech-company-leagalforce-raises-1-14-billion-yen-in-funding-led-by-mpower-partners-fund",
+   "https://sogyotecho.jp/news/20251107lisse/",
+   "https://www.zaikei.co.jp/releases/3165807/",
+   "https://www.itreview.jp/products/rigaruchekku/feature"
+  ],
+  "notes": "Total raised not confirmed (likely >JPY 4B). Founding year per company overview (2018); may differ elsewhere. USD conversion approximate. Word add-in not verified."
+ },
+ {
+  "cid": "G002",
+  "name": "Magnar",
+  "website": "https://magnar.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Santiago",
+  "hq_country": "Chile",
+  "other_offices": [
+   "Lima",
+   "Bogotá",
+   "Buenos Aires"
+  ],
+  "founded_year": 2025,
+  "founders": [
+   "Andrés Arellano",
+   "Nicolás López",
+   "Andrés Rodríguez"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": null,
+   "source": "estimate; not verified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 8.8,
+   "total_raised_text": "~US$8.8M: ~US$800K seed (Platanus, BuenaOnda, Punto Cero, Carey) + US$8M Series A (2026)",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 8,
+    "date": "2026-09",
+    "lead_investors": [
+     "6 Degrees Capital",
+     "Hi Ventures"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "6 Degrees Capital",
+    "Hi Ventures",
+    "Platanus Ventures",
+    "FEN Ventures",
+    "Nascent Ventures",
+    "Carey (law firm)",
+    "Beccar Varela (law firm)"
+   ]
+  },
+  "focus_summary": "Latin American legal AI assistant trained on local statutes and case law: research, document analysis, drafting, contract and document workflows, used by ~30K lawyers.",
+  "primary_problem": "Latin American lawyers lack AI grounded in local law and verifiable official sources.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "CL",
+   "PE",
+   "CO",
+   "AR",
+   "EC",
+   "CR",
+   "UY"
+  ],
+  "products": [
+   {
+    "name": "Magnar AI legal assistant",
+    "description": "Research over local regulation and jurisprudence with verifiable source links, summarization, document analysis and drafting; Word and Outlook integration.",
+    "capabilities": [
+     "legal research q&a",
+     "jurisprudence search",
+     "regulation summarization",
+     "document analysis",
+     "legal drafting"
+    ]
+   },
+   {
+    "name": "Contract & document workflows",
+    "description": "Contract lifecycle, document management and digital signature features.",
+    "capabilities": [
+     "contract lifecycle management",
+     "document management",
+     "electronic signature"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "jurisprudence search",
+   "regulation summarization",
+   "grounded answer citation",
+   "document analysis",
+   "bulk document review",
+   "legal drafting",
+   "brief drafting",
+   "contract lifecycle management",
+   "document management",
+   "electronic signature",
+   "legal education support"
+  ],
+  "delivery": [
+   "Web app",
+   "Word add-in",
+   "Outlook add-in"
+  ],
+  "ai_approach": "LLM-based assistant grounded in proprietary local legal corpora (statutes, case law) per country with verifiable references to official sources.",
+  "key_integrations": [
+   "Microsoft Word",
+   "Microsoft Outlook"
+  ],
+  "notable_customers": [
+   "Carey",
+   "Beccar Varela",
+   "Universidad de Chile"
+  ],
+  "differentiators": [
+   "Local LatAm legal corpora per country",
+   "Top LatAm law firms as investors/users",
+   "Founder ex-CTO of Lemontech"
+  ],
+  "recent_news": [
+   "2026: Expanded to Argentina targeting 50,000 lawyers",
+   "2026-09: US$8M Series A led by 6 Degrees Capital and Hi Ventures; Mexico, Brazil next"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.gunder.com/en/news-insights/client-news/chile-based-magnar-announces-dollar8-million-series-a",
+   "https://www.globallegalpost.com/news/chilean-legal-ai-platform-start-up-magnar-raises-8m-in-series-a-funding-round-1219078957",
+   "https://www.forbesargentina.com/negocios/una-startup-chilena-levanto-us-8-millones-llevar-ia-abogados-argentina-n97413",
+   "https://www.df.cl/df-lab/innovacion-y-startups/fundadores-de-cornershop-y-platanus-ventures-invierten-en-startup-que"
+  ],
+  "notes": "Series A date July vs Sep 2026 across sources. User count 25-30K. Website magnar.ai from knowledge, unverified. Founded Aug 2025 per reports."
+ },
+ {
+  "cid": "G040",
+  "name": "Mayflower",
+  "website": "https://mayflowervisa.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2025,
+  "founders": [
+   "Naren Chittem",
+   "Aryan Gulati"
+  ],
+  "employees": {
+   "range": "1-10",
+   "approx": 2,
+   "as_of": "2026",
+   "source": "YC listing / StartupHub"
+  },
+  "funding": {
+   "stage": "Pre-seed",
+   "total_raised_usd_m": 0.5,
+   "total_raised_text": "US$500K (Y Combinator F2025)",
+   "last_round": {
+    "type": "Pre-seed",
+    "amount_usd_m": 0.5,
+    "date": "2025",
+    "lead_investors": [
+     "Y Combinator"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Y Combinator"
+   ]
+  },
+  "focus_summary": "YC F2025 startup building an AI HR plug-in that automates immigration screening, visa eligibility checks, document verification and attorney-ready forms for employers hiring global talent.",
+  "primary_problem": "Employers struggle to screen and keep compliant international candidates needing visas.",
+  "target_customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice_areas": [
+   "Immigration"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Mayflower HR plug-in",
+    "description": "AI plug-in for HR platforms: visa sponsorship eligibility screening, work-authorization document verification, risk assessment, attorney-ready form generation; from ~$49/mo.",
+    "capabilities": [
+     "visa eligibility screening",
+     "work authorization verification",
+     "immigration form generation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "visa eligibility screening",
+   "visa sponsorship assessment",
+   "work authorization document verification",
+   "immigration document parsing",
+   "immigration form generation",
+   "visa risk assessment",
+   "immigration compliance tracking",
+   "audit trail maintenance",
+   "immigration case status tracking"
+  ],
+  "delivery": [
+   "Integrations",
+   "Web app"
+  ],
+  "ai_approach": "LLM document parsing and rule-based eligibility logic embedded in HR systems; forms passed to attorneys for review.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Embeds immigration checks directly in HR hiring workflow",
+   "YC-backed"
+  ],
+  "recent_news": [
+   "2025: Joined Y Combinator Fall 2025 batch"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.ycombinator.com/companies/mayflower",
+   "https://www.startuphub.ai/startups/mayflower.md",
+   "https://www.extruct.ai/hub/mayflowervisa-com/"
+  ],
+  "notes": "YC immigration directory mis-attributes description (batch said 2026; YC lists F2025). Attorney-ready forms claim from single source. Very early stage."
+ }
+]
