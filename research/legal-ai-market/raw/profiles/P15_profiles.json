@@ -1,0 +1,3638 @@
+[
+ {
+  "cid": "C0546",
+  "name": "ProSearch",
+  "website": "https://www.prosearch.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Los Angeles",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [
+   "Julia Hasenzahl"
+  ],
+  "employees": {
+   "range": "201-500",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate from knowledge; unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Privately held; no disclosed venture funding",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "eDiscovery and document review services provider combining data science (LADS team), Relativity aiR and partner GenAI tools for relevance, privilege and privacy review.",
+  "primary_problem": "Costly, slow linear document review and privacy/PII identification in litigation and investigations.",
+  "target_customers": [
+   "Large law firms",
+   "In-house legal",
+   "Financial institutions"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Investigations",
+   "eDiscovery",
+   "Privacy/Data breach"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Review Services (AI-driven review)",
+    "description": "Managed document review using generative AI, data science and automated workflows to cut review time.",
+    "capabilities": [
+     "generative ai document review",
+     "relevance determination",
+     "privilege identification",
+     "review workflow automation",
+     "quality control sampling"
+    ]
+   },
+   {
+    "name": "Privacy detection & management",
+    "description": "GenAI-enhanced PII/PHI detection and data-breach review developed by ProSearch's LADS data-science team.",
+    "capabilities": [
+     "pii detection",
+     "phi detection",
+     "data breach notification review",
+     "entity extraction",
+     "notification list generation"
+    ]
+   },
+   {
+    "name": "Relativity aiR services",
+    "description": "Certified partner delivering Relativity aiR for Review, aiR for Privilege and data migration.",
+    "capabilities": [
+     "relativity air for review deployment",
+     "privilege log generation",
+     "data migration"
+    ]
+   },
+   {
+    "name": "Discovery solutions (managed eDiscovery)",
+    "description": "End-to-end eDiscovery: collection, processing, hosting, analytics, production and consulting.",
+    "capabilities": [
+     "data collection",
+     "data processing",
+     "data hosting",
+     "early case assessment",
+     "technology-assisted review",
+     "document production",
+     "information governance consulting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "generative ai document review",
+   "relevance determination",
+   "privilege identification",
+   "privilege log generation",
+   "pii detection",
+   "phi detection",
+   "data breach notification review",
+   "entity extraction",
+   "technology-assisted review",
+   "continuous active learning",
+   "early case assessment",
+   "data collection",
+   "data processing",
+   "data hosting",
+   "document production",
+   "data migration",
+   "review quality control",
+   "managed document review",
+   "information governance consulting",
+   "legacy data remediation",
+   "ediscovery project management"
+  ],
+  "delivery": [
+   "Managed service",
+   "Integrations"
+  ],
+  "ai_approach": "Uses Relativity aiR (Review, Privilege) and eDiscovery AI partnership plus in-house data-science (LADS) models; human-in-the-loop managed review.",
+  "key_integrations": [
+   "Relativity / RelativityOne",
+   "Relativity aiR",
+   "eDiscovery AI"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Early-access Relativity aiR partner with aiR for Privilege competency",
+   "In-house legal applied data science (LADS) team",
+   "Combines service delivery with GenAI tooling"
+  ],
+  "recent_news": [
+   "2025-10: Earned Relativity aiR for Privilege competency",
+   "2025-03: Major updates to discovery solutions suite with AI workflows",
+   "2024-11: Partnered with eDiscovery AI for document review"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://ediscoverytoday.com/2025/10/14/prosearch-strengthens-ai-driven-review-with-relativity-air-for-privilege/",
+   "https://aceds.org/prosearch-expands-legal-document-review-offerings-with-ediscovery-ai-partnership/",
+   "https://legalpracticeintelligence.com.au/blogs/technology-intelligence/prosearch-advances-ediscovery-with-gen-ai-for-review"
+  ],
+  "notes": "HQ city, founder and headcount from prior knowledge, unverified; founded year and funding unknown (believed privately held)."
+ },
+ {
+  "cid": "C0547",
+  "name": "Prosei",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "inferred; unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "No disclosed funding",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Free/freemium AI case-management assistant for self-represented (pro se) litigants: organizes case documents, drafts motions with citations, researches law and tracks deadlines.",
+  "primary_problem": "Pro se litigants lack affordable help organizing cases, drafting filings and meeting court deadlines.",
+  "target_customers": [
+   "Consumers/individuals"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Civil procedure",
+   "Access to justice"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Prosei AI",
+    "description": "AI workspace for pro se litigants covering document organization, motion/pleading drafting, legal research and deadline tracking.",
+    "capabilities": [
+     "case document organization",
+     "motion drafting",
+     "pleading generation",
+     "citation generation",
+     "legal research q&a",
+     "court deadline tracking",
+     "document analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "case document organization",
+   "case file management",
+   "document analysis",
+   "motion drafting",
+   "pleading generation",
+   "citation generation",
+   "legal research q&a",
+   "case law research",
+   "government database legal research",
+   "court deadline tracking",
+   "self-represented litigant guidance"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "LLM-based drafting and research assistant drawing on official government legal databases; vendor details undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Free/freemium positioning for pro se litigants",
+   "Combines case management with motion drafting"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://moge.ai/product/prosei-ai",
+   "https://www.toolmage.com/en/tool/proseai/",
+   "https://ailawyer.pro/blog/best-ai-for-pro-se-litigants"
+  ],
+  "notes": "Only directory/aggregator listings found; no company site, founders, founding year, HQ city or funding verified."
+ },
+ {
+  "cid": "C0548",
+  "name": "Provakil",
+  "website": "https://www.provakil.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "New Delhi",
+  "hq_country": "India",
+  "other_offices": [
+   "Pune"
+  ],
+  "founded_year": 2015,
+  "founders": [
+   "Pulkit Anand",
+   "Akshat Anand",
+   "Shashwat Sikka"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Bootstrapped",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Described as bootstrapped and profitable (vendor profile)",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI-enabled legal operations suite for Indian enterprises and law firms: litigation management with court-data feeds from thousands of forums, contracts, compliance, collections litigation and e-billing.",
+  "primary_problem": "Tracking high-volume litigation and compliance across thousands of fragmented Indian courts and tribunals.",
+  "target_customers": [
+   "In-house legal",
+   "Financial institutions",
+   "Mid-size law firms",
+   "Large law firms"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Debt recovery",
+   "Compliance",
+   "Contracts"
+  ],
+  "jurisdictions": [
+   "India",
+   "Middle East"
+  ],
+  "products": [
+   {
+    "name": "Litigation Management",
+    "description": "Case tracking with automated updates and new-case alerts from 8,000+ courts / 19K+ forums, hearings calendar and AI summaries.",
+    "capabilities": [
+     "court case tracking",
+     "automated cause list monitoring",
+     "new case detection",
+     "hearing date alerts",
+     "court order summarization",
+     "litigation portfolio analytics"
+    ]
+   },
+   {
+    "name": "Legal Collections / Recovery Litigation",
+    "description": "Workflow for banks/NBFCs managing bulk recovery litigation, notices and SARFAESI/arbitration proceedings.",
+    "capabilities": [
+     "bulk recovery case management",
+     "legal notice generation",
+     "debt recovery workflow automation"
+    ]
+   },
+   {
+    "name": "Contract Management (CLM)",
+    "description": "Contract drafting, approval, repository and renewal tracking with AI review.",
+    "capabilities": [
+     "contract repository management",
+     "contract approval workflow",
+     "ai contract review",
+     "renewal tracking"
+    ]
+   },
+   {
+    "name": "Compliance Management",
+    "description": "Regulatory compliance tracking and task assignment for enterprises.",
+    "capabilities": [
+     "compliance calendar management",
+     "regulatory obligation tracking"
+    ]
+   },
+   {
+    "name": "Timesheets, Invoices & e-billing",
+    "description": "Outside counsel billing, timesheets and spend reporting.",
+    "capabilities": [
+     "legal e-billing",
+     "timesheet management",
+     "outside counsel spend tracking",
+     "custom legal reporting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "court case tracking",
+   "automated cause list monitoring",
+   "new case detection",
+   "hearing date alerts",
+   "court order summarization",
+   "litigation portfolio analytics",
+   "bulk recovery case management",
+   "legal notice generation",
+   "debt recovery workflow automation",
+   "contract repository management",
+   "contract approval workflow",
+   "ai contract review",
+   "contract renewal tracking",
+   "compliance calendar management",
+   "regulatory obligation tracking",
+   "legal e-billing",
+   "timesheet management",
+   "outside counsel spend tracking",
+   "custom legal reporting",
+   "legal ops dashboards",
+   "document management"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile",
+   "Integrations"
+  ],
+  "ai_approach": "AI features layered on proprietary court-data integrations (case summaries, contract review); LLM vendors undisclosed.",
+  "key_integrations": [
+   "Indian court/tribunal data feeds (8,000+ courts)"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Court data integrations across 8,000+ Indian courts/19K forums",
+   "Recovery-litigation workflows for lenders",
+   "G2 High Performer 2025"
+  ],
+  "recent_news": [
+   "2025-04: YourStory profile cites 10,000+ lawyers using platform",
+   "2025: Named G2 High Performer",
+   "2026: Sponsor of GC Summit Middle East"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://provakil.com/",
+   "https://yourstory.com/2025/04/provakil-ai-legal-tech-compliance-case-management",
+   "https://techindex.law.stanford.edu/companies/provakil"
+  ],
+  "notes": "HQ conflicting (Delhi vs Pune). Bootstrapped per single vendor profile. Headcount unverified. User counts vary (10,000+ users vs 250+ enterprises)."
+ },
+ {
+  "cid": "C0549",
+  "name": "Prudencia.ai",
+  "website": "https://prudencia.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "Spain",
+  "other_offices": [],
+  "founded_year": 2025,
+  "founders": [
+   "Carlos Guerrero",
+   "Jaume Bosch"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Bootstrapped",
+   "total_raised_usd_m": 0,
+   "total_raised_text": "No external capital raised; targets ~EUR1.5M ARR within 11 months",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Spanish-language legal AI for lawyers emphasizing legal reasoning and verifiable sources over improvisation; research, analysis and drafting over Spanish law.",
+  "primary_problem": "Generic AI hallucinates on Spanish law; lawyers need reliable, source-backed legal reasoning.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice_areas": [
+   "General",
+   "Consumer debt",
+   "Civil"
+  ],
+  "jurisdictions": [
+   "Spain"
+  ],
+  "products": [
+   {
+    "name": "Prudencia",
+    "description": "Legal AI assistant for Spanish lawyers answering queries with reasoning grounded in legislation and case law citations.",
+    "capabilities": [
+     "legal research q&a",
+     "spanish case law search",
+     "legislation search",
+     "citation-backed answers",
+     "legal reasoning analysis"
+    ]
+   },
+   {
+    "name": "Prudencia Nova",
+    "description": "Next-generation release of the Prudencia legal reasoning engine for lawyers.",
+    "capabilities": [
+     "document analysis",
+     "legal document drafting",
+     "legal argument generation"
+    ]
+   },
+   {
+    "name": "Debt error detection",
+    "description": "Analysis that detects errors in debts/claims (e.g., consumer debt calculations) for litigation.",
+    "capabilities": [
+     "debt claim error detection",
+     "loan document analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research q&a",
+   "spanish case law search",
+   "legislation search",
+   "citation-backed answers",
+   "legal reasoning analysis",
+   "document analysis",
+   "document summarization",
+   "legal document drafting",
+   "legal argument generation",
+   "debt claim error detection",
+   "loan document analysis",
+   "contract review"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Reasoning-focused RAG over Spanish legal sources; ranked first in Observatorio Legal reliability ranking ahead of Claude, ChatGPT, Aranzadi, Maite.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Bootstrapped with fast ARR growth",
+   "Top reliability ranking (Observatorio Legal)",
+   "Bar association (colegios de abogados) outreach program"
+  ],
+  "recent_news": [
+   "2026-02: Commercial launch",
+   "2026: Named best legal AI startup in Spain, Legal Leadership Awards",
+   "2026: Launched Prudencia Nova; program for Spanish bar associations"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://elreferente.es/startups/prudencia-ai-apunta-a-15-millones-de-arr-en-solo-11-meses-sin-levantar-capital/",
+   "https://elreferente.es/?p=210223",
+   "https://emprendedores.es/comunicados-de-empresa/prudencia-nova-una-nueva-generacion-de-inteligencia-artificial-juridica-para-abogados/",
+   "https://www.legaltechnologyhub.com/vendors/prudenciaai/"
+  ],
+  "notes": "Founders from single source. ARR figures are projections and vary across articles (EUR1M-2M). Founded year inferred from Feb 2026 launch; HQ city unknown."
+ },
+ {
+  "cid": "C0551",
+  "name": "Qanooni",
+  "website": "https://www.qanooni.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Dubai",
+  "hq_country": "United Arab Emirates",
+  "other_offices": [
+   "London"
+  ],
+  "founded_year": 2024,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Pre-seed",
+   "total_raised_usd_m": 2,
+   "total_raised_text": "$2M pre-seed",
+   "last_round": {
+    "type": "Pre-seed",
+    "amount_usd_m": 2,
+    "date": "2025-06",
+    "lead_investors": [
+     "Village Global",
+     "Salica Investments (Oryx Fund)",
+     "TA Ventures"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Village Global",
+    "Salica Investments Oryx Fund",
+    "TA Ventures"
+   ]
+  },
+  "focus_summary": "AI legal drafting and research assistant working inside lawyers' Microsoft 365 tools, grounded in firm knowledge, for law firms and in-house teams in the UAE and UK.",
+  "primary_problem": "Lawyers waste time drafting and searching precedents across siloed documents and tools.",
+  "target_customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "In-house legal",
+   "Small firms & solos"
+  ],
+  "practice_areas": [
+   "General",
+   "Corporate/M&A",
+   "Commercial contracts"
+  ],
+  "jurisdictions": [
+   "UAE",
+   "UK",
+   "GCC"
+  ],
+  "products": [
+   {
+    "name": "Qanooni AI assistant",
+    "description": "Drafting, review and research assistant embedded in Microsoft Word/Outlook, drawing on firm precedents and legal sources.",
+    "capabilities": [
+     "contract drafting",
+     "clause suggestion",
+     "contract review",
+     "legal research q&a",
+     "precedent retrieval",
+     "email drafting"
+    ]
+   },
+   {
+    "name": "Knowledge layer",
+    "description": "Indexes firm documents and know-how to ground AI outputs in the firm's own precedents.",
+    "capabilities": [
+     "knowledge management",
+     "document search",
+     "precedent retrieval"
+    ]
+   }
+  ],
+  "capabilities": [
+   "contract drafting",
+   "clause suggestion",
+   "contract review",
+   "contract redlining",
+   "legal research q&a",
+   "precedent retrieval",
+   "knowledge management",
+   "document search",
+   "document summarization",
+   "email drafting",
+   "bilingual arabic-english drafting"
+  ],
+  "delivery": [
+   "Word add-in",
+   "Outlook add-in",
+   "Web app"
+  ],
+  "ai_approach": "LLM-based assistant with retrieval over firm knowledge and legal sources; deployed securely via MSP partners (etiCloud); vendors undisclosed.",
+  "key_integrations": [
+   "Microsoft Word",
+   "Microsoft Outlook",
+   "Microsoft 365"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Dual UAE-UK market focus",
+   "Embedded in lawyers' existing Microsoft tools",
+   "Firm-knowledge grounded drafting"
+  ],
+  "recent_news": [
+   "2026-03: Partnered with MSP etiCloud to deploy AI securely for UK law firms",
+   "2025-06: Raised $2M pre-seed led by Village Global, Oryx Fund, TA Ventures"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.wamda.com/en/2025/06/uae-regtech-qanooni-raises-2-million-pre-seed-round",
+   "https://www.sharikatmubasher.com/news/article/21490112/qanooni-raises-2mn-pre-seed-round-to-reshape-legal-ai-future?lang=en",
+   "https://www.cbinsights.com/company/qanooni"
+  ],
+  "notes": "Word/Outlook embedding and Arabic drafting from prior knowledge, not confirmed by 2026 searches. Founders not verified. Some aggregators misdate pre-seed to 2026."
+ },
+ {
+  "cid": "C0552",
+  "name": "qatent",
+  "website": "https://www.qatent.com",
+  "status": "acquired",
+  "acquired_by": "Questel (2024)",
+  "parent_company": "Questel",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; now part of Questel"
+  },
+  "funding": {
+   "stage": "Acquired",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Pre-acquisition funding undisclosed; acquired by Questel March 2024",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Generative-AI patent drafting assistant, now Questel's AI-Drafting product, helping patent attorneys turn claims and invention disclosures into full specifications.",
+  "primary_problem": "Patent application drafting is slow, repetitive and error-prone for attorneys.",
+  "target_customers": [
+   "IP/patent professionals",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "IP/Patents"
+  ],
+  "jurisdictions": [
+   "Global",
+   "EU",
+   "US"
+  ],
+  "products": [
+   {
+    "name": "qatent / Questel AI-Drafting",
+    "description": "Generative AI drafting environment that generates and checks patent specifications from claims and disclosures.",
+    "capabilities": [
+     "patent claim drafting",
+     "patent specification generation",
+     "figure description generation",
+     "claim-specification consistency checking",
+     "terminology consistency checking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "patent claim drafting",
+   "patent specification generation",
+   "background section drafting",
+   "abstract generation",
+   "figure description generation",
+   "embodiment variant generation",
+   "claim-specification consistency checking",
+   "terminology consistency checking",
+   "antecedent basis checking",
+   "invention disclosure analysis",
+   "prior-art informed drafting"
+  ],
+  "delivery": [
+   "Web app",
+   "Word add-in"
+  ],
+  "ai_approach": "Generative AI drafting integrated with Questel's Sophia agent and patent data; model vendors undisclosed.",
+  "key_integrations": [
+   "Questel Sophia",
+   "Questel Orbit"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Backed by Questel patent data and distribution",
+   "Linked to Sophia agent across Questel products"
+  ],
+  "recent_news": [
+   "2025-12: Linked to Questel's new Sophia AI platform",
+   "2024-03: Acquired by Questel"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.questel.com/questel-acquires-qatent",
+   "https://www.questel.com/lp/questel-ai-patent-drafting",
+   "https://prnewswire.com/news-releases/questel-achieves-new-milestone-for-ai-elevated-intellectual-property-solutions-with-strategic-acquisition-of-qatent-302085247.html"
+  ],
+  "notes": "Founded year, founders and pre-acquisition funding unknown. Detailed drafting checks (antecedent basis etc.) partly from knowledge of category; verify."
+ },
+ {
+  "cid": "C0553",
+  "name": "Quark by LSG",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": "Legal Solutions Group (LSG US)",
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": null,
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "unknown"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Product of Legal Solutions Group; no disclosed funding",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI/ML legal bill review and spend-management engine (Quark / QuarkAI) plus expert-backed bill review services for insurers and corporate legal departments.",
+  "primary_problem": "Outside counsel and vendor invoices contain billing-guideline violations and overcharges that are costly to audit manually.",
+  "target_customers": [
+   "Insurers/claims",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Legal operations",
+   "Insurance defense"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Quark / QuarkAI",
+    "description": "Context-sensitive AI bill review and spend engine for legal and vendor invoices; connects to ELM, ERP, AP and billing systems.",
+    "capabilities": [
+     "legal invoice review",
+     "billing guideline compliance checking",
+     "invoice line-item auto-coding",
+     "vendor invoice review",
+     "legal spend analytics"
+    ]
+   },
+   {
+    "name": "Legal Bill Review (LBR) service",
+    "description": "AI-enabled, expert-backed litigation invoice audit, e.g., 11.8% savings at a top-3 global P&C insurer.",
+    "capabilities": [
+     "litigation invoice auditing",
+     "invoice validation",
+     "bill reduction recommendation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal invoice review",
+   "billing guideline compliance checking",
+   "invoice line-item auto-coding",
+   "utbms code validation",
+   "timekeeper rate validation",
+   "block billing detection",
+   "vendor invoice review",
+   "litigation invoice auditing",
+   "invoice validation",
+   "bill reduction recommendation",
+   "legal spend analytics",
+   "spend management reporting"
+  ],
+  "delivery": [
+   "Web app",
+   "Managed service",
+   "Integrations"
+  ],
+  "ai_approach": "Proprietary AI/ML engine for context-sensitive invoice analysis with human expert reviewers in the loop.",
+  "key_integrations": [
+   "Enterprise legal management (ELM) systems",
+   "ERP",
+   "Accounts payable systems",
+   "Time and billing systems"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Insurer bill-review heritage since 2017",
+   "AI plus expert human review",
+   "Reported 11.8% invoice savings case study"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.legaltechnologyhub.com/vendors/quark-by-lsg/",
+   "https://www.legaltechnologyhub.com/vendors/quarkai-by-lsg/",
+   "https://www.casestudies.com/company/legal-solutions-group/case-study/how-lsg-saved-a-top-3-global-pc-insurer-11-per-invoice-with-legal-bill-review",
+   "https://www.intelligentinsurer.com/insurance/lsg-launches-legal-bill-review-solution-for-insurers-14094"
+  ],
+  "notes": "Little public info; HQ city, founding, headcount, funding unknown. UTBMS/block-billing checks inferred from category. Savings figures vendor-published."
+ },
+ {
+  "cid": "C0555",
+  "name": "Questel",
+  "website": "https://www.questel.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "other_offices": [
+   "United States",
+   "Japan",
+   "Germany",
+   "China",
+   "Korea",
+   "India"
+  ],
+  "founded_year": 1978,
+  "founders": [],
+  "employees": {
+   "range": "1001-5000",
+   "approx": 2000,
+   "as_of": "2026",
+   "source": "company claims (approx.); unverified"
+  },
+  "funding": {
+   "stage": "Growth/PE",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Private-equity owned; amounts undisclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": [
+    "IK Partners"
+   ]
+  },
+  "focus_summary": "Global IP software and services incumbent: AI patent search, analytics, drafting (qatent), IP management, renewals, translation and the Sophia AI agent platform for IP teams.",
+  "primary_problem": "IP teams need faster, more accurate patent search, drafting and portfolio management at scale.",
+  "target_customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "Large law firms",
+   "Mid-size law firms"
+  ],
+  "practice_areas": [
+   "IP/Patents",
+   "Trademarks",
+   "Innovation management"
+  ],
+  "jurisdictions": [
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Sophia Platform",
+    "description": "AI agent platform (Dec 2025) spanning Sophia Search, Sophia Document, Sophia Query and Sophia Lab across Questel products.",
+    "capabilities": [
+     "semantic patent search",
+     "patent document q&a",
+     "patent data querying",
+     "ai workflow lab"
+    ]
+   },
+   {
+    "name": "Orbit Intelligence / Orbit Express",
+    "description": "Patent search and analytics database; QaECTER semantic search model added April 2026.",
+    "capabilities": [
+     "prior-art search",
+     "freedom-to-operate search",
+     "patent landscaping",
+     "patent analytics",
+     "patent family tracking",
+     "competitor portfolio monitoring"
+    ]
+   },
+   {
+    "name": "Orbit Chemistry / Biosequence",
+    "description": "Chemical structure and biological sequence search across patent literature.",
+    "capabilities": [
+     "chemical structure search",
+     "biosequence search"
+    ]
+   },
+   {
+    "name": "AI-Drafting (qatent)",
+    "description": "Generative AI patent drafting software.",
+    "capabilities": [
+     "patent claim drafting",
+     "patent specification generation"
+    ]
+   },
+   {
+    "name": "Patent-to-product mapping (with PioneerIP)",
+    "description": "AI evidence-of-use mapping linking patents to commercial products.",
+    "capabilities": [
+     "patent-to-product mapping",
+     "evidence of use charting",
+     "licensing target identification"
+    ]
+   },
+   {
+    "name": "Equinox",
+    "description": "IP management system for docketing, portfolio and workflow management.",
+    "capabilities": [
+     "ip docketing",
+     "ip portfolio management",
+     "invention disclosure management"
+    ]
+   },
+   {
+    "name": "IP services",
+    "description": "Patent/trademark renewals, filing, translation and search services.",
+    "capabilities": [
+     "patent annuity management",
+     "trademark renewal management",
+     "patent translation",
+     "trademark search",
+     "trademark watch"
+    ]
+   },
+   {
+    "name": "innosabi",
+    "description": "Innovation management software (acquired).",
+    "capabilities": [
+     "innovation idea management",
+     "open innovation collaboration"
+    ]
+   }
+  ],
+  "capabilities": [
+   "semantic patent search",
+   "prior-art search",
+   "freedom-to-operate search",
+   "patentability search",
+   "invalidity search",
+   "patent landscaping",
+   "patent analytics",
+   "patent family tracking",
+   "competitor portfolio monitoring",
+   "chemical structure search",
+   "biosequence search",
+   "patent document q&a",
+   "patent data querying",
+   "patent claim drafting",
+   "patent specification generation",
+   "patent-to-product mapping",
+   "evidence of use charting",
+   "licensing target identification",
+   "ip docketing",
+   "ip portfolio management",
+   "invention disclosure management",
+   "patent annuity management",
+   "trademark renewal management",
+   "trademark search",
+   "trademark watch",
+   "trademark filing",
+   "design search",
+   "patent translation",
+   "machine translation",
+   "innovation idea management",
+   "open innovation collaboration",
+   "ip valuation analytics"
+  ],
+  "delivery": [
+   "Web app",
+   "API",
+   "Managed service",
+   "Integrations"
+  ],
+  "ai_approach": "Own AI Lab models (QaECTER semantic patent-search model) plus generative AI agents (Sophia) over proprietary patent data.",
+  "key_integrations": [
+   "PioneerIP",
+   "qatent",
+   "Equinox",
+   "Orbit"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Breadth: search, drafting, management, renewals, translation",
+   "Proprietary QaECTER patent search model",
+   "Large global IP data and services footprint"
+  ],
+  "recent_news": [
+   "2026-04: Launched QaECTER patent search AI model in Sophia Search and Orbit",
+   "2025-12: Launched AI-assisted Sophia platform",
+   "2025: Partnership with PioneerIP for patent-to-product mapping"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.questel.com/questel-launches-new-ai-assisted-sophia-platform-for-ip-including-search-document-query-and-lab/",
+   "https://ipwatchdog.com/press/questel-ai-lab-launches-breakthrough-ai-model-enhancing-semantic-patent-search/",
+   "https://ipwatchdog.com/press/questel-and-pioneerip-partner-to-bring-ai-powered-patent-to-product-mapping-to-ip-teams/",
+   "https://www.questel.com/questel-acquires-innosabi-press-release/"
+  ],
+  "notes": "Ownership (IK Partners) and ~2,000 headcount from prior knowledge, unverified. Product names Equinox/Orbit Chemistry from knowledge."
+ },
+ {
+  "cid": "C0560",
+  "name": "RecordSage",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": null,
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": null,
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "unknown"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Unknown",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI platform helping law firms process, summarize and query large volumes of medical records, generating chronologies for injury and medical litigation.",
+  "primary_problem": "Manual review of thousands of pages of medical records is slow and expensive for litigators.",
+  "target_customers": [
+   "Plaintiff/PI firms",
+   "Insurers/claims",
+   "Mid-size law firms"
+  ],
+  "practice_areas": [
+   "Personal injury",
+   "Medical malpractice",
+   "Insurance defense"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "RecordSage",
+    "description": "Medical record review platform: processes, summarizes and extracts key data points, builds chronologies, with chat over uploaded records.",
+    "capabilities": [
+     "medical record review",
+     "medical record summarization",
+     "medical data extraction",
+     "medical chronology generation",
+     "chat with medical records"
+    ]
+   }
+  ],
+  "capabilities": [
+   "medical record review",
+   "medical record summarization",
+   "medical data extraction",
+   "medical chronology generation",
+   "chat with medical records",
+   "bulk medical record processing",
+   "treatment timeline construction",
+   "provider and billing data extraction"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "LLM-based summarization/extraction with conversational Q&A over uploaded medical records; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Chat interface over medical records"
+  ],
+  "recent_news": [
+   "2025-08: Listed on Legal Technology Hub"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.legaltechnologyhub.com/vendors/recordsage/"
+  ],
+  "notes": "Only a directory listing found; HQ, founding, team and funding unknown. Billing extraction/timeline capabilities inferred from category."
+ },
+ {
+  "cid": "C0562",
+  "name": "Referent",
+  "website": "https://referent.law",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2026,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate (AI Lawyer team); unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "No disclosed funding",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI-native practice management for solo and small law firms: legal CRM paired with AI agents that act on live matter data, from the AI Lawyer team.",
+  "primary_problem": "Solo lawyers lose ~15 hours weekly to intake, admin, email, deadlines and billing prep.",
+  "target_customers": [
+   "Small firms & solos"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Referent platform",
+    "description": "Workspace combining intake, matters, email, documents, tasks, deadlines, time tracking and billing prep; AI agents act with lawyer approval and audit logs.",
+    "capabilities": [
+     "client intake automation",
+     "matter management",
+     "email drafting",
+     "deadline tracking",
+     "time tracking",
+     "billing preparation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "client intake automation",
+   "legal crm",
+   "matter management",
+   "email triage",
+   "email drafting",
+   "document drafting",
+   "document management",
+   "task management",
+   "deadline tracking",
+   "court calendaring",
+   "time tracking",
+   "billing preparation",
+   "agent action approval workflow",
+   "audit logging",
+   "legal q&a"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Agentic AI operating on firm's live CRM/matter data with human approval gates and audit logs; LLM vendors undisclosed.",
+  "key_integrations": [
+   "Email"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "AI agents act on live matter data, not standalone chat",
+   "Lawyer approval before send/file/bill",
+   "Free plan with AI; $250/mo Premium"
+  ],
+  "recent_news": [
+   "2026-07: Launched AI-native practice management for solos",
+   "2026-08: Product Hunt launch (#6 of day); 450+ beta applications"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://natlawreview.com/press-releases/referent-launches-ai-native-legal-practice-management-platform-solo-lawyers",
+   "https://www.producthunt.com/posts/referent-2",
+   "https://www.legaltechnologyhub.com/vendors/referent/"
+  ],
+  "notes": "Founders, HQ city and funding not found. Time-savings claims are marketing. Pricing differs across listings."
+ },
+ {
+  "cid": "C0370",
+  "name": "Reflekt Legal (formerly Lead Autopilot)",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2024,
+  "founders": [],
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Crunchbase entry (Lead Autopilot Inc.) without verified amounts",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI intake specialists that answer calls, texts and web forms, qualify leads per firm rules and sync them into practice management for consumer law firms.",
+  "primary_problem": "Law firms lose leads from missed calls and slow follow-up on inquiries.",
+  "target_customers": [
+   "Plaintiff/PI firms",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice_areas": [
+   "Personal injury",
+   "Consumer law",
+   "General"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "AI Intake Specialists",
+    "description": "AI agents handling inbound calls, web forms and texts, qualifying leads and writing summaries into Clio/Lawcus.",
+    "capabilities": [
+     "ai call answering",
+     "lead qualification",
+     "intake conversation summarization",
+     "crm lead sync"
+    ]
+   },
+   {
+    "name": "AI Outbound Intake Specialists",
+    "description": "Outbound follow-up with new leads via SMS and email.",
+    "capabilities": [
+     "outbound lead follow-up",
+     "sms lead engagement",
+     "email lead engagement"
+    ]
+   }
+  ],
+  "capabilities": [
+   "ai call answering",
+   "24/7 virtual receptionist",
+   "lead qualification",
+   "intake questionnaire automation",
+   "intake conversation summarization",
+   "crm lead sync",
+   "outbound lead follow-up",
+   "sms lead engagement",
+   "email lead engagement",
+   "web form lead response",
+   "urgent deadline flagging",
+   "conflict flagging for human review",
+   "consultation scheduling"
+  ],
+  "delivery": [
+   "Phone/voice",
+   "SMS",
+   "Integrations"
+  ],
+  "ai_approach": "Voice/text AI agents following firm-defined qualifying rules; escalate deadlines/conflicts to humans; never gives legal advice.",
+  "key_integrations": [
+   "Clio Grow",
+   "Clio Manage",
+   "Lawcus",
+   "Law firm CMS/marketing funnels"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Hire-able AI intake employees",
+   "Native Clio and Lawcus write-back"
+  ],
+  "recent_news": [
+   "2026: Rebranded from Lead Autopilot to Reflekt Legal"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.legaltechnologyhub.com/vendors/reflekt-legal/",
+   "https://www.clio.com/app-directory/reflekt-legal/",
+   "https://lawcus.com/integrations/reflekt-legal/",
+   "https://directory.lawnext.com/products/reflekt-legal/"
+  ],
+  "notes": "Founded 2024 per LawNext. HQ, founders, funding unverified. Consultation scheduling inferred."
+ },
+ {
+  "cid": "C0563",
+  "name": "Regbase",
+  "website": "https://regbase.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2026,
+  "founders": [
+   "Natalie Aresta-Katz",
+   "Ethan Shea"
+  ],
+  "employees": {
+   "range": "1-10",
+   "approx": 3,
+   "as_of": "2026-08",
+   "source": "YC profile (estimate)"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": null,
+   "total_raised_text": "YC Spring 2026 plus undisclosed seed after Demo Day",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": null,
+    "date": "2026",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Y Combinator"
+   ]
+  },
+  "focus_summary": "AI-native global regulatory research that monitors laws, draft bills and consultations across countries, languages and obscure government sources legal databases miss.",
+  "primary_problem": "Tracking regulation across dozens of countries and languages manually is slow and incomplete.",
+  "target_customers": [
+   "Large law firms",
+   "In-house legal",
+   "Compliance teams",
+   "Government/courts"
+  ],
+  "practice_areas": [
+   "Regulatory",
+   "Compliance",
+   "Government affairs"
+  ],
+  "jurisdictions": [
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Regbase",
+    "description": "Automated multi-jurisdiction regulatory research and monitoring, surfacing draft bills, consultations, requirements and grants.",
+    "capabilities": [
+     "global regulatory research",
+     "multi-jurisdiction legislation tracking",
+     "multilingual regulatory search",
+     "draft bill monitoring",
+     "regulatory change alerts"
+    ]
+   }
+  ],
+  "capabilities": [
+   "global regulatory research",
+   "multi-jurisdiction legislation tracking",
+   "multilingual regulatory search",
+   "draft bill monitoring",
+   "public consultation tracking",
+   "compliance requirement identification",
+   "regulatory change alerts",
+   "grant opportunity discovery",
+   "government source crawling",
+   "social-media-published law discovery",
+   "regulatory research report generation",
+   "cross-country regulatory comparison"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Agentic crawling and LLM analysis of primary government sources in many languages; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Covers non-English and non-database government sources",
+   "Founder ran Paul, Weiss 45-country regulatory tracking",
+   "Engineer built Vercel Agent"
+  ],
+  "recent_news": [
+   "2026-08: YC Spring 2026 Demo Day; closed undisclosed seed",
+   "2026: YC Launch 'AI-native legal research'"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.ycombinator.com/companies/regbase",
+   "https://poetsandquants.com/2026/08/11/columbia-mba-founder-takes-ai-legal-tech-startup-regbase-to-y-combinator/",
+   "https://runtimewire.com/article/startup-spotlight-regbase-automates-global-regulatory-research"
+  ],
+  "notes": "Website inferred from extruct listing (regbase.com). Seed amount undisclosed; one directory says pre-seed. HQ city unverified."
+ },
+ {
+  "cid": "C0565",
+  "name": "Regology",
+  "website": "https://www.regology.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2017,
+  "founders": [
+   "Mukund Goenka"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": 60,
+   "as_of": "2026",
+   "source": "company site"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 8.15,
+   "total_raised_text": "~$8.15M (Seed 2018 + $8M Series A 2021)",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 8,
+    "date": "2021-08",
+    "lead_investors": [
+     "ACME Capital"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "ACME Capital",
+    "Y Combinator",
+    "Gagarin Capital",
+    "Pine Wave Investments"
+   ]
+  },
+  "focus_summary": "YC-backed regulatory intelligence platform with AI agents for regulatory change tracking, compliance mapping and research across global jurisdictions.",
+  "primary_problem": "Enterprises struggle to track and operationalize constantly changing laws across many jurisdictions.",
+  "target_customers": [
+   "Compliance teams",
+   "In-house legal",
+   "Financial institutions",
+   "Government/courts"
+  ],
+  "practice_areas": [
+   "Regulatory",
+   "Compliance",
+   "Financial services",
+   "Healthcare"
+  ],
+  "jurisdictions": [
+   "US",
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Regulatory Change Agent",
+    "description": "Tracks and alerts on jurisdiction-specific regulatory developments relevant to the business.",
+    "capabilities": [
+     "regulatory change monitoring",
+     "jurisdiction-specific alerting",
+     "regulatory horizon scanning"
+    ]
+   },
+   {
+    "name": "Compliance Agent",
+    "description": "Maps regulatory changes to internal policies, controls and risks.",
+    "capabilities": [
+     "obligation extraction",
+     "policy-control mapping",
+     "risk mapping",
+     "regulatory impact assessment"
+    ]
+   },
+   {
+    "name": "Regulatory Research Agent",
+    "description": "AI research assistant over Regology's global law library.",
+    "capabilities": [
+     "regulatory research q&a",
+     "law library search"
+    ]
+   },
+   {
+    "name": "Smart Law Library",
+    "description": "Curated, continuously updated database of laws and regulations.",
+    "capabilities": [
+     "regulatory inventory management",
+     "regulation taxonomy tagging"
+    ]
+   }
+  ],
+  "capabilities": [
+   "regulatory change monitoring",
+   "jurisdiction-specific alerting",
+   "regulatory horizon scanning",
+   "obligation extraction",
+   "obligation register management",
+   "policy-control mapping",
+   "risk mapping",
+   "regulatory impact assessment",
+   "regulatory research q&a",
+   "law library search",
+   "regulatory inventory management",
+   "regulation taxonomy tagging",
+   "compliance task workflow",
+   "legislative bill tracking",
+   "compliance reporting"
+  ],
+  "delivery": [
+   "Web app",
+   "API",
+   "Integrations"
+  ],
+  "ai_approach": "Agentic AI (change, compliance, research agents) over proprietary global regulatory library with ML tagging.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Three purpose-built regulatory AI agents",
+   "Proprietary Smart Law Library",
+   "Multi-jurisdiction coverage incl. state/local"
+  ],
+  "recent_news": [
+   "2025-2026: Repositioned around AI agents for regulatory compliance"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://regology.com/about",
+   "https://ycombinator.com/companies/regology",
+   "https://www.businesswire.com/news/home/20210819005454/en",
+   "https://regology.com/llms-txt"
+  ],
+  "notes": "No 2025-26 funding found; last round 2021 Series A. Founder name from prior knowledge. Total raised figures vary ($8.12M-$10M)."
+ },
+ {
+  "cid": "C0566",
+  "name": "Relativity",
+  "website": "https://www.relativity.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Chicago",
+  "hq_country": "United States",
+  "other_offices": [
+   "London",
+   "Krakow",
+   "Sydney",
+   "Hong Kong"
+  ],
+  "founded_year": 2001,
+  "founders": [
+   "Andrew Sieja"
+  ],
+  "employees": {
+   "range": "1001-5000",
+   "approx": 1500,
+   "as_of": "2026",
+   "source": "prior knowledge estimate"
+  },
+  "funding": {
+   "stage": "Growth/PE",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Silver Lake majority investment (2021); ICONIQ earlier minority; amounts undisclosed",
+   "last_round": {
+    "type": "Growth/PE",
+    "amount_usd_m": null,
+    "date": "2021",
+    "lead_investors": [
+     "Silver Lake"
+    ]
+   },
+   "valuation_usd_m": 3600,
+   "key_investors": [
+    "Silver Lake",
+    "ICONIQ Capital"
+   ]
+  },
+  "focus_summary": "Leading eDiscovery/legal data intelligence platform; RelativityOne rebranded Relativity aiR with generative AI for review, privilege, case strategy and conversational claiR.",
+  "primary_problem": "Reviewing and making sense of massive litigation and investigation data sets quickly and defensibly.",
+  "target_customers": [
+   "Large law firms",
+   "In-house legal",
+   "ALSPs/legal service providers",
+   "Government/courts",
+   "Financial institutions"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Investigations",
+   "eDiscovery",
+   "Compliance",
+   "Privacy/Data breach"
+  ],
+  "jurisdictions": [
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Relativity aiR (platform, formerly RelativityOne)",
+    "description": "Cloud eDiscovery/legal data intelligence platform; rebranded 2026 to unify AI capabilities.",
+    "capabilities": [
+     "data processing",
+     "document review",
+     "document production",
+     "ediscovery data hosting"
+    ]
+   },
+   {
+    "name": "aiR for Review",
+    "description": "GenAI relevance and issue review with rationales and citations; standard in pricing since 2025.",
+    "capabilities": [
+     "generative ai document review",
+     "relevance coding",
+     "issue coding",
+     "review rationale generation"
+    ]
+   },
+   {
+    "name": "aiR for Privilege",
+    "description": "GenAI privilege identification and log drafting.",
+    "capabilities": [
+     "privilege identification",
+     "privilege log generation"
+    ]
+   },
+   {
+    "name": "aiR for Case Strategy",
+    "description": "Builds fact chronologies, key people and deposition prep from case data; standard from July 2026.",
+    "capabilities": [
+     "case fact chronology generation",
+     "key witness identification",
+     "deposition preparation",
+     "issue identification"
+    ]
+   },
+   {
+    "name": "aiR Assist / custom analyses",
+    "description": "In-platform AI assistant (GA June 2026) and no-code custom document analyses.",
+    "capabilities": [
+     "document summarization",
+     "no-code custom document analysis"
+    ]
+   },
+   {
+    "name": "claiR",
+    "description": "Conversational AI giving cited plain-language answers across an entire matter (announced Aug 2026).",
+    "capabilities": [
+     "conversational q&a over case data",
+     "citation-backed answers"
+    ]
+   },
+   {
+    "name": "Analytics & Active Learning",
+    "description": "TAR, email threading, near-dup, clustering, conceptual search.",
+    "capabilities": [
+     "technology-assisted review",
+     "continuous active learning",
+     "email threading",
+     "near-duplicate detection",
+     "conceptual clustering",
+     "conceptual search"
+    ]
+   },
+   {
+    "name": "Collect, Legal Hold, Processing",
+    "description": "Collection from cloud sources, legal hold notices and processing.",
+    "capabilities": [
+     "data collection",
+     "legal hold management"
+    ]
+   },
+   {
+    "name": "Relativity Trace",
+    "description": "AI communication surveillance for financial compliance.",
+    "capabilities": [
+     "communication surveillance",
+     "trade compliance monitoring"
+    ]
+   },
+   {
+    "name": "Redact, Translate, PII detection",
+    "description": "Automated redaction, translation and sensitive-data detection for productions and breach response.",
+    "capabilities": [
+     "automated redaction",
+     "machine translation",
+     "pii detection",
+     "data breach response review"
+    ]
+   }
+  ],
+  "capabilities": [
+   "generative ai document review",
+   "relevance coding",
+   "issue coding",
+   "review rationale generation",
+   "privilege identification",
+   "privilege log generation",
+   "case fact chronology generation",
+   "key witness identification",
+   "deposition preparation",
+   "issue identification",
+   "document summarization",
+   "no-code custom document analysis",
+   "conversational q&a over case data",
+   "citation-backed answers",
+   "technology-assisted review",
+   "continuous active learning",
+   "email threading",
+   "near-duplicate detection",
+   "conceptual clustering",
+   "conceptual search",
+   "data collection",
+   "legal hold management",
+   "data processing",
+   "ediscovery data hosting",
+   "document production",
+   "automated redaction",
+   "machine translation",
+   "pii detection",
+   "data breach response review",
+   "communication surveillance",
+   "trade compliance monitoring",
+   "short message data review",
+   "early case assessment",
+   "internal investigations",
+   "audio transcription"
+  ],
+  "delivery": [
+   "Web app",
+   "API",
+   "Integrations",
+   "On-premise (Relativity Server)"
+  ],
+  "ai_approach": "GenAI built on Azure OpenAI GPT models with proprietary prompting/validation; MCP integration with Microsoft Copilot (Sept 2026).",
+  "key_integrations": [
+   "Microsoft 365",
+   "Microsoft Copilot (MCP)",
+   "Slack",
+   "Azure OpenAI"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Market-leading eDiscovery install base and partner ecosystem",
+   "GenAI included in standard RelativityOne pricing",
+   "Broad aiR suite: review, privilege, case strategy"
+  ],
+  "recent_news": [
+   "2026-09: RelativityOne rebranded Relativity aiR; Microsoft Copilot MCP integration",
+   "2026-08: Announced claiR conversational AI",
+   "2026-06: aiR Assist GA and custom analyses at RelFest London",
+   "2025-10: aiR for Review/Privilege made standard in RelativityOne pricing"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.legaltechnologyhub.com/contents/relativity-launches-conversational-interface-clair-rebrands-relativityone-to-relativity-air/",
+   "https://lawnext.com/2026/08/relativity-announces-clair-a-conversational-ai-for-lawyers-but-youll-have-to-wait-awhile-to-chat-with-it.html",
+   "https://ediscoverytoday.com/2026/06/16/relativity-expands-ai-platform-for-legal-data-intelligence-with-conversational-ai-and-no-code-custom-document-analyses/",
+   "https://www.aap.com.au/aapreleases/cision20251008ae92916"
+  ],
+  "notes": "Headcount, offices, Silver Lake valuation (~$3.6B reported 2021) and Azure OpenAI from prior knowledge; verify."
+ },
+ {
+  "cid": "C0567",
+  "name": "Relaw",
+  "website": "https://relaw.ai",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2025,
+  "founders": [],
+  "employees": {
+   "range": "1-10",
+   "approx": 2,
+   "as_of": "2026",
+   "source": "YC profile"
+  },
+  "funding": {
+   "stage": "Pre-seed",
+   "total_raised_usd_m": 0.5,
+   "total_raised_text": "~$0.5M (YC F25; third-party estimate)",
+   "last_round": {
+    "type": "Accelerator (YC F25)",
+    "amount_usd_m": 0.5,
+    "date": "2025",
+    "lead_investors": [
+     "Y Combinator"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Y Combinator"
+   ]
+  },
+  "focus_summary": "AI legal operating system and assistant for consumer-facing and small law firms, centralizing intake, document automation, drafting and notes.",
+  "primary_problem": "Consumer law firms juggle fragmented intake, drafting and case notes across tools.",
+  "target_customers": [
+   "Small firms & solos",
+   "Plaintiff/PI firms"
+  ],
+  "practice_areas": [
+   "Consumer law",
+   "Estate planning",
+   "General"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Relaw AI Legal OS",
+    "description": "Workspace combining AI intake, document automation, drafting and notes management for consumer-facing firms.",
+    "capabilities": [
+     "client intake automation",
+     "document automation",
+     "legal drafting",
+     "notes management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "client intake automation",
+   "intake form generation",
+   "document automation",
+   "legal drafting",
+   "estate planning document drafting",
+   "notes management",
+   "meeting note summarization",
+   "matter management",
+   "client communication drafting"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "LLM-based assistant integrated with firm workflow; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Focus on consumer-facing firms",
+   "YC-backed"
+  ],
+  "recent_news": [
+   "2025: Joined Y Combinator Fall 2025 batch"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.ycombinator.com/companies/relaw/jobs",
+   "https://techindex.law.stanford.edu/companies/relaw",
+   "https://www.legaltechnologyhub.com/vendors/relaw/",
+   "https://www.extruct.ai/hub/relaw-ai-funding"
+  ],
+  "notes": "Descriptions conflict (consumer firms vs estate-planning solos). Founders unknown. Funding is a third-party estimate."
+ },
+ {
+  "cid": "C0569",
+  "name": "Reveal",
+  "website": "https://www.revealdata.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Chicago",
+  "hq_country": "United States",
+  "other_offices": [
+   "Columbus",
+   "Scottsdale",
+   "London",
+   "Sydney"
+  ],
+  "founded_year": 2009,
+  "founders": [
+   "Wendell Jisa"
+  ],
+  "employees": {
+   "range": "501-1000",
+   "approx": null,
+   "as_of": "2026",
+   "source": "prior knowledge estimate"
+  },
+  "funding": {
+   "stage": "Growth/PE",
+   "total_raised_usd_m": 200,
+   "total_raised_text": "K1 Investment Management majority; $200M+ (2021 Brainspace merger); K1 also funded >$1B Logikcull/IPRO deals",
+   "last_round": {
+    "type": "Growth/PE",
+    "amount_usd_m": 200,
+    "date": "2021-01",
+    "lead_investors": [
+     "K1 Investment Management"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "K1 Investment Management"
+   ]
+  },
+  "focus_summary": "AI-first eDiscovery and investigations platform (Reveal, Brainspace, Logikcull, IPRO, Onna) with aji generative AI review, Aji Ask Q&A and a pre-built AI model library.",
+  "primary_problem": "Finding relevant evidence fast across huge, varied data sets in litigation and investigations.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "ALSPs/legal service providers",
+   "Government/courts"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Investigations",
+   "eDiscovery",
+   "Compliance",
+   "Privacy/Data breach"
+  ],
+  "jurisdictions": [
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Reveal platform",
+    "description": "Cloud eDiscovery and review platform with processing, review, analytics and production.",
+    "capabilities": [
+     "data processing",
+     "document review",
+     "document production",
+     "early case assessment"
+    ]
+   },
+   {
+    "name": "aji / GenAI Review",
+    "description": "Generative AI review engine purpose-built for legal; relevance/issue coding at scale.",
+    "capabilities": [
+     "generative ai document review",
+     "relevance coding",
+     "issue coding",
+     "privilege review"
+    ]
+   },
+   {
+    "name": "Aji Ask",
+    "description": "Conversational GenAI Q&A over document sets with cited answers.",
+    "capabilities": [
+     "conversational q&a over case data",
+     "document summarization"
+    ]
+   },
+   {
+    "name": "Brainspace analytics",
+    "description": "Visual analytics: concept clustering, communication networks, continuous active learning.",
+    "capabilities": [
+     "concept clustering",
+     "communication network analysis",
+     "continuous active learning",
+     "entity extraction"
+    ]
+   },
+   {
+    "name": "AI Model Library",
+    "description": "Pre-trained, reusable AI classifiers (e.g., harassment, fraud, sentiment).",
+    "capabilities": [
+     "pre-trained ai classifiers",
+     "sentiment analysis",
+     "behavioral risk detection"
+    ]
+   },
+   {
+    "name": "Logikcull",
+    "description": "Self-service, instant eDiscovery for corporate and small/mid firms.",
+    "capabilities": [
+     "self-service ediscovery",
+     "subpoena response"
+    ]
+   },
+   {
+    "name": "IPRO",
+    "description": "On-premise/hybrid eDiscovery and production platform.",
+    "capabilities": [
+     "on-premise ediscovery",
+     "document production"
+    ]
+   },
+   {
+    "name": "Onna",
+    "description": "Data collection connectors for workplace apps (Slack, Google Workspace, M365) and legal hold.",
+    "capabilities": [
+     "data collection",
+     "collaboration data collection",
+     "legal hold management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "generative ai document review",
+   "relevance coding",
+   "issue coding",
+   "privilege review",
+   "conversational q&a over case data",
+   "document summarization",
+   "concept clustering",
+   "communication network analysis",
+   "continuous active learning",
+   "technology-assisted review",
+   "entity extraction",
+   "pre-trained ai classifiers",
+   "sentiment analysis",
+   "behavioral risk detection",
+   "image classification",
+   "audio and video transcription",
+   "machine translation",
+   "pii detection",
+   "data breach response review",
+   "automated redaction",
+   "data processing",
+   "early case assessment",
+   "self-service ediscovery",
+   "subpoena response",
+   "on-premise ediscovery",
+   "document production",
+   "data collection",
+   "collaboration data collection",
+   "legal hold management",
+   "internal investigations"
+  ],
+  "delivery": [
+   "Web app",
+   "On-premise",
+   "API",
+   "Integrations"
+  ],
+  "ai_approach": "Proprietary ML (Brainspace) plus generative AI (aji) and reusable model library; LLM vendors not disclosed.",
+  "key_integrations": [
+   "Slack",
+   "Microsoft 365",
+   "Google Workspace",
+   "Zoom"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Consolidated eDiscovery roll-up (Brainspace, Logikcull, IPRO, Onna)",
+   "Pre-trained AI model library",
+   "Visual analytics heritage"
+  ],
+  "recent_news": [
+   "2025: aji GenAI review offered free through 2025-12-31",
+   "2024-05: Acquired Onna",
+   "2023-08: Acquired Logikcull and IPRO (>$1B, K1-funded)"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://revealdata.com/about-us",
+   "https://www.revealdata.com/news/reveal-announces-the-release-of-genai-review",
+   "https://businesswire.com/news/home/20230829922415/en/Reveal-Acquires-Logikcull-and-IPRO",
+   "https://legaltechnology.com/reveal-and-brainspace-merge-backed-by-200m-from-k1/"
+  ],
+  "notes": "No 2026 deals found. K1 amount conflicts ($200M 2021 vs $250M 2020). Headcount, offices, founder from knowledge; verify."
+ },
+ {
+  "cid": "C0571",
+  "name": "Robopravnik",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "Czech Republic",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": "1-10",
+   "approx": null,
+   "as_of": "2026-11",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Unknown",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Czech AI legal workflow platform (Roboprávník) for lawyers: contract review, Word redlining, document chat, Czech case-law and legislation search, configurable document processes.",
+  "primary_problem": "Czech lawyers lack local-law-grounded AI for review, redlining and research.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "General",
+   "Commercial contracts"
+  ],
+  "jurisdictions": [
+   "Czech Republic"
+  ],
+  "products": [
+   {
+    "name": "Roboprávník workspace",
+    "description": "AI legal workspace with contract review, Word redlining, document chat, Czech law search and configurable workflows.",
+    "capabilities": [
+     "contract review",
+     "contract redlining",
+     "chat with documents",
+     "czech case law search",
+     "legislation search",
+     "document workflow configuration"
+    ]
+   }
+  ],
+  "capabilities": [
+   "contract review",
+   "contract redlining",
+   "word add-in redlining",
+   "chat with documents",
+   "document summarization",
+   "czech case law search",
+   "legislation search",
+   "legal research q&a",
+   "document workflow configuration",
+   "document drafting"
+  ],
+  "delivery": [
+   "Web app",
+   "Word add-in"
+  ],
+  "ai_approach": "LLM-based assistant with retrieval over Czech case law and legislation; details undisclosed.",
+  "key_integrations": [
+   "Microsoft Word"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Czech-law grounded",
+   "Word-native redlining"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://techindex.law.stanford.edu/companies/16274"
+  ],
+  "notes": "Only Stanford TechIndex entry found; founding, HQ city, team, funding unknown."
+ },
+ {
+  "cid": "C0572",
+  "name": "Rocket Lawyer",
+  "website": "https://www.rocketlawyer.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "other_offices": [
+   "London",
+   "Amsterdam",
+   "Madrid",
+   "Paris",
+   "Dublin"
+  ],
+  "founded_year": 2008,
+  "founders": [
+   "Charley Moore"
+  ],
+  "employees": {
+   "range": "201-500",
+   "approx": null,
+   "as_of": "2026",
+   "source": "prior knowledge estimate"
+  },
+  "funding": {
+   "stage": "Growth/PE",
+   "total_raised_usd_m": null,
+   "total_raised_text": "~$46M early VC plus reported $223M (debt+equity) in 2021",
+   "last_round": {
+    "type": "Growth (debt+equity)",
+    "amount_usd_m": 223,
+    "date": "2021-12",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Google Ventures (GV)",
+    "August Capital",
+    "Investor Growth Capital"
+   ]
+  },
+  "focus_summary": "Online legal services for consumers and SMBs: document library, e-signature, business formation and attorney access, now led by AI-native Rocket Copilot legal agents.",
+  "primary_problem": "Individuals and small businesses find traditional legal help expensive and hard to access.",
+  "target_customers": [
+   "Consumers/individuals",
+   "SMBs"
+  ],
+  "practice_areas": [
+   "Business formation",
+   "Contracts",
+   "Employment",
+   "Estate planning",
+   "Real estate",
+   "Family"
+  ],
+  "jurisdictions": [
+   "US",
+   "UK",
+   "Netherlands",
+   "Spain",
+   "France",
+   "Ireland"
+  ],
+  "products": [
+   {
+    "name": "Rocket Copilot",
+    "description": "AI-native legal agents (24/7) for guidance, contract understanding/review, document generation and signing, backed by attorneys.",
+    "capabilities": [
+     "legal q&a",
+     "contract review",
+     "conversational document drafting",
+     "contract hq management",
+     "attorney escalation"
+    ]
+   },
+   {
+    "name": "Legal document library",
+    "description": "Customizable templates for business and personal legal documents.",
+    "capabilities": [
+     "legal document generation",
+     "template customization"
+    ]
+   },
+   {
+    "name": "RocketSign",
+    "description": "Built-in electronic signature.",
+    "capabilities": [
+     "e-signature"
+    ]
+   },
+   {
+    "name": "Attorney network (On Call / Legal Pro)",
+    "description": "Access to network attorneys for questions, document review and representation.",
+    "capabilities": [
+     "attorney consultation",
+     "attorney document review"
+    ]
+   },
+   {
+    "name": "Business services",
+    "description": "LLC/incorporation, registered agent, trademark filing and compliance.",
+    "capabilities": [
+     "business formation filing",
+     "registered agent service",
+     "trademark registration",
+     "compliance reminders",
+     "business name generation"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal q&a",
+   "contract review",
+   "conversational document drafting",
+   "legal document generation",
+   "template customization",
+   "contract hq management",
+   "contract storage",
+   "e-signature",
+   "attorney escalation",
+   "attorney consultation",
+   "attorney document review",
+   "business formation filing",
+   "registered agent service",
+   "trademark registration",
+   "compliance reminders",
+   "business name generation",
+   "employment law guidance",
+   "small business legal risk assessment"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "Specialized legal AI agents trained on attorney-curated content; built with Google Cloud (Gemini/Vertex AI partnership).",
+  "key_integrations": [
+   "Google Cloud"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "AI plus on-demand attorney network",
+   "Large consumer/SMB document library",
+   "Multi-country presence"
+  ],
+  "recent_news": [
+   "2026-09: Conversational Copilot assistant with attorney connection",
+   "2026-05: Enhanced AI-native Copilot Beta / contract HQ",
+   "2025-08: Rocket Copilot Contract Review launched",
+   "2025-05: GenAI legal Q&A launched"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.rocketlawyer.com/newsroom/rocket-copilot-conversational-legal-help-backed-by-attorneys",
+   "https://www.rocketlawyer.com/newsroom/rocket-lawyer-launches-rocket-copilot-contract-review",
+   "https://www.artificiallawyer.com/2025/05/28/rocket-lawyer-gives-legal-answers-with-genai-qa-tool/",
+   "https://lawnext.com/2023/12/rocket-lawyer-releases-generative-ai-tool-built-in-collaboration-with-google-cloud.html"
+  ],
+  "notes": "Funding totals and headcount from prior knowledge; 2021 $223M includes debt. 2026 Copilot dates partly from third-party listings."
+ },
+ {
+  "cid": "C0574",
+  "name": "Rowan Patents",
+  "website": "https://www.rowanpatents.com",
+  "status": "acquired",
+  "acquired_by": "Clarivate (2024)",
+  "parent_company": "Clarivate",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2024",
+   "source": "estimate; small Seattle dev team retained post-acquisition"
+  },
+  "funding": {
+   "stage": "Acquired",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Acquired by Clarivate July 2024 (Rowan TELS Corp); prior funding undisclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Integrated patent drafting environment (claims, specs, drawings, chemical structures, sequences) with automation, QC and AI assistance, now part of Clarivate.",
+  "primary_problem": "Patent drafting requires tedious renumbering, cross-referencing and consistency checking across documents.",
+  "target_customers": [
+   "IP/patent professionals",
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "IP/Patents"
+  ],
+  "jurisdictions": [
+   "US",
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "Rowan Patents",
+    "description": "Single environment for drafting claims, specification, drawings, chemical structures and biological sequences with automation and QC.",
+    "capabilities": [
+     "patent claim drafting",
+     "patent specification drafting",
+     "patent drawing creation",
+     "automatic claim renumbering",
+     "terminology consistency checking"
+    ]
+   },
+   {
+    "name": "Prosecution tools",
+    "description": "Assists development of office action responses.",
+    "capabilities": [
+     "office action response drafting",
+     "claim amendment tracking"
+    ]
+   }
+  ],
+  "capabilities": [
+   "patent claim drafting",
+   "patent specification drafting",
+   "patent drawing creation",
+   "chemical structure drawing",
+   "biological sequence listing",
+   "automatic claim renumbering",
+   "figure renumbering",
+   "cross-reference updating",
+   "terminology consistency checking",
+   "antecedent basis checking",
+   "patent quality review",
+   "office action response drafting",
+   "claim amendment tracking",
+   "generative ai drafting assistance"
+  ],
+  "delivery": [
+   "Desktop app",
+   "Integrations"
+  ],
+  "ai_approach": "Rules-based drafting automation plus generative AI features within Clarivate's patent AI strategy.",
+  "key_integrations": [
+   "Clarivate IP platforms",
+   "Microsoft Word"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "All drafting elements in one product",
+   "Built-in QC for inconsistencies",
+   "Clarivate distribution and data"
+  ],
+  "recent_news": [
+   "2024-07: Acquired by Clarivate"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.geekwire.com/2024/clarivate-acquires-automated-patent-processing-startup-rowan-which-has-roots-in-seattle/",
+   "https://patentlawyermagazine.com/clarivate-acquires-rowan-tels-to-enhance-support-for-patent-practitioners",
+   "https://www.legaltechnologyhub.com/vendors/rowan-patents-by-clarivate/"
+  ],
+  "notes": "Batch listed status active; actually acquired by Clarivate (July 2024). Founded year (TurboPatent roots) and funding unknown; features mostly 2024-era."
+ },
+ {
+  "cid": "C0576",
+  "name": "Saga",
+  "website": "https://www.sagalegal.io",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Amsterdam",
+  "hq_country": "Netherlands",
+  "other_offices": [
+   "Norway"
+  ],
+  "founded_year": 2024,
+  "founders": [
+   "Bosse Langaas",
+   "Knut Magnar Aanestad",
+   "Martijn Lesterhuis"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 1.75,
+   "total_raised_text": ">EUR1.5M seed (~$1.75-1.8M)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 1.75,
+    "date": "2025-10",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Dutch and Norwegian angel/VC investors (undisclosed)"
+   ]
+  },
+  "focus_summary": "Lawyer-centric AI platform orchestrating the legal work lifecycle—assistants, legal databases, agentic workflows, matter workspaces and Word integration—with adoption training, for European and LatAm firms.",
+  "primary_problem": "Law firms struggle to adopt AI practically across everyday legal workflows.",
+  "target_customers": [
+   "Mid-size law firms",
+   "Small firms & solos",
+   "Large law firms"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "EU",
+   "Netherlands",
+   "Norway",
+   "Brazil",
+   "South Africa"
+  ],
+  "products": [
+   {
+    "name": "Saga platform",
+    "description": "Transparent AI assistants, legal databases and agentic workflows organized in matter workspaces.",
+    "capabilities": [
+     "legal research",
+     "legal drafting",
+     "document review",
+     "matter workspace management",
+     "agentic workflow automation"
+    ]
+   },
+   {
+    "name": "Saga for Word",
+    "description": "Word integration for drafting and review in documents.",
+    "capabilities": [
+     "word add-in drafting",
+     "contract redlining"
+    ]
+   },
+   {
+    "name": "Adoption program",
+    "description": "Five-session training program driving practical AI adoption at firms.",
+    "capabilities": [
+     "ai adoption training"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal research",
+   "legal research q&a",
+   "legal database search",
+   "legal drafting",
+   "document review",
+   "document summarization",
+   "contract redlining",
+   "word add-in drafting",
+   "matter workspace management",
+   "agentic workflow automation",
+   "workflow template building",
+   "multi-document analysis",
+   "ai adoption training"
+  ],
+  "delivery": [
+   "Web app",
+   "Word add-in"
+  ],
+  "ai_approach": "Model-agnostic transparent AI assistants with agentic workflows over legal databases; vendors undisclosed.",
+  "key_integrations": [
+   "Microsoft Word"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Lawyer-centric design with transparent AI",
+   "Bundled training program",
+   "Europe plus LatAm/Africa footprint"
+  ],
+  "recent_news": [
+   "2025-10: Raised >EUR1.5M seed; Series A planned 2026",
+   "2025: 150+ customers across 10 European countries"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.sagalegal.io/article/saga-raises-over-eu1-5m-seed-funding-to-expand-its-lawyer-centric-ai-platform-across-europe-and-latin-america",
+   "https://www.artificiallawyer.com/2025/10/02/europes-saga-bags-e1-5m-seed-funding/",
+   "https://techindex.law.stanford.edu/companies/15592"
+  ],
+  "notes": "Joint venture formed June 2024 (Concide, IT Factor, Venturis). Planned 2026 Series A not confirmed. Headcount unknown."
+ },
+ {
+  "cid": "C0578",
+  "name": "Sandstone",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [
+   "Nick Fleisher",
+   "Jarryd Strydom"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 40,
+   "total_raised_text": "$40M ($10M seed + $30M Series A)",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 30,
+    "date": "2026-06",
+    "lead_investors": [
+     "Lightspeed Venture Partners"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Lightspeed Venture Partners",
+    "Sequoia Capital"
+   ]
+  },
+  "focus_summary": "AI-native operating system for in-house legal teams: triages requests from Slack, email and Jira and runs agentic drafting/review workflows with institutional memory.",
+  "primary_problem": "In-house teams drown in scattered business requests and repetitive drafting/review work.",
+  "target_customers": [
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Commercial contracts",
+   "Corporate",
+   "Privacy",
+   "Employment"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Sandstone intake & triage",
+    "description": "Captures and triages legal requests from Slack, email and Jira; routes and tracks them.",
+    "capabilities": [
+     "legal request intake triage",
+     "request routing",
+     "matter tracking"
+    ]
+   },
+   {
+    "name": "Agentic workflows",
+    "description": "Configurable AI agents for drafting and reviewing contracts and other legal work using team playbooks.",
+    "capabilities": [
+     "contract review",
+     "contract drafting",
+     "playbook-based redlining",
+     "nda review",
+     "workflow builder"
+    ]
+   },
+   {
+    "name": "Relationship & knowledge layer",
+    "description": "Platform for managing every legal relationship, capturing past decisions and positions.",
+    "capabilities": [
+     "legal knowledge management",
+     "precedent position retrieval"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal request intake triage",
+   "slack legal request handling",
+   "email request routing",
+   "jira ticket intake",
+   "request routing",
+   "matter tracking",
+   "contract review",
+   "contract drafting",
+   "playbook-based redlining",
+   "nda review",
+   "workflow builder",
+   "legal knowledge management",
+   "precedent position retrieval",
+   "self-serve legal answers for business teams",
+   "legal ops reporting"
+  ],
+  "delivery": [
+   "Web app",
+   "Slack app",
+   "Integrations"
+  ],
+  "ai_approach": "Agentic LLM workflows embedded in business tools with team playbooks and memory; vendors undisclosed.",
+  "key_integrations": [
+   "Slack",
+   "Email",
+   "Jira"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "In-house-only focus",
+   "Meets requests where business works (Slack/Jira)",
+   "Backed by Sequoia and Lightspeed"
+  ],
+  "recent_news": [
+   "2026-06: Raised $30M Series A led by Lightspeed",
+   "2026-01: Raised $10M seed led by Sequoia"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://artificiallawyer.com/2026/06/09/sandstone-raises-30m-for-ai-native-inhouse-teams/",
+   "https://www.artificiallawyer.com/2026/01/13/sandstone-raises-10m-seed-led-by-sequoia-for-inhouse-ai-agents/",
+   "https://lsvp.com/stories/the-operating-system-for-in-house-legal-our-series-a-in-sandstone/"
+  ],
+  "notes": "Founders partly verified (third co-founder unknown). HQ city, founding year, headcount unknown. Valuation undisclosed."
+ },
+ {
+  "cid": "C0579",
+  "name": "Sava",
+  "website": "https://savahq.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "other_offices": [
+   "Nevada"
+  ],
+  "founded_year": 2025,
+  "founders": [
+   "Nimit Maru"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026-10",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": 10.5,
+   "total_raised_text": "~$10.5M (YC $0.5M + $10M seed)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": 10,
+    "date": "2026-10",
+    "lead_investors": [
+     "Gradient Ventures"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Gradient Ventures",
+    "Y Combinator",
+    "SV Angel",
+    "Orange Collective",
+    "SurgePoint Capital",
+    "Max Mullen"
+   ]
+  },
+  "focus_summary": "AI-native trust administration paired with its own Nevada-chartered trust company, automating the paperwork of administering trusts under human fiduciaries.",
+  "primary_problem": "Trust and estate administration is slow, paperwork-heavy and expensive for families.",
+  "target_customers": [
+   "Consumers/individuals"
+  ],
+  "practice_areas": [
+   "Trusts & estates"
+  ],
+  "jurisdictions": [
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Sava platform",
+    "description": "AI software automating trust administration workflows and documentation.",
+    "capabilities": [
+     "trust administration automation",
+     "trust document analysis",
+     "asset inventory",
+     "beneficiary communication"
+    ]
+   },
+   {
+    "name": "Sava Trust Company",
+    "description": "Nevada-chartered trust company providing regulated fiduciary/trustee services nationwide.",
+    "capabilities": [
+     "corporate trustee services",
+     "fiduciary accounting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "trust administration automation",
+   "trust document analysis",
+   "trust instrument interpretation",
+   "asset inventory",
+   "asset transfer paperwork",
+   "beneficiary communication",
+   "distribution management",
+   "fiduciary accounting",
+   "estate settlement paperwork",
+   "corporate trustee services",
+   "tax filing coordination"
+  ],
+  "delivery": [
+   "Web app",
+   "Managed service"
+  ],
+  "ai_approach": "Agentic AI handling administration paperwork, supervised by licensed human fiduciaries.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Owns a Nevada-chartered trust company",
+   "AI plus regulated human fiduciaries"
+  ],
+  "recent_news": [
+   "2026-10: Raised $10M seed led by Gradient; launched Sava Trust Company"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.axios.com/pro/fintech-deals/2026/10/28/sava-10m-seed-ai-trust-administration",
+   "https://pulse2.com/sava-raises-10-million-and-launches-ai-native-nevada-chartered-trust-company",
+   "https://www.cbinsights.com/company/savahq"
+  ],
+  "notes": "Website inferred (savahq / savatrustcompany.com). Co-founders beyond CEO unknown. Some capabilities (tax, distributions) inferred from trust-admin scope."
+ },
+ {
+  "cid": "C0580",
+  "name": "SCC Online (Eastern Book Company)",
+  "website": "https://www.scconline.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": "Eastern Book Company",
+  "hq_city": "Lucknow",
+  "hq_country": "India",
+  "other_offices": [
+   "New Delhi"
+  ],
+  "founded_year": 1942,
+  "founders": [],
+  "employees": {
+   "range": null,
+   "approx": null,
+   "as_of": "2026",
+   "source": "unknown"
+  },
+  "funding": {
+   "stage": "Bootstrapped",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Privately/family held publisher; no external funding disclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Leading Indian legal research database from Eastern Book Company, now with SCC Online AI Pro answering plain-language queries with citation-backed outputs.",
+  "primary_problem": "Indian lawyers need fast, reliable answers from vast case law and statutes.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Government/courts",
+   "Law students/academia"
+  ],
+  "practice_areas": [
+   "General"
+  ],
+  "jurisdictions": [
+   "India",
+   "UK",
+   "Singapore",
+   "South Asia"
+  ],
+  "products": [
+   {
+    "name": "SCC Online Web",
+    "description": "Case law and statute database incl. Supreme Court Cases reports, headnotes and citator.",
+    "capabilities": [
+     "case law search",
+     "statute search",
+     "citator",
+     "headnote search"
+    ]
+   },
+   {
+    "name": "SCC Online AI Pro",
+    "description": "AI research assistant answering natural-language queries with citation-backed outputs and workflow integration.",
+    "capabilities": [
+     "natural language legal research q&a",
+     "citation-backed answers",
+     "judgment summarization",
+     "drafting assistance"
+    ]
+   },
+   {
+    "name": "SCC Online Blog / SCC Times",
+    "description": "Legal news and analysis.",
+    "capabilities": [
+     "legal news updates"
+    ]
+   },
+   {
+    "name": "EBC Reader / EBC books",
+    "description": "Legal textbooks and commentaries in print and e-book.",
+    "capabilities": [
+     "legal commentary access"
+    ]
+   }
+  ],
+  "capabilities": [
+   "case law search",
+   "statute search",
+   "citator",
+   "headnote search",
+   "natural language legal research q&a",
+   "citation-backed answers",
+   "judgment summarization",
+   "drafting assistance",
+   "compliance research",
+   "advisory research",
+   "foreign case law search",
+   "legal news updates",
+   "legal commentary access"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "GenAI research assistant (AI Pro) grounded in proprietary SCC editorial content; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Authoritative proprietary Indian law reports and headnotes",
+   "Large installed base among Indian lawyers and courts"
+  ],
+  "recent_news": [
+   "2025-2026: Promoting SCC Online AI Pro via webinars"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.scconline.com/blog/post/tag/ai-legal-platform/",
+   "https://bharat.law/resources/best-ai-legal-research-tools-india-2026",
+   "https://www.scconline.com"
+  ],
+  "notes": "Founded 1942 refers to Eastern Book Company (from knowledge). AI Pro launch date and headcount unknown; foreign jurisdictions coverage from knowledge."
+ },
+ {
+  "cid": "C0581",
+  "name": "Scissero",
+  "website": "https://www.scissero.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "other_offices": [
+   "New York"
+  ],
+  "founded_year": 2017,
+  "founders": [
+   "Mathias Strasser"
+  ],
+  "employees": {
+   "range": "51-200",
+   "approx": 155,
+   "as_of": "2025-12",
+   "source": "press (~85 staff + ~70 from Robin AI)"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Undisclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "AI-enabled law firm (SRA-regulated ABS; NY law firm) combining proprietary legal tech with lawyers for finance documentation and contract work; acquired Robin AI's managed services arm.",
+  "primary_problem": "Clients need high-volume legal documentation work done faster and cheaper than traditional firms.",
+  "target_customers": [
+   "Financial institutions",
+   "In-house legal",
+   "Private equity/funds"
+  ],
+  "practice_areas": [
+   "Banking & finance",
+   "Derivatives",
+   "Commercial contracts",
+   "Regulatory"
+  ],
+  "jurisdictions": [
+   "UK",
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Scissero legal services (formerly Fincap Law)",
+    "description": "Tech-enabled legal services for finance documentation, negotiation and regulatory projects.",
+    "capabilities": [
+     "finance documentation negotiation",
+     "isda negotiation",
+     "regulatory documentation repapering"
+    ]
+   },
+   {
+    "name": "Robin by Scissero",
+    "description": "Managed contract review service acquired from Robin AI (Dec 2025).",
+    "capabilities": [
+     "managed contract review",
+     "nda review",
+     "contract data extraction"
+    ]
+   },
+   {
+    "name": "Scissero technology platform",
+    "description": "Proprietary AI tooling used by lawyers to automate drafting, review and data extraction.",
+    "capabilities": [
+     "ai-assisted contract drafting",
+     "contract redlining",
+     "contract repository analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "finance documentation negotiation",
+   "isda negotiation",
+   "loan documentation review",
+   "regulatory documentation repapering",
+   "managed contract review",
+   "nda review",
+   "contract drafting",
+   "contract redlining",
+   "contract data extraction",
+   "contract repository analysis",
+   "outsourced legal counsel",
+   "legal project management"
+  ],
+  "delivery": [
+   "Managed service",
+   "Web app"
+  ],
+  "ai_approach": "Lawyer-in-the-loop delivery using proprietary and acquired (Robin AI) tooling plus LLMs.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Regulated AI-enabled law firm in UK and NY",
+   "Finance/derivatives documentation specialism",
+   "Absorbed Robin AI services team and clients"
+  ],
+  "recent_news": [
+   "2025-12: Acquired Robin AI managed legal services arm (~70 staff)",
+   "2024: Merged Fincap Law and Scissero under one brand"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.artificiallawyer.com/2025/12/09/ai-enabled-law-firm-scissero-buys-robin-services-arm/",
+   "https://www.artificiallawyer.com/2025/12/10/the-scissero-robin-ai-deal-mathias-strasser-interview/",
+   "https://www.globallegalpost.com/news/scissero-buys-managed-services-team-of-rival-robin-ai-264599795",
+   "https://www.legaltechnologyhub.com/vendors/robin-by-scissero/"
+  ],
+  "notes": "Mathias Strasser is CEO; founder status assumed. Website inferred. Funding undisclosed. ISDA specialism from knowledge of Fincap Law."
+ },
+ {
+  "cid": "C0585",
+  "name": "Semeris",
+  "website": "https://www.semeris.com",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "other_offices": [],
+  "founded_year": 2020,
+  "founders": [
+   "Peter Jasko",
+   "Sam Daroczy"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2025",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Series A",
+   "total_raised_usd_m": 4.3,
+   "total_raised_text": "$4.3M (GBP3.5M) 2025 round; earlier funding unclear",
+   "last_round": {
+    "type": "Series A",
+    "amount_usd_m": 4.3,
+    "date": "2025-02",
+    "lead_investors": [
+     "Puma Growth Partners"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Puma Growth Partners"
+   ]
+  },
+  "focus_summary": "Legal AI for finance: LLM plus human-curated analysis of debt and structured finance documentation (CLOs, ABS/MBS, leveraged loans, private credit) for lawyers, banks and investors.",
+  "primary_problem": "Finance professionals must read long, complex debt documents to find and compare terms.",
+  "target_customers": [
+   "Large law firms",
+   "Financial institutions",
+   "Private equity/funds"
+  ],
+  "practice_areas": [
+   "Banking & finance",
+   "Structured finance",
+   "Leveraged finance",
+   "Private credit"
+  ],
+  "jurisdictions": [
+   "UK",
+   "EU",
+   "US"
+  ],
+  "products": [
+   {
+    "name": "Semeris Docs",
+    "description": "Searchable, AI-analysed library of finance documents with term extraction, comparison and Q&A.",
+    "capabilities": [
+     "credit agreement analysis",
+     "covenant extraction",
+     "cross-deal term comparison",
+     "finance document q&a"
+    ]
+   },
+   {
+    "name": "Semeris data / analytics",
+    "description": "Human-curated structured data on terms across CLO, ABS/MBS and loan documentation.",
+    "capabilities": [
+     "market term benchmarking",
+     "structured term data extraction"
+    ]
+   }
+  ],
+  "capabilities": [
+   "credit agreement analysis",
+   "clo indenture analysis",
+   "abs/mbs prospectus analysis",
+   "covenant extraction",
+   "cross-deal term comparison",
+   "market term benchmarking",
+   "precedent document search",
+   "structured term data extraction",
+   "finance document q&a",
+   "document summarization",
+   "amendment tracking",
+   "liability management provision analysis"
+  ],
+  "delivery": [
+   "Web app",
+   "API"
+  ],
+  "ai_approach": "Large language models and NLP combined with expert human curation of finance documents.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Deep debt/structured finance specialization",
+   "Founder ex-head of JPMorgan European CLO team",
+   "Human-curated data quality"
+  ],
+  "recent_news": [
+   "2025-02: Raised $4.3M led by Puma Growth Partners to expand into leveraged loans and private credit"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://fintech.global/2025/02/03/semeris-raises-4-3m-to-expand-ai-powered-legal-document-analysis-in-finance/",
+   "https://legaltechnology.com/uk-legal-ai-for-finance-software-provider-semeris-raises-3-5m/",
+   "https://www.artificiallawyer.com/2025/02/03/semeris-bags-4-3m-for-lawyers-structured-finance-needs/"
+  ],
+  "notes": "Round type not stated (labelled Series A tentatively). Amount reported as $4.3M/GBP3.5M/EUR4M. Product names and website from knowledge; prior funding unclear."
+ },
+ {
+  "cid": "C0586",
+  "name": "ShareDo",
+  "website": "https://www.sharedo.com",
+  "status": "acquired",
+  "acquired_by": "Clio (2025)",
+  "parent_company": "Clio",
+  "hq_city": "Manchester",
+  "hq_country": "United Kingdom",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [],
+  "employees": {
+   "range": "51-200",
+   "approx": null,
+   "as_of": "2025",
+   "source": "estimate; parent Clio ~1,500+"
+  },
+  "funding": {
+   "stage": "Acquired",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Acquired by Clio March 2025; value undisclosed",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Adaptive enterprise case and matter management platform for large law firms and legal operations, now part of Clio's enterprise offering (Clio Operate).",
+  "primary_problem": "Large firms need configurable, governed workflow and matter management beyond rigid legacy systems.",
+  "target_customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Insurers/claims",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "Insurance",
+   "Personal injury",
+   "General"
+  ],
+  "jurisdictions": [
+   "UK",
+   "US",
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "ShareDo / Clio Operate",
+    "description": "Low-code adaptive case/matter management and workflow orchestration platform; Clio's AI-native enterprise operating system.",
+    "capabilities": [
+     "matter management",
+     "case management",
+     "workflow automation",
+     "low-code workflow design"
+    ]
+   },
+   {
+    "name": "Portals & integration hub",
+    "description": "Client/third-party portals and connectors to firm systems.",
+    "capabilities": [
+     "client portal",
+     "system integration orchestration"
+    ]
+   }
+  ],
+  "capabilities": [
+   "matter management",
+   "case management",
+   "workflow automation",
+   "low-code workflow design",
+   "task orchestration",
+   "document generation",
+   "matter intake",
+   "client portal",
+   "system integration orchestration",
+   "workflow governance",
+   "operational reporting",
+   "high-volume claims workflow"
+  ],
+  "delivery": [
+   "Web app",
+   "Integrations"
+  ],
+  "ai_approach": "Workflow platform being extended with Clio's AI (Clio Duo/vLex Vincent) under Clio Operate governance model.",
+  "key_integrations": [
+   "Clio",
+   "Microsoft 365",
+   "Document management systems"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Enterprise-grade configurability for large firms",
+   "Clio backing and AI roadmap"
+  ],
+  "recent_news": [
+   "2025-03: Acquired by Clio, marking Clio's entry into enterprise legal",
+   "2026: Rebranded within Clio as Clio Operate (UK)"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.clio.com/en-gb/about/press/sharedo-acquisition/",
+   "https://www.legalfutures.co.uk/associate-news/clio-accelerates-global-expansion-with-strategic-acquisition-of-sharedo-enters-enterprise-legal-market",
+   "https://www.clio.com/uk/enterprise/about/"
+  ],
+  "notes": "Founded year, founders, headcount unknown. Website from knowledge. Clio Operate naming per Clio site; AI tie-ins to Clio Duo/Vincent assumed."
+ },
+ {
+  "cid": "C0587",
+  "name": "Shwra",
+  "website": "https://www.shwra.sa",
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Riyadh",
+  "hq_country": "Saudi Arabia",
+  "other_offices": [],
+  "founded_year": 2020,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": 15,
+   "as_of": "2026",
+   "source": "Caplight"
+  },
+  "funding": {
+   "stage": "Unknown",
+   "total_raised_usd_m": null,
+   "total_raised_text": "No disclosed funding",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Saudi legal-tech platform combining Arabic legal AI (search, contract drafting/review, summarization, translation, case analysis) with remote consultations from MoJ-licensed lawyers.",
+  "primary_problem": "Individuals and businesses in Saudi Arabia lack quick, affordable access to legal advice.",
+  "target_customers": [
+   "Consumers/individuals",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice_areas": [
+   "General",
+   "Commercial contracts",
+   "Labor",
+   "Family"
+  ],
+  "jurisdictions": [
+   "Saudi Arabia"
+  ],
+  "products": [
+   {
+    "name": "Shwra consultations",
+    "description": "Marketplace connecting users with licensed Saudi lawyers for remote legal consultations.",
+    "capabilities": [
+     "online lawyer consultation",
+     "lawyer matching"
+    ]
+   },
+   {
+    "name": "Shwra AI",
+    "description": "Arabic legal AI for Saudi legal search, contracts, summaries, translation and case analysis.",
+    "capabilities": [
+     "arabic legal research",
+     "contract drafting",
+     "contract review",
+     "document summarization",
+     "legal translation",
+     "case analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "online lawyer consultation",
+   "lawyer matching",
+   "arabic legal research",
+   "saudi regulation search",
+   "contract drafting",
+   "contract review",
+   "document summarization",
+   "legal translation",
+   "case analysis",
+   "legal q&a"
+  ],
+  "delivery": [
+   "Web app",
+   "Mobile"
+  ],
+  "ai_approach": "Arabic-language legal AI over Saudi laws; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "AI plus MoJ-licensed lawyer network",
+   "Arabic/Saudi-law focus"
+  ],
+  "recent_news": [],
+  "confidence": "medium",
+  "sources": [
+   "https://techindex.law.stanford.edu/companies/shwra",
+   "https://www.shwra.sa/en/services/LegalConsultation",
+   "https://www.caplight.com/company/shwra",
+   "https://www.haqq.ai/blog/legal-ai-saudi-arabia-2026"
+  ],
+  "notes": "Funding not disclosed. Practice areas beyond general inferred. Shwra.sa site titled 'Shwra Financial Services'."
+ },
+ {
+  "cid": "C0588",
+  "name": "Silex (Ex Nunc Intelligence)",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Lausanne",
+  "hq_country": "Switzerland",
+  "other_offices": [],
+  "founded_year": 2023,
+  "founders": [],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Pre-seed",
+   "total_raised_usd_m": 2.15,
+   "total_raised_text": "~$2.15M (EUR1.8M) oversubscribed pre-seed",
+   "last_round": {
+    "type": "Pre-seed",
+    "amount_usd_m": 2.15,
+    "date": "2026-01",
+    "lead_investors": [
+     "Spicehaus Partners"
+    ]
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Spicehaus Partners",
+    "Bloomhaus Ventures",
+    "Active Capital",
+    "Aperture Capital",
+    "Core Angels"
+   ]
+  },
+  "focus_summary": "Swiss AI-first legal intelligence platform (Silex) for law firms, notaries and legal departments, building specialized AI agents per area of law.",
+  "primary_problem": "Swiss legal professionals need reliable AI research grounded in multilingual Swiss law.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "General",
+   "Notarial"
+  ],
+  "jurisdictions": [
+   "Switzerland"
+  ],
+  "products": [
+   {
+    "name": "Silex",
+    "description": "Legal intelligence and research platform with AI answers over Swiss legislation and case law; specialized area-of-law agents in development.",
+    "capabilities": [
+     "swiss legal research q&a",
+     "case law search",
+     "legislation search",
+     "citation-backed answers",
+     "document analysis"
+    ]
+   }
+  ],
+  "capabilities": [
+   "swiss legal research q&a",
+   "case law search",
+   "legislation search",
+   "citation-backed answers",
+   "multilingual legal search",
+   "document analysis",
+   "document summarization",
+   "legal drafting assistance",
+   "practice-area specialized ai agents"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "Natively legal, AI-first infrastructure with specialized agents per legal domain; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Swiss-law and multilingual (FR/DE/IT) focus",
+   "Used by several hundred firms, notaries, departments"
+  ],
+  "recent_news": [
+   "2026-01: Raised ~$2.15M oversubscribed pre-seed led by Spicehaus Partners"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://fintech.global/2026/01/14/ex-nunc-intelligence-secures-funding-to-expand-legal-ai/",
+   "https://kellerhals-carrard.ch/en/news-and-publications/news/deal-ticker-ex-nunc-raises-usd-2-15m-for-new-generation-of-legal-intelligence",
+   "https://www.venturekick.ch/USD-215M-to-build-the-backbone-of-Ex-Nuncs-legal-intelligence",
+   "https://techindex.law.stanford.edu/companies/15662"
+  ],
+  "notes": "Founded 2022 or 2023 (sources conflict). Founders and website not verified. Total funding cited $2M-$2.31M."
+ },
+ {
+  "cid": "C0589",
+  "name": "Silvernova",
+  "website": null,
+  "status": "active",
+  "acquired_by": null,
+  "parent_company": null,
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "other_offices": [],
+  "founded_year": null,
+  "founders": [
+   "Lukas Ballweg",
+   "Nils Lißner",
+   "Felix Füssel"
+  ],
+  "employees": {
+   "range": "11-50",
+   "approx": null,
+   "as_of": "2026",
+   "source": "estimate; unverified"
+  },
+  "funding": {
+   "stage": "Seed",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Undisclosed seed (closed ~Dec 2025/Jan 2026)",
+   "last_round": {
+    "type": "Seed",
+    "amount_usd_m": null,
+    "date": "2026-01",
+    "lead_investors": []
+   },
+   "valuation_usd_m": null,
+   "key_investors": [
+    "Early-stage investors, industry experts and law-firm partners (undisclosed)"
+   ]
+  },
+  "focus_summary": "German 'AI associate' for law firms handling complex proceedings: analyses large case files and documents to support legal case work; 400+ firm customers.",
+  "primary_problem": "Lawyers spend excessive time working through voluminous case files in complex mandates.",
+  "target_customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms"
+  ],
+  "practice_areas": [
+   "Litigation",
+   "General"
+  ],
+  "jurisdictions": [
+   "Germany",
+   "DACH"
+  ],
+  "products": [
+   {
+    "name": "Silvernova AI associate",
+    "description": "AI system for legal work in complex proceedings: document analysis, case file Q&A and drafting support.",
+    "capabilities": [
+     "case file analysis",
+     "legal document analysis",
+     "chat with documents",
+     "fact extraction",
+     "pleading drafting"
+    ]
+   }
+  ],
+  "capabilities": [
+   "case file analysis",
+   "legal document analysis",
+   "chat with documents",
+   "document summarization",
+   "fact extraction",
+   "case chronology generation",
+   "evidence review",
+   "pleading drafting",
+   "legal correspondence drafting",
+   "german legal research q&a",
+   "case management support"
+  ],
+  "delivery": [
+   "Web app"
+  ],
+  "ai_approach": "LLM-based assistant for large case files, GDPR/German-hosting oriented; vendors undisclosed.",
+  "key_integrations": [],
+  "notable_customers": [],
+  "differentiators": [
+   "Fast traction: EUR1M ARR in 15 months",
+   "400+ German law firm customers",
+   "Focus on complex mandates"
+  ],
+  "recent_news": [
+   "2026-01: Closed funding round (amount undisclosed)",
+   "2026: Passed EUR1M ARR, 400+ law firms"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.munich-startup.de/en/116427/silvernova-closes-funding-round/",
+   "https://www.sce.de/en/news-details/1-million-euro-arr-in-15-monaten-silvernova-waechst-rasant.html",
+   "https://pitchbook.com/profiles/company/629489-71"
+  ],
+  "notes": "Founding year unclear (~2024-2025). Round amount undisclosed. Chronology/drafting capabilities partly inferred."
+ },
+ {
+  "cid": "C0590",
+  "name": "SimpleLegal",
+  "website": "https://www.simplelegal.com",
+  "status": "acquired",
+  "acquired_by": "Onit (2019)",
+  "parent_company": "Onit (K1 Investment Management portfolio)",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "other_offices": [],
+  "founded_year": 2013,
+  "founders": [],
+  "employees": {
+   "range": null,
+   "approx": null,
+   "as_of": "2026",
+   "source": "part of Onit; not separately reported"
+  },
+  "funding": {
+   "stage": "Acquired",
+   "total_raised_usd_m": null,
+   "total_raised_text": "Acquired by Onit; prior VC funding not verified",
+   "last_round": null,
+   "valuation_usd_m": null,
+   "key_investors": []
+  },
+  "focus_summary": "Legal spend, e-billing, matter and vendor management for corporate legal departments, with AI-enabled invoice review (SimpleReview); brand of Onit.",
+  "primary_problem": "Corporate legal departments lack visibility and control over outside counsel spend.",
+  "target_customers": [
+   "In-house legal"
+  ],
+  "practice_areas": [
+   "Legal operations"
+  ],
+  "jurisdictions": [
+   "US",
+   "Global"
+  ],
+  "products": [
+   {
+    "name": "E-billing & Spend Management",
+    "description": "Electronic invoicing, billing-guideline enforcement and spend analytics.",
+    "capabilities": [
+     "legal e-billing",
+     "billing guideline enforcement",
+     "legal spend analytics"
+    ]
+   },
+   {
+    "name": "SimpleReview",
+    "description": "AI-enabled invoice review flagging non-compliant line items.",
+    "capabilities": [
+     "ai invoice review",
+     "line-item anomaly detection"
+    ]
+   },
+   {
+    "name": "Matter Management",
+    "description": "Matter tracking, documents and workflows for legal departments.",
+    "capabilities": [
+     "matter management",
+     "legal request intake"
+    ]
+   },
+   {
+    "name": "Vendor Management",
+    "description": "Outside counsel and vendor onboarding, rates and performance.",
+    "capabilities": [
+     "vendor management",
+     "timekeeper rate management",
+     "vendor performance evaluation"
+    ]
+   },
+   {
+    "name": "Budgets & Accruals",
+    "description": "Matter budgets, accruals and forecasting.",
+    "capabilities": [
+     "budget tracking",
+     "accruals management"
+    ]
+   }
+  ],
+  "capabilities": [
+   "legal e-billing",
+   "billing guideline enforcement",
+   "ai invoice review",
+   "line-item anomaly detection",
+   "legal spend analytics",
+   "matter management",
+   "legal request intake",
+   "vendor management",
+   "timekeeper rate management",
+   "vendor performance evaluation",
+   "budget tracking",
+   "accruals management",
+   "spend forecasting",
+   "legal ops reporting dashboards"
+  ],
+  "delivery": [
+   "Web app",
+   "Integrations"
+  ],
+  "ai_approach": "ML-based invoice review (SimpleReview) within Onit's broader AI (e.g., Onit AI Center of Excellence).",
+  "key_integrations": [
+   "ERP/AP systems",
+   "Onit platform"
+  ],
+  "notable_customers": [],
+  "differentiators": [
+   "Mid-market-friendly ELM",
+   "AI invoice review",
+   "Onit backing"
+  ],
+  "recent_news": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.simplelegal.com",
+   "https://www.pymnts.com/?p=1105380"
+  ],
+  "notes": "Not searched (budget). Acquisition year per batch (2019); founded year from knowledge; capabilities from knowledge, unverified (search budget)."
+ }
+]
