@@ -1,0 +1,1390 @@
+[
+ {
+  "cid": "G067",
+  "name": "Adel",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "DRAFT.auto",
+   "CON.draft",
+   "CON.review"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "SMBs",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Commercial contracts",
+   "Employment",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Arabic-native assistant grounded in Saudi regulations, with consumer mobile apps"
+ },
+ {
+  "cid": "G005",
+  "name": "Ali Tech",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "DRAFT.auto",
+   "CON.selfserve",
+   "CON.clm"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "SMBs"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Commercial contracts",
+   "Employment"
+  ],
+  "unique_angle": "LatAm assistant folded into LegaLario's e-signature and KYC stack"
+ },
+ {
+  "cid": "G026",
+  "name": "Alta Lex",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "CON.draft",
+   "RES.case"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "General / multi-practice"
+  ],
+  "unique_angle": "Multi-jurisdiction Asian contract work with built-in legal translation"
+ },
+ {
+  "cid": "G011",
+  "name": "Ariel",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "RES.content"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Consumers/individuals",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Colombian-law Q&A over 1.2M documents, tested by the judiciary"
+ },
+ {
+  "cid": "G018",
+  "name": "Bering Lab",
+  "primary": "DRAFT.write",
+  "categories": [
+   "DRAFT.write",
+   "IP.draft",
+   "SERV.alsp"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "IP/patent professionals",
+   "In-house legal"
+  ],
+  "practice": [
+   "Corporate & M&A",
+   "Intellectual property",
+   "Commercial contracts",
+   "Litigation"
+  ],
+  "unique_angle": "Separate legal/patent translation engines plus lawyer post-editing, on-prem option"
+ },
+ {
+  "cid": "G047",
+  "name": "BigHand",
+  "primary": "FIRM.billing",
+  "categories": [
+   "FIRM.billing",
+   "FIRM.bi",
+   "FIRM.pm"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Agentic matter pricing via Ayora on top of time capture and resourcing"
+ },
+ {
+  "cid": "G048",
+  "name": "Bodhala",
+  "primary": "OPS.spend",
+  "categories": [
+   "OPS.spend"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Market-wide outside-counsel rate benchmarking data inside Onit"
+ },
+ {
+  "cid": "G008",
+  "name": "BrandLex.AI",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "OPS.selfserve"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Intellectual property",
+   "Privacy & data",
+   "Other"
+  ],
+  "unique_angle": "Microsoft Teams-native virtual lawyer specialized in IP, tech and privacy"
+ },
+ {
+  "cid": "G038",
+  "name": "Casium",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "Agents mine papers and patents to build O-1/EB-1 evidence dossiers"
+ },
+ {
+  "cid": "G037",
+  "name": "Charlee.ai",
+  "primary": "LIT.analytics",
+  "categories": [
+   "LIT.analytics",
+   "CLAIM.benefits"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Insurance & benefits",
+   "Litigation"
+  ],
+  "unique_angle": "Predicts attorney involvement on P&C claims before suits are filed"
+ },
+ {
+  "cid": "G035",
+  "name": "Claimence AI",
+  "primary": "CLAIM.benefits",
+  "categories": [
+   "CLAIM.benefits"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Insurance & benefits"
+  ],
+  "unique_angle": "Drafts D&O coverage determination letters in under 30 minutes"
+ },
+ {
+  "cid": "G036",
+  "name": "CLARA Analytics",
+  "primary": "CLAIM.benefits",
+  "categories": [
+   "CLAIM.benefits",
+   "LIT.analytics",
+   "OPS.spend"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Insurance & benefits",
+   "Litigation"
+  ],
+  "unique_angle": "Scores defense-attorney performance to steer insurer panel selection"
+ },
+ {
+  "cid": "G063",
+  "name": "Clarilis",
+  "primary": "DRAFT.auto",
+  "categories": [
+   "DRAFT.auto",
+   "DEAL.realestate"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Corporate & M&A",
+   "Real estate",
+   "Banking & finance / funds"
+  ],
+  "unique_angle": "Automates whole transaction document suites co-built with top UK firms"
+ },
+ {
+  "cid": "G003",
+  "name": "ConfiAbogado",
+  "primary": "CONS.market",
+  "categories": [
+   "CONS.market",
+   "LIT.origination"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Employment",
+   "Family & estates",
+   "Litigation"
+  ],
+  "unique_angle": "Mexican lawyer marketplace that funds litigation for a revenue share"
+ },
+ {
+  "cid": "G010",
+  "name": "Dasa LegalTech",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "FIRM.docket",
+   "OPS.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Mid-size law firms",
+   "In-house legal",
+   "Financial institutions",
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Litigation",
+   "Other"
+  ],
+  "unique_angle": "Built inside a firm running 70,000+ lawsuits; handles court orders, insolvency"
+ },
+ {
+  "cid": "G029",
+  "name": "DealSumm",
+  "primary": "DEAL.realestate",
+  "categories": [
+   "DEAL.realestate",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "ALSPs/legal service providers",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "Real estate"
+  ],
+  "unique_angle": "2,500+ data points per lease with source traceability"
+ },
+ {
+  "cid": "G066",
+  "name": "DOXS.AI",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "DRAFT.write",
+   "CONS.a2j"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Law students/academia",
+   "Consumers/individuals",
+   "Large law firms",
+   "Legal aid/non-profits"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Legal consultations in Quechua, Aymara and Amazonian indigenous languages"
+ },
+ {
+  "cid": "G013",
+  "name": "ELTEMATE",
+  "primary": "COMP.reg",
+  "categories": [
+   "COMP.reg",
+   "ASSIST.copilot",
+   "LIT.ediscovery",
+   "DRAFT.auto",
+   "CON.review",
+   "RES.km",
+   "DEAL.dd"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Compliance teams",
+   "Large law firms"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Litigation",
+   "Intellectual property",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Hogan Lovells-owned tech arm selling regulatory-change AI to clients"
+ },
+ {
+  "cid": "G051",
+  "name": "EnforceShield",
+  "primary": "IP.enforce",
+  "categories": [
+   "IP.enforce"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "IP/patent professionals",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Agents execute attorney-validated takedowns end-to-end, 33,500+ monthly"
+ },
+ {
+  "cid": "G042",
+  "name": "Envoy Global",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "Corporate immigration platform with affiliated law firm and pre-filing error sensors"
+ },
+ {
+  "cid": "G065",
+  "name": "Gino LegalTech",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "DRAFT.auto",
+   "CON.extract",
+   "CON.selfserve",
+   "RES.case"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Employment",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "French CLM bundled with cited French-law Q&A (GinLaws)"
+ },
+ {
+  "cid": "G052",
+  "name": "Grubel",
+  "primary": "INFRA.models",
+  "categories": [
+   "INFRA.models"
+  ],
+  "model": "infra",
+  "customers": [
+   "ALSPs/legal service providers",
+   "Large law firms"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Adapts models and agents to each individual legal matter via API"
+ },
+ {
+  "cid": "G020",
+  "name": "Hukumonline",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "RES.content",
+   "COMP.reg",
+   "COMP.map"
+  ],
+  "model": "suite",
+  "customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "In-house legal",
+   "Compliance teams",
+   "Law students/academia",
+   "Legal aid/non-profits",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Indonesia's largest legal database (since 2000) plus enterprise compliance system"
+ },
+ {
+  "cid": "G014",
+  "name": "Inspira",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "ASSIST.copilot",
+   "LIT.draft",
+   "FIRM.pm"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Semantic search over ~83M decisions from 86 Brazilian courts"
+ },
+ {
+  "cid": "G046",
+  "name": "Intapp",
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake",
+   "FIRM.billing",
+   "FIRM.bi",
+   "ASSIST.agents"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Financial institutions",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Agent governance built on its ethical-wall and conflicts infrastructure"
+ },
+ {
+  "cid": "G032",
+  "name": "Intelligent Legal Solutions (ProVision)",
+  "primary": "DEAL.funds",
+  "categories": [
+   "DEAL.funds",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "Banking & finance / funds",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Side-letter MFN election workflow built by ex-Goodwin funds lawyers"
+ },
+ {
+  "cid": "G054",
+  "name": "Iqidis",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "RES.cite",
+   "LIT.draft",
+   "CON.draft",
+   "DRAFT.write"
+  ],
+  "model": "platform",
+  "customers": [
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Low-cost matter workspace with own case-law database and cite checker"
+ },
+ {
+  "cid": "G001",
+  "name": "Juztina",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Closed-corpus Q&A across five LatAm countries' law at ~$10/month"
+ },
+ {
+  "cid": "G056",
+  "name": "Jylo",
+  "primary": "ASSIST.agents",
+  "categories": [
+   "ASSIST.agents",
+   "ASSIST.bulk",
+   "RES.km"
+  ],
+  "model": "platform",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Government/courts",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Travers Smith spinout with internal marketplace for shareable AI tools"
+ },
+ {
+  "cid": "G041",
+  "name": "Lawfully",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig",
+   "FIRM.comms",
+   "CONS.market"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "800K-case USCIS tracking dataset powering decision-date predictions"
+ },
+ {
+  "cid": "G025",
+  "name": "Lawgic",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "DRAFT.auto"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "ALSPs/legal service providers",
+   "SMBs"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Cross-language contract translation with legal-accuracy checks, SEA-China"
+ },
+ {
+  "cid": "G016",
+  "name": "LAWGUE (FRAIM)",
+  "primary": "CON.draft",
+  "categories": [
+   "CON.draft",
+   "CON.review",
+   "RES.km"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Government/courts",
+   "Business teams (non-lawyers)",
+   "Large law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Structured cloud editor replacing Word, patented similar-clause search"
+ },
+ {
+  "cid": "G027",
+  "name": "LawPavilion",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "RES.content",
+   "RES.cite",
+   "GOV.courts",
+   "FIRM.pm"
+  ],
+  "model": "suite",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "Government/courts",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Closed-corpus Nigerian law-report AI with dedicated judges' edition"
+ },
+ {
+  "cid": "G031",
+  "name": "Leasecake",
+  "primary": "DEAL.realestate",
+  "categories": [
+   "DEAL.realestate",
+   "CON.clm"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "In-house legal"
+  ],
+  "practice": [
+   "Real estate"
+  ],
+  "unique_angle": "Tenant-side lease management for multi-location franchise operators"
+ },
+ {
+  "cid": "G030",
+  "name": "LeasePilot",
+  "primary": "DEAL.realestate",
+  "categories": [
+   "DEAL.realestate",
+   "DRAFT.auto",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Real estate"
+  ],
+  "unique_angle": "Lease drafting editor capturing structured deal data from first draft"
+ },
+ {
+  "cid": "G022",
+  "name": "Legal Analytics (Indonesia)",
+  "primary": "GOV.lawmaking",
+  "categories": [
+   "GOV.lawmaking",
+   "RES.case"
+  ],
+  "model": "point",
+  "customers": [
+   "Government/courts",
+   "Compliance teams",
+   "In-house legal"
+  ],
+  "practice": [
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Detects conflicts across Indonesian regulations for harmonization"
+ },
+ {
+  "cid": "G004",
+  "name": "Legalario",
+  "primary": "CON.selfserve",
+  "categories": [
+   "CON.selfserve",
+   "CON.clm",
+   "DRAFT.auto",
+   "ASSIST.copilot"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions",
+   "SMBs"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "NOM-151 e-signature and KYC bundled with contract generation"
+ },
+ {
+  "cid": "G009",
+  "name": "Lemontech",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "FIRM.billing",
+   "OPS.spend",
+   "FIRM.docket",
+   "ASSIST.copilot"
+  ],
+  "model": "suite",
+  "customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Compliance teams"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Largest LatAm practice-management base, embedding AI time capture"
+ },
+ {
+  "cid": "G023",
+  "name": "LexAI Solutions",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "RES.edu",
+   "DRAFT.write"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Auto-generates Philippine case digests for students and lawyers"
+ },
+ {
+  "cid": "G060",
+  "name": "Lexlegis.AI",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "ASSIST.copilot",
+   "CON.draft",
+   "CON.review"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "In-house legal",
+   "Government/courts",
+   "SMBs"
+  ],
+  "practice": [
+   "Tax",
+   "Litigation",
+   "General / multi-practice"
+  ],
+  "unique_angle": "India-specific legal LLM on 10M+ judgments with deep tax coverage"
+ },
+ {
+  "cid": "G024",
+  "name": "LexMeet",
+  "primary": "CONS.market",
+  "categories": [
+   "CONS.market",
+   "CONS.selfhelp"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Philippine prepaid video consultations plus AI DIY document assembly"
+ },
+ {
+  "cid": "G015",
+  "name": "Lisse (LeCHECK)",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "CON.clm"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Party-position redlines plus Japan subcontract-act checker for SMEs"
+ },
+ {
+  "cid": "G002",
+  "name": "Magnar",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "DRAFT.write",
+   "ASSIST.word",
+   "CON.clm"
+  ],
+  "model": "platform",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Per-country LatAm corpora; top LatAm firms are investors and users"
+ },
+ {
+  "cid": "G040",
+  "name": "Mayflower",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "Immigration eligibility checks embedded inside HR hiring platforms"
+ },
+ {
+  "cid": "G006",
+  "name": "Nino Legal",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "LIT.draft",
+   "RES.km"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Employment",
+   "Litigation"
+  ],
+  "unique_angle": "Per-court, per-province Argentine assistants that refuse unsourced answers"
+ },
+ {
+  "cid": "G061",
+  "name": "OpenLaws",
+  "primary": "INFRA.data",
+  "categories": [
+   "INFRA.data"
+  ],
+  "model": "infra",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "Legal aid/non-profits",
+   "Law students/academia",
+   "Compliance teams"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Commercially licensable structured U.S. primary law; PBC with bulk JSONL"
+ },
+ {
+  "cid": "G039",
+  "name": "ParaLeagle",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "Flat-fee H-1B petitions from $475 for IT staffing firms"
+ },
+ {
+  "cid": "G049",
+  "name": "Platus",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "ASSIST.agents",
+   "CON.draft",
+   "CON.review",
+   "CON.selfserve",
+   "DEAL.entity"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "SMBs",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Corporate & M&A",
+   "Commercial contracts",
+   "Other"
+  ],
+  "unique_angle": "Legal AI agents wired to real German digital-notarization rails"
+ },
+ {
+  "cid": "G045",
+  "name": "PointOne",
+  "primary": "FIRM.billing",
+  "categories": [
+   "FIRM.billing"
+  ],
+  "model": "point",
+  "customers": [
+   "Mid-size law firms",
+   "Large law firms",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Pairs passive time capture with OCG-driven pre-bill compliance review"
+ },
+ {
+  "cid": "G028",
+  "name": "Prophia",
+  "primary": "DEAL.realestate",
+  "categories": [
+   "DEAL.realestate",
+   "DEAL.dd"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "Private equity/funds",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Real estate"
+  ],
+  "unique_angle": "AI-plus-expert abstraction of 215+ lease terms across 330M+ sq ft"
+ },
+ {
+  "cid": "G034",
+  "name": "Qumis",
+  "primary": "CLAIM.benefits",
+  "categories": [
+   "CLAIM.benefits",
+   "CON.review"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims",
+   "Mid-size law firms",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Insurance & benefits"
+  ],
+  "unique_angle": "Coverage-counsel-certified agents across 16 P&C lines, used by top brokers"
+ },
+ {
+  "cid": "G053",
+  "name": "Safahat.ai",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "LIT.draft",
+   "LIT.case",
+   "CON.draft",
+   "CON.review"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Financial institutions",
+   "Mid-size law firms",
+   "Government/courts"
+  ],
+  "practice": [
+   "Litigation",
+   "Commercial contracts",
+   "Other"
+  ],
+  "unique_angle": "Turkish-law platform for bulk icra enforcement files, on-prem for banks"
+ },
+ {
+  "cid": "G064",
+  "name": "Septeo",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "RES.content",
+   "RES.case",
+   "ASSIST.copilot",
+   "ASSIST.word",
+   "CON.clm",
+   "CON.review",
+   "DEAL.entity",
+   "DRAFT.auto",
+   "FIRM.billing"
+  ],
+  "model": "suite",
+  "customers": [
+   "In-house legal",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "Large law firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Corporate & M&A",
+   "Real estate",
+   "Other"
+  ],
+  "unique_angle": "Pan-European roll-up spanning lawyers, notaries, in-house; owns Lexbase content"
+ },
+ {
+  "cid": "G044",
+  "name": "Settify",
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake",
+   "CONS.estate"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "Family-lawyer-built white-label intake producing asset schedules and briefs"
+ },
+ {
+  "cid": "G033",
+  "name": "SmartEsq",
+  "primary": "DEAL.funds",
+  "categories": [
+   "DEAL.funds",
+   "DEAL.closing",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "Private equity/funds",
+   "Large law firms",
+   "Mid-size law firms",
+   "Compliance teams"
+  ],
+  "practice": [
+   "Banking & finance / funds",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Covers LPA comments, side letters, MFN elections and Form ADV end-to-end"
+ },
+ {
+  "cid": "G043",
+  "name": "Splitifi",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "FIRM.pm",
+   "LIT.ediscovery",
+   "LIT.analytics"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Government/courts",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "Plaid bank sync automates family-law financial discovery"
+ },
+ {
+  "cid": "G057",
+  "name": "Tallia",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "DRAFT.write",
+   "ASSIST.word"
+  ],
+  "model": "point",
+  "customers": [
+   "ALSPs/legal service providers",
+   "SMBs"
+  ],
+  "practice": [
+   "Tax"
+  ],
+  "unique_angle": "ICAEW-backed tax research-to-branded-deliverable flow inside Microsoft Office"
+ },
+ {
+  "cid": "G058",
+  "name": "TaxGPT",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "DRAFT.write"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Tax"
+  ],
+  "unique_angle": "Autonomous Form 1040 prep agent alongside cited tax research"
+ },
+ {
+  "cid": "G019",
+  "name": "TransLegal",
+  "primary": "INFRA.data",
+  "categories": [
+   "INFRA.data",
+   "DRAFT.write",
+   "RES.edu"
+  ],
+  "model": "infra",
+  "customers": [
+   "Large law firms",
+   "ALSPs/legal service providers",
+   "Business teams (non-lawyers)",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Lawyer-linguist terminology concept-mapped across ~75 jurisdictions"
+ },
+ {
+  "cid": "G007",
+  "name": "Trifolia",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "LIT.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Parallel Chilean judiciary case-law searches, available inside Claude/ChatGPT"
+ },
+ {
+  "cid": "G062",
+  "name": "TrustFoundry",
+  "primary": "RES.cite",
+  "categories": [
+   "RES.cite",
+   "RES.case",
+   "INFRA.data"
+  ],
+  "model": "infra",
+  "customers": [
+   "Small firms & solos",
+   "Business teams (non-lawyers)",
+   "Compliance teams"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "AI-native citator: case-treatment API for legal-AI builders from $50/month"
+ },
+ {
+  "cid": "G055",
+  "name": "Vals AI",
+  "primary": "INFRA.eval",
+  "categories": [
+   "INFRA.eval"
+  ],
+  "model": "infra",
+  "customers": [
+   "Large law firms",
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Independent VLAIR benchmarks using private held-out test data"
+ },
+ {
+  "cid": "G059",
+  "name": "VirgilHR",
+  "primary": "OPS.selfserve",
+  "categories": [
+   "OPS.selfserve",
+   "COMP.reg",
+   "DRAFT.auto"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Compliance teams",
+   "Government/courts"
+  ],
+  "practice": [
+   "Employment"
+  ],
+  "unique_angle": "Attorney-programmed state-specific HR compliance guidance embedded in BambooHR"
+ },
+ {
+  "cid": "G012",
+  "name": "Waias",
+  "primary": "CONS.a2j",
+  "categories": [
+   "CONS.a2j",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals",
+   "Legal aid/non-profits"
+  ],
+  "practice": [
+   "Family & estates",
+   "Criminal",
+   "Immigration",
+   "Real estate",
+   "Other"
+  ],
+  "unique_angle": "Women-focused subsidized legal consultations booked via WhatsApp"
+ },
+ {
+  "cid": "G050",
+  "name": "Wingman Law",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "CLAIM.demand",
+   "CLAIM.medical"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "YC-backed PI firm where attorneys direct in-house casework agents"
+ },
+ {
+  "cid": "C0686",
+  "name": "Zefort",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "CON.selfserve"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "SMBs",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Post-signature repository with built-in eIDAS strong e-signatures, EU-hosted"
+ }
+]

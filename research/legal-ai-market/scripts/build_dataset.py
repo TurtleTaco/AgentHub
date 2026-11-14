@@ -113,6 +113,13 @@ def apply_splits(tag, profile):
                 cats.remove(old)
                 if prim == old:
                     prim = new
+    # derived category: legal translation (added after tagging, ontology v1.2)
+    focus = (profile.get("focus_summary") or "").lower()
+    if any("translat" in c.lower() for c in profile.get("capabilities") or []) or "translat" in focus:
+        if "DRAFT.translate" not in cats:
+            cats.append("DRAFT.translate")
+        if "translat" in focus and prim in ("DRAFT.write", "ASSIST.copilot", None):
+            prim = "DRAFT.translate"
     return {**tag, "categories": cats, "primary": prim}
 
 

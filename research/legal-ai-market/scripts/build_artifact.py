@@ -86,6 +86,7 @@ def main():
     acquirers = sorted([{"name": k, "items": sorted(v, key=lambda x: -(x["year"] or 0))} for k, v in acq.items() if len(v) >= 2],
                        key=lambda x: (-len(x["items"]), x["name"]))
 
+    n_caps = len({x.lower() for c in companies for x in (c.get("capabilities") or [])})
     data = {
         "asOf": ont.get("as_of", "2026-11-14"),
         "stats": stats,
@@ -105,7 +106,7 @@ def main():
                 ["Merge & dedupe", "Domain and name normalisation plus manual alias fixes → 690 unique candidates."],
                 ["Verification: 4 agents + 1 gap hunter", "Checked existence, legal-AI scope (core / adjacent / out), status, acquirer, duplicates. Gap hunter added 68 missed companies."],
                 ["Profiling: 24 agents", "Focus, HQ, founding year, funding, headcount, and an exhaustive product + capability list per company, from web search plus model knowledge."],
-                ["Ontology design", "Built bottom-up from ~1,900 distinct capability phrases, grouped into 15 workflow domains and 66 categories."],
+                ["Ontology design", f"Built bottom-up from ~{n_caps:,} distinct capability phrases, grouped into {len(domains)} workflow domains and {sum(len(d['categories']) for d in domains)} categories."],
                 ["Tagging: 4 agents", "Each company assigned a main category, all active categories, business model, customers, practice areas and a one-line unique angle."],
                 ["Assembly", "Scripts join everything into one dataset and compute the mind map, overlap matrix and white-space metrics."],
             ],
