@@ -28,6 +28,24 @@ NAME_SUFFIXES = [
 ]
 
 
+# Manual alias merges found on review (prefix match on raw name -> canonical name)
+MANUAL_ALIASES = [
+    ("Leah (formerly ContractPodAi", "ContractPodAi (Leah)"),
+    ("LEAP Legal Software", "LEAP"),
+    ("LawY", "LEAP"),
+    ("Manifest OS / Manifest Law", "Manifest OS"),
+    ("Screens (by TermScout)", "TermScout"),
+    ("LexisNexis Intellectual Prop", "LexisNexis"),
+]
+
+
+def apply_alias(name):
+    for prefix, canon in MANUAL_ALIASES:
+        if name.strip().startswith(prefix):
+            return canon
+    return name
+
+
 def norm_domain(url):
     if not url:
         return None
@@ -85,6 +103,11 @@ def main():
             if not isinstance(item, dict) or not item.get("name"):
                 continue
             item["_slice"] = slice_id
+            orig = item["name"]
+            item["name"] = apply_alias(orig)
+            if item["name"] != orig:
+                item["website"] = None  # let the canonical record's website win
+                item.setdefault("_alias", orig)
             records.append(item)
     print(f"loaded {len(records)} raw records from {len(files)} files")
 
