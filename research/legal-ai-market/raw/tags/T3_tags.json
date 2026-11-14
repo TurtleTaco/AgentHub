@@ -3455,5 +3455,861 @@
    "Personal injury & mass torts"
   ],
   "unique_angle": "Source-linked summaries built for California QME/IME physicians"
+ },
+ {
+  "cid": "C0452",
+  "name": "MedRecords AI",
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims",
+   "Plaintiff/PI firms",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Insurance & benefits"
+  ],
+  "unique_angle": "Cited chronologies serving IMEs, nurse consultants and TPAs"
+ },
+ {
+  "cid": "C0459",
+  "name": "Miramis",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Employment",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Ex-Pocketlaw rebuilt AI-native with PLAI agent inside Word"
+ },
+ {
+  "cid": "C0465",
+  "name": "Modulos",
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map"
+  ],
+  "model": "point",
+  "customers": [
+   "Compliance teams",
+   "In-house legal",
+   "Financial institutions",
+   "Government/courts"
+  ],
+  "practice": [
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "ETH spin-off EU AI Act governance used by financial supervisors"
+ },
+ {
+  "cid": "C0479",
+  "name": "NICE Justice (NICE)",
+  "primary": "GOV.justice",
+  "categories": [
+   "GOV.justice"
+  ],
+  "model": "suite",
+  "customers": [
+   "Government/courts"
+  ],
+  "practice": [
+   "Criminal"
+  ],
+  "unique_angle": "Police-to-prosecutor digital evidence flow across 37M+ criminal cases"
+ },
+ {
+  "cid": "C0485",
+  "name": "Nuix",
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "COMP.invest",
+   "GOV.justice",
+   "COMP.privacy"
+  ],
+  "model": "suite",
+  "customers": [
+   "Government/courts",
+   "Large law firms",
+   "ALSPs/legal service providers",
+   "In-house legal",
+   "Compliance teams",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Litigation",
+   "Regulatory & compliance",
+   "Privacy & data",
+   "Criminal"
+  ],
+  "unique_angle": "Forensic-grade processing engine with law-enforcement base and graph analytics"
+ },
+ {
+  "cid": "C0492",
+  "name": "OnBoard",
+  "primary": "DEAL.entity",
+  "categories": [
+   "DEAL.entity"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Legal aid/non-profits",
+   "Financial institutions",
+   "Government/courts"
+  ],
+  "practice": [
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Board portal for 7,000+ organisations with human-led AI Minutes"
+ },
+ {
+  "cid": "C0494",
+  "name": "Oneflow",
+  "primary": "CON.selfserve",
+  "categories": [
+   "CON.selfserve",
+   "CON.clm",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "In-house legal"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Employment"
+  ],
+  "unique_angle": "Browser-native HTML contracts with Nordic BankID signing"
+ },
+ {
+  "cid": "C0495",
+  "name": "OneTrust",
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map",
+   "COMP.reg",
+   "COMP.invest"
+  ],
+  "model": "suite",
+  "customers": [
+   "Compliance teams",
+   "In-house legal",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Privacy & data",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Market-leading privacy breadth plus DataGuidance regulatory content"
+ },
+ {
+  "cid": "C0498",
+  "name": "OpenText eDiscovery (Axcelerate)",
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "COMP.invest"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "In-house legal",
+   "ALSPs/legal service providers",
+   "Government/courts"
+  ],
+  "practice": [
+   "Litigation",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Recommind predictive-coding pioneer plus EnCase forensics under OpenText"
+ },
+ {
+  "cid": "C0505",
+  "name": "Outlaw",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.selfserve",
+   "DRAFT.auto"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "SMBs",
+   "Mid-size law firms",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Browser draft-negotiate-sign contracts inside Filevine's platform"
+ },
+ {
+  "cid": "C0506",
+  "name": "Pactum",
+  "primary": "CON.draft",
+  "categories": [
+   "CON.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Autonomous chat-based supplier negotiations proven at Walmart scale"
+ },
+ {
+  "cid": "C0525",
+  "name": "Pierson Ferdinand",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "In-house legal",
+   "SMBs",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "Corporate & M&A",
+   "Litigation",
+   "Regulatory & compliance",
+   "Intellectual property",
+   "Real estate",
+   "Employment"
+  ],
+  "unique_angle": "Zero-associate remote national firm using Harvey instead of juniors"
+ },
+ {
+  "cid": "C0533",
+  "name": "Podqi",
+  "primary": "IP.enforce",
+  "categories": [
+   "IP.enforce"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "SMBs",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Converts marketplace infringers into retroactive licensing revenue"
+ },
+ {
+  "cid": "C0537",
+  "name": "Pramata",
+  "primary": "CON.extract",
+  "categories": [
+   "CON.extract",
+   "CON.clm",
+   "CON.review"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Links contract families and surfaces revenue leakage for sales/finance"
+ },
+ {
+  "cid": "C0540",
+  "name": "Precisely",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.selfserve",
+   "DRAFT.auto",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "SMBs"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Employment"
+  ],
+  "unique_angle": "Nordic CLM with local-language smart templates and self-service"
+ },
+ {
+  "cid": "C0550",
+  "name": "Qanlex",
+  "primary": "LIT.origination",
+  "categories": [
+   "LIT.origination"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals",
+   "SMBs",
+   "Plaintiff/PI firms",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Litigation",
+   "Employment"
+  ],
+  "unique_angle": "Case Miner ranks LatAm docket lawsuits for non-recourse funding"
+ },
+ {
+  "cid": "C0556",
+  "name": "Quimbee",
+  "primary": "RES.edu",
+  "categories": [
+   "RES.edu"
+  ],
+  "model": "point",
+  "customers": [
+   "Law students/academia",
+   "Small firms & solos",
+   "Large law firms"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Largest casebook-keyed brief library with AI essay grading"
+ },
+ {
+  "cid": "C0558",
+  "name": "Rasa Legal",
+  "primary": "CONS.a2j",
+  "categories": [
+   "CONS.a2j",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals",
+   "Legal aid/non-profits",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Criminal"
+  ],
+  "unique_angle": "Ex-public defender PBC automating expungement eligibility and petitions"
+ },
+ {
+  "cid": "C0561",
+  "name": "Red Oak",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Compliance teams",
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Banking & finance / funds"
+  ],
+  "unique_angle": "SEC 17a-4 marketing review leader merging with MirrorWeb archiving"
+ },
+ {
+  "cid": "C0564",
+  "name": "Regly",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "customers": [
+   "Compliance teams",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Banking & finance / funds"
+  ],
+  "unique_angle": "Fintech marketing review bundled with policy, employee, vendor compliance"
+ },
+ {
+  "cid": "C0568",
+  "name": "Rev",
+  "primary": "LIT.depo",
+  "categories": [
+   "LIT.depo"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Plaintiff/PI firms",
+   "Large law firms",
+   "Government/courts"
+  ],
+  "practice": [
+   "Litigation",
+   "Criminal",
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "Huge human-verified speech dataset plus SmartDepo summaries"
+ },
+ {
+  "cid": "C0577",
+  "name": "Saifr",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Compliance teams",
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Banking & finance / funds",
+   "Insurance & benefits"
+  ],
+  "unique_angle": "Fidelity-incubated compliance agent embedded in writing tools"
+ },
+ {
+  "cid": "C0583",
+  "name": "Secjur",
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "Compliance teams",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Privacy & data",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "DACH multi-regime compliance office: GDPR, NIS2, HinSchG, AML"
+ },
+ {
+  "cid": "C0584",
+  "name": "Sedric AI",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Compliance teams"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Banking & finance / funds"
+  ],
+  "unique_angle": "Real-time compliance guidance during live customer calls"
+ },
+ {
+  "cid": "C0593",
+  "name": "Sirion",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "suite",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Post-signature SLA/supplier performance management plus Eigen extraction"
+ },
+ {
+  "cid": "C0599",
+  "name": "Smith.ai",
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Plaintiff/PI firms",
+   "SMBs"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Personal injury & mass torts",
+   "Family & estates"
+  ],
+  "unique_angle": "Hybrid AI plus human receptionists with law-firm intake playbooks"
+ },
+ {
+  "cid": "C0612",
+  "name": "Stream Claims",
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical",
+   "CLAIM.benefits"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Insurance & benefits"
+  ],
+  "unique_angle": "Workers-comp claim document triage selected by California State Fund"
+ },
+ {
+  "cid": "C0628",
+  "name": "Theta Lake",
+  "primary": "COMP.invest",
+  "categories": [
+   "COMP.invest",
+   "LIT.ediscovery"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Compliance teams",
+   "In-house legal"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Banking & finance / funds"
+  ],
+  "unique_angle": "Multimodal video/voice/chat supervision including Copilot output"
+ },
+ {
+  "cid": "C0637",
+  "name": "Trackado",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "Business teams (non-lawyers)",
+   "In-house legal"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "Lightweight SMB CLM tracking contract financial values and milestones"
+ },
+ {
+  "cid": "C0641",
+  "name": "TransPerfect Legal",
+  "primary": "SERV.alsp",
+  "categories": [
+   "SERV.alsp",
+   "LIT.ediscovery",
+   "LIT.depo"
+  ],
+  "model": "services",
+  "customers": [
+   "Large law firms",
+   "In-house legal",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Litigation",
+   "Intellectual property"
+  ],
+  "unique_angle": "Global translation scale combined with eDiscovery and court reporting"
+ },
+ {
+  "cid": "C0642",
+  "name": "Trava",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "customers": [
+   "Compliance teams",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Audits every customs entry for HTS classification and duty refunds"
+ },
+ {
+  "cid": "C0645",
+  "name": "Trust & Will",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "CONS.selfhelp"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "Financial institutions",
+   "Small firms & solos",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "1M+ user consumer estate brand plus advisor and employer channels"
+ },
+ {
+  "cid": "C0646",
+  "name": "Trustible",
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Compliance teams",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Regulatory & compliance",
+   "Privacy & data"
+  ],
+  "unique_angle": "AI governance for legal owners with model transparency ratings"
+ },
+ {
+  "cid": "C0647",
+  "name": "Trusty",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "AI-guided non-binding letters of wishes via advisor channel"
+ },
+ {
+  "cid": "C0651",
+  "name": "Tyler Technologies",
+  "primary": "GOV.courts",
+  "categories": [
+   "GOV.courts",
+   "GOV.justice",
+   "CONS.a2j"
+  ],
+  "model": "suite",
+  "customers": [
+   "Government/courts"
+  ],
+  "practice": [
+   "Litigation",
+   "Criminal"
+  ],
+  "unique_angle": "Dominant US court case management and statewide e-filing networks"
+ },
+ {
+  "cid": "C0657",
+  "name": "Valid8 Financial",
+  "primary": "LIT.case",
+  "categories": [
+   "LIT.case",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Government/courts",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Litigation",
+   "Family & estates"
+  ],
+  "unique_angle": "Source-traced fund flows across bank, check and crypto records"
+ },
+ {
+  "cid": "C0659",
+  "name": "Vallor",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "COMP.privacy"
+  ],
+  "model": "point",
+  "customers": [
+   "Business teams (non-lawyers)",
+   "In-house legal",
+   "Compliance teams"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Privacy & data"
+  ],
+  "unique_angle": "Procurement-first contract agents with automated DPA review"
+ },
+ {
+  "cid": "C0660",
+  "name": "Vanilla",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Family & estates",
+   "Tax"
+  ],
+  "unique_angle": "Visual estate diagrams for advisors, backed by Vanguard and Edward Jones"
+ },
+ {
+  "cid": "C0664",
+  "name": "Verbit",
+  "primary": "LIT.depo",
+  "categories": [
+   "LIT.depo",
+   "GOV.courts"
+  ],
+  "model": "point",
+  "customers": [
+   "Government/courts",
+   "Large law firms",
+   "Mid-size law firms",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Litigation"
+  ],
+  "unique_angle": "Digital court reporting at scale addressing stenographer shortage"
+ },
+ {
+  "cid": "C0665",
+  "name": "Veriad",
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "customers": [
+   "Compliance teams",
+   "In-house legal",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Combined brand and legal review agent for pharma, finance, CPG"
+ },
+ {
+  "cid": "C0674",
+  "name": "Volody",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.review",
+   "CON.extract",
+   "COMP.map"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "India-focused agentic CLM with statutory compliance-tracking roots"
+ },
+ {
+  "cid": "C0678",
+  "name": "Wealth.com",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "customers": [
+   "Financial institutions",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Family & estates",
+   "Tax"
+  ],
+  "unique_angle": "Ester AI runs deterministic estate and tax calculations for advisors"
+ },
+ {
+  "cid": "C0681",
+  "name": "Wisedocs",
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "customers": [
+   "Insurers/claims",
+   "Mid-size law firms",
+   "Plaintiff/PI firms",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Insurance & benefits",
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "Clinically validated record summaries for insurers; TR Ventures-backed"
  }
 ]

@@ -419,7 +419,9 @@ function coListHTML(list, { showUA = true, primaryOf = null } = {}) {
   return list.map(c => `<li><button type="button" data-cid="${c.cid}"><span class="nm">${esc(c.name)}${c.status === 'acquired' ? ' <span class="pill acq">acquired</span>' : ''}${primaryOf && c.primary === primaryOf ? '' : ''}</span><span class="meta">${esc(coMeta(c))}</span>${showUA && c.unique_angle ? `<span class="ua">${esc(c.unique_angle)}</span>` : ''}</button></li>`).join('');
 }
 function wireCoList(el) { el.querySelectorAll('button[data-cid]').forEach(b => b.addEventListener('click', () => openDrawer(b.dataset.cid))); }
-const sortByRaised = (a, b) => (b.total_raised_usd_m || 0) - (a.total_raised_usd_m || 0) || a.name.localeCompare(b.name);
+const EMP_PROXY = { '5001+': 5000, '1001-5000': 1500, '501-1000': 400, '201-500': 120 };
+const scale = c => c.total_raised_usd_m != null ? c.total_raised_usd_m : (EMP_PROXY[c.employees_bin] || 0);
+const sortByRaised = (a, b) => scale(b) - scale(a) || a.name.localeCompare(b.name);
 
 /* ---------- overview ---------- */
 (function overview() {
@@ -451,7 +453,7 @@ const sortByRaised = (a, b) => (b.total_raised_usd_m || 0) - (a.total_raised_usd
   colChart($('#foundedCols'), years);
 
   const top = DATA.companies.filter(c => c.status !== 'acquired' && c.stage !== 'Public' && c.total_raised_usd_m).sort(sortByRaised).slice(0, 20);
-  $('#topFunded').innerHTML = top.map((c, i) => `<tr data-cid="${c.cid}"><td class="mono">${i + 1}</td><td><button class="linkish" type="button">${esc(c.name)}</button></td><td>${esc(catName(c.primary))}</td><td>${esc(c.hq_country || '—')}</td><td>${esc(c.stage)}</td><td class="r mono">${fmtM(c.total_raised_usd_m)}</td><td class="r mono">${fmtM(c.valuation_usd_m)}</td></tr>`).join('');
+  $('#topFunded').innerHTML = top.map((c, i) => `<tr data-cid="${c.cid}"><td class="mono">${i + 1}</td><td><button class="linkish" type="button">${esc(c.name)}</button>${c.scope === 'adjacent' ? ' <span class="pill">adjacent</span>' : ''}</td><td>${esc(catName(c.primary))}</td><td>${esc(c.hq_country || '—')}</td><td>${esc(c.stage)}</td><td class="r mono">${fmtM(c.total_raised_usd_m)}</td><td class="r mono">${fmtM(c.valuation_usd_m)}</td></tr>`).join('');
   $('#topFunded').querySelectorAll('tr').forEach(tr => tr.addEventListener('click', () => openDrawer(tr.dataset.cid)));
 
   $('#acqGrid').innerHTML = DATA.acquirers.map(a => `<div class="acq"><div class="who"><span>${esc(a.name)}</span><span class="mono">${a.items.length} deals</span></div>
@@ -577,7 +579,7 @@ function renderPanelDomain(id) {
   p.innerHTML = `<h3><i class="dot" style="background:${d.color}"></i> ${esc(d.name)}</h3>
     <p class="def">${d.count} companies active · ${d.primary_count} with it as main focus.</p>
     <div class="group-label">Categories</div><div class="bars mini-cats" id="pDom"></div>
-    <div class="group-label">Main players (by funding)</div><ul class="co-list" id="pDomList">${coListHTML(prim.slice(0, 30), { showUA: false })}</ul>`;
+    <div class="group-label">Main players (by scale: funding, or headcount if undisclosed)</div><ul class="co-list" id="pDomList">${coListHTML(prim.slice(0, 30), { showUA: false })}</ul>`;
   barRows($('#pDom'), rows, { onClick: r => { const n = mapRoot.children.find(x => x.data.id === id); const cn = (n.children || n._children).find(x => x.data.id === r.id); if (!n.children) { n.children = n._children; } onNodeClick(cn); } });
   wireCoList($('#pDomList'));
 }

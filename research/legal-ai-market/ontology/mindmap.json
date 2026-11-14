@@ -345,8 +345,8 @@
       "id": "RES.edu",
       "name": "Legal education & training",
       "def": "Bar prep, CLE, law-school and lawyer skills training using AI.",
-      "count": 8,
-      "primary_count": 2,
+      "count": 9,
+      "primary_count": 3,
       "companies": [
        "C0030",
        "C0070",
@@ -355,15 +355,17 @@
        "C0297",
        "C0380",
        "G023",
+       "C0556",
        "G019"
       ],
       "primary_companies": [
        "C0030",
-       "C0070"
+       "C0070",
+       "C0556"
       ]
      }
     ],
-    "count": 172
+    "count": 173
    },
    {
     "id": "ASSIST",
@@ -653,7 +655,7 @@
       "id": "DRAFT.auto",
       "name": "Document automation & assembly",
       "def": "Template-driven document generation, questionnaires, clause assembly.",
-      "count": 46,
+      "count": 48,
       "primary_count": 7,
       "companies": [
        "C0008",
@@ -693,6 +695,8 @@
        "C0471",
        "C0473",
        "C0500",
+       "C0505",
+       "C0540",
        "C0567",
        "G064",
        "C0594",
@@ -777,54 +781,23 @@
       "id": "DRAFT.translate",
       "name": "Legal translation",
       "def": "Machine/AI translation of legal documents, multilingual drafting and terminology.",
-      "count": 45,
+      "count": 14,
       "primary_count": 4,
       "companies": [
-       "C0009",
        "G067",
        "G026",
-       "C0035",
-       "C0077",
        "G018",
-       "C0129",
-       "C0171",
-       "C0177",
-       "C0181",
-       "G013",
-       "C0234",
-       "C0264",
-       "G065",
-       "C0279",
-       "C0280",
-       "C0295",
        "C0299",
-       "C0305",
-       "C0314",
-       "C0328",
-       "C0331",
-       "C0344",
        "G025",
-       "C0379",
        "C0380",
-       "C0384",
-       "C0397",
-       "G060",
-       "C0418",
-       "G015",
        "C0433",
-       "C0445",
        "C0455",
-       "C0458",
-       "C0483",
-       "C0520",
        "C0528",
        "G049",
        "C0555",
-       "C0566",
-       "C0569",
        "C0587",
        "G019",
-       "C0673"
+       "C0641"
       ],
       "primary_companies": [
        "G067",
@@ -834,7 +807,7 @@
       ]
      }
     ],
-    "count": 122
+    "count": 101
    },
    {
     "id": "CON",
@@ -845,8 +818,8 @@
       "id": "CON.draft",
       "name": "Contract drafting & negotiation",
       "def": "Draft contracts, redline, negotiate against playbooks, suggest fallback clauses.",
-      "count": 74,
-      "primary_count": 8,
+      "count": 77,
+      "primary_count": 9,
       "companies": [
        "G067",
        "C0015",
@@ -910,14 +883,17 @@
        "C0431",
        "C0435",
        "C0443",
+       "C0459",
        "C0469",
        "C0497",
+       "C0506",
        "C0528",
        "G049",
        "C0534",
        "C0551",
        "G053",
        "C0578",
+       "C0593",
        "C0606",
        "C0631",
        "C0683",
@@ -931,6 +907,7 @@
        "C0346",
        "C0354",
        "G016",
+       "C0506",
        "C0606"
       ]
      },
@@ -938,7 +915,7 @@
       "id": "CON.review",
       "name": "Contract review & risk analysis",
       "def": "AI review of contracts against playbooks/standards; NDA review; risk flagging.",
-      "count": 127,
+      "count": 131,
       "primary_count": 24,
       "companies": [
        "C0005",
@@ -1032,6 +1009,7 @@
        "C0435",
        "C0440",
        "C0443",
+       "C0459",
        "C0462",
        "C0469",
        "C0483",
@@ -1045,6 +1023,7 @@
        "G049",
        "C0530",
        "C0534",
+       "C0537",
        "C0551",
        "G034",
        "C0571",
@@ -1052,6 +1031,7 @@
        "C0578",
        "C0581",
        "G064",
+       "C0593",
        "C0595",
        "C0606",
        "C0608",
@@ -1064,6 +1044,7 @@
        "C0661",
        "C0666",
        "C0667",
+       "C0674",
        "C0680",
        "C0683",
        "C0684",
@@ -1100,8 +1081,8 @@
       "id": "CON.clm",
       "name": "CLM, repository & obligation management",
       "def": "Contract lifecycle workflows, repositories, approvals, obligations, renewals.",
-      "count": 66,
-      "primary_count": 35,
+      "count": 75,
+      "primary_count": 42,
       "companies": [
        "C0005",
        "C0015",
@@ -1157,15 +1138,24 @@
        "G002",
        "C0443",
        "C0445",
+       "C0459",
        "C0462",
+       "C0494",
        "C0496",
+       "C0505",
        "C0530",
        "C0534",
+       "C0537",
+       "C0540",
        "C0544",
        "C0548",
        "G064",
+       "C0593",
        "C0608",
        "C0615",
+       "C0637",
+       "C0659",
+       "C0674",
        "C0682",
        "C0686",
        "C0687"
@@ -1202,9 +1192,16 @@
        "C0401",
        "C0422",
        "C0443",
+       "C0459",
        "C0462",
+       "C0505",
+       "C0540",
+       "C0593",
        "C0608",
        "C0615",
+       "C0637",
+       "C0659",
+       "C0674",
        "C0686"
       ]
      },
@@ -1212,8 +1209,8 @@
       "id": "CON.extract",
       "name": "Contract data extraction & analytics",
       "def": "Extract metadata/clauses from contract portfolios; analytics; legacy migration; abstraction.",
-      "count": 60,
-      "primary_count": 8,
+      "count": 67,
+      "primary_count": 9,
       "companies": [
        "C0005",
        "C0015",
@@ -1268,11 +1265,18 @@
        "C0443",
        "C0448",
        "C0462",
+       "C0494",
+       "C0537",
+       "C0540",
+       "C0593",
        "G033",
        "C0608",
        "C0615",
        "C0625",
+       "C0637",
        "C0655",
+       "C0659",
+       "C0674",
        "C0686",
        "C0689"
       ],
@@ -1284,6 +1288,7 @@
        "C0214",
        "C0340",
        "C0341",
+       "C0537",
        "C0689"
       ]
      },
@@ -1291,8 +1296,8 @@
       "id": "CON.selfserve",
       "name": "Self-serve contracting & e-signature",
       "def": "Business-user contract generation, standard agreements, e-signing.",
-      "count": 36,
-      "primary_count": 4,
+      "count": 39,
+      "primary_count": 5,
       "companies": [
        "C0015",
        "G005",
@@ -1322,8 +1327,11 @@
        "G004",
        "C0393",
        "C0435",
+       "C0494",
+       "C0505",
        "G049",
        "C0530",
+       "C0540",
        "C0572",
        "C0604",
        "C0608",
@@ -1335,11 +1343,12 @@
        "C0102",
        "C0142",
        "G004",
+       "C0494",
        "C0687"
       ]
      }
     ],
-    "count": 183
+    "count": 193
    },
    {
     "id": "DEAL",
@@ -1443,8 +1452,8 @@
       "id": "DEAL.entity",
       "name": "Entity management & corporate governance",
       "def": "Entity records, board minutes, resolutions, corporate secretarial, cap tables.",
-      "count": 19,
-      "primary_count": 6,
+      "count": 20,
+      "primary_count": 7,
       "companies": [
        "C0039",
        "C0057",
@@ -1460,6 +1469,7 @@
        "C0384",
        "C0390",
        "C0461",
+       "C0492",
        "C0497",
        "G049",
        "G064",
@@ -1472,7 +1482,8 @@
        "C0091",
        "C0193",
        "C0194",
-       "C0247"
+       "C0247",
+       "C0492"
       ]
      },
      {
@@ -1529,7 +1540,7 @@
       ]
      }
     ],
-    "count": 77
+    "count": 78
    },
    {
     "id": "LIT",
@@ -1540,8 +1551,8 @@
       "id": "LIT.ediscovery",
       "name": "eDiscovery & document review",
       "def": "Processing, TAR/predictive coding, GenAI first-pass review, privilege, production.",
-      "count": 33,
-      "primary_count": 25,
+      "count": 37,
+      "primary_count": 27,
       "companies": [
        "C0031",
        "C0032",
@@ -1567,12 +1578,16 @@
        "C0435",
        "C0454",
        "C0478",
+       "C0485",
        "C0496",
+       "C0498",
        "C0546",
        "C0566",
        "C0569",
        "G043",
        "C0620",
+       "C0628",
+       "C0641",
        "C0655",
        "C0663",
        "C0690"
@@ -1597,6 +1612,8 @@
        "C0429",
        "C0454",
        "C0478",
+       "C0485",
+       "C0498",
        "C0546",
        "C0566",
        "C0569",
@@ -1609,8 +1626,8 @@
       "id": "LIT.case",
       "name": "Case analysis & fact development",
       "def": "Chronologies, case file Q&A, fact extraction, early case assessment, case strategy.",
-      "count": 43,
-      "primary_count": 15,
+      "count": 44,
+      "primary_count": 16,
       "companies": [
        "C0003",
        "C0004",
@@ -1654,7 +1671,8 @@
        "C0620",
        "C0630",
        "C0644",
-       "C0648"
+       "C0648",
+       "C0657"
       ],
       "primary_companies": [
        "C0003",
@@ -1671,7 +1689,8 @@
        "C0476",
        "C0499",
        "C0589",
-       "C0648"
+       "C0648",
+       "C0657"
       ]
      },
      {
@@ -1767,8 +1786,8 @@
       "id": "LIT.depo",
       "name": "Depositions & transcripts",
       "def": "Deposition prep, summaries, transcription, testimony analysis.",
-      "count": 26,
-      "primary_count": 10,
+      "count": 29,
+      "primary_count": 12,
       "companies": [
        "C0009",
        "C0030",
@@ -1790,12 +1809,15 @@
        "C0478",
        "C0499",
        "C0542",
+       "C0568",
        "C0596",
        "C0598",
        "C0610",
        "C0619",
        "C0620",
-       "C0648"
+       "C0641",
+       "C0648",
+       "C0664"
       ],
       "primary_companies": [
        "C0109",
@@ -1805,16 +1827,18 @@
        "C0227",
        "C0410",
        "C0542",
+       "C0568",
        "C0596",
        "C0598",
-       "C0610"
+       "C0610",
+       "C0664"
       ]
      },
      {
       "id": "LIT.trial",
       "name": "Trial prep & jury simulation",
       "def": "Trial presentation, exhibits, mock juries, judge/jury simulation, argument testing.",
-      "count": 19,
+      "count": 22,
       "primary_count": 4,
       "companies": [
        "C0009",
@@ -1830,11 +1854,14 @@
        "C0478",
        "C0499",
        "C0542",
+       "C0568",
        "C0596",
        "C0610",
        "C0619",
        "C0622",
+       "C0641",
        "C0644",
+       "C0664",
        "C0670"
       ],
       "primary_companies": [
@@ -1933,8 +1960,8 @@
       "id": "LIT.origination",
       "name": "Case origination & litigation finance",
       "def": "Detect legal violations/claims, mass-tort origination, litigation funding decisions.",
-      "count": 16,
-      "primary_count": 6,
+      "count": 17,
+      "primary_count": 7,
       "companies": [
        "C0004",
        "C0049",
@@ -1950,6 +1977,7 @@
        "C0381",
        "C0414",
        "C0509",
+       "C0550",
        "C0602",
        "C0627"
       ],
@@ -1959,11 +1987,12 @@
        "C0332",
        "C0333",
        "C0381",
-       "C0414"
+       "C0414",
+       "C0550"
       ]
      }
     ],
-    "count": 163
+    "count": 171
    },
    {
     "id": "CLAIM",
@@ -1974,8 +2003,8 @@
       "id": "CLAIM.medical",
       "name": "Medical record review & chronologies",
       "def": "Summarize/organize medical records, treatment gaps, medical chronologies.",
-      "count": 36,
-      "primary_count": 15,
+      "count": 39,
+      "primary_count": 18,
       "companies": [
        "C0037",
        "C0043",
@@ -2002,17 +2031,20 @@
        "C0411",
        "C0417",
        "C0451",
+       "C0452",
        "C0509",
        "C0522",
        "C0539",
        "C0545",
        "C0560",
+       "C0612",
        "C0616",
        "C0619",
        "C0624",
        "C0648",
        "C0677",
-       "G050"
+       "G050",
+       "C0681"
       ],
       "primary_companies": [
        "C0037",
@@ -2024,12 +2056,15 @@
        "C0389",
        "C0417",
        "C0451",
+       "C0452",
        "C0509",
        "C0560",
+       "C0612",
        "C0616",
        "C0619",
        "C0624",
-       "C0677"
+       "C0677",
+       "C0681"
       ]
      },
      {
@@ -2070,7 +2105,7 @@
       "id": "CLAIM.benefits",
       "name": "Benefits & insurance claims",
       "def": "SSDI, workers comp, insurance claim/coverage analysis.",
-      "count": 11,
+      "count": 12,
       "primary_count": 8,
       "companies": [
        "C0013",
@@ -2083,7 +2118,8 @@
        "C0191",
        "C0207",
        "C0411",
-       "G034"
+       "G034",
+       "C0612"
       ],
       "primary_companies": [
        "C0013",
@@ -2097,7 +2133,7 @@
       ]
      }
     ],
-    "count": 47
+    "count": 50
    },
    {
     "id": "IP",
@@ -2299,8 +2335,8 @@
       "id": "IP.enforce",
       "name": "Infringement detection & brand protection",
       "def": "Detect infringement/counterfeits, evidence of use, takedowns, licensing.",
-      "count": 23,
-      "primary_count": 9,
+      "count": 24,
+      "primary_count": 10,
       "companies": [
        "C0001",
        "C0020",
@@ -2319,6 +2355,7 @@
        "C0513",
        "C0519",
        "C0527",
+       "C0533",
        "C0555",
        "C0603",
        "C0611",
@@ -2334,12 +2371,13 @@
        "C0447",
        "C0513",
        "C0527",
+       "C0533",
        "C0611",
        "C0629"
       ]
      }
     ],
-    "count": 68
+    "count": 69
    },
    {
     "id": "COMP",
@@ -2350,7 +2388,7 @@
       "id": "COMP.reg",
       "name": "Regulatory change monitoring",
       "def": "Horizon scanning, regulatory alerts, regulatory intelligence.",
-      "count": 25,
+      "count": 26,
       "primary_count": 11,
       "companies": [
        "C0014",
@@ -2373,6 +2411,7 @@
        "C0461",
        "C0467",
        "C0486",
+       "C0495",
        "C0528",
        "C0563",
        "C0565",
@@ -2397,7 +2436,7 @@
       "id": "COMP.map",
       "name": "Obligation & policy mapping",
       "def": "Extract obligations from rules; map to policies/controls; gap analysis.",
-      "count": 20,
+      "count": 25,
       "primary_count": 2,
       "companies": [
        "C0047",
@@ -2415,10 +2454,15 @@
        "C0334",
        "C0363",
        "C0461",
+       "C0465",
        "C0481",
        "C0486",
+       "C0495",
        "C0548",
        "C0565",
+       "C0583",
+       "C0646",
+       "C0674",
        "C0675"
       ],
       "primary_companies": [
@@ -2430,8 +2474,8 @@
       "id": "COMP.agents",
       "name": "Compliance review agents",
       "def": "AI agents that review marketing, communications, transactions or documents for regulatory compliance.",
-      "count": 9,
-      "primary_count": 4,
+      "count": 15,
+      "primary_count": 10,
       "companies": [
        "C0072",
        "C0144",
@@ -2441,25 +2485,36 @@
        "C0275",
        "C0461",
        "C0481",
-       "C0530"
+       "C0530",
+       "C0561",
+       "C0564",
+       "C0577",
+       "C0584",
+       "C0642",
+       "C0665"
       ],
       "primary_companies": [
        "C0072",
        "C0273",
        "C0275",
-       "C0481"
+       "C0481",
+       "C0561",
+       "C0564",
+       "C0577",
+       "C0584",
+       "C0642",
+       "C0665"
       ]
      },
      {
       "id": "COMP.privacy",
-      "name": "Privacy, data protection & AI governance",
-      "def": "DPA review, privacy ops, AI risk governance & AI-law compliance.",
-      "count": 15,
-      "primary_count": 5,
+      "name": "Privacy & data protection",
+      "def": "DPA review, privacy ops, DSARs, data mapping and privacy-law compliance.",
+      "count": 17,
+      "primary_count": 6,
       "companies": [
        "C0066",
        "C0100",
-       "C0168",
        "C0176",
        "C0222",
        "C0239",
@@ -2469,24 +2524,52 @@
        "C0420",
        "C0437",
        "C0440",
-       "C0481",
        "C0484",
+       "C0485",
+       "C0495",
+       "C0583",
+       "C0659",
        "C0690"
       ],
       "primary_companies": [
        "C0066",
+       "C0176",
+       "C0290",
+       "C0437",
+       "C0495",
+       "C0583"
+      ]
+     },
+     {
+      "id": "COMP.aigov",
+      "name": "AI governance & AI-law compliance",
+      "def": "Inventory, assess and govern AI systems against the EU AI Act and similar rules; AI risk and policy management.",
+      "count": 10,
+      "primary_count": 3,
+      "companies": [
+       "C0066",
        "C0168",
        "C0176",
        "C0290",
-       "C0437"
+       "C0378",
+       "C0437",
+       "C0465",
+       "C0481",
+       "C0495",
+       "C0646"
+      ],
+      "primary_companies": [
+       "C0168",
+       "C0465",
+       "C0646"
       ]
      },
      {
       "id": "COMP.invest",
       "name": "Investigations & communications surveillance",
       "def": "Internal investigations, comms surveillance, misconduct risk.",
-      "count": 19,
-      "primary_count": 2,
+      "count": 28,
+      "primary_count": 3,
       "companies": [
        "C0032",
        "C0061",
@@ -2504,17 +2587,27 @@
        "C0342",
        "C0420",
        "C0454",
+       "C0485",
+       "C0495",
+       "C0498",
+       "C0561",
        "C0566",
        "C0569",
+       "C0577",
+       "C0583",
+       "C0584",
+       "C0628",
+       "C0657",
        "C0690"
       ],
       "primary_companies": [
        "C0061",
-       "C0144"
+       "C0144",
+       "C0628"
       ]
      }
     ],
-    "count": 61
+    "count": 77
    },
    {
     "id": "OPS",
@@ -2791,8 +2884,8 @@
       "id": "FIRM.intake",
       "name": "Client intake & AI receptionists",
       "def": "Capture and qualify inbound clients: AI receptionists, intake forms, conflict capture, scheduling.",
-      "count": 36,
-      "primary_count": 15,
+      "count": 37,
+      "primary_count": 16,
       "companies": [
        "C0008",
        "C0028",
@@ -2826,6 +2919,7 @@
        "C0370",
        "C0567",
        "G044",
+       "C0599",
        "C0600",
        "C0618",
        "C0624",
@@ -2846,6 +2940,7 @@
        "C0405",
        "C0370",
        "G044",
+       "C0599",
        "C0618"
       ]
      },
@@ -2990,7 +3085,7 @@
       ]
      }
     ],
-    "count": 110
+    "count": 111
    },
    {
     "id": "CONS",
@@ -3001,7 +3096,7 @@
       "id": "CONS.selfhelp",
       "name": "Consumer self-help legal",
       "def": "DIY legal documents/Q&A for individuals and small businesses.",
-      "count": 37,
+      "count": 38,
       "primary_count": 15,
       "companies": [
        "C0013",
@@ -3038,6 +3133,7 @@
        "C0597",
        "C0607",
        "C0635",
+       "C0645",
        "C0656",
        "C0668",
        "C0671"
@@ -3064,8 +3160,8 @@
       "id": "CONS.estate",
       "name": "Estate planning & family law",
       "def": "Wills, trusts, probate, divorce, custody.",
-      "count": 13,
-      "primary_count": 11,
+      "count": 17,
+      "primary_count": 15,
       "companies": [
        "C0044",
        "C0228",
@@ -3079,7 +3175,11 @@
        "C0597",
        "C0607",
        "G043",
-       "C0668"
+       "C0645",
+       "C0647",
+       "C0660",
+       "C0668",
+       "C0678"
       ],
       "primary_companies": [
        "C0044",
@@ -3092,7 +3192,11 @@
        "C0597",
        "C0607",
        "G043",
-       "C0668"
+       "C0645",
+       "C0647",
+       "C0660",
+       "C0668",
+       "C0678"
       ]
      },
      {
@@ -3191,8 +3295,8 @@
       "id": "CONS.a2j",
       "name": "Access-to-justice & legal aid tools",
       "def": "Tools for legal aid orgs, self-represented litigants, record clearance, eviction defense.",
-      "count": 12,
-      "primary_count": 5,
+      "count": 14,
+      "primary_count": 6,
       "companies": [
        "C0119",
        "C0150",
@@ -3202,7 +3306,9 @@
        "C0463",
        "C0529",
        "C0547",
+       "C0558",
        "C0594",
+       "C0651",
        "C0656",
        "C0658",
        "G012"
@@ -3210,13 +3316,14 @@
       "primary_companies": [
        "C0166",
        "C0547",
+       "C0558",
        "C0656",
        "C0658",
        "G012"
       ]
      }
     ],
-    "count": 80
+    "count": 86
    },
    {
     "id": "GOV",
@@ -3227,8 +3334,8 @@
       "id": "GOV.courts",
       "name": "Judicial & court AI",
       "def": "Tools for judges/clerks/courts: bench memos, court transcription, case management.",
-      "count": 7,
-      "primary_count": 4,
+      "count": 9,
+      "primary_count": 5,
       "companies": [
        "C0009",
        "C0224",
@@ -3236,28 +3343,35 @@
        "C0372",
        "C0416",
        "C0487",
-       "C0632"
+       "C0632",
+       "C0651",
+       "C0664"
       ],
       "primary_companies": [
        "C0009",
        "C0224",
        "C0372",
-       "C0632"
+       "C0632",
+       "C0651"
       ]
      },
      {
       "id": "GOV.justice",
       "name": "Criminal justice & public defense",
       "def": "Body-cam/evidence review for defenders/prosecutors, risk assessment.",
-      "count": 3,
-      "primary_count": 1,
+      "count": 6,
+      "primary_count": 2,
       "companies": [
        "C0224",
        "C0331",
-       "C0632"
+       "C0479",
+       "C0485",
+       "C0632",
+       "C0651"
       ],
       "primary_companies": [
-       "C0331"
+       "C0331",
+       "C0479"
       ]
      },
      {
@@ -3282,7 +3396,7 @@
       ]
      }
     ],
-    "count": 16
+    "count": 20
    },
    {
     "id": "SERV",
@@ -3293,8 +3407,8 @@
       "id": "SERV.lawfirm",
       "name": "AI-native law firms",
       "def": "Licensed law firms delivering legal services with AI at the core (flat fee/outcome pricing).",
-      "count": 35,
-      "primary_count": 26,
+      "count": 37,
+      "primary_count": 27,
       "companies": [
        "C0026",
        "C0051",
@@ -3324,6 +3438,8 @@
        "C0469",
        "C0481",
        "G039",
+       "C0525",
+       "C0558",
        "C0581",
        "C0604",
        "C0617",
@@ -3353,6 +3469,7 @@
        "C0419",
        "C0444",
        "C0469",
+       "C0525",
        "C0581",
        "C0604",
        "C0617",
@@ -3365,8 +3482,8 @@
       "id": "SERV.alsp",
       "name": "Tech-enabled ALSPs & managed services",
       "def": "Alternative legal service providers/managed review/legal process outsourcing using AI.",
-      "count": 37,
-      "primary_count": 9,
+      "count": 38,
+      "primary_count": 10,
       "companies": [
        "C0020",
        "C0029",
@@ -3404,6 +3521,7 @@
        "C0514",
        "C0546",
        "C0581",
+       "C0641",
        "C0655"
       ],
       "primary_companies": [
@@ -3415,11 +3533,12 @@
        "C0338",
        "C0375",
        "C0378",
+       "C0641",
        "C0655"
       ]
      }
     ],
-    "count": 70
+    "count": 73
    },
    {
     "id": "INFRA",
@@ -3518,9 +3637,9 @@
  },
  "domain_matrix": {
   "RES": {
-   "RES": 172,
+   "RES": 173,
    "ASSIST": 78,
-   "DRAFT": 66,
+   "DRAFT": 57,
    "CON": 55,
    "DEAL": 17,
    "LIT": 51,
@@ -3537,7 +3656,7 @@
   "ASSIST": {
    "RES": 78,
    "ASSIST": 135,
-   "DRAFT": 57,
+   "DRAFT": 48,
    "CON": 71,
    "DEAL": 24,
    "LIT": 25,
@@ -3552,32 +3671,32 @@
    "INFRA": 8
   },
   "DRAFT": {
-   "RES": 66,
-   "ASSIST": 57,
-   "DRAFT": 122,
-   "CON": 52,
-   "DEAL": 15,
-   "LIT": 21,
+   "RES": 57,
+   "ASSIST": 48,
+   "DRAFT": 101,
+   "CON": 46,
+   "DEAL": 10,
+   "LIT": 15,
    "CLAIM": 3,
-   "IP": 7,
-   "COMP": 11,
-   "OPS": 9,
-   "FIRM": 23,
-   "CONS": 12,
-   "GOV": 3,
-   "SERV": 1,
+   "IP": 2,
+   "COMP": 6,
+   "OPS": 8,
+   "FIRM": 20,
+   "CONS": 11,
+   "GOV": 1,
+   "SERV": 2,
    "INFRA": 5
   },
   "CON": {
    "RES": 55,
    "ASSIST": 71,
-   "DRAFT": 52,
-   "CON": 183,
+   "DRAFT": 46,
+   "CON": 193,
    "DEAL": 43,
    "LIT": 20,
    "CLAIM": 3,
    "IP": 2,
-   "COMP": 11,
+   "COMP": 13,
    "OPS": 26,
    "FIRM": 15,
    "CONS": 11,
@@ -3588,9 +3707,9 @@
   "DEAL": {
    "RES": 17,
    "ASSIST": 24,
-   "DRAFT": 15,
+   "DRAFT": 10,
    "CON": 43,
-   "DEAL": 77,
+   "DEAL": 78,
    "LIT": 6,
    "CLAIM": 0,
    "IP": 1,
@@ -3605,18 +3724,18 @@
   "LIT": {
    "RES": 51,
    "ASSIST": 25,
-   "DRAFT": 21,
+   "DRAFT": 15,
    "CON": 20,
    "DEAL": 6,
-   "LIT": 163,
+   "LIT": 171,
    "CLAIM": 20,
    "IP": 5,
-   "COMP": 18,
+   "COMP": 22,
    "OPS": 8,
    "FIRM": 26,
    "CONS": 12,
-   "GOV": 3,
-   "SERV": 23,
+   "GOV": 5,
+   "SERV": 24,
    "INFRA": 9
   },
   "CLAIM": {
@@ -3626,7 +3745,7 @@
    "CON": 3,
    "DEAL": 0,
    "LIT": 20,
-   "CLAIM": 47,
+   "CLAIM": 50,
    "IP": 0,
    "COMP": 0,
    "OPS": 2,
@@ -3639,12 +3758,12 @@
   "IP": {
    "RES": 1,
    "ASSIST": 5,
-   "DRAFT": 7,
+   "DRAFT": 2,
    "CON": 2,
    "DEAL": 1,
    "LIT": 5,
    "CLAIM": 0,
-   "IP": 68,
+   "IP": 69,
    "COMP": 0,
    "OPS": 2,
    "FIRM": 4,
@@ -3656,24 +3775,24 @@
   "COMP": {
    "RES": 9,
    "ASSIST": 7,
-   "DRAFT": 11,
-   "CON": 11,
+   "DRAFT": 6,
+   "CON": 13,
    "DEAL": 4,
-   "LIT": 18,
+   "LIT": 22,
    "CLAIM": 0,
    "IP": 0,
-   "COMP": 61,
+   "COMP": 77,
    "OPS": 7,
    "FIRM": 1,
    "CONS": 3,
-   "GOV": 5,
+   "GOV": 6,
    "SERV": 8,
    "INFRA": 3
   },
   "OPS": {
    "RES": 8,
    "ASSIST": 18,
-   "DRAFT": 9,
+   "DRAFT": 8,
    "CON": 26,
    "DEAL": 6,
    "LIT": 8,
@@ -3690,7 +3809,7 @@
   "FIRM": {
    "RES": 29,
    "ASSIST": 28,
-   "DRAFT": 23,
+   "DRAFT": 20,
    "CON": 15,
    "DEAL": 7,
    "LIT": 26,
@@ -3698,7 +3817,7 @@
    "IP": 4,
    "COMP": 1,
    "OPS": 9,
-   "FIRM": 110,
+   "FIRM": 111,
    "CONS": 16,
    "GOV": 2,
    "SERV": 5,
@@ -3707,7 +3826,7 @@
   "CONS": {
    "RES": 21,
    "ASSIST": 7,
-   "DRAFT": 12,
+   "DRAFT": 11,
    "CON": 11,
    "DEAL": 2,
    "LIT": 12,
@@ -3716,43 +3835,43 @@
    "COMP": 3,
    "OPS": 1,
    "FIRM": 16,
-   "CONS": 80,
-   "GOV": 1,
-   "SERV": 10,
+   "CONS": 86,
+   "GOV": 2,
+   "SERV": 11,
    "INFRA": 5
   },
   "GOV": {
    "RES": 9,
    "ASSIST": 3,
-   "DRAFT": 3,
+   "DRAFT": 1,
    "CON": 0,
    "DEAL": 0,
-   "LIT": 3,
+   "LIT": 5,
    "CLAIM": 0,
    "IP": 0,
-   "COMP": 5,
+   "COMP": 6,
    "OPS": 1,
    "FIRM": 2,
-   "CONS": 1,
-   "GOV": 16,
+   "CONS": 2,
+   "GOV": 20,
    "SERV": 1,
    "INFRA": 3
   },
   "SERV": {
    "RES": 4,
    "ASSIST": 3,
-   "DRAFT": 1,
+   "DRAFT": 2,
    "CON": 18,
    "DEAL": 12,
-   "LIT": 23,
+   "LIT": 24,
    "CLAIM": 8,
    "IP": 11,
    "COMP": 8,
    "OPS": 4,
    "FIRM": 5,
-   "CONS": 10,
+   "CONS": 11,
    "GOV": 1,
-   "SERV": 70,
+   "SERV": 73,
    "INFRA": 2
   },
   "INFRA": {
@@ -3811,7 +3930,7 @@
   {
    "a": "CON.draft",
    "b": "CON.review",
-   "count": 68
+   "count": 70
   },
   {
    "a": "ASSIST.copilot",
@@ -3819,19 +3938,19 @@
    "count": 50
   },
   {
-   "a": "DRAFT.write",
-   "b": "RES.case",
-   "count": 39
+   "a": "CON.clm",
+   "b": "CON.extract",
+   "count": 44
   },
   {
    "a": "CON.clm",
    "b": "CON.review",
-   "count": 38
+   "count": 42
   },
   {
-   "a": "CON.clm",
-   "b": "CON.extract",
-   "count": 37
+   "a": "DRAFT.write",
+   "b": "RES.case",
+   "count": 39
   },
   {
    "a": "CON.review",
@@ -3846,17 +3965,17 @@
   {
    "a": "CON.extract",
    "b": "CON.review",
-   "count": 29
+   "count": 32
+  },
+  {
+   "a": "CON.clm",
+   "b": "CON.selfserve",
+   "count": 31
   },
   {
    "a": "ASSIST.copilot",
    "b": "CON.review",
    "count": 29
-  },
-  {
-   "a": "CON.clm",
-   "b": "CON.selfserve",
-   "count": 28
   },
   {
    "a": "ASSIST.word",
@@ -3866,7 +3985,7 @@
   {
    "a": "CON.clm",
    "b": "CON.draft",
-   "count": 23
+   "count": 25
   },
   {
    "a": "ASSIST.word",
@@ -3876,11 +3995,6 @@
   {
    "a": "LIT.case",
    "b": "LIT.draft",
-   "count": 22
-  },
-  {
-   "a": "DRAFT.translate",
-   "b": "RES.case",
    "count": 22
   },
   {
@@ -3894,9 +4008,9 @@
    "count": 20
   },
   {
-   "a": "CON.review",
-   "b": "DRAFT.translate",
-   "count": 19
+   "a": "CON.extract",
+   "b": "CON.selfserve",
+   "count": 20
   },
   {
    "a": "CON.review",
@@ -3909,8 +4023,8 @@
    "count": 19
   },
   {
-   "a": "CON.extract",
-   "b": "CON.selfserve",
+   "a": "CON.draft",
+   "b": "CON.extract",
    "count": 18
   },
   {
@@ -3919,18 +4033,18 @@
    "count": 18
   },
   {
-   "a": "ASSIST.copilot",
-   "b": "DRAFT.translate",
+   "a": "COMP.invest",
+   "b": "LIT.ediscovery",
+   "count": 18
+  },
+  {
+   "a": "LIT.depo",
+   "b": "LIT.trial",
    "count": 17
   },
   {
    "a": "CON.review",
    "b": "DRAFT.auto",
-   "count": 17
-  },
-  {
-   "a": "CON.draft",
-   "b": "CON.extract",
    "count": 17
   },
   {
@@ -3949,8 +4063,13 @@
    "count": 15
   },
   {
-   "a": "COMP.invest",
-   "b": "LIT.ediscovery",
+   "a": "CON.clm",
+   "b": "DRAFT.auto",
+   "count": 15
+  },
+  {
+   "a": "COMP.map",
+   "b": "COMP.reg",
    "count": 15
   },
   {
@@ -3964,18 +4083,8 @@
    "count": 15
   },
   {
-   "a": "LIT.depo",
-   "b": "LIT.trial",
-   "count": 14
-  },
-  {
    "a": "CLAIM.demand",
    "b": "CLAIM.medical",
-   "count": 14
-  },
-  {
-   "a": "COMP.map",
-   "b": "COMP.reg",
    "count": 14
   },
   {
@@ -3994,7 +4103,7 @@
    "count": 13
   },
   {
-   "a": "CON.clm",
+   "a": "CON.selfserve",
    "b": "DRAFT.auto",
    "count": 13
   },
@@ -4006,6 +4115,16 @@
   {
    "a": "FIRM.pm",
    "b": "RES.case",
+   "count": 13
+  },
+  {
+   "a": "ASSIST.agents",
+   "b": "CON.review",
+   "count": 13
+  },
+  {
+   "a": "CON.review",
+   "b": "DRAFT.write",
    "count": 13
   }
  ],
@@ -4023,10 +4142,19 @@
    "id": "CON.review",
    "name": "Contract review & risk analysis",
    "domain": "CON",
-   "players": 127,
+   "players": 131,
    "primary_players": 24,
-   "specialists": 10,
+   "specialists": 11,
    "primary_raised_usd_m": 515.5
+  },
+  {
+   "id": "CON.draft",
+   "name": "Contract drafting & negotiation",
+   "domain": "CON",
+   "players": 77,
+   "primary_players": 9,
+   "specialists": 2,
+   "primary_raised_usd_m": 214.1
   },
   {
    "id": "ASSIST.copilot",
@@ -4038,22 +4166,22 @@
    "primary_raised_usd_m": 2940.4
   },
   {
-   "id": "CON.draft",
-   "name": "Contract drafting & negotiation",
-   "domain": "CON",
-   "players": 74,
-   "primary_players": 8,
-   "specialists": 1,
-   "primary_raised_usd_m": 114.1
-  },
-  {
    "id": "CON.clm",
    "name": "CLM, repository & obligation management",
    "domain": "CON",
-   "players": 66,
-   "primary_players": 35,
-   "specialists": 5,
-   "primary_raised_usd_m": 1473.8
+   "players": 75,
+   "primary_players": 42,
+   "specialists": 7,
+   "primary_raised_usd_m": 1665.0
+  },
+  {
+   "id": "CON.extract",
+   "name": "Contract data extraction & analytics",
+   "domain": "CON",
+   "players": 67,
+   "primary_players": 9,
+   "specialists": 13,
+   "primary_raised_usd_m": 162.5
   },
   {
    "id": "LIT.draft",
@@ -4065,13 +4193,13 @@
    "primary_raised_usd_m": 217.0
   },
   {
-   "id": "CON.extract",
-   "name": "Contract data extraction & analytics",
-   "domain": "CON",
-   "players": 60,
-   "primary_players": 8,
-   "specialists": 12,
-   "primary_raised_usd_m": 162.5
+   "id": "DRAFT.auto",
+   "name": "Document automation & assembly",
+   "domain": "DRAFT",
+   "players": 48,
+   "primary_players": 7,
+   "specialists": 2,
+   "primary_raised_usd_m": 11.3
   },
   {
    "id": "DRAFT.write",
@@ -4083,31 +4211,13 @@
    "primary_raised_usd_m": 26.0
   },
   {
-   "id": "DRAFT.auto",
-   "name": "Document automation & assembly",
-   "domain": "DRAFT",
-   "players": 46,
-   "primary_players": 7,
-   "specialists": 2,
-   "primary_raised_usd_m": 11.3
-  },
-  {
    "id": "FIRM.pm",
    "name": "Practice & case management",
    "domain": "FIRM",
    "players": 46,
    "primary_players": 24,
    "specialists": 3,
-   "primary_raised_usd_m": 187.3
-  },
-  {
-   "id": "DRAFT.translate",
-   "name": "Legal translation",
-   "domain": "DRAFT",
-   "players": 45,
-   "primary_players": 4,
-   "specialists": 5,
-   "primary_raised_usd_m": 11.3
+   "primary_raised_usd_m": 2087.3
   },
   {
    "id": "ASSIST.agents",
@@ -4119,22 +4229,31 @@
    "primary_raised_usd_m": 217.5
   },
   {
+   "id": "LIT.case",
+   "name": "Case analysis & fact development",
+   "domain": "LIT",
+   "players": 44,
+   "primary_players": 16,
+   "specialists": 7,
+   "primary_raised_usd_m": 172.4
+  },
+  {
    "id": "ASSIST.word",
    "name": "Word/Outlook embedded drafting tools",
    "domain": "ASSIST",
    "players": 43,
    "primary_players": 7,
-   "specialists": 2,
+   "specialists": 3,
    "primary_raised_usd_m": 51.1
   },
   {
-   "id": "LIT.case",
-   "name": "Case analysis & fact development",
-   "domain": "LIT",
-   "players": 43,
-   "primary_players": 15,
-   "specialists": 6,
-   "primary_raised_usd_m": 151.4
+   "id": "CON.selfserve",
+   "name": "Self-serve contracting & e-signature",
+   "domain": "CON",
+   "players": 39,
+   "primary_players": 5,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
   },
   {
    "id": "DEAL.dd",
@@ -4142,8 +4261,44 @@
    "domain": "DEAL",
    "players": 39,
    "primary_players": 12,
-   "specialists": 14,
+   "specialists": 15,
    "primary_raised_usd_m": 15.4
+  },
+  {
+   "id": "CLAIM.medical",
+   "name": "Medical record review & chronologies",
+   "domain": "CLAIM",
+   "players": 39,
+   "primary_players": 18,
+   "specialists": 20,
+   "primary_raised_usd_m": 184.5
+  },
+  {
+   "id": "CONS.selfhelp",
+   "name": "Consumer self-help legal",
+   "domain": "CONS",
+   "players": 38,
+   "primary_players": 15,
+   "specialists": 18,
+   "primary_raised_usd_m": 11.7
+  },
+  {
+   "id": "SERV.alsp",
+   "name": "Tech-enabled ALSPs & managed services",
+   "domain": "SERV",
+   "players": 38,
+   "primary_players": 10,
+   "specialists": 6,
+   "primary_raised_usd_m": 91.0
+  },
+  {
+   "id": "LIT.ediscovery",
+   "name": "eDiscovery & document review",
+   "domain": "LIT",
+   "players": 37,
+   "primary_players": 27,
+   "specialists": 11,
+   "primary_raised_usd_m": 537.6
   },
   {
    "id": "LIT.analytics",
@@ -4155,67 +4310,22 @@
    "primary_raised_usd_m": 65.9
   },
   {
-   "id": "CONS.selfhelp",
-   "name": "Consumer self-help legal",
-   "domain": "CONS",
-   "players": 37,
-   "primary_players": 15,
-   "specialists": 17,
-   "primary_raised_usd_m": 11.7
-  },
-  {
-   "id": "SERV.alsp",
-   "name": "Tech-enabled ALSPs & managed services",
-   "domain": "SERV",
-   "players": 37,
-   "primary_players": 9,
-   "specialists": 6,
-   "primary_raised_usd_m": 91.0
-  },
-  {
-   "id": "CON.selfserve",
-   "name": "Self-serve contracting & e-signature",
-   "domain": "CON",
-   "players": 36,
-   "primary_players": 4,
-   "specialists": 2,
-   "primary_raised_usd_m": 0
-  },
-  {
-   "id": "CLAIM.medical",
-   "name": "Medical record review & chronologies",
-   "domain": "CLAIM",
-   "players": 36,
-   "primary_players": 15,
-   "specialists": 17,
-   "primary_raised_usd_m": 161.7
-  },
-  {
    "id": "FIRM.intake",
    "name": "Client intake & AI receptionists",
    "domain": "FIRM",
-   "players": 36,
-   "primary_players": 15,
-   "specialists": 12,
+   "players": 37,
+   "primary_players": 16,
+   "specialists": 13,
    "primary_raised_usd_m": 40.3
   },
   {
    "id": "SERV.lawfirm",
    "name": "AI-native law firms",
    "domain": "SERV",
-   "players": 35,
-   "primary_players": 26,
-   "specialists": 18,
+   "players": 37,
+   "primary_players": 27,
+   "specialists": 20,
    "primary_raised_usd_m": 261.2
-  },
-  {
-   "id": "LIT.ediscovery",
-   "name": "eDiscovery & document review",
-   "domain": "LIT",
-   "players": 33,
-   "primary_players": 25,
-   "specialists": 8,
-   "primary_raised_usd_m": 537.6
   },
   {
    "id": "IP.search",
@@ -4223,7 +4333,7 @@
    "domain": "IP",
    "players": 33,
    "primary_players": 24,
-   "specialists": 15,
+   "specialists": 16,
    "primary_raised_usd_m": 465.4
   },
   {
@@ -4245,13 +4355,31 @@
    "primary_raised_usd_m": 182.0
   },
   {
+   "id": "LIT.depo",
+   "name": "Depositions & transcripts",
+   "domain": "LIT",
+   "players": 29,
+   "primary_players": 12,
+   "specialists": 8,
+   "primary_raised_usd_m": 720.4
+  },
+  {
    "id": "IP.draft",
    "name": "Patent drafting & prosecution",
    "domain": "IP",
    "players": 28,
    "primary_players": 13,
-   "specialists": 14,
+   "specialists": 15,
    "primary_raised_usd_m": 95.2
+  },
+  {
+   "id": "COMP.invest",
+   "name": "Investigations & communications surveillance",
+   "domain": "COMP",
+   "players": 28,
+   "primary_players": 3,
+   "specialists": 11,
+   "primary_raised_usd_m": 70.5
   },
   {
    "id": "RES.km",
@@ -4263,13 +4391,13 @@
    "primary_raised_usd_m": 61.1
   },
   {
-   "id": "LIT.depo",
-   "name": "Depositions & transcripts",
-   "domain": "LIT",
+   "id": "COMP.reg",
+   "name": "Regulatory change monitoring",
+   "domain": "COMP",
    "players": 26,
-   "primary_players": 10,
-   "specialists": 7,
-   "primary_raised_usd_m": 170.4
+   "primary_players": 11,
+   "specialists": 10,
+   "primary_raised_usd_m": 17.4
   },
   {
    "id": "OPS.intake",
@@ -4290,13 +4418,13 @@
    "primary_raised_usd_m": 70.9
   },
   {
-   "id": "COMP.reg",
-   "name": "Regulatory change monitoring",
+   "id": "COMP.map",
+   "name": "Obligation & policy mapping",
    "domain": "COMP",
    "players": 25,
-   "primary_players": 11,
-   "specialists": 9,
-   "primary_raised_usd_m": 17.4
+   "primary_players": 2,
+   "specialists": 10,
+   "primary_raised_usd_m": 28.5
   },
   {
    "id": "RES.content",
@@ -4308,6 +4436,15 @@
    "primary_raised_usd_m": 0
   },
   {
+   "id": "IP.enforce",
+   "name": "Infringement detection & brand protection",
+   "domain": "IP",
+   "players": 24,
+   "primary_players": 10,
+   "specialists": 12,
+   "primary_raised_usd_m": 120.3
+  },
+  {
    "id": "RES.cite",
    "name": "Citation checking & brief validation",
    "domain": "RES",
@@ -4317,13 +4454,13 @@
    "primary_raised_usd_m": 8.7
   },
   {
-   "id": "IP.enforce",
-   "name": "Infringement detection & brand protection",
-   "domain": "IP",
-   "players": 23,
-   "primary_players": 9,
-   "specialists": 11,
-   "primary_raised_usd_m": 117.1
+   "id": "LIT.trial",
+   "name": "Trial prep & jury simulation",
+   "domain": "LIT",
+   "players": 22,
+   "primary_players": 4,
+   "specialists": 8,
+   "primary_raised_usd_m": 4.1
   },
   {
    "id": "FIRM.comms",
@@ -4335,13 +4472,13 @@
    "primary_raised_usd_m": 11.6
   },
   {
-   "id": "COMP.map",
-   "name": "Obligation & policy mapping",
-   "domain": "COMP",
+   "id": "DEAL.entity",
+   "name": "Entity management & corporate governance",
+   "domain": "DEAL",
    "players": 20,
-   "primary_players": 2,
+   "primary_players": 7,
    "specialists": 7,
-   "primary_raised_usd_m": 28.5
+   "primary_raised_usd_m": 100.0
   },
   {
    "id": "INFRA.data",
@@ -4351,33 +4488,6 @@
    "primary_players": 5,
    "specialists": 5,
    "primary_raised_usd_m": 10.0
-  },
-  {
-   "id": "DEAL.entity",
-   "name": "Entity management & corporate governance",
-   "domain": "DEAL",
-   "players": 19,
-   "primary_players": 6,
-   "specialists": 6,
-   "primary_raised_usd_m": 0
-  },
-  {
-   "id": "LIT.trial",
-   "name": "Trial prep & jury simulation",
-   "domain": "LIT",
-   "players": 19,
-   "primary_players": 4,
-   "specialists": 7,
-   "primary_raised_usd_m": 4.1
-  },
-  {
-   "id": "COMP.invest",
-   "name": "Investigations & communications surveillance",
-   "domain": "COMP",
-   "players": 19,
-   "primary_players": 2,
-   "specialists": 4,
-   "primary_raised_usd_m": 2.5
   },
   {
    "id": "CLAIM.demand",
@@ -4398,22 +4508,40 @@
    "primary_raised_usd_m": 8.4
   },
   {
+   "id": "LIT.origination",
+   "name": "Case origination & litigation finance",
+   "domain": "LIT",
+   "players": 17,
+   "primary_players": 7,
+   "specialists": 10,
+   "primary_raised_usd_m": 57.1
+  },
+  {
    "id": "IP.portfolio",
    "name": "IP portfolio management & docketing",
    "domain": "IP",
    "players": 17,
    "primary_players": 4,
-   "specialists": 2,
+   "specialists": 3,
    "primary_raised_usd_m": 0
   },
   {
-   "id": "LIT.origination",
-   "name": "Case origination & litigation finance",
-   "domain": "LIT",
-   "players": 16,
+   "id": "COMP.privacy",
+   "name": "Privacy & data protection",
+   "domain": "COMP",
+   "players": 17,
    "primary_players": 6,
-   "specialists": 9,
-   "primary_raised_usd_m": 53.5
+   "specialists": 5,
+   "primary_raised_usd_m": 1019.4
+  },
+  {
+   "id": "CONS.estate",
+   "name": "Estate planning & family law",
+   "domain": "CONS",
+   "players": 17,
+   "primary_players": 15,
+   "specialists": 12,
+   "primary_raised_usd_m": 291.1
   },
   {
    "id": "OPS.selfserve",
@@ -4457,17 +4585,17 @@
    "domain": "DEAL",
    "players": 15,
    "primary_players": 5,
-   "specialists": 6,
+   "specialists": 7,
    "primary_raised_usd_m": 27.7
   },
   {
-   "id": "COMP.privacy",
-   "name": "Privacy, data protection & AI governance",
+   "id": "COMP.agents",
+   "name": "Compliance review agents",
    "domain": "COMP",
    "players": 15,
-   "primary_players": 5,
-   "specialists": 7,
-   "primary_raised_usd_m": 134.4
+   "primary_players": 10,
+   "specialists": 9,
+   "primary_raised_usd_m": 385.2
   },
   {
    "id": "FIRM.docket",
@@ -4477,6 +4605,24 @@
    "primary_players": 2,
    "specialists": 2,
    "primary_raised_usd_m": 0
+  },
+  {
+   "id": "DRAFT.translate",
+   "name": "Legal translation",
+   "domain": "DRAFT",
+   "players": 14,
+   "primary_players": 4,
+   "specialists": 1,
+   "primary_raised_usd_m": 11.3
+  },
+  {
+   "id": "CONS.a2j",
+   "name": "Access-to-justice & legal aid tools",
+   "domain": "CONS",
+   "players": 14,
+   "primary_players": 6,
+   "specialists": 5,
+   "primary_raised_usd_m": 9.8
   },
   {
    "id": "ASSIST.bulk",
@@ -4497,15 +4643,6 @@
    "primary_raised_usd_m": 33.7
   },
   {
-   "id": "CONS.estate",
-   "name": "Estate planning & family law",
-   "domain": "CONS",
-   "players": 13,
-   "primary_players": 11,
-   "specialists": 8,
-   "primary_raised_usd_m": 54.5
-  },
-  {
    "id": "DEAL.realestate",
    "name": "Real estate & lease abstraction",
    "domain": "DEAL",
@@ -4515,21 +4652,12 @@
    "primary_raised_usd_m": 119.0
   },
   {
-   "id": "CONS.a2j",
-   "name": "Access-to-justice & legal aid tools",
-   "domain": "CONS",
-   "players": 12,
-   "primary_players": 5,
-   "specialists": 4,
-   "primary_raised_usd_m": 2.7
-  },
-  {
    "id": "CLAIM.benefits",
    "name": "Benefits & insurance claims",
    "domain": "CLAIM",
-   "players": 11,
+   "players": 12,
    "primary_players": 8,
-   "specialists": 7,
+   "specialists": 8,
    "primary_raised_usd_m": 171.8
   },
   {
@@ -4551,22 +4679,31 @@
    "primary_raised_usd_m": 7.3
   },
   {
-   "id": "COMP.agents",
-   "name": "Compliance review agents",
+   "id": "COMP.aigov",
+   "name": "AI governance & AI-law compliance",
    "domain": "COMP",
-   "players": 9,
-   "primary_players": 4,
-   "specialists": 3,
-   "primary_raised_usd_m": 312.2
+   "players": 10,
+   "primary_players": 3,
+   "specialists": 6,
+   "primary_raised_usd_m": 64.7
   },
   {
    "id": "RES.edu",
    "name": "Legal education & training",
    "domain": "RES",
-   "players": 8,
-   "primary_players": 2,
-   "specialists": 1,
+   "players": 9,
+   "primary_players": 3,
+   "specialists": 2,
    "primary_raised_usd_m": 0
+  },
+  {
+   "id": "GOV.courts",
+   "name": "Judicial & court AI",
+   "domain": "GOV",
+   "players": 9,
+   "primary_players": 5,
+   "specialists": 2,
+   "primary_raised_usd_m": 5.0
   },
   {
    "id": "GOV.lawmaking",
@@ -4578,15 +4715,6 @@
    "primary_raised_usd_m": 10.9
   },
   {
-   "id": "GOV.courts",
-   "name": "Judicial & court AI",
-   "domain": "GOV",
-   "players": 7,
-   "primary_players": 4,
-   "specialists": 2,
-   "primary_raised_usd_m": 5.0
-  },
-  {
    "id": "LIT.adr",
    "name": "Arbitration & dispute resolution",
    "domain": "LIT",
@@ -4596,22 +4724,22 @@
    "primary_raised_usd_m": 35.2
   },
   {
+   "id": "GOV.justice",
+   "name": "Criminal justice & public defense",
+   "domain": "GOV",
+   "players": 6,
+   "primary_players": 2,
+   "specialists": 3,
+   "primary_raised_usd_m": 5.6
+  },
+  {
    "id": "INFRA.eval",
    "name": "Evaluation, security & trust tooling",
    "domain": "INFRA",
    "players": 5,
    "primary_players": 1,
-   "specialists": 2,
+   "specialists": 1,
    "primary_raised_usd_m": 45.0
-  },
-  {
-   "id": "GOV.justice",
-   "name": "Criminal justice & public defense",
-   "domain": "GOV",
-   "players": 3,
-   "primary_players": 1,
-   "specialists": 2,
-   "primary_raised_usd_m": 5.6
   }
  ]
 }

@@ -95,6 +95,9 @@ SPLITS = [  # (old category, new category, keywords for new, keywords that keep 
     ("LIT.depo", "LIT.trial",
      ["trial", "jury", "juror", "mock", "simulat", "exhibit", "courtroom", "argument"],
      ["deposition", "transcri", "testimony", "court report", "page-line", "witness", "summar"]),
+    ("COMP.privacy", "COMP.aigov",
+     ["ai governance", "ai act", "model risk", "ai risk", "responsible ai", "ai inventory", "ai policy", "bias", "ai system", "ai model"],
+     ["privacy", "gdpr", "dpa", "data protection", "dsar", "consent", "pii", "personal data", "data mapping", "ccpa"]),
 ]
 
 
@@ -115,7 +118,8 @@ def apply_splits(tag, profile):
                     prim = new
     # derived category: legal translation (added after tagging, ontology v1.2)
     focus = (profile.get("focus_summary") or "").lower()
-    if any("translat" in c.lower() for c in profile.get("capabilities") or []) or "translat" in focus:
+    n_tr = sum("translat" in c.lower() for c in profile.get("capabilities") or [])
+    if n_tr >= 2 or "translat" in focus:
         if "DRAFT.translate" not in cats:
             cats.append("DRAFT.translate")
         if "translat" in focus and prim in ("DRAFT.write", "ASSIST.copilot", None):
@@ -194,6 +198,13 @@ def main():
             "confidence": p.get("confidence"), "sources": (p.get("sources") or [])[:6], "notes": p.get("notes"),
         }
         companies.append(rec)
+    ov_path = J("data", "manual_overrides.json")
+    if os.path.exists(ov_path):
+        ov = {k: v for k, v in json.load(open(ov_path)).items() if not k.startswith("_")}
+        for r in companies:
+            if r["name"] in ov:
+                r.update(ov[r["name"]])
+                r["notes"] = ((r.get("notes") or "") + " [manual override: funding lower bound]").strip()
     companies.sort(key=lambda r: r["name"].lower())
 
     json.dump(companies, open(J("data", "companies.json"), "w"), indent=1, ensure_ascii=False)

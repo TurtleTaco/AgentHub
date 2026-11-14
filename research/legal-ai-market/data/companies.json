@@ -867,13 +867,11 @@
   "categories": [
    "GOV.courts",
    "LIT.depo",
-   "LIT.trial",
-   "DRAFT.translate"
+   "LIT.trial"
   ],
   "model": "point",
   "unique_angle": "Free nonprofit multilingual transcription in 6,000+ Indian courtrooms",
   "domains": [
-   "DRAFT",
    "GOV",
    "LIT"
   ],
@@ -4185,13 +4183,11 @@
   "news": [],
   "primary": "IP.search",
   "categories": [
-   "IP.search",
-   "DRAFT.translate"
+   "IP.search"
   ],
   "model": "point",
   "unique_angle": "Invention-text semantic search strong in Japanese/Asian patents",
   "domains": [
-   "DRAFT",
    "IP"
   ],
   "primary_domain": "IP",
@@ -7554,7 +7550,8 @@
   ],
   "primary": "COMP.privacy",
   "categories": [
-   "COMP.privacy"
+   "COMP.privacy",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "Collaborative advisor-client workspace for GDPR and AI Act records",
@@ -8650,8 +8647,7 @@
    "FIRM.pm",
    "CONS.market",
    "CONS.selfhelp",
-   "ASSIST.agents",
-   "DRAFT.translate"
+   "ASSIST.agents"
   ],
   "model": "suite",
   "unique_angle": "Japan's largest legal portal plus CloudSign e-contract footprint",
@@ -8659,7 +8655,6 @@
    "ASSIST",
    "CON",
    "CONS",
-   "DRAFT",
    "FIRM",
    "RES"
   ],
@@ -15928,8 +15923,7 @@
    "ASSIST.word",
    "CON.draft",
    "CON.review",
-   "DRAFT.write",
-   "DRAFT.translate"
+   "DRAFT.write"
   ],
   "model": "point",
   "unique_angle": "Deep multilingual clause-logic engine, now LawVu Draft",
@@ -16531,8 +16525,8 @@
   "employees_as_of": "2026",
   "stage_raw": "Series G",
   "stage": "Series D+",
-  "total_raised_usd_m": null,
-  "total_raised_text": "Multi-billion total incl. $900M (2024) and $500M Series G (Nov 2025) plus $350M debt facility",
+  "total_raised_usd_m": 1400,
+  "total_raised_text": "≥ $1.4B (lower bound: $900M Series F 2024 + $500M Series G Nov 2025, excl. earlier rounds and $350M debt)",
   "last_round": {
    "type": "Series G",
    "amount_usd_m": 500.0,
@@ -16734,7 +16728,7 @@
    "https://pitchbook.com/profiles/company/53743-87",
    "https://www.geekwire.com/2025/vancouver-b-c-based-legal-tech-company-clio-hits-5b-valuation-after-acquiring-vlex/"
   ],
-  "notes": "Series G lead (NEA) and investor list partly from memory. Total raised not summed (null). ShareDo/Clio Operate from prior knowledge; vLex may be profiled separately. Office list approximate."
+  "notes": "Series G lead (NEA) and investor list partly from memory. Total raised not summed (null). ShareDo/Clio Operate from prior knowledge; vLex may be profiled separately. Office list approximate. [manual override: funding lower bound]"
  },
  {
   "cid": "C0137",
@@ -20801,10 +20795,10 @@
    "2026-05: GAIA governance assistant generally available",
    "2026-07: launched Agent Governor"
   ],
-  "primary": "COMP.privacy",
+  "primary": "COMP.aigov",
   "categories": [
-   "COMP.privacy",
-   "COMP.map"
+   "COMP.map",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "Regulation-to-control policy packs plus agentic AI Agent Governor",
@@ -21229,14 +21223,12 @@
   "primary": "COMP.reg",
   "categories": [
    "COMP.reg",
-   "COMP.map",
-   "DRAFT.translate"
+   "COMP.map"
   ],
   "model": "point",
   "unique_angle": "180+ jurisdictions, 60 languages; absorbed TR Regulatory Intelligence",
   "domains": [
-   "COMP",
-   "DRAFT"
+   "COMP"
   ],
   "primary_domain": "COMP",
   "confidence": "medium",
@@ -22032,7 +22024,8 @@
   ],
   "primary": "COMP.privacy",
   "categories": [
-   "COMP.privacy"
+   "COMP.privacy",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "Huge integration library for DSAR fulfillment plus Vera privacy agent",
@@ -22206,14 +22199,12 @@
   "primary": "DEAL.dd",
   "categories": [
    "DEAL.dd",
-   "DEAL.closing",
-   "DRAFT.translate"
+   "DEAL.closing"
   ],
   "model": "suite",
   "unique_angle": "Sourcing-to-diligence platform with proprietary Grata private-market data",
   "domains": [
-   "DEAL",
-   "DRAFT"
+   "DEAL"
   ],
   "primary_domain": "DEAL",
   "confidence": "medium",
@@ -22846,14 +22837,12 @@
   "primary": "IP.draft",
   "categories": [
    "IP.draft",
-   "ASSIST.word",
-   "DRAFT.translate"
+   "ASSIST.word"
   ],
   "model": "point",
   "unique_angle": "Word-native patent drafting used by 400+ firms and IP teams",
   "domains": [
    "ASSIST",
-   "DRAFT",
    "IP"
   ],
   "primary_domain": "IP",
@@ -27869,8 +27858,7 @@
    "DRAFT.auto",
    "CON.review",
    "RES.km",
-   "DEAL.dd",
-   "DRAFT.translate"
+   "DEAL.dd"
   ],
   "model": "platform",
   "unique_angle": "Hogan Lovells-owned tech arm selling regulatory-change AI to clients",
@@ -30208,14 +30196,12 @@
    "LIT.case",
    "LIT.depo",
    "COMP.invest",
-   "LIT.draft",
-   "DRAFT.translate"
+   "LIT.draft"
   ],
   "model": "suite",
   "unique_angle": "Corpus-scale Deep Dive Q&A; strong public-sector footprint",
   "domains": [
    "COMP",
-   "DRAFT",
    "LIT"
   ],
   "primary_domain": "LIT",
@@ -31585,8 +31571,8 @@
   "employees_as_of": "2026",
   "stage_raw": "Series E",
   "stage": "Series D+",
-  "total_raised_usd_m": null,
-  "total_raised_text": ">$500M total; $400M in 2025 ($260M Series E + $140M Series D-2)",
+  "total_raised_usd_m": 500,
+  "total_raised_text": "> $500M total (lower bound per profile; incl. $400M in 2025)",
   "last_round": {
    "type": "Series E",
    "amount_usd_m": 400.0,
@@ -31786,7 +31772,7 @@
    "https://www.privsource.com/acquisitions/deal/D8S9dV",
    "https://filevine.com/blog/what-makes-a-strong-medical-chronology-and-how-ai-can-build-one-automatically/"
   ],
-  "notes": "Valuation reports conflict ($2B-$5B; ~$3B commonly cited). Total raised and co-founders not confirmed; investors beyond 2025 round from knowledge."
+  "notes": "Valuation reports conflict ($2B-$5B; ~$3B commonly cited). Total raised and co-founders not confirmed; investors beyond 2025 round from knowledge. [manual override: funding lower bound]"
  },
  {
   "cid": "C0249",
@@ -33727,8 +33713,7 @@
    "ASSIST.word",
    "RES.case",
    "DRAFT.write",
-   "RES.edu",
-   "DRAFT.translate"
+   "RES.edu"
   ],
   "model": "platform",
   "unique_angle": "Built by former in-house counsel exclusively for GCs",
@@ -34217,8 +34202,7 @@
    "DRAFT.auto",
    "CON.extract",
    "CON.selfserve",
-   "RES.case",
-   "DRAFT.translate"
+   "RES.case"
   ],
   "model": "point",
   "unique_angle": "French CLM bundled with cited French-law Q&A (GinLaws)",
@@ -35762,8 +35746,7 @@
    "CON.draft",
    "CON.review",
    "FIRM.pm",
-   "FIRM.billing",
-   "DRAFT.translate"
+   "FIRM.billing"
   ],
   "model": "platform",
   "unique_angle": "Arabic-first legal engine bundled with MENA practice management",
@@ -36024,8 +36007,7 @@
    "CON.review",
    "CON.draft",
    "DEAL.dd",
-   "LIT.case",
-   "DRAFT.translate"
+   "LIT.case"
   ],
   "model": "platform",
   "unique_angle": "Scale leader: ~80% of top US firms plus LexisNexis content alliance",
@@ -36033,7 +36015,6 @@
    "ASSIST",
    "CON",
    "DEAL",
-   "DRAFT",
    "LIT",
    "RES"
   ],
@@ -37100,7 +37081,8 @@
   ],
   "primary": "COMP.privacy",
   "categories": [
-   "COMP.privacy"
+   "COMP.privacy",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "UCL-rooted hands-on AI audits plus open-source bias toolkit",
@@ -37874,13 +37856,11 @@
   ],
   "primary": "IP.search",
   "categories": [
-   "IP.search",
-   "DRAFT.translate"
+   "IP.search"
   ],
   "model": "point",
   "unique_angle": "Affordable patent intelligence SaaS with AI claim-term clarifier",
   "domains": [
-   "DRAFT",
    "IP"
   ],
   "primary_domain": "IP",
@@ -39651,14 +39631,12 @@
   "categories": [
    "DEAL.dd",
    "DEAL.closing",
-   "DEAL.funds",
-   "DRAFT.translate"
+   "DEAL.funds"
   ],
   "model": "suite",
   "unique_angle": "MCP gateway giving Harvey/Hebbia governed access to deal data",
   "domains": [
-   "DEAL",
-   "DRAFT"
+   "DEAL"
   ],
   "primary_domain": "DEAL",
   "confidence": "medium",
@@ -41029,8 +41007,7 @@
    "RES.case",
    "DRAFT.write",
    "CON.draft",
-   "CON.review",
-   "DRAFT.translate"
+   "CON.review"
   ],
   "model": "platform",
   "unique_angle": "France 2030-backed sovereign drafting engine for French lawyers",
@@ -42656,13 +42633,11 @@
   "categories": [
    "LIT.adr",
    "RES.case",
-   "RES.content",
-   "DRAFT.translate"
+   "RES.content"
   ],
   "model": "point",
   "unique_angle": "Largest arbitration corpus; specialist research agent embedded inside Harvey",
   "domains": [
-   "DRAFT",
    "LIT",
    "RES"
   ],
@@ -43087,13 +43062,11 @@
   ],
   "primary": "GOV.justice",
   "categories": [
-   "GOV.justice",
-   "DRAFT.translate"
+   "GOV.justice"
   ],
   "model": "point",
   "unique_angle": "Bodycam, interrogation and jail-call transcription built for public defenders",
   "domains": [
-   "DRAFT",
    "GOV"
   ],
   "primary_domain": "GOV",
@@ -44886,13 +44859,11 @@
   ],
   "primary": "RES.case",
   "categories": [
-   "RES.case",
-   "DRAFT.translate"
+   "RES.case"
   ],
   "model": "point",
   "unique_angle": "Bilingual Arabic/English research across Qatar, UAE, Saudi and Egyptian law",
   "domains": [
-   "DRAFT",
    "RES"
   ],
   "primary_domain": "RES",
@@ -49832,7 +49803,8 @@
   "categories": [
    "SERV.alsp",
    "COMP.privacy",
-   "CONS.market"
+   "CONS.market",
+   "COMP.aigov"
   ],
   "model": "services",
   "unique_angle": "Vetted 20-country lawyer network plus outsourced DPO for tech startups",
@@ -50127,15 +50099,13 @@
    "ASSIST.bulk",
    "ASSIST.agents",
    "RES.case",
-   "ASSIST.word",
-   "DRAFT.translate"
+   "ASSIST.word"
   ],
   "model": "platform",
   "unique_angle": "Pseudonymises data before LLM processing; strong finance/insurance traction",
   "domains": [
    "ASSIST",
    "CON",
-   "DRAFT",
    "RES"
   ],
   "primary_domain": "ASSIST",
@@ -50791,8 +50761,7 @@
    "CON.draft",
    "CON.clm",
    "OPS.intake",
-   "DEAL.entity",
-   "DRAFT.translate"
+   "DEAL.entity"
   ],
   "model": "platform",
   "unique_angle": "Attorney-built playbooks; large Japanese base expanding to US/UK",
@@ -50800,7 +50769,6 @@
    "ASSIST",
    "CON",
    "DEAL",
-   "DRAFT",
    "OPS"
   ],
   "primary_domain": "CON",
@@ -52698,8 +52666,7 @@
    "CON.review",
    "CON.draft",
    "DEAL.dd",
-   "FIRM.comms",
-   "DRAFT.translate"
+   "FIRM.comms"
   ],
   "model": "platform",
   "unique_angle": "Collaborative workspace with client portal; fastest-scaling European legal AI",
@@ -52707,7 +52674,6 @@
    "ASSIST",
    "CON",
    "DEAL",
-   "DRAFT",
    "FIRM",
    "RES"
   ],
@@ -54487,15 +54453,13 @@
    "RES.case",
    "ASSIST.copilot",
    "CON.draft",
-   "CON.review",
-   "DRAFT.translate"
+   "CON.review"
   ],
   "model": "platform",
   "unique_angle": "India-specific legal LLM on 10M+ judgments with deep tax coverage",
   "domains": [
    "ASSIST",
    "CON",
-   "DRAFT",
    "RES"
   ],
   "primary_domain": "RES",
@@ -55517,8 +55481,7 @@
    "RES.case",
    "DRAFT.write",
    "CON.review",
-   "ASSIST.agents",
-   "DRAFT.translate"
+   "ASSIST.agents"
   ],
   "model": "platform",
   "unique_angle": "German workspace now Wolters Kluwer's pan-European, content-grounded assistant",
@@ -56252,14 +56215,12 @@
   "primary": "CON.review",
   "categories": [
    "CON.review",
-   "CON.clm",
-   "DRAFT.translate"
+   "CON.clm"
   ],
   "model": "point",
   "unique_angle": "Party-position redlines plus Japan subcontract-act checker for SMEs",
   "domains": [
-   "CON",
-   "DRAFT"
+   "CON"
   ],
   "primary_domain": "CON",
   "confidence": "medium",
@@ -58067,7 +58028,8 @@
   "primary": "COMP.privacy",
   "categories": [
    "COMP.privacy",
-   "INFRA.eval"
+   "INFRA.eval",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "Automated legal-risk testing of GenAI, bundled with ZwillGen counsel",
@@ -59189,8 +59151,7 @@
    "RES.content",
    "ASSIST.copilot",
    "COMP.reg",
-   "CON.clm",
-   "DRAFT.translate"
+   "CON.clm"
   ],
   "model": "suite",
   "unique_angle": "Proprietary 25-year Indian corpus extended into compliance and CLM",
@@ -59198,7 +59159,6 @@
    "ASSIST",
    "COMP",
    "CON",
-   "DRAFT",
    "RES"
   ],
   "primary_domain": "RES",
@@ -59924,9 +59884,8 @@
    "Mid-size law firms"
   ],
   "practice": [
-   "Personal injury",
-   "Workers' compensation",
-   "Insurance defense"
+   "Personal injury & mass torts",
+   "Insurance & benefits"
   ],
   "jurisdictions": [
    "US"
@@ -59960,12 +59919,16 @@
    "Serves IMEs, nurse consultants and TPAs"
   ],
   "news": [],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "unique_angle": "Cited chronologies serving IMEs, nurse consultants and TPAs",
+  "domains": [
+   "CLAIM"
+  ],
+  "primary_domain": "CLAIM",
   "confidence": "low",
   "sources": [
    "https://www.legaltechnologyhub.com/vendors/medrecords-ai/",
@@ -60674,13 +60637,11 @@
   "primary": "IP.search",
   "categories": [
    "IP.search",
-   "IP.portfolio",
-   "DRAFT.translate"
+   "IP.portfolio"
   ],
   "model": "suite",
   "unique_angle": "PatBase family-grouped global coverage with deep chemical structure search",
   "domains": [
-   "DRAFT",
    "IP"
   ],
   "primary_domain": "IP",
@@ -60727,7 +60688,7 @@
   "practice": [
    "Commercial contracts",
    "Employment",
-   "Corporate"
+   "Corporate & M&A"
   ],
   "jurisdictions": [
    "SE",
@@ -60808,12 +60769,18 @@
   "news": [
    "2026-02: Pocketlaw rebranded to Miramis Technologies, AI-native CLM"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "point",
+  "unique_angle": "Ex-Pocketlaw rebuilt AI-native with PLAI agent inside Word",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "medium",
   "sources": [
    "https://miramis.co/content-hub/pocketlaw-becomes-miramis",
@@ -61418,8 +61385,7 @@
    "Government/courts"
   ],
   "practice": [
-   "AI regulation",
-   "Regulatory/compliance"
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "EU",
@@ -61488,12 +61454,17 @@
    "2026-06: honorable mention in Gartner MQ for AI Governance Platforms",
    "2026-08: selected by Slovenia's A-ZN; founding member of PACT AI"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.aigov",
+  "categories": [
+   "COMP.map",
+   "COMP.aigov"
+  ],
+  "model": "point",
+  "unique_angle": "ETH spin-off EU AI Act governance used by financial supervisors",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://modulos.ai/press-releases/modulos-raises-8-7m-ai-governance-platform",
@@ -63159,7 +63130,7 @@
    "Government/courts"
   ],
   "practice": [
-   "Criminal law"
+   "Criminal"
   ],
   "jurisdictions": [
    "US",
@@ -63237,12 +63208,16 @@
    "2025-04: Hidalgo County DA adopted NiCE Justice",
    "2025-07: Evidencentral passed 37M cases / 240M evidence items"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "GOV.justice",
+  "categories": [
+   "GOV.justice"
+  ],
+  "model": "suite",
+  "unique_angle": "Police-to-prosecutor digital evidence flow across 37M+ criminal cases",
+  "domains": [
+   "GOV"
+  ],
+  "primary_domain": "GOV",
   "confidence": "medium",
   "sources": [
    "https://www.nice.com/press-releases/nices-evidencentral-surpasses-milestone-of-supporting-over-37-million-active-criminal-cases-and-240-million-evidence-items",
@@ -63512,8 +63487,8 @@
   "categories": [
    "COMP.agents",
    "SERV.lawfirm",
-   "COMP.privacy",
-   "COMP.map"
+   "COMP.map",
+   "COMP.aigov"
   ],
   "model": "point",
   "unique_angle": "Regulation-encoded compliance agents plus affiliated AI-native Norm Law firm",
@@ -63760,8 +63735,7 @@
    "RES.case",
    "INFRA.models",
    "DRAFT.write",
-   "CON.review",
-   "DRAFT.translate"
+   "CON.review"
   ],
   "model": "platform",
   "unique_angle": "Own EU-hosted legal LLMs with exclusive C.H.Beck and MANZ content",
@@ -63922,10 +63896,10 @@
    "Financial institutions"
   ],
   "practice": [
-   "eDiscovery",
-   "Investigations",
-   "Privacy/data protection",
-   "Litigation"
+   "Litigation",
+   "Regulatory & compliance",
+   "Privacy & data",
+   "Criminal"
   ],
   "jurisdictions": [
    "Global"
@@ -64021,12 +63995,21 @@
    "2026-04: completed EUR 24M Linkurious acquisition",
    "2026-08: FY26 revenue A$263.2M (+18.8%); Neo ACV A$78.5M"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "COMP.invest",
+   "GOV.justice",
+   "COMP.privacy"
+  ],
+  "model": "suite",
+  "unique_angle": "Forensic-grade processing engine with law-enforcement base and graph analytics",
+  "domains": [
+   "COMP",
+   "GOV",
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "high",
   "sources": [
    "https://www.techpartner.news/news/nuix-sees-revenue-jump-close-to-20-in-fy26-628420",
@@ -64575,7 +64558,7 @@
    "Government/courts"
   ],
   "practice": [
-   "Corporate governance"
+   "Corporate & M&A"
   ],
   "jurisdictions": [
    "US",
@@ -64650,12 +64633,16 @@
    "2026-06: AI Minutes generally available",
    "2026-07: 7,000+ organisations"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "DEAL.entity",
+  "categories": [
+   "DEAL.entity"
+  ],
+  "model": "point",
+  "unique_angle": "Board portal for 7,000+ organisations with human-led AI Minutes",
+  "domains": [
+   "DEAL"
+  ],
+  "primary_domain": "DEAL",
   "confidence": "medium",
   "sources": [
    "https://www.onboardmeetings.com/onboard-ai-announcement/",
@@ -64891,12 +64878,18 @@
    "2026-02: 2025 revenue SEK 212.6M (+21%), near EBITDA break-even",
    "2026-08: Q2 2026 ARR passed SEK 200M; NRR 99%"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.selfserve",
+  "categories": [
+   "CON.selfserve",
+   "CON.clm",
+   "CON.extract"
+  ],
+  "model": "point",
+  "unique_angle": "Browser-native HTML contracts with Nordic BankID signing",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "high",
   "sources": [
    "https://news.cision.com/oneflow/r/oneflow-year-end-report-2025--significant-profitability-improvements,c4307116",
@@ -64952,10 +64945,8 @@
    "Financial institutions"
   ],
   "practice": [
-   "Privacy/data protection",
-   "AI regulation",
-   "Regulatory/compliance",
-   "Ethics & compliance"
+   "Privacy & data",
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "Global"
@@ -65086,12 +65077,20 @@
    "2026-04: Doug Owens appointed CFO",
    "2026: rumoured >$10B PE deal (unconfirmed)"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map",
+   "COMP.reg",
+   "COMP.invest",
+   "COMP.aigov"
+  ],
+  "model": "suite",
+  "unique_angle": "Market-leading privacy breadth plus DataGuidance regulatory content",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://www.securityweek.com/onetrust-raises-150-million-at-4-5-billion-valuation/amp/",
@@ -65595,9 +65594,8 @@
    "Government/courts"
   ],
   "practice": [
-   "eDiscovery",
    "Litigation",
-   "Investigations"
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "Global"
@@ -65689,12 +65687,18 @@
    "2024-08: launched eDiscovery Aviator GenAI",
    "2025: named leader/outperformer in GigaOm eDiscovery radar"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "COMP.invest"
+  ],
+  "model": "suite",
+  "unique_angle": "Recommind predictive-coding pioneer plus EnCase forensics under OpenText",
+  "domains": [
+   "COMP",
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "medium",
   "sources": [
    "https://www.legaltechnologyhub.com/vendors/opentext-ediscovery-by-opentext/",
@@ -66617,12 +66621,19 @@
    "Part of Filevine legal work platform"
   ],
   "news": [],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.selfserve",
+   "DRAFT.auto"
+  ],
+  "model": "point",
+  "unique_angle": "Browser draft-negotiate-sign contracts inside Filevine's platform",
+  "domains": [
+   "CON",
+   "DRAFT"
+  ],
+  "primary_domain": "CON",
   "confidence": "low",
   "sources": [
    "https://filevine.com/outlaw"
@@ -66674,8 +66685,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Commercial contracts",
-   "Procurement"
+   "Commercial contracts"
   ],
   "jurisdictions": [
    "Global"
@@ -66736,12 +66746,16 @@
    "2024-07: $20M Series B led by Karma Ventures",
    "2025-06: $54M Series C led by Insight Partners"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.draft",
+  "categories": [
+   "CON.draft"
+  ],
+  "model": "point",
+  "unique_angle": "Autonomous chat-based supplier negotiations proven at Walmart scale",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "medium",
   "sources": [
    "https://investinestonia.com/estonian-ai-startup-pactum-raises-54m/",
@@ -68301,13 +68315,11 @@
   "categories": [
    "IP.search",
    "IP.portfolio",
-   "IP.draft",
-   "DRAFT.translate"
+   "IP.draft"
   ],
   "model": "suite",
   "unique_angle": "208M-patent proprietary dataset extending into R&D and life-sciences intelligence",
   "domains": [
-   "DRAFT",
    "IP"
   ],
   "primary_domain": "IP",
@@ -68757,10 +68769,10 @@
    "Private equity/funds"
   ],
   "practice": [
-   "Corporate/M&A",
+   "Corporate & M&A",
    "Litigation",
-   "Regulatory/compliance",
-   "IP",
+   "Regulatory & compliance",
+   "Intellectual property",
    "Real estate",
    "Employment"
   ],
@@ -68806,12 +68818,16 @@
    "2025: billings +61% YoY, headcount +35%",
    "2026-09: reached 300 partners; expanding in London"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "unique_angle": "Zero-associate remote national firm using Harvey instead of juniors",
+  "domains": [
+   "SERV"
+  ],
+  "primary_domain": "SERV",
   "confidence": "medium",
   "sources": [
    "https://artificiallawyer.com/2026/09/30/zero-associates-firm-pierson-ferdinand-hits-300-partners",
@@ -69669,8 +69685,7 @@
    "Mid-size law firms"
   ],
   "practice": [
-   "IP",
-   "Trademark/copyright enforcement"
+   "Intellectual property"
   ],
   "jurisdictions": [
    "US",
@@ -69714,12 +69729,16 @@
   "news": [
    "2025-03: $3.2M seed led by General Catalyst"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "IP.enforce",
+  "categories": [
+   "IP.enforce"
+  ],
+  "model": "point",
+  "unique_angle": "Converts marketplace infringers into retroactive licensing revenue",
+  "domains": [
+   "IP"
+  ],
+  "primary_domain": "IP",
   "confidence": "medium",
   "sources": [
    "https://axios.com/pro/media-deals/2025/03/11/ip-protection-platform-podqi-seed-round",
@@ -70283,8 +70302,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Commercial contracts",
-   "Procurement"
+   "Commercial contracts"
   ],
   "jurisdictions": [
    "US",
@@ -70375,12 +70393,18 @@
    "2025-06: launched AI Negotiator for contract analysis and negotiation",
    "2025-03: Verbit case study on legal/sales workflow efficiency"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.extract",
+  "categories": [
+   "CON.extract",
+   "CON.clm",
+   "CON.review"
+  ],
+  "model": "point",
+  "unique_angle": "Links contract families and surfaces revenue leakage for sales/finance",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "medium",
   "sources": [
    "https://www.businesswire.com/news/home/20250626792070/en",
@@ -70712,12 +70736,20 @@
    "Mid-market focus with self-service automation"
   ],
   "news": [],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.selfserve",
+   "DRAFT.auto",
+   "CON.extract"
+  ],
+  "model": "point",
+  "unique_angle": "Nordic CLM with local-language smart templates and self-service",
+  "domains": [
+   "CON",
+   "DRAFT"
+  ],
+  "primary_domain": "CON",
   "confidence": "low",
   "sources": [
    "https://www.artificiallawyer.com/2021/01/28/contracting-platform-precisely-bags-e1-8m-seed-funding/",
@@ -71964,9 +71996,7 @@
   ],
   "practice": [
    "Litigation",
-   "Commercial disputes",
-   "Labor/employment",
-   "Litigation finance"
+   "Employment"
   ],
   "jurisdictions": [
    "Argentina",
@@ -72022,12 +72052,16 @@
    "2023-12: raised $30M third litigation investment fund",
    "2025/2026: $3M seed led by Carao Ventures et al. to expand in Mexico/LatAm"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.origination",
+  "categories": [
+   "LIT.origination"
+  ],
+  "model": "services",
+  "unique_angle": "Case Miner ranks LatAm docket lawsuits for non-recourse funding",
+  "domains": [
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "medium",
   "sources": [
    "https://www.leadersleague.com/en/news/qanlex-raises-30m-for-third-investment-fund",
@@ -72630,8 +72664,7 @@
    "Large law firms"
   ],
   "practice": [
-   "General",
-   "Legal education"
+   "General / multi-practice"
   ],
   "jurisdictions": [
    "US"
@@ -72721,12 +72754,16 @@
    "2025-02: acquired by BARBRI",
    "2025: AI-generated brief summaries and AI essay grader in Study Aids"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "RES.edu",
+  "categories": [
+   "RES.edu"
+  ],
+  "model": "point",
+  "unique_angle": "Largest casebook-keyed brief library with AI essay grading",
+  "domains": [
+   "RES"
+  ],
+  "primary_domain": "RES",
   "confidence": "medium",
   "sources": [
    "https://www.casecub.com/guides/quimbee-alternatives",
@@ -72931,8 +72968,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Criminal record expungement",
-   "Access to justice"
+   "Criminal"
   ],
   "jurisdictions": [
    "US-UT",
@@ -72996,12 +73032,18 @@
    "2026-03: $5M late seed led by Rethink Education",
    "2026-05: $1M NextLadder Ventures added to seed"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CONS.a2j",
+  "categories": [
+   "CONS.a2j",
+   "SERV.lawfirm"
+  ],
+  "model": "services",
+  "unique_angle": "Ex-public defender PBC automating expungement eligibility and petitions",
+  "domains": [
+   "CONS",
+   "SERV"
+  ],
+  "primary_domain": "CONS",
   "confidence": "high",
   "sources": [
    "https://www.utahbusiness.com/press-releases/2026/03/11/rasa-legal-raises-5-million-scale-criminal-record-clearance-nationwide/",
@@ -73144,8 +73186,8 @@
    "Insurers/claims"
   ],
   "practice": [
-   "Financial regulatory compliance",
-   "Marketing compliance"
+   "Regulatory & compliance",
+   "Banking & finance / funds"
   ],
   "jurisdictions": [
    "US",
@@ -73249,12 +73291,17 @@
    "2025-04: acquired 4U Platform",
    "2026-07: definitive agreement to combine with MirrorWeb; MirrorWeb CEO Romir Bosu leads"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "unique_angle": "SEC 17a-4 marketing review leader merging with MirrorWeb archiving",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://redoakcompliance.com/red-oak-compliance-launches-ai-review-module-to-accelerate-advertising-review",
@@ -73628,8 +73675,8 @@
    "Financial institutions"
   ],
   "practice": [
-   "Financial regulatory compliance",
-   "Marketing compliance"
+   "Regulatory & compliance",
+   "Banking & finance / funds"
   ],
   "jurisdictions": [
    "US"
@@ -73696,12 +73743,16 @@
   "news": [
    "2026: published FINRA advertising rules guidance content"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "unique_angle": "Fintech marketing review bundled with policy, employee, vendor compliance",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "low",
   "sources": [
    "https://regly.ai/",
@@ -74062,14 +74113,12 @@
   "categories": [
    "LIT.ediscovery",
    "LIT.case",
-   "COMP.invest",
-   "DRAFT.translate"
+   "COMP.invest"
   ],
   "model": "suite",
   "unique_angle": "Dominant eDiscovery install base with GenAI in standard pricing",
   "domains": [
    "COMP",
-   "DRAFT",
    "LIT"
   ],
   "primary_domain": "LIT",
@@ -74224,8 +74273,8 @@
   ],
   "practice": [
    "Litigation",
-   "Criminal defense",
-   "Personal injury"
+   "Criminal",
+   "Personal injury & mass torts"
   ],
   "jurisdictions": [
    "US"
@@ -74316,12 +74365,17 @@
    "2025-03: acquired SmartDepo AI deposition summaries",
    "2025-08: planned to double Central Texas headcount"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.depo",
+  "categories": [
+   "LIT.depo",
+   "LIT.trial"
+  ],
+  "model": "point",
+  "unique_angle": "Huge human-verified speech dataset plus SmartDepo summaries",
+  "domains": [
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "medium",
   "sources": [
    "https://webflow.rev.com/blog/rev-acquires-smartdepo",
@@ -74513,14 +74567,12 @@
   "primary": "LIT.ediscovery",
   "categories": [
    "LIT.ediscovery",
-   "COMP.invest",
-   "DRAFT.translate"
+   "COMP.invest"
   ],
   "model": "suite",
   "unique_angle": "Roll-up of Brainspace, Logikcull, IPRO, Onna with pre-trained classifiers",
   "domains": [
    "COMP",
-   "DRAFT",
    "LIT"
   ],
   "primary_domain": "LIT",
@@ -75227,9 +75279,9 @@
    "Insurers/claims"
   ],
   "practice": [
-   "Financial regulatory compliance",
-   "Marketing compliance",
-   "AML/KYC"
+   "Regulatory & compliance",
+   "Banking & finance / funds",
+   "Insurance & benefits"
   ],
   "jurisdictions": [
    "US"
@@ -75327,12 +75379,17 @@
    "2025/2026: partnership embedding Compliance Agent in Superhuman Go",
    "2024: acquired Giant Oak capabilities for adverse media"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "unique_angle": "Fidelity-incubated compliance agent embedded in writing tools",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://www.businesswire.com/news/home/20220124005136/en/Fidelity-Investments-Launches-Innovative-New-Regulatory-Technology-RegTech-Business-to-Help-Financial-Institutions-Create-Compliant-Public-Communications",
@@ -75905,10 +75962,8 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Data protection/privacy",
-   "Information security",
-   "AML",
-   "Whistleblowing"
+   "Privacy & data",
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "Germany",
@@ -75990,12 +76045,18 @@
    "2022-12: EUR 5.5M seed led by Visionaries Club",
    "2024/2025: undisclosed investment from Look AI Ventures"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.privacy",
+  "categories": [
+   "COMP.privacy",
+   "COMP.map",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "unique_angle": "DACH multi-regime compliance office: GDPR, NIS2, HinSchG, AML",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://fintech.global/2022/12/05/german-compliance-firm-secjur-lands-e5-5m/",
@@ -76048,8 +76109,8 @@
    "Compliance teams"
   ],
   "practice": [
-   "Financial regulatory compliance",
-   "Consumer protection (UDAAP)"
+   "Regulatory & compliance",
+   "Banking & finance / funds"
   ],
   "jurisdictions": [
    "US"
@@ -76119,12 +76180,17 @@
   "news": [
    "2024-09: $18.5M Series A led by Foundation Capital with Amex Ventures"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "unique_angle": "Real-time compliance guidance during live customer calls",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://sedric.ai/blog/sedric-ai-raises-18-5-million-series-a",
@@ -77439,9 +77505,7 @@
    "Financial institutions"
   ],
   "practice": [
-   "Commercial contracts",
-   "Procurement",
-   "Sales contracting"
+   "Commercial contracts"
   ],
   "jurisdictions": [
    "Global",
@@ -77550,12 +77614,19 @@
    "2025: named Leader in Gartner Magic Quadrant for CLM",
    "2026-02: Haveli Investments completed majority investment"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "suite",
+  "unique_angle": "Post-signature SLA/supplier performance management plus Eigen extraction",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "medium",
   "sources": [
    "https://www.businesswire.com/news/home/20260223223160/en",
@@ -78345,10 +78416,9 @@
    "SMBs"
   ],
   "practice": [
-   "General",
-   "Personal injury",
-   "Family law",
-   "Estate planning"
+   "General / multi-practice",
+   "Personal injury & mass torts",
+   "Family & estates"
   ],
   "jurisdictions": [
    "US",
@@ -78432,12 +78502,16 @@
   "news": [
    "2025: AI Receptionist with AI-led intake and live escalation emphasized"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "unique_angle": "Hybrid AI plus human receptionists with law-firm intake playbooks",
+  "domains": [
+   "FIRM"
+  ],
+  "primary_domain": "FIRM",
   "confidence": "medium",
   "sources": [
    "https://www.legaltechnologyhub.com/vendors/smithai/",
@@ -80125,8 +80199,7 @@
    "Mid-size law firms"
   ],
   "practice": [
-   "Workers' compensation",
-   "Insurance claims"
+   "Insurance & benefits"
   ],
   "jurisdictions": [
    "US",
@@ -80183,12 +80256,17 @@
    "2024-10: $5.3M seed led by Spark Capital",
    "2025/2026: California State Fund selected Stream for AI claims evidence review"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical",
+   "CLAIM.benefits"
+  ],
+  "model": "point",
+  "unique_angle": "Workers-comp claim document triage selected by California State Fund",
+  "domains": [
+   "CLAIM"
+  ],
+  "primary_domain": "CLAIM",
   "confidence": "medium",
   "sources": [
    "https://fintech.global/2024/10/11/insurtech-startup-stream-claims-secures-5-3m-seed-funding-led-by-spark-capital/",
@@ -82276,9 +82354,8 @@
    "In-house legal"
   ],
   "practice": [
-   "Financial regulatory compliance",
-   "eDiscovery",
-   "Recordkeeping"
+   "Regulatory & compliance",
+   "Banking & finance / funds"
   ],
   "jurisdictions": [
    "US",
@@ -82368,12 +82445,18 @@
    "2026-05: ISO/IEC 42001 and CSA STAR AI Level II certifications",
    "2026-07: partnership with IPC for voice and digital surveillance"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.invest",
+  "categories": [
+   "COMP.invest",
+   "LIT.ediscovery"
+  ],
+  "model": "point",
+  "unique_angle": "Multimodal video/voice/chat supervision including Copilot output",
+  "domains": [
+   "COMP",
+   "LIT"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://fintech.global/2026/07/07/theta-lake-ipc-unite-voice-and-digital-surveillance/",
@@ -83655,12 +83738,17 @@
    "EU hosting and ISO 27001 (claimed)"
   ],
   "news": [],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract"
+  ],
+  "model": "point",
+  "unique_angle": "Lightweight SMB CLM tracking contract financial values and milestones",
+  "domains": [
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "low",
   "sources": [
    "https://www.g2.com/products/Trackado/reviews",
@@ -84211,10 +84299,7 @@
   ],
   "practice": [
    "Litigation",
-   "eDiscovery",
-   "IP/patent",
-   "Investigations",
-   "Cross-border M&A"
+   "Intellectual property"
   ],
   "jurisdictions": [
    "Global",
@@ -84303,12 +84388,22 @@
    "Combines translation, eDiscovery and court reporting"
   ],
   "news": [],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "SERV.alsp",
+  "categories": [
+   "SERV.alsp",
+   "LIT.ediscovery",
+   "LIT.depo",
+   "LIT.trial",
+   "DRAFT.translate"
+  ],
+  "model": "services",
+  "unique_angle": "Global translation scale combined with eDiscovery and court reporting",
+  "domains": [
+   "DRAFT",
+   "LIT",
+   "SERV"
+  ],
+  "primary_domain": "SERV",
   "confidence": "low",
   "sources": [
    "https://www.transperfectlegal.com"
@@ -84355,7 +84450,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Trade/customs compliance"
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "US"
@@ -84401,12 +84496,16 @@
   "news": [
    "2025: Y Combinator W25 batch"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "unique_angle": "Audits every customs entry for HTS classification and duty refunds",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "low",
   "sources": [
    "https://ycombinator.com/companies/trava",
@@ -84868,8 +84967,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Estate planning",
-   "Probate"
+   "Family & estates"
   ],
   "jurisdictions": [
    "US"
@@ -84954,12 +85052,17 @@
   "news": [
    "2025-03: $25M+ Series C led by Moderne Ventures for AI and partnerships"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "CONS.selfhelp"
+  ],
+  "model": "point",
+  "unique_angle": "1M+ user consumer estate brand plus advisor and employer channels",
+  "domains": [
+   "CONS"
+  ],
+  "primary_domain": "CONS",
   "confidence": "medium",
   "sources": [
    "https://trustandwill.com/learn/trust-and-will-series-c-funding",
@@ -85153,9 +85256,8 @@
    "Financial institutions"
   ],
   "practice": [
-   "AI governance",
-   "Regulatory compliance",
-   "Privacy"
+   "Regulatory & compliance",
+   "Privacy & data"
   ],
   "jurisdictions": [
    "US",
@@ -85238,12 +85340,17 @@
   "news": [
    "2025-06: $4.6M seed led by Lookout Ventures"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.aigov",
+  "categories": [
+   "COMP.map",
+   "COMP.aigov"
+  ],
+  "model": "point",
+  "unique_angle": "AI governance for legal owners with model transparency ratings",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "medium",
   "sources": [
    "https://pulse2.com/trustible-4-6-million-seed-funding-raised-for-ai-governance-platform",
@@ -85286,7 +85393,7 @@
    "Financial institutions"
   ],
   "practice": [
-   "Estate planning"
+   "Family & estates"
   ],
   "jurisdictions": [
    "Canada"
@@ -85322,12 +85429,16 @@
   "news": [
    "2025: raised C$1M pre-seed"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "unique_angle": "AI-guided non-binding letters of wishes via advisor channel",
+  "domains": [
+   "CONS"
+  ],
+  "primary_domain": "CONS",
   "confidence": "low",
   "sources": [
    "https://causeartist.com/trusty-raises-1m-to-redefine-estate-planning-with-ai-powered-letters-of-wishes"
@@ -85762,9 +85873,8 @@
    "Government/courts"
   ],
   "practice": [
-   "Courts administration",
-   "Criminal justice",
-   "Civil litigation"
+   "Litigation",
+   "Criminal"
   ],
   "jurisdictions": [
    "US",
@@ -85860,12 +85970,19 @@
   "news": [
    "2025: Fulton County Clerk of Courts scaled AI document automation model"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "GOV.courts",
+  "categories": [
+   "GOV.courts",
+   "GOV.justice",
+   "CONS.a2j"
+  ],
+  "model": "suite",
+  "unique_angle": "Dominant US court case management and statewide e-filing networks",
+  "domains": [
+   "CONS",
+   "GOV"
+  ],
+  "primary_domain": "GOV",
   "confidence": "medium",
   "sources": [
    "https://www.tylertech.com/products/document-automation",
@@ -86429,10 +86546,7 @@
   ],
   "practice": [
    "Litigation",
-   "Family law/divorce",
-   "Bankruptcy",
-   "Investigations/fraud",
-   "M&A due diligence"
+   "Family & estates"
   ],
   "jurisdictions": [
    "US"
@@ -86489,12 +86603,18 @@
   "news": [
    "2023-11: $8.5M Series A led by Silverton Partners"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.case",
+  "categories": [
+   "LIT.case",
+   "COMP.invest"
+  ],
+  "model": "point",
+  "unique_angle": "Source-traced fund flows across bank, check and crypto records",
+  "domains": [
+   "COMP",
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "medium",
   "sources": [
    "https://legaltechnology.com/us-forensic-accounting-software-provider-valid8-financial-raises-8-5m-series-a/",
@@ -86673,9 +86793,8 @@
    "Compliance teams"
   ],
   "practice": [
-   "Procurement",
    "Commercial contracts",
-   "Data protection/privacy"
+   "Privacy & data"
   ],
   "jurisdictions": [
    "US"
@@ -86736,12 +86855,19 @@
   "news": [
    "2025-04: $4M oversubscribed seed led by Dynamo Ventures and Bloomberg Beta"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "COMP.privacy"
+  ],
+  "model": "point",
+  "unique_angle": "Procurement-first contract agents with automated DPA review",
+  "domains": [
+   "COMP",
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "medium",
   "sources": [
    "https://refreshmiami.com/news/vallor-raises-4m-to-rescue-procurement-teams-buried-in-contracts/",
@@ -86940,7 +87066,7 @@
    "Small firms & solos"
   ],
   "practice": [
-   "Estate planning",
+   "Family & estates",
    "Tax"
   ],
   "jurisdictions": [
@@ -87006,12 +87132,16 @@
   "news": [
    "2024-10: closed $35M Series B-1 to embed AI (V/AI)"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "unique_angle": "Visual estate diagrams for advisors, backed by Vanguard and Edward Jones",
+  "domains": [
+   "CONS"
+  ],
+  "primary_domain": "CONS",
   "confidence": "medium",
   "sources": [
    "https://www.axios.com/pro/fintech-deals/2024/10/16/estate-planning-startup-vanilla-35-million",
@@ -87433,8 +87563,7 @@
    "ALSPs/legal service providers"
   ],
   "practice": [
-   "Litigation",
-   "Courts administration"
+   "Litigation"
   ],
   "jurisdictions": [
    "US",
@@ -87525,12 +87654,19 @@
    "2025/2026: launched DepoSim simulated deposition training with Altoclaro",
    "2026-08: partnership with eSteno for AI-assisted Spanish/Portuguese legal capture in LatAm"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "LIT.depo",
+  "categories": [
+   "LIT.depo",
+   "GOV.courts",
+   "LIT.trial"
+  ],
+  "model": "point",
+  "unique_angle": "Digital court reporting at scale addressing stenographer shortage",
+  "domains": [
+   "GOV",
+   "LIT"
+  ],
+  "primary_domain": "LIT",
   "confidence": "medium",
   "sources": [
    "https://legaltechnology.com/us-legal-transcription-platform-verbit-closes-250m-series-e/",
@@ -87582,8 +87718,7 @@
    "Business teams (non-lawyers)"
   ],
   "practice": [
-   "Marketing/advertising compliance",
-   "Regulatory compliance"
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "US"
@@ -87622,12 +87757,16 @@
   "news": [
    "2026-02: in Y Combinator W26 batch"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "COMP.agents",
+  "categories": [
+   "COMP.agents"
+  ],
+  "model": "point",
+  "unique_angle": "Combined brand and legal review agent for pharma, finance, CPG",
+  "domains": [
+   "COMP"
+  ],
+  "primary_domain": "COMP",
   "confidence": "low",
   "sources": [
    "https://ycombinator.com/companies/veriad",
@@ -88849,14 +88988,12 @@
    "ASSIST.copilot",
    "ASSIST.agents",
    "LIT.analytics",
-   "FIRM.docket",
-   "DRAFT.translate"
+   "FIRM.docket"
   ],
   "model": "suite",
   "unique_angle": "1B+ documents across 110+ countries, distributed via Clio",
   "domains": [
    "ASSIST",
-   "DRAFT",
    "FIRM",
    "LIT",
    "RES"
@@ -88907,8 +89044,7 @@
   ],
   "practice": [
    "Commercial contracts",
-   "Procurement",
-   "Legal compliance"
+   "Regulatory & compliance"
   ],
   "jurisdictions": [
    "India",
@@ -88981,12 +89117,20 @@
   "news": [
    "2025/2026: repositioned as agentic AI-powered CLM"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.review",
+   "CON.extract",
+   "COMP.map"
+  ],
+  "model": "point",
+  "unique_angle": "India-focused agentic CLM with statutory compliance-tracking roots",
+  "domains": [
+   "COMP",
+   "CON"
+  ],
+  "primary_domain": "CON",
   "confidence": "low",
   "sources": [
    "https://www.legaltechnologyhub.com/vendors/volody-clm-by-volody/",
@@ -89428,7 +89572,7 @@
    "Consumers/individuals"
   ],
   "practice": [
-   "Estate planning",
+   "Family & estates",
    "Tax"
   ],
   "jurisdictions": [
@@ -89509,12 +89653,16 @@
    "2026-04: $65M Series B led by Charles Schwab; Dynasty joins",
    "2026: launched tax planning, reaching 1,000+ firms in two months"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate"
+  ],
+  "model": "point",
+  "unique_angle": "Ester AI runs deterministic estate and tax calculations for advisors",
+  "domains": [
+   "CONS"
+  ],
+  "primary_domain": "CONS",
   "confidence": "medium",
   "sources": [
    "https://www.businesswire.com/news/home/20260416563869/en/",
@@ -89796,10 +89944,8 @@
    "ALSPs/legal service providers"
   ],
   "practice": [
-   "Personal injury",
-   "Workers' compensation",
-   "Insurance defense",
-   "Medical malpractice"
+   "Insurance & benefits",
+   "Personal injury & mass torts"
   ],
   "jurisdictions": [
    "US",
@@ -89865,12 +90011,16 @@
    "2024-01: $9.5M USD Series A led by Information Venture Partners",
    "2025: nearly doubled team; opened Washington, D.C. office"
   ],
-  "primary": null,
-  "categories": [],
-  "model": null,
-  "unique_angle": null,
-  "domains": [],
-  "primary_domain": null,
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "unique_angle": "Clinically validated record summaries for insurers; TR Ventures-backed",
+  "domains": [
+   "CLAIM"
+  ],
+  "primary_domain": "CLAIM",
   "confidence": "medium",
   "sources": [
    "https://www.wisedocs.ai/blogs/wisedocs-technology-market-leader-for-the-insurance-industry-closes-12-7m-oversubscribed-series-a-as-it-more-than-doubles-customer-base",

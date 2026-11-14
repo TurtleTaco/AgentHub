@@ -1,5 +1,5 @@
 {
- "version": "1.0",
+ "version": "1.3",
  "as_of": "2026-11-14",
  "description": "Legal AI market ontology. Facet A (workflow domain -> category) is the mind-map tree; facets B-D are cross-cutting filters. Derived bottom-up from ~1,900 distinct capability phrases in company profiles, then grouped by the legal workflow they serve.",
  "facets": {
@@ -725,17 +725,14 @@
       },
       {
        "id": "COMP.privacy",
-       "name": "Privacy, data protection & AI governance",
-       "def": "DPA review, privacy ops, AI risk governance & AI-law compliance.",
+       "name": "Privacy & data protection",
+       "def": "DPA review, privacy ops, DSARs, data mapping and privacy-law compliance.",
        "kw": [
         "privacy",
         "gdpr",
         "dpa",
         "data protection",
-        "ai governance",
-        "ai act",
         "pii",
-        "model risk",
         "dsar",
         "data mapping",
         "consent",
@@ -744,6 +741,21 @@
         "breach notification",
         "records retention",
         "data disposition"
+       ]
+      },
+      {
+       "id": "COMP.aigov",
+       "name": "AI governance & AI-law compliance",
+       "def": "Inventory, assess and govern AI systems against the EU AI Act and similar rules; AI risk and policy management.",
+       "kw": [
+        "ai governance",
+        "ai act",
+        "model risk",
+        "ai risk",
+        "responsible ai",
+        "ai inventory",
+        "ai policy",
+        "bias audit"
        ]
       },
       {

@@ -1,6 +1,6 @@
 {
  "companies_profiled": 696,
- "tagged": 653,
+ "tagged": 696,
  "acquired_or_defunct_light": 36,
  "core": 572,
  "adjacent": 124,
@@ -474,11 +474,11 @@
  "by_model": [
   [
    "point",
-   396
+   429
   ],
   [
    "suite",
-   87
+   93
   ],
   [
    "platform",
@@ -486,23 +486,25 @@
   ],
   [
    "services",
-   72
-  ],
-  [
-   "untagged",
-   43
+   76
   ],
   [
    "infra",
    13
   ]
  ],
- "total_raised_usd_m": 12745.5,
+ "total_raised_usd_m": 14645.5,
  "top_funded": [
   {
    "name": "Harvey",
    "raised": 1700.0,
    "valuation": 15500.0,
+   "stage": "Series D+"
+  },
+  {
+   "name": "Clio",
+   "raised": 1400,
+   "valuation": 5000.0,
    "stage": "Series D+"
   },
   {
@@ -527,6 +529,12 @@
    "name": "Icertis",
    "raised": 520.0,
    "valuation": 5000.0,
+   "stage": "Series D+"
+  },
+  {
+   "name": "Filevine",
+   "raised": 500,
+   "valuation": 3000.0,
    "stage": "Series D+"
   },
   {
@@ -666,18 +674,6 @@
    "raised": 100.0,
    "valuation": null,
    "stage": "Series C"
-  },
-  {
-   "name": "Litify",
-   "raised": 95.0,
-   "valuation": 400.0,
-   "stage": "Series C"
-  },
-  {
-   "name": "Wealth.com",
-   "raised": 95.0,
-   "valuation": null,
-   "stage": "Series B"
   }
  ],
  "excluded_during_profiling": 3
