@@ -1,0 +1,1173 @@
+{
+ "version": "1.0",
+ "as_of": "2026-11-14",
+ "description": "Legal AI market ontology. Facet A (workflow domain -> category) is the mind-map tree; facets B-D are cross-cutting filters. Derived bottom-up from ~1,900 distinct capability phrases in company profiles, then grouped by the legal workflow they serve.",
+ "facets": {
+  "A_domain": {
+   "label": "Workflow domain (what job the product does)",
+   "domains": [
+    {
+     "id": "RES",
+     "name": "Legal Research & Knowledge",
+     "color": "#3b6fd8",
+     "categories": [
+      {
+       "id": "RES.case",
+       "name": "Case law & statute research",
+       "def": "Search and Q&A over case law, statutes, regulations with cited answers.",
+       "kw": [
+        "case law",
+        "statute",
+        "legal research",
+        "research q&a",
+        "cited answer",
+        "citation-backed",
+        "precedent retrieval",
+        "judgment search",
+        "legislation search",
+        "regulation search",
+        "semantic case",
+        "multi-jurisdiction survey",
+        "secondary source",
+        "citation analysis"
+       ]
+      },
+      {
+       "id": "RES.cite",
+       "name": "Citation checking & brief validation",
+       "def": "Verify citations, detect hallucinated authorities, cite-check briefs, Bluebook formatting.",
+       "kw": [
+        "citation verification",
+        "cite-check",
+        "cite check",
+        "hallucinat",
+        "citation check",
+        "bluebook",
+        "shepardiz",
+        "keycite",
+        "table of authorities",
+        "brief analysis"
+       ]
+      },
+      {
+       "id": "RES.km",
+       "name": "Knowledge management & precedent search",
+       "def": "Search a firm's own documents/know-how, precedent banks, expertise location, enterprise search for legal.",
+       "kw": [
+        "knowledge management",
+        "precedent search",
+        "precedent bank",
+        "enterprise search",
+        "firm knowledge",
+        "expertise",
+        "clause search",
+        "internal document search",
+        "know-how"
+       ]
+      },
+      {
+       "id": "RES.content",
+       "name": "Legal publishers & content platforms",
+       "def": "Proprietary legal content libraries (publishers) with AI layers: treatises, practical guidance, news.",
+       "kw": [
+        "practical guidance",
+        "treatise",
+        "legal news",
+        "legal content",
+        "secondary sources",
+        "editorial"
+       ]
+      },
+      {
+       "id": "RES.edu",
+       "name": "Legal education & training",
+       "def": "Bar prep, CLE, law-school and lawyer skills training using AI.",
+       "kw": [
+        "bar prep",
+        "bar exam",
+        "cle",
+        "law school",
+        "legal education",
+        "training",
+        "course",
+        "law student"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ASSIST",
+     "name": "AI Assistants & Legal Workspaces",
+     "color": "#7a4fd1",
+     "categories": [
+      {
+       "id": "ASSIST.copilot",
+       "name": "General legal AI assistant / copilot",
+       "def": "Horizontal chat-style assistant for many legal tasks (Q&A, drafting, summarizing, analysis).",
+       "kw": [
+        "legal assistant",
+        "ai assistant",
+        "copilot",
+        "legal chat",
+        "legal q&a",
+        "general legal",
+        "multi-task",
+        "legal ai assistant",
+        "document summarization",
+        "document q&a",
+        "document analysis",
+        "legal document drafting",
+        "legal document analysis",
+        "first draft generation",
+        "natural-language document search",
+        "document comparison"
+       ]
+      },
+      {
+       "id": "ASSIST.bulk",
+       "name": "Bulk document analysis & tabular review",
+       "def": "Run questions across hundreds/thousands of documents, extract into tables/grids.",
+       "kw": [
+        "tabular",
+        "bulk document",
+        "multi-document",
+        "document grid",
+        "review grid",
+        "batch extraction",
+        "vault",
+        "large-scale document"
+       ]
+      },
+      {
+       "id": "ASSIST.agents",
+       "name": "Agentic workflows & no-code legal app builders",
+       "def": "Build/run multi-step legal agents and workflows; no-code automation for legal teams.",
+       "kw": [
+        "agent builder",
+        "agentic",
+        "no-code",
+        "workflow builder",
+        "custom workflow",
+        "legal app builder",
+        "automation builder",
+        "custom agents",
+        "workflow automation"
+       ]
+      },
+      {
+       "id": "ASSIST.word",
+       "name": "Word/Outlook embedded drafting tools",
+       "def": "AI inside Microsoft Word/Outlook for drafting, defined terms, cross-references, proofreading.",
+       "kw": [
+        "word add-in",
+        "microsoft word",
+        "defined term",
+        "cross-reference",
+        "proofread",
+        "outlook",
+        "document proofreading",
+        "formatting"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "DRAFT",
+     "name": "Drafting & Document Automation",
+     "color": "#c2569b",
+     "categories": [
+      {
+       "id": "DRAFT.auto",
+       "name": "Document automation & assembly",
+       "def": "Template-driven document generation, questionnaires, clause assembly.",
+       "kw": [
+        "document automation",
+        "document assembly",
+        "template",
+        "document generation",
+        "questionnaire",
+        "form generation",
+        "document builder"
+       ]
+      },
+      {
+       "id": "DRAFT.write",
+       "name": "Legal writing & memo drafting",
+       "def": "Drafting memos, letters, opinions, emails; writing quality/style tools.",
+       "kw": [
+        "memo drafting",
+        "letter drafting",
+        "legal writing",
+        "legal drafting",
+        "opinion drafting",
+        "email drafting",
+        "style",
+        "plain language",
+        "translation"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "CON",
+     "name": "Contracts & CLM",
+     "color": "#d9822b",
+     "categories": [
+      {
+       "id": "CON.draft",
+       "name": "Contract drafting & negotiation",
+       "def": "Draft contracts, redline, negotiate against playbooks, suggest fallback clauses.",
+       "kw": [
+        "contract drafting",
+        "redlin",
+        "negotiat",
+        "clause drafting",
+        "fallback",
+        "markup",
+        "counterparty",
+        "clause library",
+        "clause suggestion",
+        "nda generation",
+        "revision suggestion"
+       ]
+      },
+      {
+       "id": "CON.review",
+       "name": "Contract review & risk analysis",
+       "def": "AI review of contracts against playbooks/standards; NDA review; risk flagging.",
+       "kw": [
+        "contract review",
+        "nda review",
+        "playbook",
+        "risk flag",
+        "issue spotting",
+        "contract risk",
+        "compliance check",
+        "deviation",
+        "contract summar",
+        "contract q&a",
+        "contract comparison",
+        "contract analysis",
+        "third-party paper",
+        "msa review",
+        "order form review",
+        "provision identification"
+       ]
+      },
+      {
+       "id": "CON.clm",
+       "name": "CLM, repository & obligation management",
+       "def": "Contract lifecycle workflows, repositories, approvals, obligations, renewals.",
+       "kw": [
+        "contract lifecycle",
+        "clm",
+        "repository",
+        "obligation",
+        "renewal",
+        "approval workflow",
+        "contract management",
+        "contract request",
+        "contract intake"
+       ]
+      },
+      {
+       "id": "CON.extract",
+       "name": "Contract data extraction & analytics",
+       "def": "Extract metadata/clauses from contract portfolios; analytics; legacy migration; abstraction.",
+       "kw": [
+        "metadata extraction",
+        "clause extraction",
+        "contract data",
+        "contract analytics",
+        "abstraction",
+        "legacy contract",
+        "contract intelligence",
+        "portfolio analysis"
+       ]
+      },
+      {
+       "id": "CON.selfserve",
+       "name": "Self-serve contracting & e-signature",
+       "def": "Business-user contract generation, standard agreements, e-signing.",
+       "kw": [
+        "self-serve",
+        "self-service contract",
+        "e-sign",
+        "electronic signature",
+        "standard agreement",
+        "contract generation for business"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "DEAL",
+     "name": "Corporate, Transactions & Deals",
+     "color": "#b8860b",
+     "categories": [
+      {
+       "id": "DEAL.dd",
+       "name": "M&A due diligence & data rooms",
+       "def": "Diligence review, red-flag reports, virtual data rooms with AI.",
+       "kw": [
+        "due diligence",
+        "diligence",
+        "data room",
+        "red flag report",
+        "vdr",
+        "disclosure schedule",
+        "red-flag report"
+       ]
+      },
+      {
+       "id": "DEAL.closing",
+       "name": "Deal & closing management",
+       "def": "Closing checklists, signature packets, transaction workflows, deal precedent analysis.",
+       "kw": [
+        "closing",
+        "checklist",
+        "signature packet",
+        "transaction management",
+        "deal workflow",
+        "deal management",
+        "closing set",
+        "deal party"
+       ]
+      },
+      {
+       "id": "DEAL.entity",
+       "name": "Entity management & corporate governance",
+       "def": "Entity records, board minutes, resolutions, corporate secretarial, cap tables.",
+       "kw": [
+        "entity management",
+        "board",
+        "minute",
+        "resolution",
+        "corporate secretarial",
+        "governance",
+        "cap table",
+        "subsidiary"
+       ]
+      },
+      {
+       "id": "DEAL.funds",
+       "name": "Private funds & financial documents",
+       "def": "Fund formation docs, NDAs/side letters for private markets, loan/credit docs, ISDA.",
+       "kw": [
+        "fund",
+        "side letter",
+        "private market",
+        "credit agreement",
+        "loan document",
+        "isda",
+        "lpa",
+        "investor"
+       ]
+      },
+      {
+       "id": "DEAL.realestate",
+       "name": "Real estate & lease abstraction",
+       "def": "Lease review/abstraction, title & property legal work.",
+       "kw": [
+        "lease",
+        "real estate",
+        "title",
+        "property",
+        "conveyancing"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "LIT",
+     "name": "Litigation & Disputes",
+     "color": "#c0392b",
+     "categories": [
+      {
+       "id": "LIT.ediscovery",
+       "name": "eDiscovery & document review",
+       "def": "Processing, TAR/predictive coding, GenAI first-pass review, privilege, production.",
+       "kw": [
+        "ediscovery",
+        "e-discovery",
+        "technology-assisted",
+        "predictive coding",
+        "privilege",
+        "responsiveness",
+        "document production",
+        "first-pass review",
+        "legal hold",
+        "processing",
+        "relevance classification",
+        "managed review",
+        "redaction",
+        "issue coding",
+        "document clustering",
+        "continuous active learning",
+        "custodian",
+        "forensic",
+        "data collection",
+        "production management",
+        "review set",
+        "search term",
+        "multilingual document review",
+        "review quality control",
+        "litigation document review"
+       ]
+      },
+      {
+       "id": "LIT.case",
+       "name": "Case analysis & fact development",
+       "def": "Chronologies, case file Q&A, fact extraction, early case assessment, case strategy.",
+       "kw": [
+        "chronolog",
+        "case analysis",
+        "fact",
+        "early case assessment",
+        "case strategy",
+        "case file",
+        "case document q&a",
+        "evidence",
+        "case summar",
+        "timeline",
+        "case narrative",
+        "testimony",
+        "complaint analysis",
+        "case screening",
+        "case record",
+        "matter summar",
+        "issue tagging",
+        "case outlining",
+        "litigation document analysis"
+       ]
+      },
+      {
+       "id": "LIT.draft",
+       "name": "Litigation drafting",
+       "def": "Pleadings, motions, briefs, discovery requests/responses, complaints.",
+       "kw": [
+        "motion",
+        "brief drafting",
+        "pleading",
+        "complaint drafting",
+        "discovery response",
+        "discovery request",
+        "interrogator",
+        "answer drafting",
+        "litigation document drafting"
+       ]
+      },
+      {
+       "id": "LIT.depo",
+       "name": "Depositions, transcripts & trial prep",
+       "def": "Deposition prep/summaries, transcription, exhibits, jury research, trial presentation.",
+       "kw": [
+        "deposition",
+        "transcript",
+        "court reporting",
+        "trial",
+        "jury",
+        "exhibit",
+        "witness",
+        "hearing",
+        "page-line"
+       ]
+      },
+      {
+       "id": "LIT.analytics",
+       "name": "Litigation analytics & outcome prediction",
+       "def": "Judge/court analytics, docket data, outcome prediction, litigation risk scoring.",
+       "kw": [
+        "judge analytics",
+        "litigation analytics",
+        "outcome prediction",
+        "docket",
+        "court data",
+        "litigation risk",
+        "case outcome",
+        "opposing counsel analytics",
+        "predict",
+        "portfolio analytics",
+        "case alerting",
+        "pacer"
+       ]
+      },
+      {
+       "id": "LIT.adr",
+       "name": "Arbitration & dispute resolution",
+       "def": "International arbitration research, ODR, AI arbitration, settlement platforms.",
+       "kw": [
+        "arbitration",
+        "dispute resolution",
+        "mediation",
+        "odr",
+        "settlement"
+       ]
+      },
+      {
+       "id": "LIT.origination",
+       "name": "Case origination & litigation finance",
+       "def": "Detect legal violations/claims, mass-tort origination, litigation funding decisions.",
+       "kw": [
+        "violation detection",
+        "case origination",
+        "litigation finance",
+        "litigation funding",
+        "mass tort",
+        "claim detection",
+        "class action"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "CLAIM",
+     "name": "Claims, Plaintiff & Medical-Legal",
+     "color": "#e0603a",
+     "categories": [
+      {
+       "id": "CLAIM.medical",
+       "name": "Medical record review & chronologies",
+       "def": "Summarize/organize medical records, treatment gaps, medical chronologies.",
+       "kw": [
+        "medical record",
+        "medical chronolog",
+        "treatment",
+        "medical review",
+        "medical summar",
+        "billing records",
+        "medical bill",
+        "lien",
+        "future medical"
+       ]
+      },
+      {
+       "id": "CLAIM.demand",
+       "name": "Demand letters & case valuation",
+       "def": "Draft demand packages, estimate damages/settlement value.",
+       "kw": [
+        "demand letter",
+        "demand package",
+        "case valuation",
+        "damages",
+        "settlement value",
+        "verdict"
+       ]
+      },
+      {
+       "id": "CLAIM.benefits",
+       "name": "Benefits & insurance claims",
+       "def": "SSDI, workers comp, insurance claim/coverage analysis.",
+       "kw": [
+        "ssdi",
+        "disability",
+        "workers' comp",
+        "workers comp",
+        "insurance claim",
+        "coverage",
+        "claims"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "IP",
+     "name": "Intellectual Property",
+     "color": "#16a085",
+     "categories": [
+      {
+       "id": "IP.search",
+       "name": "Patent search, prior art & analytics",
+       "def": "Prior-art, novelty, FTO, invalidity, landscaping, patent analytics.",
+       "kw": [
+        "prior-art",
+        "prior art",
+        "novelty",
+        "freedom-to-operate",
+        "invalidity",
+        "landscap",
+        "patent search",
+        "patent analytics",
+        "patentability",
+        "semantic patent",
+        "competitor patent",
+        "patent summar"
+       ]
+      },
+      {
+       "id": "IP.draft",
+       "name": "Patent drafting & prosecution",
+       "def": "Draft specifications/claims, office-action responses, invention disclosures.",
+       "kw": [
+        "patent drafting",
+        "specification drafting",
+        "claim drafting",
+        "office action",
+        "prosecution",
+        "invention disclosure",
+        "patent application",
+        "antecedent basis",
+        "figure description"
+       ]
+      },
+      {
+       "id": "IP.tm",
+       "name": "Trademark search, filing & watch",
+       "def": "Clearance search, filing, watch services, goods/services classification.",
+       "kw": [
+        "trademark",
+        "goods and services"
+       ]
+      },
+      {
+       "id": "IP.portfolio",
+       "name": "IP portfolio management & docketing",
+       "def": "IP management systems, docketing, annuities, portfolio valuation.",
+       "kw": [
+        "ip portfolio",
+        "patent docketing",
+        "ip management",
+        "annuit",
+        "renewal management",
+        "portfolio management",
+        "ids management",
+        "information disclosure"
+       ]
+      },
+      {
+       "id": "IP.enforce",
+       "name": "Infringement detection & brand protection",
+       "def": "Detect infringement/counterfeits, evidence of use, takedowns, licensing.",
+       "kw": [
+        "infringement",
+        "counterfeit",
+        "brand protection",
+        "takedown",
+        "evidence of use",
+        "licensing",
+        "claim chart",
+        "domain monitoring"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "COMP",
+     "name": "Compliance, Regulatory & Risk",
+     "color": "#2e8b57",
+     "categories": [
+      {
+       "id": "COMP.reg",
+       "name": "Regulatory change monitoring",
+       "def": "Horizon scanning, regulatory alerts, regulatory intelligence.",
+       "kw": [
+        "regulatory change",
+        "horizon scanning",
+        "regulatory alert",
+        "regulatory intelligence",
+        "regulatory monitoring",
+        "regulatory update",
+        "regulatory impact",
+        "regulatory summar",
+        "regulatory content"
+       ]
+      },
+      {
+       "id": "COMP.map",
+       "name": "Obligation & policy mapping",
+       "def": "Extract obligations from rules; map to policies/controls; gap analysis.",
+       "kw": [
+        "obligation-to-control",
+        "policy-to-regulation",
+        "compliance gap",
+        "obligation extraction",
+        "control mapping",
+        "policy management",
+        "regulatory obligation",
+        "regulatory inventory"
+       ]
+      },
+      {
+       "id": "COMP.agents",
+       "name": "Compliance review agents",
+       "def": "AI agents that review marketing, communications, transactions or documents for regulatory compliance.",
+       "kw": [
+        "marketing review",
+        "financial promotion",
+        "advertising review",
+        "compliance review",
+        "communications review",
+        "compliance agent",
+        "kyc",
+        "vendor risk"
+       ]
+      },
+      {
+       "id": "COMP.privacy",
+       "name": "Privacy, data protection & AI governance",
+       "def": "DPA review, privacy ops, AI risk governance & AI-law compliance.",
+       "kw": [
+        "privacy",
+        "gdpr",
+        "dpa",
+        "data protection",
+        "ai governance",
+        "ai act",
+        "pii",
+        "model risk",
+        "dsar",
+        "data mapping",
+        "consent",
+        "data inventory",
+        "sensitive data",
+        "breach notification",
+        "records retention",
+        "data disposition"
+       ]
+      },
+      {
+       "id": "COMP.invest",
+       "name": "Investigations & communications surveillance",
+       "def": "Internal investigations, comms surveillance, misconduct risk.",
+       "kw": [
+        "investigation",
+        "surveillance",
+        "whistleblow",
+        "misconduct",
+        "communications monitoring"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "OPS",
+     "name": "Legal Ops & In-house Enablement",
+     "color": "#5d6d7e",
+     "categories": [
+      {
+       "id": "OPS.intake",
+       "name": "Legal front door, intake & triage",
+       "def": "Route and triage requests from the business; ticketing for legal.",
+       "kw": [
+        "legal request",
+        "intake",
+        "triage",
+        "front door",
+        "ticket",
+        "request management"
+       ]
+      },
+      {
+       "id": "OPS.spend",
+       "name": "Matter, spend & e-billing management",
+       "def": "Matter management, outside-counsel spend, invoice review, budgeting.",
+       "kw": [
+        "spend",
+        "e-billing",
+        "invoice review",
+        "matter management",
+        "outside counsel",
+        "billing guideline",
+        "budget",
+        "legal operations"
+       ]
+      },
+      {
+       "id": "OPS.selfserve",
+       "name": "Self-service legal for business teams",
+       "def": "Answer business teams' legal questions and generate approved docs without lawyers.",
+       "kw": [
+        "self-service legal",
+        "business teams",
+        "legal faq",
+        "slack",
+        "employee questions",
+        "policy q&a",
+        "legal chatbot"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "FIRM",
+     "name": "Law Firm Operations",
+     "color": "#8e44ad",
+     "categories": [
+      {
+       "id": "FIRM.pm",
+       "name": "Practice & case management",
+       "def": "Matter/case management systems, tasks, calendars, firm workflows.",
+       "kw": [
+        "practice management",
+        "case management",
+        "matter management",
+        "task automation",
+        "calendar",
+        "case status"
+       ]
+      },
+      {
+       "id": "FIRM.billing",
+       "name": "Time capture, billing & finance",
+       "def": "AI time capture, billing narratives, trust accounting, firm financials.",
+       "kw": [
+        "time tracking",
+        "time entry",
+        "time capture",
+        "billing",
+        "invoic",
+        "trust accounting",
+        "legal accounting",
+        "pre-bill",
+        "payments"
+       ]
+      },
+      {
+       "id": "FIRM.intake",
+       "name": "Client intake, CRM & marketing",
+       "def": "Lead qualification, AI receptionists, CRM, legal marketing/SEO.",
+       "kw": [
+        "lead",
+        "client intake",
+        "crm",
+        "marketing",
+        "receptionist",
+        "answering",
+        "seo",
+        "website chat",
+        "appointment"
+       ]
+      },
+      {
+       "id": "FIRM.comms",
+       "name": "Client communication & portals",
+       "def": "Client portals, automated updates, client messaging.",
+       "kw": [
+        "client portal",
+        "client communication",
+        "client messaging",
+        "text messaging",
+        "client update"
+       ]
+      },
+      {
+       "id": "FIRM.dms",
+       "name": "Document & email management (DMS)",
+       "def": "Legal document management systems, email filing, records.",
+       "kw": [
+        "document management",
+        "dms",
+        "email management",
+        "email filing",
+        "records management"
+       ]
+      },
+      {
+       "id": "FIRM.docket",
+       "name": "Docketing & deadline calendaring",
+       "def": "Court-rules-based deadline calculation, docket monitoring.",
+       "kw": [
+        "deadline calculation",
+        "court rules",
+        "docketing",
+        "deadline",
+        "docket alert"
+       ]
+      },
+      {
+       "id": "FIRM.bi",
+       "name": "Firm intelligence & business development",
+       "def": "Pricing, profitability, pitch/BD intelligence, relationship mapping.",
+       "kw": [
+        "pricing",
+        "profitability",
+        "business development",
+        "pitch",
+        "relationship",
+        "firm performance",
+        "experience management"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "CONS",
+     "name": "Consumer & Access to Justice",
+     "color": "#f39c12",
+     "categories": [
+      {
+       "id": "CONS.selfhelp",
+       "name": "Consumer self-help legal",
+       "def": "DIY legal documents/Q&A for individuals and small businesses.",
+       "kw": [
+        "consumer",
+        "self-help",
+        "diy",
+        "individuals",
+        "small business legal",
+        "legal plan",
+        "subscription cancellation"
+       ]
+      },
+      {
+       "id": "CONS.estate",
+       "name": "Estate planning & family law",
+       "def": "Wills, trusts, probate, divorce, custody.",
+       "kw": [
+        "estate",
+        "will",
+        "trust",
+        "probate",
+        "divorce",
+        "custody",
+        "family law",
+        "executor",
+        "asset discovery",
+        "account closure"
+       ]
+      },
+      {
+       "id": "CONS.immig",
+       "name": "Immigration",
+       "def": "Visa eligibility, petitions, RFE responses, immigration case management.",
+       "kw": [
+        "immigration",
+        "visa",
+        "petition",
+        "rfe",
+        "uscis",
+        "green card"
+       ]
+      },
+      {
+       "id": "CONS.market",
+       "name": "Legal marketplaces & lawyer matching",
+       "def": "Match clients with lawyers, flat-fee legal services platforms.",
+       "kw": [
+        "marketplace",
+        "lawyer matching",
+        "find a lawyer",
+        "flat-fee"
+       ]
+      },
+      {
+       "id": "CONS.a2j",
+       "name": "Access-to-justice & legal aid tools",
+       "def": "Tools for legal aid orgs, self-represented litigants, record clearance, eviction defense.",
+       "kw": [
+        "access to justice",
+        "legal aid",
+        "self-represented",
+        "pro se",
+        "record clearance",
+        "expungement",
+        "eviction",
+        "tenant"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "GOV",
+     "name": "Courts & Public Sector",
+     "color": "#34495e",
+     "categories": [
+      {
+       "id": "GOV.courts",
+       "name": "Judicial & court AI",
+       "def": "Tools for judges/clerks/courts: bench memos, court transcription, case management.",
+       "kw": [
+        "judge",
+        "judicial",
+        "court",
+        "clerk",
+        "bench memo",
+        "tribunal"
+       ]
+      },
+      {
+       "id": "GOV.justice",
+       "name": "Criminal justice & public defense",
+       "def": "Body-cam/evidence review for defenders/prosecutors, risk assessment.",
+       "kw": [
+        "public defender",
+        "prosecutor",
+        "criminal",
+        "body cam",
+        "police",
+        "evidence management"
+       ]
+      },
+      {
+       "id": "GOV.lawmaking",
+       "name": "Government legal & legislative drafting",
+       "def": "Legislative drafting, policy tracking, government legal departments.",
+       "kw": [
+        "legislative",
+        "legislation drafting",
+        "policy tracking",
+        "government",
+        "public sector",
+        "lawmaking"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "SERV",
+     "name": "AI-native Legal Services",
+     "color": "#1abc9c",
+     "categories": [
+      {
+       "id": "SERV.lawfirm",
+       "name": "AI-native law firms",
+       "def": "Licensed law firms delivering legal services with AI at the core (flat fee/outcome pricing).",
+       "kw": [
+        "ai-native law firm",
+        "law firm",
+        "flat-fee legal services",
+        "legal services"
+       ]
+      },
+      {
+       "id": "SERV.alsp",
+       "name": "Tech-enabled ALSPs & managed services",
+       "def": "Alternative legal service providers/managed review/legal process outsourcing using AI.",
+       "kw": [
+        "alsp",
+        "managed service",
+        "managed review",
+        "managed contract review",
+        "outsourc",
+        "legal process",
+        "consulting",
+        "lawyer staffing",
+        "flexible lawyer"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "INFRA",
+     "name": "Legal AI Infrastructure",
+     "color": "#7f8c8d",
+     "categories": [
+      {
+       "id": "INFRA.models",
+       "name": "Legal LLMs, embeddings & models",
+       "def": "Legal-domain foundation models, embeddings, rerankers.",
+       "kw": [
+        "legal llm",
+        "foundation model",
+        "embedding",
+        "reranker",
+        "fine-tuned model",
+        "legal model"
+       ]
+      },
+      {
+       "id": "INFRA.data",
+       "name": "Legal data & APIs",
+       "def": "Case law/docket/legislation data APIs, open legal data.",
+       "kw": [
+        "api",
+        "legal data",
+        "open data",
+        "dataset",
+        "docket data",
+        "court records data"
+       ]
+      },
+      {
+       "id": "INFRA.eval",
+       "name": "Evaluation, security & trust tooling",
+       "def": "Benchmarks/evals for legal AI, hallucination testing, secure deployment.",
+       "kw": [
+        "evaluation",
+        "benchmark",
+        "eval",
+        "red team",
+        "trust layer"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "B_customer": {
+   "label": "Customer segment",
+   "values": [
+    "Large law firms",
+    "Mid-size law firms",
+    "Small firms & solos",
+    "Plaintiff/PI firms",
+    "In-house legal",
+    "Business teams (non-lawyers)",
+    "Compliance teams",
+    "Consumers/individuals",
+    "SMBs",
+    "Government/courts",
+    "Legal aid/non-profits",
+    "Insurers/claims",
+    "Financial institutions",
+    "Private equity/funds",
+    "IP/patent professionals",
+    "ALSPs/legal service providers",
+    "Law students/academia"
+   ]
+  },
+  "C_practice": {
+   "label": "Practice area (normalized)",
+   "values": [
+    "General / multi-practice",
+    "Litigation",
+    "Corporate & M&A",
+    "Commercial contracts",
+    "Banking & finance / funds",
+    "Regulatory & compliance",
+    "Privacy & data",
+    "Intellectual property",
+    "Personal injury & mass torts",
+    "Employment",
+    "Immigration",
+    "Real estate",
+    "Tax",
+    "Family & estates",
+    "Criminal",
+    "Insurance & benefits",
+    "Arbitration",
+    "Other"
+   ]
+  },
+  "D_model": {
+   "label": "Business model",
+   "values": [
+    {
+     "id": "platform",
+     "name": "Horizontal AI platform",
+     "def": "Broad legal AI workspace serving many tasks/practice areas."
+    },
+    {
+     "id": "point",
+     "name": "Point solution",
+     "def": "Focused product for one workflow or vertical."
+    },
+    {
+     "id": "suite",
+     "name": "Incumbent suite / publisher",
+     "def": "Established legal software or content company adding AI to an installed base."
+    },
+    {
+     "id": "services",
+     "name": "AI-native services",
+     "def": "Law firm or ALSP that sells outcomes/services powered by AI."
+    },
+    {
+     "id": "infra",
+     "name": "Infrastructure",
+     "def": "Models, data, APIs or evaluation sold to builders."
+    }
+   ]
+  }
+ }
+}
