@@ -272,7 +272,8 @@
   "primary": "FIRM.comms",
   "categories": [
    "FIRM.comms",
-   "FIRM.intake"
+   "FIRM.intake",
+   "FIRM.marketing"
   ],
   "model": "point",
   "customers": [
@@ -924,7 +925,8 @@
    "INFRA.data",
    "LIT.draft",
    "FIRM.docket",
-   "CONS.market"
+   "CONS.market",
+   "FIRM.marketing"
   ],
   "model": "suite",
   "customers": [
@@ -1284,7 +1286,8 @@
   "categories": [
    "CONS.market",
    "RES.case",
-   "DRAFT.write"
+   "DRAFT.write",
+   "FIRM.marketing"
   ],
   "model": "suite",
   "customers": [
@@ -1395,6 +1398,7 @@
   "primary": "FIRM.intake",
   "categories": [
    "FIRM.intake",
+   "FIRM.marketing",
    "DRAFT.auto"
   ],
   "model": "suite",
@@ -2645,6 +2649,7 @@
    "DEAL.dd",
    "DEAL.closing",
    "FIRM.bi",
+   "FIRM.marketing",
    "RES.km",
    "FIRM.dms"
   ],
@@ -3537,7 +3542,7 @@
   "primary": "FIRM.bi",
   "categories": [
    "FIRM.bi",
-   "FIRM.intake"
+   "FIRM.marketing"
   ],
   "model": "point",
   "customers": [
@@ -3556,7 +3561,7 @@
   "categories": [
    "LIT.case",
    "RES.case",
-   "LIT.depo",
+   "LIT.trial",
    "DRAFT.write"
   ],
   "model": "point",
@@ -3579,7 +3584,8 @@
   "primary": "LIT.ediscovery",
   "categories": [
    "LIT.ediscovery",
-   "LIT.depo"
+   "LIT.depo",
+   "LIT.trial"
   ],
   "model": "point",
   "customers": [
@@ -3844,6 +3850,7 @@
   "categories": [
    "LIT.case",
    "LIT.depo",
+   "LIT.trial",
    "LIT.adr"
   ],
   "model": "suite",
