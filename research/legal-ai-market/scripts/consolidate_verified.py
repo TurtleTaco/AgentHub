@@ -17,6 +17,11 @@ from merge_discovery import norm_name  # noqa: E402
 
 CHUNK = int(os.environ.get("CHUNK", "28"))
 
+# Cross-chunk corrections reported by verifiers (applied on top of V*_verified.json)
+OVERRIDES = {
+    "Pocketlaw": {"verdict": "duplicate", "duplicate_of": "Miramis", "notes": "Pocketlaw rebranded as Miramis (V3 verifier)"},
+}
+
 COUNTRY_FIX = {"US": "United States", "USA": "United States", "UK": "United Kingdom",
                "unknown": None, "Unknown": None, "": None}
 
@@ -26,6 +31,8 @@ def main():
     verdicts = {}
     for f in sorted(glob.glob(os.path.join(ROOT, "raw", "verification", "V*_verified.json"))):
         for v in json.load(open(f)):
+            if v.get("name") in OVERRIDES:
+                v = {**v, **OVERRIDES[v["name"]]}
             verdicts[v["cid"]] = v
 
     included, excluded = [], []
@@ -96,8 +103,15 @@ def main():
     to_profile = [r for r in included if not (
         r["status"] == "defunct" or (r["status"] == "acquired" and r.get("operates_as") == "absorbed"))]
     light = [r for r in included if r not in to_profile]
+    # core first so the earliest profiling waves cover the heart of the market
+    to_profile.sort(key=lambda r: (r["scope"] != "core", r["cid"].startswith("G"), r["name"].lower()))
     out_dir = os.path.join(ROOT, "data", "profile_chunks")
     os.makedirs(out_dir, exist_ok=True)
+    if glob.glob(os.path.join(out_dir, "P*.json")) and not os.environ.get("FORCE_RECHUNK"):
+        print("profile chunks already exist (frozen; set FORCE_RECHUNK=1 to rebuild) - skipping chunk write")
+        core = sum(1 for r in included if r["scope"] == "core")
+        print(f"included {len(included)} (core {core}, adjacent {len(included) - core}); excluded {len(excluded)}")
+        return
     for f in glob.glob(os.path.join(out_dir, "*.json")):
         os.remove(f)
     keys = ("cid", "name", "aliases", "website", "hq_country", "one_liner", "scope", "status",

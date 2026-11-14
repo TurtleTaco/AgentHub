@@ -1,0 +1,597 @@
+[
+ {
+  "cid": "C0006",
+  "name": "Abel",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "YC W24 document-intelligence tool for attorneys reviewing large legal records.",
+  "scope": "core",
+  "status": "defunct",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D9"
+  ],
+  "last_known_funding": "YC W24",
+  "discovery_sources": [
+   "https://www.ycombinator.com/companies/industry/legal"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "defunct (listed inactive; reportedly shut down within a year of launch)"
+ },
+ {
+  "cid": "C0019",
+  "name": "Aida",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "AI-native sales execution platform (Glean co-founder); team acquired by Harvey Oct 2026.",
+  "scope": "out",
+  "status": "acquired",
+  "acquired_by": "Harvey",
+  "acquired_year": 2026,
+  "operates_as": "absorbed",
+  "verify_confidence": "high",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D9"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://aiera.blog/harvey-buys-aida-legal-ai-acquisition/"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "not a legal product; acqui-hire by Harvey (record under Harvey M&A)"
+ },
+ {
+  "cid": "C0042",
+  "name": "Anvil",
+  "aliases": [],
+  "website": "https://www.useanvil.com",
+  "hq_country": "United States",
+  "one_liner": "Generic paperwork automation: AI PDF/form filling, document workflows and e-signature.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "knowledge",
+  "verify_notes": null,
+  "found_by": [
+   "D2"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "no legal-specific product (horizontal document automation)"
+ },
+ {
+  "cid": "C0052",
+  "name": "Moritz (formerly Arcline)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "AI-native law firm for startups: AI drafts, lawyers finish; YC W26; renamed Moritz.",
+  "scope": "core",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "high",
+  "verify_evidence": "search",
+  "verify_notes": "Renamed Moritz; raised $9M (May 2026) from YC, 20VC. Not Arcline Investment Management.",
+  "found_by": [
+   "D1",
+   "D9"
+  ],
+  "last_known_funding": "YC W26",
+  "discovery_sources": [
+   "https://www.artificiallawyer.com/2026/02/04/y-combinator-picks-3-newmods-general-legal-arcline-legalos/",
+   "https://startground.com/yc-w26-startups/"
+  ],
+  "verdict": "duplicate",
+  "duplicate_of": "Moritz",
+  "exclude_reason": null
+ },
+ {
+  "cid": "C0058",
+  "name": "Atrium",
+  "aliases": [],
+  "website": "https://www.atrium.co",
+  "hq_country": "United States",
+  "one_liner": "Tech-enabled startup law firm (2017-2020); shut down.",
+  "scope": "out",
+  "status": "defunct",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "high",
+  "verify_evidence": "knowledge",
+  "verify_notes": null,
+  "found_by": [
+   "D6"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://www.atrium.co"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "defunct; tech-enabled law firm without AI-central product"
+ },
+ {
+  "cid": "C0063",
+  "name": "AutoSitu",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "AI workspace for city development-plan review (permitting); YC W26.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D9"
+  ],
+  "last_known_funding": "YC W26",
+  "discovery_sources": [
+   "https://startground.com/yc-w26-startups/"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "govtech permitting tool; 'legal' only a directory tag"
+ },
+ {
+  "cid": "C0075",
+  "name": "Benchmark",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "Decision infrastructure platform for asset managers (YC); acquired by Harvey Jul 2026.",
+  "scope": "out",
+  "status": "acquired",
+  "acquired_by": "Harvey",
+  "acquired_year": 2026,
+  "operates_as": "absorbed",
+  "verify_confidence": "high",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D9"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://thelegalengineer.com/legal-tech-is-entering-its-consolidation-era/"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "not a legal product (investment workflow); record under Harvey M&A"
+ },
+ {
+  "cid": "C0128",
+  "name": "Clause",
+  "aliases": [],
+  "website": "https://clause.io",
+  "hq_country": "United States",
+  "one_liner": "Smart, computable contract platform.",
+  "scope": "out",
+  "status": "acquired",
+  "acquired_by": "Docusign",
+  "acquired_year": 2021,
+  "operates_as": "absorbed",
+  "verify_confidence": "high",
+  "verify_evidence": "knowledge",
+  "verify_notes": null,
+  "found_by": [
+   "D2"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "no AI-central product; absorbed into Docusign 2021"
+ },
+ {
+  "cid": "C0198",
+  "name": "Divorce AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "one_liner": "AI tool for navigating divorce.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "discovery_source",
+  "verify_notes": "Only a Stanford CodeX index listing; no website or current activity confirmed.",
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://techindex.law.stanford.edu/companies/divorce-ai"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed"
+ },
+ {
+  "cid": "C0241",
+  "name": "Fagougou (法狗狗)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "China",
+  "one_liner": "Chinese AI legal consultation startup.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "search",
+  "verify_notes": "Search found no current company; cited Huxiu article concerns PowerLaw (幂律智能).",
+  "found_by": [
+   "D8"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://www.huxiu.com/article/4850995.html"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed"
+ },
+ {
+  "cid": "C0242",
+  "name": "Familaw",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "one_liner": "Family law technology tool listed in Stanford CodeX index.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "discovery_source",
+  "verify_notes": "Only an index listing; no AI product or activity confirmed.",
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://techindex.law.stanford.edu/companies/familaw"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed"
+ },
+ {
+  "cid": "C0284",
+  "name": "HelpSelf",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "one_liner": "AI guiding people in legal trouble toward self-help.",
+  "scope": "out",
+  "status": "defunct",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "discovery_source",
+  "verify_notes": "Only an old TechCrunch mention; no current activity found.",
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://techcrunch.com/?p=1620375"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed"
+ },
+ {
+  "cid": "C0288",
+  "name": "Hexus",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "Product demo and guide creation startup acqui-hired by Harvey.",
+  "scope": "out",
+  "status": "acquired",
+  "acquired_by": "Harvey",
+  "acquired_year": 2026,
+  "operates_as": "absorbed",
+  "verify_confidence": "high",
+  "verify_evidence": "search",
+  "verify_notes": "Jan 2026 acqui-hire; no legal product.",
+  "found_by": [
+   "D9"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://thelegalengineer.com/legal-tech-is-entering-its-consolidation-era/",
+   "https://legalizeai.com/blog/legal-ai-acquisitions-tracker"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "not legal-specific"
+ },
+ {
+  "cid": "C0326",
+  "name": "Jury Analyst",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "one_liner": "Jury research and analytics.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "discovery_source",
+  "verify_notes": "Only a PitchBook profile; no AI product confirmed.",
+  "found_by": [
+   "D3"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://pitchbook.com/profiles/company/1232099-02"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed"
+ },
+ {
+  "cid": "C0350",
+  "name": "LAW.co",
+  "aliases": [],
+  "website": "https://law.co",
+  "hq_country": "United States",
+  "one_liner": "Custom AI software, private LLM and agentic workflow development agency for law firms.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "search",
+  "verify_notes": "Borderline: legal-specific and AI-centric but sells bespoke builds rather than a product.",
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://law.co/client-intake-automation"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "custom-development agency (reportedly ex lawyer-SEO agency, LLM.co team); no distinct product"
+ },
+ {
+  "cid": "C0355",
+  "name": "Lawfty",
+  "aliases": [],
+  "website": "https://www.lawfty.com",
+  "hq_country": "United States",
+  "one_liner": "Data-driven lead generation and digital marketing agency for personal injury law firms.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "knowledge",
+  "verify_notes": null,
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://www.lawfty.com"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "law-firm marketing agency; no identifiable AI product line"
+ },
+ {
+  "cid": "C0460",
+  "name": "Miranda AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "JusticeText's AI assistant for public defenders: timelines, inconsistencies and fact extraction.",
+  "scope": "core",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "search",
+  "verify_notes": "Thomson Reuters Institute article on JusticeText describes Miranda as its assistant built with public defenders.",
+  "found_by": [
+   "D4"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://minnlawyer.com/2026/10/26/ai-widens-gap-between-prosecutors-and-defense-but-some-attorneys-see-a-way-to-level-the-field/"
+  ],
+  "verdict": "duplicate",
+  "duplicate_of": "JusticeText",
+  "exclude_reason": null
+ },
+ {
+  "cid": "C0489",
+  "name": "Obligo AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "one_liner": "Generic AI contract management tool listed on software directories.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "low",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D2"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://sourceforge.net/software/product/Obligo-AI/"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "unconfirmed: only directory listings (SourceForge/GoodFirms), no company information; generic contract tool"
+ },
+ {
+  "cid": "C0490",
+  "name": "Office & Dragons",
+  "aliases": [],
+  "website": "https://www.officeanddragons.com",
+  "hq_country": "United Kingdom",
+  "one_liner": "Bulk document processing and closing/signature automation for transactional lawyers; acquired by Litera.",
+  "scope": "out",
+  "status": "acquired",
+  "acquired_by": "Litera",
+  "acquired_year": 2022,
+  "operates_as": "absorbed",
+  "verify_confidence": "medium",
+  "verify_evidence": "knowledge",
+  "verify_notes": null,
+  "found_by": [
+   "D5"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://www.officeanddragons.com"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "no AI product; absorbed into Litera"
+ },
+ {
+  "cid": "C0507",
+  "name": "Paladin",
+  "aliases": [],
+  "website": "https://www.joinpaladin.com",
+  "hq_country": "United States",
+  "one_liner": "Pro bono management platform matching lawyers and law students to legal aid opportunities.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "search",
+  "verify_notes": null,
+  "found_by": [
+   "D6"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://lsc.gov/node/3920"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "no AI product; pro bono management and analytics software"
+ },
+ {
+  "cid": "C0521",
+  "name": "PatVault",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "one_liner": "IPPY Technologies' pay-as-you-go bulk patent document and file-history retrieval tool.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "search",
+  "verify_notes": "Launched Feb 2026 by IPPY Technologies; marketed as LLM-ready DOCX output but no AI of its own. HQ inferred.",
+  "found_by": [
+   "D6"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://ipwatchdog.com/press/patvault-fast-tracks-patent-analysis-for-legal-professionals/"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "no AI; patent document retrieval tool rather than AI analysis"
+ },
+ {
+  "cid": "C0531",
+  "name": "Pocketlaw",
+  "aliases": [],
+  "website": "https://pocketlaw.com",
+  "hq_country": "Sweden",
+  "one_liner": "AI contract platform for growing companies: templates, review, signing and repository.",
+  "scope": "core",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "knowledge",
+  "verify_notes": "Pocketlaw rebranded as Miramis (V3 verifier)",
+  "found_by": [
+   "D2"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [],
+  "verdict": "duplicate",
+  "duplicate_of": "Miramis",
+  "exclude_reason": null
+ },
+ {
+  "cid": "C0609",
+  "name": "Springbok AI",
+  "aliases": [],
+  "website": "https://www.springbok.ai",
+  "hq_country": "United Kingdom",
+  "one_liner": "Legal AI consultancy building generative AI tools and chatbots for law firms.",
+  "scope": "out",
+  "status": "active",
+  "acquired_by": null,
+  "acquired_year": null,
+  "operates_as": null,
+  "verify_confidence": "medium",
+  "verify_evidence": "knowledge",
+  "verify_notes": "Legal AI consultancy (bespoke builds for law firms). Re-include if a product line is confirmed.",
+  "found_by": [
+   "D7"
+  ],
+  "last_known_funding": null,
+  "discovery_sources": [
+   "https://www.cbinsights.com/compare/springbokai-vs-thoughtriver"
+  ],
+  "verdict": "exclude",
+  "duplicate_of": null,
+  "exclude_reason": "consultancy building bespoke tools for clients; no product of its own"
+ }
+]
