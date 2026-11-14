@@ -459,18 +459,30 @@
       },
       {
        "id": "LIT.depo",
-       "name": "Depositions, transcripts & trial prep",
-       "def": "Deposition prep/summaries, transcription, exhibits, jury research, trial presentation.",
+       "name": "Depositions & transcripts",
+       "def": "Deposition prep, summaries, transcription, testimony analysis.",
        "kw": [
         "deposition",
         "transcript",
         "court reporting",
-        "trial",
-        "jury",
-        "exhibit",
         "witness",
         "hearing",
         "page-line"
+       ]
+      },
+      {
+       "id": "LIT.trial",
+       "name": "Trial prep & jury simulation",
+       "def": "Trial presentation, exhibits, mock juries, judge/jury simulation, argument testing.",
+       "kw": [
+        "trial",
+        "jury",
+        "mock",
+        "simulation",
+        "exhibit",
+        "juror",
+        "argument testing",
+        "courtroom presentation"
        ]
       },
       {
@@ -824,18 +836,30 @@
       },
       {
        "id": "FIRM.intake",
-       "name": "Client intake, CRM & marketing",
-       "def": "Lead qualification, AI receptionists, CRM, legal marketing/SEO.",
+       "name": "Client intake & AI receptionists",
+       "def": "Capture and qualify inbound clients: AI receptionists, intake forms, conflict capture, scheduling.",
        "kw": [
         "lead",
         "client intake",
         "crm",
-        "marketing",
         "receptionist",
         "answering",
-        "seo",
         "website chat",
         "appointment"
+       ]
+      },
+      {
+       "id": "FIRM.marketing",
+       "name": "Legal marketing & lead generation",
+       "def": "Generate demand for law firms: SEO, ads, content, review management, lead marketplaces.",
+       "kw": [
+        "marketing",
+        "seo",
+        "advertis",
+        "lead generation",
+        "content marketing",
+        "review management",
+        "google ads"
        ]
       },
       {

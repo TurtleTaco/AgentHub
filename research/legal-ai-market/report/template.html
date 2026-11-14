@@ -1,0 +1,735 @@
+<title>Legal AI Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+/* Layout: sticky docket-style top bar with tab index; each view is a single column of "exhibits"; company details open in a right-hand drawer */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --surface-2: #f8f9fb;
+  --ink: #142033;
+  --muted: #5a6577;
+  --faint: #8b95a5;
+  --line: #dde2e9;
+  --accent: #1f5fa6;
+  --accent-weak: #e5edf7;
+  --on-accent: #ffffff;
+  --mark: #b4532a;
+  --good: #2f8a4c;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e131b; --surface: #151c27; --surface-2: #19212e; --ink: #e5eaf1; --muted: #a0abbc; --faint: #6f7b8e;
+    --line: #273142; --accent: #74a9ec; --accent-weak: #1b293c; --on-accent: #0e131b; --mark: #e39066; --good: #6cc488;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e131b; --surface: #151c27; --surface-2: #19212e; --ink: #e5eaf1; --muted: #a0abbc; --faint: #6f7b8e;
+  --line: #273142; --accent: #74a9ec; --accent-weak: #1b293c; --on-accent: #0e131b; --mark: #e39066; --good: #6cc488;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); color: var(--ink); }
+body { font-family: var(--font-body); font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: 0.005em; }
+.mono { font-family: var(--font-mono); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* top bar */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
+.topbar-inner { max-width: 1240px; margin: 0 auto; padding-block: 10px 0; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.brand { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.brand h1 { font-size: 22px; font-weight: 700; }
+.brand .asof { color: var(--muted); font-size: 12px; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; margin-top: 6px; scrollbar-width: none; }
+.tabs a { text-decoration: none; color: var(--muted); padding: 8px 12px 10px; border-bottom: 2px solid transparent; white-space: nowrap; font-weight: 500; }
+.tabs a .k { font-family: var(--font-mono); font-size: 11px; color: var(--faint); margin-right: 6px; }
+.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+main { max-width: 1240px; margin: 0 auto; padding-block: 20px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.view { display: grid; gap: 20px; }
+.lede { color: var(--muted); max-width: 70ch; margin: 2px 0 0; }
+.section { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; min-width: 0; }
+.section h2 { font-size: 17px; font-weight: 600; }
+.section .sub { color: var(--muted); font-size: 13px; margin: 2px 0 12px; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px; }
+
+/* KPI strip */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.kpi { background: var(--surface); padding: 14px 16px; }
+.kpi .v { font-family: var(--font-display); font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.kpi .l { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; }
+
+/* takeaways */
+.takeaways { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.takeaways li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: start; }
+.takeaways li .b { font-family: var(--font-mono); font-size: 12px; color: var(--mark); padding-top: 1px; }
+
+/* bars */
+.bars { display: grid; gap: 4px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 230px) 1fr 54px; gap: 10px; align-items: center; background: none; border: 0; padding: 3px 4px; border-radius: 4px; text-align: left; cursor: default; }
+.bar-row.clickable { cursor: pointer; }
+.bar-row.clickable:hover { background: var(--surface-2); }
+.bar-label { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 6px; min-width: 0; }
+.bar-track { position: relative; height: 12px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.bar-fill { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.bar-fill.ghost { opacity: 0.32; }
+.bar-val { font-family: var(--font-mono); font-size: 12px; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 14px; height: 8px; border-radius: 2px; display: inline-block; background: var(--accent); }
+.sw.ghost { opacity: 0.32; }
+
+/* columns chart */
+.cols { display: flex; align-items: flex-end; gap: 3px; height: 150px; padding-top: 8px; border-bottom: 1px solid var(--line); }
+.col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; min-width: 0; }
+.col .bar { width: 100%; background: var(--accent); border-radius: 2px 2px 0 0; min-height: 1px; }
+.col .cv { font-family: var(--font-mono); font-size: 10px; color: var(--muted); margin-bottom: 2px; }
+.col-labels { display: flex; gap: 3px; margin-top: 4px; }
+.col-labels span { flex: 1; text-align: center; font-family: var(--font-mono); font-size: 10px; color: var(--faint); min-width: 0; overflow: hidden; }
+
+/* tables */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; background: var(--surface-2); position: sticky; top: 0; z-index: 1; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--surface-2); }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; }
+.linkish { background: none; border: 0; padding: 0; color: var(--ink); font-weight: 600; cursor: pointer; text-align: left; }
+.linkish:hover { color: var(--accent); }
+
+/* chips */
+.chip { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); white-space: nowrap; }
+.chip.code { font-family: var(--font-mono); font-size: 11px; }
+.chip.solid { background: var(--accent-weak); border-color: transparent; }
+.chip.btn { cursor: pointer; }
+.chip.btn:hover { border-color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.pill.acq { color: var(--mark); border-color: currentColor; background: transparent; }
+.pill.low { color: var(--faint); }
+
+/* mind map */
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 20px; align-items: start; }
+@media (max-width: 960px) { .map-layout { grid-template-columns: 1fr; } }
+.map-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: 5px; padding: 6px 10px; cursor: pointer; font-size: 13px; }
+.btn:hover { border-color: var(--accent); }
+input[type="search"], select { font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 6px 9px; min-width: 0; }
+.map-scroll { overflow: auto; max-height: 78vh; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
+#mapSvg text { font-family: var(--font-body); font-size: 12.5px; fill: var(--ink); }
+#mapSvg .n-domain text { font-weight: 600; font-family: var(--font-display); font-size: 14px; }
+#mapSvg .n-root text { font-weight: 700; font-family: var(--font-display); font-size: 16px; }
+#mapSvg .cnt { fill: var(--muted); font-family: var(--font-mono); font-size: 11px; }
+#mapSvg .link { fill: none; stroke-width: 1.4; stroke-opacity: 0.55; }
+#mapSvg .node { cursor: pointer; }
+#mapSvg .node:hover text { text-decoration: underline; }
+#mapSvg .hl circle { stroke: var(--mark); stroke-width: 3; }
+#mapSvg .hl text { fill: var(--mark); font-weight: 600; }
+#mapSvg .sel text { text-decoration: underline; }
+.panel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 96px); max-height: calc(100vh - 120px); overflow: auto; }
+.panel h3 { font-size: 16px; }
+.panel .def { color: var(--muted); margin: 4px 0 10px; font-size: 13px; }
+.co-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.co-list li button { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; text-align: left; background: none; border: 0; padding: 6px 6px; border-radius: 4px; cursor: pointer; }
+.co-list li button:hover { background: var(--surface-2); }
+.co-list .nm { font-weight: 600; }
+.co-list .meta { color: var(--muted); font-size: 12px; font-family: var(--font-mono); text-align: right; }
+.co-list .ua { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.group-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--faint); margin: 12px 0 4px; }
+.mini-cats { display: grid; gap: 3px; }
+
+/* heatmap */
+.heat-wrap { overflow-x: auto; }
+#heat text { font-family: var(--font-body); font-size: 11.5px; fill: var(--ink); }
+#heat .lab { fill: var(--muted); }
+#heat rect.cell { fill: var(--accent); stroke: var(--surface); stroke-width: 1; cursor: pointer; }
+#heat rect.bg { fill: var(--surface-2); }
+#heat rect.cell:hover, #heat rect.cell.on { stroke: var(--mark); stroke-width: 2; }
+#heat text.cv { font-family: var(--font-mono); font-size: 10.5px; pointer-events: none; }
+
+/* directory */
+.filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 8px; margin-bottom: 10px; }
+.filters label { display: grid; gap: 3px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--faint); }
+.count-line { color: var(--muted); font-size: 12px; margin: 0 0 8px; }
+
+/* drawer */
+.backdrop { position: fixed; inset: 0; background: rgba(10, 16, 26, 0.35); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 100%); background: var(--surface); border-left: 1px solid var(--line); z-index: 50; overflow-y: auto;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 16px); padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 24px);
+  padding-left: 20px; padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.drawer .close { position: sticky; top: 0; float: right; }
+.drawer h2 { font-size: 24px; margin-right: 60px; }
+.drawer .tag-line { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; margin-bottom: 14px; }
+.facts div { background: var(--surface); padding: 8px 10px; }
+.facts dt { font-size: 11px; color: var(--faint); text-transform: uppercase; letter-spacing: 0.05em; }
+.facts dd { margin: 2px 0 0; font-weight: 500; font-variant-numeric: tabular-nums; }
+.dsec { margin: 14px 0; }
+.dsec h4 { font-family: var(--font-display); font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+.prod { border-top: 1px solid var(--line); padding: 8px 0; }
+.prod .pn { font-weight: 600; }
+.prod .pd { color: var(--muted); font-size: 13px; margin: 2px 0 6px; }
+.dl { margin: 0; padding-left: 18px; }
+.dl li { margin: 2px 0; }
+.src a { word-break: break-all; font-size: 12px; }
+
+/* method */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: s; }
+.steps li { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; }
+.steps li::before { counter-increment: s; content: counter(s); font-family: var(--font-mono); font-size: 13px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-weak); color: var(--accent); font-weight: 500; }
+.steps b { display: block; }
+.steps span { color: var(--muted); font-size: 13px; }
+.caveats { margin: 0; padding-left: 18px; color: var(--muted); }
+.caveats li { margin: 4px 0; }
+code { font-family: var(--font-mono); font-size: 12px; background: var(--surface-2); padding: 1px 5px; border-radius: 3px; border: 1px solid var(--line); }
+.acq-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 10px; }
+.acq { border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; }
+.acq .who { font-weight: 600; display: flex; justify-content: space-between; gap: 8px; }
+.acq .who .mono { color: var(--muted); font-weight: 400; font-size: 12px; }
+.acq .chips { margin-top: 6px; }
+@media (max-width: 560px) {
+  .bar-row { grid-template-columns: minmax(90px, 130px) 1fr 44px; }
+  .kpi .v { font-size: 24px; }
+}
+@media (prefers-reduced-motion: no-preference) { .bar-fill { transition: width .3s ease; } }
+</style>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><h1>Legal AI Atlas</h1><span class="asof" id="asof"></span></div>
+    <nav class="tabs" aria-label="Sections">
+      <a id="tab-overview" href="#overview"><span class="k">01</span>Overview</a>
+      <a id="tab-map" href="#map"><span class="k">02</span>Mind map</a>
+      <a id="tab-overlap" href="#overlap"><span class="k">03</span>Overlaps &amp; white space</a>
+      <a id="tab-directory" href="#directory"><span class="k">04</span>Company directory</a>
+      <a id="tab-method" href="#method"><span class="k">05</span>Method</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- OVERVIEW -->
+  <section class="view" id="view-overview">
+    <div>
+      <h2 style="font-size:20px">The legal AI market at a glance</h2>
+      <p class="lede">Every company we could find building AI for legal work, sorted by the job each product does. Click any bar, node or name to drill in.</p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="section">
+      <h2>Key takeaways</h2>
+      <p class="sub">What stands out after profiling every company.</p>
+      <ul class="takeaways" id="takeaways"></ul>
+    </div>
+    <div class="section">
+      <h2>Where companies focus</h2>
+      <p class="sub">Companies active in each workflow domain. Solid = it is their main focus. Click a domain to open it in the mind map.</p>
+      <div class="legend"><span><i class="sw"></i>Main focus</span><span><i class="sw ghost"></i>Also active</span></div>
+      <div class="bars" id="domainBars"></div>
+    </div>
+    <div class="grid-3">
+      <div class="section"><h2>Headquarters by region</h2><p class="sub">Companies profiled</p><div class="bars" id="regionBars"></div></div>
+      <div class="section"><h2>Funding stage</h2><p class="sub">Latest known stage</p><div class="bars" id="stageBars"></div></div>
+      <div class="section"><h2>Team size</h2><p class="sub">Employees, latest estimate</p><div class="bars" id="empBars"></div></div>
+    </div>
+    <div class="grid-2">
+      <div class="section"><h2>Founding years</h2><p class="sub">Companies founded per year. The post-ChatGPT wave starts in 2023.</p><div id="foundedCols"></div></div>
+      <div class="section"><h2>Top countries</h2><p class="sub">Companies by HQ country</p><div class="bars" id="countryBars"></div></div>
+    </div>
+    <div class="section">
+      <h2>Most-funded independent companies</h2>
+      <p class="sub">Total disclosed funding (USD). Excludes public companies and acquired brands.</p>
+      <div class="table-wrap"><table><thead><tr><th>#</th><th>Company</th><th>Main focus</th><th>HQ</th><th>Stage</th><th class="r">Raised</th><th class="r">Valuation</th></tr></thead><tbody id="topFunded"></tbody></table></div>
+    </div>
+    <div class="section">
+      <h2>Consolidation: who is buying</h2>
+      <p class="sub">Acquirers with two or more legal AI acquisitions in this dataset.</p>
+      <div class="acq-grid" id="acqGrid"></div>
+    </div>
+  </section>
+
+  <!-- MIND MAP -->
+  <section class="view" id="view-map" hidden>
+    <div>
+      <h2 style="font-size:20px">Mind map of what legal AI companies do</h2>
+      <p class="lede">Market → workflow domain → category → company. Click a domain to open its categories, then click a category to see its main players. The panel lists everyone active there.</p>
+    </div>
+    <div class="map-layout">
+      <div class="section" style="padding:12px">
+        <div class="map-tools">
+          <button class="btn" id="expandAll" type="button">Show all categories</button>
+          <button class="btn" id="collapseAll" type="button">Collapse</button>
+          <input type="search" id="mapFind" list="coNames" placeholder="Find a company on the map…" aria-label="Find a company on the map" style="flex:1;min-width:180px">
+          <datalist id="coNames"></datalist>
+        </div>
+        <div class="map-scroll"><svg id="mapSvg" role="img" aria-label="Mind map of legal AI market"></svg></div>
+      </div>
+      <aside class="section panel" id="mapPanel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <!-- OVERLAP -->
+  <section class="view" id="view-overlap" hidden>
+    <div>
+      <h2 style="font-size:20px">Overlaps, specialists and white space</h2>
+      <p class="lede">Where companies compete head-on, which domains get bundled together, and which areas have few players.</p>
+    </div>
+    <div class="section">
+      <h2>Domain overlap</h2>
+      <p class="sub">Each cell = companies active in both domains. Darker = more overlap. Click a cell to list them.</p>
+      <div class="heat-wrap"><svg id="heat" role="img" aria-label="Domain overlap heatmap"></svg></div>
+      <div id="heatList" style="margin-top:12px"></div>
+    </div>
+    <div class="grid-2">
+      <div class="section">
+        <h2>Most crowded categories</h2>
+        <p class="sub">Companies active (ghost) and main focus (solid). Click to open.</p>
+        <div class="bars" id="crowded"></div>
+      </div>
+      <div class="section">
+        <h2>White space: thinnest categories</h2>
+        <p class="sub">Fewest companies active. Possible openings or niches.</p>
+        <div class="bars" id="niche"></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="section">
+        <h2>Categories most often bundled</h2>
+        <p class="sub">Pairs of categories shipped by the same company.</p>
+        <div class="bars" id="pairs"></div>
+      </div>
+      <div class="section">
+        <h2>Specialists vs platforms</h2>
+        <p class="sub">How many categories each company covers.</p>
+        <div id="breadthCols"></div>
+        <div class="group-label">Broadest platforms</div>
+        <ul class="co-list" id="broadest"></ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Unique angles by category</h2>
+      <p class="sub">Pick a category to see how each player sets itself apart.</p>
+      <select id="uaCat" aria-label="Category" style="margin-bottom:10px;max-width:100%"></select>
+      <ul class="co-list" id="uaList"></ul>
+    </div>
+  </section>
+
+  <!-- DIRECTORY -->
+  <section class="view" id="view-directory" hidden>
+    <div>
+      <h2 style="font-size:20px">Company directory</h2>
+      <p class="lede">Search and filter every profiled company. Click a row for the full profile, including all products and capabilities.</p>
+    </div>
+    <div class="section">
+      <div class="filters">
+        <label>Search<input type="search" id="fq" placeholder="Name, product, capability…"></label>
+        <label>Domain<select id="fdom"></select></label>
+        <label>Region<select id="freg"></select></label>
+        <label>Stage<select id="fstg"></select></label>
+        <label>Business model<select id="fmod"></select></label>
+        <label>Customer<select id="fcus"></select></label>
+        <label>Sort by<select id="fsort"><option value="name">Name A–Z</option><option value="raised">Funding (high→low)</option><option value="founded">Newest first</option><option value="breadth">Breadth (most categories)</option></select></label>
+      </div>
+      <p class="count-line" id="dirCount"></p>
+      <div class="table-wrap" style="max-height:72vh"><table><thead><tr><th>Company</th><th>Main focus</th><th>HQ</th><th class="r">Founded</th><th>Stage</th><th class="r">Raised</th><th>Team</th></tr></thead><tbody id="dirBody"></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="view" id="view-method" hidden>
+    <div>
+      <h2 style="font-size:20px">How this was built</h2>
+      <p class="lede">A multi-agent research pipeline. Every stage wrote its output to disk so the work can be audited and refreshed.</p>
+    </div>
+    <div class="section"><h2>Pipeline</h2><p class="sub">In order</p><ol class="steps" id="steps"></ol></div>
+    <div class="grid-2">
+      <div class="section"><h2>Ontology</h2><p class="sub">Four facets</p><ul class="caveats" id="ontoFacets"></ul></div>
+      <div class="section"><h2>Caveats</h2><p class="sub">Read before quoting numbers</p><ul class="caveats" id="caveats"></ul></div>
+    </div>
+    <div class="section"><h2>Files on disk</h2><p class="sub">In the repo under <code>research/legal-ai-market/</code></p><ul class="caveats" id="files"></ul></div>
+  </section>
+</main>
+
+<div class="backdrop" id="backdrop" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="dName"></aside>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const byId = new Map(DATA.companies.map(c => [c.cid, c]));
+const domById = new Map(DATA.domains.map(d => [d.id, d]));
+const catById = new Map();
+DATA.domains.forEach(d => d.categories.forEach(c => catById.set(c.id, { ...c, domain: d.id, color: d.color })));
+const fmtM = v => v == null ? '—' : v >= 1000 ? '$' + (v / 1000).toFixed(v >= 10000 ? 0 : 1) + 'B' : '$' + (v >= 10 ? Math.round(v) : (+v).toFixed(1)) + 'M';
+const catName = id => catById.get(id)?.name || id || '—';
+const domColor = id => domById.get(id)?.color || 'var(--faint)';
+const coMeta = c => [c.hq_country, c.founded, c.total_raised_usd_m != null ? fmtM(c.total_raised_usd_m) : null].filter(Boolean).join(' · ');
+
+$('#asof').textContent = `Snapshot ${DATA.asOf} · ${DATA.companies.length} companies · ${DATA.domains.length} domains · ${catById.size} categories`;
+
+/* ---------- routing ---------- */
+const VIEWS = ['overview', 'map', 'overlap', 'directory', 'method'];
+function show(v) {
+  if (!VIEWS.includes(v)) v = 'overview';
+  VIEWS.forEach(x => { $('#view-' + x).hidden = x !== v; $('#tab-' + x).setAttribute('aria-current', x === v ? 'page' : 'false'); });
+  if (v === 'map') ensureMap();
+  if (v === 'overlap') ensureOverlap();
+  if (v === 'directory') ensureDir();
+  if (v === 'method') ensureMethod();
+}
+window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+
+/* ---------- helpers ---------- */
+function barRows(el, rows, { onClick, fmt = v => v } = {}) {
+  const max = Math.max(1, ...rows.map(r => r.total ?? r.value));
+  el.innerHTML = rows.map((r, i) => {
+    const tot = r.total ?? r.value;
+    return `<button type="button" class="bar-row${onClick ? ' clickable' : ''}" data-i="${i}" ${onClick ? '' : 'tabindex="-1"'}>
+      <span class="bar-label" title="${esc(r.label)}">${r.color ? `<i class="dot" style="background:${r.color}"></i>` : ''}${esc(r.label)}</span>
+      <span class="bar-track">${r.total != null ? `<span class="bar-fill ghost" style="width:${(r.total / max * 100).toFixed(1)}%;background:${r.color || 'var(--accent)'}"></span>` : ''}
+        <span class="bar-fill" style="width:${(r.value / max * 100).toFixed(1)}%;background:${r.color || 'var(--accent)'}"></span></span>
+      <span class="bar-val">${esc(r.valLabel ?? fmt(tot))}</span></button>`;
+  }).join('');
+  if (onClick) el.querySelectorAll('.bar-row').forEach(b => b.addEventListener('click', () => onClick(rows[+b.dataset.i])));
+}
+function colChart(el, pairs) {
+  const max = Math.max(1, ...pairs.map(p => p[1]));
+  el.innerHTML = `<div class="cols">${pairs.map(p => `<div class="col" title="${esc(p[0])}: ${p[1]}"><span class="cv">${p[1] || ''}</span><div class="bar" style="height:${(p[1] / max * 100).toFixed(1)}%"></div></div>`).join('')}</div>
+    <div class="col-labels">${pairs.map(p => `<span>${esc(p[0])}</span>`).join('')}</div>`;
+}
+function coListHTML(list, { showUA = true, primaryOf = null } = {}) {
+  return list.map(c => `<li><button type="button" data-cid="${c.cid}"><span class="nm">${esc(c.name)}${c.status === 'acquired' ? ' <span class="pill acq">acquired</span>' : ''}${primaryOf && c.primary === primaryOf ? '' : ''}</span><span class="meta">${esc(coMeta(c))}</span>${showUA && c.unique_angle ? `<span class="ua">${esc(c.unique_angle)}</span>` : ''}</button></li>`).join('');
+}
+function wireCoList(el) { el.querySelectorAll('button[data-cid]').forEach(b => b.addEventListener('click', () => openDrawer(b.dataset.cid))); }
+const sortByRaised = (a, b) => (b.total_raised_usd_m || 0) - (a.total_raised_usd_m || 0) || a.name.localeCompare(b.name);
+
+/* ---------- overview ---------- */
+(function overview() {
+  const s = DATA.stats;
+  const kpis = [
+    [DATA.companies.length, 'Companies profiled'],
+    [s.core, 'Core legal AI'],
+    [s.adjacent, 'Adjacent'],
+    [s.countries, 'HQ countries'],
+    [`${DATA.domains.length} / ${catById.size}`, 'Domains / categories'],
+    [fmtM(s.total_raised_usd_m), 'Disclosed funding'],
+  ];
+  $('#kpis').innerHTML = kpis.map(k => `<div class="kpi"><div class="v">${esc(k[0])}</div><div class="l">${esc(k[1])}</div></div>`).join('');
+  $('#takeaways').innerHTML = (DATA.takeaways || []).map((t, i) => `<li><span class="b">${String(i + 1).padStart(2, '0')}</span><span>${esc(t)}</span></li>`).join('');
+
+  const drows = DATA.domains.map(d => ({ label: d.name, value: d.primary_count, total: d.count, color: d.color, id: d.id, valLabel: `${d.count}` }))
+    .sort((a, b) => b.total - a.total);
+  barRows($('#domainBars'), drows, { onClick: r => { pendingDomain = r.id; location.hash = 'map'; } });
+  barRows($('#regionBars'), s.by_region.filter(r => r[1]).map(r => ({ label: r[0], value: r[1] })));
+  barRows($('#stageBars'), s.by_stage.filter(r => r[1]).map(r => ({ label: r[0], value: r[1] })));
+  barRows($('#empBars'), s.by_employees.filter(r => r[1]).map(r => ({ label: r[0], value: r[1] })));
+  barRows($('#countryBars'), s.by_country.filter(r => r[0] !== 'Unknown').slice(0, 12).map(r => ({ label: r[0], value: r[1] })));
+  const fy = Object.fromEntries(s.by_founded);
+  const years = []; let pre = 0;
+  Object.entries(fy).forEach(([y, n]) => { if (+y < 2012) pre += n; });
+  years.push(['≤11', pre]);
+  for (let y = 2012; y <= 2026; y++) years.push([String(y).slice(2), fy[y] || 0]);
+  colChart($('#foundedCols'), years);
+
+  const top = DATA.companies.filter(c => c.status !== 'acquired' && c.stage !== 'Public' && c.total_raised_usd_m).sort(sortByRaised).slice(0, 20);
+  $('#topFunded').innerHTML = top.map((c, i) => `<tr data-cid="${c.cid}"><td class="mono">${i + 1}</td><td><button class="linkish" type="button">${esc(c.name)}</button></td><td>${esc(catName(c.primary))}</td><td>${esc(c.hq_country || '—')}</td><td>${esc(c.stage)}</td><td class="r mono">${fmtM(c.total_raised_usd_m)}</td><td class="r mono">${fmtM(c.valuation_usd_m)}</td></tr>`).join('');
+  $('#topFunded').querySelectorAll('tr').forEach(tr => tr.addEventListener('click', () => openDrawer(tr.dataset.cid)));
+
+  $('#acqGrid').innerHTML = DATA.acquirers.map(a => `<div class="acq"><div class="who"><span>${esc(a.name)}</span><span class="mono">${a.items.length} deals</span></div>
+    <div class="chips">${a.items.map(x => `<span class="chip${x.cid ? ' btn' : ''}" ${x.cid ? `data-cid="${x.cid}"` : ''}>${esc(x.name)}${x.year ? ` <span class="mono" style="color:var(--faint)">${x.year}</span>` : ''}</span>`).join('')}</div></div>`).join('');
+  $('#acqGrid').querySelectorAll('[data-cid]').forEach(el => el.addEventListener('click', () => openDrawer(el.dataset.cid)));
+})();
+
+/* ---------- mind map ---------- */
+let mapReady = false, pendingDomain = null, mapRoot, mapUpdate, highlightCats = new Set(), selectedNode = null;
+const COL = [0, 120, 400, 730];
+function ensureMap() {
+  if (!mapReady) { buildMap(); mapReady = true; }
+  if (pendingDomain) { focusDomain(pendingDomain); pendingDomain = null; }
+}
+function buildMap() {
+  const data = { name: 'Legal AI', kind: 'root', count: DATA.companies.length, children: DATA.domains.map(d => ({
+    name: d.name, id: d.id, kind: 'domain', color: d.color, count: d.count,
+    children: d.categories.map(c => ({ name: c.name, id: c.id, kind: 'cat', color: d.color, count: c.count, prim: c.primary_count })) })) };
+  mapRoot = d3.hierarchy(data);
+  mapRoot.descendants().forEach(n => { n._children = n.children; if (n.depth >= 1) n.children = null; });
+  const svg = d3.select('#mapSvg');
+  const gLinks = svg.append('g'), gNodes = svg.append('g');
+  const tree = d3.tree().nodeSize([26, 1]).separation((a, b) => a.parent === b.parent ? 1 : 1.25);
+  mapUpdate = function () {
+    tree(mapRoot);
+    let x0 = Infinity, x1 = -Infinity;
+    mapRoot.each(n => { n.y = COL[n.depth]; x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x); });
+    const hasCos = mapRoot.descendants().some(n => n.depth === 3);
+    const W = (hasCos ? COL[3] + 260 : (mapRoot.descendants().some(n => n.depth === 2) ? COL[2] + 330 : COL[1] + 330));
+    const H = Math.max(240, x1 - x0 + 50);
+    svg.attr('width', W).attr('height', H).attr('viewBox', `-16 ${x0 - 25} ${W} ${H}`);
+    const nodes = mapRoot.descendants(), links = mapRoot.links();
+    gLinks.selectAll('path').data(links, l => l.target.data.id || l.target.data.cid || l.target.data.name)
+      .join('path').attr('class', 'link').attr('stroke', l => l.target.data.color || 'var(--faint)')
+      .attr('d', l => `M${l.source.y},${l.source.x}C${(l.source.y + l.target.y) / 2},${l.source.x} ${(l.source.y + l.target.y) / 2},${l.target.x} ${l.target.y},${l.target.x}`);
+    const ns = gNodes.selectAll('g.node').data(nodes, n => n.data.id || n.data.cid || n.data.name)
+      .join(enter => {
+        const g = enter.append('g').attr('class', n => 'node n-' + n.data.kind);
+        g.append('circle');
+        g.append('text').attr('class', 'lbl').attr('dy', '0.32em');
+        g.append('text').attr('class', 'cnt').attr('dy', '0.32em');
+        g.on('click', (ev, n) => onNodeClick(n));
+        return g;
+      });
+    ns.attr('transform', n => `translate(${n.y},${n.x})`)
+      .classed('hl', n => n.data.kind === 'cat' && highlightCats.has(n.data.id) || n.data.kind === 'domain' && [...highlightCats].some(c => catById.get(c)?.domain === n.data.id))
+      .classed('sel', n => n === selectedNode);
+    ns.select('circle').attr('r', n => n.data.kind === 'root' ? 7 : n.data.kind === 'domain' ? 6 : n.data.kind === 'cat' ? 4.5 : 3.5)
+      .attr('fill', n => (n._children && !n.children && n.data.kind !== 'co') || n.data.kind === 'cat' && !n.children ? (n.data.color || 'var(--ink)') : 'var(--surface)')
+      .attr('stroke', n => n.data.color || 'var(--ink)').attr('stroke-width', 2);
+    ns.select('text.lbl').attr('x', n => n.data.kind === 'root' ? -10 : 10).attr('text-anchor', n => n.data.kind === 'root' ? 'end' : 'start')
+      .text(n => n.data.kind === 'root' ? '' : n.data.name);
+    ns.select('text.cnt').attr('x', n => n.data.kind === 'root' ? 10 : 10 + labelWidth(n) + 6)
+      .text(n => n.data.kind === 'root' ? `Legal AI · ${n.data.count}` : n.data.kind === 'co' ? (n.data.more ? '' : (n.data.meta || '')) : `${n.data.count}`)
+      .attr('class', n => n.data.kind === 'root' ? 'cnt rootlbl' : 'cnt');
+    ns.filter(n => n.data.kind === 'root').select('text.cnt').style('font-family', 'var(--font-display)').style('font-size', '15px').style('font-weight', '700').style('fill', 'var(--ink)');
+  };
+  mapUpdate();
+  renderPanelRoot();
+  $('#expandAll').addEventListener('click', () => { mapRoot.children.forEach(d => { d.children = d._children; d.children.forEach(c => { c.children = null; }); }); mapUpdate(); });
+  $('#collapseAll').addEventListener('click', () => { mapRoot.children.forEach(d => { d.children = null; }); highlightCats = new Set(); selectedNode = null; mapUpdate(); renderPanelRoot(); });
+  $('#coNames').innerHTML = DATA.companies.map(c => `<option value="${esc(c.name)}">`).join('');
+  $('#mapFind').addEventListener('change', e => {
+    const c = DATA.companies.find(x => x.name.toLowerCase() === e.target.value.trim().toLowerCase());
+    if (c) findOnMap(c);
+  });
+}
+const measure = document.createElement('canvas').getContext('2d');
+function labelWidth(n) {
+  measure.font = n.data.kind === 'domain' ? '600 14px "IBM Plex Sans Condensed", sans-serif' : '12.5px "IBM Plex Sans", sans-serif';
+  return measure.measureText(n.data.name).width;
+}
+function catCompanies(id) { return DATA.companies.filter(c => c.categories.includes(id)); }
+function onNodeClick(n) {
+  selectedNode = n;
+  if (n.data.kind === 'domain') {
+    n.children = n.children ? null : n._children;
+    renderPanelDomain(n.data.id);
+  } else if (n.data.kind === 'cat') {
+    if (n.children) { n.children = null; }
+    else {
+      const prim = DATA.companies.filter(c => c.primary === n.data.id).sort(sortByRaised);
+      const shown = prim.slice(0, 24);
+      const kids = shown.map(c => ({ name: c.name, cid: c.cid, kind: 'co', color: n.data.color, meta: c.total_raised_usd_m ? fmtM(c.total_raised_usd_m) : '' }));
+      if (prim.length > shown.length) kids.push({ name: `+${prim.length - shown.length} more in panel →`, cid: 'more-' + n.data.id, kind: 'co', color: n.data.color, more: true });
+      n.children = kids.map(k => { const h = d3.hierarchy(k); h.depth = 3; h.parent = n; return h; });
+    }
+    renderPanelCat(n.data.id);
+  } else if (n.data.kind === 'co') {
+    if (!n.data.more) openDrawer(n.data.cid);
+    return;
+  } else { renderPanelRoot(); }
+  mapUpdate();
+}
+function focusDomain(id) {
+  const n = mapRoot.children.find(d => d.data.id === id);
+  if (!n) return;
+  mapRoot.children.forEach(d => { if (d !== n) d.children = null; });
+  n.children = n._children; selectedNode = n; mapUpdate(); renderPanelDomain(id);
+}
+function findOnMap(c) {
+  highlightCats = new Set(c.categories);
+  mapRoot.children.forEach(d => { d.children = c.domains.includes(d.data.id) ? d._children : null; if (d.children) d.children.forEach(k => { k.children = null; }); });
+  selectedNode = null; mapUpdate();
+  const p = $('#mapPanel');
+  p.innerHTML = `<h3>${esc(c.name)}</h3><p class="def">${esc(c.focus || '')}</p>
+    <div class="group-label">Active in ${c.categories.length} categories (highlighted)</div>
+    <div class="chips">${c.categories.map(id => `<span class="chip btn" data-cat="${id}"><i class="dot" style="background:${catById.get(id)?.color}"></i>${esc(catName(id))}${id === c.primary ? ' ★' : ''}</span>`).join('')}</div>
+    <p style="margin-top:12px"><button class="btn" type="button" id="openCo">Open full profile</button></p>`;
+  $('#openCo').addEventListener('click', () => openDrawer(c.cid));
+  p.querySelectorAll('[data-cat]').forEach(el => el.addEventListener('click', () => renderPanelCat(el.dataset.cat)));
+}
+function renderPanelRoot() {
+  const p = $('#mapPanel');
+  const rows = DATA.domains.map(d => ({ label: d.name, value: d.primary_count, total: d.count, color: d.color, id: d.id, valLabel: String(d.count) })).sort((a, b) => b.total - a.total);
+  p.innerHTML = `<h3>${DATA.domains.length} workflow domains</h3><p class="def">Each domain is a family of legal jobs. Companies often span several. Click a domain here or on the map.</p><div class="bars mini-cats" id="pRoot"></div>`;
+  barRows($('#pRoot'), rows, { onClick: r => focusDomain(r.id) });
+}
+function renderPanelDomain(id) {
+  const d = domById.get(id), p = $('#mapPanel');
+  const rows = d.categories.map(c => ({ label: c.name, value: c.primary_count, total: c.count, color: d.color, id: c.id, valLabel: String(c.count) })).sort((a, b) => b.total - a.total);
+  const prim = DATA.companies.filter(c => c.primary_domain === id).sort(sortByRaised);
+  p.innerHTML = `<h3><i class="dot" style="background:${d.color}"></i> ${esc(d.name)}</h3>
+    <p class="def">${d.count} companies active · ${d.primary_count} with it as main focus.</p>
+    <div class="group-label">Categories</div><div class="bars mini-cats" id="pDom"></div>
+    <div class="group-label">Main players (by funding)</div><ul class="co-list" id="pDomList">${coListHTML(prim.slice(0, 30), { showUA: false })}</ul>`;
+  barRows($('#pDom'), rows, { onClick: r => { const n = mapRoot.children.find(x => x.data.id === id); const cn = (n.children || n._children).find(x => x.data.id === r.id); if (!n.children) { n.children = n._children; } onNodeClick(cn); } });
+  wireCoList($('#pDomList'));
+}
+function renderPanelCat(id) {
+  const c = catById.get(id), p = $('#mapPanel');
+  const all = catCompanies(id);
+  const prim = all.filter(x => x.primary === id).sort(sortByRaised);
+  const sec = all.filter(x => x.primary !== id).sort(sortByRaised);
+  p.innerHTML = `<h3><i class="dot" style="background:${c.color}"></i> ${esc(c.name)}</h3>
+    <p class="def"><span class="chip code">${esc(id)}</span> ${esc(c.def)}</p>
+    <p class="def">${all.length} active · ${prim.length} main focus · ${sec.length} as part of a broader product.</p>
+    <div class="group-label">Main focus (${prim.length})</div><ul class="co-list" id="pPrim">${coListHTML(prim)}</ul>
+    <div class="group-label">Also active (${sec.length})</div><ul class="co-list" id="pSec">${coListHTML(sec, { showUA: false })}</ul>`;
+  wireCoList($('#pPrim')); wireCoList($('#pSec'));
+}
+
+/* ---------- overlap ---------- */
+let overlapReady = false;
+function ensureOverlap() {
+  if (overlapReady) return; overlapReady = true;
+  const ids = DATA.domain_ids, M = DATA.domain_matrix;
+  const cell = 34, left = 210, top = 70;
+  const W = left + cell * ids.length + 10, H = top + cell * ids.length + 10;
+  let max = 1; ids.forEach(a => ids.forEach(b => { if (a !== b) max = Math.max(max, M[a][b]); }));
+  const svg = d3.select('#heat').attr('width', W).attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+  ids.forEach((a, i) => {
+    svg.append('text').attr('class', 'lab').attr('x', left - 8).attr('y', top + i * cell + cell / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(domById.get(a).name);
+    svg.append('circle').attr('cx', left - 8 - 6 - measureText(domById.get(a).name)).attr('cy', top + i * cell + cell / 2).attr('r', 4).attr('fill', domById.get(a).color);
+    svg.append('text').attr('class', 'lab mono').attr('transform', `translate(${left + i * cell + cell / 2},${top - 8}) rotate(-50)`).text(a).style('font-family', 'var(--font-mono)').style('font-size', '10.5px');
+    ids.forEach((b, j) => {
+      const v = M[a][b];
+      svg.append('rect').attr('class', 'bg').attr('x', left + j * cell).attr('y', top + i * cell).attr('width', cell).attr('height', cell);
+      if (i === j) {
+        svg.append('text').attr('class', 'cv').attr('x', left + j * cell + cell / 2).attr('y', top + i * cell + cell / 2).attr('dy', '0.32em').attr('text-anchor', 'middle').style('fill', 'var(--faint)').text(v);
+        return;
+      }
+      const op = v / max;
+      svg.append('rect').attr('class', 'cell').attr('x', left + j * cell).attr('y', top + i * cell).attr('width', cell).attr('height', cell)
+        .attr('fill-opacity', v ? Math.max(0.06, op) : 0).attr('data-a', a).attr('data-b', b)
+        .on('click', function () { d3.selectAll('#heat rect.cell').classed('on', false); d3.select(this).classed('on', true); heatList(a, b); })
+        .append('title').text(`${domById.get(a).name} × ${domById.get(b).name}: ${v}`);
+      if (v) svg.append('text').attr('class', 'cv').attr('x', left + j * cell + cell / 2).attr('y', top + i * cell + cell / 2).attr('dy', '0.32em').attr('text-anchor', 'middle')
+        .style('fill', op > 0.55 ? 'var(--on-accent)' : 'var(--ink)').text(v);
+    });
+  });
+  const crowded = [...DATA.catRows].sort((a, b) => b.players - a.players).slice(0, 14);
+  barRows($('#crowded'), crowded.map(c => ({ label: c.name, value: c.primary_players, total: c.players, color: domColor(c.domain), id: c.id, valLabel: String(c.players) })), { onClick: r => openCat(r.id) });
+  const niche = [...DATA.catRows].sort((a, b) => a.players - b.players).slice(0, 14);
+  barRows($('#niche'), niche.map(c => ({ label: c.name, value: c.primary_players, total: c.players, color: domColor(c.domain), id: c.id, valLabel: String(c.players) })), { onClick: r => openCat(r.id) });
+  barRows($('#pairs'), DATA.pairs.slice(0, 14).map(p => ({ label: `${catName(p.a)} + ${catName(p.b)}`, value: p.count, color: domColor(catById.get(p.a)?.domain) })));
+  const br = {}; DATA.companies.forEach(c => { const k = Math.min(c.categories.length, 10); br[k] = (br[k] || 0) + 1; });
+  colChart($('#breadthCols'), Array.from({ length: 10 }, (_, i) => [i + 1 === 10 ? '10+' : String(i + 1), br[i + 1] || 0]));
+  const broad = [...DATA.companies].sort((a, b) => b.categories.length - a.categories.length || sortByRaised(a, b)).slice(0, 12);
+  $('#broadest').innerHTML = broad.map(c => `<li><button type="button" data-cid="${c.cid}"><span class="nm">${esc(c.name)}</span><span class="meta">${c.categories.length} categories · ${c.domains.length} domains</span></button></li>`).join('');
+  wireCoList($('#broadest'));
+  const sel = $('#uaCat');
+  sel.innerHTML = DATA.domains.map(d => `<optgroup label="${esc(d.name)}">${d.categories.map(c => `<option value="${c.id}">${esc(c.name)} (${c.primary_count})</option>`).join('')}</optgroup>`).join('');
+  const firstBig = [...DATA.catRows].sort((a, b) => b.primary_players - a.primary_players)[0];
+  sel.value = firstBig ? firstBig.id : sel.value;
+  const renderUA = () => { const l = DATA.companies.filter(c => c.primary === sel.value).sort(sortByRaised); $('#uaList').innerHTML = l.length ? coListHTML(l) : '<li class="def">No company has this as its main focus.</li>'; wireCoList($('#uaList')); };
+  sel.addEventListener('change', renderUA); renderUA();
+}
+function measureText(t) { measure.font = '11.5px "IBM Plex Sans", sans-serif'; return measure.measureText(t).width; }
+function heatList(a, b) {
+  const l = DATA.companies.filter(c => c.domains.includes(a) && c.domains.includes(b)).sort(sortByRaised);
+  $('#heatList').innerHTML = `<div class="group-label">${esc(domById.get(a).name)} × ${esc(domById.get(b).name)} · ${l.length} companies</div>
+    <div class="chips">${l.map(c => `<span class="chip btn" data-cid="${c.cid}">${esc(c.name)}</span>`).join('')}</div>`;
+  $('#heatList').querySelectorAll('[data-cid]').forEach(el => el.addEventListener('click', () => openDrawer(el.dataset.cid)));
+}
+function openCat(id) {
+  location.hash = 'map';
+  setTimeout(() => {
+    const dom = catById.get(id).domain; focusDomain(dom);
+    const n = mapRoot.children.find(x => x.data.id === dom); const cn = n.children.find(x => x.data.id === id);
+    onNodeClick(cn);
+  }, 0);
+}
+
+/* ---------- directory ---------- */
+let dirReady = false;
+function ensureDir() {
+  if (dirReady) return; dirReady = true;
+  const opt = (vals, all) => `<option value="">${all}</option>` + vals.map(v => `<option value="${esc(v[0])}">${esc(v[1])}</option>`).join('');
+  $('#fdom').innerHTML = opt(DATA.domains.map(d => [d.id, d.name]), 'All domains');
+  $('#freg').innerHTML = opt(DATA.stats.by_region.map(r => [r[0], r[0]]), 'All regions');
+  $('#fstg').innerHTML = opt(DATA.stats.by_stage.filter(r => r[1]).map(r => [r[0], r[0]]), 'All stages');
+  $('#fmod').innerHTML = opt(DATA.models.map(m => [m.id, m.name]), 'All models');
+  $('#fcus').innerHTML = opt(DATA.customers.map(c => [c, c]), 'All customers');
+  ['fq', 'fdom', 'freg', 'fstg', 'fmod', 'fcus', 'fsort'].forEach(id => $('#' + id).addEventListener('input', renderDir));
+  renderDir();
+}
+function renderDir() {
+  const q = $('#fq').value.trim().toLowerCase(), dom = $('#fdom').value, reg = $('#freg').value, stg = $('#fstg').value, mod = $('#fmod').value, cus = $('#fcus').value, sort = $('#fsort').value;
+  let l = DATA.companies.filter(c => (!dom || c.domains.includes(dom)) && (!reg || c.region === reg) && (!stg || c.stage === stg) && (!mod || c.model === mod) && (!cus || c.customers.includes(cus)) &&
+    (!q || c._s.includes(q)));
+  const sorters = { name: (a, b) => a.name.localeCompare(b.name), raised: sortByRaised, founded: (a, b) => (b.founded || 0) - (a.founded || 0), breadth: (a, b) => b.categories.length - a.categories.length };
+  l.sort(sorters[sort]);
+  $('#dirCount').textContent = `${l.length} of ${DATA.companies.length} companies`;
+  $('#dirBody').innerHTML = l.map(c => `<tr data-cid="${c.cid}"><td><button class="linkish" type="button">${esc(c.name)}</button>${c.status === 'acquired' ? ' <span class="pill acq">acq.</span>' : ''}${c.scope === 'adjacent' ? ' <span class="pill">adjacent</span>' : ''}</td>
+    <td><i class="dot" style="background:${domColor(c.primary_domain)}"></i> ${esc(catName(c.primary))}</td><td>${esc(c.hq_country || '—')}</td><td class="r mono">${c.founded || '—'}</td><td>${esc(c.stage)}</td><td class="r mono">${fmtM(c.total_raised_usd_m)}</td><td class="mono">${esc(c.employees_bin)}</td></tr>`).join('');
+  $('#dirBody').querySelectorAll('tr').forEach(tr => tr.addEventListener('click', () => openDrawer(tr.dataset.cid)));
+}
+DATA.companies.forEach(c => { c._s = [c.name, c.focus, c.unique_angle, ...(c.capabilities || []), ...(c.products || []).map(p => p.name + ' ' + (p.description || ''))].join(' ').toLowerCase(); });
+
+/* ---------- drawer ---------- */
+function openDrawer(cid) {
+  const c = byId.get(cid); if (!c) return;
+  const lr = c.last_round || {};
+  const facts = [
+    ['HQ', [c.hq_city, c.hq_country].filter(Boolean).join(', ') || '—'], ['Founded', c.founded || '—'],
+    ['Employees', c.employees_approx ? `~${c.employees_approx} (${c.employees_bin})` : c.employees_bin],
+    ['Stage', c.stage_raw || c.stage], ['Total raised', c.total_raised_usd_m != null ? fmtM(c.total_raised_usd_m) : (c.total_raised_text || '—')],
+    ['Valuation', fmtM(c.valuation_usd_m)],
+    ['Last round', [lr.type, lr.amount_usd_m != null ? fmtM(lr.amount_usd_m) : null, lr.date].filter(Boolean).join(' · ') || '—'],
+    ['Model', DATA.models.find(m => m.id === c.model)?.name || '—'],
+  ];
+  const list = (title, arr) => arr && arr.length ? `<div class="dsec"><h4>${title}</h4><div class="chips">${arr.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div></div>` : '';
+  const bullets = (title, arr) => arr && arr.length ? `<div class="dsec"><h4>${title}</h4><ul class="dl">${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '';
+  const d = $('#drawer');
+  d.innerHTML = `<button class="btn close" type="button" id="dClose">Close</button>
+    <h2 id="dName">${esc(c.name)}</h2>
+    <div class="tag-line">${c.website ? `<a class="chip" href="${esc(c.website.startsWith('http') ? c.website : 'https://' + c.website)}" target="_blank" rel="noopener">${esc(c.website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))} ↗</a>` : ''}
+      ${c.status === 'acquired' ? `<span class="pill acq">acquired${c.parent ? ' by ' + esc(c.parent) : ''}</span>` : c.parent ? `<span class="pill">part of ${esc(c.parent)}</span>` : ''}
+      <span class="pill">${esc(c.scope)}</span>${c.confidence ? `<span class="pill ${c.confidence === 'low' ? 'low' : ''}">confidence: ${esc(c.confidence)}</span>` : ''}</div>
+    <p style="margin:0 0 6px;font-size:15px">${esc(c.focus || '')}</p>
+    ${c.problem ? `<p style="margin:0 0 10px;color:var(--muted)"><b style="color:var(--ink)">Problem:</b> ${esc(c.problem)}</p>` : ''}
+    ${c.unique_angle ? `<p style="margin:0 0 12px;color:var(--muted)"><b style="color:var(--ink)">Unique angle:</b> ${esc(c.unique_angle)}</p>` : ''}
+    <dl class="facts">${facts.map(f => `<div><dt>${f[0]}</dt><dd>${esc(f[1])}</dd></div>`).join('')}</dl>
+    <div class="dsec"><h4>Ontology</h4><div class="chips">${c.categories.map(id => `<span class="chip btn ${id === c.primary ? 'solid' : ''}" data-cat="${id}"><i class="dot" style="background:${catById.get(id)?.color}"></i>${esc(catName(id))}${id === c.primary ? ' · main' : ''}</span>`).join('')}</div></div>
+    <div class="dsec"><h4>Products (${(c.products || []).length})</h4>${(c.products || []).map(p => `<div class="prod"><div class="pn">${esc(p.name)}</div><div class="pd">${esc(p.description || '')}</div><div class="chips">${(p.capabilities || []).map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div></div>`).join('')}</div>
+    ${list(`All capabilities (${(c.capabilities || []).length})`, c.capabilities)}
+    ${list('Customers', c.customers)}${list('Practice areas', c.practice)}${list('Jurisdictions', c.jurisdictions)}${list('Delivery', c.delivery)}
+    ${c.ai_approach ? `<div class="dsec"><h4>AI approach</h4><p style="margin:0">${esc(c.ai_approach)}</p></div>` : ''}
+    ${list('Integrations', c.integrations)}${list('Named customers', c.customers_named)}${list('Investors', c.investors)}
+    ${bullets('Differentiators', c.differentiators)}${bullets('Recent news', c.news)}
+    ${c.founders && c.founders.length ? `<div class="dsec"><h4>Founders</h4><p style="margin:0">${esc(c.founders.join(', '))}</p></div>` : ''}
+    ${c.notes ? `<div class="dsec"><h4>Notes</h4><p style="margin:0;color:var(--muted)">${esc(c.notes)}</p></div>` : ''}
+    ${c.sources && c.sources.length ? `<div class="dsec src"><h4>Sources</h4><ul class="dl">${c.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></div>` : ''}`;
+  d.hidden = false; $('#backdrop').hidden = false; d.scrollTop = 0;
+  $('#dClose').addEventListener('click', closeDrawer); $('#dClose').focus();
+  d.querySelectorAll('[data-cat]').forEach(el => el.addEventListener('click', () => { closeDrawer(); openCat(el.dataset.cat); }));
+}
+function closeDrawer() { $('#drawer').hidden = true; $('#backdrop').hidden = true; }
+$('#backdrop').addEventListener('click', closeDrawer);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+/* ---------- method ---------- */
+let methodReady = false;
+function ensureMethod() {
+  if (methodReady) return; methodReady = true;
+  $('#steps').innerHTML = DATA.method.steps.map(s => `<li><div><b>${esc(s[0])}</b><span>${esc(s[1])}</span></div></li>`).join('');
+  $('#ontoFacets').innerHTML = DATA.method.facets.map(s => `<li>${esc(s)}</li>`).join('');
+  $('#caveats').innerHTML = DATA.method.caveats.map(s => `<li>${esc(s)}</li>`).join('');
+  $('#files').innerHTML = DATA.method.files.map(s => `<li><code>${esc(s[0])}</code> ${esc(s[1])}</li>`).join('');
+}
+
+show(location.hash.slice(1));
+</script>

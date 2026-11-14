@@ -1,0 +1,3213 @@
+{
+ "tree": {
+  "name": "Legal AI",
+  "children": [
+   {
+    "id": "RES",
+    "name": "Legal Research & Knowledge",
+    "color": "#3b6fd8",
+    "children": [
+     {
+      "id": "RES.case",
+      "name": "Case law & statute research",
+      "def": "Search and Q&A over case law, statutes, regulations with cited answers.",
+      "count": 61,
+      "primary_count": 27,
+      "companies": [
+       "C0003",
+       "C0012",
+       "C0014",
+       "C0022",
+       "C0023",
+       "C0024",
+       "C0060",
+       "C0071",
+       "C0077",
+       "C0078",
+       "C0079",
+       "C0080",
+       "C0087",
+       "C0088",
+       "C0089",
+       "C0103",
+       "C0110",
+       "C0116",
+       "C0119",
+       "C0136",
+       "C0147",
+       "C0184",
+       "C0189",
+       "C0199",
+       "C0205",
+       "C0243",
+       "C0254",
+       "C0258",
+       "C0264",
+       "C0274",
+       "C0276",
+       "C0279",
+       "C0280",
+       "C0297",
+       "C0313",
+       "C0314",
+       "C0315",
+       "C0321",
+       "C0323",
+       "C0327",
+       "C0328",
+       "C0329",
+       "C0335",
+       "C0343",
+       "C0344",
+       "C0348",
+       "C0349",
+       "C0359",
+       "C0363",
+       "C0367",
+       "C0369",
+       "C0371",
+       "C0372",
+       "C0374",
+       "C0376",
+       "C0379",
+       "C0380",
+       "C0386",
+       "C0394",
+       "C0397",
+       "C0402"
+      ],
+      "primary_companies": [
+       "C0014",
+       "C0022",
+       "C0023",
+       "C0060",
+       "C0071",
+       "C0078",
+       "C0079",
+       "C0087",
+       "C0088",
+       "C0110",
+       "C0116",
+       "C0119",
+       "C0184",
+       "C0189",
+       "C0205",
+       "C0243",
+       "C0258",
+       "C0274",
+       "C0297",
+       "C0313",
+       "C0315",
+       "C0329",
+       "C0343",
+       "C0344",
+       "C0363",
+       "C0369",
+       "C0394"
+      ]
+     },
+     {
+      "id": "RES.cite",
+      "name": "Citation checking & brief validation",
+      "def": "Verify citations, detect hallucinated authorities, cite-check briefs, Bluebook formatting.",
+      "count": 11,
+      "primary_count": 2,
+      "companies": [
+       "C0023",
+       "C0024",
+       "C0071",
+       "C0078",
+       "C0087",
+       "C0095",
+       "C0096",
+       "C0103",
+       "C0132",
+       "C0189",
+       "C0243"
+      ],
+      "primary_companies": [
+       "C0095",
+       "C0132"
+      ]
+     },
+     {
+      "id": "RES.km",
+      "name": "Knowledge management & precedent search",
+      "def": "Search a firm's own documents/know-how, precedent banks, expertise location, enterprise search for legal.",
+      "count": 12,
+      "primary_count": 3,
+      "companies": [
+       "C0027",
+       "C0117",
+       "C0182",
+       "C0183",
+       "C0212",
+       "C0230",
+       "C0280",
+       "C0285",
+       "C0298",
+       "C0304",
+       "C0337",
+       "C0397"
+      ],
+      "primary_companies": [
+       "C0027",
+       "C0182",
+       "C0304"
+      ]
+     },
+     {
+      "id": "RES.content",
+      "name": "Legal publishers & content platforms",
+      "def": "Proprietary legal content libraries (publishers) with AI layers: treatises, practical guidance, news.",
+      "count": 10,
+      "primary_count": 5,
+      "companies": [
+       "C0014",
+       "C0077",
+       "C0087",
+       "C0328",
+       "C0329",
+       "C0335",
+       "C0346",
+       "C0359",
+       "C0374",
+       "C0386"
+      ],
+      "primary_companies": [
+       "C0077",
+       "C0335",
+       "C0359",
+       "C0374",
+       "C0386"
+      ]
+     },
+     {
+      "id": "RES.edu",
+      "name": "Legal education & training",
+      "def": "Bar prep, CLE, law-school and lawyer skills training using AI.",
+      "count": 5,
+      "primary_count": 1,
+      "companies": [
+       "C0030",
+       "C0166",
+       "C0264",
+       "C0297",
+       "C0380"
+      ],
+      "primary_companies": [
+       "C0030"
+      ]
+     }
+    ],
+    "count": 77
+   },
+   {
+    "id": "ASSIST",
+    "name": "AI Assistants & Legal Workspaces",
+    "color": "#7a4fd1",
+    "children": [
+     {
+      "id": "ASSIST.copilot",
+      "name": "General legal AI assistant / copilot",
+      "def": "Horizontal chat-style assistant for many legal tasks (Q&A, drafting, summarizing, analysis).",
+      "count": 28,
+      "primary_count": 14,
+      "companies": [
+       "C0007",
+       "C0016",
+       "C0027",
+       "C0047",
+       "C0069",
+       "C0087",
+       "C0110",
+       "C0136",
+       "C0205",
+       "C0226",
+       "C0243",
+       "C0254",
+       "C0264",
+       "C0276",
+       "C0279",
+       "C0280",
+       "C0297",
+       "C0298",
+       "C0314",
+       "C0315",
+       "C0321",
+       "C0353",
+       "C0154",
+       "C0374",
+       "C0376",
+       "C0379",
+       "C0397",
+       "C0398"
+      ],
+      "primary_companies": [
+       "C0069",
+       "C0226",
+       "C0254",
+       "C0264",
+       "C0276",
+       "C0279",
+       "C0280",
+       "C0314",
+       "C0321",
+       "C0353",
+       "C0376",
+       "C0379",
+       "C0397",
+       "C0398"
+      ]
+     },
+     {
+      "id": "ASSIST.bulk",
+      "name": "Bulk document analysis & tabular review",
+      "def": "Run questions across hundreds/thousands of documents, extract into tables/grids.",
+      "count": 6,
+      "primary_count": 0,
+      "companies": [
+       "C0185",
+       "C0220",
+       "C0280",
+       "C0379",
+       "C0397",
+       "C0398"
+      ],
+      "primary_companies": []
+     },
+     {
+      "id": "ASSIST.agents",
+      "name": "Agentic workflows & no-code legal app builders",
+      "def": "Build/run multi-step legal agents and workflows; no-code automation for legal teams.",
+      "count": 23,
+      "primary_count": 4,
+      "companies": [
+       "C0007",
+       "C0055",
+       "C0077",
+       "C0100",
+       "C0122",
+       "C0127",
+       "C0182",
+       "C0219",
+       "C0223",
+       "C0230",
+       "C0231",
+       "C0274",
+       "C0280",
+       "C0297",
+       "C0298",
+       "C0316",
+       "C0335",
+       "C0353",
+       "C0365",
+       "C0154",
+       "C0379",
+       "C0397",
+       "C0398"
+      ],
+      "primary_companies": [
+       "C0007",
+       "C0055",
+       "C0100",
+       "C0230"
+      ]
+     },
+     {
+      "id": "ASSIST.word",
+      "name": "Word/Outlook embedded drafting tools",
+      "def": "AI inside Microsoft Word/Outlook for drafting, defined terms, cross-references, proofreading.",
+      "count": 26,
+      "primary_count": 2,
+      "companies": [
+       "C0068",
+       "C0085",
+       "C0096",
+       "C0126",
+       "C0129",
+       "C0132",
+       "C0153",
+       "C0181",
+       "C0183",
+       "C0199",
+       "C0212",
+       "C0262",
+       "C0264",
+       "C0266",
+       "C0272",
+       "C0280",
+       "C0285",
+       "C0312",
+       "C0315",
+       "C0346",
+       "C0379",
+       "C0384",
+       "C0387",
+       "C0391",
+       "C0397",
+       "C0403"
+      ],
+      "primary_companies": [
+       "C0183",
+       "C0285"
+      ]
+     }
+    ],
+    "count": 65
+   },
+   {
+    "id": "DRAFT",
+    "name": "Drafting & Document Automation",
+    "color": "#c2569b",
+    "children": [
+     {
+      "id": "DRAFT.auto",
+      "name": "Document automation & assembly",
+      "def": "Template-driven document generation, questionnaires, clause assembly.",
+      "count": 22,
+      "primary_count": 5,
+      "companies": [
+       "C0008",
+       "C0034",
+       "C0044",
+       "C0054",
+       "C0065",
+       "C0081",
+       "C0100",
+       "C0102",
+       "C0122",
+       "C0129",
+       "C0136",
+       "C0206",
+       "C0228",
+       "C0229",
+       "C0248",
+       "C0262",
+       "C0316",
+       "C0354",
+       "C0358",
+       "C0365",
+       "C0371",
+       "C0393"
+      ],
+      "primary_companies": [
+       "C0034",
+       "C0129",
+       "C0206",
+       "C0262",
+       "C0393"
+      ]
+     },
+     {
+      "id": "DRAFT.write",
+      "name": "Legal writing & memo drafting",
+      "def": "Drafting memos, letters, opinions, emails; writing quality/style tools.",
+      "count": 21,
+      "primary_count": 1,
+      "companies": [
+       "C0096",
+       "C0129",
+       "C0226",
+       "C0254",
+       "C0258",
+       "C0264",
+       "C0274",
+       "C0276",
+       "C0279",
+       "C0297",
+       "C0313",
+       "C0314",
+       "C0315",
+       "C0318",
+       "C0343",
+       "C0348",
+       "C0367",
+       "C0369",
+       "C0376",
+       "C0380",
+       "C0394"
+      ],
+      "primary_companies": [
+       "C0096"
+      ]
+     }
+    ],
+    "count": 42
+   },
+   {
+    "id": "CON",
+    "name": "Contracts & CLM",
+    "color": "#d9822b",
+    "children": [
+     {
+      "id": "CON.draft",
+      "name": "Contract drafting & negotiation",
+      "def": "Draft contracts, redline, negotiate against playbooks, suggest fallback clauses.",
+      "count": 50,
+      "primary_count": 6,
+      "companies": [
+       "C0015",
+       "C0025",
+       "C0051",
+       "C0080",
+       "C0081",
+       "C0083",
+       "C0085",
+       "C0086",
+       "C0087",
+       "C0120",
+       "C0129",
+       "C0142",
+       "C0153",
+       "C0170",
+       "C0183",
+       "C0199",
+       "C0200",
+       "C0204",
+       "C0212",
+       "C0230",
+       "C0236",
+       "C0240",
+       "C0252",
+       "C0262",
+       "C0265",
+       "C0266",
+       "C0279",
+       "C0280",
+       "C0285",
+       "C0292",
+       "C0300",
+       "C0309",
+       "C0311",
+       "C0312",
+       "C0314",
+       "C0325",
+       "C0338",
+       "C0346",
+       "C0354",
+       "C0364",
+       "C0365",
+       "C0154",
+       "C0373",
+       "C0375",
+       "C0379",
+       "C0384",
+       "C0387",
+       "C0391",
+       "C0397",
+       "C0403"
+      ],
+      "primary_companies": [
+       "C0083",
+       "C0085",
+       "C0212",
+       "C0266",
+       "C0346",
+       "C0354"
+      ]
+     },
+     {
+      "id": "CON.review",
+      "name": "Contract review & risk analysis",
+      "def": "AI review of contracts against playbooks/standards; NDA review; risk flagging.",
+      "count": 65,
+      "primary_count": 15,
+      "companies": [
+       "C0015",
+       "C0016",
+       "C0025",
+       "C0027",
+       "C0034",
+       "C0048",
+       "C0051",
+       "C0064",
+       "C0065",
+       "C0068",
+       "C0080",
+       "C0081",
+       "C0083",
+       "C0085",
+       "C0100",
+       "C0120",
+       "C0122",
+       "C0129",
+       "C0131",
+       "C0134",
+       "C0142",
+       "C0153",
+       "C0170",
+       "C0184",
+       "C0199",
+       "C0200",
+       "C0204",
+       "C0212",
+       "C0230",
+       "C0236",
+       "C0240",
+       "C0248",
+       "C0252",
+       "C0258",
+       "C0262",
+       "C0264",
+       "C0265",
+       "C0266",
+       "C0272",
+       "C0276",
+       "C0279",
+       "C0280",
+       "C0292",
+       "C0297",
+       "C0300",
+       "C0309",
+       "C0311",
+       "C0312",
+       "C0314",
+       "C0321",
+       "C0325",
+       "C0338",
+       "C0346",
+       "C0354",
+       "C0364",
+       "C0154",
+       "C0373",
+       "C0375",
+       "C0379",
+       "C0384",
+       "C0387",
+       "C0391",
+       "C0396",
+       "C0397",
+       "C0403"
+      ],
+      "primary_companies": [
+       "C0120",
+       "C0131",
+       "C0134",
+       "C0153",
+       "C0199",
+       "C0200",
+       "C0204",
+       "C0240",
+       "C0272",
+       "C0312",
+       "C0384",
+       "C0387",
+       "C0391",
+       "C0396",
+       "C0403"
+      ]
+     },
+     {
+      "id": "CON.clm",
+      "name": "CLM, repository & obligation management",
+      "def": "Contract lifecycle workflows, repositories, approvals, obligations, renewals.",
+      "count": 28,
+      "primary_count": 12,
+      "companies": [
+       "C0015",
+       "C0025",
+       "C0065",
+       "C0077",
+       "C0080",
+       "C0081",
+       "C0083",
+       "C0099",
+       "C0102",
+       "C0120",
+       "C0194",
+       "C0200",
+       "C0206",
+       "C0218",
+       "C0236",
+       "C0240",
+       "C0248",
+       "C0292",
+       "C0293",
+       "C0309",
+       "C0325",
+       "C0365",
+       "C0154",
+       "C0373",
+       "C0384",
+       "C0387",
+       "C0392",
+       "C0393"
+      ],
+      "primary_companies": [
+       "C0015",
+       "C0025",
+       "C0065",
+       "C0080",
+       "C0081",
+       "C0236",
+       "C0292",
+       "C0293",
+       "C0309",
+       "C0325",
+       "C0154",
+       "C0373"
+      ]
+     },
+     {
+      "id": "CON.extract",
+      "name": "Contract data extraction & analytics",
+      "def": "Extract metadata/clauses from contract portfolios; analytics; legacy migration; abstraction.",
+      "count": 27,
+      "primary_count": 6,
+      "companies": [
+       "C0015",
+       "C0025",
+       "C0065",
+       "C0081",
+       "C0099",
+       "C0117",
+       "C0120",
+       "C0141",
+       "C0185",
+       "C0192",
+       "C0214",
+       "C0219",
+       "C0236",
+       "C0292",
+       "C0293",
+       "C0298",
+       "C0302",
+       "C0309",
+       "C0312",
+       "C0319",
+       "C0325",
+       "C0340",
+       "C0365",
+       "C0154",
+       "C0373",
+       "C0387",
+       "C0396"
+      ],
+      "primary_companies": [
+       "C0099",
+       "C0141",
+       "C0185",
+       "C0192",
+       "C0214",
+       "C0340"
+      ]
+     },
+     {
+      "id": "CON.selfserve",
+      "name": "Self-serve contracting & e-signature",
+      "def": "Business-user contract generation, standard agreements, e-signing.",
+      "count": 19,
+      "primary_count": 2,
+      "companies": [
+       "C0015",
+       "C0025",
+       "C0034",
+       "C0065",
+       "C0077",
+       "C0081",
+       "C0083",
+       "C0102",
+       "C0142",
+       "C0206",
+       "C0240",
+       "C0266",
+       "C0293",
+       "C0309",
+       "C0325",
+       "C0360",
+       "C0373",
+       "C0377",
+       "C0393"
+      ],
+      "primary_companies": [
+       "C0102",
+       "C0142"
+      ]
+     }
+    ],
+    "count": 91
+   },
+   {
+    "id": "DEAL",
+    "name": "Corporate, Transactions & Deals",
+    "color": "#b8860b",
+    "children": [
+     {
+      "id": "DEAL.dd",
+      "name": "M&A due diligence & data rooms",
+      "def": "Diligence review, red-flag reports, virtual data rooms with AI.",
+      "count": 20,
+      "primary_count": 4,
+      "companies": [
+       "C0048",
+       "C0086",
+       "C0102",
+       "C0131",
+       "C0137",
+       "C0180",
+       "C0185",
+       "C0192",
+       "C0213",
+       "C0214",
+       "C0220",
+       "C0230",
+       "C0280",
+       "C0302",
+       "C0319",
+       "C0340",
+       "C0154",
+       "C0375",
+       "C0394",
+       "C0397"
+      ],
+      "primary_companies": [
+       "C0048",
+       "C0180",
+       "C0220",
+       "C0319"
+      ]
+     },
+     {
+      "id": "DEAL.closing",
+      "name": "Deal & closing management",
+      "def": "Closing checklists, signature packets, transaction workflows, deal precedent analysis.",
+      "count": 6,
+      "primary_count": 4,
+      "companies": [
+       "C0048",
+       "C0117",
+       "C0137",
+       "C0138",
+       "C0178",
+       "C0298"
+      ],
+      "primary_companies": [
+       "C0117",
+       "C0137",
+       "C0138",
+       "C0178"
+      ]
+     },
+     {
+      "id": "DEAL.entity",
+      "name": "Entity management & corporate governance",
+      "def": "Entity records, board minutes, resolutions, corporate secretarial, cap tables.",
+      "count": 8,
+      "primary_count": 2,
+      "companies": [
+       "C0194",
+       "C0247",
+       "C0272",
+       "C0338",
+       "C0360",
+       "C0374",
+       "C0384",
+       "C0390"
+      ],
+      "primary_companies": [
+       "C0194",
+       "C0247"
+      ]
+     },
+     {
+      "id": "DEAL.funds",
+      "name": "Private funds & financial documents",
+      "def": "Fund formation docs, NDAs/side letters for private markets, loan/credit docs, ISDA.",
+      "count": 3,
+      "primary_count": 0,
+      "companies": [
+       "C0064",
+       "C0117",
+       "C0167"
+      ],
+      "primary_companies": []
+     },
+     {
+      "id": "DEAL.realestate",
+      "name": "Real estate & lease abstraction",
+      "def": "Lease review/abstraction, title & property legal work.",
+      "count": 5,
+      "primary_count": 0,
+      "companies": [
+       "C0056",
+       "C0214",
+       "C0336",
+       "C0340",
+       "C0154"
+      ],
+      "primary_companies": []
+     }
+    ],
+    "count": 36
+   },
+   {
+    "id": "LIT",
+    "name": "Litigation & Disputes",
+    "color": "#c0392b",
+    "children": [
+     {
+      "id": "LIT.ediscovery",
+      "name": "eDiscovery & document review",
+      "def": "Processing, TAR/predictive coding, GenAI first-pass review, privilege, production.",
+      "count": 18,
+      "primary_count": 15,
+      "companies": [
+       "C0031",
+       "C0032",
+       "C0073",
+       "C0094",
+       "C0113",
+       "C0149",
+       "C0158",
+       "C0196",
+       "C0197",
+       "C0216",
+       "C0219",
+       "C0222",
+       "C0234",
+       "C0239",
+       "C0278",
+       "C0281",
+       "C0302",
+       "C0342"
+      ],
+      "primary_companies": [
+       "C0031",
+       "C0032",
+       "C0073",
+       "C0094",
+       "C0113",
+       "C0149",
+       "C0196",
+       "C0197",
+       "C0216",
+       "C0222",
+       "C0234",
+       "C0239",
+       "C0278",
+       "C0281",
+       "C0342"
+      ]
+     },
+     {
+      "id": "LIT.case",
+      "name": "Case analysis & fact development",
+      "def": "Chronologies, case file Q&A, fact extraction, early case assessment, case strategy.",
+      "count": 26,
+      "primary_count": 9,
+      "companies": [
+       "C0003",
+       "C0004",
+       "C0012",
+       "C0024",
+       "C0032",
+       "C0043",
+       "C0078",
+       "C0103",
+       "C0106",
+       "C0132",
+       "C0149",
+       "C0158",
+       "C0169",
+       "C0188",
+       "C0196",
+       "C0197",
+       "C0221",
+       "C0231",
+       "C0233",
+       "C0234",
+       "C0270",
+       "C0280",
+       "C0287",
+       "C0362",
+       "C0376",
+       "C0402"
+      ],
+      "primary_companies": [
+       "C0003",
+       "C0012",
+       "C0106",
+       "C0158",
+       "C0169",
+       "C0221",
+       "C0233",
+       "C0287",
+       "C0402"
+      ]
+     },
+     {
+      "id": "LIT.draft",
+      "name": "Litigation drafting",
+      "def": "Pleadings, motions, briefs, discovery requests/responses, complaints.",
+      "count": 38,
+      "primary_count": 10,
+      "companies": [
+       "C0001",
+       "C0003",
+       "C0012",
+       "C0018",
+       "C0020",
+       "C0023",
+       "C0024",
+       "C0043",
+       "C0060",
+       "C0078",
+       "C0097",
+       "C0103",
+       "C0106",
+       "C0119",
+       "C0132",
+       "C0147",
+       "C0158",
+       "C0166",
+       "C0169",
+       "C0184",
+       "C0218",
+       "C0221",
+       "C0225",
+       "C0231",
+       "C0232",
+       "C0234",
+       "C0258",
+       "C0260",
+       "C0270",
+       "C0318",
+       "C0321",
+       "C0327",
+       "C0329",
+       "C0330",
+       "C0339",
+       "C0347",
+       "C0383",
+       "C0402"
+      ],
+      "primary_companies": [
+       "C0018",
+       "C0020",
+       "C0024",
+       "C0097",
+       "C0103",
+       "C0147",
+       "C0231",
+       "C0270",
+       "C0327",
+       "C0383"
+      ]
+     },
+     {
+      "id": "LIT.depo",
+      "name": "Depositions & transcripts",
+      "def": "Deposition prep, summaries, transcription, testimony analysis.",
+      "count": 12,
+      "primary_count": 4,
+      "companies": [
+       "C0009",
+       "C0030",
+       "C0109",
+       "C0187",
+       "C0188",
+       "C0197",
+       "C0209",
+       "C0222",
+       "C0231",
+       "C0233",
+       "C0234",
+       "C0248"
+      ],
+      "primary_companies": [
+       "C0109",
+       "C0187",
+       "C0188",
+       "C0209"
+      ]
+     },
+     {
+      "id": "LIT.trial",
+      "name": "Trial prep & jury simulation",
+      "def": "Trial presentation, exhibits, mock juries, judge/jury simulation, argument testing.",
+      "count": 7,
+      "primary_count": 1,
+      "companies": [
+       "C0009",
+       "C0030",
+       "C0109",
+       "C0165",
+       "C0188",
+       "C0231",
+       "C0233"
+      ],
+      "primary_companies": [
+       "C0165"
+      ]
+     },
+     {
+      "id": "LIT.analytics",
+      "name": "Litigation analytics & outcome prediction",
+      "def": "Judge/court analytics, docket data, outcome prediction, litigation risk scoring.",
+      "count": 22,
+      "primary_count": 10,
+      "companies": [
+       "C0004",
+       "C0011",
+       "C0044",
+       "C0049",
+       "C0074",
+       "C0087",
+       "C0104",
+       "C0110",
+       "C0127",
+       "C0165",
+       "C0174",
+       "C0175",
+       "C0201",
+       "C0205",
+       "C0221",
+       "C0243",
+       "C0297",
+       "C0317",
+       "C0323",
+       "C0368",
+       "C0394",
+       "C0400"
+      ],
+      "primary_companies": [
+       "C0004",
+       "C0011",
+       "C0049",
+       "C0074",
+       "C0104",
+       "C0175",
+       "C0201",
+       "C0323",
+       "C0368",
+       "C0400"
+      ]
+     },
+     {
+      "id": "LIT.adr",
+      "name": "Arbitration & dispute resolution",
+      "def": "International arbitration research, ODR, AI arbitration, settlement platforms.",
+      "count": 4,
+      "primary_count": 3,
+      "companies": [
+       "C0049",
+       "C0050",
+       "C0163",
+       "C0328"
+      ],
+      "primary_companies": [
+       "C0050",
+       "C0163",
+       "C0328"
+      ]
+     },
+     {
+      "id": "LIT.origination",
+      "name": "Case origination & litigation finance",
+      "def": "Detect legal violations/claims, mass-tort origination, litigation funding decisions.",
+      "count": 9,
+      "primary_count": 4,
+      "companies": [
+       "C0004",
+       "C0049",
+       "C0121",
+       "C0174",
+       "C0225",
+       "C0253",
+       "C0332",
+       "C0333",
+       "C0349"
+      ],
+      "primary_companies": [
+       "C0121",
+       "C0174",
+       "C0332",
+       "C0333"
+      ]
+     }
+    ],
+    "count": 95
+   },
+   {
+    "id": "CLAIM",
+    "name": "Claims, Plaintiff & Medical-Legal",
+    "color": "#e0603a",
+    "children": [
+     {
+      "id": "CLAIM.medical",
+      "name": "Medical record review & chronologies",
+      "def": "Summarize/organize medical records, treatment gaps, medical chronologies.",
+      "count": 19,
+      "primary_count": 5,
+      "companies": [
+       "C0037",
+       "C0043",
+       "C0054",
+       "C0109",
+       "C0123",
+       "C0124",
+       "C0133",
+       "C0139",
+       "C0187",
+       "C0209",
+       "C0231",
+       "C0232",
+       "C0248",
+       "C0249",
+       "C0332",
+       "C0333",
+       "C0347",
+       "C0362",
+       "C0389"
+      ],
+      "primary_companies": [
+       "C0037",
+       "C0043",
+       "C0124",
+       "C0362",
+       "C0389"
+      ]
+     },
+     {
+      "id": "CLAIM.demand",
+      "name": "Demand letters & case valuation",
+      "def": "Draft demand packages, estimate damages/settlement value.",
+      "count": 11,
+      "primary_count": 3,
+      "companies": [
+       "C0028",
+       "C0037",
+       "C0043",
+       "C0112",
+       "C0133",
+       "C0231",
+       "C0232",
+       "C0248",
+       "C0249",
+       "C0253",
+       "C0347"
+      ],
+      "primary_companies": [
+       "C0133",
+       "C0232",
+       "C0347"
+      ]
+     },
+     {
+      "id": "CLAIM.benefits",
+      "name": "Benefits & insurance claims",
+      "def": "SSDI, workers comp, insurance claim/coverage analysis.",
+      "count": 4,
+      "primary_count": 4,
+      "companies": [
+       "C0013",
+       "C0059",
+       "C0076",
+       "C0123"
+      ],
+      "primary_companies": [
+       "C0013",
+       "C0059",
+       "C0076",
+       "C0123"
+      ]
+     }
+    ],
+    "count": 25
+   },
+   {
+    "id": "IP",
+    "name": "Intellectual Property",
+    "color": "#16a085",
+    "children": [
+     {
+      "id": "IP.search",
+      "name": "Patent search, prior art & analytics",
+      "def": "Prior-art, novelty, FTO, invalidity, landscaping, patent analytics.",
+      "count": 13,
+      "primary_count": 11,
+      "companies": [
+       "C0001",
+       "C0017",
+       "C0033",
+       "C0035",
+       "C0036",
+       "C0038",
+       "C0062",
+       "C0125",
+       "C0127",
+       "C0135",
+       "C0295",
+       "C0306",
+       "C0308"
+      ],
+      "primary_companies": [
+       "C0017",
+       "C0033",
+       "C0035",
+       "C0038",
+       "C0062",
+       "C0125",
+       "C0127",
+       "C0135",
+       "C0295",
+       "C0306",
+       "C0308"
+      ]
+     },
+     {
+      "id": "IP.draft",
+      "name": "Patent drafting & prosecution",
+      "def": "Draft specifications/claims, office-action responses, invention disclosures.",
+      "count": 12,
+      "primary_count": 4,
+      "companies": [
+       "C0017",
+       "C0036",
+       "C0038",
+       "C0045",
+       "C0062",
+       "C0084",
+       "C0126",
+       "C0181",
+       "C0215",
+       "C0245",
+       "C0306",
+       "C0322"
+      ],
+      "primary_companies": [
+       "C0126",
+       "C0181",
+       "C0215",
+       "C0322"
+      ]
+     },
+     {
+      "id": "IP.tm",
+      "name": "Trademark search, filing & watch",
+      "def": "Clearance search, filing, watch services, goods/services classification.",
+      "count": 12,
+      "primary_count": 7,
+      "companies": [
+       "C0029",
+       "C0036",
+       "C0093",
+       "C0127",
+       "C0159",
+       "C0161",
+       "C0190",
+       "C0215",
+       "C0268",
+       "C0277",
+       "C0307",
+       "C0390"
+      ],
+      "primary_companies": [
+       "C0029",
+       "C0093",
+       "C0161",
+       "C0190",
+       "C0268",
+       "C0277",
+       "C0307"
+      ]
+     },
+     {
+      "id": "IP.portfolio",
+      "name": "IP portfolio management & docketing",
+      "def": "IP management systems, docketing, annuities, portfolio valuation.",
+      "count": 10,
+      "primary_count": 3,
+      "companies": [
+       "C0029",
+       "C0033",
+       "C0036",
+       "C0045",
+       "C0084",
+       "C0125",
+       "C0127",
+       "C0307",
+       "C0322",
+       "C0392"
+      ],
+      "primary_companies": [
+       "C0036",
+       "C0045",
+       "C0084"
+      ]
+     },
+     {
+      "id": "IP.enforce",
+      "name": "Infringement detection & brand protection",
+      "def": "Detect infringement/counterfeits, evidence of use, takedowns, licensing.",
+      "count": 7,
+      "primary_count": 2,
+      "companies": [
+       "C0001",
+       "C0020",
+       "C0062",
+       "C0159",
+       "C0161",
+       "C0190",
+       "C0277"
+      ],
+      "primary_companies": [
+       "C0001",
+       "C0159"
+      ]
+     }
+    ],
+    "count": 31
+   },
+   {
+    "id": "COMP",
+    "name": "Compliance, Regulatory & Risk",
+    "color": "#2e8b57",
+    "children": [
+     {
+      "id": "COMP.reg",
+      "name": "Regulatory change monitoring",
+      "def": "Horizon scanning, regulatory alerts, regulatory intelligence.",
+      "count": 8,
+      "primary_count": 4,
+      "companies": [
+       "C0014",
+       "C0047",
+       "C0053",
+       "C0141",
+       "C0143",
+       "C0160",
+       "C0171",
+       "C0363"
+      ],
+      "primary_companies": [
+       "C0047",
+       "C0143",
+       "C0160",
+       "C0171"
+      ]
+     },
+     {
+      "id": "COMP.map",
+      "name": "Obligation & policy mapping",
+      "def": "Extract obligations from rules; map to policies/controls; gap analysis.",
+      "count": 8,
+      "primary_count": 1,
+      "companies": [
+       "C0047",
+       "C0053",
+       "C0072",
+       "C0141",
+       "C0143",
+       "C0160",
+       "C0171",
+       "C0363"
+      ],
+      "primary_companies": [
+       "C0053"
+      ]
+     },
+     {
+      "id": "COMP.agents",
+      "name": "Compliance review agents",
+      "def": "AI agents that review marketing, communications, transactions or documents for regulatory compliance.",
+      "count": 2,
+      "primary_count": 1,
+      "companies": [
+       "C0072",
+       "C0163"
+      ],
+      "primary_companies": [
+       "C0072"
+      ]
+     },
+     {
+      "id": "COMP.privacy",
+      "name": "Privacy, data protection & AI governance",
+      "def": "DPA review, privacy ops, AI risk governance & AI-law compliance.",
+      "count": 4,
+      "primary_count": 0,
+      "companies": [
+       "C0100",
+       "C0222",
+       "C0239",
+       "C0281"
+      ],
+      "primary_companies": []
+     },
+     {
+      "id": "COMP.invest",
+      "name": "Investigations & communications surveillance",
+      "def": "Internal investigations, comms surveillance, misconduct risk.",
+      "count": 11,
+      "primary_count": 1,
+      "companies": [
+       "C0032",
+       "C0061",
+       "C0094",
+       "C0113",
+       "C0149",
+       "C0196",
+       "C0234",
+       "C0239",
+       "C0278",
+       "C0281",
+       "C0342"
+      ],
+      "primary_companies": [
+       "C0061"
+      ]
+     }
+    ],
+    "count": 23
+   },
+   {
+    "id": "OPS",
+    "name": "Legal Ops & In-house Enablement",
+    "color": "#5d6d7e",
+    "children": [
+     {
+      "id": "OPS.intake",
+      "name": "Legal front door, intake & triage",
+      "def": "Route and triage requests from the business; ticketing for legal.",
+      "count": 14,
+      "primary_count": 1,
+      "companies": [
+       "C0015",
+       "C0072",
+       "C0098",
+       "C0100",
+       "C0120",
+       "C0122",
+       "C0230",
+       "C0252",
+       "C0272",
+       "C0309",
+       "C0316",
+       "C0365",
+       "C0384",
+       "C0392"
+      ],
+      "primary_companies": [
+       "C0122"
+      ]
+     },
+     {
+      "id": "OPS.spend",
+      "name": "Matter, spend & e-billing management",
+      "def": "Matter management, outside-counsel spend, invoice review, budgeting.",
+      "count": 8,
+      "primary_count": 5,
+      "companies": [
+       "C0046",
+       "C0080",
+       "C0098",
+       "C0194",
+       "C0218",
+       "C0219",
+       "C0365",
+       "C0392"
+      ],
+      "primary_companies": [
+       "C0046",
+       "C0098",
+       "C0218",
+       "C0365",
+       "C0392"
+      ]
+     },
+     {
+      "id": "OPS.selfserve",
+      "name": "Self-service legal for business teams",
+      "def": "Answer business teams' legal questions and generate approved docs without lawyers.",
+      "count": 6,
+      "primary_count": 2,
+      "companies": [
+       "C0100",
+       "C0120",
+       "C0122",
+       "C0204",
+       "C0252",
+       "C0316"
+      ],
+      "primary_companies": [
+       "C0252",
+       "C0316"
+      ]
+     }
+    ],
+    "count": 20
+   },
+   {
+    "id": "FIRM",
+    "name": "Law Firm Operations",
+    "color": "#8e44ad",
+    "children": [
+     {
+      "id": "FIRM.pm",
+      "name": "Practice & case management",
+      "def": "Matter/case management systems, tasks, calendars, firm workflows.",
+      "count": 23,
+      "primary_count": 12,
+      "companies": [
+       "C0007",
+       "C0008",
+       "C0010",
+       "C0054",
+       "C0077",
+       "C0112",
+       "C0118",
+       "C0123",
+       "C0136",
+       "C0139",
+       "C0147",
+       "C0162",
+       "C0218",
+       "C0248",
+       "C0270",
+       "C0279",
+       "C0297",
+       "C0318",
+       "C0330",
+       "C0357",
+       "C0366",
+       "C0367",
+       "C0371"
+      ],
+      "primary_companies": [
+       "C0008",
+       "C0054",
+       "C0112",
+       "C0118",
+       "C0136",
+       "C0139",
+       "C0162",
+       "C0248",
+       "C0330",
+       "C0366",
+       "C0367",
+       "C0371"
+      ]
+     },
+     {
+      "id": "FIRM.billing",
+      "name": "Time capture, billing & finance",
+      "def": "AI time capture, billing narratives, trust accounting, firm financials.",
+      "count": 18,
+      "primary_count": 8,
+      "companies": [
+       "C0008",
+       "C0010",
+       "C0021",
+       "C0041",
+       "C0045",
+       "C0082",
+       "C0118",
+       "C0136",
+       "C0162",
+       "C0248",
+       "C0279",
+       "C0286",
+       "C0303",
+       "C0330",
+       "C0345",
+       "C0366",
+       "C0371",
+       "C0388"
+      ],
+      "primary_companies": [
+       "C0010",
+       "C0021",
+       "C0041",
+       "C0082",
+       "C0286",
+       "C0303",
+       "C0345",
+       "C0388"
+      ]
+     },
+     {
+      "id": "FIRM.intake",
+      "name": "Client intake & AI receptionists",
+      "def": "Capture and qualify inbound clients: AI receptionists, intake forms, conflict capture, scheduling.",
+      "count": 20,
+      "primary_count": 8,
+      "companies": [
+       "C0008",
+       "C0028",
+       "C0040",
+       "C0044",
+       "C0107",
+       "C0112",
+       "C0114",
+       "C0136",
+       "C0162",
+       "C0229",
+       "C0231",
+       "C0244",
+       "C0248",
+       "C0267",
+       "C0289",
+       "C0291",
+       "C0318",
+       "C0347",
+       "C0353",
+       "C0358"
+      ],
+      "primary_companies": [
+       "C0028",
+       "C0040",
+       "C0107",
+       "C0114",
+       "C0267",
+       "C0289",
+       "C0318",
+       "C0358"
+      ]
+     },
+     {
+      "id": "FIRM.marketing",
+      "name": "Legal marketing & lead generation",
+      "def": "Generate demand for law firms: SEO, ads, content, review management, lead marketplaces.",
+      "count": 4,
+      "primary_count": 1,
+      "companies": [
+       "C0114",
+       "C0118",
+       "C0250",
+       "C0358"
+      ],
+      "primary_companies": [
+       "C0250"
+      ]
+     },
+     {
+      "id": "FIRM.comms",
+      "name": "Client communication & portals",
+      "def": "Client portals, automated updates, client messaging.",
+      "count": 12,
+      "primary_count": 1,
+      "companies": [
+       "C0008",
+       "C0037",
+       "C0054",
+       "C0136",
+       "C0162",
+       "C0229",
+       "C0232",
+       "C0249",
+       "C0262",
+       "C0291",
+       "C0371",
+       "C0397"
+      ],
+      "primary_companies": [
+       "C0291"
+      ]
+     },
+     {
+      "id": "FIRM.dms",
+      "name": "Document & email management (DMS)",
+      "def": "Legal document management systems, email filing, records.",
+      "count": 9,
+      "primary_count": 2,
+      "companies": [
+       "C0008",
+       "C0054",
+       "C0118",
+       "C0136",
+       "C0255",
+       "C0286",
+       "C0298",
+       "C0366",
+       "C0371"
+      ],
+      "primary_companies": [
+       "C0255",
+       "C0298"
+      ]
+     },
+     {
+      "id": "FIRM.docket",
+      "name": "Docketing & deadline calendaring",
+      "def": "Court-rules-based deadline calculation, docket monitoring.",
+      "count": 9,
+      "primary_count": 2,
+      "companies": [
+       "C0010",
+       "C0078",
+       "C0164",
+       "C0202",
+       "C0317",
+       "C0329",
+       "C0330",
+       "C0392",
+       "C0394"
+      ],
+      "primary_companies": [
+       "C0164",
+       "C0202"
+      ]
+     },
+     {
+      "id": "FIRM.bi",
+      "name": "Firm intelligence & business development",
+      "def": "Pricing, profitability, pitch/BD intelligence, relationship mapping.",
+      "count": 7,
+      "primary_count": 0,
+      "companies": [
+       "C0008",
+       "C0010",
+       "C0082",
+       "C0118",
+       "C0322",
+       "C0323",
+       "C0345"
+      ],
+      "primary_companies": []
+     }
+    ],
+    "count": 62
+   },
+   {
+    "id": "CONS",
+    "name": "Consumer & Access to Justice",
+    "color": "#f39c12",
+    "children": [
+     {
+      "id": "CONS.selfhelp",
+      "name": "Consumer self-help legal",
+      "def": "DIY legal documents/Q&A for individuals and small businesses.",
+      "count": 23,
+      "primary_count": 10,
+      "companies": [
+       "C0013",
+       "C0016",
+       "C0022",
+       "C0034",
+       "C0077",
+       "C0092",
+       "C0116",
+       "C0121",
+       "C0150",
+       "C0184",
+       "C0211",
+       "C0235",
+       "C0244",
+       "C0254",
+       "C0283",
+       "C0300",
+       "C0349",
+       "C0353",
+       "C0360",
+       "C0361",
+       "C0377",
+       "C0382",
+       "C0390"
+      ],
+      "primary_companies": [
+       "C0016",
+       "C0150",
+       "C0211",
+       "C0244",
+       "C0300",
+       "C0360",
+       "C0361",
+       "C0377",
+       "C0382",
+       "C0390"
+      ]
+     },
+     {
+      "id": "CONS.estate",
+      "name": "Estate planning & family law",
+      "def": "Wills, trusts, probate, divorce, custody.",
+      "count": 6,
+      "primary_count": 5,
+      "companies": [
+       "C0044",
+       "C0228",
+       "C0229",
+       "C0235",
+       "C0283",
+       "C0390"
+      ],
+      "primary_companies": [
+       "C0044",
+       "C0228",
+       "C0229",
+       "C0235",
+       "C0283"
+      ]
+     },
+     {
+      "id": "CONS.immig",
+      "name": "Immigration",
+      "def": "Visa eligibility, petitions, RFE responses, immigration case management.",
+      "count": 6,
+      "primary_count": 4,
+      "companies": [
+       "C0026",
+       "C0092",
+       "C0105",
+       "C0108",
+       "C0259",
+       "C0385"
+      ],
+      "primary_companies": [
+       "C0092",
+       "C0105",
+       "C0108",
+       "C0259"
+      ]
+     },
+     {
+      "id": "CONS.market",
+      "name": "Legal marketplaces & lawyer matching",
+      "def": "Match clients with lawyers, flat-fee legal services platforms.",
+      "count": 18,
+      "primary_count": 5,
+      "companies": [
+       "C0028",
+       "C0059",
+       "C0077",
+       "C0121",
+       "C0150",
+       "C0244",
+       "C0300",
+       "C0307",
+       "C0311",
+       "C0321",
+       "C0329",
+       "C0348",
+       "C0349",
+       "C0357",
+       "C0360",
+       "C0369",
+       "C0380",
+       "C0390"
+      ],
+      "primary_companies": [
+       "C0311",
+       "C0348",
+       "C0349",
+       "C0357",
+       "C0380"
+      ]
+     },
+     {
+      "id": "CONS.a2j",
+      "name": "Access-to-justice & legal aid tools",
+      "def": "Tools for legal aid orgs, self-represented litigants, record clearance, eviction defense.",
+      "count": 4,
+      "primary_count": 1,
+      "companies": [
+       "C0119",
+       "C0150",
+       "C0166",
+       "C0353"
+      ],
+      "primary_companies": [
+       "C0166"
+      ]
+     }
+    ],
+    "count": 43
+   },
+   {
+    "id": "GOV",
+    "name": "Courts & Public Sector",
+    "color": "#34495e",
+    "children": [
+     {
+      "id": "GOV.courts",
+      "name": "Judicial & court AI",
+      "def": "Tools for judges/clerks/courts: bench memos, court transcription, case management.",
+      "count": 2,
+      "primary_count": 2,
+      "companies": [
+       "C0009",
+       "C0372"
+      ],
+      "primary_companies": [
+       "C0009",
+       "C0372"
+      ]
+     },
+     {
+      "id": "GOV.justice",
+      "name": "Criminal justice & public defense",
+      "def": "Body-cam/evidence review for defenders/prosecutors, risk assessment.",
+      "count": 1,
+      "primary_count": 1,
+      "companies": [
+       "C0331"
+      ],
+      "primary_companies": [
+       "C0331"
+      ]
+     },
+     {
+      "id": "GOV.lawmaking",
+      "name": "Government legal & legislative drafting",
+      "def": "Legislative drafting, policy tracking, government legal departments.",
+      "count": 2,
+      "primary_count": 0,
+      "companies": [
+       "C0113",
+       "C0254"
+      ],
+      "primary_companies": []
+     }
+    ],
+    "count": 5
+   },
+   {
+    "id": "SERV",
+    "name": "AI-native Legal Services",
+    "color": "#1abc9c",
+    "children": [
+     {
+      "id": "SERV.lawfirm",
+      "name": "AI-native law firms",
+      "def": "Licensed law firms delivering legal services with AI at the core (flat fee/outcome pricing).",
+      "count": 21,
+      "primary_count": 17,
+      "companies": [
+       "C0026",
+       "C0051",
+       "C0056",
+       "C0059",
+       "C0064",
+       "C0086",
+       "C0089",
+       "C0167",
+       "C0170",
+       "C0225",
+       "C0230",
+       "C0245",
+       "C0253",
+       "C0260",
+       "C0265",
+       "C0332",
+       "C0336",
+       "C0339",
+       "C0357",
+       "C0364",
+       "C0385"
+      ],
+      "primary_companies": [
+       "C0026",
+       "C0051",
+       "C0056",
+       "C0064",
+       "C0086",
+       "C0089",
+       "C0167",
+       "C0170",
+       "C0225",
+       "C0245",
+       "C0253",
+       "C0260",
+       "C0265",
+       "C0336",
+       "C0339",
+       "C0364",
+       "C0385"
+      ]
+     },
+     {
+      "id": "SERV.alsp",
+      "name": "Tech-enabled ALSPs & managed services",
+      "def": "Alternative legal service providers/managed review/legal process outsourcing using AI.",
+      "count": 21,
+      "primary_count": 7,
+      "companies": [
+       "C0020",
+       "C0029",
+       "C0068",
+       "C0084",
+       "C0099",
+       "C0147",
+       "C0149",
+       "C0197",
+       "C0213",
+       "C0219",
+       "C0222",
+       "C0230",
+       "C0232",
+       "C0249",
+       "C0281",
+       "C0289",
+       "C0302",
+       "C0338",
+       "C0342",
+       "C0368",
+       "C0375"
+      ],
+      "primary_companies": [
+       "C0068",
+       "C0213",
+       "C0219",
+       "C0249",
+       "C0302",
+       "C0338",
+       "C0375"
+      ]
+     }
+    ],
+    "count": 41
+   },
+   {
+    "id": "INFRA",
+    "name": "Legal AI Infrastructure",
+    "color": "#7f8c8d",
+    "children": [
+     {
+      "id": "INFRA.models",
+      "name": "Legal LLMs, embeddings & models",
+      "def": "Legal-domain foundation models, embeddings, rerankers.",
+      "count": 7,
+      "primary_count": 3,
+      "companies": [
+       "C0080",
+       "C0149",
+       "C0184",
+       "C0223",
+       "C0254",
+       "C0310",
+       "C0337"
+      ],
+      "primary_companies": [
+       "C0223",
+       "C0310",
+       "C0337"
+      ]
+     },
+     {
+      "id": "INFRA.data",
+      "name": "Legal data & APIs",
+      "def": "Case law/docket/legislation data APIs, open legal data.",
+      "count": 8,
+      "primary_count": 1,
+      "companies": [
+       "C0084",
+       "C0201",
+       "C0310",
+       "C0317",
+       "C0329",
+       "C0337",
+       "C0386",
+       "C0400"
+      ],
+      "primary_companies": [
+       "C0317"
+      ]
+     },
+     {
+      "id": "INFRA.eval",
+      "name": "Evaluation, security & trust tooling",
+      "def": "Benchmarks/evals for legal AI, hallucination testing, secure deployment.",
+      "count": 1,
+      "primary_count": 0,
+      "companies": [
+       "C0310"
+      ],
+      "primary_companies": []
+     }
+    ],
+    "count": 13
+   }
+  ]
+ },
+ "domain_matrix": {
+  "RES": {
+   "RES": 77,
+   "ASSIST": 32,
+   "DRAFT": 20,
+   "CON": 23,
+   "DEAL": 7,
+   "LIT": 29,
+   "CLAIM": 0,
+   "IP": 0,
+   "COMP": 2,
+   "OPS": 2,
+   "FIRM": 13,
+   "CONS": 13,
+   "GOV": 2,
+   "SERV": 3,
+   "INFRA": 6
+  },
+  "ASSIST": {
+   "RES": 32,
+   "ASSIST": 65,
+   "DRAFT": 18,
+   "CON": 38,
+   "DEAL": 10,
+   "LIT": 12,
+   "CLAIM": 1,
+   "IP": 3,
+   "COMP": 2,
+   "OPS": 8,
+   "FIRM": 10,
+   "CONS": 5,
+   "GOV": 1,
+   "SERV": 3,
+   "INFRA": 2
+  },
+  "DRAFT": {
+   "RES": 20,
+   "ASSIST": 18,
+   "DRAFT": 42,
+   "CON": 19,
+   "DEAL": 2,
+   "LIT": 7,
+   "CLAIM": 2,
+   "IP": 0,
+   "COMP": 1,
+   "OPS": 4,
+   "FIRM": 14,
+   "CONS": 8,
+   "GOV": 1,
+   "SERV": 0,
+   "INFRA": 1
+  },
+  "CON": {
+   "RES": 23,
+   "ASSIST": 38,
+   "DRAFT": 19,
+   "CON": 91,
+   "DEAL": 23,
+   "LIT": 10,
+   "CLAIM": 1,
+   "IP": 1,
+   "COMP": 2,
+   "OPS": 16,
+   "FIRM": 9,
+   "CONS": 9,
+   "GOV": 0,
+   "SERV": 13,
+   "INFRA": 2
+  },
+  "DEAL": {
+   "RES": 7,
+   "ASSIST": 10,
+   "DRAFT": 2,
+   "CON": 23,
+   "DEAL": 36,
+   "LIT": 3,
+   "CLAIM": 0,
+   "IP": 1,
+   "COMP": 0,
+   "OPS": 4,
+   "FIRM": 3,
+   "CONS": 2,
+   "GOV": 0,
+   "SERV": 10,
+   "INFRA": 0
+  },
+  "LIT": {
+   "RES": 29,
+   "ASSIST": 12,
+   "DRAFT": 7,
+   "CON": 10,
+   "DEAL": 3,
+   "LIT": 95,
+   "CLAIM": 12,
+   "IP": 3,
+   "COMP": 12,
+   "OPS": 2,
+   "FIRM": 16,
+   "CONS": 8,
+   "GOV": 2,
+   "SERV": 16,
+   "INFRA": 6
+  },
+  "CLAIM": {
+   "RES": 0,
+   "ASSIST": 1,
+   "DRAFT": 2,
+   "CON": 1,
+   "DEAL": 0,
+   "LIT": 12,
+   "CLAIM": 25,
+   "IP": 0,
+   "COMP": 0,
+   "OPS": 0,
+   "FIRM": 11,
+   "CONS": 3,
+   "GOV": 0,
+   "SERV": 5,
+   "INFRA": 0
+  },
+  "IP": {
+   "RES": 0,
+   "ASSIST": 3,
+   "DRAFT": 0,
+   "CON": 1,
+   "DEAL": 1,
+   "LIT": 3,
+   "CLAIM": 0,
+   "IP": 31,
+   "COMP": 0,
+   "OPS": 1,
+   "FIRM": 3,
+   "CONS": 2,
+   "GOV": 0,
+   "SERV": 4,
+   "INFRA": 1
+  },
+  "COMP": {
+   "RES": 2,
+   "ASSIST": 2,
+   "DRAFT": 1,
+   "CON": 2,
+   "DEAL": 0,
+   "LIT": 12,
+   "CLAIM": 0,
+   "IP": 0,
+   "COMP": 23,
+   "OPS": 2,
+   "FIRM": 0,
+   "CONS": 0,
+   "GOV": 1,
+   "SERV": 4,
+   "INFRA": 1
+  },
+  "OPS": {
+   "RES": 2,
+   "ASSIST": 8,
+   "DRAFT": 4,
+   "CON": 16,
+   "DEAL": 4,
+   "LIT": 2,
+   "CLAIM": 0,
+   "IP": 1,
+   "COMP": 2,
+   "OPS": 20,
+   "FIRM": 2,
+   "CONS": 0,
+   "GOV": 0,
+   "SERV": 2,
+   "INFRA": 1
+  },
+  "FIRM": {
+   "RES": 13,
+   "ASSIST": 10,
+   "DRAFT": 14,
+   "CON": 9,
+   "DEAL": 3,
+   "LIT": 16,
+   "CLAIM": 11,
+   "IP": 3,
+   "COMP": 0,
+   "OPS": 2,
+   "FIRM": 62,
+   "CONS": 8,
+   "GOV": 0,
+   "SERV": 5,
+   "INFRA": 2
+  },
+  "CONS": {
+   "RES": 13,
+   "ASSIST": 5,
+   "DRAFT": 8,
+   "CON": 9,
+   "DEAL": 2,
+   "LIT": 8,
+   "CLAIM": 3,
+   "IP": 2,
+   "COMP": 0,
+   "OPS": 0,
+   "FIRM": 8,
+   "CONS": 43,
+   "GOV": 1,
+   "SERV": 4,
+   "INFRA": 3
+  },
+  "GOV": {
+   "RES": 2,
+   "ASSIST": 1,
+   "DRAFT": 1,
+   "CON": 0,
+   "DEAL": 0,
+   "LIT": 2,
+   "CLAIM": 0,
+   "IP": 0,
+   "COMP": 1,
+   "OPS": 0,
+   "FIRM": 0,
+   "CONS": 1,
+   "GOV": 5,
+   "SERV": 0,
+   "INFRA": 1
+  },
+  "SERV": {
+   "RES": 3,
+   "ASSIST": 3,
+   "DRAFT": 0,
+   "CON": 13,
+   "DEAL": 10,
+   "LIT": 16,
+   "CLAIM": 5,
+   "IP": 4,
+   "COMP": 4,
+   "OPS": 2,
+   "FIRM": 5,
+   "CONS": 4,
+   "GOV": 0,
+   "SERV": 41,
+   "INFRA": 2
+  },
+  "INFRA": {
+   "RES": 6,
+   "ASSIST": 2,
+   "DRAFT": 1,
+   "CON": 2,
+   "DEAL": 0,
+   "LIT": 6,
+   "CLAIM": 0,
+   "IP": 1,
+   "COMP": 1,
+   "OPS": 1,
+   "FIRM": 2,
+   "CONS": 3,
+   "GOV": 1,
+   "SERV": 2,
+   "INFRA": 13
+  }
+ },
+ "domain_ids": [
+  "RES",
+  "ASSIST",
+  "DRAFT",
+  "CON",
+  "DEAL",
+  "LIT",
+  "CLAIM",
+  "IP",
+  "COMP",
+  "OPS",
+  "FIRM",
+  "CONS",
+  "GOV",
+  "SERV",
+  "INFRA"
+ ],
+ "domain_names": {
+  "RES": "Legal Research & Knowledge",
+  "ASSIST": "AI Assistants & Legal Workspaces",
+  "DRAFT": "Drafting & Document Automation",
+  "CON": "Contracts & CLM",
+  "DEAL": "Corporate, Transactions & Deals",
+  "LIT": "Litigation & Disputes",
+  "CLAIM": "Claims, Plaintiff & Medical-Legal",
+  "IP": "Intellectual Property",
+  "COMP": "Compliance, Regulatory & Risk",
+  "OPS": "Legal Ops & In-house Enablement",
+  "FIRM": "Law Firm Operations",
+  "CONS": "Consumer & Access to Justice",
+  "GOV": "Courts & Public Sector",
+  "SERV": "AI-native Legal Services",
+  "INFRA": "Legal AI Infrastructure"
+ },
+ "category_pairs": [
+  {
+   "a": "CON.draft",
+   "b": "CON.review",
+   "count": 45
+  },
+  {
+   "a": "ASSIST.word",
+   "b": "CON.review",
+   "count": 19
+  },
+  {
+   "a": "CON.clm",
+   "b": "CON.review",
+   "count": 18
+  },
+  {
+   "a": "ASSIST.word",
+   "b": "CON.draft",
+   "count": 18
+  },
+  {
+   "a": "ASSIST.copilot",
+   "b": "RES.case",
+   "count": 18
+  },
+  {
+   "a": "CON.clm",
+   "b": "CON.draft",
+   "count": 17
+  },
+  {
+   "a": "DRAFT.write",
+   "b": "RES.case",
+   "count": 17
+  },
+  {
+   "a": "LIT.case",
+   "b": "LIT.draft",
+   "count": 15
+  },
+  {
+   "a": "LIT.draft",
+   "b": "RES.case",
+   "count": 15
+  },
+  {
+   "a": "CON.clm",
+   "b": "CON.extract",
+   "count": 15
+  },
+  {
+   "a": "CON.clm",
+   "b": "CON.selfserve",
+   "count": 14
+  },
+  {
+   "a": "CON.extract",
+   "b": "CON.review",
+   "count": 14
+  },
+  {
+   "a": "CON.draft",
+   "b": "CON.extract",
+   "count": 13
+  },
+  {
+   "a": "CON.review",
+   "b": "RES.case",
+   "count": 13
+  },
+  {
+   "a": "CON.review",
+   "b": "CON.selfserve",
+   "count": 12
+  },
+  {
+   "a": "ASSIST.copilot",
+   "b": "CON.review",
+   "count": 12
+  },
+  {
+   "a": "FIRM.billing",
+   "b": "FIRM.pm",
+   "count": 10
+  },
+  {
+   "a": "CON.draft",
+   "b": "CON.selfserve",
+   "count": 10
+  },
+  {
+   "a": "COMP.invest",
+   "b": "LIT.ediscovery",
+   "count": 10
+  },
+  {
+   "a": "ASSIST.agents",
+   "b": "ASSIST.copilot",
+   "count": 9
+  },
+  {
+   "a": "RES.case",
+   "b": "RES.content",
+   "count": 9
+  },
+  {
+   "a": "CON.review",
+   "b": "OPS.intake",
+   "count": 9
+  },
+  {
+   "a": "CON.review",
+   "b": "DRAFT.auto",
+   "count": 9
+  },
+  {
+   "a": "ASSIST.copilot",
+   "b": "DRAFT.write",
+   "count": 9
+  },
+  {
+   "a": "LIT.case",
+   "b": "RES.case",
+   "count": 8
+  },
+  {
+   "a": "CON.extract",
+   "b": "CON.selfserve",
+   "count": 8
+  },
+  {
+   "a": "RES.case",
+   "b": "RES.cite",
+   "count": 8
+  },
+  {
+   "a": "CLAIM.demand",
+   "b": "CLAIM.medical",
+   "count": 8
+  },
+  {
+   "a": "CONS.market",
+   "b": "CONS.selfhelp",
+   "count": 8
+  },
+  {
+   "a": "CON.draft",
+   "b": "RES.case",
+   "count": 8
+  },
+  {
+   "a": "ASSIST.agents",
+   "b": "CON.review",
+   "count": 8
+  },
+  {
+   "a": "CON.draft",
+   "b": "OPS.intake",
+   "count": 7
+  },
+  {
+   "a": "COMP.map",
+   "b": "COMP.reg",
+   "count": 7
+  },
+  {
+   "a": "CON.review",
+   "b": "DEAL.dd",
+   "count": 7
+  },
+  {
+   "a": "CON.clm",
+   "b": "DRAFT.auto",
+   "count": 7
+  },
+  {
+   "a": "ASSIST.agents",
+   "b": "RES.case",
+   "count": 7
+  },
+  {
+   "a": "CONS.market",
+   "b": "RES.case",
+   "count": 7
+  },
+  {
+   "a": "FIRM.pm",
+   "b": "RES.case",
+   "count": 7
+  },
+  {
+   "a": "ASSIST.copilot",
+   "b": "CON.draft",
+   "count": 7
+  },
+  {
+   "a": "LIT.analytics",
+   "b": "RES.case",
+   "count": 7
+  }
+ ],
+ "categories": [
+  {
+   "id": "CON.review",
+   "name": "Contract review & risk analysis",
+   "domain": "CON",
+   "players": 65,
+   "primary_players": 15,
+   "specialists": 3,
+   "primary_raised_usd_m": 348.9
+  },
+  {
+   "id": "RES.case",
+   "name": "Case law & statute research",
+   "domain": "RES",
+   "players": 61,
+   "primary_players": 27,
+   "specialists": 14,
+   "primary_raised_usd_m": 184.3
+  },
+  {
+   "id": "CON.draft",
+   "name": "Contract drafting & negotiation",
+   "domain": "CON",
+   "players": 50,
+   "primary_players": 6,
+   "specialists": 0,
+   "primary_raised_usd_m": 34.1
+  },
+  {
+   "id": "LIT.draft",
+   "name": "Litigation drafting",
+   "domain": "LIT",
+   "players": 38,
+   "primary_players": 10,
+   "specialists": 9,
+   "primary_raised_usd_m": 197.4
+  },
+  {
+   "id": "ASSIST.copilot",
+   "name": "General legal AI assistant / copilot",
+   "domain": "ASSIST",
+   "players": 28,
+   "primary_players": 14,
+   "specialists": 2,
+   "primary_raised_usd_m": 2662.9
+  },
+  {
+   "id": "CON.clm",
+   "name": "CLM, repository & obligation management",
+   "domain": "CON",
+   "players": 28,
+   "primary_players": 12,
+   "specialists": 0,
+   "primary_raised_usd_m": 597.9
+  },
+  {
+   "id": "CON.extract",
+   "name": "Contract data extraction & analytics",
+   "domain": "CON",
+   "players": 27,
+   "primary_players": 6,
+   "specialists": 3,
+   "primary_raised_usd_m": 52.5
+  },
+  {
+   "id": "ASSIST.word",
+   "name": "Word/Outlook embedded drafting tools",
+   "domain": "ASSIST",
+   "players": 26,
+   "primary_players": 2,
+   "specialists": 2,
+   "primary_raised_usd_m": 40.0
+  },
+  {
+   "id": "LIT.case",
+   "name": "Case analysis & fact development",
+   "domain": "LIT",
+   "players": 26,
+   "primary_players": 9,
+   "specialists": 4,
+   "primary_raised_usd_m": 141.9
+  },
+  {
+   "id": "ASSIST.agents",
+   "name": "Agentic workflows & no-code legal app builders",
+   "domain": "ASSIST",
+   "players": 23,
+   "primary_players": 4,
+   "specialists": 3,
+   "primary_raised_usd_m": 193.5
+  },
+  {
+   "id": "FIRM.pm",
+   "name": "Practice & case management",
+   "domain": "FIRM",
+   "players": 23,
+   "primary_players": 12,
+   "specialists": 1,
+   "primary_raised_usd_m": 36.2
+  },
+  {
+   "id": "CONS.selfhelp",
+   "name": "Consumer self-help legal",
+   "domain": "CONS",
+   "players": 23,
+   "primary_players": 10,
+   "specialists": 10,
+   "primary_raised_usd_m": 5.0
+  },
+  {
+   "id": "DRAFT.auto",
+   "name": "Document automation & assembly",
+   "domain": "DRAFT",
+   "players": 22,
+   "primary_players": 5,
+   "specialists": 1,
+   "primary_raised_usd_m": 10.8
+  },
+  {
+   "id": "LIT.analytics",
+   "name": "Litigation analytics & outcome prediction",
+   "domain": "LIT",
+   "players": 22,
+   "primary_players": 10,
+   "specialists": 9,
+   "primary_raised_usd_m": 9.3
+  },
+  {
+   "id": "DRAFT.write",
+   "name": "Legal writing & memo drafting",
+   "domain": "DRAFT",
+   "players": 21,
+   "primary_players": 1,
+   "specialists": 3,
+   "primary_raised_usd_m": 6.0
+  },
+  {
+   "id": "SERV.lawfirm",
+   "name": "AI-native law firms",
+   "domain": "SERV",
+   "players": 21,
+   "primary_players": 17,
+   "specialists": 9,
+   "primary_raised_usd_m": 164.4
+  },
+  {
+   "id": "SERV.alsp",
+   "name": "Tech-enabled ALSPs & managed services",
+   "domain": "SERV",
+   "players": 21,
+   "primary_players": 7,
+   "specialists": 3,
+   "primary_raised_usd_m": 91.0
+  },
+  {
+   "id": "DEAL.dd",
+   "name": "M&A due diligence & data rooms",
+   "domain": "DEAL",
+   "players": 20,
+   "primary_players": 4,
+   "specialists": 7,
+   "primary_raised_usd_m": 7.9
+  },
+  {
+   "id": "FIRM.intake",
+   "name": "Client intake & AI receptionists",
+   "domain": "FIRM",
+   "players": 20,
+   "primary_players": 8,
+   "specialists": 6,
+   "primary_raised_usd_m": 34.4
+  },
+  {
+   "id": "CON.selfserve",
+   "name": "Self-serve contracting & e-signature",
+   "domain": "CON",
+   "players": 19,
+   "primary_players": 2,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "CLAIM.medical",
+   "name": "Medical record review & chronologies",
+   "domain": "CLAIM",
+   "players": 19,
+   "primary_players": 5,
+   "specialists": 8,
+   "primary_raised_usd_m": 0.6
+  },
+  {
+   "id": "LIT.ediscovery",
+   "name": "eDiscovery & document review",
+   "domain": "LIT",
+   "players": 18,
+   "primary_players": 15,
+   "specialists": 5,
+   "primary_raised_usd_m": 302.9
+  },
+  {
+   "id": "FIRM.billing",
+   "name": "Time capture, billing & finance",
+   "domain": "FIRM",
+   "players": 18,
+   "primary_players": 8,
+   "specialists": 7,
+   "primary_raised_usd_m": 21.1
+  },
+  {
+   "id": "CONS.market",
+   "name": "Legal marketplaces & lawyer matching",
+   "domain": "CONS",
+   "players": 18,
+   "primary_players": 5,
+   "specialists": 0,
+   "primary_raised_usd_m": 180.1
+  },
+  {
+   "id": "OPS.intake",
+   "name": "Legal front door, intake & triage",
+   "domain": "OPS",
+   "players": 14,
+   "primary_players": 1,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "IP.search",
+   "name": "Patent search, prior art & analytics",
+   "domain": "IP",
+   "players": 13,
+   "primary_players": 11,
+   "specialists": 9,
+   "primary_raised_usd_m": 42.6
+  },
+  {
+   "id": "RES.km",
+   "name": "Knowledge management & precedent search",
+   "domain": "RES",
+   "players": 12,
+   "primary_players": 3,
+   "specialists": 2,
+   "primary_raised_usd_m": 61.1
+  },
+  {
+   "id": "LIT.depo",
+   "name": "Depositions & transcripts",
+   "domain": "LIT",
+   "players": 12,
+   "primary_players": 4,
+   "specialists": 2,
+   "primary_raised_usd_m": 7.9
+  },
+  {
+   "id": "IP.draft",
+   "name": "Patent drafting & prosecution",
+   "domain": "IP",
+   "players": 12,
+   "primary_players": 4,
+   "specialists": 7,
+   "primary_raised_usd_m": 40.0
+  },
+  {
+   "id": "IP.tm",
+   "name": "Trademark search, filing & watch",
+   "domain": "IP",
+   "players": 12,
+   "primary_players": 7,
+   "specialists": 7,
+   "primary_raised_usd_m": 8.4
+  },
+  {
+   "id": "FIRM.comms",
+   "name": "Client communication & portals",
+   "domain": "FIRM",
+   "players": 12,
+   "primary_players": 1,
+   "specialists": 1,
+   "primary_raised_usd_m": 11.6
+  },
+  {
+   "id": "RES.cite",
+   "name": "Citation checking & brief validation",
+   "domain": "RES",
+   "players": 11,
+   "primary_players": 2,
+   "specialists": 3,
+   "primary_raised_usd_m": 8.7
+  },
+  {
+   "id": "CLAIM.demand",
+   "name": "Demand letters & case valuation",
+   "domain": "CLAIM",
+   "players": 11,
+   "primary_players": 3,
+   "specialists": 1,
+   "primary_raised_usd_m": 385.0
+  },
+  {
+   "id": "COMP.invest",
+   "name": "Investigations & communications surveillance",
+   "domain": "COMP",
+   "players": 11,
+   "primary_players": 1,
+   "specialists": 3,
+   "primary_raised_usd_m": 2.5
+  },
+  {
+   "id": "RES.content",
+   "name": "Legal publishers & content platforms",
+   "domain": "RES",
+   "players": 10,
+   "primary_players": 5,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "IP.portfolio",
+   "name": "IP portfolio management & docketing",
+   "domain": "IP",
+   "players": 10,
+   "primary_players": 3,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "LIT.origination",
+   "name": "Case origination & litigation finance",
+   "domain": "LIT",
+   "players": 9,
+   "primary_players": 4,
+   "specialists": 2,
+   "primary_raised_usd_m": 53.5
+  },
+  {
+   "id": "FIRM.dms",
+   "name": "Document & email management (DMS)",
+   "domain": "FIRM",
+   "players": 9,
+   "primary_players": 2,
+   "specialists": 2,
+   "primary_raised_usd_m": 2.0
+  },
+  {
+   "id": "FIRM.docket",
+   "name": "Docketing & deadline calendaring",
+   "domain": "FIRM",
+   "players": 9,
+   "primary_players": 2,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "DEAL.entity",
+   "name": "Entity management & corporate governance",
+   "domain": "DEAL",
+   "players": 8,
+   "primary_players": 2,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "COMP.reg",
+   "name": "Regulatory change monitoring",
+   "domain": "COMP",
+   "players": 8,
+   "primary_players": 4,
+   "specialists": 4,
+   "primary_raised_usd_m": 4.1
+  },
+  {
+   "id": "COMP.map",
+   "name": "Obligation & policy mapping",
+   "domain": "COMP",
+   "players": 8,
+   "primary_players": 1,
+   "specialists": 4,
+   "primary_raised_usd_m": 27.0
+  },
+  {
+   "id": "OPS.spend",
+   "name": "Matter, spend & e-billing management",
+   "domain": "OPS",
+   "players": 8,
+   "primary_players": 5,
+   "specialists": 2,
+   "primary_raised_usd_m": 70.9
+  },
+  {
+   "id": "INFRA.data",
+   "name": "Legal data & APIs",
+   "domain": "INFRA",
+   "players": 8,
+   "primary_players": 1,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "LIT.trial",
+   "name": "Trial prep & jury simulation",
+   "domain": "LIT",
+   "players": 7,
+   "primary_players": 1,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "IP.enforce",
+   "name": "Infringement detection & brand protection",
+   "domain": "IP",
+   "players": 7,
+   "primary_players": 2,
+   "specialists": 4,
+   "primary_raised_usd_m": 9.5
+  },
+  {
+   "id": "FIRM.bi",
+   "name": "Firm intelligence & business development",
+   "domain": "FIRM",
+   "players": 7,
+   "primary_players": 0,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "INFRA.models",
+   "name": "Legal LLMs, embeddings & models",
+   "domain": "INFRA",
+   "players": 7,
+   "primary_players": 3,
+   "specialists": 1,
+   "primary_raised_usd_m": 0.5
+  },
+  {
+   "id": "ASSIST.bulk",
+   "name": "Bulk document analysis & tabular review",
+   "domain": "ASSIST",
+   "players": 6,
+   "primary_players": 0,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "DEAL.closing",
+   "name": "Deal & closing management",
+   "domain": "DEAL",
+   "players": 6,
+   "primary_players": 4,
+   "specialists": 3,
+   "primary_raised_usd_m": 16.5
+  },
+  {
+   "id": "OPS.selfserve",
+   "name": "Self-service legal for business teams",
+   "domain": "OPS",
+   "players": 6,
+   "primary_players": 2,
+   "specialists": 0,
+   "primary_raised_usd_m": 23.8
+  },
+  {
+   "id": "CONS.estate",
+   "name": "Estate planning & family law",
+   "domain": "CONS",
+   "players": 6,
+   "primary_players": 5,
+   "specialists": 3,
+   "primary_raised_usd_m": 11.8
+  },
+  {
+   "id": "CONS.immig",
+   "name": "Immigration",
+   "domain": "CONS",
+   "players": 6,
+   "primary_players": 4,
+   "specialists": 6,
+   "primary_raised_usd_m": 49.2
+  },
+  {
+   "id": "RES.edu",
+   "name": "Legal education & training",
+   "domain": "RES",
+   "players": 5,
+   "primary_players": 1,
+   "specialists": 0,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "DEAL.realestate",
+   "name": "Real estate & lease abstraction",
+   "domain": "DEAL",
+   "players": 5,
+   "primary_players": 0,
+   "specialists": 2,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "LIT.adr",
+   "name": "Arbitration & dispute resolution",
+   "domain": "LIT",
+   "players": 4,
+   "primary_players": 3,
+   "specialists": 2,
+   "primary_raised_usd_m": 35.2
+  },
+  {
+   "id": "CLAIM.benefits",
+   "name": "Benefits & insurance claims",
+   "domain": "CLAIM",
+   "players": 4,
+   "primary_players": 4,
+   "specialists": 2,
+   "primary_raised_usd_m": 104.0
+  },
+  {
+   "id": "COMP.privacy",
+   "name": "Privacy, data protection & AI governance",
+   "domain": "COMP",
+   "players": 4,
+   "primary_players": 0,
+   "specialists": 0,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "FIRM.marketing",
+   "name": "Legal marketing & lead generation",
+   "domain": "FIRM",
+   "players": 4,
+   "primary_players": 1,
+   "specialists": 2,
+   "primary_raised_usd_m": 29.0
+  },
+  {
+   "id": "CONS.a2j",
+   "name": "Access-to-justice & legal aid tools",
+   "domain": "CONS",
+   "players": 4,
+   "primary_players": 1,
+   "specialists": 0,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "DEAL.funds",
+   "name": "Private funds & financial documents",
+   "domain": "DEAL",
+   "players": 3,
+   "primary_players": 0,
+   "specialists": 1,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "COMP.agents",
+   "name": "Compliance review agents",
+   "domain": "COMP",
+   "players": 2,
+   "primary_players": 1,
+   "specialists": 1,
+   "primary_raised_usd_m": 8.0
+  },
+  {
+   "id": "GOV.courts",
+   "name": "Judicial & court AI",
+   "domain": "GOV",
+   "players": 2,
+   "primary_players": 2,
+   "specialists": 1,
+   "primary_raised_usd_m": 5.0
+  },
+  {
+   "id": "GOV.lawmaking",
+   "name": "Government legal & legislative drafting",
+   "domain": "GOV",
+   "players": 2,
+   "primary_players": 0,
+   "specialists": 0,
+   "primary_raised_usd_m": 0
+  },
+  {
+   "id": "GOV.justice",
+   "name": "Criminal justice & public defense",
+   "domain": "GOV",
+   "players": 1,
+   "primary_players": 1,
+   "specialists": 1,
+   "primary_raised_usd_m": 5.6
+  },
+  {
+   "id": "INFRA.eval",
+   "name": "Evaluation, security & trust tooling",
+   "domain": "INFRA",
+   "players": 1,
+   "primary_players": 0,
+   "specialists": 0,
+   "primary_raised_usd_m": 0
+  }
+ ]
+}

@@ -3621,5 +3621,777 @@
    "Banking & finance / funds"
   ],
   "unique_angle": "Open SaulLM legal LLM family from research-led team"
+ },
+ {
+  "cid": "C0225",
+  "name": "Erinys",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "LIT.origination",
+   "LIT.draft"
+  ],
+  "model": "services",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Litigation",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Network of AI-run plaintiff firms, likely qui tam/FCA focus"
+ },
+ {
+  "cid": "C0226",
+  "name": "EscribAI",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "DRAFT.write"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "GDPR/AI Act-aligned Spanish-language legal assistant"
+ },
+ {
+  "cid": "C0228",
+  "name": "EstateMin",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "DRAFT.auto"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "Irish-built estate administration and probate automation for US firms"
+ },
+ {
+  "cid": "C0229",
+  "name": "EstateScribe",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "DRAFT.auto",
+   "FIRM.comms",
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "Estate planning drafting plus client portal for small firms"
+ },
+ {
+  "cid": "C0230",
+  "name": "Eudia",
+  "primary": "ASSIST.agents",
+  "categories": [
+   "ASSIST.agents",
+   "CON.review",
+   "CON.draft",
+   "DEAL.dd",
+   "RES.km",
+   "SERV.lawfirm",
+   "SERV.alsp",
+   "OPS.intake"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Large law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A",
+   "Regulatory & compliance",
+   "Litigation"
+  ],
+  "unique_angle": "In-house AI platform plus own Arizona ABS law firm"
+ },
+ {
+  "cid": "C0231",
+  "name": "Eve",
+  "primary": "LIT.draft",
+  "categories": [
+   "LIT.draft",
+   "CLAIM.medical",
+   "CLAIM.demand",
+   "LIT.depo",
+   "FIRM.intake",
+   "LIT.case",
+   "ASSIST.agents"
+  ],
+  "model": "platform",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Employment",
+   "Insurance & benefits",
+   "Regulatory & compliance",
+   "Litigation"
+  ],
+  "unique_angle": "Plaintiff-only OS spanning PI, employment and mass torts"
+ },
+ {
+  "cid": "C0232",
+  "name": "EvenUp",
+  "primary": "CLAIM.demand",
+  "categories": [
+   "CLAIM.demand",
+   "CLAIM.medical",
+   "LIT.draft",
+   "FIRM.comms",
+   "SERV.alsp"
+  ],
+  "model": "point",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Litigation"
+  ],
+  "unique_angle": "Largest PI outcomes dataset for claim valuation"
+ },
+ {
+  "cid": "C0233",
+  "name": "Everchron",
+  "primary": "LIT.case",
+  "categories": [
+   "LIT.case",
+   "LIT.depo"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Plaintiff/PI firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Litigation",
+   "Arbitration"
+  ],
+  "unique_angle": "Litigator-founded chronologies plus transcript designations, opt-in AI"
+ },
+ {
+  "cid": "C0234",
+  "name": "Everlaw",
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "LIT.case",
+   "LIT.depo",
+   "COMP.invest",
+   "LIT.draft"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "Government/courts",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Litigation",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Corpus-scale Deep Dive Q&A; strong public-sector footprint"
+ },
+ {
+  "cid": "C0235",
+  "name": "EverSettled",
+  "primary": "CONS.estate",
+  "categories": [
+   "CONS.estate",
+   "CONS.selfhelp"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Family & estates"
+  ],
+  "unique_angle": "Consumer AI probate concierge that closes accounts agentically"
+ },
+ {
+  "cid": "C0236",
+  "name": "Evisort",
+  "primary": "CON.clm",
+  "categories": [
+   "CON.clm",
+   "CON.extract",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Compliance teams"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "No-code custom AI fields, embedded in Workday ERP"
+ },
+ {
+  "cid": "C0239",
+  "name": "Exterro",
+  "primary": "LIT.ediscovery",
+  "categories": [
+   "LIT.ediscovery",
+   "COMP.privacy",
+   "COMP.invest"
+  ],
+  "model": "suite",
+  "customers": [
+   "In-house legal",
+   "Compliance teams",
+   "Government/courts",
+   "Large law firms",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Litigation",
+   "Privacy & data",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "FTK forensics plus eDiscovery plus privacy in one suite"
+ },
+ {
+  "cid": "C0240",
+  "name": "Fadada iTerms (法大大)",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "CON.draft",
+   "CON.clm",
+   "CON.selfserve"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "SMBs",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Contract agent bundled with major Chinese e-signature platform"
+ },
+ {
+  "cid": "C0243",
+  "name": "Fastcase",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "LIT.analytics",
+   "RES.cite",
+   "ASSIST.copilot"
+  ],
+  "model": "suite",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Large law firms",
+   "Law students/academia",
+   "Government/courts"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Distributed free through US bar associations; vLex Vincent AI"
+ },
+ {
+  "cid": "C0244",
+  "name": "Faxingbao (法行宝, Baidu)",
+  "primary": "CONS.selfhelp",
+  "categories": [
+   "CONS.selfhelp",
+   "CONS.market",
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation",
+   "Criminal",
+   "Other",
+   "Family & estates",
+   "Employment"
+  ],
+  "unique_angle": "Free Baidu-distributed legal assistant doubling as lawyer lead channel"
+ },
+ {
+  "cid": "C0245",
+  "name": "Fearn",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "IP.draft"
+  ],
+  "model": "services",
+  "customers": [
+   "SMBs",
+   "IP/patent professionals"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Flat ~$2,000 AI-drafted patent applications with attorney review"
+ },
+ {
+  "cid": "C0247",
+  "name": "Fides Technology",
+  "primary": "DEAL.entity",
+  "categories": [
+   "DEAL.entity"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Compliance teams",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Modern governance UX, now inside LegalOn platform"
+ },
+ {
+  "cid": "C0248",
+  "name": "Filevine",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "CLAIM.demand",
+   "CLAIM.medical",
+   "LIT.depo",
+   "FIRM.intake",
+   "FIRM.billing",
+   "CON.clm",
+   "CON.review",
+   "DRAFT.auto"
+  ],
+  "model": "suite",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "Large law firms",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Litigation",
+   "Insurance & benefits",
+   "Family & estates",
+   "Commercial contracts"
+  ],
+  "unique_angle": "Structured PI case data powering AI fields, demands, DepoCopilot"
+ },
+ {
+  "cid": "C0249",
+  "name": "Finch",
+  "primary": "SERV.alsp",
+  "categories": [
+   "SERV.alsp",
+   "CLAIM.medical",
+   "CLAIM.demand",
+   "FIRM.comms"
+  ],
+  "model": "services",
+  "customers": [
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "AI agents plus dedicated paralegals running PI pre-litigation"
+ },
+ {
+  "cid": "C0250",
+  "name": "FirmPilot",
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Personal injury & mass torts",
+   "Family & estates",
+   "Immigration",
+   "Criminal"
+  ],
+  "unique_angle": "Competitor-driven AI SEO content replacing legal marketing agencies"
+ },
+ {
+  "cid": "C0252",
+  "name": "Flank",
+  "primary": "OPS.selfserve",
+  "categories": [
+   "OPS.selfserve",
+   "OPS.intake",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Compliance teams",
+   "Large law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Regulatory & compliance",
+   "Employment",
+   "Privacy & data"
+  ],
+  "unique_angle": "Autonomous agents resolving requests inside email, Slack and Teams"
+ },
+ {
+  "cid": "C0253",
+  "name": "Foremark Legal",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "LIT.origination",
+   "CLAIM.demand"
+  ],
+  "model": "services",
+  "customers": [
+   "Consumers/individuals",
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Other"
+  ],
+  "unique_angle": "Underwriting-first, outcome-priced consumer claims firm"
+ },
+ {
+  "cid": "C0254",
+  "name": "Forlex (LIVIA)",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "DRAFT.write",
+   "CONS.selfhelp",
+   "GOV.lawmaking",
+   "INFRA.models"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Government/courts",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "OAB-endorsed proprietary Brazilian legal models, free via WhatsApp"
+ },
+ {
+  "cid": "C0255",
+  "name": "Foundation AI",
+  "primary": "FIRM.dms",
+  "categories": [
+   "FIRM.dms"
+  ],
+  "model": "point",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Mid-size law firms",
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Insurance & benefits",
+   "Personal injury & mass torts",
+   "Litigation"
+  ],
+  "unique_angle": "High-volume inbound mail/fax classification for workers' comp firms"
+ },
+ {
+  "cid": "C0258",
+  "name": "Gaius-Lex",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "CON.review",
+   "DRAFT.write",
+   "LIT.draft"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Polish, Czech, Austrian, German law with built-in anonymization"
+ },
+ {
+  "cid": "C0259",
+  "name": "Galevisa",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig"
+  ],
+  "model": "services",
+  "customers": [
+   "SMBs",
+   "Consumers/individuals",
+   "Business teams (non-lawyers)"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "Immigrant-founded YC platform for faster, cheaper work visas"
+ },
+ {
+  "cid": "C0260",
+  "name": "Garfield.law",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "LIT.draft"
+  ],
+  "model": "services",
+  "customers": [
+   "SMBs",
+   "Small firms & solos",
+   "Consumers/individuals"
+  ],
+  "practice": [
+   "Litigation"
+  ],
+  "unique_angle": "First SRA-authorised AI law firm, automating small debt claims"
+ },
+ {
+  "cid": "C0262",
+  "name": "Gavel",
+  "primary": "DRAFT.auto",
+  "categories": [
+   "DRAFT.auto",
+   "ASSIST.word",
+   "CON.review",
+   "CON.draft",
+   "FIRM.comms"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Legal aid/non-profits",
+   "Large law firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Commercial contracts",
+   "Family & estates",
+   "Litigation"
+  ],
+  "unique_angle": "No-code automation plus Word AI; strong legal-aid base; Relativity-owned"
+ },
+ {
+  "cid": "C0264",
+  "name": "GC AI",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "CON.review",
+   "ASSIST.word",
+   "RES.case",
+   "DRAFT.write",
+   "RES.edu"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Compliance teams",
+   "SMBs"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A",
+   "Employment",
+   "Privacy & data",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Built by former in-house counsel exclusively for GCs"
+ },
+ {
+  "cid": "C0265",
+  "name": "General Legal",
+  "primary": "SERV.lawfirm",
+  "categories": [
+   "SERV.lawfirm",
+   "CON.review",
+   "CON.draft"
+  ],
+  "model": "services",
+  "customers": [
+   "SMBs",
+   "Business teams (non-lawyers)",
+   "In-house legal"
+  ],
+  "practice": [
+   "Commercial contracts"
+  ],
+  "unique_angle": "$500 flat, ~1-hour contracts; MCP-accessible to AI agents"
+ },
+ {
+  "cid": "C0266",
+  "name": "Genie AI",
+  "primary": "CON.draft",
+  "categories": [
+   "CON.draft",
+   "CON.review",
+   "CON.selfserve",
+   "ASSIST.word"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Employment",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Large free lawyer-vetted template library across 120+ jurisdictions"
+ },
+ {
+  "cid": "C0267",
+  "name": "Gideon",
+  "primary": "FIRM.intake",
+  "categories": [
+   "FIRM.intake"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Personal injury & mass torts",
+   "Family & estates",
+   "Criminal"
+  ],
+  "unique_angle": "Early (2017) legal intake chatbot with scheduling"
+ },
+ {
+  "cid": "C0268",
+  "name": "GleanMark",
+  "primary": "IP.tm",
+  "categories": [
+   "IP.tm"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "Small firms & solos",
+   "SMBs"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Low-cost \"AI trademark paralegal\" on USPTO data"
+ },
+ {
+  "cid": "C0270",
+  "name": "Gravix",
+  "primary": "LIT.draft",
+  "categories": [
+   "LIT.draft",
+   "LIT.case",
+   "FIRM.pm"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Litigation"
+  ],
+  "unique_angle": "Israeli litigation case management with built-in drafting"
+ },
+ {
+  "cid": "C0272",
+  "name": "GVA TECH",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "OPS.intake",
+   "DEAL.entity",
+   "ASSIST.word"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Small firms & solos",
+   "SMBs",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Japanese contract review plus corporate registration filing automation"
  }
 ]

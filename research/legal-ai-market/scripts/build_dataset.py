@@ -88,6 +88,34 @@ def norm_emp(e):
     return "Unknown", None
 
 
+SPLITS = [  # (old category, new category, keywords for new, keywords that keep old)
+    ("FIRM.intake", "FIRM.marketing",
+     ["marketing", "seo", "advertis", "lead generation", "content", "review management", "ppc", "google ads", "social media"],
+     ["intake", "receptionist", "answering", "call", "scheduling", "appointment", "qualif", "conflict", "chat"]),
+    ("LIT.depo", "LIT.trial",
+     ["trial", "jury", "juror", "mock", "simulat", "exhibit", "courtroom", "argument"],
+     ["deposition", "transcri", "testimony", "court report", "page-line", "witness", "summar"]),
+]
+
+
+def apply_splits(tag, profile):
+    """Re-sort tags made before the two split categories existed (documented in ontology README)."""
+    if not tag:
+        return tag
+    cats = list(tag.get("categories") or [])
+    text = " ".join((profile.get("capabilities") or []) + [f"{x.get('name')} {x.get('description')}" for x in profile.get("products") or []]).lower()
+    prim = tag.get("primary")
+    for old, new, kw_new, kw_old in SPLITS:
+        if old in cats:
+            if any(k in text for k in kw_new) and new not in cats:
+                cats.append(new)
+            if new in cats and not any(k in text for k in kw_old):
+                cats.remove(old)
+                if prim == old:
+                    prim = new
+    return {**tag, "categories": cats, "primary": prim}
+
+
 def num(x):
     try:
         return float(x) if x is not None and x != "" else None
@@ -122,7 +150,7 @@ def main():
                               "acquired_year": v.get("acquired_year"), "hq_country": norm_country(v.get("hq_country")),
                               "one_liner": v.get("one_liner"), "website": v.get("website")})
             continue
-        t = tags.get(cid, {})
+        t = apply_splits(tags.get(cid, {}), p)
         fund = p.get("funding") or {}
         last = fund.get("last_round") or {}
         status = p.get("status") or v.get("status")
@@ -137,7 +165,9 @@ def main():
             "founders": p.get("founders") or [],
             "employees_bin": emp_bin, "employees_approx": emp_n,
             "employees_as_of": (p.get("employees") or {}).get("as_of") if isinstance(p.get("employees"), dict) else None,
-            "stage_raw": fund.get("stage"), "stage": norm_stage(fund.get("stage"), status, parent if status == "acquired" else None),
+            "stage_raw": fund.get("stage"),
+            "stage": (lambda st: norm_stage(last.get("type"), status) if st == "Unknown" and last.get("type") else st)(
+                norm_stage(fund.get("stage"), status, parent if status == "acquired" else None)),
             "total_raised_usd_m": num(fund.get("total_raised_usd_m")), "total_raised_text": fund.get("total_raised_text"),
             "last_round": {"type": last.get("type"), "amount_usd_m": num(last.get("amount_usd_m")), "date": last.get("date"),
                            "leads": last.get("lead_investors") or []},
