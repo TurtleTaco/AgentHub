@@ -37,6 +37,7 @@
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { background: var(--bg); color: var(--ink); }
 body { font-family: var(--font-body); font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
@@ -388,6 +389,7 @@ const VIEWS = ['overview', 'map', 'overlap', 'directory', 'method'];
 function show(v) {
   if (!VIEWS.includes(v)) v = 'overview';
   VIEWS.forEach(x => { $('#view-' + x).hidden = x !== v; $('#tab-' + x).setAttribute('aria-current', x === v ? 'page' : 'false'); });
+  window.scrollTo(0, 0);
   if (v === 'map') ensureMap();
   if (v === 'overlap') ensureOverlap();
   if (v === 'directory') ensureDir();
@@ -421,14 +423,15 @@ const sortByRaised = (a, b) => (b.total_raised_usd_m || 0) - (a.total_raised_usd
 
 /* ---------- overview ---------- */
 (function overview() {
-  const s = DATA.stats;
+  const s = DATA.stats, C = DATA.companies;
+  const indep = C.filter(c => c.status !== 'acquired' && c.stage !== 'Public');
   const kpis = [
-    [DATA.companies.length, 'Companies profiled'],
-    [s.core, 'Core legal AI'],
-    [s.adjacent, 'Adjacent'],
-    [s.countries, 'HQ countries'],
+    [C.length, 'Companies profiled'],
+    [C.filter(c => c.scope === 'core').length, 'Core legal AI'],
+    [C.filter(c => c.scope === 'adjacent').length, 'Adjacent'],
+    [new Set(C.map(c => c.hq_country).filter(Boolean)).size, 'HQ countries'],
     [`${DATA.domains.length} / ${catById.size}`, 'Domains / categories'],
-    [fmtM(s.total_raised_usd_m), 'Disclosed funding'],
+    [fmtM(indep.reduce((a, c) => a + (c.total_raised_usd_m || 0), 0)), 'Disclosed VC funding'],
   ];
   $('#kpis').innerHTML = kpis.map(k => `<div class="kpi"><div class="v">${esc(k[0])}</div><div class="l">${esc(k[1])}</div></div>`).join('');
   $('#takeaways').innerHTML = (DATA.takeaways || []).map((t, i) => `<li><span class="b">${String(i + 1).padStart(2, '0')}</span><span>${esc(t)}</span></li>`).join('');
@@ -458,7 +461,7 @@ const sortByRaised = (a, b) => (b.total_raised_usd_m || 0) - (a.total_raised_usd
 
 /* ---------- mind map ---------- */
 let mapReady = false, pendingDomain = null, mapRoot, mapUpdate, highlightCats = new Set(), selectedNode = null;
-const COL = [0, 120, 400, 730];
+const COL = [0, 110, 370, 680];
 function ensureMap() {
   if (!mapReady) { buildMap(); mapReady = true; }
   if (pendingDomain) { focusDomain(pendingDomain); pendingDomain = null; }

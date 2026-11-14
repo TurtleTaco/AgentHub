@@ -3836,5 +3836,747 @@
    "Regulatory & compliance"
   ],
   "unique_angle": "Private-markets specialist pairing AI with global lawyer network; 800K agreements"
+ },
+ {
+  "cid": "C0499",
+  "name": "Opus 2",
+  "primary": "LIT.case",
+  "categories": [
+   "LIT.case",
+   "LIT.depo",
+   "LIT.adr"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice": [
+   "Litigation",
+   "Arbitration",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "End-to-end disputes platform from preparation to transcribed live hearings"
+ },
+ {
+  "cid": "C0500",
+  "name": "Oqood",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "DRAFT.auto",
+   "CON.review"
+  ],
+  "model": "platform",
+  "customers": [
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Commercial contracts"
+  ],
+  "unique_angle": "GCC-focused Arabic legal research, document generation and compliance review"
+ },
+ {
+  "cid": "C0501",
+  "name": "Orbital",
+  "primary": "DEAL.realestate",
+  "categories": [
+   "DEAL.realestate",
+   "DEAL.dd"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Financial institutions"
+  ],
+  "practice": [
+   "Real estate"
+  ],
+  "unique_angle": "Agentic UK/US reports on title; 200,000 transactions in 2025"
+ },
+ {
+  "cid": "C0502",
+  "name": "Ordalie",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "CON.review",
+   "DRAFT.write"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Compliance teams"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Commercial contracts",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Own sovereign French-law models; Paris Bar diffusion partnership"
+ },
+ {
+  "cid": "C0503",
+  "name": "Osmaura",
+  "primary": "FIRM.bi",
+  "categories": [
+   "FIRM.bi"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "BD agents telling partners who to contact, why now, what to say"
+ },
+ {
+  "cid": "C0504",
+  "name": "OurFirm.ai",
+  "primary": "LIT.draft",
+  "categories": [
+   "LIT.draft",
+   "RES.cite",
+   "LIT.case",
+   "LIT.analytics",
+   "FIRM.comms"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "Insurers/claims"
+  ],
+  "practice": [
+   "Litigation",
+   "Insurance & benefits",
+   "Employment",
+   "Criminal"
+  ],
+  "unique_angle": "Multi-agent swarm drafting local-rules-formatted motions from one prompt"
+ },
+ {
+  "cid": "C0508",
+  "name": "Pandektes",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "INFRA.data"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Government/courts"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Builds own European legal dataset, sold as research front-end and API"
+ },
+ {
+  "cid": "C0509",
+  "name": "Parambil",
+  "primary": "CLAIM.medical",
+  "categories": [
+   "CLAIM.medical",
+   "LIT.origination"
+  ],
+  "model": "point",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Mid-size law firms",
+   "Large law firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts",
+   "Litigation"
+  ],
+  "unique_angle": "Medical-record intake screening for complex litigation, plaintiff and defense"
+ },
+ {
+  "cid": "C0510",
+  "name": "Parley",
+  "primary": "CONS.immig",
+  "categories": [
+   "CONS.immig"
+  ],
+  "model": "point",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "ALSPs/legal service providers"
+  ],
+  "practice": [
+   "Immigration"
+  ],
+  "unique_angle": "O-1A petition writer for flat-fee immigration attorneys; Boundless partnership"
+ },
+ {
+  "cid": "C0512",
+  "name": "Patent Bots",
+  "primary": "IP.draft",
+  "categories": [
+   "IP.draft",
+   "ASSIST.word"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Mature Word-native patent proofreading plus automatic OA/prior-art retrieval"
+ },
+ {
+  "cid": "C0513",
+  "name": "Patent Watch",
+  "primary": "IP.enforce",
+  "categories": [
+   "IP.enforce"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "Large law firms",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Intellectual property",
+   "Litigation"
+  ],
+  "unique_angle": "Patent-to-infringing-product claim charts in ~20 minutes; YC-backed"
+ },
+ {
+  "cid": "C0514",
+  "name": "Patentext",
+  "primary": "IP.draft",
+  "categories": [
+   "IP.draft",
+   "SERV.alsp"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "SMBs"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Graph-based invention mapping paired with in-house USPTO patent agency"
+ },
+ {
+  "cid": "C0515",
+  "name": "Patentfield",
+  "primary": "IP.search",
+  "categories": [
+   "IP.search"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "Large law firms"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Japan-focused patent search with GenAI summaries of ~80M documents"
+ },
+ {
+  "cid": "C0516",
+  "name": "PatentPal",
+  "primary": "IP.draft",
+  "categories": [
+   "IP.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Generates specification text and figures directly from patent claims"
+ },
+ {
+  "cid": "C0517",
+  "name": "PatentReplyAI",
+  "primary": "IP.draft",
+  "categories": [
+   "IP.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Unified office action, claims and prior-art workspace for responses"
+ },
+ {
+  "cid": "C0518",
+  "name": "PatentSolve",
+  "primary": "IP.draft",
+  "categories": [
+   "IP.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Pay-per-use (~$75) office action responses with built-in citation checks"
+ },
+ {
+  "cid": "C0519",
+  "name": "Patlytics",
+  "primary": "IP.search",
+  "categories": [
+   "IP.search",
+   "IP.draft",
+   "IP.enforce",
+   "IP.portfolio"
+  ],
+  "model": "platform",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "IP/patent professionals"
+  ],
+  "practice": [
+   "Intellectual property",
+   "Litigation"
+  ],
+  "unique_angle": "End-to-end patent lifecycle used by >40% of Am Law 100 IP practices"
+ },
+ {
+  "cid": "C0520",
+  "name": "PatSnap",
+  "primary": "IP.search",
+  "categories": [
+   "IP.search",
+   "IP.portfolio",
+   "IP.draft"
+  ],
+  "model": "suite",
+  "customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "Large law firms",
+   "Mid-size law firms",
+   "Law students/academia"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "208M-patent proprietary dataset extending into R&D and life-sciences intelligence"
+ },
+ {
+  "cid": "C0522",
+  "name": "Paxton",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "RES.cite",
+   "DRAFT.write",
+   "LIT.draft",
+   "ASSIST.bulk",
+   "CLAIM.medical",
+   "CON.review"
+  ],
+  "model": "platform",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal",
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation",
+   "Personal injury & mass torts",
+   "Employment",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Affordable all-in-one for small firms; 50-state coverage with confidence scores"
+ },
+ {
+  "cid": "C0523",
+  "name": "Pearson Labs",
+  "primary": "DEAL.dd",
+  "categories": [
+   "DEAL.dd",
+   "DEAL.closing"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Transaction-executing agents for Big Law; Orrick design partner"
+ },
+ {
+  "cid": "C0524",
+  "name": "Perceptron ML",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "INFRA.models",
+   "RES.km",
+   "FIRM.billing",
+   "INFRA.eval"
+  ],
+  "model": "platform",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "General / multi-practice",
+   "Litigation"
+  ],
+  "unique_angle": "Firm-hosted models trained on firm matters with primary-source grounding engine"
+ },
+ {
+  "cid": "C0527",
+  "name": "PioneerIP",
+  "primary": "IP.enforce",
+  "categories": [
+   "IP.enforce"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "In-house legal",
+   "Large law firms"
+  ],
+  "practice": [
+   "Intellectual property",
+   "Litigation"
+  ],
+  "unique_angle": "Maps patent claims to web product evidence; distributed with Questel data"
+ },
+ {
+  "cid": "C0528",
+  "name": "PKULaw (Chinalawinfo)",
+  "primary": "RES.case",
+  "categories": [
+   "RES.case",
+   "RES.content",
+   "ASSIST.copilot",
+   "CON.review",
+   "CON.draft",
+   "INFRA.data",
+   "COMP.reg"
+  ],
+  "model": "suite",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "In-house legal",
+   "Government/courts",
+   "Law students/academia"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Peking University's authoritative Chinese database with English law translations"
+ },
+ {
+  "cid": "C0529",
+  "name": "Plaider.fr",
+  "primary": "CONS.selfhelp",
+  "categories": [
+   "CONS.selfhelp",
+   "CONS.a2j",
+   "CONS.market"
+  ],
+  "model": "point",
+  "customers": [
+   "Consumers/individuals",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Other",
+   "General / multi-practice"
+  ],
+  "unique_angle": "Identifies French consumers' rights and generates personalised legal letters"
+ },
+ {
+  "cid": "C0530",
+  "name": "Plexus",
+  "primary": "OPS.intake",
+  "categories": [
+   "OPS.intake",
+   "OPS.selfserve",
+   "CON.selfserve",
+   "CON.review",
+   "COMP.agents",
+   "OPS.spend",
+   "CON.clm"
+  ],
+  "model": "platform",
+  "customers": [
+   "In-house legal",
+   "Business teams (non-lawyers)",
+   "Compliance teams"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Regulatory & compliance",
+   "Corporate & M&A"
+  ],
+  "unique_angle": "Legal front door with self-serve wizards and marketing-claims AI; KPMG-backed"
+ },
+ {
+  "cid": "C0532",
+  "name": "PocketLawyers",
+  "primary": "CONS.market",
+  "categories": [
+   "CONS.market",
+   "RES.case",
+   "FIRM.pm",
+   "FIRM.billing"
+  ],
+  "model": "point",
+  "customers": [
+   "SMBs",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Corporate & M&A",
+   "Commercial contracts",
+   "General / multi-practice"
+  ],
+  "unique_angle": "Africa-focused SME legal access combining AI tools with lawyer services"
+ },
+ {
+  "cid": "C0534",
+  "name": "Powerlaw AI",
+  "primary": "CON.review",
+  "categories": [
+   "CON.review",
+   "INFRA.models",
+   "CON.clm",
+   "CON.draft"
+  ],
+  "model": "point",
+  "customers": [
+   "In-house legal",
+   "Large law firms",
+   "Financial institutions",
+   "Government/courts"
+  ],
+  "practice": [
+   "Commercial contracts",
+   "Corporate & M&A",
+   "Regulatory & compliance"
+  ],
+  "unique_angle": "Tsinghua-rooted contract review on PowerLawGLM co-built with Zhipu"
+ },
+ {
+  "cid": "C0535",
+  "name": "PQAI (Project PQ)",
+  "primary": "IP.search",
+  "categories": [
+   "IP.search",
+   "INFRA.models"
+  ],
+  "model": "point",
+  "customers": [
+   "IP/patent professionals",
+   "SMBs",
+   "Consumers/individuals",
+   "Law students/academia",
+   "Government/courts"
+  ],
+  "practice": [
+   "Intellectual property"
+  ],
+  "unique_angle": "Free open-source prior-art search engine and API for patent quality"
+ },
+ {
+  "cid": "C0536",
+  "name": "PracticePanther",
+  "primary": "FIRM.pm",
+  "categories": [
+   "FIRM.pm",
+   "FIRM.billing",
+   "FIRM.intake",
+   "FIRM.comms",
+   "FIRM.dms"
+  ],
+  "model": "suite",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms"
+  ],
+  "practice": [
+   "General / multi-practice"
+  ],
+  "unique_angle": "Ease-of-use small-firm PM with PantherPayments inside Paradigm"
+ },
+ {
+  "cid": "C0538",
+  "name": "Pre/Dicta",
+  "primary": "LIT.analytics",
+  "categories": [
+   "LIT.analytics"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "In-house legal",
+   "Insurers/claims",
+   "Private equity/funds"
+  ],
+  "practice": [
+   "Litigation"
+  ],
+  "unique_angle": "Predicts rulings from judges' biographical traits, not briefs"
+ },
+ {
+  "cid": "C0539",
+  "name": "Precedent",
+  "primary": "CLAIM.demand",
+  "categories": [
+   "CLAIM.demand",
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "customers": [
+   "Plaintiff/PI firms"
+  ],
+  "practice": [
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "Flat ~$275 per-demand pricing with Clio and SmartAdvocate integrations"
+ },
+ {
+  "cid": "C0542",
+  "name": "Prevail",
+  "primary": "LIT.depo",
+  "categories": [
+   "LIT.depo"
+  ],
+  "model": "point",
+  "customers": [
+   "Large law firms",
+   "Mid-size law firms",
+   "ALSPs/legal service providers",
+   "In-house legal"
+  ],
+  "practice": [
+   "Litigation"
+  ],
+  "unique_angle": "Browser-native remote depositions with real-time testimony verification"
+ },
+ {
+  "cid": "C0543",
+  "name": "Preâmbulo",
+  "primary": "ASSIST.copilot",
+  "categories": [
+   "ASSIST.copilot",
+   "RES.case",
+   "LIT.draft",
+   "FIRM.docket"
+  ],
+  "model": "suite",
+  "customers": [
+   "Small firms & solos",
+   "Mid-size law firms",
+   "In-house legal"
+  ],
+  "practice": [
+   "Litigation",
+   "General / multi-practice"
+  ],
+  "unique_angle": "Veteran Brazilian legaltech with all-courts access and lawtech M&A arm"
+ },
+ {
+  "cid": "C0544",
+  "name": "Projuris (Softplan)",
+  "primary": "OPS.spend",
+  "categories": [
+   "OPS.spend",
+   "FIRM.pm",
+   "LIT.analytics",
+   "FIRM.docket",
+   "CON.clm",
+   "FIRM.billing"
+  ],
+  "model": "suite",
+  "customers": [
+   "In-house legal",
+   "Mid-size law firms",
+   "Small firms & solos",
+   "Large law firms"
+  ],
+  "practice": [
+   "Litigation",
+   "Commercial contracts",
+   "Employment",
+   "Real estate",
+   "General / multi-practice"
+  ],
+  "unique_angle": "Jurimetrics loss prognosis for litigation provisioning; Softplan court-systems backing"
+ },
+ {
+  "cid": "C0545",
+  "name": "ProPlaintiff.ai",
+  "primary": "CLAIM.demand",
+  "categories": [
+   "CLAIM.demand",
+   "CLAIM.medical"
+  ],
+  "model": "point",
+  "customers": [
+   "Plaintiff/PI firms",
+   "Small firms & solos"
+  ],
+  "practice": [
+   "Personal injury & mass torts"
+  ],
+  "unique_angle": "PI-attorney-built all-in-one demand, chronology and AI paralegal suite"
  }
 ]
