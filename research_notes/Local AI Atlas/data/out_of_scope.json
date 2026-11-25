@@ -49,10 +49,178 @@
   "status": "Failed $150M Series B led to layoffs of nearly all staff (Jun 2025); OpenAI acquired patents (reported Aug 2026); company largely ceased operations"
  },
  {
+  "id": "cognizer",
+  "name": "Cognizer",
+  "verdict": "out",
+  "reason": "Contract-intelligence company; no evidence of local or on-prem AI offering found.",
+  "status": "active"
+ },
+ {
+  "id": "alexi",
+  "name": "Alexi",
+  "verdict": "out",
+  "reason": "Mostly cloud legal-research SaaS; private-cloud isolation only, no dedicated local-AI line.",
+  "status": "active"
+ },
+ {
+  "id": "arondite",
+  "name": "Arondite",
+  "verdict": "out",
+  "reason": "Defence decision-support software; no verified edge or local-AI product found.",
+  "status": "active"
+ },
+ {
+  "id": "indev-software",
+  "name": "INDEV Software",
+  "verdict": "out",
+  "reason": "Could not verify company, HQ or any local-AI product; insufficient evidence.",
+  "status": "active"
+ },
+ {
   "id": "rebellion-defense",
   "name": "Rebellion Defense",
   "verdict": "out",
   "reason": "No dedicated local-AI product found; defense software firm, rebranded Rebellion Industries; Palantir acquisition claim unconfirmed.",
   "status": "Possible rebrand to Rebellion Industries; one weak source claims Palantir acquisition 2025 (unconfirmed)"
+ },
+ {
+  "id": "vannevar-labs",
+  "name": "Vannevar Labs",
+  "verdict": "out",
+  "reason": "AI intelligence tools for national security; no dedicated local/on-prem AI product evidenced.",
+  "status": "active"
+ },
+ {
+  "id": "ablatic-ai",
+  "name": "Ablatic AI",
+  "verdict": "out",
+  "reason": "Could not verify a real company or product; discovery notes unconfirmed, no website found.",
+  "status": "Not found; unconfirmed"
+ },
+ {
+  "id": "brium",
+  "name": "Brium",
+  "verdict": "out",
+  "reason": "Acquired by AMD in June 2025 and absorbed into AMD software team; no standalone local-AI product.",
+  "status": "Acquired by AMD (announced Jun 4, 2025; terms undisclosed); confirmed via AMD blog and TechCrunch"
+ },
+ {
+  "id": "celeris",
+  "name": "Celeris",
+  "verdict": "out",
+  "reason": "Proprietary diffusion-LLM API only (Celeris-1, Jul 2026); no local or on-prem deployment found.",
+  "status": "active"
+ },
+ {
+  "id": "centml",
+  "name": "CentML",
+  "verdict": "out",
+  "reason": "Cloud-oriented inference optimization; acquired by NVIDIA 2025 and ceased operations July 2025.",
+  "status": "Acquired by NVIDIA (2025); CentML services shut down July 2025"
+ },
+ {
+  "id": "darwinai",
+  "name": "DarwinAI",
+  "verdict": "out",
+  "reason": "Acquired by Apple (2024); products absorbed into Apple, no independent offering.",
+  "status": "Acquired by Apple (2024), confirmed via BetaKit/Bloomberg reporting; Apple did not officially confirm"
+ },
+ {
+  "id": "deci",
+  "name": "Deci",
+  "verdict": "out",
+  "reason": "Acquired by NVIDIA (2024); no independent product line remains.",
+  "status": "Acquired by NVIDIA (2024); from knowledge, not searched"
+ },
+ {
+  "id": "deepgrove",
+  "name": "deepgrove",
+  "verdict": "out",
+  "reason": "Small Hugging Face research org (Bonsai ternary model); no verifiable company or product.",
+  "status": "active"
+ },
+ {
+  "id": "deeplite",
+  "name": "Deeplite",
+  "verdict": "out",
+  "reason": "Edge AI optimization startup acquired by STMicroelectronics (Apr 2025); technology folded into ST.",
+  "status": "Acquired by STMicroelectronics (Apr 2025), per CB Insights/The Logic; terms undisclosed"
+ },
+ {
+  "id": "manifest-ai",
+  "name": "Manifest AI",
+  "verdict": "out",
+  "reason": "Research lab on power-retention architectures; no local product or offering found.",
+  "status": "active"
+ },
+ {
+  "id": "mipsology",
+  "name": "Mipsology",
+  "verdict": "out",
+  "reason": "Acquired by AMD (Aug 2023); FPGA inference software folded into AMD, no independent offering.",
+  "status": "Acquired by AMD (announced Aug 24, 2023), confirmed by AMD blog; one database misdates to 2024"
+ },
+ {
+  "id": "nari-labs",
+  "name": "Nari Labs",
+  "verdict": "out",
+  "reason": "Two-person open-source TTS release (Dia); no commercial local-AI product line verified.",
+  "status": "active"
+ },
+ {
+  "id": "nolano-ai",
+  "name": "Nolano AI",
+  "verdict": "out",
+  "reason": "Research group name tied to Spectra/TriLM release; no verifiable company or local-AI product.",
+  "status": "active"
+ },
+ {
+  "id": "om-ai",
+  "name": "Om AI",
+  "verdict": "out",
+  "reason": "Could not verify a company with a local-AI offering; no website; single press mention.",
+  "status": "active"
+ },
+ {
+  "id": "recursal-ai-featherless-ai",
+  "name": "Recursal AI / Featherless AI",
+  "verdict": "out",
+  "reason": "Mainly serverless cloud hosting of open models; HQ and local product unverified.",
+  "status": "active"
+ },
+ {
+  "id": "refiant-ai",
+  "name": "Refiant AI",
+  "verdict": "out",
+  "reason": "Cannot verify company, website or product; only a single press mention of compression claims.",
+  "status": "active"
+ },
+ {
+  "id": "sapient-intelligence",
+  "name": "Sapient Intelligence",
+  "verdict": "out",
+  "reason": "Research model (HRM); no verified commercial local-AI product line.",
+  "status": "active"
+ },
+ {
+  "id": "sesame",
+  "name": "Sesame",
+  "verdict": "out",
+  "reason": "Cloud-first consumer voice companion; only an open CSM-1B research release, no local-AI product line.",
+  "status": "active"
+ },
+ {
+  "id": "limitless-formerly-rewind-ai",
+  "name": "Limitless (formerly Rewind AI)",
+  "verdict": "out",
+  "reason": "Acquired by Meta; Rewind and Pendant sales wound down; no ongoing local-AI offering.",
+  "status": "Acquired by Meta (announced Dec 5, 2025); Rewind capture disabled Dec 19, 2025; confirmed"
+ },
+ {
+  "id": "sixgill",
+  "name": "Sixgill",
+  "verdict": "out",
+  "reason": "Sixgill Sense vendor not verifiable as active; distinct from Cybersixgill (acquired by Bitsight); no current evidence of operations.",
+  "status": "Unconfirmed: web search found no current activity; do not confuse with Cybersixgill (Bitsight, 2024)"
  }
 ]
