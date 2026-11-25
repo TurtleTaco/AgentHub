@@ -1,0 +1,780 @@
+<title>Local AI Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: an atlas — masthead + legend, then numbered plates (mind map, overlaps, territory map, gazetteer) switched by a sticky plate tab bar; company detail opens in a side sheet. */
+:root {
+  --paper: #f1f5f4;
+  --panel: #ffffff;
+  --ink: #13201e;
+  --ink-2: #4c5d5a;
+  --ink-3: #728380;
+  --rule: #d3ddda;
+  --rule-2: #e6eeec;
+  --accent: #0b6378;
+  --accent-ink: #ffffff;
+  --hl: #ffe9a8;
+  --d1: #257de0; --d2: #f47230; --d3: #00b894; --d4: #f2a600;
+  --d5: #ee7fac; --d6: #008a17; --d7: #6a4ce2; --d8: #ec4647;
+  --s1: #e3eefb; --s2: #b6d5f8; --s3: #84b9f3; --s4: #519ced; --s5: #257de0; --s6: #1b64be; --s7: #0f4a96;
+  --font-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0d1312; --panel: #141c1b; --ink: #e4edeb; --ink-2: #a6b6b3; --ink-3: #7b8c89;
+    --rule: #2a3735; --rule-2: #1b2524; --accent: #5ec2d6; --accent-ink: #062126; --hl: #4a3f12;
+    --d1: #338ced; --d2: #e76624; --d3: #00a888; --d4: #d28e05; --d5: #e24d8b; --d6: #0aac23; --d7: #9887ef; --d8: #eb6263;
+    --s1: #13243a; --s2: #0e3d7e; --s3: #0f4a96; --s4: #1b64be; --s5: #257de0; --s6: #519ced; --s7: #84b9f3;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0d1312; --panel: #141c1b; --ink: #e4edeb; --ink-2: #a6b6b3; --ink-3: #7b8c89;
+  --rule: #2a3735; --rule-2: #1b2524; --accent: #5ec2d6; --accent-ink: #062126; --hl: #4a3f12;
+  --d1: #338ced; --d2: #e76624; --d3: #00a888; --d4: #d28e05; --d5: #e24d8b; --d6: #0aac23; --d7: #9887ef; --d8: #eb6263;
+  --s1: #13243a; --s2: #0e3d7e; --s3: #0f4a96; --s4: #1b64be; --s5: #257de0; --s6: #519ced; --s7: #84b9f3;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--panel); }
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mono { font-family: var(--font-mono); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Masthead */
+.masthead { background: var(--panel); border-bottom: 1px solid var(--rule); }
+.masthead .wrap { padding-block: 28px 22px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px; align-items: end; }
+.eyebrow { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+h1 { font-family: var(--font-display); font-stretch: 125%; font-weight: 850; font-size: clamp(34px, 6vw, 60px); line-height: .95; letter-spacing: -.01em; margin: 8px 0 10px; text-wrap: balance; }
+.lede { color: var(--ink-2); max-width: 62ch; margin: 0; font-size: 16px; }
+.surfaces { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.surface { font-family: var(--font-mono); font-size: 12px; border: 1px solid var(--rule); border-radius: 999px; padding: 3px 10px; color: var(--ink-2); background: var(--paper); }
+.scalebar { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); text-align: right; display: grid; gap: 4px; justify-items: end; }
+.scalebar .bar { display: flex; height: 6px; width: 160px; border: 1px solid var(--ink-3); }
+.scalebar .bar span { flex: 1; }
+.scalebar .bar span:nth-child(odd) { background: var(--ink-3); }
+
+/* Tabs */
+.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--panel); border-bottom: 1px solid var(--rule); }
+.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.tabs .wrap::-webkit-scrollbar { display: none; }
+.tab { flex: none; text-decoration: none; color: var(--ink-2); padding: 12px 12px 10px; border-bottom: 3px solid transparent; font-weight: 500; font-size: 14px; white-space: nowrap; }
+.tab .plate { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); margin-right: 6px; }
+.tab[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab:hover { color: var(--ink); }
+
+main { padding-block: 26px 80px; }
+section.view[hidden] { display: none !important; }
+h2 { font-family: var(--font-display); font-stretch: 112%; font-weight: 780; font-size: 26px; line-height: 1.1; margin: 0 0 4px; text-wrap: balance; }
+h3 { font-family: var(--font-display); font-stretch: 105%; font-weight: 700; font-size: 17px; margin: 0 0 10px; }
+.sub { color: var(--ink-2); margin: 0 0 18px; max-width: 70ch; }
+.view-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 16px; }
+.card { background: var(--panel); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; min-width: 0; }
+.grid { display: grid; gap: 16px; }
+.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { .g3, .g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .g2, .g3 { grid-template-columns: minmax(0, 1fr); } .masthead .wrap { grid-template-columns: minmax(0, 1fr); } .scalebar { justify-items: start; text-align: left; } }
+
+/* KPI */
+.kpi { padding: 14px 16px; }
+.kpi .v { font-family: var(--font-display); font-stretch: 112%; font-weight: 800; font-size: 32px; line-height: 1; }
+.kpi .l { color: var(--ink-2); font-size: 13px; margin-top: 6px; }
+
+/* Takeaways */
+.takeaways { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.takeaways li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 8px; align-items: start; }
+.takeaways .k { font-family: var(--font-mono); font-size: 12px; color: var(--accent); padding-top: 2px; }
+.takeaways b { font-weight: 600; }
+
+/* Bars */
+.bars { display: grid; gap: 7px; }
+.barrow { display: grid; grid-template-columns: minmax(90px, 38%) minmax(0, 1fr) 42px; gap: 10px; align-items: center; font-size: 13px; cursor: default; }
+.barrow .lab { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); }
+.barrow .track { height: 14px; background: var(--rule-2); border-radius: 0 4px 4px 0; position: relative; }
+.barrow .fill { position: absolute; inset: 0 auto 0 0; border-radius: 0 4px 4px 0; background: var(--s5); }
+.barrow .val { text-align: right; font-family: var(--font-mono); font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.barrow:hover .fill { filter: brightness(1.12); }
+.cols { display: flex; align-items: flex-end; gap: 4px; height: 160px; padding-top: 10px; border-bottom: 1px solid var(--rule); }
+.col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; min-width: 0; }
+.col .cbar { width: 100%; max-width: 34px; background: var(--s5); border-radius: 4px 4px 0 0; }
+.col:hover .cbar { filter: brightness(1.12); }
+.col .cv { font-family: var(--font-mono); font-size: 11px; color: var(--ink-2); margin-bottom: 3px; }
+.collabs { display: flex; gap: 4px; margin-top: 6px; }
+.collabs span { flex: 1; text-align: center; font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-3); min-width: 0; overflow: hidden; }
+
+/* Legend */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--ink-2); }
+.legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+
+/* Mind map */
+.mm-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { border: 1px solid var(--rule); background: var(--panel); border-radius: var(--radius); padding: 6px 12px; cursor: pointer; font-size: 13.5px; }
+.btn:hover { border-color: var(--ink-3); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.field { border: 1px solid var(--rule); background: var(--panel); border-radius: var(--radius); padding: 6px 10px; font-size: 14px; min-width: 0; }
+.mm-frame { position: relative; background: var(--panel); border: 1px solid var(--rule); border-radius: var(--radius); height: min(76vh, 820px); min-height: 460px; overflow: hidden; touch-action: none; }
+.mm-frame svg { width: 100%; height: 100%; display: block; cursor: grab; }
+.mm-frame svg:active { cursor: grabbing; }
+.mm-hint { position: absolute; left: 12px; bottom: 10px; font-size: 12px; color: var(--ink-3); background: var(--panel); padding: 2px 6px; border-radius: 4px; pointer-events: none; }
+.mm-link { fill: none; stroke-opacity: .45; }
+.mm-node text { font-family: var(--font-body); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round; }
+.mm-node.root text { font-family: var(--font-display); font-stretch: 125%; font-weight: 850; font-size: 20px; }
+.mm-node.domain text { font-family: var(--font-display); font-stretch: 110%; font-weight: 750; font-size: 14.5px; }
+.mm-node.niche text { font-size: 13px; font-weight: 500; }
+.mm-node.niche .cnt { font-family: var(--font-mono); font-size: 11px; fill: var(--ink-3); font-weight: 400; }
+.mm-node.company text { font-size: 12px; fill: var(--ink-2); }
+.mm-node.company.sec text { font-style: italic; fill: var(--ink-3); }
+.mm-node { cursor: pointer; }
+.mm-node.root { cursor: default; }
+.mm-node.match text { fill: var(--ink); font-weight: 700; }
+.mm-node.match .hlbox { fill: var(--hl); }
+.mm-node:hover text { fill: var(--ink); text-decoration: underline; }
+
+/* Overlap */
+.matrix-wrap { overflow-x: auto; }
+table.matrix { border-collapse: separate; border-spacing: 3px; font-size: 12.5px; }
+table.matrix th { font-weight: 500; color: var(--ink-2); padding: 4px 6px; text-align: right; white-space: nowrap; }
+table.matrix thead th { text-align: center; vertical-align: bottom; font-family: var(--font-mono); font-size: 11.5px; }
+table.matrix td { width: 52px; height: 40px; text-align: center; border-radius: 4px; font-family: var(--font-mono); font-variant-numeric: tabular-nums; cursor: pointer; border: 1px solid transparent; }
+table.matrix td.diag { background: var(--panel) !important; border: 1.5px dashed var(--ink-3); font-weight: 600; }
+table.matrix td:hover, table.matrix td.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
+.dom-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { border: 1px solid var(--rule); background: var(--panel); border-radius: 999px; padding: 2px 9px; font-size: 12.5px; cursor: pointer; line-height: 1.5; white-space: nowrap; }
+.chip:hover { border-color: var(--ink-3); background: var(--rule-2); }
+.chip .dom-dot { width: 7px; height: 7px; margin-right: 5px; }
+.chip.dim { opacity: .28; }
+.chip.acq { border-style: dashed; }
+.chip.static { cursor: default; }
+.chip.static:hover { background: var(--panel); border-color: var(--rule); }
+.list-plain { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.player { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; font-size: 13.5px; padding: 6px 0; border-bottom: 1px solid var(--rule-2); cursor: pointer; }
+.player:hover .pn { text-decoration: underline; }
+.player .pn { font-weight: 600; }
+.player .pdots { display: flex; gap: 3px; }
+.tag { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+
+/* Territory */
+.terr-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; background: var(--panel); flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 6px 11px; cursor: pointer; font-size: 13px; border-right: 1px solid var(--rule); }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.domain-panel { background: var(--panel); border: 1px solid var(--rule); border-radius: var(--radius); margin-bottom: 16px; overflow: hidden; }
+.domain-panel > header { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.domain-panel .code { font-family: var(--font-mono); font-size: 12px; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 600; }
+.domain-panel .dq { color: var(--ink-2); font-size: 13.5px; }
+.domain-panel .dn { font-family: var(--font-display); font-stretch: 110%; font-weight: 760; font-size: 17px; line-height: 1.15; }
+.niches { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.niche-box { padding: 12px 16px 14px; border-right: 1px solid var(--rule-2); border-bottom: 1px solid var(--rule-2); min-width: 0; }
+.niche-box h4 { margin: 0 0 2px; font-size: 14px; font-weight: 600; display: flex; gap: 8px; align-items: baseline; }
+.niche-box h4 .ref { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); font-weight: 500; }
+.niche-box p { margin: 0 0 9px; color: var(--ink-3); font-size: 12.5px; }
+
+/* Gazetteer */
+.gz-tools { display: grid; grid-template-columns: minmax(180px, 2fr) repeat(4, minmax(120px, 1fr)); gap: 8px; margin-bottom: 12px; }
+@media (max-width: 900px) { .gz-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); } .gz-tools .field:first-child { grid-column: 1 / -1; } }
+.table-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--rule); border-radius: var(--radius); }
+table.gz { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 860px; }
+table.gz th { text-align: left; font-weight: 600; font-size: 12px; color: var(--ink-2); padding: 10px 12px; border-bottom: 1px solid var(--rule); position: sticky; top: 0; background: var(--panel); cursor: pointer; white-space: nowrap; user-select: none; }
+table.gz th[aria-sort="ascending"]::after { content: " ↑"; }
+table.gz th[aria-sort="descending"]::after { content: " ↓"; }
+table.gz td { padding: 8px 12px; border-bottom: 1px solid var(--rule-2); vertical-align: top; }
+table.gz tr { cursor: pointer; }
+table.gz tbody tr:hover td { background: var(--rule-2); }
+table.gz td.r { text-align: right; font-family: var(--font-mono); font-size: 12.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.gz .cn { font-weight: 600; }
+table.gz .cf { color: var(--ink-3); font-size: 12.5px; }
+.count-line { font-size: 13px; color: var(--ink-2); margin: 0 0 8px; }
+
+/* Method */
+.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 10px; }
+.steps li::before { content: counter(s); font-family: var(--font-mono); font-weight: 600; width: 26px; height: 26px; border-radius: 50%; border: 1.5px solid var(--accent); color: var(--accent); display: grid; place-items: center; font-size: 12px; }
+.steps b { display: block; }
+.steps span { color: var(--ink-2); font-size: 14px; }
+.kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; font-size: 13.5px; }
+.kv dt { color: var(--ink-3); }
+.kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-2); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+
+/* Drawer */
+.scrim { position: fixed; inset: 0; background: rgba(5, 12, 11, .38); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(460px, 100%); background: var(--panel); z-index: 41; border-left: 1px solid var(--rule); overflow-y: auto; padding: calc(env(safe-area-inset-top, 0px) + 18px) max(20px, env(safe-area-inset-right, 0px)) calc(env(safe-area-inset-bottom, 0px) + 28px) 20px; box-shadow: -12px 0 40px rgba(0,0,0,.12); }
+@media (max-width: 640px) { .drawer { top: auto; height: 86vh; width: 100%; border-left: 0; border-top: 1px solid var(--rule); border-radius: 14px 14px 0 0; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); } }
+.drawer .x { position: sticky; top: 0; float: right; margin: -4px -6px 0 8px; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--rule); background: var(--panel); cursor: pointer; font-size: 18px; line-height: 1; }
+.drawer h2 { font-size: 24px; margin-top: 2px; }
+.drawer .meta { color: var(--ink-2); font-size: 13.5px; margin: 4px 0 12px; }
+.pill { display: inline-block; font-family: var(--font-mono); font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-2); margin-right: 4px; }
+.pill.acq { border-style: dashed; }
+.pill.def { text-decoration: line-through; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; margin: 14px 0; }
+.facts div { background: var(--panel); padding: 9px 11px; min-width: 0; }
+.facts .fl { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; font-family: var(--font-mono); }
+.facts .fv { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+.facts .fn { font-size: 12px; color: var(--ink-3); font-weight: 400; }
+.dsec { margin: 16px 0 0; }
+.dsec h4 { font-size: 11.5px; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink-3); margin: 0 0 6px; font-weight: 500; }
+.prod { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1px; padding: 7px 0; border-bottom: 1px solid var(--rule-2); }
+.prod b { font-weight: 600; font-size: 14px; }
+.prod .pc { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-3); margin-left: 6px; text-transform: uppercase; }
+.prod span { color: var(--ink-2); font-size: 13px; }
+.srcs { font-size: 12.5px; display: grid; gap: 3px; }
+.srcs a { overflow-wrap: anywhere; }
+.conf { font-size: 12px; color: var(--ink-3); }
+
+/* Tooltip */
+.tip { position: fixed; z-index: 60; pointer-events: none; background: var(--ink); color: var(--paper); font-size: 12.5px; padding: 6px 9px; border-radius: 5px; max-width: 260px; box-shadow: 0 4px 16px rgba(0,0,0,.18); }
+.tip b { font-family: var(--font-mono); font-size: 14px; display: block; }
+.loading { padding: 60px 0; text-align: center; color: var(--ink-3); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Market research · as of <span id="asof">Nov 2026</span></div>
+      <h1>Local AI Atlas</h1>
+      <p class="lede" id="lede">Companies that run AI on hardware the customer controls, mapped by what they build and where they overlap.</p>
+      <div class="surfaces" aria-label="Where local AI runs">
+        <span class="surface">on-device</span><span class="surface">edge</span><span class="surface">on-prem</span><span class="surface">private cloud</span><span class="surface">air-gapped</span><span class="surface">sovereign</span>
+      </div>
+    </div>
+    <div class="scalebar" aria-hidden="true">
+      <span id="scale-label">companies mapped</span>
+      <div class="bar"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Atlas plates">
+  <div class="wrap">
+    <a class="tab" href="#overview" data-view="overview"><span class="plate">I</span>Overview</a>
+    <a class="tab" href="#mind-map" data-view="mind-map"><span class="plate">II</span>Mind map</a>
+    <a class="tab" href="#overlaps" data-view="overlaps"><span class="plate">III</span>Overlaps &amp; white space</a>
+    <a class="tab" href="#territory" data-view="territory"><span class="plate">IV</span>Territory map</a>
+    <a class="tab" href="#gazetteer" data-view="gazetteer"><span class="plate">V</span>Gazetteer</a>
+    <a class="tab" href="#method" data-view="method"><span class="plate">VI</span>Method</a>
+  </div>
+</nav>
+
+<main class="wrap" id="main">
+  <div class="loading" id="loading">Loading the atlas…</div>
+
+  <section class="view" id="v-overview" hidden>
+    <div class="grid g4" id="kpis"></div>
+    <div class="grid g2" style="margin-top:16px">
+      <div class="card">
+        <h3>Key takeaways</h3>
+        <ul class="takeaways" id="takeaways"></ul>
+      </div>
+      <div class="card">
+        <h3>The ontology at a glance</h3>
+        <p class="sub" style="margin-bottom:12px">8 domains, each answering one problem. Bar = companies whose main niche sits in that domain.</p>
+        <div class="bars" id="bars-domain"></div>
+      </div>
+    </div>
+    <div class="grid g3" style="margin-top:16px">
+      <div class="card"><h3>Where they're based</h3><div class="bars" id="bars-region"></div></div>
+      <div class="card"><h3>When they were founded</h3><div id="cols-founded"></div></div>
+      <div class="card"><h3>Funding stage (independent companies)</h3><div class="bars" id="bars-stage"></div></div>
+    </div>
+    <div class="grid g2" style="margin-top:16px">
+      <div class="card"><h3>Big-tech collaborations to know</h3><ul class="list-plain" id="partnerships"></ul></div>
+      <div class="card"><h3>Consolidation: who is buying</h3><p class="sub" style="margin-bottom:10px">Acquired local-AI companies in this atlas, grouped by buyer.</p><ul class="list-plain" id="acquirers"></ul></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-mind-map" hidden>
+    <div class="view-head">
+      <div>
+        <h2>Mind map</h2>
+        <p class="sub" style="margin:0">Local AI → 8 domains → niches → companies. Click a niche to open its companies; click a company for its profile. A filled dot marks a company's main niche; a ring marks a secondary one.</p>
+      </div>
+      <div class="mm-tools">
+        <label class="sr" for="mm-search" style="position:absolute;left:-9999px">Find a company</label>
+        <input id="mm-search" class="field" type="search" placeholder="Find a company…" autocomplete="off" list="mm-names">
+        <datalist id="mm-names"></datalist>
+        <button class="btn" id="mm-expand" type="button">Open all niches</button>
+        <button class="btn" id="mm-collapse" type="button">Close all</button>
+        <button class="btn" id="mm-fit" type="button">Fit</button>
+      </div>
+    </div>
+    <div class="legend" id="mm-legend" style="margin-bottom:10px"></div>
+    <div class="mm-frame" id="mm-frame"><div class="mm-hint">Drag to pan · scroll or pinch to zoom</div></div>
+  </section>
+
+  <section class="view" id="v-overlaps" hidden>
+    <h2>Overlaps &amp; white space</h2>
+    <p class="sub">Where companies cross domain lines, where niches are crowded, and where few players operate.</p>
+    <div class="grid g2">
+      <div class="card">
+        <h3>Domain overlap matrix</h3>
+        <p class="sub" style="margin-bottom:10px">Cell = companies active in both domains. Dashed diagonal = pure plays (only that domain). Click a cell to list them.</p>
+        <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+        <div id="matrix-pick" style="margin-top:12px"></div>
+      </div>
+      <div class="card">
+        <h3>Full-stack players</h3>
+        <p class="sub" style="margin-bottom:10px">Companies spanning the most niches. Dots = domains covered.</p>
+        <ul class="list-plain" id="fullstack"></ul>
+      </div>
+    </div>
+    <div class="grid g2" style="margin-top:16px">
+      <div class="card">
+        <h3>Most crowded niches</h3>
+        <div class="bars" id="crowded"></div>
+      </div>
+      <div class="card">
+        <h3>White space: thinly occupied niches</h3>
+        <p class="sub" style="margin-bottom:10px">Niches with the fewest companies (main + secondary). Candidates for unique positioning.</p>
+        <div id="whitespace"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h3>Unique positions</h3>
+      <p class="sub" style="margin-bottom:10px">Companies whose combination of niches no other company in the atlas shares.</p>
+      <div class="chips" id="uniques"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-territory" hidden>
+    <h2>Territory map</h2>
+    <p class="sub">Every niche with its companies, market-map style. Highlight where they deploy; dashed chips are acquired companies.</p>
+    <div class="terr-tools">
+      <div class="seg" id="terr-dep" role="group" aria-label="Highlight by deployment"></div>
+      <label style="font-size:13px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="terr-active"> Independent and active only</label>
+    </div>
+    <div id="territory"></div>
+  </section>
+
+  <section class="view" id="v-gazetteer" hidden>
+    <h2>Gazetteer</h2>
+    <p class="sub">Every company in the atlas. Search, filter, sort, and click a row for the full profile.</p>
+    <div class="gz-tools">
+      <input id="gz-q" class="field" type="search" placeholder="Search name, product, focus…" aria-label="Search companies">
+      <select id="gz-domain" class="field" aria-label="Domain"></select>
+      <select id="gz-region" class="field" aria-label="Region"></select>
+      <select id="gz-stage" class="field" aria-label="Funding stage"></select>
+      <select id="gz-status" class="field" aria-label="Status"></select>
+    </div>
+    <p class="count-line" id="gz-count"></p>
+    <div class="table-wrap"><table class="gz" id="gz"></table></div>
+  </section>
+
+  <section class="view" id="v-method" hidden>
+    <h2>Method</h2>
+    <p class="sub">How the atlas was built, what the numbers mean, and how far to trust them.</p>
+    <div class="grid g2">
+      <div class="card"><h3>Process</h3><ol class="steps" id="steps"></ol></div>
+      <div class="card"><h3>Scope &amp; caveats</h3><dl class="kv" id="caveats"></dl></div>
+    </div>
+    <div class="card" style="margin-top:16px"><h3>The ontology</h3><div id="onto-list"></div></div>
+  </section>
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-label="Company profile"></aside>
+<div class="tip" id="tip" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+(() => {
+  "use strict";
+  const $ = (s, r = document) => r.querySelector(s);
+  const h = (tag, attrs, ...kids) => {
+    const el = document.createElement(tag);
+    if (attrs) for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k === "style") el.style.cssText = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid.nodeType ? kid : String(kid));
+    return el;
+  };
+  const S = { d: null, co: {}, niche: {}, dom: {}, byNiche: {}, coDomains: {} };
+  const domColor = id => `var(--d${S.dom[id] ? S.dom[id].slot : 1})`;
+  const fmtM = m => m == null ? "—" : m >= 1000 ? `$${(m / 1000).toFixed(m >= 10000 ? 0 : 1)}B` : m >= 1 ? `$${Math.round(m)}M` : `$${(m * 1000).toFixed(0)}K`;
+  const fmtEmp = c => c.emp ? (c.emp >= 1000 ? `${(c.emp / 1000).toFixed(c.emp >= 10000 ? 0 : 1)}K` : String(c.emp)) : (c.empBand || "—");
+  const isIndependent = c => c.status === "active" && !["public", "big-tech", "subsidiary"].includes(c.type);
+
+  // Tooltip
+  const tip = $("#tip");
+  function showTip(e, strong, rest) {
+    tip.replaceChildren(h("b", null, strong), rest || "");
+    tip.hidden = false; moveTip(e);
+  }
+  function moveTip(e) {
+    const x = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8);
+    const y = Math.min(e.clientY + 14, window.innerHeight - tip.offsetHeight - 8);
+    tip.style.left = x + "px"; tip.style.top = y + "px";
+  }
+  const hideTip = () => { tip.hidden = true; };
+  function tipOn(el, strong, rest) {
+    el.addEventListener("pointermove", e => showTip(e, strong, rest));
+    el.addEventListener("pointerleave", hideTip);
+    el.tabIndex = 0;
+    el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); showTip({ clientX: r.left, clientY: r.bottom }, strong, rest); });
+    el.addEventListener("blur", hideTip);
+  }
+
+  // Bars
+  function bars(target, rows, opts = {}) {
+    const max = Math.max(...rows.map(r => r.v), 1);
+    target.replaceChildren(...rows.map(r => {
+      const fill = h("div", { class: "fill", style: `width:${(r.v / max) * 100}%;${r.color ? `background:${r.color}` : ""}` });
+      const row = h("div", { class: "barrow", style: r.onClick ? "cursor:pointer" : "" },
+        h("div", { class: "lab", title: r.label }, r.label), h("div", { class: "track" }, fill), h("div", { class: "val" }, r.display ?? r.v));
+      tipOn(row, r.display ?? String(r.v), r.tip || r.label);
+      if (r.onClick) row.addEventListener("click", r.onClick);
+      return row;
+    }));
+  }
+
+  // Drawer
+  const drawer = $("#drawer"), scrim = $("#scrim");
+  function closeDrawer() { drawer.hidden = true; scrim.hidden = true; }
+  scrim.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+  function openCompany(id) {
+    const c = S.co[id]; if (!c) return;
+    hideTip();
+    const nicheChip = (nid, sec) => { const n = S.niche[nid]; if (!n) return null;
+      return h("span", { class: "chip static", title: sec ? "Secondary niche" : "Main niche" }, h("span", { class: "dom-dot", style: `background:${domColor(n.domain)}` }), `${n.id} ${n.name}${sec ? " (also)" : ""}`); };
+    const statusPill = c.status === "active" ? null : h("span", { class: `pill ${c.status === "defunct" ? "def" : "acq"}` }, c.statusDetail || c.status);
+    const fact = (l, v, note) => h("div", null, h("div", { class: "fl" }, l), h("div", { class: "fv" }, v ?? "—", note ? h("div", { class: "fn" }, note) : null));
+    const listSec = (title, arr) => arr && arr.length ? h("div", { class: "dsec" }, h("h4", null, title), h("div", { class: "chips" }, arr.map(t => h("span", { class: "chip static" }, t)))) : null;
+    const fundNote = [c.lastRound, c.val ? `valuation ${fmtM(c.val)}` : null].filter(Boolean).join(" · ");
+    const web = c.web ? h("a", { href: c.web, target: "_blank", rel: "noopener" }, c.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) : null;
+    drawer.replaceChildren(
+      h("button", { class: "x", type: "button", "aria-label": "Close profile", onclick: closeDrawer }, "×"),
+      h("div", { class: "eyebrow" }, S.dom[S.niche[c.primary]?.domain]?.name || ""),
+      h("h2", null, c.name),
+      h("div", { class: "meta" }, statusPill, [c.city, c.country].filter(Boolean).join(", "), web ? " · " : "", web),
+      h("div", { class: "chips" }, nicheChip(c.primary, false), (c.secondary || []).map(n => nicheChip(n, true))),
+      h("div", { class: "dsec" }, h("h4", null, "Focus"), h("div", null, c.focus || "—")),
+      c.problem ? h("div", { class: "dsec" }, h("h4", null, "Problem it targets"), h("div", null, c.problem)) : null,
+      h("div", { class: "facts" },
+        fact("Founded", c.founded),
+        fact("Employees", fmtEmp(c), c.emp && c.empBand ? c.empBand : null),
+        fact("Stage", c.stage || "—", c.mcap || null),
+        fact("Total raised", c.fund != null ? fmtM(c.fund) : (c.type === "public" || c.type === "big-tech" ? "Public / n.a." : "Undisclosed"), fundNote || null)),
+      c.investors && c.investors.length ? h("div", { class: "dsec" }, h("h4", null, "Key investors"), h("div", { style: "font-size:13.5px;color:var(--ink-2)" }, c.investors.join(", "))) : null,
+      c.products && c.products.length ? h("div", { class: "dsec" }, h("h4", null, `Products (${c.products.length})`),
+        c.products.map(p => h("div", { class: "prod" }, h("div", null, h("b", null, p[0]), p[1] ? h("span", { class: "pc" }, p[1]) : null), p[2] ? h("span", null, p[2]) : null))) : null,
+      c.diff ? h("div", { class: "dsec" }, h("h4", null, "What sets it apart"), h("div", null, c.diff)) : null,
+      listSec("Deploys on", c.dep), listSec("Serves", c.cust), listSec("Partners", c.partners), listSec("Named customers", c.customers),
+      c.src && c.src.length ? h("div", { class: "dsec" }, h("h4", null, "Sources"), h("div", { class: "srcs" }, c.src.slice(0, 6).map(u => h("a", { href: u, target: "_blank", rel: "noopener" }, u.replace(/^https?:\/\//, "").slice(0, 70))))) : null,
+      h("div", { class: "dsec conf" }, `Confidence: funding ${c.conf?.f || "?"}, headcount ${c.conf?.e || "?"}, founded ${c.conf?.y || "?"}. Basis: ${c.basis || "?"}.`)
+    );
+    drawer.hidden = false; scrim.hidden = false; drawer.scrollTop = 0; drawer.querySelector(".x").focus();
+  }
+
+  // Routing
+  const VIEWS = ["overview", "mind-map", "overlaps", "territory", "gazetteer", "method"];
+  const rendered = {};
+  function route() {
+    let v = (location.hash || "").slice(1);
+    if (!VIEWS.includes(v)) v = "overview";
+    for (const id of VIEWS) $(`#v-${id}`).hidden = id !== v;
+    document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-current", t.dataset.view === v ? "page" : "false"));
+    if (!rendered[v]) { rendered[v] = true; ({ "mind-map": renderMindmap, overlaps: renderOverlaps, territory: renderTerritory, gazetteer: renderGazetteer, method: renderMethod, overview: renderOverview })[v](); }
+    if (v === "mind-map" && S.mmFit) S.mmFit();
+  }
+
+  // ---------- Overview ----------
+  function renderOverview() {
+    const d = S.d, m = d.meta;
+    const kpi = (v, l) => h("div", { class: "card kpi" }, h("div", { class: "v" }, v), h("div", { class: "l" }, l));
+    $("#kpis").replaceChildren(
+      kpi(String(d.companies.length), `companies profiled (from ${m.candidates} candidates)`),
+      kpi(String(m.countries), "countries"),
+      kpi(fmtM(m.fundingTotal), "disclosed venture funding, independent companies"),
+      kpi(String(m.acquired), "acquired, merged or shut down"));
+    $("#takeaways").replaceChildren(...d.insights.map((t, i) => h("li", null, h("span", { class: "k" }, String(i + 1).padStart(2, "0")), h("span", null, ...richText(t)))));
+    bars($("#bars-domain"), d.domains.map(dm => ({ label: `${dm.code}. ${dm.name}`, v: d.companies.filter(c => S.niche[c.primary]?.domain === dm.id).length, color: domColor(dm.id), tip: dm.q, onClick: () => { location.hash = "territory"; setTimeout(() => document.getElementById("dp-" + dm.id)?.scrollIntoView({ behavior: "smooth" }), 60); } })));
+    const regions = {}; d.companies.forEach(c => { regions[c.region || "Unknown"] = (regions[c.region || "Unknown"] || 0) + 1; });
+    bars($("#bars-region"), Object.entries(regions).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ label: k, v })));
+    const bins = [["<2000", y => y < 2000], ["2000s", y => y < 2010], ["10–14", y => y < 2015], ["15–19", y => y < 2020], ["2020", y => y === 2020], ["2021", y => y === 2021], ["2022", y => y === 2022], ["2023", y => y === 2023], ["2024", y => y === 2024], ["25–26", y => y >= 2025]];
+    const counts = bins.map(() => 0);
+    d.companies.forEach(c => { if (!c.founded) return; const i = bins.findIndex(b => b[1](c.founded)); if (i >= 0) counts[i]++; });
+    const maxc = Math.max(...counts, 1);
+    const cols = h("div", { class: "cols" }, counts.map((v, i) => { const col = h("div", { class: "col" }, h("div", { class: "cv" }, v), h("div", { class: "cbar", style: `height:${(v / maxc) * 82}%` })); tipOn(col, String(v), `founded ${bins[i][0]}`); return col; }));
+    $("#cols-founded").replaceChildren(cols, h("div", { class: "collabs" }, bins.map(b => h("span", null, b[0]))));
+    const stageOrder = ["Pre-seed", "Seed", "Series A", "Series B", "Series C", "Series D+", "Late/Growth", "Bootstrapped", "Grant/Nonprofit", "Unknown"];
+    const st = {}; d.companies.filter(isIndependent).forEach(c => { const s = stageOrder.includes(c.stage) ? c.stage : "Unknown"; st[s] = (st[s] || 0) + 1; });
+    bars($("#bars-stage"), stageOrder.filter(s => st[s]).map(s => ({ label: s, v: st[s] })));
+    $("#partnerships").replaceChildren(...d.partnerships.map(p => h("li", { class: "player", style: "cursor:default;grid-template-columns:minmax(0,1fr)" },
+      h("div", null, h("span", { class: "pn" }, p.parties), h("span", { class: "tag" }, `  ${p.date}`), h("div", { style: "color:var(--ink-2);font-size:13px" }, p.what)))));
+    const acq = {}; d.companies.forEach(c => { if (c.status === "acquired" && c.parent) (acq[c.parent] = acq[c.parent] || []).push(c); });
+    const acqRows = Object.entries(acq).sort((a, b) => b[1].length - a[1].length).slice(0, 10);
+    $("#acquirers").replaceChildren(...acqRows.map(([buyer, list]) => h("li", { style: "display:grid;grid-template-columns:minmax(90px,30%) minmax(0,1fr);gap:10px;align-items:start;font-size:13.5px" },
+      h("b", null, buyer, h("span", { class: "tag" }, ` ${list.length}`)), h("div", { class: "chips" }, list.map(c => h("span", { class: "chip acq", onclick: () => openCompany(c.id) }, c.name))))));
+  }
+  function richText(t) { // **bold** support, safe
+    return t.split(/(\*\*[^*]+\*\*)/).map(s => s.startsWith("**") ? h("b", null, s.slice(2, -2)) : s);
+  }
+
+  // ---------- Mind map ----------
+  function renderMindmap() {
+    const d = S.d;
+    $("#mm-legend").replaceChildren(...d.domains.map(dm => h("span", null, h("span", { class: "sw", style: `background:${domColor(dm.id)}` }), `${dm.code}. ${dm.name}`)));
+    const dl = $("#mm-names"); dl.replaceChildren(...d.companies.map(c => h("option", { value: c.name })));
+    const tree = { name: "Local AI", type: "root", children: d.domains.map(dm => ({ name: `${dm.code}. ${dm.name}`, type: "domain", dom: dm.id,
+      children: d.niches.filter(n => n.domain === dm.id).map(n => ({ name: n.name, ref: n.id, type: "niche", dom: dm.id, count: (S.byNiche[n.id] || []).length,
+        _children: (S.byNiche[n.id] || []).map(x => ({ name: x.c.name, type: "company", id: x.c.id, sec: x.sec, dom: dm.id })) })) })) };
+    const root = d3.hierarchy(tree, n => n.children);
+    const frame = $("#mm-frame");
+    const svg = d3.select(frame).append("svg").attr("role", "img").attr("aria-label", "Mind map of the local AI ontology");
+    const g = svg.append("g");
+    const gl = g.append("g"), gn = g.append("g");
+    const zoom = d3.zoom().scaleExtent([0.15, 3]).on("zoom", e => g.attr("transform", e.transform));
+    svg.call(zoom).on("dblclick.zoom", null);
+    const COLX = [0, 130, 390, 700];
+    const ROW = 21;
+    let matchId = null;
+    function layout() {
+      const lay = d3.tree().nodeSize([ROW, 1]).separation((a, b) => a.parent === b.parent ? 1 : (a.depth === 1 || b.depth === 1 ? 2.2 : 1.6));
+      lay(root);
+      root.each(n => { n.y = COLX[n.depth] ?? 700; });
+    }
+    function color(n) { return n.data.dom ? domColor(n.data.dom) : "var(--ink)"; }
+    function update(focusNode) {
+      layout();
+      const nodes = root.descendants(), links = root.links();
+      const link = gl.selectAll("path").data(links, l => keyOf(l.target));
+      link.exit().remove();
+      link.enter().append("path").attr("class", "mm-link").merge(link)
+        .attr("stroke", l => color(l.target)).attr("stroke-width", l => l.target.depth === 1 ? 2.4 : l.target.depth === 2 ? 1.6 : 1)
+        .attr("d", d3.linkHorizontal().x(p => p.y).y(p => p.x));
+      const node = gn.selectAll("g.mm-node").data(nodes, keyOf);
+      node.exit().remove();
+      const ne = node.enter().append("g").attr("class", n => `mm-node ${n.data.type}${n.data.sec ? " sec" : ""}`);
+      ne.append("rect").attr("class", "hlbox").attr("rx", 3).attr("fill", "transparent");
+      ne.append("circle");
+      ne.append("text").attr("dy", "0.33em");
+      ne.on("click", (e, n) => {
+        if (n.data.type === "niche" || n.data.type === "domain") { toggle(n); update(n); }
+        else if (n.data.type === "company") openCompany(n.data.id);
+      });
+      const all = ne.merge(node);
+      all.attr("transform", n => `translate(${n.y},${n.x})`).classed("match", n => n.data.type === "company" && n.data.id === matchId);
+      all.select("circle").attr("r", n => [7, 6, 4.5, 3.4][n.depth])
+        .attr("fill", n => n.data.type === "company" && n.data.sec ? "var(--panel)" : n.depth === 0 ? "var(--ink)" : (n.data.type === "niche" && !n.children && n.data._children?.length ? "var(--panel)" : color(n)))
+        .attr("stroke", n => color(n)).attr("stroke-width", n => n.depth === 2 ? 2 : 1.5);
+      all.select("text").each(function (n) {
+        const t = d3.select(this); t.selectAll("*").remove(); t.text(null);
+        t.attr("x", n.depth === 0 ? -12 : 10).attr("text-anchor", n.depth === 0 ? "end" : "start");
+        if (n.data.type === "niche") { t.append("tspan").text(n.data.name); t.append("tspan").attr("class", "cnt").text(`  ${n.data.ref} · ${n.data.count}`); }
+        else t.text(n.data.name);
+      });
+      all.select("rect.hlbox").each(function (n) {
+        const tb = this.parentNode.querySelector("text").getBBox();
+        d3.select(this).attr("x", tb.x - 3).attr("y", tb.y - 1).attr("width", tb.width + 6).attr("height", tb.height + 2);
+      });
+      all.selectAll("title").remove();
+      all.filter(n => n.data.type === "niche").append("title").text(n => `${S.niche[n.data.ref].desc} — click to ${n.children ? "close" : "open"}`);
+      if (focusNode) centerOn(focusNode, false);
+    }
+    function keyOf(n) { return n.data.type === "company" ? `c:${n.parent.data.ref}:${n.data.id}` : `${n.data.type}:${n.data.ref || n.data.name}`; }
+    function toggle(n) {
+      if (n.data.type === "domain") { const anyOpen = n.children.some(c => c.children); n.children.forEach(c => setOpen(c, !anyOpen)); return; }
+      setOpen(n, !n.children);
+    }
+    function setOpen(n, open) {
+      if (n.data.type !== "niche") return;
+      if (open && !n.children && n.data._children) {
+        if (!n._kids) n._kids = n.data._children.map(cd => { const k = d3.hierarchy(cd); k.parent = n; k.depth = 3; k.height = 0; return k; });
+        n.children = n._kids;
+      } else if (!open && n.children) { n.children = null; }
+    }
+    function bounds() { const b = g.node().getBBox(); return b; }
+    function fit() {
+      const b = bounds(), W = frame.clientWidth, H = frame.clientHeight;
+      if (!b.width || !W) return;
+      const k = Math.min(W / (b.width + 60), H / (b.height + 40), 1.1);
+      svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity.translate((W - b.width * k) / 2 - b.x * k, (H - b.height * k) / 2 - b.y * k).scale(k));
+    }
+    function centerOn(n, zoomIn) {
+      const W = frame.clientWidth, H = frame.clientHeight;
+      const k = zoomIn ? 1 : Math.max(d3.zoomTransform(svg.node()).k, 0.55);
+      svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - n.y * k - 120 * k, H / 2 - n.x * k).scale(k));
+    }
+    update(); S.mmFit = fit; requestAnimationFrame(fit);
+    $("#mm-fit").onclick = fit;
+    $("#mm-expand").onclick = () => { root.descendants().filter(n => n.data.type === "niche").forEach(n => setOpen(n, true)); update(); fit(); };
+    $("#mm-collapse").onclick = () => { root.descendants().filter(n => n.data.type === "niche").forEach(n => setOpen(n, false)); matchId = null; update(); fit(); };
+    $("#mm-search").addEventListener("change", e => {
+      const q = e.target.value.trim().toLowerCase(); if (!q) return;
+      const c = S.d.companies.find(x => x.name.toLowerCase() === q) || S.d.companies.find(x => x.name.toLowerCase().includes(q));
+      if (!c) return;
+      matchId = c.id;
+      const nids = [c.primary, ...(c.secondary || [])];
+      root.descendants().filter(n => n.data.type === "niche" && nids.includes(n.data.ref)).forEach(n => setOpen(n, true));
+      update();
+      const hit = root.descendants().find(n => n.data.type === "company" && n.data.id === c.id && !n.data.sec) || root.descendants().find(n => n.data.type === "company" && n.data.id === c.id);
+      if (hit) centerOn(hit, true);
+    });
+  }
+
+  // ---------- Overlaps ----------
+  function renderOverlaps() {
+    const d = S.d, doms = d.domains;
+    const M = doms.map(() => doms.map(() => []));
+    d.companies.forEach(c => {
+      const ds = [...S.coDomains[c.id]];
+      const idx = ds.map(x => doms.findIndex(y => y.id === x));
+      if (idx.length === 1) M[idx[0]][idx[0]].push(c);
+      for (let i = 0; i < idx.length; i++) for (let j = 0; j < idx.length; j++) if (i !== j) M[idx[i]][idx[j]].push(c);
+    });
+    let maxOff = 1; M.forEach((r, i) => r.forEach((cell, j) => { if (i !== j) maxOff = Math.max(maxOff, cell.length); }));
+    const shade = v => { if (!v) return ["var(--rule-2)", "var(--ink-3)"]; const t = v / maxOff; const i = Math.min(7, Math.max(1, Math.ceil(t * 7))); return [`var(--s${i})`, i >= 5 ? "#ffffff" : "var(--ink)"]; };
+    const tbl = $("#matrix");
+    const pick = $("#matrix-pick");
+    const head = h("tr", null, h("th"), doms.map(dm => h("th", { title: dm.name }, h("span", { class: "dom-dot", style: `background:${domColor(dm.id)}` }), dm.code)));
+    const rows = doms.map((dm, i) => h("tr", null, h("th", null, h("span", { class: "dom-dot", style: `background:${domColor(dm.id)}` }), `${dm.code}. ${dm.short}`),
+      doms.map((dm2, j) => {
+        const list = M[i][j]; const [bg, fg] = i === j ? ["", "var(--ink)"] : shade(list.length);
+        const td = h("td", { class: i === j ? "diag" : "", style: i === j ? "" : `background:${bg};color:${fg}` }, String(list.length));
+        tipOn(td, String(list.length), i === j ? `pure plays in ${dm.name}` : `${dm.short} × ${dm2.short}`);
+        td.addEventListener("click", () => {
+          tbl.querySelectorAll("td.sel").forEach(x => x.classList.remove("sel")); td.classList.add("sel");
+          pick.replaceChildren(h("div", { class: "tag", style: "margin-bottom:6px" }, i === j ? `${list.length} pure plays · ${dm.name}` : `${list.length} companies · ${dm.name} × ${dm2.name}`),
+            h("div", { class: "chips" }, list.sort((a, b) => a.name.localeCompare(b.name)).map(c => chipFor(c))));
+        });
+        return td;
+      })));
+    tbl.replaceChildren(h("thead", null, head), h("tbody", null, rows));
+    pick.replaceChildren(h("div", { class: "tag" }, "Select a cell to list its companies."));
+    // full stack
+    const span = d.companies.map(c => ({ c, n: 1 + (c.secondary || []).length, ds: [...S.coDomains[c.id]] })).sort((a, b) => b.ds.length - a.ds.length || b.n - a.n || (b.c.emp || 0) - (a.c.emp || 0)).slice(0, 16);
+    $("#fullstack").replaceChildren(...span.map(x => h("li", { class: "player", onclick: () => openCompany(x.c.id) },
+      h("div", null, h("span", { class: "pn" }, x.c.name), h("span", { class: "tag" }, `  ${x.n} niches · ${x.ds.length} domains`)),
+      h("div", { class: "pdots" }, d.domains.map(dm => h("span", { class: "dom-dot", title: dm.name, style: `margin:0;background:${x.ds.includes(dm.id) ? domColor(dm.id) : "var(--rule-2)"}` }))))));
+    // crowded / whitespace
+    const nc = d.niches.map(n => ({ n, v: (S.byNiche[n.id] || []).length })).sort((a, b) => b.v - a.v);
+    bars($("#crowded"), nc.slice(0, 10).map(x => ({ label: `${x.n.id} ${x.n.name}`, v: x.v, color: domColor(x.n.domain), tip: x.n.desc, onClick: () => { location.hash = "territory"; setTimeout(() => document.getElementById("nb-" + x.n.id)?.scrollIntoView({ behavior: "smooth", block: "center" }), 60); } })));
+    const thin = nc.slice().reverse().slice(0, 8);
+    $("#whitespace").replaceChildren(...thin.map(x => h("div", { style: "padding:8px 0;border-bottom:1px solid var(--rule-2)" },
+      h("div", { style: "font-size:13.5px;font-weight:600" }, h("span", { class: "dom-dot", style: `background:${domColor(x.n.domain)}` }), `${x.n.id} ${x.n.name} `, h("span", { class: "tag" }, `${x.v} co.`)),
+      h("div", { class: "chips", style: "margin-top:5px" }, (S.byNiche[x.n.id] || []).map(y => chipFor(y.c))))));
+    // uniques
+    const sig = {}; d.companies.forEach(c => { const k = [c.primary, ...(c.secondary || [])].sort().join("|"); (sig[k] = sig[k] || []).push(c); });
+    const uniq = Object.values(sig).filter(a => a.length === 1 && (a[0].secondary || []).length >= 1).map(a => a[0]).sort((a, b) => a.name.localeCompare(b.name));
+    $("#uniques").replaceChildren(...uniq.map(c => chipFor(c)));
+  }
+  function chipFor(c) {
+    const n = S.niche[c.primary];
+    return h("span", { class: `chip${c.status !== "active" ? " acq" : ""}`, onclick: () => openCompany(c.id), title: c.focus || "" }, h("span", { class: "dom-dot", style: `background:${n ? domColor(n.domain) : "var(--ink-3)"}` }), c.name);
+  }
+
+  // ---------- Territory ----------
+  function renderTerritory() {
+    const d = S.d;
+    const deps = [["all", "All"], ["device", "Device"], ["edge", "Edge"], ["onprem", "On-prem / private"], ["airgap", "Air-gapped"]];
+    const depMatch = { device: ["mobile", "pc-workstation", "wearable-xr", "browser"], edge: ["edge-server", "embedded-iot", "camera", "vehicle-robot-drone"], onprem: ["datacenter-onprem", "private-cloud"], airgap: ["air-gapped"] };
+    let dep = "all";
+    const seg = $("#terr-dep");
+    seg.replaceChildren(...deps.map(([k, l]) => h("button", { type: "button", "aria-pressed": k === dep ? "true" : "false", onclick: () => { dep = k; seg.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.textContent === l ? "true" : "false")); apply(); } }, l)));
+    $("#terr-active").addEventListener("change", apply);
+    const out = $("#territory");
+    out.replaceChildren(...d.domains.map(dm => h("div", { class: "domain-panel", id: "dp-" + dm.id },
+      h("header", null, h("span", { class: "code", style: `background:${domColor(dm.id)}` }, dm.code), h("div", null, h("div", { class: "dn" }, dm.name), h("div", { class: "dq" }, dm.q)),
+        h("span", { class: "tag" }, `${d.companies.filter(c => S.niche[c.primary]?.domain === dm.id).length} main`)),
+      h("div", { class: "niches" }, d.niches.filter(n => n.domain === dm.id).map(n => h("div", { class: "niche-box", id: "nb-" + n.id },
+        h("h4", null, h("span", { class: "ref" }, n.id), n.name, h("span", { class: "tag" }, `${(S.byNiche[n.id] || []).length}`)),
+        h("p", null, n.desc),
+        h("div", { class: "chips" }, (S.byNiche[n.id] || []).map(x => { const ch = chipFor(x.c); ch.dataset.id = x.c.id; if (x.sec) { ch.style.fontStyle = "italic"; ch.title = "Secondary niche · " + (x.c.focus || ""); } return ch; }))))))));
+    function apply() {
+      const activeOnly = $("#terr-active").checked;
+      out.querySelectorAll(".chip").forEach(ch => {
+        const c = S.co[ch.dataset.id]; if (!c) return;
+        let on = dep === "all" || (c.dep || []).some(x => depMatch[dep].includes(x));
+        if (activeOnly && !isIndependent(c)) on = false;
+        ch.classList.toggle("dim", !on);
+      });
+    }
+  }
+
+  // ---------- Gazetteer ----------
+  function renderGazetteer() {
+    const d = S.d;
+    const opt = (sel, label, vals) => { sel.replaceChildren(h("option", { value: "" }, label), ...vals.map(v => Array.isArray(v) ? h("option", { value: v[0] }, v[1]) : h("option", { value: v }, v))); };
+    opt($("#gz-domain"), "All domains", d.domains.map(dm => [dm.id, `${dm.code}. ${dm.name}`]));
+    opt($("#gz-region"), "All regions", [...new Set(d.companies.map(c => c.region).filter(Boolean))].sort());
+    opt($("#gz-stage"), "All stages", [...new Set(d.companies.map(c => c.stage).filter(Boolean))].sort());
+    opt($("#gz-status"), "Any status", [["active", "Active"], ["acquired", "Acquired / merged"], ["defunct", "Defunct"]]);
+    const cols = [
+      ["name", "Company", c => c.name.toLowerCase()], ["niche", "Main niche", c => c.primary], ["hq", "HQ", c => (c.country || "") + (c.city || "")],
+      ["founded", "Founded", c => c.founded || 0], ["stage", "Stage", c => c.stage || ""], ["fund", "Raised", c => c.fund ?? -1], ["emp", "Staff", c => c.emp ?? -1]];
+    let sortKey = "fund", dir = -1;
+    const tbl = $("#gz");
+    function draw() {
+      const q = $("#gz-q").value.trim().toLowerCase(), dm = $("#gz-domain").value, rg = $("#gz-region").value, sg = $("#gz-stage").value, stt = $("#gz-status").value;
+      let rows = d.companies.filter(c => (!dm || S.coDomains[c.id].has(dm)) && (!rg || c.region === rg) && (!sg || c.stage === sg) &&
+        (!stt || (stt === "acquired" ? ["acquired", "merged"].includes(c.status) : c.status === stt)) &&
+        (!q || [c.name, c.focus, c.problem, c.country, c.city, ...(c.products || []).map(p => p[0])].join(" ").toLowerCase().includes(q)));
+      const f = cols.find(x => x[0] === sortKey)[2];
+      rows.sort((a, b) => { const x = f(a), y = f(b); return (x > y ? 1 : x < y ? -1 : a.name.localeCompare(b.name)) * dir; });
+      $("#gz-count").textContent = `${rows.length} of ${d.companies.length} companies`;
+      const head = h("tr", null, cols.map(([k, l]) => h("th", { "aria-sort": k === sortKey ? (dir > 0 ? "ascending" : "descending") : null, onclick: () => { if (sortKey === k) dir = -dir; else { sortKey = k; dir = ["name", "niche", "hq", "stage"].includes(k) ? 1 : -1; } draw(); } }, l)));
+      const body = rows.map(c => { const n = S.niche[c.primary];
+        return h("tr", { onclick: () => openCompany(c.id) },
+          h("td", null, h("div", { class: "cn" }, c.name, c.status !== "active" ? h("span", { class: "pill acq", style: "margin-left:6px" }, c.status) : null), h("div", { class: "cf" }, c.focus || "")),
+          h("td", null, n ? h("span", null, h("span", { class: "dom-dot", style: `background:${domColor(n.domain)}` }), `${n.id} ${n.name}`) : "—"),
+          h("td", null, [c.city, c.country].filter(Boolean).join(", ") || "—"),
+          h("td", { class: "r" }, c.founded || "—"), h("td", null, c.stage || "—"), h("td", { class: "r" }, c.fund != null ? fmtM(c.fund) : "—"), h("td", { class: "r" }, fmtEmp(c))); });
+      tbl.replaceChildren(h("thead", null, head), h("tbody", null, body));
+    }
+    ["#gz-q", "#gz-domain", "#gz-region", "#gz-stage", "#gz-status"].forEach(s => $(s).addEventListener("input", draw));
+    draw();
+  }
+
+  // ---------- Method ----------
+  function renderMethod() {
+    const d = S.d;
+    $("#steps").replaceChildren(...d.method.steps.map(s => h("li", null, h("div", null, h("b", null, s[0]), h("span", null, s[1])))));
+    $("#caveats").replaceChildren(...d.method.caveats.flatMap(([k, v]) => [h("dt", null, k), h("dd", null, ...richText(v))]));
+    $("#onto-list").replaceChildren(h("div", { class: "grid g2" }, d.domains.map(dm => h("div", null,
+      h("h3", { style: "margin-bottom:4px" }, h("span", { class: "dom-dot", style: `background:${domColor(dm.id)}` }), `${dm.code}. ${dm.name}`),
+      h("div", { class: "tag", style: "margin-bottom:6px" }, dm.q),
+      h("ul", { style: "margin:0 0 6px;padding-left:18px;font-size:13.5px;color:var(--ink-2)" }, d.niches.filter(n => n.domain === dm.id).map(n => h("li", null, h("b", { style: "color:var(--ink);font-weight:600" }, `${n.id} ${n.name}`), ` — ${n.desc}`)))))));
+  }
+
+  // ---------- Init ----------
+  function init(d) {
+    S.d = d;
+    d.domains.forEach((dm, i) => { dm.slot = i + 1; S.dom[dm.id] = dm; });
+    d.niches.forEach(n => { S.niche[n.id] = n; S.byNiche[n.id] = []; });
+    d.companies.forEach(c => {
+      S.co[c.id] = c;
+      const ns = [c.primary, ...(c.secondary || [])].filter(n => S.niche[n]);
+      S.coDomains[c.id] = new Set(ns.map(n => S.niche[n].domain));
+      ns.forEach((n, i) => S.byNiche[n].push({ c, sec: i > 0 }));
+    });
+    const rank = c => (c.fund || 0) + (c.emp || 0) / 10;
+    Object.values(S.byNiche).forEach(a => a.sort((x, y) => (x.sec - y.sec) || (rank(y.c) - rank(x.c)) || x.c.name.localeCompare(y.c.name)));
+    $("#asof").textContent = d.meta.asOfLabel;
+    $("#scale-label").textContent = `${d.companies.length} companies · ${d.domains.length} domains · ${d.niches.length} niches`;
+    $("#loading").remove();
+    window.addEventListener("hashchange", route);
+    route();
+  }
+  fetch("atlas-data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(init)
+    .catch(err => { $("#loading").textContent = "The atlas data file could not be loaded (" + err.message + "). Reload the page to try again."; });
+})();
+</script>
