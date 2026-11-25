@@ -12,7 +12,7 @@ indep = [c for c in C if c["status"] == "active" and c["type"] not in ("public",
 by = collections.defaultdict(list)
 for c in C: by[dom(c)].append(c)
 young = {k: sum(1 for c in v if (c["founded"] or 0) >= 2020) for k, v in by.items()}
-fund = {k: sum(c["fund"] or 0 for c in v if c in indep) for k, v in by.items()}
+fund = {k: sum(c["fund"] or 0 for c in v if c in indep and c.get("verdict") == "in") for k, v in by.items()}
 dep = collections.Counter(x for c in C for x in c["dep"])
 pairs = collections.Counter()
 for c in C:
@@ -24,19 +24,22 @@ thin = [N[k]["name"][0].lower() + N[k]["name"][1:] for k, v in sorted(cnt.items(
 deals = d["deals"]; buyers = collections.Counter(x["buyer"] for x in deals)
 top3 = buyers.most_common(3)
 osx = [c["name"] for c in C if "6a" in [c["primary"]] + c["secondary"]]
-topf = sorted(by["D7"], key=lambda c: -(c["fund"] or 0))[:3]
+topf = sorted([c for c in by["D7"] if c in indep and c.get("verdict") == "in"], key=lambda c: -(c["fund"] or 0))[:3]
 fmtB = lambda m: f"${m/1000:.0f}B" if m >= 10000 else f"${m/1000:.1f}B"
 fc = [r for f in glob.glob(P("verification", "factcheck-*.json")) for r in json.load(open(f))]
 fcc = collections.Counter(r.get("result") for r in fc)
 searched = sum(1 for c in C if c["basis"] in ("searched", "mixed"))
+WHY = {("D3", "D4"): "Model makers ship their own engines.", ("D3", "D6"): "Platforms bundle their own models.", ("D4", "D5"): "Serving engines grow into cluster ops.",
+       ("D1", "D2"): "Chipmakers sell whole systems.", ("D5", "D7"): "Edge fleets run vertical apps.", ("D2", "D6"): "Hardware vendors bundle private-AI software.",
+       ("D6", "D7"): "Vertical vendors resell private platforms.", ("D1", "D4"): "Chipmakers ship their own SDKs."}
 ins = [
  f"**{len(C)} companies, {len(D)} domains, {len(N)} niches.** Local AI is a full stack, from NPUs to personal apps, not one market.",
  f"**On-prem beats on-device.** {dep['datacenter-onprem']} companies target customer datacenters vs {dep['mobile']} for phones. \"Local\" mostly means private infrastructure.",
  f"**Silicon is crowded and mature; software is young.** {young['D3']} of {len(by['D3'])} model companies and {young['D8']} of {len(by['D8'])} personal-AI players were founded 2020+, vs {young['D1']} of {len(by['D1'])} chip firms.",
- f"**Money follows physical AI.** Vertical & Physical AI raised the most ({fmtB(fund['D7'])}, led by {', '.join(c['name'] for c in topf)}); personal local AI the least ({fmtB(fund['D8'])}).",
+ f"**Money follows physical AI.** Among core (non-borderline) independents, Vertical & Physical AI raised the most ({fmtB(fund['D7'])}, led by {', '.join(c['name'] for c in topf)}); personal local AI the least ({fmtB(fund['D8'])}).",
  f"**NVIDIA is the gravity well.** Top acquirer ({buyers['NVIDIA']} deals incl. Run:ai, Deci, OctoAI) and co-builder of Palantir's Sovereign AI OS: five joint launches in 11 months.",
  f"**Chipmakers are buying the software layer.** {', '.join(f'{b} {n}' for b, n in top3)} of {len(deals)} tracked deals: runtimes, compilers, dev platforms (Edge Impulse, Modular, Nexa AI, Silo AI).",
- f"**Biggest overlaps: {D[pa]['short']} × {D[pb]['short']} ({pv}) and {D[qa]['short']} × {D[qb]['short']} ({qv}).** Model makers ship engines and apps; platforms bundle models.",
+ f"**Biggest overlaps: {D[pa]['short']} × {D[pb]['short']} ({pv}) and {D[qa]['short']} × {D[qb]['short']} ({qv}).** {WHY.get((pa, pb), '')} {WHY.get((qa, qb), '')}".strip(),
  f"**Focus is the norm.** {single} of {len(C)} companies sit in a single niche; the multi-domain players are mostly big tech.",
  f"**White space:** {', '.join(thin)} each have fewer than 10 companies.",
  f"**Shakudo's niche (private AI OS) has {len(osx)} players**, from Dataiku, Domino and Cloudera to Kamiwaza, webAI and Zylon. The battle is open-source breadth plus run-anywhere Kubernetes.",

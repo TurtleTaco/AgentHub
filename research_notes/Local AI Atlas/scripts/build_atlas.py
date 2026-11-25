@@ -151,9 +151,9 @@ cand = json.load(open(P("data", "candidates.json")))
 indep = [c for c in companies if c["status"] == "active" and c["type"] not in ("public", "big-tech", "subsidiary")]
 atlas = {
     "meta": {"asOfLabel": "Nov 2026", "candidates": len(cand), "countries": len({c["country"] for c in companies if c["country"]}),
-             "fundingTotal": round(sum(c["fund"] or 0 for c in indep)), "acquired": sum(1 for c in companies if c["status"] in ("acquired", "merged", "defunct"))},
+             "fundingTotal": round(sum(c["fund"] or 0 for c in indep if c["verdict"] == "in")), "acquired": sum(1 for c in companies if c["status"] in ("acquired", "merged", "defunct"))},
     "domains": onto["domains"], "niches": onto["niches"],
-    "companies": [{k: v for k, v in c.items() if k not in ("layers", "mod", "classified", "verdict")} for c in companies],
+    "companies": [{k: v for k, v in c.items() if k not in ("layers", "mod", "classified")} for c in companies],
     "deals": deals, "insights": narr["insights"], "partnerships": narr["partnerships"], "method": narr["method"],
 }
 json.dump(atlas, open(out_path, "w"), ensure_ascii=False, separators=(",", ":"))

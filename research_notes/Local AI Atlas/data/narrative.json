@@ -2,13 +2,13 @@
  "insights": [
   "**760 companies, 8 domains, 50 niches.** Local AI is a full stack, from NPUs to personal apps, not one market.",
   "**On-prem beats on-device.** 439 companies target customer datacenters vs 119 for phones. \"Local\" mostly means private infrastructure.",
-  "**Silicon is crowded and mature; software is young.** 73 of 110 model companies and 35 of 45 personal-AI players were founded 2020+, vs 19 of 135 chip firms.",
-  "**Money follows physical AI.** Vertical & Physical AI raised the most ($27B, led by Anduril Industries, Shield AI, Helsing); personal local AI the least ($0.8B).",
+  "**Silicon is crowded and mature; software is young.** 74 of 110 model companies and 35 of 45 personal-AI players were founded 2020+, vs 20 of 135 chip firms.",
+  "**Money follows physical AI.** Among core (non-borderline) independents, Vertical & Physical AI raised the most ($19B, led by Anduril Industries, Shield AI, Field AI); personal local AI the least ($0.6B).",
   "**NVIDIA is the gravity well.** Top acquirer (8 deals incl. Run:ai, Deci, OctoAI) and co-builder of Palantir's Sovereign AI OS: five joint launches in 11 months.",
-  "**Chipmakers are buying the software layer.** NVIDIA 8, AMD 6, Qualcomm 5 of 83 tracked deals: runtimes, compilers, dev platforms (Edge Impulse, Modular, Nexa AI, Silo AI).",
-  "**Biggest overlaps: Models × Runtimes (30) and Models × Platforms (23).** Model makers ship engines and apps; platforms bundle models.",
+  "**Chipmakers are buying the software layer.** NVIDIA 8, AMD 6, Qualcomm 5 of 85 tracked deals: runtimes, compilers, dev platforms (Edge Impulse, Modular, Nexa AI, Silo AI).",
+  "**Biggest overlaps: Models × Runtimes (30) and Runtimes × Ops (22).** Model makers ship their own engines. Serving engines grow into cluster ops.",
   "**Focus is the norm.** 390 of 760 companies sit in a single niche; the multi-domain players are mostly big tech.",
-  "**White space:** Portable & web runtimes, Local creative tools, Healthcare & life sciences, Personal AI servers & home AI each have fewer than 10 companies.",
+  "**White space:** portable & web runtimes, local creative tools, healthcare & life sciences, personal AI servers & home AI each have fewer than 10 companies.",
   "**Shakudo's niche (private AI OS) has 23 players**, from Dataiku, Domino and Cloudera to Kamiwaza, webAI and Zylon. The battle is open-source breadth plus run-anywhere Kubernetes."
  ],
  "partnerships": [
@@ -79,7 +79,7 @@
    ],
    [
     "Fact-check",
-    "10 independent agents re-checked funding, status, founding, HQ and headcount for 240 key independents: 74 confirmed, 116 corrected, 50 unverifiable."
+    "10 independent agents re-checked funding, status, founding, HQ and headcount for 400 key independents: 101 confirmed, 224 corrected, 75 unverifiable."
    ],
    [
     "Build the ontology",
@@ -109,7 +109,7 @@
    ],
    [
     "Confidence",
-    "Each profile carries per-field confidence and a basis. 440 of 760 profiles used live web search; the rest rely on model knowledge and are flagged low/medium."
+    "Each profile carries per-field confidence and a basis. 536 of 760 profiles used live web search; the rest rely on model knowledge and are flagged low/medium."
    ],
    [
     "Freshness",

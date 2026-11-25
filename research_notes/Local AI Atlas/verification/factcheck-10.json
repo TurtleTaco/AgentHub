@@ -1,0 +1,793 @@
+[
+ {
+  "id": "locally-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://lmstudio.ai/blog/locally-ai-joins-lm-studio"
+  ],
+  "note": "Acquisition by LM Studio (Element Labs) announced Apr 8 2026, terms undisclosed; creator Adrien Grondin joined."
+ },
+ {
+  "id": "fractile",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "last_round": "Series C, ~$720M (reports range $720-774M), Nov 2026, Thrive Capital, Founders Fund, Lightspeed, Redpoint; UK Sovereign AI Fund backing; ~$7B valuation (unconfirmed by company)",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sifted.eu/articles/exclusive-fractile-series-c/",
+   "https://valueaddvc.com/pulse/fractile-720m-series-c-7b-valuation-thrive-2026"
+  ],
+  "note": "Series C confirmed by multiple outlets; size/valuation vary; prior $220M Series B May 2026; headcount not found."
+ },
+ {
+  "id": "myrepublic",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status_detail": "Sold remaining 49.9% of Singapore broadband to StarHub (Aug 2025); StarHub agreed to buy mobile business (Oct 2026 report, closing unconfirmed)",
+   "employees": 300,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.malaymail.com/news/money/mediaoutreach/2025/08/12/myrepublic-completes-sale-of-remaining-499-stake-in-broadband-business-to-starhub/401585",
+   "https://www.cbinsights.com/company/myrepublic/financials"
+  ],
+  "note": "Broadband business sold to StarHub; headcount ~300 (Wikipedia) vs 599 (Dealroom); funding ~$166M per CB Insights only."
+ },
+ {
+  "id": "tenstorrent",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 2300,
+   "employees": 1258,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://datacenterdynamics.com/en/news/ai-chip-startup-tenstorrent-raises-15bn-at-62bn-valuation",
+   "https://www.revenuememo.com/p/tenstorrent-funding",
+   "https://www.tipranks.com/private-companies/pc:tenst"
+  ],
+  "note": "Series E $1.5B at $6.2B confirmed; total ~$2.3B (trackers range 0.6-2.3B); 1,258 employees Aug 2026; Qualcomm talks unconfirmed."
+ },
+ {
+  "id": "architek",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2011,
+   "total_funding_usd_m": 18.5,
+   "last_round": "Corporate minority (Sparx Group), ~JPY104M/$0.75M, Aug 2022",
+   "status_detail": "Operating Osaka edge-AI chip maker (AiOnIc processor); no 2025-26 funding news found",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/architek",
+   "https://pitchbook.com/profiles/company/233139-07",
+   "https://www.edgeir.com/architek-aionic-edge-processor-goes-into-mass-production-with-support-from-sparx-group-investment-20220623"
+  ],
+  "note": "Founded 2011 in Osaka confirmed; total ~$17.6-18.5M per aggregators; no recent round."
+ },
+ {
+  "id": "cix-technology",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "last_round": "Series B, ~RMB 1B (~$140-150M), Mar 2026, co-led by Shanghai IC Fund and Pudong VC",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.jonpeddie.com/news/cix-technology-has-nearly-rmb-1-billion-riding-on-the-agent-cpu/",
+   "https://www.cbinsights.com/company/cixin-technology"
+  ],
+  "note": "Founded Oct 2021 confirmed; Series B ~RMB1B; CB Insights total $63M unreconciled so total left blank; headcount not found."
+ },
+ {
+  "id": "eta-compute",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 23.2,
+   "employees": 15,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/deal/eta-compute-angel",
+   "https://www.prnewswire.com/news-releases/eta-compute-is-changing-its-name-to-modelcat--launching-a-bold-new-era-in-ai-development-302541000.html"
+  ],
+  "note": "Series C $12.5M Dec 2020 and Aug 2025 rebrand confirmed; total ~$23M (range $10-32M); ~13-15 employees."
+ },
+ {
+  "id": "innatera",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 27,
+   "employees": 80,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://finsmes.com/2024/06/innatera-raises-21m-in-series-a-funding.html",
+   "https://www.cbinsights.com/company/innatera/financials",
+   "https://trueup.io/co/innatera"
+  ],
+  "note": "Series A $21M (incl $5M ext, Jun 2024) confirmed; total ~$27M; headcount 70-95; job posts in Rijswijk so HQ Delft/Rijswijk ambiguous."
+ },
+ {
+  "id": "neurobus",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Toulouse",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.caplight.com/company/neurobus"
+  ],
+  "note": "Caplight describes Toulouse-based company; Apr 2025 VC round amount undisclosed; no 2026 round found."
+ },
+ {
+  "id": "semidynamics",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 150,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.hpcwire.com/aiwire/2026/04/08/semidynamics-secures-sk-hynix-investment-to-advance-memory-centric-ai-inference-architecture/",
+   "https://www.cbinsights.com/company/semidynamics"
+  ],
+  "note": "SK hynix strategic investment Apr 2026 confirmed, amount undisclosed; company says 150+ employees; no lifetime total found."
+ },
+ {
+  "id": "syntiant",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 311,
+   "valuation_usd_m": 646.4,
+   "employees": 1471,
+   "employees_band": "1001-5000",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/07/06/syntiant-makes-low-power-chips-device-ai-files-initial-public-offering/",
+   "https://valueaddvc.com/blog/syntiant-ipo-2026-sytn-edge-ai-chip-s1-valuation",
+   "https://www.iposcoop.com/?p=38789"
+  ],
+  "note": "S-1 public Jul 6 2026, no pricing found; total $311M and Dec 2024 valuation $646M from VC blog (unverified); 1,471 employees third-party."
+ },
+ {
+  "id": "juice-labs",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2020,
+   "funding_stage": "Seed",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/juice-labs",
+   "https://www.prnewswire.com/news-releases/juice-labs-joins-nvidia-ai-grid-ecosystem-delivering-the-connectivity-fabric-for-distributed-intelligence-at-the-telco-edge-302716178.html"
+  ],
+  "note": "NVIDIA AI Grid partner Mar 17 2026 confirmed (partnership, not investment); founded 2020 and seed stage per CB Insights; amounts undisclosed."
+ },
+ {
+  "id": "clika",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "San Jose",
+   "hq_country": "United States",
+   "funding_stage": "Seed",
+   "total_funding_usd_m": 1.4,
+   "last_round": "Strategic seed, Aug 2025 (Accenture Ventures, IQT, Milemark Capital, Golden Gate Ventures); amount undisclosed",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.edge-ai-vision.com/2025/09/clika-raises-seed-round-to-accelerate-ai-deployment-everywhere/",
+   "https://www.cbinsights.com/company/clika/financials"
+  ],
+  "note": "San Jose HQ, 2021 founding, Aug 2025 seed confirmed; total ~$1.1-1.4M per aggregators; one directory says SF/Seoul."
+ },
+ {
+  "id": "maneva",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 38.4,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://betakit.com/maneva-raises-27-million-usd-series-a-to-expand-ai-vision-in-manufacturing/",
+   "https://www.axios.com/pro/supply-chain-deals/2026/06/10/maneva-27m-series-a-for-factory-ai"
+  ],
+  "note": "$27M Series A led by USVP announced Jun 10 2026 confirmed; total $38.4M; HQ possibly Palo Alto (single source)."
+ },
+ {
+  "id": "baseten",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 352,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://convergedigest.com/baseten-raises-1-5-billion-to-expand-ai-inference-infrastructure/?amp=1",
+   "https://www.revenuememo.com/p/baseten-funding",
+   "https://www.tipranks.com/private-companies/baseten"
+  ],
+  "note": "$1.5B Series F Jun 2026 at ~$13B and ~$2.1B total confirmed; employees 352 (TipRanks Jul 2026), trackers range 165-415."
+ },
+ {
+  "id": "dataiku",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 1250,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.sacra.com/c/dataiku",
+   "https://www.cbinsights.com/company/dataiku/financials"
+  ],
+  "note": "Series F $3.7B (2022) confirmed, total $837-865M; company-linked report cites 1,250+ employees; no newer round."
+ },
+ {
+  "id": "genetec",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 2300,
+   "confidence": {
+    "funding": "low",
+    "employees": "high",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.genetec.com/binaries/content/assets/genetec/press-releases/factsheet_en_corporate-genetec_2026_web.pdf"
+  ],
+  "note": "Genetec 2026 fact sheet: 2,300+ employees, Montreal HQ; Revelio estimates 2,672; funding not applicable."
+ },
+ {
+  "id": "sarvam-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 425,
+   "last_round": "Series B, $234M first close Jun 2026 at $1.5B (Bessemer led; HCLTech $150M largest check), plus $74M extension Aug 2026 led by Nvidia; ~$300M+ total round",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.sarvam.ai/announcing-series-b",
+   "https://inc42.com/company/sarvam-ai/funding/",
+   "https://india.entrepreneur.com/business-news/nvidia-leads-usd-74-million-investment-in-sarvam-ai"
+  ],
+  "note": "Series B and ~$349M total consistent; lead investor conflict (HCLTech vs Bessemer); employees ~425 Inc42 vs 123 Dealroom."
+ },
+ {
+  "id": "owkin",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 430,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://owkin.com/press-kit",
+   "https://www.cbinsights.com/company/owkin/financials",
+   "https://dealroom.co/companies/owkin/"
+  ],
+  "note": "Company says >$300M raised (trackers $304-354M); headcount 200-473, ~430 per Dealroom; March 2026 $33M round attributed to spin-out uncertain."
+ },
+ {
+  "id": "n8n",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "valuation_usd_m": 5200,
+   "employees": 1100,
+   "employees_band": "1001-5000",
+   "last_round": "Series C, $180M, Oct 2025, led by Accel; SAP strategic investment May 2026 at ~$5.2B valuation",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.revenuememo.com/p/n8n-funding",
+   "https://sacra.com/c/n8n/",
+   "https://siliconvalleyinvestclub.com/companies/n8n/"
+  ],
+  "note": "Total ~$240-254M confirmed; SAP investment May 2026 at $5.2B; headcount ~1,100 LinkedIn Jun 2026 (Revelio 763 Mar 2026)."
+ },
+ {
+  "id": "anaconda",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Series C, $150M+, Jul 31 2025, led by Insight Partners with Mubadala, at $1.5B post-money",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2025/07/31/anaconda-raises-150m-speed-python-based-ai-projects/",
+   "https://www.anaconda.com/newsroom/ai-startup-anaconda-valued-at-1-5-billion-in-series-c-funding"
+  ],
+  "note": "Series C date was 2025 not 2021; $1.5B valuation confirmed; unverified 2026 Forge listing ignored; headcount not found."
+ },
+ {
+  "id": "chapsvision",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Suresnes",
+   "funding_stage": "Series C",
+   "last_round": "Series C, $90M, Nov 2024, led by Tikehau Capital, Qualium, Bpifrance, GENEO, Jolt",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://finsmes.com/2024/11/chapsvision-raises-us90m-in-funding.html",
+   "https://www.thecompanycheck.com/company/b/chapsvision/291f0u66iywg7xtpp"
+  ],
+  "note": "HQ Suresnes per most sources (CB Insights says Paris); total $90M vs $284M conflict so left blank; ~1,000 employees in 2024."
+ },
+ {
+  "id": "hammerspace",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 245,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/hammerspace/financials",
+   "https://techcrunch.com/2025/04/16/hammerspace-an-unstructured-data-wrangler-used-by-nvidia-meta-and-tesla-raises-100m-at-500m-valuation",
+   "https://www.tipranks.com/private-companies/hammerspace"
+  ],
+  "note": "$156.7M total and Apr 2025 $100M round at $500M confirmed; 2026 follow-on unconfirmed; employees ~245 (PitchBook 244, TipRanks 246)."
+ },
+ {
+  "id": "airia",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20250916641185/en"
+  ],
+  "note": "$100M funding announced Sep 2025 confirmed; headcount 150 (company, Sep 2025) to 178 (Dealroom)."
+ },
+ {
+  "id": "rune-technologies",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 30.2,
+   "last_round": "Series A, $24M, Jul 2025; seed $6.2M Feb 2025",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20250721838717/en",
+   "https://www.businesswire.com/news/home/20250226366515/en",
+   "https://pitchbook.com/profiles/company/732121-84"
+  ],
+  "note": "No $64M Series B found (likely Rune Labs confusion); seed $6.2M plus Series A $24M gives ~$30.2M."
+ },
+ {
+  "id": "miovision",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 401,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://thelogic.co/briefing/miovision-ups-fundraising-to-close-growth-round-with-296m/",
+   "https://6figr.com/company/miovision"
+  ],
+  "note": "Headcount ~401 (Sep 2026 tracker); CAD$260M plus CAD$36M growth round reported but undated, so not applied."
+ },
+ {
+  "id": "qodo-formerly-codiumai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "total_funding_usd_m": 120,
+   "last_round": "Series B, $70M, Mar 30 2026, led by Qumra Capital",
+   "employees": 136,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+   "https://siliconangle.com/2026/03/30/ai-generated-code-verification-startup-qodo-raises-70m/",
+   "https://www.tipranks.com/private-companies/qodo"
+  ],
+  "note": "Series B $70M led by Qumra, total ~$120M; 136 employees (TipRanks Jun 2026)."
+ },
+ {
+  "id": "gcore",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 600,
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://gcore.com/press-releases/gcore-raises-60-million-in-series-a-funding-to-drive-ai-innovation-and-global-expansion",
+   "https://en.paperjam.lu/article/europes-answer-to-hyperscalers-gcores-bid-to-build-sovereign-ai-infrastructure"
+  ],
+  "note": "$60M Series A Jul 2024 led by Wargaming confirmed; company says 600+ staff (Paperjam ~550); Luxembourg HQ confirmed."
+ },
+ {
+  "id": "scale-computing",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status": "acquired",
+   "status_detail": "Acquired by Acumera (Austin, TX) Jul 2025; combined company operates as Scale Computing; terms undisclosed",
+   "total_funding_usd_m": 159,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://blocksandfiles.com/2025/07/31/scale-computing-acquired-by-acumera-which-becomes-scale-computing/",
+   "https://www.insideindianabusiness.com/?p=189526"
+  ],
+  "note": "Acumera acquired Scale Jul 2025 but brand retained; total ~$159M, last round $55M 2022; headcount not found; HQ post-merger not verified."
+ },
+ {
+  "id": "adarga",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "$20M, May 2023 (Series B per CB Insights; investors incl. Boka Group, AWS Defence Accelerator)",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://businesswire.com/news/home/20230518005092/en/20m-in-New-Funding-for-Adarga-AI-Signals-Strategic-Imperative-of-Geopolitical-Risk-Intelligence",
+   "https://www.cbinsights.com/company/adarga"
+  ],
+  "note": "Total ~$29M and $20M May 2023 round confirmed; still active with UK MoD contracts in 2026; no insolvency found."
+ },
+ {
+  "id": "rafay",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "total_funding_usd_m": 37.1,
+   "last_round": "Series B, $25M, Aug 2021, led by ForgePoint Capital",
+   "employees": 176,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://venturecapitaljournal.com/rafay-systems-inks-25m-series-b",
+   "https://pitchbook.com/profiles/company/222796-63",
+   "https://www.zoominfo.com/financial/rafay-systems-inc/461963439"
+  ],
+  "note": "Series B $25M 2021; totals $33-41M, used $37.1M (PitchBook/ZoomInfo); 176 employees PitchBook; no 2026 round found."
+ },
+ {
+  "id": "genmo",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 13,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://pitchbook.com/profiles/company/522423-64",
+   "https://www.cbinsights.com/company/genmo/financials"
+  ],
+  "note": "$28.4M Series A (NEA, Oct 2024) as total confirmed; headcount ~11-15 not 25; no 2026 round found."
+ },
+ {
+  "id": "apptek",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://pitchbook.com/profiles/company/63937-45"
+  ],
+  "note": "Only PitchBook (acquired/merged Mar 2024, 108 employees) and CB Insights corporate minority round; status ambiguous, no primary source."
+ },
+ {
+  "id": "stockmark",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://getlatka.com/companies/stockmark.co.jp"
+  ],
+  "note": "Only Latka estimate ~101 employees (Sep 2025); no reliable funding data found."
+ },
+ {
+  "id": "tristar-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://traded.co/vc/deal/tristar-ai-secures-12-4-million-in-series-a-funding-led-by-isogon-ventures/",
+   "https://www.thesaasnews.com/news/tristar-ai-raises-12-4m-series-a/"
+  ],
+  "note": "$12.4M Series A led by Isogon announced ~Nov 12 2026 confirmed; seed amount and headcount not checked."
+ },
+ {
+  "id": "carpl-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 16,
+   "last_round": "Series A, $10M, Jul 2026, led by IFC with Stellaris Venture Partners; seed $6M Feb 2024",
+   "employees": 80,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://yourstory.com/2026/07/tech30-startup-carplai-raises-10-million-in-series-a-led-by-ifc",
+   "https://india.entrepreneur.com/business-news/carpl-ai-raises-usd-10-mn-led-by-ifc"
+  ],
+  "note": "Series A $10M Jul 2026 and $6M seed; company claims team of 80."
+ },
+ {
+  "id": "notraffic",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series C",
+   "total_funding_usd_m": 165,
+   "last_round": "Series C, $90M, Mar 24 2026, led by PSG Equity (prior $50M Series B Jun 2023)",
+   "employees": 180,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/03/24/90m-funding-notraffic-will-use-ai-end-gridlock-americas-cities/",
+   "https://en.globes.co.il/en/article-1001538308"
+  ],
+  "note": "Series C $90M led by PSG; total ~$160-166M (Calcalist $165M); ~180 employees (Globes); US HQ in Kansas per Globes."
+ },
+ {
+  "id": "iconic",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2023,
+   "total_funding_usd_m": 17,
+   "last_round": "Seed, GBP10M (~$13M/EUR11M), Dec 2025, co-led by Kindred and Northzone; pre-seed $4M 2024",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2025/12/15/iconic-raises-13m-seed-to-build-ai-native-voice-driven-games-on-device/",
+   "https://www.startupmag.co.uk/funding/iconic-2025-seed-funding",
+   "https://tech.eu/2024/07/11/iconic-ai-raises-4m-for-ai-game-development/"
+  ],
+  "note": "London on-device games AI; seed plus $4M pre-seed ~ $17M; founded 2023 per one outlet; avoid confusion with Amsterdam Iconic."
+ },
+ {
+  "id": "boson-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 70,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://technews.tw/?p=1593948",
+   "https://fortune.com/2026/07/27/ex-aws-scientist-alex-smola-boson-ai-speech-to-speech-voice-model/"
+  ],
+  "note": "Single non-English source reports $70M raised (Temasek-linked investors); round details unverified; Santa Clara, founded 2023 confirmed by Fortune."
+ },
+ {
+  "id": "langdock",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/?p=2693922",
+   "https://www.cbinsights.com/company/langdock/financials"
+  ],
+  "note": "$3M seed Apr 2024 (General Catalyst, La Famiglia) confirmed; no Series A found; total ~$3-3.5M."
+ }
+]

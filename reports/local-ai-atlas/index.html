@@ -345,7 +345,7 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     </div>
     <div class="card" style="margin-top:16px">
       <h3>Unique positions</h3>
-      <p class="sub" style="margin-bottom:10px">Companies whose combination of niches no other company in the atlas shares.</p>
+      <p class="sub" style="margin-bottom:10px">Multi-domain companies whose exact mix of domains no other company in the atlas shares. Hover a chip to see the mix.</p>
       <div class="chips" id="uniques"></div>
     </div>
   </section>
@@ -455,17 +455,21 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     hideTip();
     const nicheChip = (nid, sec) => { const n = S.niche[nid]; if (!n) return null;
       return h("span", { class: "chip static", title: sec ? "Secondary niche" : "Main niche" }, h("span", { class: "dom-dot", style: `background:${domColor(n.domain)}` }), `${n.id} ${n.name}${sec ? " (also)" : ""}`); };
-    const statusPill = c.status === "active" ? null : h("span", { class: `pill ${c.status === "defunct" ? "def" : "acq"}` }, c.statusDetail || c.status);
+    const statusPill = h("span", null,
+      c.status === "active" ? null : h("span", { class: `pill ${c.status === "defunct" ? "def" : "acq"}` }, c.status),
+      c.verdict === "borderline" ? h("span", { class: "pill", title: "Local AI is a secondary line for this company" }, "borderline") : null);
+    const statusNote = c.statusDetail && c.status !== "active" ? h("div", { class: "dsec", style: "margin-top:0;font-size:13px;color:var(--ink-2)" }, c.statusDetail) : null;
     const fact = (l, v, note) => h("div", null, h("div", { class: "fl" }, l), h("div", { class: "fv" }, v ?? "—", note ? h("div", { class: "fn" }, note) : null));
     const listSec = (title, arr) => arr && arr.length ? h("div", { class: "dsec" }, h("h4", null, title), h("div", { class: "chips" }, arr.map(t => h("span", { class: "chip static" }, t)))) : null;
     const fundNote = [c.lastRound, c.val ? `valuation ${fmtM(c.val)}` : null].filter(Boolean).join(" · ");
     const web = c.web ? h("a", { href: c.web, target: "_blank", rel: "noopener" }, c.web.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) : null;
-    drawer.replaceChildren(
+    drawer.replaceChildren(...[
       h("button", { class: "x", type: "button", "aria-label": "Close profile", onclick: closeDrawer }, "×"),
       h("div", { class: "eyebrow" }, S.dom[S.niche[c.primary]?.domain]?.name || ""),
       h("h2", null, c.name),
       h("div", { class: "meta" }, statusPill, [c.city, c.country].filter(Boolean).join(", "), web ? " · " : "", web),
-      h("div", { class: "chips" }, nicheChip(c.primary, false), (c.secondary || []).map(n => nicheChip(n, true))),
+      statusNote,
+      h("div", { class: "chips", style: "margin-top:10px" }, nicheChip(c.primary, false), (c.secondary || []).map(n => nicheChip(n, true))),
       h("div", { class: "dsec" }, h("h4", null, "Focus"), h("div", null, c.focus || "—")),
       c.problem ? h("div", { class: "dsec" }, h("h4", null, "Problem it targets"), h("div", null, c.problem)) : null,
       h("div", { class: "facts" },
@@ -479,8 +483,8 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
       c.diff ? h("div", { class: "dsec" }, h("h4", null, "What sets it apart"), h("div", null, c.diff)) : null,
       listSec("Deploys on", c.dep), listSec("Serves", c.cust), listSec("Partners", c.partners), listSec("Named customers", c.customers),
       c.src && c.src.length ? h("div", { class: "dsec" }, h("h4", null, "Sources"), h("div", { class: "srcs" }, c.src.slice(0, 6).map(u => h("a", { href: u, target: "_blank", rel: "noopener" }, u.replace(/^https?:\/\//, "").slice(0, 70))))) : null,
-      h("div", { class: "dsec conf" }, `Confidence: funding ${c.conf?.f || "?"}, headcount ${c.conf?.e || "?"}, founded ${c.conf?.y || "?"}. Basis: ${c.basis || "?"}.`)
-    );
+      h("div", { class: "dsec conf" }, `Confidence: funding ${c.conf?.f || "?"}, headcount ${c.conf?.e || "?"}, founded ${c.conf?.y || "?"}. Basis: ${c.basis || "?"}${c.factchecked && c.factchecked.length ? " · fact-checked" : ""}.`)
+    ].filter(Boolean));
     drawer.hidden = false; scrim.hidden = false; drawer.scrollTop = 0; drawer.querySelector(".x").focus();
   }
 
@@ -503,7 +507,7 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     $("#kpis").replaceChildren(
       kpi(String(d.companies.length), `companies profiled (from ${m.candidates} candidates)`),
       kpi(String(m.countries), "countries"),
-      kpi(fmtM(m.fundingTotal), "disclosed venture funding, independent companies"),
+      kpi(fmtM(m.fundingTotal), "disclosed funding raised by core independent companies"),
       kpi(String((d.deals || []).length), `acquisitions tracked (${(d.deals || []).filter(x => x.year >= 2025).length} in 2025–26)`));
     $("#takeaways").replaceChildren(...d.insights.map((t, i) => h("li", null, h("span", { class: "k" }, String(i + 1).padStart(2, "0")), h("span", null, ...richText(t)))));
     bars($("#bars-domain"), d.domains.map(dm => ({ label: `${dm.code}. ${dm.name}`, v: d.companies.filter(c => S.niche[c.primary]?.domain === dm.id).length, color: domColor(dm.id), tip: dm.q, onClick: () => { location.hash = "territory"; setTimeout(() => document.getElementById("dp-" + dm.id)?.scrollIntoView({ behavior: "smooth" }), 60); } })));
@@ -549,7 +553,7 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     const gl = g.append("g"), gn = g.append("g");
     const zoom = d3.zoom().scaleExtent([0.15, 3]).on("zoom", e => g.attr("transform", e.transform));
     svg.call(zoom).on("dblclick.zoom", null);
-    const COLX = [0, 130, 390, 700];
+    const COLX = [0, 130, 390, 740];
     const ROW = 21;
     let matchId = null;
     function layout() {
@@ -561,11 +565,6 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     function update(focusNode) {
       layout();
       const nodes = root.descendants(), links = root.links();
-      const link = gl.selectAll("path").data(links, l => keyOf(l.target));
-      link.exit().remove();
-      link.enter().append("path").attr("class", "mm-link").merge(link)
-        .attr("stroke", l => color(l.target)).attr("stroke-width", l => l.target.depth === 1 ? 2.4 : l.target.depth === 2 ? 1.6 : 1)
-        .attr("d", d3.linkHorizontal().x(p => p.y).y(p => p.x));
       const node = gn.selectAll("g.mm-node").data(nodes, keyOf);
       node.exit().remove();
       const ne = node.enter().append("g").attr("class", n => `mm-node ${n.data.type}${n.data.sec ? " sec" : ""}`);
@@ -589,8 +588,15 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
       });
       all.select("rect.hlbox").each(function (n) {
         const tb = this.parentNode.querySelector("text").getBBox();
+        n.labelEnd = tb.x + tb.width;
         d3.select(this).attr("x", tb.x - 3).attr("y", tb.y - 1).attr("width", tb.width + 6).attr("height", tb.height + 2);
       });
+      const lh = d3.linkHorizontal().x(p => p.y).y(p => p.x);
+      const link = gl.selectAll("path").data(links, l => keyOf(l.target));
+      link.exit().remove();
+      link.enter().append("path").attr("class", "mm-link").merge(link)
+        .attr("stroke", l => color(l.target)).attr("stroke-width", l => l.target.depth === 1 ? 2.4 : l.target.depth === 2 ? 1.6 : 1)
+        .attr("d", l => l.target.depth === 3 ? lh({ source: { x: l.source.x, y: l.source.y + (l.source.labelEnd || 0) + 8 }, target: l.target }) : lh(l));
       all.selectAll("title").remove();
       all.filter(n => n.data.type === "niche").append("title").text(n => `${S.niche[n.data.ref].desc} — click to ${n.children ? "close" : "open"}`);
       if (focusNode) centerOn(focusNode, false);
@@ -681,9 +687,9 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
       h("div", { style: "font-size:13.5px;font-weight:600" }, h("span", { class: "dom-dot", style: `background:${domColor(x.n.domain)}` }), `${x.n.id} ${x.n.name} `, h("span", { class: "tag" }, `${x.v} co.`)),
       h("div", { class: "chips", style: "margin-top:5px" }, (S.byNiche[x.n.id] || []).map(y => chipFor(y.c))))));
     // uniques
-    const sig = {}; d.companies.forEach(c => { const k = [c.primary, ...(c.secondary || [])].sort().join("|"); (sig[k] = sig[k] || []).push(c); });
-    const uniq = Object.values(sig).filter(a => a.length === 1 && (a[0].secondary || []).length >= 1).map(a => a[0]).sort((a, b) => a.name.localeCompare(b.name));
-    $("#uniques").replaceChildren(...uniq.map(c => chipFor(c)));
+    const sig = {}; d.companies.forEach(c => { const ds = [...S.coDomains[c.id]].sort(); if (ds.length < 2) return; const k = ds.join("|"); (sig[k] = sig[k] || []).push(c); });
+    const uniq = Object.values(sig).filter(a => a.length === 1).map(a => a[0]).sort((a, b) => a.name.localeCompare(b.name));
+    $("#uniques").replaceChildren(...uniq.map(c => { const ch = chipFor(c); ch.title = [...S.coDomains[c.id]].map(x => S.dom[x].short).join(" + ") + " · " + (c.focus || ""); return ch; }));
   }
   function chipFor(c) {
     const n = S.niche[c.primary];

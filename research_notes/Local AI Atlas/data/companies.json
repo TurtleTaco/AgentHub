@@ -22,7 +22,7 @@
    "Alibaba Cloud",
    "Sinovation Ventures"
   ],
-  "emp": 200,
+  "emp": 240,
   "empBand": "201-500",
   "focus": "Kai-Fu Lee's company: Yi open models and enterprise LLM solutions in China.",
   "problem": "Enterprises need capable LLMs deployed privately on their own infrastructure.",
@@ -72,12 +72,17 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "4paradigm",
@@ -168,7 +173,7 @@
   "legalName": "ABBYY",
   "verdict": "borderline",
   "web": "https://www.abbyy.com",
-  "city": "Milpitas",
+  "city": "Austin",
   "country": "United States",
   "region": "North America",
   "founded": 1989,
@@ -182,7 +187,7 @@
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 1000,
+  "emp": 562,
   "empBand": "501-1000",
   "focus": "Intelligent document processing and OCR, with on-prem and cloud deployment.",
   "problem": "Extracting data from documents without sending sensitive files to third-party clouds.",
@@ -234,12 +239,19 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "hq_country",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "acer",
@@ -494,7 +506,7 @@
   "parent": null,
   "stage": "Series B",
   "fund": 29,
-  "lastRound": null,
+  "lastRound": "$20M, May 2023 (Series B per CB Insights; investors incl. Boka Group, AWS Defence Accelerator)",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -541,16 +553,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.cbinsights.com/company/adarga",
    "https://theaiinsider.tech/?p=30814"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ai-inside",
@@ -742,7 +758,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series D+",
-  "fund": 336,
+  "fund": 700,
   "lastRound": "Series D, $208M, Aug 2023",
   "val": 1400,
   "mcap": null,
@@ -811,13 +827,17 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "low",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "aible",
@@ -834,7 +854,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 25,
+  "fund": 27,
   "lastRound": null,
   "val": null,
   "mcap": null,
@@ -883,15 +903,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.dell.com/en-us/infohub/articles/designing-an-enterprise-ai-factory-architecture-for-agentic-applications"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "aibrix-bytedance",
@@ -1123,7 +1147,10 @@
   "src": [
    "https://www.businesswire.com/news/home/20250916641185/en"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "airrived",
@@ -2358,7 +2385,7 @@
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": null,
+  "emp": 375,
   "empBand": "201-500",
   "focus": "Designing, building and hosting liquid-cooled AI infrastructure from edge to AI factory.",
   "problem": "Enterprises lack the engineering capacity to design, cool and deploy high-density on-prem AI clusters quickly.",
@@ -2418,17 +2445,22 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
-   "y": "low"
+   "e": "medium",
+   "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://amax.com/",
    "https://www.amax.com/amax-advances-major-site-expansion/",
    "https://www.hpcwire.com/off-the-wire/amax-launches-hostmax-to-eliminate-ai-infrastructure-deployment-delays",
    "https://www.amax.com/content/files/2025/04/End-to-End-On-Prem.pdf"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "amazon-aws",
@@ -2641,8 +2673,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 8,
-  "lastRound": "Series A, EUR 7M, 2026, led by Ventech with NRW.Bank",
+  "fund": 10.5,
+  "lastRound": "Series A, EUR7M, Aug 17 2026, co-led by Ventech and NRW.Venture",
   "val": null,
   "mcap": null,
   "investors": [
@@ -2682,15 +2714,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "low"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://thenextweb.com/news/amber-series-a-7m-ventech-nrw-bank-ai-data-layer"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ambient-scientific",
@@ -2792,9 +2829,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series B",
-  "fund": 72,
-  "lastRound": "Strategic investment, $20M, 2023, Allegion Ventures",
+  "stage": "Series C",
+  "fund": 100,
+  "lastRound": "Series C, Oct 2026, led by Allegion Ventures (amount not found); total funding past $100M",
   "val": null,
   "mcap": null,
   "investors": [
@@ -2847,7 +2884,13 @@
   "src": [
    "https://pulse2.com/ambient-ai-receives-20-million-allegion-ventures/amp/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ambiq",
@@ -3279,7 +3322,7 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": 150,
-  "lastRound": "Series C, $150M, Jul 2021, led by Insight Partners, at $1.5B",
+  "lastRound": "Series C, $150M+, Jul 31 2025, led by Insight Partners with Mubadala, at $1.5B post-money",
   "val": 1500,
   "mcap": null,
   "investors": [
@@ -3341,11 +3384,15 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.anaconda.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "anaflash",
@@ -3353,17 +3400,17 @@
   "legalName": "Anaflash",
   "verdict": "in",
   "web": "https://www.anaflash.com",
-  "city": "San Jose, California",
+  "city": "Sunnyvale, California",
   "country": "United States",
   "region": "North America",
-  "founded": null,
+  "founded": 2019,
   "type": "startup",
   "status": "active",
-  "statusDetail": "Current activity not verified (search unavailable)",
+  "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 8.9,
+  "lastRound": "Series A, undisclosed, Nov 2024, led by Stonebridge Ventures with L&S Venture Capital, Lotte Ventures, Plug and Play",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -3406,15 +3453,24 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.anaflash.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "founded",
+   "status_detail",
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "analog-devices",
@@ -3979,7 +4035,7 @@
    "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://siliconangle.com/2026/07/30/nscale-buys-ai-infrastructure-optimization-startup-anyscale-reported-1-65b/",
    "https://www.hpcwire.com/off-the-wire/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform/",
@@ -3987,7 +4043,10 @@
    "https://futurumgroup.com/?p=93517",
    "https://multiples.vc/private-comps/anyscale"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "apple",
@@ -4441,9 +4500,11 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "basis"
+  ]
  },
  {
   "id": "arc-compute",
@@ -4713,8 +4774,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Seed",
-  "fund": 10,
-  "lastRound": "Seed, $10M, Jun 2026",
+  "fund": 13.5,
+  "lastRound": "Seed, $10M, Jun 2 2026, led by 20VC with Visible Ventures, Tenacity Capital",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -4751,15 +4812,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
-   "y": "low"
+   "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://tech.eu/2026/06/02/archestraai-raises-10m-to-unlock-next-gen-agentic-use-case/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "architek",
@@ -4770,14 +4836,14 @@
   "city": "Osaka",
   "country": "Japan",
   "region": "Japan & Korea",
-  "founded": null,
+  "founded": 2011,
   "type": "startup",
   "status": "active",
-  "statusDetail": "Existence/activity not verified by search (search unavailable); profile from model knowledge",
+  "statusDetail": "Operating Osaka edge-AI chip maker (AiOnIc processor); no 2025-26 funding news found",
   "parent": null,
   "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "fund": 18.5,
+  "lastRound": "Corporate minority (Sparx Group), ~JPY104M/$0.75M, Aug 2022",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -4821,11 +4887,18 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "total_funding_usd_m",
+   "last_round",
+   "status_detail",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "arduino",
@@ -5385,9 +5458,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Series B",
   "fund": null,
-  "lastRound": null,
+  "lastRound": "Series B, $5M, Sep 2023; $2.6M debt May 2024",
   "val": null,
   "mcap": null,
   "investors": [
@@ -5443,11 +5516,16 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.aspinity.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "funding_stage",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "assemblyai",
@@ -5522,9 +5600,12 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "asus",
@@ -5870,7 +5951,7 @@
   "parent": null,
   "stage": "Series D+",
   "fund": 290,
-  "lastRound": "Series D, Jan 2022",
+  "lastRound": "Series D, $123M, Jan 2022",
   "val": null,
   "mcap": null,
   "investors": [
@@ -5878,7 +5959,7 @@
    "Verizon Ventures",
    "Boeing"
   ],
-  "emp": 270,
+  "emp": 263,
   "empBand": "201-500",
   "focus": "Industrial AI for asset performance, visual safety and autonomy.",
   "problem": "Industrial operators struggle to predict failures and ensure safety across assets.",
@@ -5938,7 +6019,12 @@
   "src": [
    "https://www.cbinsights.com/company/sparkcognition/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "aveni",
@@ -5956,7 +6042,7 @@
   "parent": null,
   "stage": "Series A",
   "fund": null,
-  "lastRound": null,
+  "lastRound": "GBP12M, Jun 4 2026 (Puma Growth Partners, PXN, Nationwide, Lloyds); prior GBP11M Series A 2024",
   "val": null,
   "mcap": null,
   "investors": [
@@ -6006,13 +6092,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "avesha",
@@ -6573,9 +6663,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series D+",
+  "stage": "Series A",
   "fund": 700,
-  "lastRound": "Series A, ~$300M, Jul 2024 (Alibaba, Tencent, Xiaomi)",
+  "lastRound": "Series A, ~US$690-700M (RMB 5B), 2024, Alibaba, Tencent, Xiaomi; >RMB 20B valuation",
   "val": 2800,
   "mcap": null,
   "investors": [
@@ -6630,13 +6720,18 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "baidu",
@@ -6759,9 +6854,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series B",
+  "fund": 31.4,
+  "lastRound": "Series B, $14.4M, Jul 2019, led by OpenView",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -6817,15 +6912,21 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.balena.io"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "barbara",
@@ -6945,7 +7046,7 @@
    "Altimeter Capital",
    "Conviction"
   ],
-  "emp": null,
+  "emp": 352,
   "empBand": "201-500",
   "focus": "High-performance production inference for open, custom and fine-tuned models",
   "problem": "Serving AI models in production at low latency and cost is hard to build and operate in-house.",
@@ -7016,11 +7117,11 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://dealroom.co/news/135561-baseten-raises-1-5b-series-f-at-13b-valuation-as-ai-inference-demand-sur/",
    "https://siliconangle.com/2026/01/20/ai-inference-startup-baseten-hits-5b-valuation-300m-round-backed-nvidia/",
@@ -7028,7 +7129,11 @@
    "https://sacra.com/research/baseten",
    "https://www.plushcap.com/content/baseten/blog/baseten-announcing-the-acquihire-of-inferless-by-baseten"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "beam-beta9",
@@ -7188,7 +7293,7 @@
   "city": "Shenzhen",
   "country": "China",
   "region": "Greater China",
-  "founded": 2012,
+  "founded": 2011,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
@@ -7237,13 +7342,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "bentoml",
@@ -8111,14 +8220,14 @@
   "city": "Ottawa, Ontario",
   "country": "Canada",
   "region": "North America",
-  "founded": null,
+  "founded": 2020,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Seed",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 14,
+  "lastRound": "Series A, C$20M (~US$14M), Apr 2025, co-led by Cycle Capital and BDC Capital",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -8163,16 +8272,23 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
-   "y": "low"
+   "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://techsoda.substack.com/p/canadian-startup-blumind-to-release",
    "https://tech-insider.org/ca/blumind-bm110-evaluation-kit-analog-ai-chip-ottawa-2026/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "boltai",
@@ -8248,14 +8364,14 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 76.6,
+  "lastRound": "Series A, ~$60.2M (KRW 87B), Feb 2026, with KDB, Atinum, KB Investment; Hyundai early investor",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": null,
-  "empBand": "51-200",
+  "emp": 220,
+  "empBand": "201-500",
   "focus": "AI accelerator chiplets and SoCs for software-defined vehicles",
   "problem": "Automakers need scalable in-vehicle compute for ADAS and in-cabin generative AI.",
   "diff": "Chiplet-based automotive AI accelerators leveraging Tenstorrent RISC-V/Tensix technology.",
@@ -8294,15 +8410,23 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.bos-semi.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "bosch",
@@ -8399,7 +8523,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 9,
+  "fund": 70,
   "lastRound": "Seed/Series A, ~$9M, 2023 (unverified)",
   "val": null,
   "mcap": null,
@@ -8454,9 +8578,13 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "boston-limited",
@@ -8944,8 +9072,8 @@
    "Pantera",
    "Propel"
   ],
-  "emp": 300,
-  "empBand": "201-500",
+  "emp": 177,
+  "empBand": "51-200",
   "focus": "Privacy browser with Leo AI assistant",
   "problem": "Using AI in the browser without sending data to third parties",
   "diff": "Browser-native assistant allowing local model endpoints",
@@ -8986,9 +9114,14 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "brevilabs-obsidian-copilot",
@@ -9749,7 +9882,7 @@
   "investors": [
    "General Atlantic"
   ],
-  "emp": 1100,
+  "emp": 1342,
   "empBand": "1001-5000",
   "focus": "Open-source OS and infrastructure with packaged AI/ML stacks for on-prem and edge",
   "problem": "Deploying and operating open AI/ML stacks on own hardware is complex and unsupported.",
@@ -9811,13 +9944,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "low",
    "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "canopy-labs",
@@ -9899,13 +10036,13 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 16,
+  "lastRound": "Series A, $10M, Jul 2026, led by IFC with Stellaris Venture Partners; seed $6M Feb 2024",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 100,
+  "emp": 80,
   "empBand": "51-200",
   "focus": "Platform to test, deploy and monitor radiology AI.",
   "problem": "Hospitals struggle to validate and integrate many imaging AI algorithms.",
@@ -9944,13 +10081,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "cartesia",
@@ -10421,7 +10565,7 @@
   "legalName": "ChapsVision",
   "verdict": "borderline",
   "web": "https://www.chapsvision.com",
-  "city": "Paris",
+  "city": "Suresnes",
   "country": "France",
   "region": "Europe",
   "founded": 2018,
@@ -10429,9 +10573,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Series C",
   "fund": null,
-  "lastRound": null,
+  "lastRound": "Series C, $90M, Nov 2024, led by Tikehau Capital, Qualium, Bpifrance, GENEO, Jolt",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -10492,11 +10636,17 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.chapsvision.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "cherry-studio",
@@ -11029,9 +11179,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Series B",
   "fund": null,
-  "lastRound": null,
+  "lastRound": "Series B, ~RMB 1B (~$140-150M), Mar 2026, co-led by Shanghai IC Fund and Pudong VC",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -11087,13 +11237,18 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "medium"
+   "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.cixtech.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "clarifai",
@@ -11375,17 +11530,17 @@
   "legalName": "CLIKA",
   "verdict": "in",
   "web": "https://www.clika.io",
-  "city": null,
-  "country": null,
-  "region": null,
+  "city": "San Jose",
+  "country": "United States",
+  "region": "North America",
   "founded": 2021,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Seed",
+  "fund": 1.4,
+  "lastRound": "Strategic seed, Aug 2025 (Accenture Ventures, IQT, Milemark Capital, Golden Gate Ventures); amount undisclosed",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -11433,13 +11588,21 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.clika.io"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "hq_country",
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "cloudera",
@@ -11464,7 +11627,7 @@
    "KKR",
    "Clayton, Dubilier & Rice"
   ],
-  "emp": null,
+  "emp": 3955,
   "empBand": "1001-5000",
   "focus": "Hybrid data platform with private AI, inference and analytics for regulated enterprises",
   "problem": "Regulated enterprises want generative AI on their data without moving it to public-cloud AI services.",
@@ -11527,12 +11690,16 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "cloudian",
@@ -11931,8 +12098,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": null,
-  "lastRound": null,
+  "fund": 82.9,
+  "lastRound": "Series B2, $35M, Jun 2024, led by Georgian",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -11978,13 +12145,19 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "cognex",
@@ -13013,7 +13186,7 @@
   "parent": null,
   "stage": "Series B",
   "fund": 66,
-  "lastRound": "Series B, $35M, led by Ansa Capital and Battery Ventures",
+  "lastRound": "Series B, $35M, Jun 2026, co-led by Ansa Capital and Battery Ventures",
   "val": null,
   "mcap": null,
   "investors": [
@@ -13069,7 +13242,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -13078,7 +13251,11 @@
    "https://www.businesswire.com/news/home/20250115943800/en/Coram-AI-Raises-$13.8-Million-in-Series-A-Funding-to-Bring-AI-to-Video-Security-Boosting-Workplace-Safety-and-Efficiency",
    "https://thenextweb.com/news/coram-35m-series-b-ai-physical-security"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "core42",
@@ -13177,9 +13354,9 @@
   "founded": 2016,
   "type": "startup",
   "status": "active",
-  "statusDetail": "Current activity not verified (search unavailable)",
+  "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Series C",
   "fund": null,
   "lastRound": null,
   "val": null,
@@ -13234,9 +13411,14 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "status_detail",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "corover-bharatgpt",
@@ -13252,13 +13434,13 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 4.3,
+  "lastRound": "Series A, $4M, Sep 2024, led by Venture Catalysts",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 150,
+  "emp": 120,
   "empBand": "51-200",
   "focus": "Conversational AI and BharatGPT sovereign Indian-language models.",
   "problem": "Indian enterprises need multilingual AI with data residency control.",
@@ -13302,15 +13484,23 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://corover.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "corsair",
@@ -13793,9 +13983,9 @@
   "status": "active",
   "statusDetail": "Spun out of Horizon Robotics (2024)",
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series C",
+  "fund": 770,
+  "lastRound": "Series C, US$400M, Sep 2026, led by Mirae Asset with Meituan",
   "val": null,
   "mcap": null,
   "investors": [
@@ -13863,15 +14053,21 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.d-robotics.cc"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "dataiku",
@@ -13899,7 +14095,7 @@
    "Battery Ventures",
    "ICONIQ"
   ],
-  "emp": 1200,
+  "emp": 1250,
   "empBand": "1001-5000",
   "focus": "Enterprise AI platform for analytics, ML, GenAI and agents",
   "problem": "Enterprises need governed AI development across data teams and models.",
@@ -13948,9 +14144,13 @@
    "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "dataloop",
@@ -13966,9 +14166,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series A",
-  "fund": 33,
-  "lastRound": "Series A, $33M, 2022",
+  "stage": "Series B",
+  "fund": 49,
+  "lastRound": "Series B, $33M, Nov 2022, led by NGP Capital and Alpha Wave Global",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -14008,13 +14208,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "datarobot",
@@ -14032,7 +14238,7 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": 1000,
-  "lastRound": null,
+  "lastRound": "Series G, $300M, Jul 2021 ($6.3B valuation)",
   "val": 6300,
   "mcap": null,
   "investors": [
@@ -14085,13 +14291,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "datasapiens",
@@ -14248,14 +14458,17 @@
    "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.blackstone.com/news/press/blackstone-invests-300-million-at-a-5-billion-valuation-in-ddn-ai-and-data-intelligence-solutions-leader-to-fuel-further-rapid-growth/",
    "https://www.ddn.com/blog/how-blackstones-300m-investment-will-propel-ddn-to-transform-enterprise-ai/",
    "https://blocksandfiles.com/tag/ddn",
    "https://www.ddn.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deep-cogito",
@@ -14271,9 +14484,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Seed",
-  "fund": 13,
-  "lastRound": "Seed, $13M, 2025, led by Benchmark (unverified)",
+  "stage": "Series A",
+  "fund": 56,
+  "lastRound": "Series A, $43M, Aug 26 2026, led by TQ Ventures (Benchmark, Nexus, Atreides, Zscaler)",
   "val": null,
   "mcap": null,
   "investors": [
@@ -14321,15 +14534,21 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://techcrunch.com/2025/04/08/deep-cogito-emerges-from-stealth-with-hybrid-ai-reasoning-models"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deep-north",
@@ -14343,11 +14562,11 @@
   "founded": 2016,
   "type": "startup",
   "status": "active",
-  "statusDetail": null,
+  "statusDetail": "Now operates as StrataVision AI (formerly Deep North) per Craft",
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 58.4,
+  "lastRound": "Series A-1, $16.7M, 2021, co-led by Celesta Capital and Yobi Partners",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -14389,15 +14608,22 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.deepnorth.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "status_detail",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deepc",
@@ -14414,12 +14640,12 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": null,
-  "lastRound": null,
+  "fund": 30,
+  "lastRound": "Series A extension, total raised $30M",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 100,
+  "emp": 68,
   "empBand": "51-200",
   "focus": "deepcOS platform aggregating third-party radiology AI.",
   "problem": "Hospitals cannot integrate and govern dozens of separate imaging AI tools.",
@@ -14451,13 +14677,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deepgram",
@@ -14589,10 +14821,10 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Bootstrapped",
-  "fund": null,
-  "lastRound": null,
-  "val": null,
+  "stage": "Late/Growth",
+  "fund": 7400,
+  "lastRound": "First external round, ~CNY50B ($7.4B), mid-2026, Tencent, CATL, national AI industry fund",
+  "val": 50000,
   "mcap": null,
   "investors": [
    "High-Flyer (parent fund)"
@@ -14651,12 +14883,19 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.deepseek.com",
    "https://huggingface.co/deepseek-ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "valuation_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deepset",
@@ -14726,9 +14965,12 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "deepx",
@@ -14755,7 +14997,7 @@
    "Timefolio Asset Management",
    "Shinhan Financial Group"
   ],
-  "emp": null,
+  "emp": 139,
   "empBand": "51-200",
   "focus": "Ultra-low-power NPU chips and modules for edge and physical AI",
   "problem": "GPUs and cloud inference are too power-hungry and costly for always-on AI in cameras, robots and appliances.",
@@ -14823,10 +15065,10 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://tech-insider.org/deepx-ipo-2026-korean-edge-ai-chip-700-million/",
    "https://news.bloomberglaw.com/artificial-intelligence/ai-chip-designer-deepxs-value-surges-to-2-2-billion-in-funding",
@@ -14834,7 +15076,12 @@
    "https://technews.tw/2025/08/10/deepx-hires-morgan-stanley-for-ipo-funding/",
    "https://www.thestar.com.my/tech/tech-news/2026/04/14/korean-ai-chip-startup-deepx-prepares-public-share-offering"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "defense-unicorns",
@@ -15417,7 +15664,10 @@
   "src": [
    "https://www.businesswire.com/news/home/20260309511426/en"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "dinoki-labs",
@@ -15586,7 +15836,7 @@
    "Insight Partners",
    "Tribe Capital"
   ],
-  "emp": null,
+  "emp": 600,
   "empBand": "501-1000",
   "focus": "Container developer platform extending to local-first AI model and agent development",
   "problem": "Developers lack a standard, reproducible way to pull, run and ship LLMs locally alongside app containers.",
@@ -15641,18 +15891,23 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
-   "e": "low",
+   "f": "high",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://siliconangle.com/?p=692323",
    "https://futurumgroup.com/insights/docker-gets-105m-in-series-c-funding-as-transformation-from-enterprise-container-vendor-to-a-collaborative-developer-platform-continues-after-2019-restructuring",
    "https://sacra.com/c/docker/",
    "https://docs.docker.com/ai/model-runner/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "domino-data-lab",
@@ -15679,7 +15934,7 @@
    "Coatue",
    "Bloomberg Beta"
   ],
-  "emp": 300,
+  "emp": 336,
   "empBand": "201-500",
   "focus": "Enterprise AI/MLOps platform for regulated industries",
   "problem": "Regulated firms need governed model development across hybrid infrastructure.",
@@ -15718,12 +15973,16 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "domyn-formerly-igenius",
@@ -15982,8 +16241,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": null,
-  "lastRound": null,
+  "fund": 50,
+  "lastRound": "Series B, $30M, Oct 2021, led by LG Technology Ventures",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -16027,13 +16286,18 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "edge-impulse",
@@ -17060,7 +17324,7 @@
   "legalName": "Elementary",
   "verdict": "borderline",
   "web": "https://www.elementaryml.com",
-  "city": "Los Angeles",
+  "city": "Pasadena",
   "country": "United States",
   "region": "North America",
   "founded": 2017,
@@ -17069,8 +17333,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": null,
-  "lastRound": null,
+  "fund": 47.5,
+  "lastRound": "Series B, $30M, Dec 2021, led by Tiger Global",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -17113,15 +17377,21 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.elementaryml.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "elephas",
@@ -17704,12 +17974,12 @@
   "city": null,
   "country": null,
   "region": null,
-  "founded": null,
+  "founded": 2021,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Seed",
   "fund": null,
   "lastRound": null,
   "val": null,
@@ -17755,13 +18025,18 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://enot.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "funding_stage",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ente-technologies",
@@ -17853,7 +18128,7 @@
   "parent": null,
   "stage": "Series B",
   "fund": 40,
-  "lastRound": null,
+  "lastRound": "Series B, $25M, Apr 2022, led by USAA",
   "val": null,
   "mcap": null,
   "investors": [
@@ -17899,13 +18174,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "esperanto-technologies",
@@ -17976,14 +18255,17 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.globenewswire.com/de/news-release/2025/11/19/3191016/0/en/Ainekko-Acquires-Esperanto-Technologies-Intellectual-Property-to-Power-Open-Source-Edge-AI-Platform.html",
    "https://www.jonpeddie.com/news/ainekko-acquires-esperanto-ip/",
    "https://siliconcatalyst.com/ainekko-merges-with-veevx-expands-open-silicon-platform",
    "https://eetimes.itmedia.co.jp/ee/articles/2507/10/news051.html"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "espressif-systems",
@@ -18090,8 +18372,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 56.5,
-  "lastRound": "Series A, $56.5M, 2024, led by Google/NVIDIA/AMD (unverified)",
+  "fund": 64.8,
+  "lastRound": "Series A, $56.5M, Dec 2023, led by March Capital with Google, NVIDIA, AMD",
   "val": null,
   "mcap": null,
   "investors": [
@@ -18139,15 +18421,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.essential.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "eswin-computing",
@@ -18258,14 +18545,14 @@
   "statusDetail": "Rebranded from Eta Compute to ModelCat (Aug 2025); earlier pivoted from tinyML MCUs to software",
   "parent": null,
   "stage": "Series C",
-  "fund": null,
+  "fund": 23.2,
   "lastRound": "Series C, $12.5M, 2020, led by Synaptics",
   "val": null,
   "mcap": null,
   "investors": [
    "Synaptics"
   ],
-  "emp": null,
+  "emp": 15,
   "empBand": "11-50",
   "focus": "Agentic, hardware-aware model builder for embedded and IoT edge AI",
   "problem": "Building, optimizing and validating ML models for specific microcontrollers is slow and requires scarce embedded-ML expertise.",
@@ -18319,7 +18606,7 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.prnewswire.com/news-releases/eta-compute-is-changing-its-name-to-modelcat--launching-a-bold-new-era-in-ai-development-302541000.html",
    "https://yespress.io/modelcat-ai",
@@ -18327,7 +18614,12 @@
    "https://www.silabs.com/blog/silicon-labs-and-eta-compute-simplify-edge-ml-development",
    "https://www.edgeir.com/eta-compute-nxp-semiconductors-team-up-to-optimize-edge-ai-development-20231206"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "etched",
@@ -18608,13 +18900,13 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 71,
+  "lastRound": "Series A, EUR65M (~$71M), May 2023, led by Crosspoint Capital",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 300,
+  "emp": 261,
   "empBand": "201-500",
   "focus": "Vision AI for retail checkout and process compliance",
   "problem": "Retailers lose margin to checkout errors and theft with limited visibility.",
@@ -18653,15 +18945,23 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://everseen.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "eviden-bull-atos-advanced-computing",
@@ -18990,7 +19290,10 @@
   "src": [
    "https://omm.com/news/press-releases/o-melveny-advises-expanso-on-us-75-million-seed-investment"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "expedera",
@@ -19406,7 +19709,7 @@
   "legalName": "femtoAI (Femtosense, Inc.)",
   "verdict": "in",
   "web": "https://femtosense.ai",
-  "city": null,
+  "city": "San Bruno",
   "country": "United States",
   "region": "North America",
   "founded": 2018,
@@ -19415,7 +19718,7 @@
   "statusDetail": "Rebranded from Femtosense to femtoAI (2025)",
   "parent": null,
   "stage": "Unknown",
-  "fund": null,
+  "fund": 33.9,
   "lastRound": "Undisclosed round, ~$22.6M sold from 23 investors per SEC Form D (first sale Aug 2026, amended Oct 2026)",
   "val": null,
   "mcap": null,
@@ -19480,7 +19783,7 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.businesswire.com/news/home/20251230441341/en",
    "https://runtimewire.com/article/femtoai-200000-spu-chips-marshall-edge-ai",
@@ -19488,7 +19791,12 @@
    "https://vcbeast.com/deals/femtosense-form-d-2026-08-31",
    "https://www.cbinsights.com/company/femtosense/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ferrum-health",
@@ -20447,8 +20755,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series C",
-  "fund": 180,
-  "lastRound": null,
+  "fund": 122,
+  "lastRound": "Series C, $90M, Sep 2022, led by Goldman Sachs Asset Management",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -20502,13 +20810,18 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "foundries-io",
@@ -20595,7 +20908,7 @@
   "parent": null,
   "stage": "Series C",
   "fund": null,
-  "lastRound": "Series C, $720M, Nov 2026, reportedly led by Thrive Capital with Founders Fund, Lightspeed, Redpoint; ~$7B valuation",
+  "lastRound": "Series C, ~$720M (reports range $720-774M), Nov 2026, Thrive Capital, Founders Fund, Lightspeed, Redpoint; UK Sovereign AI Fund backing; ~$7B valuation (unconfirmed by company)",
   "val": 7000,
   "mcap": null,
   "investors": [
@@ -20660,7 +20973,11 @@
    "https://www.hpcwire.com/off-the-wire/fractile-raises-220m-to-build-the-next-generation-of-inference-hardware/",
    "https://sifted.eu/articles/european-chips-funding-almost-quadruples-as-investors-back-nvidias-inference-challengers/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "framework-computer",
@@ -20678,7 +20995,7 @@
   "parent": null,
   "stage": "Series A",
   "fund": 48,
-  "lastRound": null,
+  "lastRound": "Series A-1, $17M, Apr 2024, led by Spark Capital (+$1M community round)",
   "val": null,
   "mcap": null,
   "investors": [
@@ -20725,9 +21042,13 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "friendliai",
@@ -21012,7 +21333,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series D+",
-  "fund": null,
+  "fund": 866,
   "lastRound": "Series D, $620M, 2026, largest investor Korea's National Growth Fund ($280M); ~$2.9B post-money",
   "val": 2900,
   "mcap": null,
@@ -21083,7 +21404,7 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://datacenterdynamics.com/en/news/furiosaai-raises-620m-at-a-post-money-valuation-of-approximately-29bn",
    "https://www.crnasia.com/news/2026/components-and-peripherals/furiosaai-to-scale-rngd-inference-chip-production-following",
@@ -21092,7 +21413,11 @@
    "https://koreatechdesk.com/furiosaai-rngd-production-ai-inference-commercialization-korea",
    "https://furiosa.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "futo",
@@ -21285,9 +21610,9 @@
   "legalName": "Gaia Labs (GaiaNet)",
   "verdict": "borderline",
   "web": "https://www.gaianet.ai",
-  "city": null,
-  "country": null,
-  "region": null,
+  "city": "Berkeley",
+  "country": "United States",
+  "region": "North America",
   "founded": 2023,
   "type": "startup",
   "status": "active",
@@ -21304,7 +21629,7 @@
    "Generative Ventures",
    "Republic Capital"
   ],
-  "emp": null,
+  "emp": 18,
   "empBand": "11-50",
   "focus": "Decentralized infrastructure where individuals run open-LLM agent nodes on own hardware",
   "problem": "Centralized AI providers control models and data; users lack ownable, privately run AI agents.",
@@ -21361,7 +21686,14 @@
    "https://www.barchart.com/story/news/33637352/gaia-labs-raises-20m-series-a-to-scale-decentralized-ai-infrastructure-and-expand-to-mobile",
    "https://www.cbinsights.com/company/gaianet/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "hq_country",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "gcore",
@@ -21387,7 +21719,7 @@
    "Constructor Capital",
    "Han River Partners"
   ],
-  "emp": null,
+  "emp": 600,
   "empBand": "501-1000",
   "focus": "Global edge cloud, CDN and AI inference across edge PoPs, clouds and on-prem",
   "problem": "Latency-sensitive AI apps need inference close to users while keeping sensitive data isolated.",
@@ -21440,16 +21772,20 @@
   "classified": true,
   "conf": {
    "f": "high",
-   "e": "low",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.businesswire.com/news/home/20250116487759/en/Gcore-Enhances-Everywhere-Inference-With-Flexible-Deployment-Options-Including-Cloud-On-Premise-and-Hybrid",
    "https://businesswire.com/news/home/20240722352056/en/Gcore-Raises-60-Million-in-Series-A-Funding-to-Drive-AI-Innovation-and-Global-Expansion/",
    "https://gcore.com/press-releases/everywhere-inference"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "genetec",
@@ -21471,7 +21807,7 @@
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 2500,
+  "emp": 2300,
   "empBand": "1001-5000",
   "focus": "Unified security platform with on-prem video analytics",
   "problem": "Security operators need unified video, access and analytics, often kept on-premises.",
@@ -21519,14 +21855,18 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "medium",
+   "e": "high",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.genetec.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "genmo",
@@ -21550,7 +21890,7 @@
   "investors": [
    "NEA"
   ],
-  "emp": 25,
+  "emp": 13,
   "empBand": "11-50",
   "focus": "Open video generation models",
   "problem": "Creators want controllable video generation without closed APIs",
@@ -21592,12 +21932,16 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://github.com/genmoai/mochi",
    "https://www.genmo.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "genta-technology-kolosal-ai",
@@ -21863,7 +22207,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": null,
+  "fund": 40.2,
   "lastRound": "Series B first close, $21M, Jul 2025, led by Impact Venture Capital",
   "val": null,
   "mcap": null,
@@ -21874,8 +22218,8 @@
    "Mark IV Capital",
    "SourceCode Cerberus"
   ],
-  "emp": null,
-  "empBand": "51-200",
+  "emp": 31,
+  "empBand": "11-50",
   "focus": "Composable GPU infrastructure for AI inference, from datacenter nodes to carry-on edge systems.",
   "problem": "Scaling many accelerators in one node, or taking GPU inference into the field, is hard with standard servers.",
   "diff": "Composable memory fabric lets many accelerators act as one node, from datacenter to carry-on edge.",
@@ -21928,14 +22272,20 @@
    "e": "low",
    "y": "low"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.hpcwire.com/off-the-wire/gigaio-secures-21m-to-scale-ai-inferencing-infrastructure-solutions/",
    "https://insidehpc.com/2025/07/gigaio-raises-21m-in-series-b-round/",
    "https://www.blocksandfiles.com/ai-ml/2025/07/18/gigaio-bags-21m-to-scale-up-composable-ai-server-gear/1591602",
    "https://gigaio.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "gimlet-labs",
@@ -22009,7 +22359,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "low"
   },
@@ -22021,7 +22371,11 @@
    "https://www.channelinsider.com/ai/gimlet-labs-80m-series-a-ai-inference/",
    "https://winbuzzer.com/2026/03/24/gimlet-labs-80m-series-a-multi-chip-ai-inference-xcxwbn/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_country",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "gitlab",
@@ -22194,7 +22548,7 @@
   "city": "Shenzhen",
   "country": "China",
   "region": "Greater China",
-  "founded": 2018,
+  "founded": 2019,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
@@ -22239,11 +22593,15 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "goke-microelectronics",
@@ -22422,9 +22780,9 @@
   "customers": [],
   "primary": "3c",
   "secondary": [
+   "2g",
    "4a",
-   "4b",
-   "6d"
+   "4b"
   ],
   "classified": true,
   "conf": {
@@ -22981,7 +23339,7 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": null,
-  "lastRound": "Growth capital reported 2026 (one source: $650M, Jun 2026, led by Disruptive & Infinitum; Sacra: $350M at $3.5B, Aug 2026) - conflicting; prior $750M at $6.9B, Sep 2025",
+  "lastRound": "$350M at $3.5B valuation led by Disruptive (Aug 2026, Nvidia planned participation); earlier $650M reported Jun 2026; prior $750M at $6.9B Sep 2025",
   "val": 3500,
   "mcap": null,
   "investors": [
@@ -23062,11 +23420,11 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
    "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-confirms-20-billion-groq-deal-to-bolster-ai-inference-dominance",
@@ -23075,7 +23433,12 @@
    "https://sacra.com/research/groq",
    "https://www.businessinsider.jp/article/2609groq-navigates-ai-cloud-market-shift-after-nvidia-deal/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "valuation_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "gyrfalcon-technology",
@@ -23499,7 +23862,7 @@
    "Prosperity7 Ventures",
    "SK Square"
   ],
-  "emp": null,
+  "emp": 245,
   "empBand": "201-500",
   "focus": "Global data platform orchestrating unstructured data across storage and sites for AI/HPC",
   "problem": "AI data is scattered across silos and sites, starving GPUs without costly migrations.",
@@ -23556,16 +23919,20 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://techcrunch.com/2025/04/16/hammerspace-an-unstructured-data-wrangler-used-by-nvidia-meta-and-tesla-raises-100m-at-500m-valuation",
    "https://www.cbinsights.com/company/hammerspace/financials",
    "https://dealroom.co/companies/hammerspace-1/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "hayden-ai",
@@ -23590,7 +23957,7 @@
    "The Rise Fund",
    "BootstrapLabs"
   ],
-  "emp": 200,
+  "emp": 199,
   "empBand": "51-200",
   "focus": "Bus-mounted AI cameras for lane and parking enforcement",
   "problem": "Cities lack scalable enforcement of bus lane and curb violations.",
@@ -23636,7 +24003,7 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
   "basis": "searched",
@@ -23644,7 +24011,12 @@
    "https://www.cbinsights.com/company/hayden-ai/financials",
    "https://www.businesswire.com/news/home/20231018115406/en/Hayden-AI-Closes-on-%2453-Million-Series-B"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "hazen-ai",
@@ -23729,7 +24101,7 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": 3300,
-  "lastRound": "Series E, $1.8B, Jul 2026",
+  "lastRound": "Series E, $1.8B, Jul 13 2026, led by Dragoneer with Lightspeed, General Catalyst, Goldman Sachs Alternatives",
   "val": 18000,
   "mcap": null,
   "investors": [
@@ -23791,7 +24163,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -23800,7 +24172,12 @@
    "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e",
    "https://siliconangle.com/2026/07/13/defense-technology-startup-helsing-raises-1-8b-18b-valuation/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "valuation_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "hepzibah-ai",
@@ -25114,12 +25491,12 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series E",
-  "fund": 300,
-  "lastRound": null,
+  "fund": 289,
+  "lastRound": "Series E, $100M, Dec 2021",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 350,
+  "emp": 250,
   "empBand": "201-500",
   "focus": "Intelligent document processing and automation platform.",
   "problem": "Regulated organizations need to automate document processing without exposing records.",
@@ -25160,13 +25537,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "hypertec",
@@ -25464,9 +25848,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Seed",
+  "stage": "Series A",
   "fund": 3,
-  "lastRound": null,
+  "lastRound": "Series A, >10M (currency unstated), Feb 2023",
   "val": null,
   "mcap": null,
   "investors": [
@@ -25519,9 +25903,14 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "iconic",
@@ -25532,14 +25921,14 @@
   "city": "London",
   "country": "United Kingdom",
   "region": "Europe",
-  "founded": 2024,
+  "founded": 2023,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
   "stage": "Seed",
-  "fund": 13,
-  "lastRound": "Seed, GBP10M, 2025",
+  "fund": 17,
+  "lastRound": "Seed, GBP10M (~$13M/EUR11M), Dec 2025, co-led by Kindred and Northzone; pre-seed $4M 2024",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -25580,11 +25969,17 @@
    "e": "low",
    "y": "low"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.startupmag.co.uk/funding/iconic-2025-seed-funding/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "idein",
@@ -26637,7 +27032,7 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": 1500,
-  "lastRound": null,
+  "lastRound": "$1.3B, Jun 2023, led by Microsoft, Reid Hoffman, Bill Gates, Eric Schmidt, Nvidia",
   "val": 4000,
   "mcap": null,
   "investors": [
@@ -26647,7 +27042,7 @@
    "Bill Gates",
    "Eric Schmidt"
   ],
-  "emp": 70,
+  "emp": 87,
   "empBand": "51-200",
   "focus": "Enterprise AI built on Inflection models after 2024 pivot",
   "problem": "Enterprises want models with data control and emotional-intelligence customer interaction.",
@@ -26686,13 +27081,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
-   "e": "low",
+   "f": "high",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ingenic-semiconductor",
@@ -26874,7 +27275,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": null,
+  "fund": 27,
   "lastRound": "Series A, ~$21M, Jun 2024 (oversubscribed; incl. $16M first close Mar 2024)",
   "val": null,
   "mcap": null,
@@ -26885,7 +27286,7 @@
    "Delft Enterprises",
    "btov Industrial Technologies Fund"
   ],
-  "emp": null,
+  "emp": 80,
   "empBand": "51-200",
   "focus": "Spiking neural network processors for ultra-low-power sensor intelligence",
   "problem": "Battery-powered sensors cannot afford the power of always-on conventional AI processing or constant cloud connectivity.",
@@ -26936,14 +27337,19 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://datacenterdynamics.com/en/news/neuromorphic-processor-startup-innatera-raises-21m",
    "https://finsmes.com/2024/06/innatera-raises-21m-in-series-a-funding.html",
    "https://newelectronics.co.uk/content/news/innatera-attracts-21m-in-oversubscribed-series-a-funding",
    "https://www.tudelft.nl/en/2020/valorisatie/innatera-nanosystems-raises-eur5m-to-bring-neuromorphic-intelligence-to-the-sensor-edge/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "inspekto",
@@ -27028,10 +27434,10 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series C",
-  "fund": null,
-  "lastRound": null,
-  "val": 2000,
+  "stage": "Series D",
+  "fund": 277,
+  "lastRound": "Series D, $100M, Jan 2025, down round at ~$1.24B valuation",
+  "val": 1240,
   "mcap": null,
   "investors": [],
   "emp": 300,
@@ -27075,13 +27481,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "valuation_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "intel",
@@ -27438,12 +27851,15 @@
    "e": "medium",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.bloomberg.com/news/articles/2024-02-27/ai-startup-gets-funds-to-help-prevent-widespread-work-accidents",
    "https://www.cbinsights.com/company/intenseye/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "intrafind",
@@ -28347,12 +28763,12 @@
   "city": null,
   "country": "United States",
   "region": "North America",
-  "founded": null,
+  "founded": 2020,
   "type": "startup",
   "status": "active",
   "statusDetail": "Joined NVIDIA AI Grid ecosystem (Mar 2026)",
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Seed",
   "fund": null,
   "lastRound": null,
   "val": null,
@@ -28405,7 +28821,7 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
   "basis": "searched",
   "src": [
@@ -28414,7 +28830,12 @@
    "https://github.com/Juice-Labs/Juice-Labs",
    "https://www.cbinsights.com/company/juice-labs"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "funding_stage",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "kakao-kanana",
@@ -28507,8 +28928,8 @@
   "status": "active",
   "statusDetail": "Not verified by search (rate limit); company details unconfirmed",
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
+  "stage": "Pre-Seed",
+  "fund": 0.15,
   "lastRound": null,
   "val": null,
   "mcap": null,
@@ -28556,9 +28977,14 @@
    "e": "low",
    "y": "low"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "funding_stage",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "kamiwaza",
@@ -29210,14 +29636,14 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series A",
-  "fund": 20,
-  "lastRound": null,
+  "stage": "Late/Growth",
+  "fund": 50,
+  "lastRound": "Investment from Invus, $30M, Aug 2024",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 200,
-  "empBand": "51-200",
+  "emp": 250,
+  "empBand": "201-500",
   "focus": "Open-source visual data science and analytics platform",
   "problem": "Analysts need low-code data and AI workflows with governance.",
   "diff": "Free open-source visual workflows with local LLM integration.",
@@ -29255,13 +29681,21 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "funding_stage",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "kog-ai",
@@ -30082,7 +30516,7 @@
    "SGW",
    "Mubadala Capital"
   ],
-  "emp": null,
+  "emp": 650,
   "empBand": "501-1000",
   "focus": "NVIDIA GPU cloud plus dedicated private clusters and AI servers/workstations",
   "problem": "AI teams need dedicated, single-tenant GPU capacity without building datacenters themselves.",
@@ -30143,10 +30577,10 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.cbinsights.com/company/lambda-labs/financials",
    "https://stockanalysis.com/private/lambda/",
@@ -30154,7 +30588,12 @@
    "https://dealroom.co/news/160600-lambda-to-raise-4b-pre-ipo-leaning-on-35b-anthropic-deal/",
    "https://w.media/lambda-lining-up-us-3-billion-funding-ahead-of-possible-ipo-report/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "lamini",
@@ -30417,7 +30856,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -30426,7 +30865,10 @@
    "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
    "https://www.cbinsights.com/company/langdock/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "langflow",
@@ -31364,7 +31806,7 @@
    "Matrix Partners",
    "Spark Capital"
   ],
-  "emp": null,
+  "emp": 375,
   "empBand": "201-500",
   "focus": "3D photonic interposers and co-packaged optics to scale AI accelerator clusters",
   "problem": "Electrical interconnect bandwidth and power limit scaling of large AI accelerator clusters.",
@@ -31413,14 +31855,18 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.businesswire.com/news/home/20241016498931/en/Lightmatter-Raises-%2524400M-Series-D-Quadruples-Valuation-to-%25244.4B-as-Photonics-Leader-for-Next-Gen-AI-Data-Centers",
    "https://www.datacenterdynamics.com/en/news/photonic-computing-company-lightmatter-achieves-44bn-valuation-from-400m-series-d-funding-round/",
    "https://defillama.com/pre-ipo/lightmatter",
    "https://sacra.com/c/lightmatter"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "lightmetrics",
@@ -31763,16 +32209,19 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://github.com/Lightricks/LTX-Video",
    "https://www.lightricks.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "lilt",
@@ -31788,14 +32237,14 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series C",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series D",
+  "fund": 137.9,
+  "lastRound": "Series D, ~$45M, Jun 2025 (CB Insights)",
   "val": null,
   "mcap": null,
   "investors": [],
   "emp": 150,
-  "empBand": "51-200",
+  "empBand": "201-500",
   "focus": "AI translation and localization for enterprise and government.",
   "problem": "Organizations need translation of sensitive content without public cloud exposure.",
   "diff": "Adaptive MT with an air-gapped government edition.",
@@ -31834,13 +32283,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "liqid",
@@ -32406,10 +32862,10 @@
   "legalName": "LM-Kit",
   "verdict": "in",
   "web": "https://lm-kit.com",
-  "city": "Paris",
+  "city": "Toulouse",
   "country": "France",
   "region": "Europe",
-  "founded": null,
+  "founded": 2024,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
@@ -32468,14 +32924,19 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://lm-kit.com",
    "https://briefglance.com/articles/lm-kit-one-launches-offering-enterprises-an-ai-lifeline-to-data-sovereignty"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "founded",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "lobehub-lobechat",
@@ -32755,7 +33216,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "low"
   },
@@ -32763,7 +33224,10 @@
   "src": [
    "https://lmstudio.ai/blog/locally-ai-joins-lm-studio"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "lumai",
@@ -33207,17 +33671,20 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.cbinsights.com/company/lynxi-technologies/financials",
    "https://app.dealroom.co/companies/lynxi_technology",
    "https://pitchhub.36kr.com/project/1678558076449800"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mako",
@@ -33309,7 +33776,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": null,
+  "fund": 38.4,
   "lastRound": "Series A, $27M, Jun 2026, led by U.S. Venture Partners",
   "val": null,
   "mcap": null,
@@ -33356,7 +33823,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "low"
   },
@@ -33364,7 +33831,11 @@
   "src": [
    "https://pulse2.com/maneva-raises-27-million-series-a-to-improve-manufacturing-efficiency-with-video-to-action-ai/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mariner",
@@ -33677,8 +34148,8 @@
    "Redpoint",
    "Y Combinator"
   ],
-  "emp": 300,
-  "empBand": "201-500",
+  "emp": 180,
+  "empBand": "51-200",
   "focus": "Self-hosted secure collaboration for defense and critical infrastructure with private AI agents",
   "problem": "Regulated organizations need chat and AI assistants that stay inside their own air-gapped environments.",
   "diff": "Self-hosted, open-core collaboration trusted for DoD/air-gapped use with bring-your-own-LLM.",
@@ -33724,15 +34195,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://mattermost.com/blog/can-agentic-ai-work-in-air-gapped-environments/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "matx",
@@ -34755,9 +35231,9 @@
   "customers": [],
   "primary": "4b",
   "secondary": [
+   "2g",
    "3c",
-   "5b",
-   "6e"
+   "5b"
   ],
   "classified": true,
   "conf": {
@@ -34947,8 +35423,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": null,
-  "lastRound": null,
+  "fund": 44,
+  "lastRound": "Series B, $22M, 2023, Aioi Nissay Dowa Insurance, Parkwalk, Oxford University",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -34992,13 +35468,18 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mindbreeze",
@@ -35422,7 +35903,7 @@
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 450,
+  "emp": 401,
   "empBand": "201-500",
   "focus": "Traffic intersection data and smart signal platform",
   "problem": "Cities lack real-time intersection data to ease congestion and improve safety.",
@@ -35464,9 +35945,13 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mips",
@@ -35649,7 +36134,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Late/Growth",
-  "fund": 220,
+  "fund": 242,
   "lastRound": "Unknown",
   "val": null,
   "mcap": null,
@@ -35713,11 +36198,15 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.mirantis.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mistral-ai",
@@ -36197,7 +36686,7 @@
    "POSCO Investment",
    "Praxis Capital Partners"
   ],
-  "emp": null,
+  "emp": 71,
   "empBand": "51-200",
   "focus": "Edge and on-device NPUs for LLM and vision inference",
   "problem": "Industrial and enterprise users need affordable, power-efficient local AI inference instead of GPU servers or cloud.",
@@ -36263,11 +36752,11 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
-   "e": "low",
+   "f": "high",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://en.wowtale.net/2026/04/07/233820",
    "https://inforcapital.com/news/mobilint-raises-464m-series-c-bets-big-on-edge-ai-with-posco-dx/",
@@ -36275,7 +36764,12 @@
    "https://www.cbinsights.com/company/mobilint/financials",
    "https://www.digitaltoday.co.kr/en/view/44811/mobilint-poscodx-npu-based-industrial-ai-joint-development"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mobius-labs",
@@ -36734,8 +37228,8 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": null,
-  "lastRound": null,
-  "val": null,
+  "lastRound": "~US$2B, May 2026, led by Meituan Dragon Ball, >$20B post-money; later reports of $30-35B rounds unconfirmed",
+  "val": 20000,
   "mcap": null,
   "investors": [
    "Alibaba",
@@ -36786,11 +37280,16 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://huggingface.co/moonshotai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "valuation_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "moore-threads",
@@ -37177,15 +37676,18 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.wamda.com/2026/08/saudi-ai-firm-mozn-secures-strategic-investment-humain"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "msi",
@@ -37552,7 +38054,7 @@
   "founded": 2011,
   "type": "scaleup",
   "status": "active",
-  "statusDetail": null,
+  "statusDetail": "Sold remaining 49.9% of Singapore broadband to StarHub (Aug 2025); StarHub agreed to buy mobile business (Oct 2026 report, closing unconfirmed)",
   "parent": null,
   "stage": "Unknown",
   "fund": null,
@@ -37560,7 +38062,7 @@
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": null,
+  "emp": 300,
   "empBand": "201-500",
   "focus": "Broadband/telco services plus plug-and-play on-prem AI automation servers for SMEs",
   "problem": "SMEs want AI workflow automation without cloud subscriptions, data exposure or in-house AI skills.",
@@ -37621,7 +38123,12 @@
    "https://www.zawya.com/en/economy/global/myrepublic-launches-ai-automation-box-an-industry-first-plug-and-play-ai-server-that-lets-smes-automate-their-u3q9y7mc",
    "https://myrepublic.net/sg/business/blog/business-solutions/build-faster-how-ai-automation-can-help-your-sme/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "status_detail",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "myrtle-ai",
@@ -37632,12 +38139,12 @@
   "city": "Cambridge",
   "country": "United Kingdom",
   "region": "Europe",
-  "founded": null,
+  "founded": 2003,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
+  "stage": "Seed",
   "fund": null,
   "lastRound": null,
   "val": null,
@@ -37699,14 +38206,19 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://app.dealroom.co/companies/myrtle",
    "https://www.cbinsights.com/company/myrtle-software/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "funding_stage",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "mystic-ai",
@@ -37874,11 +38386,11 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.businesswire.com/news/home/20251217546249/en/Mythic-to-Challenge-AIs-GPU-Pantheon-with-100x-Energy-Advantage-and-Oversubscribed-$125M-Raise",
    "https://www.dcvc.com/news-insights/mythic-raises-125m-to-break-through-ais-power-wall/",
@@ -37886,7 +38398,10 @@
    "https://multiples.vc/private-comps/mythic",
    "https://www.cbinsights.com/company/isocline-engineering-corp/financials"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "n8n",
@@ -37904,8 +38419,8 @@
   "parent": null,
   "stage": "Series C",
   "fund": 240,
-  "lastRound": "Series C, $180M, Oct 2025, led by Accel (reported); valuation about $2.5B",
-  "val": 2500,
+  "lastRound": "Series C, $180M, Oct 2025, led by Accel; SAP strategic investment May 2026 at ~$5.2B valuation",
+  "val": 5200,
   "mcap": null,
   "investors": [
    "Accel",
@@ -37914,8 +38429,8 @@
    "Felicis",
    "NVentures"
   ],
-  "emp": 200,
-  "empBand": "51-200",
+  "emp": 1100,
+  "empBand": "1001-5000",
   "focus": "Fair-code workflow automation with AI agents, self-hostable",
   "problem": "Teams need to automate workflows with AI agents while keeping data on their own servers.",
   "diff": "Massive open-source community; self-host and local-LLM nodes in a general automation tool.",
@@ -37963,15 +38478,22 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://n8n.io"
   ],
-  "factchecked": []
+  "factchecked": [
+   "valuation_usd_m",
+   "employees",
+   "employees_band",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "nabu-casa",
@@ -39265,7 +39787,7 @@
   "legalName": "Neurobus",
   "verdict": "in",
   "web": null,
-  "city": "Paris",
+  "city": "Toulouse",
   "country": "France",
   "region": "Europe",
   "founded": 2023,
@@ -39334,7 +39856,11 @@
    "https://arxiv.org/abs/2509.12997",
    "https://www.caplight.com/company/neurobus"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "neuton-ai",
@@ -39652,14 +40178,17 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://nextcloud.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "noah-labs",
@@ -40300,13 +40829,13 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series C",
+  "fund": 165,
+  "lastRound": "Series C, $90M, Mar 24 2026, led by PSG Equity (prior $50M Series B Jun 2023)",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 100,
+  "emp": 180,
   "empBand": "51-200",
   "focus": "AI traffic-signal management with on-intersection edge sensing",
   "problem": "Fixed signal timing wastes time and fails to prioritize vehicles in real time.",
@@ -40345,13 +40874,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "nous-research",
@@ -40433,7 +40969,10 @@
    "https://cryptobriefing.com/?p=388784",
    "https://theblock.co/news/deals/2025-04-25-paradigm-leads-50-million-usd-round-decentralized-ai-project-nous-research-352000"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "noxtua-formerly-xayn",
@@ -40449,9 +40988,9 @@
   "status": "active",
   "statusDetail": "Xayn rebranded to Noxtua (2025)",
   "parent": null,
-  "stage": "Series B",
-  "fund": 111,
-  "lastRound": "Series B, EUR80.7M, Apr 2025, led by C.H.Beck",
+  "stage": "Series C",
+  "fund": 220,
+  "lastRound": "Series C, EUR100M+, Sep 2026, led by C.H.Beck (now majority shareholder), with MANZ",
   "val": null,
   "mcap": null,
   "investors": [
@@ -40460,7 +40999,7 @@
    "Dentons",
    "Northern Data"
   ],
-  "emp": 150,
+  "emp": 100,
   "empBand": "51-200",
   "focus": "Sovereign legal AI trained on European legal data.",
   "problem": "Law firms need legal AI that keeps privileged data within Europe.",
@@ -40505,7 +41044,7 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
   "basis": "searched",
@@ -40513,7 +41052,15 @@
    "https://sifted.eu/articles/noxtua-sovereign-ai-series-b",
    "https://legaltechnology.com/a-european-legal-ai-has-become-a-reality-xayn-noxtua-raises-e80-7m-with-c-h-beck-cms-dentons-and-northern-data/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "ntt-tsuzumi",
@@ -42714,11 +43261,11 @@
   "founded": 2018,
   "type": "scaleup",
   "status": "active",
-  "statusDetail": null,
+  "statusDetail": "Merger with Brookfield's Radiant sovereign AI cloud announced 24 Feb 2026",
   "parent": null,
-  "stage": "Series A",
-  "fund": 100,
-  "lastRound": "Series A, $55M, Jul 2023, led by Wellington Management",
+  "stage": "Series B",
+  "fund": 145,
+  "lastRound": "~$140M, Feb 2025, incl. Wa'ed Ventures (Saudi Aramco); Feb 2026 merger with Brookfield's Radiant announced",
   "val": null,
   "mcap": null,
   "investors": [
@@ -42778,15 +43325,22 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.ori.co"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "status_detail",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "oumi",
@@ -42804,7 +43358,7 @@
   "parent": null,
   "stage": "Seed",
   "fund": 10,
-  "lastRound": null,
+  "lastRound": "Seed, $10M, Jan 2025, led by Venrock and Obvious Ventures",
   "val": null,
   "mcap": null,
   "investors": [
@@ -42858,15 +43412,19 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://github.com/oumi-ai/oumi"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "out-of-set",
@@ -43045,7 +43603,7 @@
    "Bpifrance",
    "Fidelity"
   ],
-  "emp": 200,
+  "emp": 430,
   "empBand": "201-500",
   "focus": "AI biotech using federated learning and agentic AI across hospital and pharma data.",
   "problem": "Hospitals cannot share patient data, blocking multi-centre AI model training for drug and diagnostics discovery.",
@@ -43097,13 +43655,17 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "palantir-technologies",
@@ -44124,7 +44686,10 @@
    "https://pitchhub.36kr.com/project/1679727635550979",
    "https://www.gunder.com/zh/news-insights/%E6%9C%80%E6%96%B0%E4%B8%9A%E7%BB%A9/%e9%ab%98%e9%94%90%e4%b8%9a%e7%bb%a9-%e9%ab%98%e9%94%90%e5%ae%a2%e6%88%b7%e3%80%8c%e8%8b%b9%e8%8a%af%e7%a7%91%e6%8a%80%e3%80%8d%e5%ae%8c%e6%88%90%e5%8d%83%e4%b8%87%e7%ba%a7%e7%be%8e%e5%85%83a"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "pipeshift",
@@ -44572,7 +45137,7 @@
   "parent": null,
   "stage": "Seed",
   "fund": 16,
-  "lastRound": "Pre-seed ~EUR4M plus seed EUR10M; up to EUR117M Macquarie debt (2026)",
+  "lastRound": "Debt: up to EUR117M Macquarie (Jan 2026); high double-digit EUR M debt with SWI Stoneweg Icona (Aug 2026); equity rounds unverified",
   "val": null,
   "mcap": null,
   "investors": [
@@ -44636,7 +45201,11 @@
    "https://www.macquarie.com/ch/en/about/news/2026/polarise-and-macquarie-announce-up-to-117-million-euros-financing-deal-for-european-ai-ambitions.html",
    "https://www.datacenterdynamics.com/en/news/ddn-signs-deal-with-european-ai-data-center-hopeful-polarise/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "polyn-technology",
@@ -44835,7 +45404,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series C",
-  "fund": null,
+  "fund": 1100,
   "lastRound": "Series C, $375M firm + Series C-1 up to $500M (contingent), Sep 2026, C-1 led by NEA and Jim Clark; ~$5B valuation",
   "val": 5000,
   "mcap": null,
@@ -44896,14 +45465,18 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips",
    "https://dealroom.co/news/150061-positron-raises-875m-series-c-at-5b-valuation-for-inference-chips/",
    "https://www.datacenterdynamics.com/en/news/positron-ai-raises-875m-at-a-5bn-valuation-to-support-develop-of-next-generation-hardware/",
    "https://www.sdxcentral.com/news/former-lambda-groq-alums-secure-875m-to-build-memory-first-ai-inference-chips/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "predibase",
@@ -45266,7 +45839,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -45275,7 +45848,10 @@
    "https://siliconangle.com/2026/07/08/prime-intellect-raises-130m-1b-valuation-ai-training-platform/",
    "https://www.primeintellect.ai/blog/moondream"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "primer-ai",
@@ -45718,7 +46294,10 @@
    "https://www.f4news.com/2025/01/29/prophesee-files-for-insolvency/",
    "https://www.bodacc.fr/telechargements/COMMERCIALES/PDF/A/2024/20240212/1/BODACC_A_PDF_Unitaire_20240212_02539.pdf"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "protex-ai",
@@ -46231,8 +46810,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series B",
-  "fund": 50,
-  "lastRound": "Series A, $40M, Sep 2024, led by Susa Ventures and Square Peg",
+  "fund": 120,
+  "lastRound": "Series B, $70M, Mar 30 2026, led by Qumra Capital",
   "val": null,
   "mcap": null,
   "investors": [
@@ -46241,7 +46820,7 @@
    "TLV Partners",
    "Vine Ventures"
   ],
-  "emp": 100,
+  "emp": 136,
   "empBand": "51-200",
   "focus": "AI code review, testing and generation platform with enterprise self-hosting.",
   "problem": "Enterprises need AI code quality tooling without exposing proprietary source code to external services.",
@@ -46295,13 +46874,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "quadric",
@@ -46702,9 +47288,12 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "rackspace-technology",
@@ -46899,9 +47488,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series B",
+  "fund": 37.1,
+  "lastRound": "Series B, $25M, Aug 2021, led by ForgePoint Capital",
   "val": null,
   "mcap": null,
   "investors": [
@@ -46909,7 +47498,7 @@
    "Haystack",
    "Costanoa"
   ],
-  "emp": 200,
+  "emp": 176,
   "empBand": "51-200",
   "focus": "Kubernetes and GPU platform-as-a-service for enterprise and sovereign AI clouds",
   "problem": "Operators need self-service GPU/AI platforms on their own data centers and sovereign clouds.",
@@ -46962,15 +47551,22 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://rafay.co"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "rapt-ai",
@@ -47060,8 +47656,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series C",
-  "fund": 107,
-  "lastRound": "Series C, $30M, 2022, led by StepStone (reported)",
+  "fund": 73,
+  "lastRound": "Series C, $30M, Feb 2024, co-led by StepStone and PayPal Ventures",
   "val": null,
   "mcap": null,
   "investors": [
@@ -47125,15 +47721,20 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://rasa.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "raspberry-pi-holdings",
@@ -47695,8 +48296,8 @@
    "B Capital",
    "DST Global"
   ],
-  "emp": 150,
-  "empBand": "51-200",
+  "emp": 203,
+  "empBand": "201-500",
   "focus": "US open-weight frontier models",
   "problem": "Governments and enterprises want frontier-class models they can deploy sovereignly and on-prem.",
   "diff": "Well-funded US open-weight lab cleared for classified networks.",
@@ -47738,7 +48339,7 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
   "basis": "searched",
@@ -47747,7 +48348,12 @@
    "https://sacra.com/c/reflection-ai/",
    "https://www.fierce-network.com/cloud/dell-builds-sovereign-ai-stack-prem-era"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "reka",
@@ -47840,7 +48446,10 @@
    "https://siliconangle.com/2025/07/22/multimodal-ai-startup-reka-ai-raises-110m-1b-valuation",
    "https://multiples.vc/private-comps/reka-ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "rekor-systems",
@@ -48104,7 +48713,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 30,
+  "fund": 42.4,
   "lastRound": "Series A, $15M, 2022, led by Singtel Innov8",
   "val": null,
   "mcap": null,
@@ -48114,7 +48723,7 @@
    "Mayo Clinic",
    "Hitachi"
   ],
-  "emp": 40,
+  "emp": 45,
   "empBand": "11-50",
   "focus": "Federated computing platform for healthcare and life-sciences AI model training and validation.",
   "problem": "Hospitals cannot centralise patient data, blocking development and validation of clinical AI.",
@@ -48168,12 +48777,18 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "roboflow",
@@ -48299,9 +48914,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series A",
+  "fund": 65,
+  "lastRound": "Series A, $42M, Mar 2024, led by Target Global and Astanor Ventures ($180M post-money)",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -48339,13 +48954,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "high",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "rockchip",
@@ -48631,9 +49252,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series B",
-  "fund": 100,
-  "lastRound": "Series B, $64M, 2025, led by Washington Harbour Partners",
+  "stage": "Series A",
+  "fund": 30.2,
+  "lastRound": "Series A, $24M, Jul 2025; seed $6.2M Feb 2025",
   "val": null,
   "mcap": null,
   "investors": [
@@ -48675,13 +49296,19 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "saal-ai",
@@ -49077,7 +49704,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
@@ -49086,7 +49713,10 @@
    "https://techcrunch.com/2025/11/17/sakana-ai-raises-135m-series-b-at-a-2-65b-valuation-to-continue-building-ai-models-for-japan",
    "https://sakana.ai/series-b/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "salience-labs",
@@ -49275,8 +49905,8 @@
   "parent": null,
   "stage": "Late/Growth",
   "fund": null,
-  "lastRound": "$350M+ round, Feb 2026, led by Vista Equity Partners and Cambium Capital, Intel Capital participating",
-  "val": null,
+  "lastRound": "$1B Series F, Jul 2026, first close led by General Atlantic; $11B valuation (after $350M+ Series E Feb 2026)",
+  "val": 11000,
   "mcap": null,
   "investors": [
    "Vista Equity Partners",
@@ -49288,7 +49918,7 @@
    "Temasek",
    "GIC"
   ],
-  "emp": null,
+  "emp": 407,
   "empBand": "201-500",
   "focus": "Reconfigurable dataflow chips and full-stack systems for fast, efficient LLM inference",
   "problem": "Enterprises need fast multi-model LLM inference they can run privately at lower power than GPUs.",
@@ -49364,10 +49994,10 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://siliconangle.com/2026/02/24/sambanova-steps-challenge-nvidia-new-chip-350m-funding-powerful-ally-intel/",
    "https://www.intelcapital.com/sambanova-unveils-fastest-chip-for-agentic-ai-collaborates-with-intel-and-raises-350m/",
@@ -49375,7 +50005,14 @@
    "https://www.jonpeddie.com/news/ok-no-wedding-but-can-we-still-date/",
    "https://finance.yahoo.com/sectors/technology/articles/intel-investment-sambanova-gets-us-080234028.html"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "valuation_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "samsung-electronics",
@@ -49505,14 +50142,14 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Pre-seed",
+  "fund": 1,
+  "lastRound": "Pre-seed, ~$1M, Jan 2026 (PitchBook/VCBacked); a16z Scout, Crucible Capital, 99 Startups",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": null,
-  "empBand": "11-50",
+  "emp": 10,
+  "empBand": "1-10",
   "focus": "Mexican sovereign AI platform with air-gapped and composable LLM stacks",
   "problem": "Latin American organizations need AI that stays on national, controlled infrastructure.",
   "diff": "Latin-American sovereign AI vendor.",
@@ -49552,14 +50189,22 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
-   "y": "low"
+   "e": "medium",
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://mexicobusiness.news/cloudanddata/news/sovereign-ai-when-protocol-product"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "total_funding_usd_m",
+   "last_round",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "sarvam-ai",
@@ -49577,7 +50222,7 @@
   "parent": null,
   "stage": "Series B",
   "fund": 349,
-  "lastRound": "Series B, $300M ($234M first close Jun 2026 led by HCLTech, $74M extension Aug 2026 incl. Nvidia) at ~$1.5B",
+  "lastRound": "Series B, $234M first close Jun 2026 at $1.5B (Bessemer led; HCLTech $150M largest check), plus $74M extension Aug 2026 led by Nvidia; ~$300M+ total round",
   "val": 1500,
   "mcap": null,
   "investors": [
@@ -49588,7 +50233,7 @@
    "Peak XV",
    "Lightspeed"
   ],
-  "emp": 250,
+  "emp": 425,
   "empBand": "201-500",
   "focus": "Full-stack sovereign Indic AI: LLMs, speech and translation",
   "problem": "Indian enterprises and government need Indic-language AI that stays on Indian infrastructure or runs offline.",
@@ -49656,7 +50301,12 @@
    "https://india.entrepreneur.com/business-news/nvidia-leads-usd-74-million-investment-in-sarvam-ai",
    "https://trak.in/stories/made-in-india-ai-model-sarvam-edge-runs-without-internet-on-phones-laptops/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "sas-viya",
@@ -49891,7 +50541,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Late/Growth",
-  "fund": 1600,
+  "fund": 15900,
   "lastRound": "Meta investment ~$14.3B for 49% stake, Jun 2025",
   "val": 29000,
   "mcap": null,
@@ -49956,9 +50606,13 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "scale-computing",
@@ -49971,11 +50625,11 @@
   "region": "North America",
   "founded": 2007,
   "type": "startup",
-  "status": "active",
-  "statusDetail": null,
-  "parent": null,
+  "status": "acquired",
+  "statusDetail": "Acquired by Acumera (Austin, TX) Jul 2025; combined company operates as Scale Computing; terms undisclosed",
+  "parent": "Acumera",
   "stage": "Late/Growth",
-  "fund": null,
+  "fund": 159,
   "lastRound": null,
   "val": null,
   "mcap": null,
@@ -50030,13 +50684,19 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "status",
+   "status_detail",
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "schedmd-slurm",
@@ -50193,10 +50853,10 @@
   "legalName": "Scylla AI",
   "verdict": "in",
   "web": "https://www.scylla.ai",
-  "city": null,
+  "city": "Austin",
   "country": "United States",
   "region": "North America",
-  "founded": null,
+  "founded": 2018,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
@@ -50249,11 +50909,16 @@
   "conf": {
    "f": "low",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "hq_city",
+   "founded",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "seco-clea",
@@ -50556,12 +51221,12 @@
   "region": "Europe",
   "founded": 2014,
   "type": "startup",
-  "status": "active",
-  "statusDetail": null,
-  "parent": null,
-  "stage": "Series A",
-  "fund": 20,
-  "lastRound": null,
+  "status": "acquired",
+  "statusDetail": "Acquired by TrueFoundry, announced 25 Jun 2026 (price undisclosed)",
+  "parent": "TrueFoundry",
+  "stage": "Series B",
+  "fund": 33,
+  "lastRound": "Series B, $20M, Mar 2023, led by Bright Pixel",
   "val": null,
   "mcap": null,
   "investors": [
@@ -50628,15 +51293,23 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.seldon.io"
   ],
-  "factchecked": []
+  "factchecked": [
+   "status",
+   "status_detail",
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "semidrive",
@@ -50698,7 +51371,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -50709,7 +51382,10 @@
    "https://pandaily.com/?p=152127",
    "https://www.scmp.com/business/china-business/article/3314544/semidrive-supply-ev-cockpit-chips-european-carmaker-chinese-firms-go-global"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "semidynamics",
@@ -50733,7 +51409,7 @@
   "investors": [
    "SK hynix"
   ],
-  "emp": null,
+  "emp": 150,
   "empBand": "51-200",
   "focus": "Programmable RISC-V CPU/vector/tensor NPU IP and AI inference chips",
   "problem": "AI chips need programmable, memory-efficient NPUs that avoid closed architectures and memory-bandwidth bottlenecks.",
@@ -50788,7 +51464,7 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
+   "e": "medium",
    "y": "medium"
   },
   "basis": "searched",
@@ -50798,7 +51474,11 @@
    "https://www.storagenewsletter.com/2026/04/09/semidynamics-secures-a-strategic-investment-to-advance-memory-centric-ai-inference-chips/",
    "https://www.jonpeddie.com/tag/semidynamics/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "semron",
@@ -51576,7 +52256,7 @@
   "parent": null,
   "stage": "Series B",
   "fund": null,
-  "lastRound": "Series B, >CN¥1B, Aug 2025 (state, insurance and bank-backed funds); ~$200M more reported H1 2026 (Dealroom, unconfirmed)",
+  "lastRound": "~$200M equity financing over H1 2026 (announced by ECARX 31 Jul 2026); Series B >CN¥1B Aug 2025",
   "val": null,
   "mcap": null,
   "investors": [
@@ -51643,7 +52323,11 @@
    "https://dealroom.co/news/142387-siengine-raises-200m-to-build-custom-chips-for-software-defined-vehicles/",
    "https://www.scmp.com/tech/big-tech/article/3185960/chinese-car-chip-start-siengine-raises-us148-million-new-funding"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "sifive",
@@ -51923,9 +52607,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Series A",
+  "stage": "Series C",
   "fund": 100,
-  "lastRound": "Series A, ~RMB 700M, 2024-2025",
+  "lastRound": "Series C, 2026 (undisclosed size), after Series B >RMB2B (~$294M) Jun 2026 and B+ Phase II; ~RMB2.9B equity raised in 2026; HK IPO filed Jun 30 2026",
   "val": null,
   "mcap": null,
   "investors": [
@@ -51978,15 +52662,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.siliconflow.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "silo-ai",
@@ -52938,8 +53627,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series D+",
-  "fund": null,
-  "lastRound": null,
+  "fund": 110,
+  "lastRound": "Corporate round, $75M, Dec 2022 (Foxconn among investors)",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -52993,15 +53682,20 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.sonatus.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "sony-group",
@@ -53320,7 +54014,7 @@
   "founded": 2013,
   "type": "scaleup",
   "status": "active",
-  "statusDetail": null,
+  "statusDetail": "Amp spun out as independent company in 2026 (Quinn Slack leads Amp; Dan Adler leads Sourcegraph)",
   "parent": null,
   "stage": "Series D+",
   "fund": 225,
@@ -53333,8 +54027,8 @@
    "Redpoint",
    "Craft Ventures"
   ],
-  "emp": 200,
-  "empBand": "201-500",
+  "emp": 150,
+  "empBand": "51-200",
   "focus": "Code search and AI coding assistants (Cody, Amp) with self-hosted enterprise deployment.",
   "problem": "Enterprises need AI coding help over large codebases without exposing source code externally.",
   "diff": "Self-hosted code intelligence with bring-your-own-model and air-gapped options.",
@@ -53388,9 +54082,15 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "status_detail",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "spacemit",
@@ -53474,7 +54174,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "medium"
   },
@@ -53485,7 +54185,10 @@
    "https://www.scmp.com/tech/tech-trends/article/3339953/chinas-spacemit-launch-server-class-risc-v-processor-after-raising-us86-million",
    "https://kr-asia.com/pulses/159729"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "speakleash-bielik",
@@ -54104,7 +54807,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Unknown",
-  "fund": null,
+  "fund": 29,
   "lastRound": null,
   "val": null,
   "mcap": null,
@@ -54164,11 +54867,15 @@
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://squirro.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "stability-ai",
@@ -54184,9 +54891,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Late/Growth",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series B",
+  "fund": 232,
+  "lastRound": "Series B, $76M, Aug 25 2026; UMG, Sony Music, Warner Music, EA, AMD Ventures",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -54242,15 +54949,21 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
    "y": "low"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://stability.ai"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "stack-ai",
@@ -54726,11 +55439,13 @@
    "e": "low",
    "y": "low"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://stockmark.co.jp"
   ],
-  "factchecked": []
+  "factchecked": [
+   "basis"
+  ]
  },
  {
   "id": "stream-analyze",
@@ -55394,14 +56109,14 @@
   "city": "Bengaluru",
   "country": "India",
   "region": "South Asia",
-  "founded": 2015,
+  "founded": 2017,
   "type": "startup",
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": 8,
-  "lastRound": null,
+  "stage": "Pre-Series B",
+  "fund": 13.3,
+  "lastRound": "Pre-Series B, $8M (~INR 78 crore), Jul 2026, led by IvyCap Ventures",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -55441,15 +56156,22 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "high",
    "e": "low",
-   "y": "low"
+   "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.woodenscale.ai/blogs/switchon-funding-8m-for-deepinspect-expansion/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "founded",
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "synaptics",
@@ -55837,9 +56559,9 @@
   "statusDetail": "Filed S-1 for Nasdaq IPO (ticker SYTN) Jul 6, 2026; pricing not confirmed as of Nov 2026",
   "parent": null,
   "stage": "Series D+",
-  "fund": null,
+  "fund": 311,
   "lastRound": "Series D, Dec 2024 (Intel Capital, M12 among investors); IPO filed Jul 2026",
-  "val": null,
+  "val": 646.4,
   "mcap": "Revenue ~$270M (12 months to Mar 2026, per IPO filing coverage)",
   "investors": [
    "Intel Capital",
@@ -55849,8 +56571,8 @@
    "Robert Bosch Venture Capital",
    "Motorola Solutions"
   ],
-  "emp": null,
-  "empBand": "501-1000",
+  "emp": 1471,
+  "empBand": "1001-5000",
   "focus": "Ultra-low-power edge AI chips, models and MEMS microphones for always-on sensing",
   "problem": "Battery devices need always-on voice and sensor intelligence without draining power or streaming audio to cloud.",
   "diff": "Combines NDP silicon, in-house models and high-volume MEMS microphones in one edge-audio stack.",
@@ -55925,7 +56647,14 @@
    "https://ocbj.com/oc-homepage/syntiant-broadens-ai-reach-with-2-acquisitions",
    "https://thenextweb.com/news/syntiant-us-ipo-edge-ai-nasdaq"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "valuation_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "systran",
@@ -56852,8 +57581,8 @@
   "verdict": "in",
   "web": "https://www.amuse-ai.com",
   "city": null,
-  "country": null,
-  "region": null,
+  "country": "New Zealand",
+  "region": "SE Asia & Oceania",
   "founded": 2023,
   "type": "startup",
   "status": "active",
@@ -56908,11 +57637,15 @@
    "e": "low",
    "y": "low"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.amuse-ai.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "hq_country",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "tenstorrent",
@@ -56929,7 +57662,7 @@
   "statusDetail": "Reported Qualcomm acquisition talks (Jun 2026) unconfirmed",
   "parent": null,
   "stage": "Late/Growth",
-  "fund": null,
+  "fund": 2300,
   "lastRound": "Series E, $1.5B, Oct 2026, led by Trace Capital and Innovation X, $6.2B valuation (reported); prior Series D $693M, Dec 2024",
   "val": 6200,
   "mcap": null,
@@ -56943,7 +57676,7 @@
    "LG Electronics",
    "Hyundai Motor Group"
   ],
-  "emp": null,
+  "emp": 1258,
   "empBand": "1001-5000",
   "focus": "RISC-V CPUs and Tensix AI accelerators with open-source software, plus licensable IP",
   "problem": "Buyers want affordable, open AI hardware they can own and run on-prem without CUDA lock-in.",
@@ -57022,11 +57755,11 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "low",
    "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://datacenterdynamics.com/en/news/ai-chip-startup-tenstorrent-raises-15bn-at-62bn-valuation",
    "https://sacra.com/c/tenstorrent",
@@ -57034,7 +57767,12 @@
    "https://www.hpcwire.com/aiwire/2026/05/01/tenstorrent-announces-general-availability-of-galaxy-blackhole-ai-system/",
    "https://www.unite.ai/on-prem-voice-agents-get-new-hardware-path-as-smallest-ai-joins-tenstorrent/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "tether-qvac",
@@ -57706,15 +58444,18 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
-   "y": "low"
+   "e": "medium",
+   "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://tilde.ai",
    "https://huggingface.co/TildeAI"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "tinfoil",
@@ -58373,8 +59114,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series C",
-  "fund": null,
-  "lastRound": null,
+  "fund": 204,
+  "lastRound": "$100M, Oct 2022, led by Temasek and 83North",
   "val": null,
   "mcap": null,
   "investors": [
@@ -58425,15 +59166,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.trigoretail.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "trillion-labs",
@@ -58564,7 +59310,10 @@
    "https://siliconangle.com/?p=853935",
    "https://traded.co/vc/deal/tristar-ai-secures-12-4-million-in-series-a-funding-led-by-isogon-ventures/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "truefoundry",
@@ -59293,7 +60042,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -59302,7 +60051,10 @@
    "https://www.finextra.com/newsarticle/45576/swiss-ai-firm-unique-raises-30m-in-series-a-funding",
    "https://www.walderwyss.com/it/news/2025-02-28_unique-announces-usd-30m-series-a-financing-led-by-commerzventures-and-dn-capital"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "unisoc",
@@ -59413,9 +60165,9 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series B",
+  "fund": 92,
+  "lastRound": "Series B, $46M, Nov 2024, led by UP Partners",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -59459,14 +60211,20 @@
   "classified": true,
   "conf": {
    "f": "low",
-   "e": "low",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.unitxlabs.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "funding_stage",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "unsloth",
@@ -60085,7 +60843,7 @@
    "NEA",
    "NVIDIA"
   ],
-  "emp": null,
+  "emp": 1217,
   "empBand": "1001-5000",
   "focus": "Unified AI data platform/operating system for AI factories, RAG and agents",
   "problem": "AI factories need unified, scalable data, database and compute services close to GPUs.",
@@ -60156,17 +60914,21 @@
   "classified": true,
   "conf": {
    "f": "high",
-   "e": "medium",
+   "e": "low",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://builtin.com/articles/vast-data-raises-1b-series-f-30b-valuation-20260423",
    "https://en.globes.co.il/en/article-1001540685",
    "https://itbrief.com.au/story/vast-data-hits-30bn-valuation-after-1bn-series-f-round",
    "https://www.hpcwire.com/bigdatawire/2026/11/10/vast-data-reports-10b-in-commitments-as-ai-storage-spending-surges/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "vcluster-labs-loft",
@@ -60183,7 +60945,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series A",
-  "fund": 32,
+  "fund": 28.6,
   "lastRound": "Series A, $24M, Feb 2024, led by Khosla Ventures",
   "val": null,
   "mcap": null,
@@ -60233,11 +60995,15 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.vcluster.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "vdf-ai",
@@ -60337,7 +61103,7 @@
    "Samsung Next",
    "Alumni Ventures"
   ],
-  "emp": 70,
+  "emp": 55,
   "empBand": "51-200",
   "focus": "RAG and agent platform with hallucination detection, offered also as VPC/on-prem",
   "problem": "Enterprises need accurate grounded answers over their data, sometimes inside their own environment.",
@@ -60391,15 +61157,20 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://www.vectara.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "verisilicon",
@@ -60875,8 +61646,8 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "fund": 20.3,
+  "lastRound": "Funding round ~$8.4M, Feb 2023 (earlier: GBP 7.2M Jul 2022, GBP 5M Series A Feb 2021)",
   "val": null,
   "mcap": null,
   "investors": [],
@@ -60924,11 +61695,16 @@
    "e": "low",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://vivacitylabs.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "vivo-bluelm",
@@ -62033,7 +62809,7 @@
   "val": null,
   "mcap": "Private; ~US$20B annual revenue (reported)",
   "investors": [],
-  "emp": 10000,
+  "emp": 14000,
   "empBand": "10000+",
   "focus": "Technology integration and supply chain, including on-prem and sovereign AI factory builds",
   "problem": "Enterprises and governments struggle to design, validate and deploy multi-vendor private AI infrastructure.",
@@ -62093,16 +62869,21 @@
   "classified": true,
   "conf": {
    "f": "medium",
-   "e": "low",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://www.wwt.com/press-release/polarise-partners-with-world-wide-technology-to-accelerate-europes-sovereign-ai-buildout-starting-in-oslo",
    "https://wwt.com/press-release/world-wide-technology-awarded-nvidias-2026-npn-ai-excellence-partner-of-the-year-npn-ai-enterprise-software-partner-of-the-year-and-npn-federal-partner-of-the-year",
    "https://www.wwt.com/atc-capabilities/ai-factory"
   ],
-  "factchecked": []
+  "factchecked": [
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "writer",
@@ -62191,7 +62972,7 @@
   ],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
@@ -62199,7 +62980,10 @@
   "src": [
    "https://businesswire.com/news/home/20241112482564/en/Writer-Raises-200M-Series-C-at-1.9B-Valuation-to-Fuel-Leadership-in-Agentic-Enterprise-AI"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "xailient",
@@ -62576,7 +63360,7 @@
   "statusDetail": null,
   "parent": null,
   "stage": "Series D+",
-  "fund": null,
+  "fund": 110,
   "lastRound": "$19M equity + venture debt, 2019, Harbert European Growth Capital and existing investors",
   "val": null,
   "mcap": null,
@@ -62586,7 +63370,7 @@
    "Amadeus Capital Partners",
    "Harbert European Growth Capital"
   ],
-  "emp": null,
+  "emp": 71,
   "empBand": "51-200",
   "focus": "Software-defined multicore xcore processors for voice, audio and edge AI",
   "problem": "Device makers need cheap, deterministic processors that add local voice and AI without extra chips or cloud.",
@@ -62639,18 +63423,24 @@
   ],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "high"
   },
-  "basis": "mixed",
+  "basis": "searched",
   "src": [
    "https://design-reuse.com/news/46848/xmos-funding.html",
    "https://www.biometricupdate.com/201710/uk-firm-xmos-raises-15m-in-series-e-funding-round",
    "https://www.eenewseurope.com/en/xmos-finds-funds-to-pursue-ai-in-iot/",
    "https://wikimili.com/en/XMOS"
   ],
-  "factchecked": []
+  "factchecked": [
+   "total_funding_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "xorbits-xinference",
@@ -62752,7 +63542,7 @@
   "parent": null,
   "stage": "Seed",
   "fund": 13.5,
-  "lastRound": "Seed, $7.5M, Aug 2026, led by Pico Venture Partners",
+  "lastRound": "Seed, $7.5M, Aug 17 2026, led by Pico Venture Partners with Emerge Ventures, Samsung Next, SeedIL",
   "val": null,
   "mcap": null,
   "investors": [
@@ -62800,7 +63590,7 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
+   "f": "medium",
    "e": "low",
    "y": "low"
   },
@@ -62809,7 +63599,11 @@
    "https://www.hpcwire.com/aiwire/2026/08/17/xpander-raises-7-5m-to-expand-enterprise-ai-agent-platform/",
    "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "last_round",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "yurts",
@@ -63037,13 +63831,16 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "medium",
+   "f": "high",
    "e": "low",
    "y": "high"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "zebra-technologies-matrox-imaging",
@@ -63311,13 +64108,13 @@
   "status": "active",
   "statusDetail": null,
   "parent": null,
-  "stage": "Unknown",
-  "fund": null,
-  "lastRound": null,
+  "stage": "Series B",
+  "fund": 97,
+  "lastRound": "Series B, $53M, Jul 2024, led by Sorenson & Co",
   "val": null,
   "mcap": null,
   "investors": [],
-  "emp": 150,
+  "emp": 170,
   "empBand": "51-200",
   "focus": "AI gun detection on existing security cameras with human verification.",
   "problem": "Schools and venues cannot spot visible firearms in time from camera feeds.",
@@ -63351,15 +64148,23 @@
   "secondary": [],
   "classified": true,
   "conf": {
-   "f": "low",
-   "e": "low",
+   "f": "medium",
+   "e": "medium",
    "y": "medium"
   },
-  "basis": "knowledge",
+  "basis": "searched",
   "src": [
    "https://zeroeyes.com"
   ],
-  "factchecked": []
+  "factchecked": [
+   "funding_stage",
+   "last_round",
+   "total_funding_usd_m",
+   "employees",
+   "employees_band",
+   "confidence",
+   "basis"
+  ]
  },
  {
   "id": "zetic-ai",
@@ -63855,6 +64660,9 @@
    "https://dealroom.co/companies/zyphra-technologies/",
    "https://newsroom.amd.com/news/ibm-and-amd-collaborate-with-zyphra-on-next-generation/"
   ],
-  "factchecked": []
+  "factchecked": [
+   "confidence",
+   "basis"
+  ]
  }
 ]
