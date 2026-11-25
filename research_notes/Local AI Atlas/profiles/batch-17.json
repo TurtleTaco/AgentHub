@@ -1,0 +1,2766 @@
+[
+ {
+  "id": "lm-studio",
+  "name": "LM Studio (Element Labs)",
+  "verdict": "in",
+  "verdict_reason": "Desktop app and SDK whose core business is running LLMs locally and offline.",
+  "status": "active",
+  "status_detail": "Parent company Element Labs Inc; acquired Locally AI (Apr 2026)",
+  "parent": null,
+  "website": "https://lmstudio.ai",
+  "hq_city": "New York",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Desktop app, server and SDK for discovering and running local LLMs.",
+  "problem": "Running open LLMs privately on personal computers without cloud APIs or complex setup.",
+  "products": [
+   {
+    "name": "LM Studio",
+    "category": "app",
+    "description": "Desktop GUI to download and chat with GGUF/MLX models fully offline."
+   },
+   {
+    "name": "LM Studio local server",
+    "category": "runtime",
+    "description": "OpenAI-compatible local API server for apps and agents."
+   },
+   {
+    "name": "LM Studio SDK and lms CLI",
+    "category": "sdk",
+    "description": "Developer SDKs and CLI to embed local models."
+   },
+   {
+    "name": "Locally (mobile app)",
+    "category": "app",
+    "description": "iPhone/iPad app from Locally AI acquisition running MLX models on-device."
+   },
+   {
+    "name": "LM Link",
+    "category": "platform",
+    "description": "Encrypted remote access to home LM Studio instance from phone."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [
+   "Apple (MLX)",
+   "Qwen",
+   "Google",
+   "NVIDIA",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Polished cross-platform local LLM GUI plus SDK, now with native Apple mobile app.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://lmstudio.ai/blog/locally-ai-joins-lm-studio"
+  ]
+ },
+ {
+  "id": "lobehub-lobechat",
+  "name": "LobeHub (LobeChat)",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source self-hostable chat/agent workspace; local models via Ollama but mostly provider-agnostic.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lobehub.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Open-source AI chat and agent workspace, self-hostable.",
+  "problem": "Teams want a private, self-hosted AI chat interface across many model providers.",
+  "products": [
+   {
+    "name": "LobeChat",
+    "category": "app",
+    "description": "Open-source self-hostable chat UI with plugins and local model support."
+   },
+   {
+    "name": "LobeHub agent workspace",
+    "category": "platform",
+    "description": "Agent builder and marketplace, cloud and self-hosted."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Popular open-source chat UI with one-click Docker self-hosting and Ollama integration.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://lobehub.com"
+  ]
+ },
+ {
+  "id": "localai",
+  "name": "LocalAI",
+  "verdict": "in",
+  "verdict_reason": "Open-source OpenAI-compatible local inference server; local/self-hosted is the entire proposition.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://localai.io",
+  "hq_city": "Mondovi",
+  "hq_country": "Italy",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Drop-in OpenAI-compatible server running LLM, image and audio models locally.",
+  "problem": "Running generative AI on own hardware with an API that existing apps already support.",
+  "products": [
+   {
+    "name": "LocalAI",
+    "category": "runtime",
+    "description": "Self-hosted multi-backend OpenAI-compatible inference server."
+   },
+   {
+    "name": "LocalAGI",
+    "category": "platform",
+    "description": "Self-hosted agent platform on LocalAI."
+   },
+   {
+    "name": "LocalRecall",
+    "category": "platform",
+    "description": "Local memory/RAG REST API for agents."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Multi-backend (llama.cpp, vLLM, diffusers, whisper) OpenAI-API drop-in running without GPU.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://localai.io"
+  ]
+ },
+ {
+  "id": "locally-ai",
+  "name": "Locally AI",
+  "verdict": "in",
+  "verdict_reason": "iOS/Mac app running models fully on-device; core on-device AI product.",
+  "status": "acquired",
+  "status_detail": "Acquired by LM Studio / Element Labs (announced Apr 8, 2026; terms undisclosed)",
+  "parent": "LM Studio (Element Labs)",
+  "website": "https://locallyai.app",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 1,
+  "employees_band": "1-10",
+  "focus": "On-device iPhone/iPad/Mac app for running open models offline via MLX.",
+  "problem": "Using LLMs on phones with no cloud and no data leaving the device.",
+  "products": [
+   {
+    "name": "Locally AI app",
+    "category": "app",
+    "description": "Offline chat with MLX models on iPhone, iPad and Mac."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Native Apple-silicon MLX app; now LM Studio's mobile client.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://lmstudio.ai/blog/locally-ai-joins-lm-studio"
+  ]
+ },
+ {
+  "id": "lykos-ai-stability-matrix",
+  "name": "Lykos AI (Stability Matrix)",
+  "verdict": "in",
+  "verdict_reason": "Package manager/launcher whose core purpose is running Stable Diffusion UIs locally.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lykos.ai",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 3,
+  "employees_band": "1-10",
+  "focus": "Package manager and launcher for local image-generation UIs and models.",
+  "problem": "Installing and managing local Stable Diffusion tools is fiddly and dependency-heavy.",
+  "products": [
+   {
+    "name": "Stability Matrix",
+    "category": "app",
+    "description": "One-click install/manage ComfyUI, Forge, A1111 and model library locally."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Unified local manager for many diffusion UIs with shared model storage.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://lykos.ai"
+  ]
+ },
+ {
+  "id": "mediar-inc-screenpipe",
+  "name": "Mediar, Inc. (Screenpipe)",
+  "verdict": "in",
+  "verdict_reason": "Local-first screen/audio capture with local OCR, STT and LLM pipes is the core product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://screenpi.pe",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2.8,
+  "last_round": "Seed, $2.8M, Apr 2025, led by Founders, Inc.",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Founders, Inc.",
+   "Y Combinator (S26)"
+  ],
+  "employees": 6,
+  "employees_band": "1-10",
+  "focus": "Open-source local screen and audio recorder giving AI agents memory of your work.",
+  "problem": "AI agents lack context of what users do, and cloud capture raises privacy risks.",
+  "products": [
+   {
+    "name": "Screenpipe",
+    "category": "app",
+    "description": "24/7 local screen and audio capture indexed in local SQLite for AI search."
+   },
+   {
+    "name": "Screenpipe pipes",
+    "category": "sdk",
+    "description": "Plugin pipeline to run local or cloud LLM agents on captured context."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "multimodal",
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "developers",
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source always-on local memory layer for AI with local OCR/STT.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.ycombinator.com/companies/screenpipe",
+   "https://www.everydev.ai/developers/mediar"
+  ]
+ },
+ {
+  "id": "menlo-research-jan",
+  "name": "Menlo Research (Jan)",
+  "verdict": "in",
+  "verdict_reason": "Jan is an open-source offline desktop LLM app; local AI is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://jan.ai",
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Open-source offline ChatGPT alternative plus small agentic models.",
+  "problem": "Using capable AI assistants without sending data to cloud providers.",
+  "products": [
+   {
+    "name": "Jan",
+    "category": "app",
+    "description": "Open-source desktop app running models offline via llama.cpp with local API."
+   },
+   {
+    "name": "Jan-nano",
+    "category": "model",
+    "description": "4B model tuned for local agentic search/tool use."
+   },
+   {
+    "name": "Lucy",
+    "category": "model",
+    "description": "1.7B compact agentic web-search model for edge devices."
+   },
+   {
+    "name": "Jan Server",
+    "category": "platform",
+    "description": "Self-hosted deployment of the Jan stack."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fully open-source local app paired with its own small on-device models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://jan.ai"
+  ]
+ },
+ {
+  "id": "minisforum",
+  "name": "Minisforum",
+  "verdict": "borderline",
+  "verdict_reason": "Mini-PC maker; AI Max+ workstations marketed for local LLMs but generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.minisforum.com",
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 2012,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 500,
+  "employees_band": "201-500",
+  "focus": "Mini PCs and workstations including Ryzen AI Max+ boxes for local LLMs.",
+  "problem": "Running large local models needs compact high-memory machines.",
+  "products": [
+   {
+    "name": "MS-S1 MAX",
+    "category": "system",
+    "description": "Ryzen AI Max+ 395 mini workstation with 128GB unified memory for local LLMs."
+   },
+   {
+    "name": "AI X1 Pro and AI series mini PCs",
+    "category": "system",
+    "description": "Ryzen AI NPU mini PCs marketed for on-device AI."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Early mover shipping AMD Strix Halo boxes at consumer prices.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.minisforum.com"
+  ]
+ },
+ {
+  "id": "mintplex-labs",
+  "name": "Mintplex Labs (AnythingLLM)",
+  "verdict": "in",
+  "verdict_reason": "AnythingLLM bundles local LLM, embedder and vector DB for fully private deployments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://anythingllm.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "All-in-one private AI app for documents, RAG and agents, desktop or Docker.",
+  "problem": "Teams need document chat and agents without exposing data to cloud AI vendors.",
+  "products": [
+   {
+    "name": "AnythingLLM Desktop",
+    "category": "app",
+    "description": "One-click desktop app with built-in local LLM, RAG and agents."
+   },
+   {
+    "name": "AnythingLLM Docker",
+    "category": "platform",
+    "description": "Self-hosted multi-user server version for teams."
+   },
+   {
+    "name": "AnythingLLM Cloud",
+    "category": "service",
+    "description": "Hosted option."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Zero-setup private RAG/agent stack that works with local or cloud models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://anythingllm.com"
+  ]
+ },
+ {
+  "id": "mozilla-ai-llamafile",
+  "name": "Mozilla (llamafile)",
+  "verdict": "in",
+  "verdict_reason": "llamafile packages LLM and runtime into one local executable; core local-inference project.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Mozilla Foundation",
+  "website": "https://github.com/Mozilla-Ocho/llamafile",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Single-file executables for running LLMs locally on any OS and CPU.",
+  "problem": "Running a model locally normally requires installs, dependencies and GPUs.",
+  "products": [
+   {
+    "name": "llamafile",
+    "category": "runtime",
+    "description": "Single-file cross-platform executable bundling model weights and llama.cpp."
+   },
+   {
+    "name": "Mozilla Builders local AI program",
+    "category": "service",
+    "description": "Funding/accelerator for local-AI open-source projects."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Zero-install portable LLM binaries via Cosmopolitan libc.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/Mozilla-Ocho/llamafile"
+  ]
+ },
+ {
+  "id": "nabu-casa",
+  "name": "Nabu Casa",
+  "verdict": "borderline",
+  "verdict_reason": "Home Assistant hardware with local voice processing; AI is a secondary feature of home automation.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nabucasa.com",
+  "hq_city": "Lausanne",
+  "hq_country": "Switzerland",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Funds Home Assistant; sells home-automation hardware and local voice devices.",
+  "problem": "Smart-home voice control normally sends audio to cloud assistants.",
+  "products": [
+   {
+    "name": "Home Assistant Voice Preview Edition",
+    "category": "device",
+    "description": "Voice satellite with local wake word and local STT/TTS pipelines."
+   },
+   {
+    "name": "Home Assistant Green",
+    "category": "device",
+    "description": "Plug-and-play local home hub able to run local voice/AI integrations."
+   },
+   {
+    "name": "Assist with Wyoming, Whisper, Piper",
+    "category": "runtime",
+    "description": "Open local voice assistant stack with optional local LLMs."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Privacy-first local voice assistant ecosystem tied to the largest open smart-home platform.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.nabucasa.com"
+  ]
+ },
+ {
+  "id": "nexa-ai",
+  "name": "Nexa AI",
+  "verdict": "in",
+  "verdict_reason": "On-device inference SDK and models are core business; now part of Qualcomm.",
+  "status": "acquired",
+  "status_detail": "Acquired by Qualcomm (Mar 2026 per founder post; terms undisclosed); continues as GenieX",
+  "parent": "Qualcomm",
+  "website": "https://nexa.ai",
+  "hq_city": "Cupertino",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "NPU-first on-device inference SDK, small multimodal models and Hyperlink local agent.",
+  "problem": "Running multimodal AI efficiently on phones, PCs and IoT NPUs is hard.",
+  "products": [
+   {
+    "name": "NexaSDK / NexaML",
+    "category": "sdk",
+    "description": "Runtime running text, vision, audio and image models on NPU, GPU or CPU."
+   },
+   {
+    "name": "Hyperlink",
+    "category": "app",
+    "description": "On-device agent that searches and answers over local files."
+   },
+   {
+    "name": "Octopus, OmniVLM, OmniAudio",
+    "category": "model",
+    "description": "Small on-device language, vision-language and audio models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "embedded-iot"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "model-optimization",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "NPU-first runtime across Qualcomm, AMD, Apple and NVIDIA silicon.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.qualcomm.com/developer/blog/2026/06/geniex-developer-preview"
+  ]
+ },
+ {
+  "id": "nomic-ai",
+  "name": "Nomic AI",
+  "verdict": "in",
+  "verdict_reason": "GPT4All local LLM app and open embedding models; local/edge AI is core to the product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nomic.ai",
+  "hq_city": "New York",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 17,
+  "last_round": "Series A, $17M, Jul 2023, led by Coatue",
+  "valuation_usd_m": 100,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Coatue",
+   "Lux Capital",
+   "Zetta Venture Partners"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Open embedding models, GPT4All local LLM app and Atlas data platform.",
+  "problem": "Teams need private embeddings and LLM chat that run on their own hardware.",
+  "products": [
+   {
+    "name": "GPT4All",
+    "category": "app",
+    "description": "Open-source desktop app running LLMs and local document chat offline."
+   },
+   {
+    "name": "Nomic Embed (text, v2-moe, vision)",
+    "category": "model",
+    "description": "Open-weight embedding models runnable locally."
+   },
+   {
+    "name": "Nomic Atlas",
+    "category": "platform",
+    "description": "Data exploration and embedding-map platform with enterprise deployment options."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models",
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [
+   "Ollama",
+   "Arcadis"
+  ],
+  "notable_customers": [],
+  "differentiator": "Pairs best-known offline desktop LLM app with leading open-weight embedding models.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2023/07/13/ai-startup-nomic-raises-17m-build-open-source-alternative-gpt-4"
+  ]
+ },
+ {
+  "id": "numen-technologies",
+  "name": "Numen Technologies (Private LLM)",
+  "verdict": "in",
+  "verdict_reason": "Private LLM is a paid offline on-device chatbot app for Apple devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://privatellm.app",
+  "hq_city": "Hyderabad",
+  "hq_country": "India",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Offline on-device AI chatbot for iPhone, iPad and Mac.",
+  "problem": "Using LLMs privately on Apple devices with no cloud or subscription.",
+  "products": [
+   {
+    "name": "Private LLM",
+    "category": "app",
+    "description": "Offline quantized (OmniQuant) open models on iPhone, iPad and Mac with Siri/Shortcuts."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "One-time-purchase offline app using OmniQuant quantization for Apple silicon.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://privatellm.app"
+  ]
+ },
+ {
+  "id": "olares",
+  "name": "Olares (ByteFuture)",
+  "verdict": "in",
+  "verdict_reason": "Olares One local AI desktop server and open-source personal cloud OS; local AI is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.olares.com",
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 100,
+  "last_round": "$55M round, Jun 2026, investors undisclosed",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SIG"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Open-source personal cloud OS and Olares One RTX 5090M local AI box.",
+  "problem": "Running AI agents and LLMs at home without relying on third-party clouds.",
+  "products": [
+   {
+    "name": "Olares One",
+    "category": "system",
+    "description": "Mini-PC with RTX 5090M GPU and 96GB for local LLMs and agents."
+   },
+   {
+    "name": "Olares OS",
+    "category": "platform",
+    "description": "Open-source self-hosted OS to run local AI apps and services."
+   },
+   {
+    "name": "Olares Market apps",
+    "category": "platform",
+    "description": "One-click app store including Ollama, ComfyUI, Open WebUI."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pairs open-source personal-cloud OS with dedicated local-AI hardware.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://dealroom.co/companies/olares/",
+   "https://news.marketersmedia.com/bytefuture-secures-dollar55-million-to-expand-olares-one-and-olares-os/89203158"
+  ]
+ },
+ {
+  "id": "ollama",
+  "name": "Ollama",
+  "verdict": "in",
+  "verdict_reason": "Leading open-source local LLM runtime; local inference is the entire product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://ollama.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "USA",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 88,
+  "last_round": "Series B, $65M, Jul 2026, led by Theory Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Theory Ventures",
+   "Benchmark",
+   "8VC",
+   "Y Combinator",
+   "Pace Capital",
+   "49 Palms",
+   "GTMFund"
+  ],
+  "employees": 14,
+  "employees_band": "11-50",
+  "focus": "Open-source runtime and CLI for running open LLMs locally and self-hosted.",
+  "problem": "Developers need a simple way to run open models on their own machines.",
+  "products": [
+   {
+    "name": "Ollama",
+    "category": "runtime",
+    "description": "Local model runner and OpenAI-compatible API for Mac, Windows, Linux."
+   },
+   {
+    "name": "Ollama model library",
+    "category": "model",
+    "description": "Registry of open models packaged for one-command local use."
+   },
+   {
+    "name": "Ollama desktop app",
+    "category": "app",
+    "description": "GUI for chatting with local models."
+   },
+   {
+    "name": "Ollama Cloud",
+    "category": "service",
+    "description": "Optional hosted inference for larger models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Meta",
+   "Google",
+   "OpenAI",
+   "Qwen"
+  ],
+  "notable_customers": [],
+  "differentiator": "De facto standard one-command local model runner with ~9M developers.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+  ]
+ },
+ {
+  "id": "open-webui",
+  "name": "Open WebUI",
+  "verdict": "in",
+  "verdict_reason": "Self-hosted, offline-capable AI interface with enterprise on-prem licensing; self-hosting is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://openwebui.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 0.04,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Mozilla Builders",
+   "GitHub Accelerator"
+  ],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Self-hosted ChatGPT-style interface for Ollama and OpenAI-compatible backends.",
+  "problem": "Organizations want a private, self-hosted AI chat front end with RAG and governance.",
+  "products": [
+   {
+    "name": "Open WebUI",
+    "category": "app",
+    "description": "Open-source self-hosted chat UI with RAG, tools and offline mode."
+   },
+   {
+    "name": "Open WebUI Enterprise",
+    "category": "platform",
+    "description": "Licensed edition with SSO, RBAC and support for on-prem teams."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Most popular self-hosted AI front end, deployable fully offline.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/open-webui",
+   "https://builders.mozilla.org/project/open-webui/"
+  ]
+ },
+ {
+  "id": "opera",
+  "name": "Opera",
+  "verdict": "borderline",
+  "verdict_reason": "Browser with built-in local LLM download/use, but AI is a feature of a browser company.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.opera.com",
+  "hq_city": "Oslo",
+  "hq_country": "Norway",
+  "founded": 1995,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: OPRA)",
+  "key_investors": [],
+  "employees": 600,
+  "employees_band": "501-1000",
+  "focus": "Web browsers including Opera One/Neon with built-in local LLM support.",
+  "problem": "Browser AI features usually send user data to cloud models.",
+  "products": [
+   {
+    "name": "Opera One local LLMs",
+    "category": "app",
+    "description": "Browser feature to download and run 150+ local LLM variants."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "browser"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "First major browser with built-in local LLM download and use.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.opera.com"
+  ]
+ },
+ {
+  "id": "photoprism",
+  "name": "PhotoPrism",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hosted photo manager using local vision models; AI is a feature not the product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.photoprism.app",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2018,
+  "org_type": "open-source-company",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Self-hosted AI-powered photo management app.",
+  "problem": "Photo libraries need AI search and tagging without handing images to cloud services.",
+  "products": [
+   {
+    "name": "PhotoPrism",
+    "category": "app",
+    "description": "Self-hosted photo app with local TensorFlow classification and face recognition."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "consumers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fully self-hosted AI photo organization funded by memberships.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.photoprism.app"
+  ]
+ },
+ {
+  "id": "pieces-for-developers",
+  "name": "Pieces for Developers",
+  "verdict": "borderline",
+  "verdict_reason": "Local-first developer memory app with optional on-device LLMs; mixes cloud and local models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://pieces.app",
+  "hq_city": "Cincinnati",
+  "hq_country": "USA",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Developer long-term memory and AI copilot, local-first.",
+  "problem": "Developers lose context across tools and want AI that keeps code private.",
+  "products": [
+   {
+    "name": "Pieces Desktop and PiecesOS",
+    "category": "app",
+    "description": "Local-first service capturing developer context with on-device processing."
+   },
+   {
+    "name": "Pieces IDE and browser plugins",
+    "category": "sdk",
+    "description": "Integrations with local LLM options via Ollama."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "On-device memory engine with choice of local or cloud LLMs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://pieces.app"
+  ]
+ },
+ {
+  "id": "raspberry-pi-holdings",
+  "name": "Raspberry Pi Holdings",
+  "verdict": "in",
+  "verdict_reason": "Sells AI HAT+ and AI Kit edge accelerators plus Pi 5 compute for on-device AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.raspberrypi.com",
+  "hq_city": "Cambridge",
+  "hq_country": "UK",
+  "founded": 2008,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (LSE: RPI)",
+  "key_investors": [],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Single-board computers and accessories including Hailo-based AI HAT+ boards.",
+  "problem": "Makers and OEMs need cheap embedded compute with accelerated on-device AI.",
+  "products": [
+   {
+    "name": "Raspberry Pi AI HAT+ family",
+    "category": "device",
+    "description": "Hailo accelerator boards for Pi 5, 13-40 TOPS."
+   },
+   {
+    "name": "Raspberry Pi AI Kit",
+    "category": "device",
+    "description": "M.2 HAT+ bundled with Hailo-8L module."
+   },
+   {
+    "name": "Raspberry Pi AI Camera",
+    "category": "device",
+    "description": "Sony IMX500 camera with on-sensor inference."
+   },
+   {
+    "name": "Raspberry Pi 5",
+    "category": "system",
+    "description": "SBC used as base platform for edge AI."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "industrial-manufacturing",
+   "consumers",
+   "education-research"
+  ],
+  "partners": [
+   "Hailo",
+   "Sony"
+  ],
+  "notable_customers": [],
+  "differentiator": "Mass-market edge-AI accessories on the largest hobbyist/industrial SBC ecosystem.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.raspberrypi.com"
+  ]
+ },
+ {
+  "id": "refact-ai",
+  "name": "Refact.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source coding agent with self-hosted server option; cloud/IDE agent is main offering.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://refact.ai",
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Open-source AI coding agent with enterprise self-hosted deployment.",
+  "problem": "Companies want AI coding help without sending proprietary code to third parties.",
+  "products": [
+   {
+    "name": "Refact.ai Agent",
+    "category": "app",
+    "description": "Autonomous coding agent for VS Code and JetBrains."
+   },
+   {
+    "name": "Refact self-hosted server",
+    "category": "platform",
+    "description": "Run open code models on customer GPUs for private completion and chat."
+   },
+   {
+    "name": "Refact Enterprise",
+    "category": "platform",
+    "description": "On-prem/VPC deployment with fine-tuning on private codebase."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source agent with on-prem deployment path.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://refact.ai"
+  ]
+ },
+ {
+  "id": "start9-labs",
+  "name": "Start9 Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign personal-server OS; local AI apps like Ollama are one hosted category among many.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://start9.com",
+  "hq_city": "Denver",
+  "hq_country": "USA",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "StartOS personal-server OS and Start9 server hardware for self-hosting.",
+  "problem": "Individuals want to self-host services, including AI, without relying on cloud providers.",
+  "products": [
+   {
+    "name": "StartOS",
+    "category": "platform",
+    "description": "Open-source server OS with one-click self-hosted services incl. local AI apps."
+   },
+   {
+    "name": "Start9 Server One and Pure",
+    "category": "system",
+    "description": "Preconfigured personal servers."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sovereign self-hosting OS with curated marketplace.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://start9.com"
+  ]
+ },
+ {
+  "id": "superwhisper",
+  "name": "Superwhisper",
+  "verdict": "borderline",
+  "verdict_reason": "Voice dictation app offering offline local Whisper models alongside cloud models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://superwhisper.com",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "AI voice dictation app for Mac, iOS and Windows.",
+  "problem": "Typing is slow and cloud dictation raises privacy concerns.",
+  "products": [
+   {
+    "name": "Superwhisper",
+    "category": "app",
+    "description": "Dictation app with offline local Whisper/Parakeet models and optional cloud models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Polished system-wide dictation with fully offline mode.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://superwhisper.com"
+  ]
+ },
+ {
+  "id": "tabbyml",
+  "name": "TabbyML",
+  "verdict": "in",
+  "verdict_reason": "Open-source self-hosted AI coding assistant server; self-hosting on customer GPUs is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.tabbyml.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3.2,
+  "last_round": "Seed, ~$3.2M, 2023",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Self-hosted open-source AI coding assistant and code-chat server.",
+  "problem": "Engineering teams need AI code completion without sending code to an external API.",
+  "products": [
+   {
+    "name": "Tabby",
+    "category": "platform",
+    "description": "Self-hosted code completion, chat and answer engine server."
+   },
+   {
+    "name": "Tabby IDE extensions",
+    "category": "app",
+    "description": "VS Code, JetBrains and Vim clients."
+   },
+   {
+    "name": "Tabby Enterprise",
+    "category": "platform",
+    "description": "On-prem edition with SSO and repo context."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped",
+   "pc-workstation"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fully on-prem coding assistant with no external dependency.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.tabbyml.com"
+  ]
+ },
+ {
+  "id": "tensorstack-amuse",
+  "name": "TensorStack (Amuse)",
+  "verdict": "in",
+  "verdict_reason": "Amuse is a local image/video generation app built with AMD; fully on-device.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.amuse-ai.com",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Windows app for local image and video generation on AMD hardware.",
+  "problem": "Generating images and video privately without cloud services.",
+  "products": [
+   {
+    "name": "Amuse",
+    "category": "app",
+    "description": "Windows app running ONNX/DirectML diffusion locally on AMD Ryzen AI and Radeon."
+   },
+   {
+    "name": "TensorStack AI libraries",
+    "category": "sdk",
+    "description": "ONNX-based diffusion and LLM libraries for .NET."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "AMD-optimized local diffusion app with no cloud.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.amuse-ai.com"
+  ]
+ },
+ {
+  "id": "tiiny-ai",
+  "name": "Tiiny AI",
+  "verdict": "in",
+  "verdict_reason": "Pocket-size personal AI computer running large LLMs offline is the core product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://tiiny.ai",
+  "hq_city": "Hong Kong",
+  "hq_country": "Hong Kong",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 30,
+  "last_round": "Seed, $30M, led by Dunhong Asset Management (date unconfirmed); Kickstarter >$3M (2026)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Dunhong Asset Management",
+   "Matrix Partners China",
+   "Shunwei Capital",
+   "Jinqiu Fund"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Pocket-sized personal AI computer for offline large-model inference.",
+  "problem": "Running 100B-class models privately requires bulky, costly GPU rigs.",
+  "products": [
+   {
+    "name": "Tiiny AI Pocket Lab",
+    "category": "device",
+    "description": "Pocket mini PC running up to 120B-parameter LLMs offline."
+   },
+   {
+    "name": "TiinyOS / AgentBox",
+    "category": "platform",
+    "description": "Software stack and agent runtime for the device."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Guinness-certified smallest mini PC for 100B LLMs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://dealroom.co/news/169762-tiiny-ai-raises-30m-seed-for-personal-ai-devices-sits-in-singapores-top",
+   "https://www.kicktraq.com/projects/tiinyai/tiiny-ai-pocket-lab/"
+  ]
+ },
+ {
+  "id": "tiny-corp",
+  "name": "tiny corp",
+  "verdict": "in",
+  "verdict_reason": "tinybox AI computers and tinygrad framework for owned-hardware inference and training.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://tinygrad.org",
+  "hq_city": "San Diego",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 5.1,
+  "last_round": "Seed, $5.1M, 2023",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "angels"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "tinygrad ML framework and tinybox multi-GPU AI computers.",
+  "problem": "Teams want to run and train large models on hardware they own.",
+  "products": [
+   {
+    "name": "tinygrad",
+    "category": "runtime",
+    "description": "Minimalist ML framework supporting many accelerators."
+   },
+   {
+    "name": "tinybox",
+    "category": "system",
+    "description": "Multi-GPU AI computers sold from ~$7k."
+   },
+   {
+    "name": "exabox",
+    "category": "system",
+    "description": "Containerized exascale AI system on preorder."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Simple stack and turnkey boxes aimed at beating cloud on cost.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://tinygrad.org"
+  ]
+ },
+ {
+  "id": "topaz-labs",
+  "name": "Topaz Labs",
+  "verdict": "in",
+  "verdict_reason": "Desktop AI enhancement apps run locally on user GPUs/NPUs; local is core.",
+  "status": "acquired",
+  "status_detail": "Acquired by Adobe (announced Jun 2026, completed Sep 23, 2026); remains standalone brand",
+  "parent": "Adobe",
+  "website": "https://www.topazlabs.com",
+  "hq_city": "Dallas",
+  "hq_country": "USA",
+  "founded": 2005,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Local desktop AI image and video upscaling and enhancement software.",
+  "problem": "Enhancing photos and video needs high quality without uploading media to the cloud.",
+  "products": [
+   {
+    "name": "Topaz Photo",
+    "category": "app",
+    "description": "Local AI photo enhancement, denoise and upscaling."
+   },
+   {
+    "name": "Topaz Video",
+    "category": "app",
+    "description": "Local AI video upscaling, frame interpolation and stabilization."
+   },
+   {
+    "name": "Topaz Gigapixel",
+    "category": "app",
+    "description": "Local AI image upscaler."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "models"
+  ],
+  "modalities": [
+   "vision",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Best-known local AI media enhancement models, now inside Adobe.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+   "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"
+  ]
+ },
+ {
+  "id": "umbrel",
+  "name": "Umbrel",
+  "verdict": "borderline",
+  "verdict_reason": "Home-server OS and hardware whose app store includes local AI apps; AI is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://umbrel.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "umbrelOS home-server OS and Umbrel Home device with self-hosted app store.",
+  "problem": "Individuals want to self-host apps and data at home instead of cloud services.",
+  "products": [
+   {
+    "name": "umbrelOS",
+    "category": "platform",
+    "description": "Home-server OS with one-click apps incl. Ollama and Open WebUI."
+   },
+   {
+    "name": "Umbrel Home",
+    "category": "system",
+    "description": "Plug-and-play home server hardware."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Consumer-friendly self-hosting with one-click local AI apps.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://umbrel.com"
+  ]
+ },
+ {
+  "id": "zackriya-solutions-meetily",
+  "name": "Zackriya Solutions (Meetily)",
+  "verdict": "in",
+  "verdict_reason": "Meetily is a privacy-first local meeting transcription and summarization product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/Zackriya-Solutions/meeting-minutes",
+  "hq_city": "Chennai",
+  "hq_country": "India",
+  "founded": 2024,
+  "org_type": "open-source-company",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Open-source privacy-first AI meeting assistant running transcription and summaries locally.",
+  "problem": "Meeting notes tools upload sensitive conversations to the cloud.",
+  "products": [
+   {
+    "name": "Meetily",
+    "category": "app",
+    "description": "Local Whisper/Parakeet transcription with Ollama summarization; no cloud."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "smb",
+   "legal",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source, fully offline alternative to cloud meeting bots.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/Zackriya-Solutions/meeting-minutes"
+  ]
+ },
+ {
+  "id": "almetra-formerly-deltia",
+  "name": "Almetra (formerly Deltia)",
+  "verdict": "borderline",
+  "verdict_reason": "Factory video analytics platform; processing local but product is mainly manufacturing software.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.deltia.ai",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A, EUR16.3M, Jun 2026, led by blisce/",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "blisce/",
+   "NAP",
+   "Merantix Capital",
+   "Robin Capital",
+   "Underline",
+   "Critical Ventures",
+   "Calvary Ventures"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "AI factory-floor video and machine-data platform for manufacturing intelligence.",
+  "problem": "Manufacturers lack real-time data on manual production steps without invasive monitoring.",
+  "products": [
+   {
+    "name": "Almetra platform",
+    "category": "platform",
+    "description": "Camera-based shopfloor analytics with privacy-preserving local video processing."
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Bosch",
+   "Siemens Energy",
+   "ABB"
+  ],
+  "differentiator": "Privacy-preserving on-site video AI deployed at Bosch, Siemens Energy and ABB.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2026/06/25/almetra-secures-eur163m-series-a-to-drive-smarter-manufacturing/"
+  ]
+ },
+ {
+  "id": "alwaysai",
+  "name": "alwaysAI",
+  "verdict": "in",
+  "verdict_reason": "Edge computer vision development and deployment platform; edge is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://alwaysai.co",
+  "hq_city": "San Diego",
+  "hq_country": "USA",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Platform to build and deploy computer vision apps on edge devices.",
+  "problem": "Deploying vision models to fleets of edge devices is complex.",
+  "products": [
+   {
+    "name": "alwaysAI platform",
+    "category": "platform",
+    "description": "Build, train and deploy containerized CV apps to edge hardware."
+   },
+   {
+    "name": "alwaysAI edge SDK",
+    "category": "sdk",
+    "description": "Python SDK with optimized runtimes for Jetson, Qualcomm and other devices."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "security-surveillance",
+   "retail"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic edge CV platform with fleet management.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://alwaysai.co"
+  ]
+ },
+ {
+  "id": "ambient-ai",
+  "name": "Ambient.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Physical security vision platform; supports on-prem appliances but primarily SaaS.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://ambient.ai",
+  "hq_city": "Santa Clara",
+  "hq_country": "USA",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 72,
+  "last_round": "Strategic investment, $20M, 2023, Allegion Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Allegion Ventures",
+   "Andreessen Horowitz"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Computer vision platform detecting physical security threats on existing cameras.",
+  "problem": "Security teams cannot monitor all cameras and drown in false alarms.",
+  "products": [
+   {
+    "name": "Ambient Pulsar",
+    "category": "platform",
+    "description": "Agentic physical-security reasoning on camera feeds."
+   },
+   {
+    "name": "Ambient Threat Detection",
+    "category": "platform",
+    "description": "Detects threat signatures on existing cameras; on-prem appliance option."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Layers on existing VMS/cameras with contextual threat reasoning.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://pulse2.com/ambient-ai-receives-20-million-allegion-ventures/amp/"
+  ]
+ },
+ {
+  "id": "applied-intuition",
+  "name": "Applied Intuition",
+  "verdict": "borderline",
+  "verdict_reason": "Sells onboard autonomy and vehicle OS software to OEMs; edge AI is part of larger software portfolio.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.appliedintuition.com",
+  "hq_city": "Mountain View",
+  "hq_country": "USA",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 1200,
+  "last_round": "Series F, $600M, Jun 2025, $15B valuation; reported talks Nov 2026 at ~$30B (unconfirmed)",
+  "valuation_usd_m": 15000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Kleiner Perkins",
+   "Lux Capital",
+   "General Catalyst",
+   "Porsche",
+   "Qualcomm Ventures"
+  ],
+  "employees": 1500,
+  "employees_band": "1001-5000",
+  "focus": "Vehicle software, simulation and autonomy stacks for automotive, trucking and defense.",
+  "problem": "OEMs need to ship AI-defined vehicles without building autonomy stacks themselves.",
+  "products": [
+   {
+    "name": "Vehicle OS",
+    "category": "platform",
+    "description": "Embedded software platform with on-vehicle AI."
+   },
+   {
+    "name": "Onboard autonomy stacks",
+    "category": "platform",
+    "description": "On-vehicle ADAS/AD and defense autonomy software."
+   },
+   {
+    "name": "Simulation and validation tools",
+    "category": "platform",
+    "description": "Cloud-based sim for training/validating vehicle AI."
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "multimodal"
+  ],
+  "customers": [
+   "automotive",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "OpenAI",
+   "NVIDIA",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Full-stack vehicle intelligence vendor to most major OEMs.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/06/17/applied-intuition-raises-600-million-as-it-pushes-further-into-defense"
+  ]
+ },
+ {
+  "id": "arduino",
+  "name": "Arduino",
+  "verdict": "borderline",
+  "verdict_reason": "Open hardware maker; UNO Q and Edge Impulse integration enable edge AI but not core.",
+  "status": "acquired",
+  "status_detail": "Qualcomm acquisition announced Oct 2025; closing unconfirmed in search",
+  "parent": "Qualcomm",
+  "website": "https://www.arduino.cc",
+  "hq_city": "Turin",
+  "hq_country": "Italy",
+  "founded": 2005,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Open-source microcontroller boards and developer tools including edge-AI boards.",
+  "problem": "Makers and engineers need accessible hardware for prototyping on-device AI.",
+  "products": [
+   {
+    "name": "Arduino UNO Q",
+    "category": "device",
+    "description": "Board with Qualcomm Dragonwing QRB2210 plus MCU for edge AI."
+   },
+   {
+    "name": "Arduino App Lab",
+    "category": "sdk",
+    "description": "Development environment with AI models via Edge Impulse."
+   },
+   {
+    "name": "Nicla and Portenta boards",
+    "category": "device",
+    "description": "Vision and ML-capable embedded boards."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "education-research",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Qualcomm",
+   "Edge Impulse"
+  ],
+  "notable_customers": [],
+  "differentiator": "Huge maker community with Qualcomm silicon and Edge Impulse tooling.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.qualcomm.com/news/releases/2025/10/qualcomm-to-acquire-arduino-accelerating-developers--access-to-i"
+  ]
+ },
+ {
+  "id": "armada",
+  "name": "Armada",
+  "verdict": "in",
+  "verdict_reason": "Modular rugged edge data centers and edge platform bringing AI compute on-site.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.armada.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 500,
+  "last_round": "Series B, $230M, May 2026, $2B valuation, led by BlackRock, Overmatch, 8090 Industries",
+  "valuation_usd_m": 2000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "BlackRock",
+   "Overmatch",
+   "8090 Industries",
+   "Founders Fund",
+   "Microsoft M12"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Modular edge data centers (Galleon, Leviathan) and Commander edge management.",
+  "problem": "Remote and disconnected sites lack compute to run AI locally.",
+  "products": [
+   {
+    "name": "Galleon",
+    "category": "system",
+    "description": "Ruggedized modular edge data center."
+   },
+   {
+    "name": "Leviathan",
+    "category": "system",
+    "description": "Megawatt-scale modular AI data center."
+   },
+   {
+    "name": "Commander",
+    "category": "platform",
+    "description": "Edge management and fleet orchestration platform."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "energy-utilities",
+   "industrial-manufacturing",
+   "telecom"
+  ],
+  "partners": [
+   "Palantir",
+   "Microsoft",
+   "Johnson Controls"
+  ],
+  "notable_customers": [],
+  "differentiator": "Deployable sovereign AI compute for disconnected environments.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/05/19/armada-raises-230m-2b-valuation-build-portable-ai-data-centers/"
+  ]
+ },
+ {
+  "id": "avassa",
+  "name": "Avassa",
+  "verdict": "borderline",
+  "verdict_reason": "Edge container orchestration that deploys AI apps on-site; AI is a use case.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://avassa.io",
+  "hq_city": "Stockholm",
+  "hq_country": "Sweden",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Edge application orchestration and observability for distributed sites.",
+  "problem": "Operating containerized apps across many on-site edge hosts is hard.",
+  "products": [
+   {
+    "name": "Avassa Edge Platform",
+    "category": "platform",
+    "description": "Orchestrates and monitors containerized apps, including AI, on edge hosts."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "retail",
+   "telecom",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Edge-native orchestration with no inbound connectivity requirement.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://avassa.io"
+  ]
+ },
+ {
+  "id": "avathon-formerly-sparkcognition",
+  "name": "Avathon (formerly SparkCognition)",
+  "verdict": "borderline",
+  "verdict_reason": "Industrial AI platform with edge/on-prem deployment options; not primarily local AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://avathon.com",
+  "hq_city": "Austin",
+  "hq_country": "USA",
+  "founded": 2013,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 290,
+  "last_round": "Series D, Jan 2022",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Temasek",
+   "Verizon Ventures",
+   "Boeing"
+  ],
+  "employees": 270,
+  "employees_band": "201-500",
+  "focus": "Industrial AI for asset performance, visual safety and autonomy.",
+  "problem": "Industrial operators struggle to predict failures and ensure safety across assets.",
+  "products": [
+   {
+    "name": "Avathon industrial AI platform",
+    "category": "platform",
+    "description": "Predictive maintenance and operations AI, cloud and on-prem."
+   },
+   {
+    "name": "Visual AI / safety",
+    "category": "app",
+    "description": "Video analytics with edge deployment."
+   },
+   {
+    "name": "Autonomy / Physical AI",
+    "category": "platform",
+    "description": "Autonomous systems for aerial and defense use."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "energy-utilities",
+   "industrial-manufacturing",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Barrick"
+  ],
+  "differentiator": "Long-running industrial AI vendor with deployment flexibility.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/sparkcognition/financials"
+  ]
+ },
+ {
+  "id": "avigilon-motorola-solutions",
+  "name": "Avigilon (Motorola Solutions)",
+  "verdict": "borderline",
+  "verdict_reason": "Camera/VMS maker with on-camera and on-prem analytics; edge AI is a feature of security products.",
+  "status": "active",
+  "status_detail": "Subsidiary of Motorola Solutions (acquired 2018)",
+  "parent": "Motorola Solutions",
+  "website": "https://www.avigilon.com",
+  "hq_city": "Vancouver",
+  "hq_country": "Canada",
+  "founded": 2004,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Parent: Public (NYSE: MSI)",
+  "key_investors": [],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "Video security cameras, VMS and AI analytics.",
+  "problem": "Security operators need to find events in video without manual review.",
+  "products": [
+   {
+    "name": "Avigilon cameras with on-camera analytics",
+    "category": "device",
+    "description": "Cameras running AI analytics on-device."
+   },
+   {
+    "name": "Avigilon Unity Video / ACC",
+    "category": "platform",
+    "description": "On-prem VMS with AI search."
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Integrated camera-to-VMS analytics inside Motorola's public-safety portfolio.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.avigilon.com"
+  ]
+ }
+]
