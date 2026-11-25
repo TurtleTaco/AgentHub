@@ -1,0 +1,800 @@
+[
+ {
+  "id": "groq",
+  "name": "Groq",
+  "aliases": [],
+  "website": "https://groq.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "LPU inference chips; GroqCloud API and GroqRack on-prem clusters.",
+   "LPU inference chip company with GroqCloud and GroqRack.",
+   "GroqRack for on-prem; tech non-exclusively licensed to NVIDIA Dec 2025 as founder Jonathan Ross joined NVIDIA.",
+   "GroqRack on-prem inference systems for sovereign deployments."
+  ],
+  "discovery_sources": [
+   "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
+   "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-confirms-20-billion-groq-deal-to-bolster-ai-inference-dominance",
+   "https://www.constellationr.com/insights/news/nvidias-groq-deal-acquisition-acquihire-or-creative-licensing-deal",
+   "https://groq.com"
+  ]
+ },
+ {
+  "id": "h3c",
+  "name": "H3C",
+  "aliases": [],
+  "website": "https://www.h3c.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Networking/server vendor offering LinSeer Cube LLM all-in-one appliances.",
+   "Pre-integrated on-prem LLM appliances with domestic models."
+  ],
+  "discovery_sources": [
+   "https://www.digitimes.com/news/a20250212PD230.html"
+  ]
+ },
+ {
+  "id": "hammerspace",
+  "name": "Hammerspace",
+  "aliases": [],
+  "website": "https://hammerspace.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Global data platform orchestrating unstructured data across existing storage for AI.",
+   "Global data platform/parallel file system orchestrating unstructured data for AI.",
+   "Feeds GPU clusters from existing on-prem storage without bulk data migration.",
+   "Feeds on-prem GPU clusters with data across sites (Tier 0 storage)."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/04/16/hammerspace-an-unstructured-data-wrangler-used-by-nvidia-meta-and-tesla-raises-100m-at-500m-valuation",
+   "https://hammerspace.com"
+  ]
+ },
+ {
+  "id": "hyperaccel",
+  "name": "HyperAccel",
+  "aliases": [],
+  "website": "https://hyperaccel.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "KAIST spinout building LPU chips specialized for LLM inference.",
+   "LLM-specialized LPU chips and eight-card inference servers; edge variant planned.",
+   "LLM inference servers and edge chips for on-prem deployment.",
+   "Claims 3.5x tokens per watt and dollar versus RTX PRO 6000 servers for on-prem LLM serving."
+  ],
+  "discovery_sources": [
+   "https://hyperaccel.ai",
+   "https://www.plataformamedia.com/en/2026/11/12/hyperaccel-to-showcase-lpu-based-ai-inference-system-at-sc26-highlighting-power-and-cost-efficiency/",
+   "https://www.ai-market-watch.com/news/hyperaccel-unveils-lpu-based-ai-inference-server-at-sc26-jszlbg"
+  ]
+ },
+ {
+  "id": "hypertec",
+  "name": "Hypertec",
+  "aliases": [],
+  "website": "https://www.hypertec.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Server maker and integrator offering immersion-cooled HPC and AI systems.",
+   "Builds private and sovereign AI infrastructure for enterprises and governments."
+  ],
+  "discovery_sources": [
+   "https://www.hypertec.com"
+  ]
+ },
+ {
+  "id": "ieit-systems-inspur",
+  "name": "IEIT Systems (Inspur)",
+  "aliases": [
+   "Inspur Information (IEIT Systems)"
+  ],
+  "website": "https://en.ieisystem.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Major AI server vendor (Inspur subsidiary) and Yuan model developer.",
+   "Leading Chinese AI server manufacturer.",
+   "LLM inference appliances and servers for on-prem enterprise deployment.",
+   "Supplies on-prem AI servers to Chinese enterprises and sovereign deployments."
+  ],
+  "discovery_sources": [
+   "https://en.ieisystem.com",
+   "https://www.digitimes.com/news/a20250212PD230.html",
+   "https://www.ieisystem.com"
+  ]
+ },
+ {
+  "id": "lambda",
+  "name": "Lambda",
+  "aliases": [],
+  "website": "https://lambda.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "GPU cloud plus on-prem clusters and workstations for AI",
+   "Sells private, customer-owned GPU clusters"
+  ],
+  "discovery_sources": [
+   "https://lambda.ai"
+  ]
+ },
+ {
+  "id": "lightmatter",
+  "name": "Lightmatter",
+  "aliases": [],
+  "website": "https://lightmatter.co",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Photonic interconnect (Passage) and photonic compute hardware for AI data centers.",
+   "Component supplier: optical interconnect for dense AI clusters, including customer-owned ones; indirect local-AI role."
+  ],
+  "discovery_sources": [
+   "https://lightmatter.co",
+   "https://siliconvalleyinvestclub.com/id/companies/matx/tear-sheet.pdf"
+  ]
+ },
+ {
+  "id": "lionbox",
+  "name": "LionBox",
+  "aliases": [],
+  "website": "https://www.lionbox.ai",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Plug-and-play private AI box for small teams of 1-30 users.",
+   "Runs a private chat workspace with AI processing kept on the appliance."
+  ],
+  "discovery_sources": [
+   "https://www.lionbox.ai/"
+  ]
+ },
+ {
+  "id": "liqid",
+  "name": "Liqid",
+  "aliases": [],
+  "website": "https://www.liqid.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Composable infrastructure software/hardware pooling GPUs and memory.",
+   "Dynamic GPU composition for on-prem inference."
+  ],
+  "discovery_sources": [
+   "https://www.liqid.com"
+  ]
+ },
+ {
+  "id": "lumai",
+  "name": "Lumai",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Oxford University spinout building optical (free-space photonic) AI compute.",
+   "Optical inference accelerators aim at low-power AI compute in operator-owned datacenters."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "mark-iii-systems",
+  "name": "Mark III Systems",
+  "aliases": [],
+  "website": "https://www.markiiisys.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Houston-based NVIDIA systems integration partner for AI, HPC and data-center infrastructure.",
+   "Designs and deploys on-prem NVIDIA AI clusters for enterprises and universities."
+  ],
+  "discovery_sources": [
+   "https://www.cbinsights.com/company/mark-iii-systems"
+  ]
+ },
+ {
+  "id": "matx",
+  "name": "MatX",
+  "aliases": [],
+  "website": "https://matx.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "LLM-optimized accelerator MatX One with splittable systolic array and SRAM+HBM memory.",
+   "High-throughput LLM silicon for operators owning their inference infrastructure; first units expected 2026-2027."
+  ],
+  "discovery_sources": [
+   "https://siliconangle.com/2026/02/24/chip-startup-matx-raises-500m-speed-large-language-models/",
+   "https://sacra.com/c/matx"
+  ]
+ },
+ {
+  "id": "moore-threads",
+  "name": "Moore Threads",
+  "aliases": [],
+  "website": "https://en.mthreads.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Chinese GPU maker offering MTT GPUs and KUAE AI compute clusters.",
+   "Domestic GPU systems for Chinese sovereign on-prem AI deployments."
+  ],
+  "discovery_sources": [
+   "https://en.mthreads.com"
+  ]
+ },
+ {
+  "id": "myrepublic",
+  "name": "MyRepublic",
+  "aliases": [],
+  "website": "https://myrepublic.net",
+  "hq_country": "Singapore",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Telco/ISP offering the AI Automation Box, a plug-and-play AI server for SMEs.",
+   "On-site AI server for 20-200 employee firms to automate workflows."
+  ],
+  "discovery_sources": [
+   "https://www.malaymail.com/amp/news/money/mediaoutreach/2025/09/03/myrepublic-launches-ai-automation-box-an-industry-first-plug-and-play-ai-server-that-lets-smes-automate-their-business/406541"
+  ]
+ },
+ {
+  "id": "myrtle-ai",
+  "name": "Myrtle.ai",
+  "aliases": [],
+  "website": "https://myrtle.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Cambridge company offering ultra-low-latency ML inference on FPGAs and accelerators (VOLLO).",
+   "Inference engine deployed in customers' own servers, e.g. trading firms' colocated racks."
+  ],
+  "discovery_sources": [
+   "https://myrtle.ai"
+  ]
+ },
+ {
+  "id": "netweb-technologies",
+  "name": "Netweb Technologies",
+  "aliases": [],
+  "website": "https://netwebindia.com",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Indian server maker (Tyrone brand) building NVIDIA-based AI systems locally.",
+   "Made-in-India AI servers for sovereign and enterprise on-prem AI."
+  ],
+  "discovery_sources": [
+   "https://netwebindia.com"
+  ]
+ },
+ {
+  "id": "neureality",
+  "name": "NeuReality",
+  "aliases": [],
+  "website": "https://www.neureality.ai",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "AI inference system company (NR1 AI-CPU, inference appliance, software OS).",
+   "NR1 AI-CPU/NIC inference head-node chip and NR-NEXUS inference operating system.",
+   "Preloaded inference appliance for private GenAI clouds and on-prem clusters.",
+   "Raises utilization of customer-owned GPU inference fleets; acquisition by Unconventional AI agreed Oct 2026."
+  ],
+  "discovery_sources": [
+   "https://insidehpc.com/2025/05/neureality-announces-inference-appliance-is-preloaded-with-ai-models/",
+   "https://eic.ec.europa.eu/eic-fund/eic-fund-portfolio/neureality_en",
+   "https://magica.com/news/unconventional-ai-neureality-acquisition-production-systems",
+   "https://dev.aiwire.net/2025/08/21/neureality-redefines-the-ai-head-node-with-arm-neoverse-v3/"
+  ]
+ },
+ {
+  "id": "normal-computing",
+  "name": "Normal Computing",
+  "aliases": [],
+  "website": "https://www.normalcomputing.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Thermodynamic/probabilistic computing chips and AI-driven hardware verification software.",
+   "Pursuing low-energy AI silicon; no on-prem product deployments found."
+  ],
+  "discovery_sources": [
+   "https://www.normalcomputing.com"
+  ]
+ },
+ {
+  "id": "peak-aio",
+  "name": "PEAK:AIO",
+  "aliases": [],
+  "website": "https://www.peakaio.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "acquired by NetApp (2026)",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Software-defined AI data servers, pNFS metadata (Lattice) and CXL KV-cache memory platform.",
+   "Low-cost on-prem AI storage and KV-cache reuse; technology moving into NetApp ONTAP."
+  ],
+  "discovery_sources": [
+   "https://www.storagereview.com/news/netapp-to-acquire-peakaio-bringing-its-scale-out-pnfs-metadata-work-to-ontap",
+   "https://www.citybiz.co/?p=927536"
+  ]
+ },
+ {
+  "id": "penguin-solutions",
+  "name": "Penguin Solutions",
+  "aliases": [],
+  "website": "https://www.penguinsolutions.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Full-stack AI factory platform: OriginAI blueprints, ClusterWareAI software, ComputeAI racks, managed services.",
+   "AI/HPC infrastructure integrator with ICE ClusterWare software.",
+   "Deploys and manages sovereign and enterprise AI clusters, e.g., SK Telecom Haein; NVIDIA AI Factory partner.",
+   "Builds and manages on-prem AI clusters."
+  ],
+  "discovery_sources": [
+   "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Becomes-an-NVIDIA-AI-Factory-Specialized-Partner/default.aspx",
+   "https://www.penguinsolutions.com/en-us/industries/sovereign-ai",
+   "https://www.penguinsolutions.com"
+  ]
+ },
+ {
+  "id": "phison-aidaptiv",
+  "name": "Phison (aiDAPTIV+)",
+  "aliases": [],
+  "website": "https://www.phison.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "NAND controller maker offering aiDAPTIV+ SSD-based AI memory extension.",
+   "Lets on-prem workstations fine-tune and run large LLMs locally."
+  ],
+  "discovery_sources": [
+   "https://www.phison.com"
+  ]
+ },
+ {
+  "id": "pliops",
+  "name": "Pliops",
+  "aliases": [],
+  "website": "https://pliops.com",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Storage/data accelerator company with LightningAI KV-cache offload for LLM inference.",
+   "XDP LightningAI storage accelerator providing KV-cache offload for LLM inference.",
+   "Boosts throughput of self-hosted LLM inference servers via accelerated storage.",
+   "Extends effective GPU memory in on-prem inference servers via KV-cache tiering."
+  ],
+  "discovery_sources": [
+   "https://pliops.com"
+  ]
+ },
+ {
+  "id": "positron-ai",
+  "name": "Positron AI",
+  "aliases": [],
+  "website": "https://www.positron.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Energy-efficient inference accelerators (Atlas systems, Asimov chip) using LPDDR5X instead of HBM.",
+   "Power-efficient inference servers aimed at enterprises and neoclouds running models in their own facilities."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips",
+   "https://dealroom.co/news/150061-positron-raises-875m-series-c-at-5b-valuation-for-inference-chips/",
+   "https://venturebeat.com/ai/positron-believes-it-has-found-the-secret-to-take-on-nvidia-in-ai-inference-chips-heres-how-it-could-benefit-enterprises"
+  ]
+ },
+ {
+  "id": "privatebox-ai",
+  "name": "PrivateBox AI",
+  "aliases": [],
+  "website": "https://privateboxai.com",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Fully on-prem private AI appliance delivered on NVIDIA hardware.",
+   "Turnkey local LLM appliance keeping business data off public clouds."
+  ],
+  "discovery_sources": [
+   "https://privateboxai.com/"
+  ]
+ },
+ {
+  "id": "puget-systems",
+  "name": "Puget Systems",
+  "aliases": [],
+  "website": "https://www.pugetsystems.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Custom workstations and servers, including AI/ML and LLM inference configurations.",
+   "Desk-side and rack hardware for running models locally."
+  ],
+  "discovery_sources": [
+   "https://www.pugetsystems.com"
+  ]
+ },
+ {
+  "id": "pure-storage",
+  "name": "Pure Storage",
+  "aliases": [],
+  "website": "https://www.purestorage.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "All-flash storage (FlashBlade) and AI-ready data platforms.",
+   "Flash storage vendor with AI-ready infrastructure (FlashBlade, AIRI).",
+   "Storage for on-prem AI pipelines, RAG and inference under NVIDIA-certified designs.",
+   "On-prem storage for private AI pipelines."
+  ],
+  "discovery_sources": [
+   "https://www.purestorage.com"
+  ]
+ },
+ {
+  "id": "quanta-cloud-technology-qct",
+  "name": "Quanta Cloud Technology (QCT)",
+  "aliases": [],
+  "website": "https://www.qct.io",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Quanta Computer subsidiary building data-center servers including NVIDIA-based AI systems.",
+   "Supplies AI server platforms to enterprises, telcos and sovereign clouds."
+  ],
+  "discovery_sources": [
+   "https://www.qct.io"
+  ]
+ },
+ {
+  "id": "rebellions",
+  "name": "Rebellions",
+  "aliases": [],
+  "website": "https://rebellions.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Datacenter AI inference NPUs (ATOM, REBEL); merged with Sapeon.",
+   "AI inference chip unicorn (ATOM, REBEL) merged with SAPEON.",
+   "AI inference NPUs and servers; merged with SK Telecom's Sapeon; pre-IPO.",
+   "On-prem/sovereign inference hardware.",
+   "NPU servers for sovereign/on-prem inference in Korean datacenters.",
+   "Domestic NPU option for Korean sovereign AI data centers and enterprise on-prem inference."
+  ],
+  "discovery_sources": [
+   "https://rebellions.ai",
+   "https://en.wikipedia.org/wiki/Rebellions_(company)",
+   "https://www.koreatimes.co.kr/business/tech-science/20260805/korean-npu-makers-seek-track-records-ahead-of-potential-ipos"
+  ]
+ },
+ {
+  "id": "saal-ai",
+  "name": "SAAL.ai",
+  "aliases": [],
+  "website": "https://saal.ai",
+  "hq_country": "United Arab Emirates",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Abu Dhabi AI company co-developing UAE-built 'Sovereign AI-in-a-Box' with Kerno.",
+   "Integrated on-prem appliance engineered, manufactured and supported in the UAE."
+  ],
+  "discovery_sources": [
+   "https://gulfnews.com/business/corporate-news/kerno-and-saalai-unveil-uae-built-sovereign-ai-in-a-box-1.500704548"
+  ]
+ },
+ {
+  "id": "salience-labs",
+  "name": "Salience Labs",
+  "aliases": [],
+  "website": "https://saliencelabs.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Oxford photonic chip startup for AI and networking.",
+   "Photonic processing aims to cut energy for AI compute in private datacenters."
+  ],
+  "discovery_sources": [
+   "https://saliencelabs.ai"
+  ]
+ },
+ {
+  "id": "sambanova-systems",
+  "name": "SambaNova Systems",
+  "aliases": [],
+  "website": "https://sambanova.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Reconfigurable dataflow (RDU) chips and rack systems for enterprise LLM inference.",
+   "AI chip and full-stack systems company (SambaNova Suite, SambaRack).",
+   "Ships racks for on-prem and sovereign deployments; Intel acquisition talks collapsed Jan 2026, replaced by partnership.",
+   "Sells on-prem inference racks for private deployment."
+  ],
+  "discovery_sources": [
+   "https://www.jonpeddie.com/news/ok-no-wedding-but-can-we-still-date/",
+   "https://finviz.com/news/320765/intel-ceo-bets-on-sambanova-partnership-to-challenge-nvidias-ai-dominance",
+   "https://sambanova.ai"
+  ]
+ },
+ {
+  "id": "spinncloud-systems",
+  "name": "SpiNNcloud Systems",
+  "aliases": [],
+  "website": "https://spinncloud.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "SpiNNaker2 neuromorphic supercomputing systems.",
+   "Dresden company commercializing SpiNNaker2 neuromorphic supercomputers.",
+   "Energy-efficient on-prem neuromorphic AI.",
+   "Neuromorphic hardware for energy-efficient on-prem AI inference."
+  ],
+  "discovery_sources": [
+   "https://spinncloud.com",
+   "https://eic.ec.europa.eu/impact/spinncloud_en"
+  ]
+ },
+ {
+  "id": "taalas",
+  "name": "Taalas",
+  "aliases": [],
+  "website": "https://taalas.com",
+  "hq_country": "Canada",
+  "discovery_status": "acquired by AMD (reported; unverified)",
+  "segments": [
+   "edge-silicon",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Startup hard-wiring specific model weights into custom silicon.",
+   "Toronto chip startup hard-wiring specific AI models into silicon for inference.",
+   "Hardwires specific LLM weights into custom silicon; HC1 runs Llama 3.1 8B at ~17k tokens/s.",
+   "Model-specific chips for very efficient local inference.",
+   "Model-specific inference chips aim to make dense, low-cost self-hosted inference hardware.",
+   "Model-specific ASICs enable ultra-efficient fixed-model inference boxes; now folded into AMD's accelerator roadmap."
+  ],
+  "discovery_sources": [
+   "https://aiweekly.co/alerts/amd-acquires-taalas-startup-etching-ai-weights-into-silicon",
+   "https://taalas.com",
+   "https://ir.amd.com/news-events/press-releases/detail/1296",
+   "https://www.techpowerup.com/354943/amd-completes-acquisition-of-taalas-to-advance-ai-inference"
+  ]
+ },
+ {
+  "id": "tensordyne-formerly-recogni",
+  "name": "Tensordyne (formerly Recogni)",
+  "aliases": [
+   "Recogni"
+  ],
+  "website": null,
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Logarithmic-math Napier 3nm inference chips in air-cooled quarter-rack pods.",
+   "Logarithmic-math AI inference chips; pivoted from automotive edge to datacenter.",
+   "Air-cooled pods designed for existing data centers; shipments targeted late 2026, volume mid-2027.",
+   "Efficient on-prem generative inference."
+  ],
+  "discovery_sources": [
+   "https://www.runtimewire.com/article/tensordyne-napier-log-math-ai-inference-chip",
+   "https://www.nextplatform.com/compute/2026/06/16/tensordyne-converts-ai-matrix-math-to-logs-to-crank-up-inference-oomph/5256558",
+   "https://spectrum.ieee.org/inference-hardware-revolution",
+   "https://www.recogni.com"
+  ]
+ },
+ {
+  "id": "tenstorrent",
+  "name": "Tenstorrent",
+  "aliases": [],
+  "website": "https://tenstorrent.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "RISC-V AI processors, workstations and licensable IP.",
+   "RISC-V and AI processor company (Wormhole, Blackhole) with open-source software stack.",
+   "RISC-V-based Blackhole AI accelerators and Galaxy servers with an open-source software stack.",
+   "Open on-prem AI systems and IP for edge/automotive.",
+   "Sells AI cards, workstations and servers customers run on-prem; licenses IP for edge chips. Dual Toronto/Santa Clara presence.",
+   "Galaxy Blackhole servers (GA 2026) sold for on-prem; self-hosted AI vendors validate stacks on them."
+  ],
+  "discovery_sources": [
+   "https://tenstorrent.com",
+   "https://theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga",
+   "https://www.hpcwire.com/aiwire/2026/05/01/tenstorrent-announces-general-availability-of-galaxy-blackhole-ai-system/",
+   "https://www.unite.ai/on-prem-voice-agents-get-new-hardware-path-as-smallest-ai-joins-tenstorrent/"
+  ]
+ },
+ {
+  "id": "unconventional-ai",
+  "name": "Unconventional AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Energy-efficient AI compute hardware startup acquiring NeuReality.",
+   "Plans production inference systems building on NeuReality head-node technology; delivery details undisclosed."
+  ],
+  "discovery_sources": [
+   "https://magica.com/news/unconventional-ai-neureality-acquisition-production-systems"
+  ]
+ },
+ {
+  "id": "uptime-industries-lemony",
+  "name": "Uptime Industries (Lemony)",
+  "aliases": [],
+  "website": "https://www.lemony.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Lemony stackable AI-in-a-box appliance hosting LLMs, adapters and agents on-site.",
+   "Data stays in the box; targets legal, finance, government and healthcare teams."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/06/11/uptime-industries-wants-to-boost-localized-ai-usage-with-an-ai-in-a-box-called-lemony-ai",
+   "https://siliconangle.com/2025/06/11/lemony-launches-premises-ai-solution-local-model-deployment",
+   "https://campustechnology.com/articles/2025/10/08/lemony-introduces-on-premise-ai-device-for-enterprises.aspx"
+  ]
+ },
+ {
+  "id": "vast-data",
+  "name": "VAST Data",
+  "aliases": [],
+  "website": "https://www.vastdata.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI operating system/data platform unifying storage, database and compute for AI.",
+   "AI data platform / AI operating system on all-flash storage",
+   "Data platform for on-prem AI factories, RAG and inference; $30B valuation after 2026 Series F.",
+   "On-prem data and agent runtime for private AI factories",
+   "Powers on-prem AI factories and RAG/inference pipelines (InsightEngine)."
+  ],
+  "discovery_sources": [
+   "https://builtin.com/articles/vast-data-raises-1b-series-f-30b-valuation-20260423",
+   "https://www.hpcwire.com/bigdatawire/2026/11/10/vast-data-reports-10b-in-commitments-as-ai-storage-spending-surges/",
+   "https://www.vastdata.com"
+  ]
+ },
+ {
+  "id": "vaultllm",
+  "name": "VaultLLM",
+  "aliases": [],
+  "website": "https://vaultllm.in",
+  "hq_country": "India",
+  "discovery_status": "unknown",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Private, secure AI-in-a-box for startups and SMBs.",
+   "On-site LLM appliance avoiding cloud data exposure for small businesses."
+  ],
+  "discovery_sources": [
+   "https://vaultllm.in/"
+  ]
+ }
+]

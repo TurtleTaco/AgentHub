@@ -1,0 +1,781 @@
+[
+ {
+  "id": "netrasemi",
+  "name": "Netrasemi",
+  "aliases": [],
+  "website": "https://www.netrasemi.com",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Edge AI and vision SoCs for smart cameras, IoT and industrial devices.",
+   "Kerala semiconductor startup making edge AI SoCs (A2000 12nm).",
+   "Indian-designed SoCs for on-device video analytics.",
+   "Multi-TOPS application processors run AI workloads directly on devices."
+  ],
+  "discovery_sources": [
+   "https://www.netrasemi.com",
+   "https://yourstory.com/2025/08/netrasemi-semiconductor-startup-edge-ai-chips",
+   "https://analyticsindiamag.com/ai-features/from-chip-talent-to-chipmaker-netrasemi-bets-on-indias-semiconductor-future"
+  ]
+ },
+ {
+  "id": "neuchips",
+  "name": "Neuchips",
+  "aliases": [],
+  "website": "https://www.neuchips.ai",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "AI inference ASICs and PCIe cards (Viper) for offline GenAI on PCs and edge servers.",
+   "Hsinchu AI ASIC company with LLM inference accelerator cards.",
+   "Runs LLMs locally on enterprise workstations without cloud.",
+   "Low-power cards for on-prem servers and AI PCs."
+  ],
+  "discovery_sources": [
+   "https://www.neuchips.ai"
+  ]
+ },
+ {
+  "id": "neurobus",
+  "name": "Neurobus",
+  "aliases": [],
+  "website": null,
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Neuromorphic edge AI systems for drones, space and defense.",
+   "Low-power autonomous on-board perception."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "nextchip",
+  "name": "Nextchip",
+  "aliases": [],
+  "website": "https://www.nextchip.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive ISP and ADAS SoCs with NPUs (Apache series).",
+   "In-vehicle camera AI processing."
+  ],
+  "discovery_sources": [
+   "https://www.nextchip.com"
+  ]
+ },
+ {
+  "id": "nordic-semiconductor",
+  "name": "Nordic Semiconductor",
+  "aliases": [],
+  "website": "https://www.nordicsemi.com",
+  "hq_country": "Norway",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Low-power wireless SoCs adding on-chip NPU (from Atlazo) and Neuton tinyML.",
+   "Low-power wireless SoC maker adding edge AI (acquired Neuton.AI, Atlazo).",
+   "tinyML inference directly in Bluetooth/cellular IoT devices.",
+   "Tiny ML models run on Bluetooth/cellular IoT chips at the edge."
+  ],
+  "discovery_sources": [
+   "https://www.nordicsemi.com"
+  ]
+ },
+ {
+  "id": "nuvoton-technology",
+  "name": "Nuvoton Technology",
+  "aliases": [],
+  "website": "https://www.nuvoton.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "MCUs including NuMicro M55M1 with Arm Ethos-U55 NPU.",
+   "Embedded AI in industrial and consumer MCUs."
+  ],
+  "discovery_sources": [
+   "https://www.nuvoton.com"
+  ]
+ },
+ {
+  "id": "openedges-technology",
+  "name": "OpenEdges Technology",
+  "aliases": [
+   "OPENEDGES Technology"
+  ],
+  "website": "https://www.openedges.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "ENLIGHT NPU IP and memory-subsystem IP for edge SoCs.",
+   "NPU and memory-interface IP company.",
+   "Licensable low-power NPU IP for on-device inference.",
+   "NPU IP for edge AI SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.openedges.com"
+  ]
+ },
+ {
+  "id": "perceive",
+  "name": "Perceive",
+  "aliases": [],
+  "website": "https://perceive.io",
+  "hq_country": "United States",
+  "discovery_status": "acquired by Amazon (2024)",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ergo ultra-low-power edge inference chip; Xperi spinout.",
+   "Ran large neural networks on battery devices without cloud."
+  ],
+  "discovery_sources": [
+   "https://perceive.io"
+  ]
+ },
+ {
+  "id": "pimchip",
+  "name": "PIMCHIP",
+  "aliases": [],
+  "website": null,
+  "hq_country": "China",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "SRAM compute-in-memory AI chips for edge devices.",
+   "Low-power on-device inference for IoT and wearables."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "polyn-technology",
+  "name": "POLYN Technology",
+  "aliases": [],
+  "website": "https://polyn.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Neuromorphic analog signal processing (NASP) chips for tiny sensor-level AI.",
+   "Pre-processes sensor data on-chip at microwatt power for wearables and industrial IoT."
+  ],
+  "discovery_sources": [
+   "https://polyn.ai"
+  ]
+ },
+ {
+  "id": "prophesee",
+  "name": "Prophesee",
+  "aliases": [],
+  "website": "https://www.prophesee.ai",
+  "hq_country": "France",
+  "discovery_status": "active (filed for insolvency proceedings Jan 2025; operations continued)",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Event-based (neuromorphic) vision sensors, co-developed with Sony, and Metavision software.",
+   "Paris maker of event-based neuromorphic vision sensors and software.",
+   "On-sensor sparse event vision enabling low-power local perception.",
+   "Sensor-level, low-power vision processing for edge devices and wearables."
+  ],
+  "discovery_sources": [
+   "https://www.prophesee.ai",
+   "https://image-sensors-world.blogspot.com/2025/01/prophesee-files-for-insolvency.html",
+   "https://www.f4news.com/2025/01/29/prophesee-files-for-insolvency/"
+  ]
+ },
+ {
+  "id": "quadric",
+  "name": "Quadric",
+  "aliases": [],
+  "website": "https://quadric.io",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Chimera general-purpose NPU (GPNPU) processor IP licensed to SoC makers.",
+   "Licensable inference engine processor IP (Chimera GPNPU) for on-device AI chips.",
+   "Programmable NPU IP lets device makers run evolving models on-chip.",
+   "NPU IP runs LLMs/vision on edge SoCs; $30M Series C."
+  ],
+  "discovery_sources": [
+   "https://quadric.io",
+   "https://www.edge-ai-vision.com/?p=56520"
+  ]
+ },
+ {
+  "id": "rain-ai",
+  "name": "Rain AI",
+  "aliases": [],
+  "website": "https://rain.ai",
+  "hq_country": "United States",
+  "discovery_status": "defunct",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Altman-backed neuromorphic/in-memory AI chip startup.",
+   "Targeted low-power AI training and inference chips for devices."
+  ],
+  "discovery_sources": [
+   "https://rain.ai",
+   "https://startupwired.com/2025/05/16/rain-ai-the-rise-and-fall-of-a-chipmaking-challenger/",
+   "https://www.mitrade.com/ae-en/insights/news/live-news/article-3-1973287-20260807"
+  ]
+ },
+ {
+  "id": "realtek",
+  "name": "Realtek",
+  "aliases": [],
+  "website": "https://www.realtek.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ameba IoT and camera SoCs with integrated NPUs.",
+   "Local AI in cameras and smart home devices."
+  ],
+  "discovery_sources": [
+   "https://www.realtek.com"
+  ]
+ },
+ {
+  "id": "reexen-technology",
+  "name": "Reexen Technology",
+  "aliases": [],
+  "website": null,
+  "hq_country": "China",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Analog in-sensor/in-memory compute chips for audio and vision edge AI.",
+   "On-sensor inference reducing power for always-on devices."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "renesas-electronics",
+  "name": "Renesas Electronics",
+  "aliases": [
+   "Reality AI (Renesas)"
+  ],
+  "website": "https://www.renesas.com",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon",
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "MCUs/MPUs with DRP-AI accelerators and Arm Ethos NPUs.",
+   "Sensor/signal AI tools for anomaly detection and condition monitoring on embedded devices",
+   "MCU/MPU maker with DRP-AI accelerators.",
+   "Embedded vision and voice AI in industrial, automotive and IoT devices.",
+   "Generates edge models for Renesas MCUs/MPUs running locally on equipment",
+   "Embedded processors run vision AI at the edge."
+  ],
+  "discovery_sources": [
+   "https://www.renesas.com",
+   "https://www.renesas.com/reality-ai"
+  ]
+ },
+ {
+  "id": "rockchip",
+  "name": "Rockchip",
+  "aliases": [],
+  "website": "https://www.rock-chips.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "ARM SoCs with NPUs (RK3588, RK3576) and RK182x LLM coprocessors.",
+   "Fuzhou SoC designer (RK3588 etc.) with integrated NPUs.",
+   "Widely used for local AI in edge boxes, robots and SBCs.",
+   "Ubiquitous low-cost SoCs running local AI on boards, tablets and devices."
+  ],
+  "discovery_sources": [
+   "https://www.rock-chips.com"
+  ]
+ },
+ {
+  "id": "sagence-ai",
+  "name": "Sagence AI",
+  "aliases": [],
+  "website": "https://www.sagence-ai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Analog in-memory compute inference chips scaling from edge devices to servers.",
+   "Low-power analog inference for on-premises and edge deployments of large models."
+  ],
+  "discovery_sources": [
+   "https://www.sagence-ai.com"
+  ]
+ },
+ {
+  "id": "semidrive",
+  "name": "SemiDrive",
+  "aliases": [],
+  "website": "https://www.semidrive.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive SoCs (X9, V9) with NPUs for cockpit and ADAS.",
+   "In-vehicle edge AI."
+  ],
+  "discovery_sources": [
+   "https://www.semidrive.com"
+  ]
+ },
+ {
+  "id": "semidynamics",
+  "name": "Semidynamics",
+  "aliases": [],
+  "website": "https://semidynamics.com",
+  "hq_country": "Spain",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "RISC-V vector cores and Cervell all-in-one NPU IP.",
+   "Programmable RISC-V NPU IP for edge to server AI."
+  ],
+  "discovery_sources": [
+   "https://semidynamics.com"
+  ]
+ },
+ {
+  "id": "semron",
+  "name": "Semron",
+  "aliases": [
+   "SEMRON"
+  ],
+  "website": "https://www.semron.ai",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "3D-stacked capacitive analog in-memory compute chips (CapRAM).",
+   "Dresden startup building 3D analog in-memory compute chips.",
+   "Aims to run large AI models directly on phones and edge devices.",
+   "Aims to fit large models into mobile devices for on-device inference."
+  ],
+  "discovery_sources": [
+   "https://www.semron.ai"
+  ]
+ },
+ {
+  "id": "sensesemi",
+  "name": "Sensesemi",
+  "aliases": [],
+  "website": null,
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Bengaluru startup developing edge AI chips for IIoT, automotive and medical.",
+   "On-device inference silicon for industrial and medical devices."
+  ],
+  "discovery_sources": [
+   "https://analyticsindiamag.com/ai-news-updates/sensesemi-bags-₹25-cr-seed-funding-to-build-edge-ai-chips"
+  ]
+ },
+ {
+  "id": "siengine",
+  "name": "SiEngine",
+  "aliases": [],
+  "website": "https://www.siengine.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive 7nm cockpit and ADAS SoCs.",
+   "In-vehicle on-device AI including LLM assistants."
+  ],
+  "discovery_sources": [
+   "https://www.siengine.com"
+  ]
+ },
+ {
+  "id": "sifive",
+  "name": "SiFive",
+  "aliases": [],
+  "website": "https://www.sifive.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "RISC-V processor IP including Intelligence X/XM AI-optimized cores.",
+   "RISC-V vector/matrix IP for edge and datacenter AI SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.sifive.com"
+  ]
+ },
+ {
+  "id": "sigmastar",
+  "name": "SigmaStar",
+  "aliases": [],
+  "website": "https://www.sigmastar.com.cn",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Video surveillance, dashcam and smart display SoCs with NPUs.",
+   "On-device video AI in cameras and displays."
+  ],
+  "discovery_sources": [
+   "https://www.sigmastar.com.cn"
+  ]
+ },
+ {
+  "id": "silicon-labs",
+  "name": "Silicon Labs",
+  "aliases": [],
+  "website": "https://www.silabs.com",
+  "hq_country": "United States",
+  "discovery_status": "active (being acquired by Texas Instruments; announced Feb 2026)",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Wireless IoT SoCs with Matrix Vector Processor for tinyML.",
+   "On-device ML in battery-powered connected devices."
+  ],
+  "discovery_sources": [
+   "https://www.silabs.com",
+   "https://news.silabs.com/2026-02-04-Texas-Instruments-to-acquire-Silicon-Labs"
+  ]
+ },
+ {
+  "id": "sima-ai",
+  "name": "SiMa.ai",
+  "aliases": [],
+  "website": "https://sima.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "MLSoC and Modalix machine-learning SoCs plus Palette software for embedded edge and physical AI.",
+   "Edge ML SoCs and Palette software for embedded vision and physical AI",
+   "Runs multimodal and GenAI models inside robots, drones, industrial and automotive systems.",
+   "Runs perception models locally in robots, drones and vehicles"
+  ],
+  "discovery_sources": [
+   "https://sima.ai",
+   "https://newmarketpitch.com/blogs/news/physical-ai-funding-news"
+  ]
+ },
+ {
+  "id": "skymizer",
+  "name": "Skymizer",
+  "aliases": [],
+  "website": "https://skymizer.ai",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "EdgeThought LLM inference accelerator IP and compiler tools.",
+   "Taipei AI compiler/IP company (EdgeThought, HyperThought, HTX301 chip).",
+   "Enables on-device/on-prem LLM inference in edge SoCs.",
+   "HTX301 claims 700B-parameter models on single PCIe card for on-prem."
+  ],
+  "discovery_sources": [
+   "https://technode.global/prnasia/skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ultra-large-llm-inference-on-a-single-card/",
+   "https://technews.tw/2026/05/29/skymizer-htx301-the-worlds-first-edge-ai-inference-chip/"
+  ]
+ },
+ {
+  "id": "socionext",
+  "name": "Socionext",
+  "aliases": [],
+  "website": "https://www.socionext.com",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Custom SoCs including AI-enabled imaging and automotive chips.",
+   "Custom edge AI silicon for cameras and vehicles."
+  ],
+  "discovery_sources": [
+   "https://www.socionext.com"
+  ]
+ },
+ {
+  "id": "sophgo",
+  "name": "SOPHGO",
+  "aliases": [],
+  "website": "https://www.sophgo.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "TPU-based edge and cloud AI chips (BM1684X) and RISC-V processors.",
+   "AI chip maker (BM1684X TPUs, RISC-V SoCs) for edge and servers.",
+   "Edge AI boxes and modules running local LLMs and vision.",
+   "Edge boxes and accelerator cards run vision and LLM inference locally."
+  ],
+  "discovery_sources": [
+   "https://www.sophgo.com"
+  ]
+ },
+ {
+  "id": "spacemit",
+  "name": "SpacemiT",
+  "aliases": [],
+  "website": "https://www.spacemit.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "RISC-V AI CPUs (Key Stone K1/K3) for robots, PCs and edge.",
+   "RISC-V chips with fused AI acceleration for local inference."
+  ],
+  "discovery_sources": [
+   "https://www.spacemit.com"
+  ]
+ },
+ {
+  "id": "stmicroelectronics",
+  "name": "STMicroelectronics",
+  "aliases": [
+   "Cartesiam (ST NanoEdge AI)"
+  ],
+  "website": "https://www.st.com",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon",
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "STM32 MCUs incl. STM32N6 with Neural-ART NPU; sensors with ML cores.",
+   "NanoEdge AI Studio for anomaly detection and on-device learning on STM32",
+   "Geneva-headquartered chipmaker; STM32N6 MCU with Neural-ART NPU and ST Edge AI Suite.",
+   "Embedded AI on MCUs and smart sensors with Edge AI Suite tools.",
+   "Trains and runs models directly on microcontrollers",
+   "MCUs/MPUs and free tools run vision and audio AI on embedded devices."
+  ],
+  "discovery_sources": [
+   "https://www.st.com",
+   "https://stm32ai.st.com/nanoedge-ai/",
+   "https://www.edb.gov.sg/en/news-and-insights/stmicroelectronics-and-nus-power-singapore-edge-ai"
+  ]
+ },
+ {
+  "id": "synaptics",
+  "name": "Synaptics",
+  "aliases": [],
+  "website": "https://www.synaptics.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Astra AI-native embedded processors and MCUs for IoT.",
+   "Edge AI SoCs for smart home, industrial and consumer devices."
+  ],
+  "discovery_sources": [
+   "https://www.synaptics.com"
+  ]
+ },
+ {
+  "id": "synopsys-arc-processor-ip",
+  "name": "Synopsys ARC Processor IP",
+  "aliases": [],
+  "website": "https://www.synopsys.com",
+  "hq_country": "United States",
+  "discovery_status": "acquired by GlobalFoundries (2026)",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "ARC CPU, VPX DSP and NPX NPU processor IP lines, sold by Synopsys to GlobalFoundries.",
+   "NPU IP for automotive and consumer edge SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.synopsys.com",
+   "https://www.nasdaq.com/press-release/globalfoundries-completes-acquisition-synopsys-processor-ip-solutions-business",
+   "https://www.tomshardware.com/pc-components/cpus/globalfoundries-acquires-arc-and-risc-v-ip-from-synopsys-company-gains-critical-cpu-ip-as-it-grows-beyond-being-a-mere-chipmaker"
+  ]
+ },
+ {
+  "id": "synsense",
+  "name": "SynSense",
+  "aliases": [],
+  "website": "https://www.synsense.ai",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Neuromorphic processors and dynamic-vision SoCs (Speck, Xylo).",
+   "Neuromorphic processor company (Speck vision, Xylo audio); Zurich and Chengdu operations.",
+   "Sub-milliwatt event-driven inference in sensors and toys/robots.",
+   "Milliwatt-scale spiking processors run sensing AI on devices."
+  ],
+  "discovery_sources": [
+   "https://www.synsense.ai"
+  ]
+ },
+ {
+  "id": "synthara",
+  "name": "Synthara",
+  "aliases": [],
+  "website": "https://www.synthara.ai",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "ComputeRAM in-memory compute IP that drops into SRAM in MCUs and SoCs.",
+   "Adds energy-efficient on-chip AI acceleration to existing embedded designs."
+  ],
+  "discovery_sources": [
+   "https://www.synthara.ai"
+  ]
+ },
+ {
+  "id": "syntiant",
+  "name": "Syntiant",
+  "aliases": [],
+  "website": "https://www.syntiant.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Neural Decision Processors and models for always-on voice, audio and sensor AI; also MEMS microphones.",
+   "Ultra-low-power neural decision processors and edge AI models",
+   "Ultra-low-power neural decision processors and edge models for voice/sensors.",
+   "Ultra-low-power on-device wake-word, speech and sensor inference in battery devices.",
+   "Always-on audio/vision inference on device",
+   "Always-on on-device wake word and sensor AI in earbuds, wearables."
+  ],
+  "discovery_sources": [
+   "https://www.syntiant.com",
+   "https://www.prnewswire.com/news-releases/edge-ai-foundation-launches-first-of-its-kind-working-group-to-advance-mission-critical-ai-capabilities-for-defense-and-government-operations-302691604.html"
+  ]
+ },
+ {
+  "id": "telechips",
+  "name": "Telechips",
+  "aliases": [],
+  "website": "https://www.telechips.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive infotainment SoCs and AI accelerators.",
+   "In-vehicle edge AI for cockpit and ADAS."
+  ],
+  "discovery_sources": [
+   "https://www.telechips.com"
+  ]
+ },
+ {
+  "id": "tetramem",
+  "name": "TetraMem",
+  "aliases": [],
+  "website": "https://www.tetramem.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Memristor-based analog in-memory computing chips for edge AI inference.",
+   "Multi-level RRAM compute-in-memory for low-power on-device AI."
+  ],
+  "discovery_sources": [
+   "https://www.tetramem.com"
+  ]
+ },
+ {
+  "id": "texas-instruments",
+  "name": "Texas Instruments",
+  "aliases": [],
+  "website": "https://www.ti.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Edge AI processors (AM6xA, TDA4) and MCUs with integrated NPUs.",
+   "Embedded vision and real-time control AI on-device."
+  ],
+  "discovery_sources": [
+   "https://www.ti.com",
+   "https://news.silabs.com/2026-02-04-Texas-Instruments-to-acquire-Silicon-Labs"
+  ]
+ }
+]

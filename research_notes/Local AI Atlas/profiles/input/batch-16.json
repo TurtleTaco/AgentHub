@@ -1,0 +1,806 @@
+[
+ {
+  "id": "privately-sa",
+  "name": "Privately SA",
+  "aliases": [],
+  "website": "https://www.privately.eu",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Lausanne company providing on-device age assurance and online-safety AI.",
+   "Facial age estimation and safety models run on-device; no images leave phone."
+  ],
+  "discovery_sources": [
+   "https://www.privately.eu"
+  ]
+ },
+ {
+  "id": "runanywhere",
+  "name": "RunAnywhere",
+  "aliases": [],
+  "website": "https://www.runanywhere.ai",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "YC W26 open-source SDK plus control plane to run multimodal AI on-device at scale.",
+   "One SDK for on-device LLM/speech/vision on iOS, Android, React Native; OTA model rollouts, hybrid routing."
+  ],
+  "discovery_sources": [
+   "https://www.ycombinator.com/launches/PFB-runanywhere-the-default-way-to-run-on-device-ai-at-scale",
+   "https://www.founderland.ai/articles/yc-backed-runanywhere-launches-platform-for-on-device-ai-at--mmyvdc1j"
+  ]
+ },
+ {
+  "id": "second-state-llamaedge-wasmedge",
+  "name": "Second State (LlamaEdge / WasmEdge)",
+  "aliases": [],
+  "website": "https://www.secondstate.io",
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Maintainer of WasmEdge runtime and LlamaEdge for portable LLM apps via WebAssembly.",
+   "Runs LLM inference portably on edge devices and laptops through a lightweight Wasm runtime."
+  ],
+  "discovery_sources": [
+   "https://github.com/WasmEdge/WasmEdge"
+  ]
+ },
+ {
+  "id": "sensory",
+  "name": "Sensory",
+  "aliases": [],
+  "website": "https://www.sensory.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Veteran embedded voice/vision AI vendor (TrulyHandsfree) for automotive, consumer and IoT.",
+   "Embedded speech recognition, wake word and biometrics.",
+   "100% on-device wake word, STT, voice commands with LLM handoff for complex queries.",
+   "Runs on-device on low-power chips without cloud."
+  ],
+  "discovery_sources": [
+   "https://www.sensory.com/automotive/",
+   "https://www.sensory.com"
+  ]
+ },
+ {
+  "id": "software-mansion-react-native-executorch",
+  "name": "Software Mansion (React Native ExecuTorch)",
+  "aliases": [],
+  "website": "https://swmansion.com",
+  "hq_country": "Poland",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Software house building React Native ExecuTorch and on-device AI app development services.",
+   "Open-source bindings to run ExecuTorch models locally in React Native mobile apps."
+  ],
+  "discovery_sources": [
+   "https://swmansion.com/services/on-device-ai-and-local-ai-development/",
+   "https://github.com/software-mansion/react-native-executorch"
+  ]
+ },
+ {
+  "id": "soundhound-ai",
+  "name": "SoundHound AI",
+  "aliases": [],
+  "website": "https://www.soundhound.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Public voice AI company (Houndify) for automotive, restaurants and devices.",
+   "Public voice AI company (Houndify, automotive, restaurants, Amelia).",
+   "Edge/on-chip voice AI with on-device LLM on NVIDIA DRIVE; works without connectivity.",
+   "Edge/hybrid voice AI runs on-device in vehicles and devices."
+  ],
+  "discovery_sources": [
+   "https://www.speechtechmag.com/Articles/News/Speech-Technology-News/SoundHound-to-Offer-On-Chip-Voice-AI-with-NVIDIA-163116.aspx",
+   "https://autotechinsight.spglobal.com/news/5274864/soundhound-to-offer-on-chip-voice-ai-with-nvidia-for-in-vehicle-generative-ai-responses",
+   "https://www.soundhound.com"
+  ]
+ },
+ {
+  "id": "speechmatics",
+  "name": "Speechmatics",
+  "aliases": [],
+  "website": "https://www.speechmatics.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks",
+   "selfhosted-inference-llmops",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Cambridge speech recognition and voice AI company covering 50+ languages.",
+   "Speech recognition company offering cloud, on-prem and on-device speech-to-text.",
+   "Speech recognition and voice AI company.",
+   "Offers on-prem containers and on-device deployment alongside cloud APIs.",
+   "Speechmatics On-Device runs ASR on end-user hardware with no audio leaving device.",
+   "On-prem and on-device deployment of speech models."
+  ],
+  "discovery_sources": [
+   "https://www.speechmatics.com",
+   "https://www.speechmatics.com/company/articles-and-news/on-device-speech-to-text-in-10-questions",
+   "https://www.speechmatics.com/company/articles-and-news/how-to-deploy-on-premises-speech-recognition-for-secure-enterprise-environments",
+   "https://www.speechmatics.com/company/articles-and-news/the-return-of-on-prem-why-enterprise-is-no-longer-in-the-cloud"
+  ]
+ },
+ {
+  "id": "tether-qvac",
+  "name": "Tether (QVAC)",
+  "aliases": [],
+  "website": "https://tether.io",
+  "hq_country": "El Salvador",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Stablecoin issuer's QVAC platform for local, peer-to-peer AI apps.",
+   "Stablecoin issuer's QVAC open-source SDK for building local, offline AI apps.",
+   "Local-first AI apps and SDK running on user devices.",
+   "QVAC Fabric (llama.cpp fork) plus whisper.cpp/Parakeet/Bergamot across phones, desktops, servers."
+  ],
+  "discovery_sources": [
+   "https://tether.io",
+   "https://decrypt.co/363809/stablecoin-giant-tether-launches-toolkit-for-building-local-offline-ai-apps",
+   "https://raw.githubusercontent.com/tetherto/qvac/main/README.md",
+   "https://www.networkworld.com/article/4250425/app-developers-turn-to-qvac-for-ai-tooling-without-the-cloud.html"
+  ]
+ },
+ {
+  "id": "tracel-ai-burn",
+  "name": "Tracel AI (Burn)",
+  "aliases": [],
+  "website": "https://burn.dev",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Develops Burn, a Rust deep-learning framework with WebGPU, Metal, CUDA and embedded backends.",
+   "Portable training/inference from browsers (WASM/WebGPU) to no_std embedded devices."
+  ],
+  "discovery_sources": [
+   "https://github.com/tracel-ai/burn"
+  ]
+ },
+ {
+  "id": "traceweave",
+  "name": "TraceWeave",
+  "aliases": [],
+  "website": null,
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Korean startup building an architecture for running AI agents on-device.",
+   "On-device agent runtime; $2.3M seed led by Mirae Asset Capital with Naver D2SF (Oct 2026)."
+  ],
+  "discovery_sources": [
+   "https://en.wowtale.net/2026/10/21/235665/"
+  ]
+ },
+ {
+  "id": "visionary-ai",
+  "name": "Visionary.ai",
+  "aliases": [],
+  "website": "https://www.visionary.ai",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Jerusalem startup for AI-based real-time image denoising/ISP.",
+   "Video enhancement AI runs on device chipsets in cameras and phones."
+  ],
+  "discovery_sources": [
+   "https://www.visionary.ai"
+  ]
+ },
+ {
+  "id": "vivoka",
+  "name": "Vivoka",
+  "aliases": [],
+  "website": "https://vivoka.com",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Voice Development Kit for embedded speech recognition and TTS.",
+   "Offline, on-device speech for industrial and embedded products."
+  ],
+  "discovery_sources": [
+   "https://vivoka.com"
+  ]
+ },
+ {
+  "id": "zetic-ai",
+  "name": "Zetic.ai",
+  "aliases": [
+   "ZETIC.ai"
+  ],
+  "website": "https://zetic.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "ZETIC.MLange converts models to run on mobile NPUs.",
+   "MLange (ex-Melange) platform converting models into device-specific NPU libraries for mobile apps.",
+   "Serverless on-device AI across phone chipsets.",
+   "Moves B2B AI services from GPU servers onto phone NPUs; claims up to 60x vs mobile CPU."
+  ],
+  "discovery_sources": [
+   "https://zetic.ai",
+   "https://en.wowtale.net/2024/05/21/76988",
+   "https://www.pulse.bot/b2b-growth/news/zeticai-launches-mlange-the-first-one-stop-on-device-ai-app-development-platform-2e95e1f9-3839-4707-bdd1-eb0fa9a472cc/",
+   "https://www.producthunt.com/p/zetic-melange"
+  ]
+ },
+ {
+  "id": "backyard-ai-formerly-faraday-dev",
+  "name": "Backyard AI (formerly Faraday.dev)",
+  "aliases": [],
+  "website": "https://backyard.ai",
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Backyard AI, character-chat app that began as Faraday desktop app for local LLMs.",
+   "Desktop app ran character models locally on user hardware."
+  ],
+  "discovery_sources": [
+   "https://backyard.ai"
+  ]
+ },
+ {
+  "id": "beelink",
+  "name": "Beelink",
+  "aliases": [],
+  "website": "https://www.bee-link.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Mini-PC maker with Ryzen AI Max+ 'AI mini PC' models.",
+   "Consumer boxes positioned for local LLM inference."
+  ],
+  "discovery_sources": [
+   "https://www.bee-link.com"
+  ]
+ },
+ {
+  "id": "boltai",
+  "name": "BoltAI",
+  "aliases": [],
+  "website": "https://boltai.com",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes BoltAI, native Mac AI chat and inline assistant app.",
+   "Supports Ollama and LM Studio local models alongside cloud APIs."
+  ],
+  "discovery_sources": [
+   "https://boltai.com"
+  ]
+ },
+ {
+  "id": "brave-software",
+  "name": "Brave Software",
+  "aliases": [],
+  "website": "https://brave.com/leo/",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Brave browser's Leo assistant supports Bring Your Own Model.",
+   "BYOM lets users point Leo at local Ollama models instead of cloud."
+  ],
+  "discovery_sources": [
+   "https://brave.com/leo/"
+  ]
+ },
+ {
+  "id": "brevilabs-obsidian-copilot",
+  "name": "Brevilabs (Obsidian Copilot)",
+  "aliases": [],
+  "website": "https://www.obsidiancopilot.com",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Copilot for Obsidian, AI chat and vault-QA plugin.",
+   "Works with Ollama/LM Studio local models for private note Q&A."
+  ],
+  "discovery_sources": [
+   "https://github.com/logancyang/obsidian-copilot"
+  ]
+ },
+ {
+  "id": "cherry-studio",
+  "name": "Cherry Studio",
+  "aliases": [
+   "CherryHQ (Cherry Studio)"
+  ],
+  "website": "https://www.cherry-ai.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Cherry Studio, open-source desktop LLM client with assistants and knowledge base.",
+   "Open-source desktop AI client supporting cloud and local models.",
+   "Integrates Ollama/LM Studio local models and local knowledge bases.",
+   "Connects to Ollama/LM Studio for private desktop chat and knowledge bases."
+  ],
+  "discovery_sources": [
+   "https://github.com/CherryHQ/cherry-studio",
+   "https://www.cherry-ai.com"
+  ]
+ },
+ {
+  "id": "cloudstack-llc",
+  "name": "CloudStack, LLC",
+  "aliases": [],
+  "website": "https://msty.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Msty Studio, a private desktop AI workspace mixing local and cloud models; also Msty Nexus.",
+   "Runs local models via built-in llama.cpp/Ollama engines with no product telemetry."
+  ],
+  "discovery_sources": [
+   "https://msty.ai/about/",
+   "https://www.promptquorum.com/power-local-llm/msty-review",
+   "https://msty.ai/blog/introducing-msty-nexus"
+  ]
+ },
+ {
+  "id": "comfy-org",
+  "name": "Comfy Org",
+  "aliases": [],
+  "website": "https://www.comfy.org",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Steward of ComfyUI, node-based open-source generative media engine; also Comfy Cloud.",
+   "Runs image, video and audio diffusion models locally on user GPUs; 4M+ users."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+   "https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open",
+   "https://blog.comfy.org/p/comfy-raises-17m-funding"
+  ]
+ },
+ {
+  "id": "continue",
+  "name": "Continue",
+  "aliases": [
+   "Continue Dev, Inc."
+  ],
+  "website": "https://www.continue.dev",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Makes Continue, open-source IDE coding assistant and agents for VS Code and JetBrains.",
+   "Open-source AI code assistant/agent framework for IDEs.",
+   "Bring-any-model design; widely used with Ollama/LM Studio for fully local coding.",
+   "Works with locally hosted models for fully self-hosted setups."
+  ],
+  "discovery_sources": [
+   "https://github.com/continuedev/continue",
+   "https://www.continue.dev",
+   "https://context7.com/guides/air-gapped-ai-coding"
+  ]
+ },
+ {
+  "id": "conway-underdog",
+  "name": "Conway (Underdog)",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "a16z-backed startup whose Underdog assistant runs entirely on the user's device.",
+   "Fully on-device consumer AI."
+  ],
+  "discovery_sources": [
+   "https://dealroom.co/news/158789-a16z-backs-conways-underdog-an-ai-that-runs-entirely-on-your-device"
+  ]
+ },
+ {
+  "id": "corsair",
+  "name": "Corsair",
+  "aliases": [],
+  "website": "https://www.corsair.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "PC hardware maker; AI Workstation 300 compact PC with Ryzen AI Max+.",
+   "Prebuilt desktop marketed for running local LLMs with bundled tools."
+  ],
+  "discovery_sources": [
+   "https://www.corsair.com"
+  ]
+ },
+ {
+  "id": "dinoki-labs",
+  "name": "Dinoki Labs",
+  "aliases": [],
+  "website": "https://osaurus.ai",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Osaurus, open-source Apple-silicon LLM server and menu-bar chat; grew from Dinoki desktop companion.",
+   "Runs MLX models locally with OpenAI/Anthropic-compatible APIs and MCP server; keeps files on-device."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+   "https://www.producthunt.com/products/osaurus"
+  ]
+ },
+ {
+  "id": "elephas",
+  "name": "Elephas",
+  "aliases": [],
+  "website": "https://elephas.app",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Elephas, Mac/iOS AI writing and personal knowledge assistant.",
+   "Offers offline local LLM mode for private document Q&A."
+  ],
+  "discovery_sources": [
+   "https://elephas.app"
+  ]
+ },
+ {
+  "id": "ente-technologies",
+  "name": "Ente Technologies",
+  "aliases": [],
+  "website": "https://ente.io",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Ente Photos, end-to-end encrypted photo storage, and Ensu local LLM app.",
+   "Face recognition and semantic search run on-device to preserve encryption."
+  ],
+  "discovery_sources": [
+   "https://ente.io",
+   "https://github.com/ente-io/ente"
+  ]
+ },
+ {
+  "id": "exo-labs",
+  "name": "Exo Labs",
+  "aliases": [
+   "EXO Labs"
+  ],
+  "website": "https://exolabs.net",
+  "hq_country": "UK",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps",
+   "on-device-sdks",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Makes exo, open-source software clustering Macs and PCs into a local AI inference cluster.",
+   "Open-source exo software linking everyday devices into a peer-to-peer local AI cluster.",
+   "Open-source distributed inference that clusters everyday devices to run large models.",
+   "Runs frontier-size open models at home; RDMA over Thunderbolt 5 adopted in macOS.",
+   "Shards large models across Macs/phones/PCs at home to run frontier-size models locally.",
+   "Runs frontier-size models across home/office Macs and PCs."
+  ],
+  "discovery_sources": [
+   "https://github.com/exo-explore/exo/",
+   "https://venturebeat.com/ai/you-can-now-run-the-most-powerful-open-source-ai-models-locally-on-mac-m4-computers-thanks-to-exo-labs",
+   "https://heise.de/-11085716",
+   "https://www.exolabs.net/"
+  ]
+ },
+ {
+  "id": "fastrepl-anarlog-formerly-hyprnote",
+  "name": "fastrepl (anarlog, formerly Hyprnote)",
+  "aliases": [],
+  "website": "https://github.com/fastrepl/hyprnote",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes anarlog (formerly Hyprnote), open-source local-first AI meeting notepad.",
+   "On-device transcription, local SQLite storage, optional local LLM summaries."
+  ],
+  "discovery_sources": [
+   "https://github.com/fastrepl/hyprnote"
+  ]
+ },
+ {
+  "id": "framework-computer",
+  "name": "Framework Computer",
+  "aliases": [],
+  "website": "https://frame.work/desktop",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Repairable-laptop maker; Framework Desktop uses Ryzen AI Max+ 395 with 128GB unified memory.",
+   "Mini-PC marketed for running 70B-class LLMs locally; clusterable."
+  ],
+  "discovery_sources": [
+   "https://frame.work/desktop"
+  ]
+ },
+ {
+  "id": "futo",
+  "name": "FUTO",
+  "aliases": [],
+  "website": "https://futo.org",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Austin organization making FUTO Keyboard and Voice Input, and funding Immich self-hosted photos.",
+   "Offline on-device speech recognition; Immich runs local ML for photo search."
+  ],
+  "discovery_sources": [
+   "https://futo.org",
+   "https://github.com/immich-app/immich"
+  ]
+ },
+ {
+  "id": "genta-technology-kolosal-ai",
+  "name": "Genta Technology (Kolosal AI)",
+  "aliases": [],
+  "website": "https://kolosal.ai",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Kolosal AI, lightweight open-source desktop app for running and fine-tuning LLMs locally.",
+   "Offline GGUF inference with OpenAI-compatible local server on CPUs and AMD/NVIDIA GPUs."
+  ],
+  "discovery_sources": [
+   "https://awesome.ecosyste.ms/projects/github.com%2FGenta-Technology%2FKolosal",
+   "https://i-programmer.info/news/105-artificial-intelligence/17976-kolosal-ai-run-llms-locally-on-your-workstation-or-edge-devices-.html"
+  ]
+ },
+ {
+  "id": "gmktec",
+  "name": "GMKtec",
+  "aliases": [],
+  "website": "https://www.gmktec.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Mini-PC maker; EVO-X2 'AI mini PC' uses AMD Ryzen AI Max+ 395.",
+   "Up to 128GB unified memory marketed for local 70B LLM inference."
+  ],
+  "discovery_sources": [
+   "https://www.gmktec.com"
+  ]
+ },
+ {
+  "id": "icewhale-technology-zimacube-casaos",
+  "name": "IceWhale Technology (ZimaCube / CasaOS)",
+  "aliases": [],
+  "website": "https://www.zimaspace.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes ZimaCube/ZimaBoard personal cloud hardware and CasaOS/ZimaOS.",
+   "Personal NAS/servers marketed for self-hosted local AI apps."
+  ],
+  "discovery_sources": [
+   "https://www.zimaspace.com",
+   "https://github.com/IceWhaleTech/CasaOS"
+  ]
+ },
+ {
+  "id": "invoke-invoke-ai",
+  "name": "Invoke (Invoke AI)",
+  "aliases": [],
+  "website": "https://www.invoke.com",
+  "hq_country": "USA",
+  "discovery_status": "acquired by Adobe (2025, team acqui-hire)",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Made InvokeAI, open-source local image-generation studio; team joined Adobe Firefly Foundry.",
+   "Community open-source InvokeAI still runs Stable Diffusion/FLUX locally; commercial platform shut down."
+  ],
+  "discovery_sources": [
+   "https://news.adobe.com/news/2025/10/adobe-max-2025-firefly-foundry",
+   "https://github.com/invoke-ai/InvokeAI"
+  ]
+ },
+ {
+  "id": "khoj-inc",
+  "name": "Khoj Inc.",
+  "aliases": [],
+  "website": "https://khoj.dev",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Khoj, open-source self-hostable AI second brain, and Pipali local AI coworker.",
+   "Self-host with any local LLM over personal docs; on-prem or hybrid."
+  ],
+  "discovery_sources": [
+   "https://github.com/khoj-ai/khoj",
+   "https://dev.to/jovan_chan_9500711396d4e6/khoj-review-2026-your-self-hosted-ai-second-brain-28mi"
+  ]
+ },
+ {
+  "id": "kin",
+  "name": "Kin",
+  "aliases": [],
+  "website": "https://mykin.ai",
+  "hq_country": "Denmark",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Makes Kin, a personal AI advisor/companion app.",
+   "Local-first design storing personal memory on the user's device."
+  ],
+  "discovery_sources": [
+   "https://mykin.ai"
+  ]
+ },
+ {
+  "id": "librechat",
+  "name": "LibreChat",
+  "aliases": [],
+  "website": "https://www.librechat.ai",
+  "hq_country": "USA",
+  "discovery_status": "acquired by ClickHouse (2025)",
+  "segments": [
+   "consumer-local-apps",
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "LibreChat, popular open-source self-hosted multi-model chat UI.",
+   "Open-source multi-model chat platform",
+   "Self-hosted interface supporting Ollama and other local OpenAI-compatible endpoints.",
+   "Self-hosted ChatGPT-style interface with local models"
+  ],
+  "discovery_sources": [
+   "https://github.com/danny-avila/LibreChat",
+   "https://www.librechat.ai"
+  ]
+ },
+ {
+  "id": "limitless-formerly-rewind-ai",
+  "name": "Limitless (formerly Rewind AI)",
+  "aliases": [],
+  "website": "https://www.limitless.ai",
+  "hq_country": "USA",
+  "discovery_status": "acquired by Meta (2025)",
+  "segments": [
+   "consumer-local-apps"
+  ],
+  "discovery_notes": [
+   "Made Rewind Mac lifelogging app and Limitless AI pendant.",
+   "Rewind recorded and compressed screen history locally on the Mac; now wound down."
+  ],
+  "discovery_sources": [
+   "https://www.techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/",
+   "https://www.engadget.com/ai/metas-latest-acquisition-suggests-hardware-plans-beyond-glasses-and-headsets-212930339.html"
+  ]
+ },
+ {
+  "id": "liquid-ai",
+  "name": "Liquid AI",
+  "aliases": [
+   "Apollo (private local AI app)",
+   "Liquid AI (LEAP)"
+  ],
+  "website": "https://www.liquid.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "consumer-local-apps",
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Apollo, private on-device LLM chat app for iPhone; acquired and rebuilt by Liquid AI.",
+   "MIT spinout building efficient Liquid Foundation Models, LEAP edge SDK and Apollo app.",
+   "MIT spinout building Liquid Foundation Models (LFM2, LFM2.5, LFM3) and LEAP edge SDK.",
+   "Runs LEAP/LFM and open models offline; can also connect to LM Studio or Ollama.",
+   "Small LFMs designed for on-device inference on phones and laptops.",
+   "Non-transformer open-weight models built for phones, laptops, cars; Mercedes MBUX deal."
+  ],
+  "discovery_sources": [
+   "https://www.liquid.ai/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer",
+   "https://apps.apple.com/app/apollo-powered-by-liquid/id6448019325",
+   "https://www.liquid.ai/press/liquid-ai-launches-leap-and-apollo-a-new-era-for-edge-ai-deployment-begins",
+   "https://venturebeat.com/ai/finally-a-dev-kit-for-designing-on-device-mobile-ai-apps-is-here-liquid-ais-leap"
+  ]
+ }
+]

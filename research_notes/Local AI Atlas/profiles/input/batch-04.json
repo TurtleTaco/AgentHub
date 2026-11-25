@@ -1,0 +1,757 @@
+[
+ {
+  "id": "vsora",
+  "name": "VSORA",
+  "aliases": [],
+  "website": "https://vsora.com",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Inference processors for datacenter (Jotunn) and automotive (Tyr).",
+   "Paris fabless company building high-efficiency AI inference chips (Jotunn8).",
+   "Jotunn8 data-center inference chip with 288GB HBM3e; pivoted from automotive.",
+   "European on-prem and in-vehicle inference silicon.",
+   "Inference accelerators for datacenter and edge, a European on-prem hardware option.",
+   "European-designed inference silicon for sovereign deployments; sampling expected late 2026."
+  ],
+  "discovery_sources": [
+   "https://vsora.com",
+   "https://datacentrenews.uk/story/vsora-unveils-jotunn8-ai-chip-after-eur-40-million-boost",
+   "https://www.jonpeddie.com/techwatch/vsora-shifts-from-vehicles-to-data-center-ai-inferencing/"
+  ]
+ },
+ {
+  "id": "weka",
+  "name": "WEKA",
+  "aliases": [],
+  "website": "https://www.weka.io",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "NeuralMesh software-defined storage and WEKApod appliances for AI workloads.",
+   "Software-defined parallel data platform for AI, incl. Augmented Memory Grid for KV cache.",
+   "Augmented Memory Grid offloads KV cache to NVMe, cutting time-to-first-token for inference.",
+   "Accelerates on-prem inference by extending GPU memory to storage."
+  ],
+  "discovery_sources": [
+   "https://www.weka.io/news/weka-breaks-the-ai-memory-barrier-with-augmented-memory-grid",
+   "https://www.storagereview.com/news/weka-integrates-neuralmesh-with-nvidia-stx-to-address-ai-inference-memory-bottlenecks",
+   "https://www.weka.io"
+  ]
+ },
+ {
+  "id": "wiwynn",
+  "name": "Wiwynn",
+  "aliases": [],
+  "website": "https://www.wiwynn.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Wistron-affiliated cloud and AI rack server manufacturer.",
+   "Builds AI racks mainly for hyperscalers; indirect role in customer-owned deployments."
+  ],
+  "discovery_sources": [
+   "https://www.wiwynn.com"
+  ]
+ },
+ {
+  "id": "world-wide-technology-wwt",
+  "name": "World Wide Technology (WWT)",
+  "aliases": [],
+  "website": "https://www.wwt.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Large technology integrator running a multi-OEM AI Proving Ground and NVIDIA AI factory practice.",
+   "Integrates private and sovereign AI factories, e.g., Polarise Oslo; NVIDIA 2026 NPN AI partner awards."
+  ],
+  "discovery_sources": [
+   "https://www.wwt.com/press-release/polarise-partners-with-world-wide-technology-to-accelerate-europes-sovereign-ai-buildout-starting-in-oslo",
+   "https://wwt.com/press-release/world-wide-technology-awarded-nvidias-2026-npn-ai-excellence-partner-of-the-year-npn-ai-enterprise-software-partner-of-the-year-and-npn-federal-partner-of-the-year",
+   "https://www.wwt.com/atc-capabilities/ai-factory"
+  ]
+ },
+ {
+  "id": "xenon-systems",
+  "name": "XENON Systems",
+  "aliases": [],
+  "website": "https://xenon.com.au",
+  "hq_country": "Australia",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "HPC and AI systems integrator and NVIDIA partner.",
+   "Builds on-prem AI clusters for Australian research, defence and enterprise."
+  ],
+  "discovery_sources": [
+   "https://xenon.com.au"
+  ]
+ },
+ {
+  "id": "actions-technology",
+  "name": "Actions Technology",
+  "aliases": [],
+  "website": "https://www.actions-semi.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "AI audio SoCs with SRAM compute-in-memory for wearables and speakers.",
+   "On-device audio AI at low power."
+  ],
+  "discovery_sources": [
+   "https://www.actions-semi.com"
+  ]
+ },
+ {
+  "id": "ainekko",
+  "name": "Ainekko",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Open, software-defined AI infrastructure startup that acquired Esperanto's RISC-V AI IP (Nov 2025).",
+   "Plans to open-source many-core RISC-V AI architecture for edge AI platforms."
+  ],
+  "discovery_sources": [
+   "https://www.eejournal.com/industry_news/ainekko-acquires-esperanto-technologies-intellectual-property-to-power-open-source-edge-ai-platform",
+   "https://www.jonpeddie.com/news/ainekko-acquires-esperanto-ip/"
+  ]
+ },
+ {
+  "id": "alif-semiconductor",
+  "name": "Alif Semiconductor",
+  "aliases": [],
+  "website": "https://alifsemi.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ensemble and Balletto MCUs/fusion processors integrating Arm Ethos-U NPUs.",
+   "Battery-powered MCUs running vision, voice and small transformer models locally."
+  ],
+  "discovery_sources": [
+   "https://alifsemi.com"
+  ]
+ },
+ {
+  "id": "allwinner-technology",
+  "name": "Allwinner Technology",
+  "aliases": [],
+  "website": "https://www.allwinnertech.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Low-cost application processors with NPUs for tablets, IoT and automotive.",
+   "Affordable on-device AI in consumer and industrial devices."
+  ],
+  "discovery_sources": [
+   "https://www.allwinnertech.com"
+  ]
+ },
+ {
+  "id": "alphaics",
+  "name": "AlphaICs",
+  "aliases": [],
+  "website": "https://www.alphaics.ai",
+  "hq_country": "India",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Gluon edge AI coprocessors for vision inference.",
+   "Accelerates on-device video analytics."
+  ],
+  "discovery_sources": [
+   "https://www.alphaics.ai"
+  ]
+ },
+ {
+  "id": "ambarella",
+  "name": "Ambarella",
+  "aliases": [],
+  "website": "https://www.ambarella.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "CVflow AI vision SoCs for cameras, automotive and edge GenAI (N1 series).",
+   "Runs vision and multimodal LLMs on cameras and edge boxes."
+  ],
+  "discovery_sources": [
+   "https://www.ambarella.com",
+   "https://siliconangle.com/2026/07/31/nxp-reportedly-talks-acquire-vehicle-chip-supplier-ambarella/"
+  ]
+ },
+ {
+  "id": "ambient-scientific",
+  "name": "Ambient Scientific",
+  "aliases": [],
+  "website": "https://www.ambientscientific.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "GPX-series analog in-memory AI processors for always-on battery devices.",
+   "Enables on-device voice and sensor AI in wearables and IoT at microwatt levels."
+  ],
+  "discovery_sources": [
+   "https://www.ambientscientific.ai"
+  ]
+ },
+ {
+  "id": "ambiq",
+  "name": "Ambiq",
+  "aliases": [],
+  "website": "https://ambiq.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ultra-low-power Apollo SoCs for always-on edge AI in wearables and IoT.",
+   "Subthreshold-voltage chips running AI on coin-cell devices."
+  ],
+  "discovery_sources": [
+   "https://ambiq.com"
+  ]
+ },
+ {
+  "id": "amlogic",
+  "name": "Amlogic",
+  "aliases": [],
+  "website": "https://www.amlogic.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Multimedia SoCs with NPUs for set-top boxes, smart displays and IoT.",
+   "Local AI in TVs, speakers and edge devices."
+  ],
+  "discovery_sources": [
+   "https://www.amlogic.com"
+  ]
+ },
+ {
+  "id": "anaflash",
+  "name": "Anaflash",
+  "aliases": [],
+  "website": "https://www.anaflash.com",
+  "hq_country": "United States",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Embedded-flash compute-in-memory AI chips for low-power edge devices.",
+   "Non-volatile in-memory compute for always-on local inference."
+  ],
+  "discovery_sources": [
+   "https://www.anaflash.com"
+  ]
+ },
+ {
+  "id": "analog-devices",
+  "name": "Analog Devices",
+  "aliases": [],
+  "website": "https://www.analog.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "MAX78000/MAX78002 MCUs with CNN accelerators; acquired Flex Logix.",
+   "Microjoule inference on battery devices and sensors."
+  ],
+  "discovery_sources": [
+   "https://www.analog.com"
+  ]
+ },
+ {
+  "id": "andes-technology",
+  "name": "Andes Technology",
+  "aliases": [],
+  "website": "https://www.andestech.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "RISC-V CPU IP with vector extensions and AndesAIRE NPU IP.",
+   "RISC-V CPU IP vendor with AI/vector extensions.",
+   "Low-power RISC-V AI IP for on-device inference.",
+   "CPU IP used in edge AI SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.andestech.com"
+  ]
+ },
+ {
+  "id": "applied-brain-research",
+  "name": "Applied Brain Research",
+  "aliases": [],
+  "website": "https://www.appliedbrainresearch.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "TSP1 time-series processor chip and Legendre Memory Unit models for speech AI.",
+   "Waterloo company behind TSP1 time-series/speech processor chip and state-space models.",
+   "Full on-device speech recognition and language processing at low power.",
+   "Sub-35mW chip runs speech recognition and voice interfaces locally without cloud."
+  ],
+  "discovery_sources": [
+   "https://www.appliedbrainresearch.com",
+   "https://yespress.io/applied-brain-research"
+  ]
+ },
+ {
+  "id": "architek",
+  "name": "ArchiTek",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Japan",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "AiOnIc edge AI processor using virtual-engine architecture.",
+   "Low-power on-device vision processing."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "aspinity",
+  "name": "Aspinity",
+  "aliases": [],
+  "website": "https://www.aspinity.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "AnalogML analog machine-learning chips for always-on sensing.",
+   "Analyzes raw sensor data in analog domain before digitization, saving power on-device."
+  ],
+  "discovery_sources": [
+   "https://www.aspinity.com"
+  ]
+ },
+ {
+  "id": "atlazo",
+  "name": "Atlazo",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "discovery_status": "acquired by Nordic Semiconductor (2023)",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ultra-low-power AI/ML processor and power-management IP for tiny devices.",
+   "Basis of Nordic's on-chip NPU for battery IoT devices."
+  ],
+  "discovery_sources": [
+   "https://www.nordicsemi.com"
+  ]
+ },
+ {
+  "id": "axelera-ai",
+  "name": "Axelera AI",
+  "aliases": [],
+  "website": "https://axelera.ai",
+  "hq_country": "Netherlands",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Digital in-memory-compute Metis AI processing units, PCIe/M.2 cards and edge systems.",
+   "Metis edge AI inference chips with Voyager SDK",
+   "Eindhoven maker of Metis AIPU edge inference chips, cards and systems.",
+   "High-throughput vision and LLM inference on-premises and at the edge.",
+   "Accelerates vision/robotics inference on edge devices",
+   "Runs vision and GenAI inference on cameras, PCs and edge servers; Titania chiplet."
+  ],
+  "discovery_sources": [
+   "https://axelera.ai",
+   "https://en.wikipedia.org/wiki/Axelera_AI",
+   "https://dealroom.co/news/126111-axelera-ai-raises-250m-to-scale-energy-efficient-edge-ai-chips-in-europe/",
+   "https://multiversecomputing.com/resources/multiverse-computing-and-axelera-ai-launch-strategic-collaboration-to-bring-next-generation-ai"
+  ]
+ },
+ {
+  "id": "axera",
+  "name": "Axera",
+  "aliases": [],
+  "website": "https://www.axera-tech.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "AI vision SoCs (AX650N, AX8850) for cameras, automotive and edge LLMs.",
+   "Ningbo/Shanghai edge AI vision SoC maker with integrated NPUs.",
+   "Low-power NPUs for local vision and small LLMs.",
+   "Edge inference chips for cameras, cars and devices; HK-listed Feb 2026."
+  ],
+  "discovery_sources": [
+   "https://www.axera-tech.com",
+   "https://qimingvc.com/en/news/chinese-edge-ai-chip-leader-axera-lists-hong-kong-stock-exchange",
+   "https://www.eweek.com/news/axera-hong-kong-ipo/"
+  ]
+ },
+ {
+  "id": "bestechnic",
+  "name": "Bestechnic",
+  "aliases": [],
+  "website": "https://www.bestechnic.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Low-power SoCs with NPUs for earbuds, watches and smart home.",
+   "On-device audio and voice AI in wearables."
+  ],
+  "discovery_sources": [
+   "https://www.bestechnic.com"
+  ]
+ },
+ {
+  "id": "black-sesame-technologies",
+  "name": "Black Sesame Technologies",
+  "aliases": [],
+  "website": "https://www.bst.ai",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive AI SoCs (Huashan A1000, Wudang C1200).",
+   "Wuhan automotive AI SoC company (Huashan/Wudang chips).",
+   "In-vehicle perception and cross-domain computing.",
+   "In-vehicle edge AI chips for perception and cockpit."
+  ],
+  "discovery_sources": [
+   "https://www.bst.ai",
+   "https://www.blacksesame.com"
+  ]
+ },
+ {
+  "id": "blaize",
+  "name": "Blaize",
+  "aliases": [],
+  "website": "https://www.blaize.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Graph Streaming Processor AI chips, cards and software for edge and enterprise inference.",
+   "Programmable low-power inference for smart-city, defense and industrial edge deployments."
+  ],
+  "discovery_sources": [
+   "https://www.blaize.com"
+  ]
+ },
+ {
+  "id": "blumind",
+  "name": "Blumind",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Analog all-in-memory AI chips for always-on keyword spotting and sensing.",
+   "Ottawa analog AI chip maker for ultra-low-power always-on edge inference.",
+   "Ultra-low-power local inference for battery and energy-harvesting devices.",
+   "Analog inference chips (BM110) for wearables and battery devices run AI fully on-device."
+  ],
+  "discovery_sources": [
+   "https://techsoda.substack.com/p/canadian-startup-blumind-to-release",
+   "https://tech-insider.org/ca/blumind-bm110-evaluation-kit-analog-ai-chip-ottawa-2026/"
+  ]
+ },
+ {
+  "id": "bos-semiconductors",
+  "name": "BOS Semiconductors",
+  "aliases": [],
+  "website": "https://www.bos-semi.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive AI accelerator chiplets (Eagle-N) and SoCs for software-defined vehicles.",
+   "In-vehicle inference for ADAS and in-cabin generative AI."
+  ],
+  "discovery_sources": [
+   "https://www.bos-semi.com"
+  ]
+ },
+ {
+  "id": "bouffalo-lab",
+  "name": "Bouffalo Lab",
+  "aliases": [],
+  "website": "https://www.bouffalolab.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "RISC-V wireless IoT SoCs with integrated NPU (BL808).",
+   "Local AI in low-cost IoT devices."
+  ],
+  "discovery_sources": [
+   "https://www.bouffalolab.com"
+  ]
+ },
+ {
+  "id": "brainchip",
+  "name": "BrainChip",
+  "aliases": [],
+  "website": "https://brainchip.com",
+  "hq_country": "Australia",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Akida neuromorphic event-based AI processor IP and chips for edge devices.",
+   "ASX-listed neuromorphic AI company (Akida IP and chips); US ops in Laguna Hills.",
+   "Licensable spiking NPU enabling on-chip inference and learning without cloud.",
+   "Event-based Akida processors run ultra-low-power inference on device."
+  ],
+  "discovery_sources": [
+   "https://brainchip.com"
+  ]
+ },
+ {
+  "id": "cadence-design-systems",
+  "name": "Cadence Design Systems",
+  "aliases": [],
+  "website": "https://www.cadence.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "EDA plus Tensilica DSP and Neo NPU IP with NeuroWeave SDK.",
+   "Licensable NPU/DSP IP for on-device AI in SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.cadence.com"
+  ]
+ },
+ {
+  "id": "canaan",
+  "name": "Canaan",
+  "aliases": [],
+  "website": "https://www.canaan.io",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Bitcoin-mining ASICs plus Kendryte RISC-V edge AI chips (K230).",
+   "Low-cost RISC-V AI chips for on-device vision."
+  ],
+  "discovery_sources": [
+   "https://www.canaan.io"
+  ]
+ },
+ {
+  "id": "ceva",
+  "name": "Ceva",
+  "aliases": [],
+  "website": "https://www.ceva-ip.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Licensor of DSP, wireless and NeuPro-Nano/NeuPro-M NPU IP for edge devices.",
+   "NPU IP embedded in billions of devices for on-device AI."
+  ],
+  "discovery_sources": [
+   "https://www.ceva-ip.com"
+  ]
+ },
+ {
+  "id": "chipintelli",
+  "name": "Chipintelli",
+  "aliases": [],
+  "website": "https://www.chipintelli.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Offline voice-recognition AI chips for smart appliances.",
+   "Cloud-free voice control in home appliances."
+  ],
+  "discovery_sources": [
+   "https://www.chipintelli.com"
+  ]
+ },
+ {
+  "id": "chips-media",
+  "name": "Chips&Media",
+  "aliases": [],
+  "website": "https://www.chipsnmedia.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Video codec IP and WAVE-N NPU IP.",
+   "NPU IP for on-device image/video AI processing."
+  ],
+  "discovery_sources": [
+   "https://www.chipsnmedia.com"
+  ]
+ },
+ {
+  "id": "cix-technology",
+  "name": "Cix Technology",
+  "aliases": [],
+  "website": "https://www.cixtech.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Arm-based PC/edge SoCs (P1) with integrated NPU.",
+   "AI PC and edge inference on domestic Arm silicon."
+  ],
+  "discovery_sources": [
+   "https://www.cixtech.com"
+  ]
+ },
+ {
+  "id": "codasip",
+  "name": "Codasip",
+  "aliases": [],
+  "website": "https://codasip.com",
+  "hq_country": "Czech Republic",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Customizable RISC-V processor IP and design automation tools.",
+   "Custom AI instruction extensions for edge processors."
+  ],
+  "discovery_sources": [
+   "https://codasip.com"
+  ]
+ },
+ {
+  "id": "corerain",
+  "name": "Corerain",
+  "aliases": [],
+  "website": null,
+  "hq_country": "China",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "CAISA dataflow AI accelerator chips for edge vision.",
+   "Local video analytics inference at the edge."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "d-robotics",
+  "name": "D-Robotics",
+  "aliases": [],
+  "website": "https://www.d-robotics.cc",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Robotics AI chips and RDK dev kits, spun out of Horizon Robotics.",
+   "On-robot perception and embodied AI compute."
+  ],
+  "discovery_sources": [
+   "https://www.d-robotics.cc"
+  ]
+ },
+ {
+  "id": "deep-vision",
+  "name": "Deep Vision",
+  "aliases": [],
+  "website": "https://deepvision.io",
+  "hq_country": "United States",
+  "discovery_status": "unknown",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Polymorphic dataflow edge AI processors (ARA-1, ARA-2).",
+   "Edge vision and LLM inference in cameras and edge servers."
+  ],
+  "discovery_sources": [
+   "https://deepvision.io"
+  ]
+ }
+]

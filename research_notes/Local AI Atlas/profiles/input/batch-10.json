@@ -1,0 +1,823 @@
+[
+ {
+  "id": "labring-fastgpt",
+  "name": "Labring (FastGPT)",
+  "aliases": [],
+  "website": "https://github.com/labring/FastGPT",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source knowledge-base QA and workflow platform.",
+   "Self-hosted RAG platform used with locally served models."
+  ],
+  "discovery_sources": [
+   "https://github.com/labring/FastGPT"
+  ]
+ },
+ {
+  "id": "lamatic-ai",
+  "name": "Lamatic.ai",
+  "aliases": [],
+  "website": "https://lamatic.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Managed agent-building PaaS",
+   "Markets private/VPC deployment options (named by user; verify)"
+  ],
+  "discovery_sources": [
+   "https://lamatic.ai"
+  ]
+ },
+ {
+  "id": "lamini",
+  "name": "Lamini",
+  "aliases": [],
+  "website": "https://www.lamini.ai",
+  "hq_country": "USA",
+  "discovery_status": "unknown",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise LLM fine-tuning (memory tuning) platform.",
+   "Enterprise LLM tuning and inference platform",
+   "Enterprise LLM fine-tuning/inference platform (memory tuning), notably on AMD GPUs.",
+   "Deploys on-prem and air-gapped.",
+   "Runs on-prem, air-gapped or VPC",
+   "Sold on-prem and air-gapped deployments of its LLM platform."
+  ],
+  "discovery_sources": [
+   "https://www.lamini.ai",
+   "https://www.lamini.ai/blog/series-a"
+  ]
+ },
+ {
+  "id": "langdock",
+  "name": "Langdock",
+  "aliases": [],
+  "website": "https://www.langdock.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Berlin enterprise AI workspace for chat, assistants and agents.",
+   "Model-agnostic workspace with EU hosting and self-hosted deployment options."
+  ],
+  "discovery_sources": [
+   "https://www.langdock.com",
+   "https://www.starting-up.de/news/news-investments/berliner-ki-plattform-langdock-sammelt-3-mio-usd-ein.html"
+  ]
+ },
+ {
+  "id": "langflow",
+  "name": "Langflow",
+  "aliases": [],
+  "website": "https://www.langflow.org",
+  "hq_country": "United States",
+  "discovery_status": "acquired by DataStax (2024); DataStax acquired by IBM (2025)",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source visual builder for agents and RAG",
+   "Self-hostable; runs with local models"
+  ],
+  "discovery_sources": [
+   "https://www.langflow.org"
+  ]
+ },
+ {
+  "id": "llmware-ai-bloks",
+  "name": "LLMWare (AI Bloks)",
+  "aliases": [],
+  "website": "https://llmware.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Small-model RAG and agent framework plus Model HQ app",
+   "Private RAG on AI PCs and on-prem servers with small local models"
+  ],
+  "discovery_sources": [
+   "https://llmware.ai"
+  ]
+ },
+ {
+  "id": "mattermost",
+  "name": "Mattermost",
+  "aliases": [],
+  "website": "https://mattermost.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Secure collaboration platform for defense and critical infrastructure",
+   "Agents with self-hosted LLMs in air-gapped environments"
+  ],
+  "discovery_sources": [
+   "https://mattermost.com/blog/can-agentic-ai-work-in-air-gapped-environments/"
+  ]
+ },
+ {
+  "id": "mindbreeze",
+  "name": "Mindbreeze",
+  "aliases": [],
+  "website": "https://www.mindbreeze.com",
+  "hq_country": "Austria",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Insight engine and GenAI enterprise search (Mindbreeze InSpire)",
+   "Enterprise insight engine and gen AI search (InSpire).",
+   "On-prem appliance and private deployments with local LLMs",
+   "On-prem appliance deployment with local LLMs."
+  ],
+  "discovery_sources": [
+   "https://www.mindbreeze.com"
+  ]
+ },
+ {
+  "id": "mirantis-k0rdent-ai",
+  "name": "Mirantis (k0rdent AI)",
+  "aliases": [],
+  "website": "https://www.mirantis.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source Kubernetes and cloud infrastructure company",
+   "Open-source cloud-native infrastructure vendor; k0rdent multi-cluster Kubernetes management.",
+   "k0rdent AI builds private and sovereign AI clouds on customer infrastructure",
+   "k0rdent AI builds private/sovereign AI inference clouds on owned infra."
+  ],
+  "discovery_sources": [
+   "https://www.mirantis.com",
+   "https://slashdot.org/software/comparison/Mirantis-Kubernetes-Engine-vs-Shakudo/",
+   "https://k0rdent.io"
+  ]
+ },
+ {
+  "id": "n8n",
+  "name": "n8n",
+  "aliases": [],
+  "website": "https://n8n.io",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Fair-code workflow automation with AI agents",
+   "Self-hostable on own servers with local LLM nodes"
+  ],
+  "discovery_sources": [
+   "https://n8n.io"
+  ]
+ },
+ {
+  "id": "nextcloud-assistant",
+  "name": "Nextcloud (Assistant)",
+  "aliases": [],
+  "website": "https://nextcloud.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Self-hosted collaboration suite with AI Assistant",
+   "Runs local open-source LLMs on customer servers"
+  ],
+  "discovery_sources": [
+   "https://nextcloud.com"
+  ]
+ },
+ {
+  "id": "onyx-formerly-danswer",
+  "name": "Onyx (formerly Danswer)",
+  "aliases": [],
+  "website": "https://onyx.app",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source enterprise search, chat and RAG platform",
+   "Fully air-gapped self-hosting with local LLMs"
+  ],
+  "discovery_sources": [
+   "https://onyx.app/insights/enterprise-rag-platforms-2026"
+  ]
+ },
+ {
+  "id": "prem-ai",
+  "name": "Prem AI",
+  "aliases": [],
+  "website": "https://www.premai.io",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Private AI platform for fine-tuning and deploying small language models.",
+   "Private AI infrastructure for model customization and deployment",
+   "Private/sovereign enterprise AI platform; reportedly seeking $100M Series A (2026).",
+   "Customer-owned SLMs deployed on-prem or edge.",
+   "Lets hedge funds and law firms run models entirely on own servers; raising $100M Series A (2026)",
+   "On-prem/sovereign deployment of custom SLMs."
+  ],
+  "discovery_sources": [
+   "https://www.premai.io",
+   "https://thenextweb.com/news/prem-ai-swiss-100m-series-a-private-ai",
+   "https://siliconangle.com/2026/06/18/prem-seeks-100m-series-export-bans-boost-sovereign-ai-demand/",
+   "https://www.runtimewire.com/article/swiss-ai-startup-prem-ai-100m-series-a"
+  ]
+ },
+ {
+  "id": "private-ai",
+  "name": "Private AI",
+  "aliases": [],
+  "website": "https://www.private-ai.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Toronto company detecting and redacting PII in text, audio and documents.",
+   "PII detection and redaction for AI pipelines",
+   "PII detection, redaction and de-identification for text, audio and documents.",
+   "Ships as containers customers run in their own environment so sensitive data never leaves.",
+   "Containers run on-prem so sensitive data never leaves",
+   "Container runs inside the customer's environment; data never sent to vendor."
+  ],
+  "discovery_sources": [
+   "https://www.private-ai.com"
+  ]
+ },
+ {
+  "id": "pryon",
+  "name": "Pryon",
+  "aliases": [],
+  "website": "https://www.pryon.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise knowledge and RAG platform for government and industry",
+   "Deployable on-prem and in secure/air-gapped government environments"
+  ],
+  "discovery_sources": [
+   "https://www.pryon.com"
+  ]
+ },
+ {
+  "id": "rafay",
+  "name": "Rafay",
+  "aliases": [
+   "Rafay Systems"
+  ],
+  "website": "https://rafay.co",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Kubernetes and GPU platform-as-a-service for enterprises and sovereign clouds",
+   "Kubernetes and GPU PaaS platform for enterprises and GPU clouds.",
+   "Lets operators run self-service AI/GPU platforms on their own infrastructure",
+   "Self-service GPU/AI platform on customer data centers and sovereign clouds."
+  ],
+  "discovery_sources": [
+   "https://rafay.co"
+  ]
+ },
+ {
+  "id": "rasa",
+  "name": "Rasa",
+  "aliases": [],
+  "website": "https://rasa.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Conversational AI platform (CALM) for enterprises",
+   "Self-managed on-prem or private-cloud deployment"
+  ],
+  "discovery_sources": [
+   "https://rasa.com"
+  ]
+ },
+ {
+  "id": "saltlux",
+  "name": "Saltlux",
+  "aliases": [
+   "Saltlux (LUXIA ON)"
+  ],
+  "website": "https://www.saltlux.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "international",
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Korean AI company with LUXIA LLM and enterprise knowledge AI.",
+   "Korean AI company with LUXIA LLM",
+   "On-prem LLM solutions for government and enterprises.",
+   "LUXIA ON generative AI appliance installs on-prem"
+  ],
+  "discovery_sources": [
+   "https://www.saltlux.com",
+   "https://view.asiae.co.kr/en/article/2024032009203932946"
+  ]
+ },
+ {
+  "id": "saptiva",
+  "name": "Saptiva",
+  "aliases": [],
+  "website": "https://saptiva.com",
+  "hq_country": "Mexico",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Mexican sovereign AI platform for enterprises and government.",
+   "Air-gapped training environments and composable LLM stacks on sovereign infrastructure."
+  ],
+  "discovery_sources": [
+   "https://mexicobusiness.news/cloudanddata/news/sovereign-ai-when-protocol-product"
+  ]
+ },
+ {
+  "id": "sas-viya",
+  "name": "SAS (Viya)",
+  "aliases": [],
+  "website": "https://www.sas.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Analytics and AI platform (SAS Viya)",
+   "Viya deployable on customer Kubernetes, on-prem or private cloud"
+  ],
+  "discovery_sources": [
+   "https://www.sas.com"
+  ]
+ },
+ {
+  "id": "seekr",
+  "name": "Seekr",
+  "aliases": [
+   "Seekr Technologies"
+  ],
+  "website": "https://www.seekr.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Trusted AI platform SeekrFlow for enterprise and government",
+   "Trustworthy-AI platform (SeekrFlow) for government and enterprise model building and deployment.",
+   "SeekrFlow runs on-prem, edge and air-gapped",
+   "All-in-one system for air-gapped environments, standalone data centers and contested edge."
+  ],
+  "discovery_sources": [
+   "https://www.seekr.com",
+   "https://startupfortune.com/startups-building-ais-secure-backbone-for-us-intelligence/"
+  ]
+ },
+ {
+  "id": "seldon",
+  "name": "Seldon",
+  "aliases": [],
+  "website": "https://www.seldon.io",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "London MLOps company behind Seldon Core model serving on Kubernetes.",
+   "Model serving and MLOps (Seldon Core, LLM Module)",
+   "MLOps/model serving company behind Seldon Core and LLM module.",
+   "Lets enterprises serve and monitor models, including LLMs, on their own clusters.",
+   "Kubernetes-native deployment of ML and LLMs on-prem or in VPC",
+   "Deploys and monitors models on customer Kubernetes, on-prem or cloud."
+  ],
+  "discovery_sources": [
+   "https://www.seldon.io",
+   "https://github.com/SeldonIO/seldon-core"
+  ]
+ },
+ {
+  "id": "shakudo",
+  "name": "Shakudo",
+  "aliases": [],
+  "website": "https://www.shakudo.io",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Operating system for data and AI stacks, bundling open-source tools and LLMs.",
+   "Operating system for data and AI stacks, bundling open-source tools on one managed platform",
+   "Self-hosted operating system for data and AI on Kubernetes.",
+   "Installs the full AI stack inside the customer's own cloud VPC or on-prem infrastructure.",
+   "Deploys self-hosted on any Kubernetes: on-prem, VPC, air-gapped",
+   "Deploys 200+ open-source data/AI tools in customer VPC/on-prem."
+  ],
+  "discovery_sources": [
+   "https://www.shakudo.io",
+   "https://www.shakudo.io/lp/self-hosted-ai",
+   "https://www.cbinsights.com/company/shakudo/alternatives-competitors"
+  ]
+ },
+ {
+  "id": "sinequa",
+  "name": "Sinequa",
+  "aliases": [],
+  "website": "https://www.sinequa.com",
+  "hq_country": "France",
+  "discovery_status": "acquired by ChapsVision (2024)",
+  "segments": [
+   "international",
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise search and GenAI assistants",
+   "Enterprise search and gen AI assistant platform.",
+   "On-prem and private-cloud deployments for regulated enterprises",
+   "On-prem/private deployment for regulated industries."
+  ],
+  "discovery_sources": [
+   "https://www.sinequa.com"
+  ]
+ },
+ {
+  "id": "squirro",
+  "name": "Squirro",
+  "aliases": [],
+  "website": "https://squirro.com",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Enterprise GenAI and insight platform for banks and industry",
+   "Enterprise generative AI and insight engine for banks and central banks.",
+   "On-prem and private-cloud deployment for regulated customers",
+   "Deployable on-premises or private cloud for regulated institutions."
+  ],
+  "discovery_sources": [
+   "https://squirro.com"
+  ]
+ },
+ {
+  "id": "stack-ai",
+  "name": "Stack AI",
+  "aliases": [],
+  "website": "https://www.stack-ai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "No-code enterprise agent builder",
+   "Offers on-prem and VPC deployment for regulated customers"
+  ],
+  "discovery_sources": [
+   "https://www.stack-ai.com"
+  ]
+ },
+ {
+  "id": "suse-suse-ai",
+  "name": "SUSE (SUSE AI)",
+  "aliases": [],
+  "website": "https://www.suse.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise Linux and Kubernetes (Rancher) vendor",
+   "Open-source infrastructure vendor offering SUSE AI private GenAI stack on Rancher.",
+   "SUSE AI: secure private GenAI stack on customer-controlled Kubernetes",
+   "Secure, air-gapped-capable private AI deployment on Kubernetes."
+  ],
+  "discovery_sources": [
+   "https://www.suse.com"
+  ]
+ },
+ {
+  "id": "tabnine",
+  "name": "Tabnine",
+  "aliases": [],
+  "website": "https://www.tabnine.com",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "AI code assistant vendor offering private, self-hosted and air-gapped deployments.",
+   "AI coding assistant for enterprises.",
+   "Enterprise AI coding assistant",
+   "On-prem/VPC model hosting for enterprises; historically local completion models.",
+   "Runs fully self-hosted and air-gapped so code never leaves customer infrastructure.",
+   "Fully on-prem and air-gapped deployment"
+  ],
+  "discovery_sources": [
+   "https://www.tabnine.com",
+   "https://tech-insider.org/au/tabnine-vs-copilot-vs-windsurf-2026/",
+   "https://context7.com/guides/air-gapped-ai-coding"
+  ]
+ },
+ {
+  "id": "tensor9",
+  "name": "Tensor9",
+  "aliases": [],
+  "website": "https://www.tensor9.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Lets software vendors deploy their SaaS into customer environments",
+   "Ships AI vendor software into customer cloud, on-prem or bare metal"
+  ],
+  "discovery_sources": [
+   "https://www.aol.com/amazon-meta-veterans-raise-4m-190115462.html"
+  ]
+ },
+ {
+  "id": "trellis-data",
+  "name": "Trellis Data",
+  "aliases": [],
+  "website": "https://www.trellisdata.com.au",
+  "hq_country": "Australia",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Canberra AI company behind AgentAus sovereign AI platform.",
+   "Sovereign agent platform for government and regulated customers."
+  ],
+  "discovery_sources": [
+   "https://www.canberratimes.com.au/story/9325923/trellis-data-ai-platform-agentaus-challenges-global-tech/"
+  ]
+ },
+ {
+  "id": "truefoundry",
+  "name": "TrueFoundry",
+  "aliases": [],
+  "website": "https://www.truefoundry.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Kubernetes-native AI gateway, LLMOps and agent deployment platform",
+   "Kubernetes-based AI/LLMOps platform with AI gateway, model serving and fine-tuning.",
+   "AI/LLMOps platform for deploying models and agents.",
+   "Installs in customer VPC or on-prem clusters; publishes an on-prem AI market map",
+   "Installs in customer VPC, on-prem or air-gapped clusters.",
+   "VPC, on-prem and air-gapped deployment for banks and regulated firms."
+  ],
+  "discovery_sources": [
+   "https://www.truefoundry.com/de/blog/mapping-the-on-prem-ai-market-from-chips-to-control-planes",
+   "https://www.truefoundry.com",
+   "https://truefoundry.com/solutions/banking-and-financial-services"
+  ]
+ },
+ {
+  "id": "unique",
+  "name": "Unique",
+  "aliases": [
+   "Unique AI"
+  ],
+  "website": "https://www.unique.ai",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Agentic AI platform for banking, wealth and insurance",
+   "Agentic AI platform for banking, wealth and insurance.",
+   "Single-tenant and self-hosted deployment options for financial institutions",
+   "Single-tenant deployment in client-controlled environments (verify on-prem scope)."
+  ],
+  "discovery_sources": [
+   "https://www.unique.ai"
+  ]
+ },
+ {
+  "id": "valohai",
+  "name": "Valohai",
+  "aliases": [],
+  "website": "https://valohai.com",
+  "hq_country": "Finland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "MLOps orchestration platform",
+   "MLOps platform for orchestrating ML pipelines on any infrastructure.",
+   "Runs pipelines on customer on-prem or cloud compute",
+   "Hybrid/on-prem deployment for regulated customers."
+  ],
+  "discovery_sources": [
+   "https://valohai.com"
+  ]
+ },
+ {
+  "id": "vdf-ai",
+  "name": "VDF AI",
+  "aliases": [],
+  "website": "https://vdf.ai",
+  "hq_country": "Sweden",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Private enterprise AI chat and agent platform with governance",
+   "Fully air-gapped installs with open-weight models; sovereign cloud option"
+  ],
+  "discovery_sources": [
+   "https://vdf.ai/resources/on-premise-ai-agent-platform/",
+   "https://vdf.ai/products/vdf-ai-chat/"
+  ]
+ },
+ {
+  "id": "vectara",
+  "name": "Vectara",
+  "aliases": [],
+  "website": "https://www.vectara.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "RAG-as-a-service and agent platform with hallucination detection",
+   "Offers VPC and on-prem deployment for regulated customers"
+  ],
+  "discovery_sources": [
+   "https://www.vectara.com"
+  ]
+ },
+ {
+  "id": "veritone",
+  "name": "Veritone",
+  "aliases": [
+   "Veritone (aiWARE)"
+  ],
+  "website": "https://www.veritone.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Enterprise AI operating system for media and public safety",
+   "Public enterprise AI company (aiWARE) for media, government and law enforcement.",
+   "aiWARE offers on-prem/air-gapped deployment",
+   "aiWARE deployable on-prem/air-gapped for public-sector customers."
+  ],
+  "discovery_sources": [
+   "https://www.veritone.com"
+  ]
+ },
+ {
+  "id": "webai",
+  "name": "webAI",
+  "aliases": [],
+  "website": "https://www.webai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Local AI platform (Navigator) for building and running models across owned devices.",
+   "Distributed private inference on customer hardware instead of cloud."
+  ],
+  "discovery_sources": [
+   "https://www.webai.com"
+  ]
+ },
+ {
+  "id": "xference-ai",
+  "name": "Xference.ai",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Italy",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Startup bringing private AI to European companies",
+   "Private AI deployments under company control"
+  ],
+  "discovery_sources": [
+   "https://www.startupbusiness.it/en/xference-ai-the-start-up-bringing-private-ai-to-european-companies/149692/"
+  ]
+ },
+ {
+  "id": "xpander-ai",
+  "name": "xpander.ai",
+  "aliases": [],
+  "website": "https://xpander.ai",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI agent platform",
+   "Agent backend deployable in customer cloud/on-prem (verify)"
+  ],
+  "discovery_sources": [
+   "https://www.hpcwire.com/aiwire/2026/08/17/xpander-raises-7-5m-to-expand-enterprise-ai-agent-platform/"
+  ]
+ },
+ {
+  "id": "zylon-privategpt",
+  "name": "Zylon (PrivateGPT)",
+  "aliases": [
+   "Zylon"
+  ],
+  "website": "https://www.zylon.ai",
+  "hq_country": "Spain",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Company behind open-source PrivateGPT; sells Zylon private AI workspace for regulated firms.",
+   "Creators of open-source PrivateGPT, offering an enterprise private AI platform.",
+   "Enterprise private AI workspace from the creators of open-source PrivateGPT",
+   "100% private document Q&A with local LLMs, on-prem deployment.",
+   "Fully on-prem/air-gapped GenAI workspace for regulated industries.",
+   "Runs fully on-prem, including air-gapped installs with bundled models"
+  ],
+  "discovery_sources": [
+   "https://github.com/zylon-ai/private-gpt",
+   "https://www.zylon.ai",
+   "https://starlog.is/articles/data-knowledge/zylon-ai-private-gpt"
+  ]
+ }
+]

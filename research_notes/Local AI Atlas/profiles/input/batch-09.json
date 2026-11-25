@@ -1,0 +1,807 @@
+[
+ {
+  "id": "canonical",
+  "name": "Canonical",
+  "aliases": [],
+  "website": "https://canonical.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Publisher of Ubuntu and open-source infrastructure (Charmed Kubeflow, MicroK8s)",
+   "Ubuntu publisher; Charmed Kubeflow and silicon-optimized inference snaps.",
+   "Supported open-source MLOps and inference stacks for on-prem and edge",
+   "Packages open models/runtimes for on-prem, edge and air-gapped Ubuntu."
+  ],
+  "discovery_sources": [
+   "https://canonical.com"
+  ]
+ },
+ {
+  "id": "clarifai",
+  "name": "Clarifai",
+  "aliases": [],
+  "website": "https://www.clarifai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI platform for vision, language and model orchestration",
+   "AI platform for vision, LLMs and compute orchestration",
+   "Full-stack AI platform with compute orchestration and model inference.",
+   "Supports on-prem, air-gapped and edge deployments of models",
+   "Runs on-prem, air-gapped and in customer VPCs",
+   "Local Runners and compute orchestration run models on customer hardware, VPC, air-gapped."
+  ],
+  "discovery_sources": [
+   "https://www.clarifai.com"
+  ]
+ },
+ {
+  "id": "clearml",
+  "name": "ClearML",
+  "aliases": [],
+  "website": "https://clear.ml",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source AI infrastructure and MLOps platform",
+   "Open-source AI infrastructure platform: MLOps, GPU orchestration and LLM serving.",
+   "Open-source MLOps/AI infrastructure platform.",
+   "Dell AI Factory ISV partner for on-prem AI and agents",
+   "Self-hosted control plane for on-prem GPU clusters.",
+   "Integrates into classified, air-gapped and multi-domain defense networks."
+  ],
+  "discovery_sources": [
+   "https://www.dell.com/en-us/infohub/articles/designing-an-enterprise-ai-factory-architecture-for-agentic-applications",
+   "https://github.com/clearml/clearml",
+   "https://clear.ml/industry/defense"
+  ]
+ },
+ {
+  "id": "cnvrg-io",
+  "name": "cnvrg.io",
+  "aliases": [],
+  "website": "https://cnvrg.io",
+  "hq_country": "Israel",
+  "discovery_status": "acquired by Intel (2020)",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "MLOps platform",
+   "MLOps/AI platform for managing on-prem and hybrid compute.",
+   "Ran ML workloads on on-prem and hybrid infrastructure",
+   "On-prem AI orchestration, later Intel Tiber AI Studio."
+  ],
+  "discovery_sources": [
+   "https://www.cbinsights.com/company/cnvrgio/alternatives-competitors"
+  ]
+ },
+ {
+  "id": "cognigy",
+  "name": "Cognigy",
+  "aliases": [],
+  "website": "https://www.cognigy.com",
+  "hq_country": "Germany",
+  "discovery_status": "acquired by NICE (2025)",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Conversational AI for contact centers",
+   "Offers on-prem and private-cloud deployment"
+  ],
+  "discovery_sources": [
+   "https://www.cognigy.com"
+  ]
+ },
+ {
+  "id": "cognizer",
+  "name": "Cognizer",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI knowledge assistant vendor (named by user; not verified in this pass)",
+   "Reported private/on-prem deployment; needs verification"
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "cohere",
+  "name": "Cohere",
+  "aliases": [
+   "Cohere (North)"
+  ],
+  "website": "https://cohere.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise LLM company (Command models, North agent platform).",
+   "Enterprise LLM company; Command A weights (non-commercial) and North private platform.",
+   "Enterprise LLM company (Command models, North agent platform) focused on regulated sectors.",
+   "Private and on-prem deployments of Command models and North; Fujitsu Takane partnership.",
+   "Private/on-prem and air-gapped deployments of Command models.",
+   "Deploys models and North platform in private cloud, on-prem and air-gapped environments; merging with Aleph Alpha."
+  ],
+  "discovery_sources": [
+   "https://cohere.com",
+   "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+   "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai",
+   "https://betakit.com/canadas-ai-champion-cohere-is-standing-up-the-load-bearing-walls-of-our-economy/"
+  ]
+ },
+ {
+  "id": "comma-soft-alan",
+  "name": "Comma Soft (Alan)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "German GenAI assistant Alan for enterprises",
+   "Isolated instance in Open Telekom Cloud or on-prem with German open-weight models"
+  ],
+  "discovery_sources": [
+   "https://wz-it.com/blog/ki-plattformen-vergleich/"
+  ]
+ },
+ {
+  "id": "conet-sovira-ai",
+  "name": "CONET (sovira.ai)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "IT services firm's sovereign AI assistant platform",
+   "Runs in customer datacenters, public cloud or BSI-certified CONET cloud"
+  ],
+  "discovery_sources": [
+   "https://esut.de/2025/11/meldungen/65186/souveraene-ki-assistenzsysteme-mit-sovira-ai/"
+  ]
+ },
+ {
+  "id": "confidentialmind",
+  "name": "ConfidentialMind",
+  "aliases": [],
+  "website": "https://confidentialmind.com",
+  "hq_country": "Finland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Self-hosted enterprise generative AI platform.",
+   "Validated on Tenstorrent Galaxy Blackhole servers for on-prem deployment (Nov 2026)."
+  ],
+  "discovery_sources": [
+   "https://tenstorrent.com/news"
+  ]
+ },
+ {
+  "id": "contextual-ai",
+  "name": "Contextual AI",
+  "aliases": [],
+  "website": "https://contextual.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise RAG agent platform",
+   "Enterprise RAG 2.0 platform and grounded language models.",
+   "Deployable in customer VPC for regulated industries",
+   "Deployable in customer VPC/on-prem."
+  ],
+  "discovery_sources": [
+   "https://contextual.ai"
+  ]
+ },
+ {
+  "id": "core42",
+  "name": "Core42",
+  "aliases": [],
+  "website": "https://www.core42.ai",
+  "hq_country": "United Arab Emirates",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "G42 sovereign cloud and enterprise AI infrastructure company.",
+   "In-country sovereign GPU compute and private AI for government and enterprises."
+  ],
+  "discovery_sources": [
+   "https://www.zawya.com/en/business/e-uae-and-core42-partner-to-deliver-sovereign-ai-infrastructure-at-scale-403213",
+   "https://www.computerweekly.com/news/366642883/Core42-partners-with-Solutions-on-Mubadala-sovereign-AI"
+  ]
+ },
+ {
+  "id": "dataiku",
+  "name": "Dataiku",
+  "aliases": [],
+  "website": "https://www.dataiku.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Universal AI platform for analytics, ML, GenAI and agents",
+   "Universal AI platform with LLM Mesh.",
+   "Self-managed install on customer infrastructure, including on-prem",
+   "Self-managed on-prem install; LLM Mesh routes to locally hosted models."
+  ],
+  "discovery_sources": [
+   "https://www.dataiku.com",
+   "https://www.cbinsights.com/compare/dataiku-vs-shakudo"
+  ]
+ },
+ {
+  "id": "dataloop",
+  "name": "Dataloop",
+  "aliases": [],
+  "website": "https://dataloop.ai",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "AI data development and pipeline platform",
+   "Dell AI Factory ISV partner for on-prem AI pipelines"
+  ],
+  "discovery_sources": [
+   "https://www.dell.com/en-us/infohub/articles/designing-an-enterprise-ai-factory-architecture-for-agentic-applications"
+  ]
+ },
+ {
+  "id": "datarobot",
+  "name": "DataRobot",
+  "aliases": [],
+  "website": "https://www.datarobot.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI platform; Agent Workforce Platform",
+   "Enterprise AI platform for predictive and generative AI.",
+   "Operationalizes agents on Dell AI Factory with NVIDIA on-prem",
+   "On-prem/VPC and air-gapped deployment."
+  ],
+  "discovery_sources": [
+   "https://www.dell.com/en-us/infohub/articles/designing-an-enterprise-ai-factory-architecture-for-agentic-applications",
+   "https://www.dell.com/en-us/blog/build-your-digital-workforce-with-an-agentic-ai-platform-designed-for-the-enterprise",
+   "https://www.datarobot.com"
+  ]
+ },
+ {
+  "id": "deepset",
+  "name": "deepset",
+  "aliases": [],
+  "website": "https://www.deepset.ai",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Berlin company behind open-source Haystack and the deepset AI platform.",
+   "Maker of Haystack and the deepset AI Platform",
+   "Haystack and enterprise platform run in VPC or on-prem for RAG and agents.",
+   "Platform deploys in customer VPC or on-prem"
+  ],
+  "discovery_sources": [
+   "https://www.deepset.ai"
+  ]
+ },
+ {
+  "id": "deliverance-ai",
+  "name": "Deliverance AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise agentic AI vendor (exited stealth 2026, £6m ARR)",
+   "Runs agentic AI inside customers' own environments"
+  ],
+  "discovery_sources": [
+   "https://thenextweb.com/news/deliverance-ai-stealth-sovereign-enterprise-ai"
+  ]
+ },
+ {
+  "id": "dialogbits-web-computing-gmbh",
+  "name": "DialogBits (Web Computing GmbH)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "GDPR-compliant AI assistant platform; basis of Sparkassen S-KIPilot",
+   "On-prem operation option"
+  ],
+  "discovery_sources": [
+   "https://wz-it.com/blog/ki-plattformen-vergleich/"
+  ]
+ },
+ {
+  "id": "dify-langgenius",
+  "name": "Dify (LangGenius)",
+  "aliases": [],
+  "website": "https://dify.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source LLM app and agent development platform",
+   "Self-host via Docker/Kubernetes with local models; enterprise edition"
+  ],
+  "discovery_sources": [
+   "https://dify.ai"
+  ]
+ },
+ {
+  "id": "domino-data-lab",
+  "name": "Domino Data Lab",
+  "aliases": [],
+  "website": "https://domino.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI/MLOps platform for data science teams",
+   "Enterprise AI/MLOps platform for regulated industries.",
+   "Runs on-prem, hybrid and in customer clouds on Kubernetes",
+   "Hybrid/on-prem deployment with GPU governance."
+  ],
+  "discovery_sources": [
+   "https://domino.ai",
+   "https://slashdot.org/software/comparison/Domino-vs-Shakudo/"
+  ]
+ },
+ {
+  "id": "fit2cloud-maxkb",
+  "name": "FIT2CLOUD (MaxKB)",
+  "aliases": [],
+  "website": "https://github.com/1Panel-dev/MaxKB",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source vendor behind MaxKB enterprise knowledge-base agent.",
+   "Self-hosted RAG/agent platform popular for private DeepSeek deployments."
+  ],
+  "discovery_sources": [
+   "https://github.com/1Panel-dev/MaxKB"
+  ]
+ },
+ {
+  "id": "flowise",
+  "name": "Flowise",
+  "aliases": [],
+  "website": "https://flowiseai.com",
+  "hq_country": "United States",
+  "discovery_status": "acquired by Workday (2025)",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source low-code LLM/agent builder",
+   "Self-hosted deployments with local LLMs"
+  ],
+  "discovery_sources": [
+   "https://flowiseai.com"
+  ]
+ },
+ {
+  "id": "fobi-ai-fortress",
+  "name": "Fobi AI (FORTRESS)",
+  "aliases": [],
+  "website": "https://fobi.ai",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "TSXV-listed AI company; FORTRESS sovereign AI platform (Aug 2026)",
+   "Deploys AI on-prem, in-country or private cloud"
+  ],
+  "discovery_sources": [
+   "https://www.globenewswire.com/news-release/2026/8/17/3346033/0/en/fobi-ai-launches-fortress-a-sovereign-ai-platform-for-secure-enterprise-owned-intelligence.html"
+  ]
+ },
+ {
+  "id": "fortanix",
+  "name": "Fortanix",
+  "aliases": [
+   "Fortanix (Armet AI)"
+  ],
+  "website": "https://www.fortanix.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Data security and confidential computing vendor",
+   "Data security and confidential-computing company (Armet AI).",
+   "Armet AI: confidential-computing GenAI platform on-prem with NVIDIA",
+   "Confidential AI on-prem with NVIDIA; partnered with Deepgram for on-prem voice AI."
+  ],
+  "discovery_sources": [
+   "https://www.fortanix.com",
+   "https://deepgram.com/learn/deepgram-fortanix-press-release"
+  ]
+ },
+ {
+  "id": "gitlab",
+  "name": "GitLab",
+  "aliases": [
+   "GitLab (Duo Self-Hosted)"
+  ],
+  "website": "https://about.gitlab.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "DevSecOps platform with Duo AI",
+   "Public DevSecOps platform with GitLab Duo AI.",
+   "Duo Self-Hosted runs approved LLMs in air-gapped installs",
+   "GitLab Duo Self-Hosted runs AI on customer-hosted models, including air-gapped."
+  ],
+  "discovery_sources": [
+   "https://about.gitlab.com/the-source/ai/transforming-government-it-ai-for-air-gapped-environments/"
+  ]
+ },
+ {
+  "id": "hsenid-mobile-sovereign-ai",
+  "name": "hSenid Mobile (Sovereign AI)",
+  "aliases": [],
+  "website": "https://hsenidmobile.com",
+  "hq_country": "Sri Lanka",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise software firm; launched Sovereign AI platform (2026)",
+   "On-prem, private cloud or hybrid AI for banks, telcos, government"
+  ],
+  "discovery_sources": [
+   "https://hsenidmobile.com/sovereign-ai-platform-now-live/"
+  ]
+ },
+ {
+  "id": "humain",
+  "name": "HUMAIN",
+  "aliases": [
+   "Humain"
+  ],
+  "website": "https://www.humain.com",
+  "hq_country": "Saudi Arabia",
+  "discovery_status": "active",
+  "segments": [
+   "international",
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Saudi PIF-owned national AI company building sovereign AI infrastructure and models (ALLaM).",
+   "PIF-owned national AI company (ALLaM models, datacenters, HUMAIN Chat).",
+   "PIF-backed Saudi AI company building sovereign AI infrastructure and models.",
+   "200MW of Qualcomm AI200/AI250 inference racks from 2026 for sovereign in-kingdom inference; ALLaM models.",
+   "Sovereign in-kingdom compute; 'AI in a Box' enterprise appliance with AMD.",
+   "Deploying 200MW of Qualcomm AI200/AI250 inference racks for Saudi sovereign AI from 2026."
+  ],
+  "discovery_sources": [
+   "https://www.datacenterdynamics.com/en/news/qualcomm-launches-ai200-and-ai250-chip-offering-targeting-inferencing-workloads-at-rack-scale/",
+   "https://backup.arabnews.com/node/2656424/business-economy",
+   "https://yourstory.com/ai-story/mistral-ai-humain-sovereign-ai-saudi-arabia",
+   "https://cryptobriefing.com/humain-cohere-sovereign-ai-compute/"
+  ]
+ },
+ {
+  "id": "ibl-ai",
+  "name": "ibl.ai",
+  "aliases": [],
+  "website": "https://ibl.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Agentic AI platform for education, government and regulated sectors.",
+   "On-prem and air-gapped deployment of AI agents and LLMs."
+  ],
+  "discovery_sources": [
+   "https://ibl.ai/blog/why-air-gapped-ai-is-non-negotiable-for-federal-agencies",
+   "https://ibl.ai/blog/on-premise-legal-ai-platform"
+  ]
+ },
+ {
+  "id": "iflytek",
+  "name": "iFLYTEK",
+  "aliases": [],
+  "website": "https://www.iflytek.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Hefei speech/AI giant behind Spark LLM, offline translators and education devices.",
+   "Spark private deployments on domestic chips and offline on-device speech products."
+  ],
+  "discovery_sources": [
+   "https://www.iflytek.com"
+  ]
+ },
+ {
+  "id": "iguazio",
+  "name": "Iguazio",
+  "aliases": [],
+  "website": "https://www.iguazio.com",
+  "hq_country": "Israel",
+  "discovery_status": "acquired by McKinsey (2023)",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "MLOps and GenAI-ops platform (MLRun)",
+   "Deployable on-prem and in hybrid/air-gapped environments"
+  ],
+  "discovery_sources": [
+   "https://www.iguazio.com",
+   "https://www.cbinsights.com/compare/iguazio-vs-shakudo"
+  ]
+ },
+ {
+  "id": "inflection-ai",
+  "name": "Inflection AI",
+  "aliases": [
+   "Inflection AI (Enterprise)"
+  ],
+  "website": "https://inflection.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Former Pi maker now selling enterprise AI",
+   "Enterprise AI company (Inflection for Enterprise) after 2024 pivot.",
+   "Pitches on-prem/private deployments of its models for enterprises",
+   "Sells on-prem deployment of its models for data control."
+  ],
+  "discovery_sources": [
+   "https://inflection.ai"
+  ]
+ },
+ {
+  "id": "intrafind",
+  "name": "IntraFind",
+  "aliases": [],
+  "website": "https://intrafind.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise search and GenAI (iFinder)",
+   "On-prem deployment with local LLMs for German public sector and enterprises"
+  ],
+  "discovery_sources": [
+   "https://intrafind.com"
+  ]
+ },
+ {
+  "id": "inxm",
+  "name": "INXM",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Berlin startup for on-premise AI automation in European enterprises.",
+   "Automation agents run on customers' own infrastructure."
+  ],
+  "discovery_sources": [
+   "https://ai-radar.it/article/inxm-raccoglie-57-milioni-di-euro-per-l-automazione-ai-on-premise-nelle-imprese-europee?lang=en"
+  ]
+ },
+ {
+  "id": "iterate-ai",
+  "name": "Iterate.ai",
+  "aliases": [],
+  "website": "https://www.iterate.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Private AI assistant (Generate) and low-code platform (Interplay)",
+   "Runs LLM apps on customer hardware, from AI PCs to datacenters"
+  ],
+  "discovery_sources": [
+   "https://www.iterate.ai"
+  ]
+ },
+ {
+  "id": "iternal-technologies-airgapai",
+  "name": "Iternal Technologies (AirgapAI)",
+  "aliases": [],
+  "website": "https://iternal.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Fully local AI assistant for PCs and secure sites",
+   "Maker of AirgapAI, a private assistant for government and enterprise on AI PCs.",
+   "Runs 100% offline on customer hardware for classified workflows (self-described)",
+   "Runs LLM and RAG fully offline on the user's PC."
+  ],
+  "discovery_sources": [
+   "https://iternal.ai/airgapai",
+   "https://iternal.ai/compare-chatgpt-enterprise-vs-airgapai",
+   "https://iternal.ai",
+   "https://iternal.ai/best-private-ai-coding-assistants"
+  ]
+ },
+ {
+  "id": "kamiwaza",
+  "name": "Kamiwaza",
+  "aliases": [],
+  "website": "https://www.kamiwaza.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI orchestration engine for distributed data and inference",
+   "Distributed private enterprise AI orchestration platform.",
+   "Runs models where data lives: on-prem, cloud and edge; Intel partner",
+   "Runs AI where data lives: on-prem, edge and air-gapped, incl. government."
+  ],
+  "discovery_sources": [
+   "https://www.geekwire.com/2025/seattle-vcs-invest-in-kamiwaza-a-new-enterprise-software-startup-helping-companies-adopt-ai/",
+   "https://www.intel.com/content/www/us/en/content-details/862275/kamiwaza-ai-orchestration-platform-partner-brief.html",
+   "https://www.kamiwaza.ai"
+  ]
+ },
+ {
+  "id": "katonic-ai",
+  "name": "Katonic AI",
+  "aliases": [],
+  "website": "https://www.katonic.ai",
+  "hq_country": "Australia",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Sovereign enterprise GenAI and agent platform",
+   "Sovereign generative AI platform for enterprises.",
+   "Sovereign enterprise gen AI platform.",
+   "Deploys on-prem, private cloud or air-gapped",
+   "Deploys on-prem/private cloud for data sovereignty.",
+   "Air-gapped/on-prem deployment for disconnected enterprise environments."
+  ],
+  "discovery_sources": [
+   "https://www.katonic.ai",
+   "https://dev.to/jaipalsingh/air-gapped-ai-solutions-7-platforms-for-disconnected-enterprise-deployment-2026-2d1p"
+  ]
+ },
+ {
+  "id": "knime",
+  "name": "KNIME",
+  "aliases": [],
+  "website": "https://www.knime.com",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source data science platform with GenAI extensions",
+   "Business Hub self-hosted; connects to local/self-hosted LLMs"
+  ],
+  "discovery_sources": [
+   "https://www.knime.com"
+  ]
+ },
+ {
+  "id": "konan-technology",
+  "name": "Konan Technology",
+  "aliases": [],
+  "website": "https://www.konantech.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Korean AI/search company with Konan LLM.",
+   "On-prem LLM deployments for public sector and enterprises."
+  ],
+  "discovery_sources": [
+   "https://www.konantech.com"
+  ]
+ },
+ {
+  "id": "kore-ai",
+  "name": "Kore.ai",
+  "aliases": [],
+  "website": "https://kore.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise conversational and agentic AI platform",
+   "Offers on-prem deployment for regulated enterprises"
+  ],
+  "discovery_sources": [
+   "https://kore.ai"
+  ]
+ }
+]

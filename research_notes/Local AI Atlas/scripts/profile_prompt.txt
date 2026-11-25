@@ -1,0 +1,51 @@
+Verify and profile batch {B} of companies for the "Local AI Atlas" market study.
+
+Input: /home/user/AgentHub/research_notes/Local AI Atlas/profiles/input/batch-{B}.json — a JSON array of {count} candidates found by discovery researchers (id, name, aliases, website, hq_country, discovery_status, segments, discovery_notes, discovery_sources). Discovery data is unverified and partly from model memory: treat every claim in it (especially acquisitions, funding, HQ) as a lead to confirm, not a fact.
+
+SCOPE — "Local AI" = AI (especially model inference for LLMs/GenAI, vision, speech) that runs on hardware the customer/user controls instead of a third-party public-cloud API: on-device (phones, PCs, wearables), edge (gateways, cameras, vehicles, robots, MCUs/IoT), on-prem datacenter, private cloud/VPC, air-gapped, sovereign, self-hosted. Today is 2026-11-25.
+
+STEP 1 — VERIFY each candidate and assign a verdict:
+- "in": local AI is the core business, OR the company has a dedicated, marketed local/edge/on-prem AI product line.
+- "borderline": local deployment exists but is secondary (e.g., a self-hosted option of a mostly-cloud product; generic hardware marketed for AI).
+- "out": no meaningful local-AI offering, not a real company (individual hobby project, consortium), cannot be found, or a duplicate of another entity (name it). Robotics/autonomy/camera/device makers are "in" only if they sell edge-AI compute/software/platforms to others or on-device AI is their core proposition.
+Also confirm status: active / acquired (by whom, year) / merged / defunct. Confirm any acquisition claimed in discovery notes with a search before recording it; if you cannot confirm, say "unconfirmed" in status_detail.
+
+STEP 2 — PROFILE every "in" and "borderline" company. Write one object per company to /home/user/AgentHub/research_notes/Local AI Atlas/profiles/batch-{B}.json (a JSON array, same order as input, every input id present exactly once):
+{
+ "id": "<input id, unchanged>", "name": "<official company name>",
+ "verdict": "in|borderline|out", "verdict_reason": "<=20 words",
+ "status": "active|acquired|merged|defunct", "status_detail": "e.g. 'Acquired by NVIDIA (2024)' or null", "parent": "<parent company or null>",
+ "website": "https://...", "hq_city": "...", "hq_country": "...",
+ "founded": 2021,
+ "org_type": "startup|scaleup|public|big-tech|subsidiary|nonprofit|open-source-company",
+ "funding_stage": "Pre-seed|Seed|Series A|Series B|Series C|Series D+|Late/Growth|Public|Acquired|Bootstrapped|Subsidiary|Grant/Nonprofit|Unknown",
+ "total_funding_usd_m": <number in USD millions or null; for public companies null>,
+ "last_round": "<e.g. 'Series B, $65M, Jul 2026, led by X' or null>",
+ "valuation_usd_m": <number or null>, "market_cap_or_revenue": "<for public/big companies, e.g. 'Public (NASDAQ: NVDA)'; else null>",
+ "key_investors": ["..."],
+ "employees": <best integer estimate or null>, "employees_band": "1-10|11-50|51-200|201-500|501-1000|1001-5000|5001-10000|10000+",
+ "focus": "<=15 words: what they focus on",
+ "problem": "<=20 words: the customer problem they solve, phrased as a problem",
+ "products": [{"name": "...", "category": "chip|ip|system|device|runtime|sdk|platform|model|app|service", "description": "<=18 words"}],
+ "deployment": [subset of "datacenter-onprem","private-cloud","air-gapped","edge-server","pc-workstation","mobile","wearable-xr","embedded-iot","camera","vehicle-robot-drone","browser"],
+ "layers": [subset of "silicon","hardware-systems","infra-orchestration","inference-runtime","model-optimization","models","ai-platform","applications","security-privacy","services"],
+ "modalities": [subset of "llm-text","code","vision","speech-audio","multimodal","image-video-gen","sensor-timeseries"],
+ "customers": [subset of "enterprise","smb","government-defense","healthcare","finance","legal","industrial-manufacturing","energy-utilities","retail","telecom","automotive","consumer-electronics-oem","security-surveillance","developers","consumers","education-research"],
+ "partners": ["notable technology partners"], "notable_customers": ["named customers if public"],
+ "differentiator": "<=20 words: what makes them unique",
+ "confidence": {"funding": "high|medium|low", "employees": "high|medium|low", "founded": "high|medium|low"},
+ "basis": "searched|knowledge|mixed",
+ "sources": ["urls you actually used"]
+}
+Products must be AS COMPREHENSIVE AS POSSIBLE: list every notable local-AI-relevant product, product family, model line or SDK (typically 2–10). For big multi-product companies, list only local-AI-relevant products. For "out" rows, fill only id, name, verdict, verdict_reason, status, status_detail, website.
+
+METHOD
+- Load WebSearch via ToolSearch query "select:WebSearch" (and WebFetch the same way if available). Web search is rate-limited and shared with other researchers, so spend searches where they matter most: (1) recent funding rounds/totals and acquisitions for startups and scale-ups (2025–2026 events postdate model memory), (2) confirming disputed acquisitions or shutdowns, (3) HQ/founded for obscure companies. Use your own knowledge for well-known facts and for big public companies, and set "basis" and "confidence" honestly. If search stops working, continue from knowledge and mark confidence accordingly — never leave the batch unfinished.
+- Prefer primary sources (company newsroom/blog, SEC filings) and reputable press (TechCrunch, Reuters, Bloomberg, BetaKit, Sifted, EE Times, SiliconANGLE). Crunchbase/PitchBook/Tracxn/CB Insights snippets are acceptable for funding totals and headcount; LinkedIn snippets for headcount.
+- Never invent numbers. Unknown → null and confidence "low".
+- Write the file incrementally (e.g., every ~10 companies) so progress is never lost, and validate at the end: python3 -c "import json;d=json.load(open('<path>'));print(len(d))" must print {count}.
+- Also write /home/user/AgentHub/research_notes/Local AI Atlas/profiles/batch-{B}.md with brief notes: verdict changes vs discovery, unconfirmed claims, corrections to discovery data (e.g., wrong acquisitions), and any duplicates spotted.
+
+Your final reply must be under 100 words: counts of in/borderline/out, number of profiles with searched basis, and the most important corrections to discovery data. Do not paste profiles.
+
+As a first step, read /root/.claude/skills/synced/a6b61689-2b55-4120-895e-3257164e3664_ffb8c948-2114-4140-8caa-a19efab7cf75/deep-research/references/researcher.md for research methodology; the output format above takes precedence over any format described there.

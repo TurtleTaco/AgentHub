@@ -1,0 +1,604 @@
+[
+ {
+  "id": "seco-clea",
+  "name": "SECO (Clea)",
+  "aliases": [],
+  "website": "https://www.seco.com",
+  "hq_country": "Italy",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Edge computing hardware maker with Clea AI-of-Things software platform",
+   "Clea orchestrates and manages AI apps on SECO and third-party edge devices"
+  ],
+  "discovery_sources": [
+   "https://www.seco.com"
+  ]
+ },
+ {
+  "id": "sensiml",
+  "name": "SensiML",
+  "aliases": [],
+  "website": "https://sensiml.com",
+  "hq_country": "United States",
+  "discovery_status": "acquired by QuickLogic (2019)",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AutoML toolkit for building sensor-based ML models for microcontrollers",
+   "Generates compact firmware libraries for on-device sensor inference"
+  ],
+  "discovery_sources": [
+   "https://sensiml.com"
+  ]
+ },
+ {
+  "id": "sixgill",
+  "name": "Sixgill",
+  "aliases": [],
+  "website": "https://www.sixgill.com",
+  "hq_country": "United States",
+  "discovery_status": "unknown",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Sixgill Sense end-to-end computer vision platform",
+   "Deploys trained vision models to edge devices"
+  ],
+  "discovery_sources": [
+   "https://www.sixgill.com"
+  ]
+ },
+ {
+  "id": "sonatus",
+  "name": "Sonatus",
+  "aliases": [],
+  "website": "https://www.sonatus.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Software-defined vehicle platform with in-vehicle AI tools",
+   "Deploys AI models to vehicle edge ECUs"
+  ],
+  "discovery_sources": [
+   "https://en.wikipedia.org/wiki/Sonatus"
+  ]
+ },
+ {
+  "id": "spectro-cloud",
+  "name": "Spectro Cloud",
+  "aliases": [
+   "Spectro Cloud (PaletteAI)"
+  ],
+  "website": "https://www.spectrocloud.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Palette Kubernetes management platform including Palette Edge",
+   "Palette Kubernetes management across datacenter, cloud and edge",
+   "Kubernetes management platform (Palette) for data center, edge and cloud.",
+   "Manages K8s-based AI workloads across thousands of edge locations",
+   "Deploys full-stack AI/Kubernetes clusters on-prem, air-gapped and at the edge",
+   "PaletteAI deploys AI stacks to on-prem and edge GPU clusters."
+  ],
+  "discovery_sources": [
+   "https://www.spectrocloud.com"
+  ]
+ },
+ {
+  "id": "spot-ai",
+  "name": "Spot AI",
+  "aliases": [],
+  "website": "https://www.spot.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI camera system and Video AI Agents for physical operations",
+   "On-prem video intelligence appliance processes footage locally"
+  ],
+  "discovery_sources": [
+   "https://business-standard.com/companies/start-ups/spot-ai-secures-31-mn-launches-video-ai-agents-for-enhanced-surveillance-124103101229_1.html",
+   "https://www.kmworld.com/Articles/News/News/Spot-AI-debuts-Video-AI-Agents-transforming-camera-footage-into-a-proactive-valuable-data-source--166681.aspx"
+  ]
+ },
+ {
+  "id": "stream-analyze",
+  "name": "Stream Analyze",
+  "aliases": [],
+  "website": "https://streamanalyze.com",
+  "hq_country": "Sweden",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "SA Engine: edge analytics and AI engine for streaming sensor data on devices",
+   "Stockholm edge analytics company (SA Engine) for real-time AI on devices.",
+   "Runs and updates models in real time on embedded devices and fleets",
+   "Tiny engine runs and updates models directly on embedded and industrial devices."
+  ],
+  "discovery_sources": [
+   "https://streamanalyze.com"
+  ]
+ },
+ {
+  "id": "sunlight",
+  "name": "Sunlight",
+  "aliases": [],
+  "website": "https://sunlight.io",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Lightweight hyperconverged edge infrastructure (NexVisor) with fleet management",
+   "Runs AI/IIoT workloads on rugged on-site hardware managed centrally"
+  ],
+  "discovery_sources": [
+   "https://sunlight.io/resources/news/unlight-closes-funding-round-and-scales-edge-computing-as-a-service-offering",
+   "https://litmus.io/newsroom/litmus-and-sunlight-partner-to-simplify-how-companies-deploy-industrial-iot"
+  ]
+ },
+ {
+  "id": "surveily",
+  "name": "Surveily",
+  "aliases": [],
+  "website": "https://surveily.com",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Computer vision on existing industrial CCTV to detect workplace hazards",
+   "Runs models locally on site infrastructure"
+  ],
+  "discovery_sources": [
+   "https://newmarketpitch.com/blogs/news/edge-ai-list-deals"
+  ]
+ },
+ {
+  "id": "switchon",
+  "name": "SwitchOn",
+  "aliases": [],
+  "website": "https://www.switchon.io",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "DeepInspect edge-based AI visual inspection for manufacturing",
+   "Inspection inference runs on edge devices at the line"
+  ],
+  "discovery_sources": [
+   "https://www.woodenscale.ai/blogs/switchon-funding-8m-for-deepinspect-expansion/"
+  ]
+ },
+ {
+  "id": "trigo",
+  "name": "Trigo",
+  "aliases": [],
+  "website": "https://www.trigoretail.com",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Computer vision for frictionless checkout and store operations",
+   "On-site compute processes ceiling-camera video in stores"
+  ],
+  "discovery_sources": [
+   "https://www.trigoretail.com"
+  ]
+ },
+ {
+  "id": "tristar-ai",
+  "name": "Tristar AI",
+  "aliases": [],
+  "website": "https://www.tristar.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI visual inspection software for manufacturing quality",
+   "Runs on an edge computing stack integrated with existing cameras and PLCs"
+  ],
+  "discovery_sources": [
+   "https://www.prnewswire.com/news-releases/tristar-ai-raises-12-4m-series-a-to-give-manufacturers-a-quality-inspector-that-never-blinks-302937353.html",
+   "https://www.axios.com/pro/all-deals/2026/11/12/tristar-ai-computer-vision-manufacturing-karani"
+  ]
+ },
+ {
+  "id": "unitx",
+  "name": "UnitX",
+  "aliases": [],
+  "website": "https://www.unitxlabs.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI visual inspection system with optics and deep-learning software",
+   "Inference runs on-site on the inspection station"
+  ],
+  "discovery_sources": [
+   "https://www.unitxlabs.com"
+  ]
+ },
+ {
+  "id": "utilidata",
+  "name": "Utilidata",
+  "aliases": [],
+  "website": "https://utilidata.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Grid-edge AI platform (Karman) for utilities.",
+   "AI computing runs at the grid edge in smart meters and infrastructure."
+  ],
+  "discovery_sources": [
+   "https://utilidata.com"
+  ]
+ },
+ {
+  "id": "vaidio-ironyun",
+  "name": "Vaidio (IronYun)",
+  "aliases": [],
+  "website": "https://vaidio.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI vision platform for security, retail and operations analytics",
+   "On-prem/edge deployment integrated with VMS"
+  ],
+  "discovery_sources": [
+   "https://vaidio.ai"
+  ]
+ },
+ {
+  "id": "viam",
+  "name": "Viam",
+  "aliases": [],
+  "website": "https://www.viam.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Software platform for building, deploying and managing robots and smart machines",
+   "Deploys ML models and code to on-device robot/edge fleets"
+  ],
+  "discovery_sources": [
+   "https://www.viam.com"
+  ]
+ },
+ {
+  "id": "viso-ai",
+  "name": "viso.ai",
+  "aliases": [],
+  "website": "https://viso.ai",
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Viso Suite end-to-end no-code computer vision platform",
+   "Builds and deploys CV apps to on-prem edge devices at scale"
+  ],
+  "discovery_sources": [
+   "https://viso.ai"
+  ]
+ },
+ {
+  "id": "vivacity-labs",
+  "name": "Vivacity Labs",
+  "aliases": [],
+  "website": "https://vivacitylabs.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI traffic sensors and signal control for cities",
+   "Sensors run vision AI on-device; only anonymous data leaves"
+  ],
+  "discovery_sources": [
+   "https://vivacitylabs.com"
+  ]
+ },
+ {
+  "id": "wallaroo-ai",
+  "name": "Wallaroo.AI",
+  "aliases": [],
+  "website": "https://wallaroo.ai",
+  "hq_country": "United States",
+  "discovery_status": "acquired by d-Matrix (2026)",
+  "segments": [
+   "industrial-edge",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Universal AI inference deployment, serving and observability platform",
+   "Model operations platform for deploying and observing AI inference at scale.",
+   "Runs and manages models on edge, on-prem and air-gapped hardware incl. Intel/Ampere CPUs",
+   "Supports on-prem, edge and air-gapped inference deployments."
+  ],
+  "discovery_sources": [
+   "https://www.storagenewsletter.com/2026/08/11/d-matrix-acquires-wallaroo-ai-to-speed-up-deployment-of-heterogeneous-ai-inference-workloads/",
+   "https://dealroom.co/news/142752-d-matrix-buys-wallaroo-ai-in-second-acquisition-in-four-months/",
+   "https://builders.intel.com/ecosystem-engagement/solution-hub/edge-ai-catalog/partner-spotlight/universal-al-inference-platform-229",
+   "https://wallaroo.ai"
+  ]
+ },
+ {
+  "id": "wind-river",
+  "name": "Wind River",
+  "aliases": [],
+  "website": "https://www.windriver.com",
+  "hq_country": "United States",
+  "discovery_status": "acquired by Aptiv (2022)",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Embedded/edge OS (VxWorks, eLxr) and Wind River cloud-native edge platform",
+   "Runs and manages AI workloads on mission-critical edge systems"
+  ],
+  "discovery_sources": [
+   "https://www.windriver.com",
+   "https://www.prnewswire.com/news-releases/edge-ai-foundation-launches-first-of-its-kind-working-group-to-advance-mission-critical-ai-capabilities-for-defense-and-government-operations-302691604.html"
+  ]
+ },
+ {
+  "id": "xailient",
+  "name": "Xailient",
+  "aliases": [],
+  "website": "https://xailient.com",
+  "hq_country": "Australia",
+  "discovery_status": "unknown",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Efficient computer-vision AI for edge cameras and devices.",
+   "Edge AI face recognition and detection software for smart cameras and home devices",
+   "Low-power on-device vision without cloud.",
+   "On-device face recognition that keeps biometric data local"
+  ],
+  "discovery_sources": [
+   "https://xailient.com",
+   "https://en.prnasia.com/releases/global/xailient-ranks-1-for-face-recognition-accuracy-in-real-world-on-device-ai-556935.shtml"
+  ]
+ },
+ {
+  "id": "zebra-technologies-matrox-imaging",
+  "name": "Zebra Technologies (Matrox Imaging)",
+  "aliases": [],
+  "website": "https://www.zebra.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Enterprise devices plus Aurora machine vision and deep-learning software",
+   "On-device and on-prem vision inspection; bought Matrox Imaging in 2022"
+  ],
+  "discovery_sources": [
+   "https://www.zebra.com"
+  ]
+ },
+ {
+  "id": "zededa",
+  "name": "ZEDEDA",
+  "aliases": [],
+  "website": "https://zededa.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Edge orchestration platform (built on open-source EVE-OS) for managing distributed edge AI apps",
+   "Zero-trust deployment and lifecycle management of AI workloads on edge hardware"
+  ],
+  "discovery_sources": [
+   "https://www.datacenterdynamics.com/en/news/edge-orchestration-platform-zededa-raises-72m/",
+   "https://www.morningstar.com/news/business-wire/20260127258815/zededa-accelerates-enterprise-momentum-doubling-new-customer-acquisition-with-major-fortune-500-wins"
+  ]
+ },
+ {
+  "id": "zeroeyes",
+  "name": "ZeroEyes",
+  "aliases": [],
+  "website": "https://zeroeyes.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "AI gun detection on existing security cameras with human verification",
+   "Detection runs on on-site appliances connected to cameras"
+  ],
+  "discovery_sources": [
+   "https://zeroeyes.com"
+  ]
+ },
+ {
+  "id": "4paradigm",
+  "name": "4Paradigm",
+  "aliases": [],
+  "website": "https://www.4paradigm.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Enterprise AI platform vendor (Sage)",
+   "On-prem AI platforms for Chinese enterprises and SOEs"
+  ],
+  "discovery_sources": [
+   "https://www.4paradigm.com"
+  ]
+ },
+ {
+  "id": "aixcoder",
+  "name": "aiXcoder",
+  "aliases": [],
+  "website": "https://www.aixcoder.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Chinese code LLM and AI programming assistant vendor.",
+   "Private on-prem deployment for enterprises and government."
+  ],
+  "discovery_sources": [
+   "https://www.aixcoder.com"
+  ]
+ },
+ {
+  "id": "chapsvision",
+  "name": "ChapsVision",
+  "aliases": [],
+  "website": "https://www.chapsvision.com",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "French sovereign data-processing and AI group (owns Sinequa, Systran).",
+   "Sovereign on-prem AI/data platforms for defense, security and enterprise."
+  ],
+  "discovery_sources": [
+   "https://www.chapsvision.com"
+  ]
+ },
+ {
+  "id": "corover-bharatgpt",
+  "name": "CoRover (BharatGPT)",
+  "aliases": [],
+  "website": "https://corover.ai",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Conversational AI and BharatGPT models",
+   "BharatGPT offered for on-prem/offline deployment (reported; verify)"
+  ],
+  "discovery_sources": [
+   "https://analyticsindiamag.com/ai-highlights/top-15-ai-startups-powering-indias-self-reliance-mission"
+  ]
+ },
+ {
+  "id": "kt-sovereign-ai-appliance",
+  "name": "KT (sovereign AI appliance)",
+  "aliases": [],
+  "website": "https://www.kt.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Korean telco",
+   "On-prem server appliance combining Rebellions chips and Mi:dm LLM"
+  ],
+  "discovery_sources": [
+   "https://koreatimes.co.kr/business/companies/20260819/kt-puts-korean-ai-chips-language-model-into-one-enterprise-server",
+   "https://www.ibtimes.com/koreas-first-sovereign-ai-appliance-ships-domestic-chip-domestic-llm-one-server-3806583"
+  ]
+ },
+ {
+  "id": "mozn",
+  "name": "Mozn",
+  "aliases": [],
+  "website": "https://mozn.sa",
+  "hq_country": "Saudi Arabia",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Enterprise AI for financial crime and knowledge intelligence",
+   "Forward-deployed enterprise AI on HUMAIN sovereign infrastructure"
+  ],
+  "discovery_sources": [
+   "https://www.wamda.com/2026/08/saudi-ai-firm-mozn-secures-strategic-investment-humain"
+  ]
+ },
+ {
+  "id": "polarise",
+  "name": "Polarise",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Builds and operates sovereign AI Factories in Europe, starting in Oslo with WWT.",
+   "European-owned AI compute for data-sovereign customers."
+  ],
+  "discovery_sources": [
+   "https://www.wwt.com/press-release/polarise-partners-with-world-wide-technology-to-accelerate-europes-sovereign-ai-buildout-starting-in-oslo",
+   "https://itbrief.co.uk/story/wwt-polarise-partner-on-sovereign-ai-centre-in-oslo"
+  ]
+ },
+ {
+  "id": "thundersoft-rubik-device-ai",
+  "name": "ThunderSoft (Rubik Device AI)",
+  "aliases": [],
+  "website": "https://www.thundersoft.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "international"
+  ],
+  "discovery_notes": [
+   "Chinese OS/edge software vendor with Rubik on-device LLM for phones, cars, IoT.",
+   "Supplies on-device AI OS stacks to OEMs on Qualcomm/other SoCs."
+  ],
+  "discovery_sources": [
+   "https://www.thundersoft.com"
+  ]
+ }
+]

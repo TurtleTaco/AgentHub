@@ -1,0 +1,776 @@
+[
+ {
+  "id": "mako",
+  "name": "Mako",
+  "aliases": [],
+  "website": null,
+  "hq_country": "USA",
+  "discovery_status": "unknown",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI-driven GPU kernel generation and inference optimization startup.",
+   "Auto-optimizes inference kernels for whatever GPUs customers own."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "marslab",
+  "name": "MarsLab",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Singapore",
+  "discovery_status": "unknown",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Singapore AI inference infrastructure company (roadmap announced May 2026).",
+   "Plans enterprise and edge inference deployments (company-stated)."
+  ],
+  "discovery_sources": [
+   "https://technode.global/2026/05/28/marslab-introduces-singapore-based-ai-inference-infrastructure-roadmap-for-enterprise-edge-deployment/"
+  ]
+ },
+ {
+  "id": "mk1",
+  "name": "MK1",
+  "aliases": [],
+  "website": null,
+  "hq_country": "USA",
+  "discovery_status": "acquired by AMD (2025)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Inference company behind the Flywheel engine, tuned for AMD Instinct GPU memory architecture.",
+   "Engine for enterprise reasoning/inference on AMD Instinct deployments."
+  ],
+  "discovery_sources": [
+   "https://www.amd.com/en/blogs/2025/amd-acquires-mk1-to-advance-ai-inference-performance.html"
+  ]
+ },
+ {
+  "id": "modular",
+  "name": "Modular",
+  "aliases": [],
+  "website": "https://www.modular.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "MAX inference engine and Mojo language for portable high-performance AI.",
+   "Builds MAX inference framework and Mojo language for portable high-performance AI across NVIDIA/AMD hardware.",
+   "Self-hosted inference across NVIDIA/AMD/CPU hardware.",
+   "MAX containers self-host GenAI on customer GPUs; hardware-agnostic serving stack."
+  ],
+  "discovery_sources": [
+   "https://www.modular.com",
+   "https://www.modular.com/blog/bentoml-joins-modular",
+   "https://www.usagepricing.com/blueprint/activity/bentoml-2026-07-29-qualcomm-modular-acquisition"
+  ]
+ },
+ {
+  "id": "moreh",
+  "name": "Moreh",
+  "aliases": [],
+  "website": "https://moreh.io",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI infrastructure software (MoAI) optimizing AMD GPU clusters.",
+   "MoAI platform: AI infrastructure software for scalable training/inference on AMD GPUs.",
+   "Software stack for running LLM training/inference on own non-NVIDIA clusters.",
+   "Runs LLM workloads on customer-owned AMD clusters."
+  ],
+  "discovery_sources": [
+   "https://moreh.io"
+  ]
+ },
+ {
+  "id": "mystic-ai",
+  "name": "Mystic AI",
+  "aliases": [],
+  "website": "https://www.mystic.ai",
+  "hq_country": "UK",
+  "discovery_status": "unknown",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "ML deployment platform with Pipeline Core for serving models.",
+   "Offered BYOC deployment into customer cloud accounts."
+  ],
+  "discovery_sources": [
+   "https://www.mystic.ai"
+  ]
+ },
+ {
+  "id": "neuralfabric",
+  "name": "NeuralFabric",
+  "aliases": [],
+  "website": null,
+  "hq_country": "USA",
+  "discovery_status": "acquired by Cisco (2025) [prior knowledge, not re-verified]",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Platform for building domain-specific small language models on enterprise data.",
+   "SLM training/deployment within enterprise environments."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "ori",
+  "name": "Ori",
+  "aliases": [
+   "Ori Industries"
+  ],
+  "website": "https://www.ori.co",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "London GPU cloud and AI infrastructure software company.",
+   "AI infrastructure company with GPU cloud and Ori AI Fabric platform software.",
+   "Ori platform lets operators and enterprises run private/sovereign AI clouds on their own GPUs.",
+   "Licenses platform to build private/sovereign AI clouds."
+  ],
+  "discovery_sources": [
+   "https://www.ori.co"
+  ]
+ },
+ {
+  "id": "oumi",
+  "name": "Oumi",
+  "aliases": [],
+  "website": "https://oumi.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source platform for training, evaluating and deploying foundation models.",
+   "Run the full model lifecycle on own infrastructure."
+  ],
+  "discovery_sources": [
+   "https://github.com/oumi-ai/oumi"
+  ]
+ },
+ {
+  "id": "parallel-works",
+  "name": "Parallel Works",
+  "aliases": [],
+  "website": "https://parallelworks.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "ACTIVATE control plane for hybrid HPC/AI compute.",
+   "Unifies on-prem clusters and cloud for AI workloads."
+  ],
+  "discovery_sources": [
+   "https://parallelworks.com"
+  ]
+ },
+ {
+  "id": "pipeshift",
+  "name": "Pipeshift",
+  "aliases": [],
+  "website": "https://pipeshift.com",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Modular inference engine for deploying and fine-tuning open-source LLMs.",
+   "Targets enterprises running open models on their own GPUs/private cloud."
+  ],
+  "discovery_sources": [
+   "https://pipeshift.com"
+  ]
+ },
+ {
+  "id": "poolside",
+  "name": "Poolside",
+  "aliases": [],
+  "website": "https://poolside.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "selfhosted-inference-llmops",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Foundation models for software engineering",
+   "Foundation models for software engineering, sold to enterprises and government.",
+   "Foundation-model company focused on software-engineering AI.",
+   "Deploys models inside customer VPC/on-prem for enterprise and defense",
+   "Deploys models inside customer VPC or on-prem.",
+   "Models built for on-premises and air-gapped deployment for government and enterprise."
+  ],
+  "discovery_sources": [
+   "https://poolside.ai",
+   "https://poolside.ai/government",
+   "https://poolside.ai/public-sector"
+  ]
+ },
+ {
+  "id": "predibase",
+  "name": "Predibase",
+  "aliases": [],
+  "website": "https://predibase.com",
+  "hq_country": "USA",
+  "discovery_status": "acquired by Rubrik (2025)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Fine-tuning and LoRAX multi-adapter serving for small open models.",
+   "Fine-tuning and serving platform for small open models; created LoRAX multi-adapter server.",
+   "Serve many fine-tuned SLMs in customer VPC.",
+   "VPC deployment and open-source LoRAX for serving many LoRA adapters on own GPUs."
+  ],
+  "discovery_sources": [
+   "https://predibase.com",
+   "https://github.com/predibase/lorax"
+  ]
+ },
+ {
+  "id": "radixark",
+  "name": "RadixArk",
+  "aliases": [],
+  "website": null,
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company spun out of SGLang project building commercial inference tooling on SGLang and Miles.",
+   "Keeps SGLang open/free for self-hosted serving; monetizes managed hosting."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes",
+   "https://siliconangle.com/2026/05/05/nvidia-amd-back-100m-round-ai-tooling-startup-radixark/",
+   "https://github.com/sgl-project/sglang"
+  ]
+ },
+ {
+  "id": "rapt-ai",
+  "name": "Rapt AI",
+  "aliases": [],
+  "website": "https://www.rapt.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI-driven GPU resource management that auto-allocates compute to AI workloads.",
+   "Increases utilization of on-prem GPU infrastructure."
+  ],
+  "discovery_sources": [
+   "https://www.rapt.ai"
+  ]
+ },
+ {
+  "id": "run-ai",
+  "name": "Run:ai",
+  "aliases": [],
+  "website": "https://www.run.ai",
+  "hq_country": "Israel",
+  "discovery_status": "acquired by NVIDIA (2024)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "GPU orchestration and virtualization platform for AI workloads.",
+   "GPU orchestration and scheduling for AI workloads on Kubernetes",
+   "Kubernetes GPU orchestration and scheduling for AI clusters; core open-sourced as KAI Scheduler.",
+   "Pools and schedules on-prem GPU clusters for training and inference.",
+   "Pools on-prem GPUs for training and inference",
+   "Maximizes utilization of customer-owned on-prem GPU clusters."
+  ],
+  "discovery_sources": [
+   "https://www.run.ai",
+   "https://github.com/NVIDIA/KAI-Scheduler"
+  ]
+ },
+ {
+  "id": "schedmd-slurm",
+  "name": "SchedMD (Slurm)",
+  "aliases": [],
+  "website": "https://www.schedmd.com",
+  "hq_country": "USA",
+  "discovery_status": "acquired by NVIDIA (2025)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Developer of Slurm, open-source HPC/AI workload manager.",
+   "Schedules jobs on most on-prem supercomputers and AI clusters."
+  ],
+  "discovery_sources": [
+   "https://blogs.nvidia.com/blog/nvidia-acquires-schedmd",
+   "https://github.com/SchedMD/slurm"
+  ]
+ },
+ {
+  "id": "scx-ai-southern-cross-ai",
+  "name": "SCX.ai (Southern Cross AI)",
+  "aliases": [],
+  "website": "https://scx.ai",
+  "hq_country": "Australia",
+  "discovery_status": "active (ASX-listed Aug 2026)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "ASX-listed sovereign AI inference infrastructure company.",
+   "Australian-hosted sovereign inference node and MAGPiE model for data-resident AI."
+  ],
+  "discovery_sources": [
+   "https://www.hpcwire.com/aiwire/2026/01/30/scx-ai-launches-australias-1st-sovereign-ai-inference-node-in-sydney/",
+   "https://dealroom.co/news/140248-scx-ai-seeks-aud-40m-in-asx-float-for-local-ai-inference/",
+   "https://itbrief.com.au/story/scx-ai-launches-australian-hosted-ai-for-apple-apps"
+  ]
+ },
+ {
+  "id": "siliconflow",
+  "name": "SiliconFlow",
+  "aliases": [],
+  "website": "https://www.siliconflow.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Chinese AI infrastructure company with high-performance inference engine and model API.",
+   "Offers private deployment of its inference stack for enterprises."
+  ],
+  "discovery_sources": [
+   "https://www.siliconflow.com"
+  ]
+ },
+ {
+  "id": "simplismart",
+  "name": "Simplismart",
+  "aliases": [],
+  "website": "https://simplismart.ai",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Inference optimization and MLOps platform for fast GenAI deployment.",
+   "Deploys optimized models on-prem or in customer VPC."
+  ],
+  "discovery_sources": [
+   "https://simplismart.ai"
+  ]
+ },
+ {
+  "id": "skypilot",
+  "name": "SkyPilot",
+  "aliases": [],
+  "website": "https://github.com/skypilot-org/skypilot",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source framework from UC Berkeley for running AI jobs across clouds and Kubernetes.",
+   "Unifies customer Kubernetes/on-prem GPU clusters with cloud capacity."
+  ],
+  "discovery_sources": [
+   "https://github.com/skypilot-org/skypilot"
+  ]
+ },
+ {
+  "id": "tensorfuse",
+  "name": "Tensorfuse",
+  "aliases": [],
+  "website": "https://tensorfuse.io",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Serverless GPU runtime that deploys models inside the customer's own cloud account.",
+   "BYOC serverless inference keeps models and data in customer infrastructure."
+  ],
+  "discovery_sources": [
+   "https://tensorfuse.io"
+  ]
+ },
+ {
+  "id": "tensormesh",
+  "name": "TensorMesh",
+  "aliases": [],
+  "website": "https://www.tensormesh.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company behind LMCache, open-source KV-cache layer that reuses cached tokens across LLM inference.",
+   "LMCache plugs into self-hosted vLLM/SGLang clusters to cut GPU cost and latency."
+  ],
+  "discovery_sources": [
+   "https://github.com/LMCache/LMCache",
+   "https://www.tensormesh.ai"
+  ]
+ },
+ {
+  "id": "together-ai-enterprise-platform",
+  "name": "Together AI (Enterprise Platform)",
+  "aliases": [],
+  "website": "https://www.together.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI acceleration cloud for open models with inference, fine-tuning and GPU clusters.",
+   "Together Enterprise Platform deploys its inference stack in customer VPC/on-prem."
+  ],
+  "discovery_sources": [
+   "https://www.together.ai"
+  ]
+ },
+ {
+  "id": "vcluster-labs-loft",
+  "name": "vCluster Labs (Loft)",
+  "aliases": [],
+  "website": "https://www.vcluster.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Virtual Kubernetes clusters for multi-tenancy, incl. GPU sharing.",
+   "Multi-tenant GPU platforms on private Kubernetes."
+  ],
+  "discovery_sources": [
+   "https://www.vcluster.com"
+  ]
+ },
+ {
+  "id": "writer",
+  "name": "Writer",
+  "aliases": [],
+  "website": "https://writer.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise generative AI platform with in-house Palmyra models.",
+   "Self-hosted/private deployment options for Palmyra."
+  ],
+  "discovery_sources": [
+   "https://writer.com"
+  ]
+ },
+ {
+  "id": "xorbits-xinference",
+  "name": "Xorbits (Xinference)",
+  "aliases": [],
+  "website": "https://xorbits.io",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company behind Xinference, open-source model serving platform.",
+   "Open-source Xinference platform for serving LLM, embedding and multimodal models.",
+   "Self-host LLMs, embeddings and multimodal models on own servers.",
+   "Self-hosted, enterprise private deployment of open models."
+  ],
+  "discovery_sources": [
+   "https://xorbits.io",
+   "https://github.com/xorbitsai/inference"
+  ]
+ },
+ {
+  "id": "zml",
+  "name": "ZML",
+  "aliases": [],
+  "website": "https://zml.ai",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Paris company building an open-source, high-performance ML inference framework.",
+   "Open-source high-performance inference stack written in Zig with MLIR/XLA, multi-accelerator.",
+   "Runs models efficiently across NVIDIA, AMD, TPU and other accelerators on own infrastructure.",
+   "Runs models on own NVIDIA, AMD, TPU or Trainium hardware from one build."
+  ],
+  "discovery_sources": [
+   "https://zml.ai",
+   "https://github.com/zml/zml"
+  ]
+ },
+ {
+  "id": "aible",
+  "name": "Aible",
+  "aliases": [],
+  "website": "https://www.aible.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise GenAI and analytics agents platform",
+   "Dell AI Factory ISV partner running agents on-prem"
+  ],
+  "discovery_sources": [
+   "https://www.dell.com/en-us/infohub/articles/designing-an-enterprise-ai-factory-architecture-for-agentic-applications"
+  ]
+ },
+ {
+  "id": "airia",
+  "name": "Airia",
+  "aliases": [],
+  "website": "https://airia.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI security, governance and agent orchestration",
+   "Governs agents across environments; private deployment options (verify)"
+  ],
+  "discovery_sources": [
+   "https://www.businesswire.com/news/home/20250916641185/en/Airia%E2%88%92Secures%E2%88%92100M-in-Funding-to-Accelerate-Safe-and-Secure-Enterprise-Al-Adoption"
+  ]
+ },
+ {
+  "id": "airrived",
+  "name": "Airrived",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United Arab Emirates",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Agentic AI security platform; launched Sovereign AI Platform (Sept 2026)",
+   "Build and run agents on-prem, private GPUs or air-gapped"
+  ],
+  "discovery_sources": [
+   "https://itnerd.blog/2026/09/01/airrived-launches-sovereign-ai-platform-putting-enterprises-back-in-control-of-their-ai/",
+   "https://siliconangle.com/2026/02/03/airrived-says-agentic-ais-breakthrough-moment-arrived-raising-6-1m-seed-funding",
+   "https://itbrief.asia/story/airrived-launches-sovereign-ai-platform-for-governments"
+  ]
+ },
+ {
+  "id": "aleph-alpha",
+  "name": "Aleph Alpha",
+  "aliases": [
+   "Aleph Alpha (PhariaAI)"
+  ],
+  "website": "https://aleph-alpha.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "international",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "German sovereign AI company with PhariaAI stack and open Pharia models.",
+   "Heidelberg sovereign AI company offering the PhariaAI enterprise/government stack.",
+   "Sovereign GenAI operating stack (PhariaAI) for enterprises and government",
+   "On-prem sovereign GenAI for government/regulated sectors.",
+   "PhariaAI deploys on-prem and in sovereign clouds for public sector and regulated firms.",
+   "Deployable on-prem and in sovereign German infrastructure"
+  ],
+  "discovery_sources": [
+   "https://aleph-alpha.com",
+   "https://siliconangle.com/2026/09/16/cohere-and-aleph-alpha-agree-to-merge-in-reported-20b-deal/",
+   "https://thelogic.co/news/cohere-aleph-alpha-merger-sovereign-ai/",
+   "https://sifted.eu/articles/aleph-alpha-kolibri-mistral-chonk-frontier-ai/"
+  ]
+ },
+ {
+  "id": "allganize",
+  "name": "Allganize",
+  "aliases": [],
+  "website": "https://www.allganize.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise LLM app/agent platform (Alli) strong in finance and Japan.",
+   "Enterprise LLM app and agent platform (Alli)",
+   "Offers on-premise LLM deployments for banks and regulated enterprises.",
+   "Offers on-prem and air-gapped LLM platforms for public sector and enterprise"
+  ],
+  "discovery_sources": [
+   "https://www.allganize.ai",
+   "https://www.asiae.co.kr/en/article/2025080608461946255",
+   "https://www.allganize.ai/"
+  ]
+ },
+ {
+  "id": "alpineai-swissgpt",
+  "name": "AlpineAI (SwissGPT)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Switzerland",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Swiss sovereign AI products built on open-source LLMs",
+   "Runs only in certified Swiss datacenters; double-digit-million seed (2026)"
+  ],
+  "discovery_sources": [
+   "https://www.startupticker.ch/en/news/alpineai-raises-double-digit-million-seed-round-for-sovereign-ai"
+  ]
+ },
+ {
+  "id": "amber",
+  "name": "amber",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Aachen startup selling a sovereign AI data layer to German Mittelstand firms.",
+   "AI data layer for German Mittelstand manufacturers (€7m Series A)",
+   "Keeps company data and AI processing under customer/European control.",
+   "Sells AI sovereignty: data and AI kept under company control"
+  ],
+  "discovery_sources": [
+   "https://thenextweb.com/news/amber-series-a-7m-ventech-nrw-bank-ai-data-layer"
+  ]
+ },
+ {
+  "id": "anaconda",
+  "name": "Anaconda",
+  "aliases": [],
+  "website": "https://www.anaconda.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Python distribution and enterprise AI platform for open-source packages and models",
+   "On-prem package/model repositories and local model tooling for enterprises"
+  ],
+  "discovery_sources": [
+   "https://www.anaconda.com"
+  ]
+ },
+ {
+  "id": "arc53-docsgpt",
+  "name": "Arc53 (DocsGPT)",
+  "aliases": [],
+  "website": "https://www.docsgpt.cloud",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source (MIT) private document assistant",
+   "On-prem and air-gapped tiers priced per deployment"
+  ],
+  "discovery_sources": [
+   "https://docsgpt.arc53.com/",
+   "https://www.docsgpt.cloud/"
+  ]
+ },
+ {
+  "id": "archestra-ai",
+  "name": "Archestra.AI",
+  "aliases": [],
+  "website": "https://archestra.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Open-source MCP and agent orchestration platform",
+   "Self-hostable control of enterprise agent tool access (verify)"
+  ],
+  "discovery_sources": [
+   "https://tech.eu/2026/06/02/archestraai-raises-10m-to-unlock-next-gen-agentic-use-case/"
+  ]
+ },
+ {
+  "id": "articul8-ai",
+  "name": "Articul8 AI",
+  "aliases": [],
+  "website": "https://www.articul8.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Intel spin-out building domain-specific GenAI platform",
+   "Deploys inside customer VPC or on-prem for regulated industries"
+  ],
+  "discovery_sources": [
+   "https://www.articul8.ai"
+  ]
+ },
+ {
+  "id": "blockbrain",
+  "name": "Blockbrain",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "German GenAI startup building enterprise-grade AI agents.",
+   "Positions as sovereign European agent platform for enterprise data (deployment detail unverified)."
+  ],
+  "discovery_sources": [
+   "https://bebeez.eu/2026/02/12/german-genai-startup-blockbrain-lands-e17-5-million-to-advance-enterprise-grade-ai-agents/"
+  ]
+ }
+]

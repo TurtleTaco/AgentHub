@@ -1,0 +1,769 @@
+[
+ {
+  "id": "think-silicon",
+  "name": "Think Silicon",
+  "aliases": [],
+  "website": "https://www.think-silicon.com",
+  "hq_country": "Greece",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Ultra-low-power GPU and NEOX AI accelerator IP for wearables and MCUs.",
+   "Low-power graphics/AI IP for on-device inference in tiny displays and devices."
+  ],
+  "discovery_sources": [
+   "https://www.think-silicon.com"
+  ]
+ },
+ {
+  "id": "tsingmicro",
+  "name": "Tsingmicro",
+  "aliases": [],
+  "website": "https://www.tsingmicro.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Reconfigurable-computing AI chips for edge and datacenter.",
+   "Energy-efficient local inference for edge devices."
+  ],
+  "discovery_sources": [
+   "https://www.tsingmicro.com"
+  ]
+ },
+ {
+  "id": "ubitium",
+  "name": "Ubitium",
+  "aliases": [],
+  "website": "https://www.ubitium.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Universal RISC-V processor unifying CPU, GPU, DSP and AI workloads for embedded systems.",
+   "Single low-cost chip for on-device AI in industrial, automotive and consumer products."
+  ],
+  "discovery_sources": [
+   "https://www.ubitium.com"
+  ]
+ },
+ {
+  "id": "unisoc",
+  "name": "UNISOC",
+  "aliases": [],
+  "website": "https://www.unisoc.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Mobile and IoT SoCs with NPUs.",
+   "On-device AI in budget phones and IoT."
+  ],
+  "discovery_sources": [
+   "https://www.unisoc.com"
+  ]
+ },
+ {
+  "id": "untether-ai",
+  "name": "Untether AI",
+  "aliases": [],
+  "website": "https://www.untether.ai",
+  "hq_country": "Canada",
+  "discovery_status": "defunct",
+  "segments": [
+   "edge-silicon",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "At-memory compute speedAI inference accelerators and imAIgine SDK.",
+   "At-memory compute inference chips (speedAI, tsunAImi) for edge and datacenter.",
+   "At-memory compute inference accelerators (speedAI); product supply and support discontinued in 2025.",
+   "Energy-efficient inference cards for edge and on-prem servers.",
+   "Built low-power inference accelerators for edge and on-prem deployment.",
+   "Former on-prem inference card vendor; engineering team acqui-hired by AMD June 2025."
+  ],
+  "discovery_sources": [
+   "https://www.untether.ai",
+   "https://www.tomshardware.com/tech-industry/amd-scoops-entire-untether-ai-chip-team-canada-ai-inference-outfit-will-cease-product-support",
+   "https://betakit.com/american-chip-giant-amd-to-acquire-untether-ai-team/",
+   "https://betakit.com/?p=395741"
+  ]
+ },
+ {
+  "id": "verisilicon",
+  "name": "VeriSilicon",
+  "aliases": [],
+  "website": "https://www.verisilicon.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Custom silicon services and Vivante NPU, GPU and ISP IP.",
+   "NPU IP shipped in many edge SoCs for local inference."
+  ],
+  "discovery_sources": [
+   "https://www.verisilicon.com"
+  ]
+ },
+ {
+  "id": "witinmem-witmem",
+  "name": "WITINMEM (Witmem)",
+  "aliases": [],
+  "website": "https://www.witmem.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Compute-in-flash analog AI chips (WTM2101) for wearables and IoT.",
+   "Ultra-low-power on-device voice and sensor AI."
+  ],
+  "discovery_sources": [
+   "https://www.witmem.com"
+  ]
+ },
+ {
+  "id": "xmos",
+  "name": "XMOS",
+  "aliases": [],
+  "website": "https://www.xmos.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "xcore.ai multicore processors for voice and edge AI.",
+   "Bristol fabless company making xcore multicore processors for audio and edge AI.",
+   "Local voice processing and inference in consumer devices.",
+   "Low-cost processors run voice and sensor AI locally on devices."
+  ],
+  "discovery_sources": [
+   "https://www.xmos.com"
+  ]
+ },
+ {
+  "id": "aibrix-bytedance",
+  "name": "AIBrix (ByteDance)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source cloud-native control plane for scalable vLLM inference.",
+   "Kubernetes building blocks for self-hosted LLM serving."
+  ],
+  "discovery_sources": [
+   "https://github.com/vllm-project/aibrix"
+  ]
+ },
+ {
+  "id": "anyscale",
+  "name": "Anyscale",
+  "aliases": [],
+  "website": "https://www.anyscale.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company behind Ray distributed compute framework and Ray Serve/Ray LLM for scalable inference.",
+   "Ray runs on customer Kubernetes/on-prem clusters; Anyscale offers BYOC deployment."
+  ],
+  "discovery_sources": [
+   "https://www.anyscale.com",
+   "https://github.com/ray-project/ray"
+  ]
+ },
+ {
+  "id": "approaching-ai-ktransformers",
+  "name": "Approaching.AI (KTransformers)",
+  "aliases": [],
+  "website": "https://github.com/kvcache-ai/ktransformers",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Tsinghua MADSys spinout behind KTransformers CPU-GPU hybrid inference.",
+   "Runs 671B-class MoE models like DeepSeek on single workstations."
+  ],
+  "discovery_sources": [
+   "https://github.com/kvcache-ai/ktransformers"
+  ]
+ },
+ {
+  "id": "arc-compute",
+  "name": "Arc Compute",
+  "aliases": [],
+  "website": "https://www.arccompute.io",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "GPU optimization/orchestration software (ArcHPC) for AI and HPC.",
+   "Increases throughput of on-prem GPU servers."
+  ],
+  "discovery_sources": [
+   "https://www.arccompute.io"
+  ]
+ },
+ {
+  "id": "avesha",
+  "name": "Avesha",
+  "aliases": [],
+  "website": "https://avesha.io",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Kubernetes multi-cluster software incl. Elastic GPU Service.",
+   "Shares and bursts GPU capacity across on-prem and cloud clusters."
+  ],
+  "discovery_sources": [
+   "https://avesha.io"
+  ]
+ },
+ {
+  "id": "baseten",
+  "name": "Baseten",
+  "aliases": [],
+  "website": "https://www.baseten.co",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Inference platform for production model serving with Truss open-source packaging.",
+   "Offers self-hosted and hybrid deployments inside customer VPCs alongside its cloud."
+  ],
+  "discovery_sources": [
+   "https://www.baseten.co"
+  ]
+ },
+ {
+  "id": "beam-beta9",
+  "name": "Beam (beta9)",
+  "aliases": [],
+  "website": "https://www.beam.cloud",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Serverless GPU platform with open-source beta9 runtime.",
+   "beta9 can be self-hosted on own GPUs/Kubernetes."
+  ],
+  "discovery_sources": [
+   "https://github.com/beam-cloud/beta9"
+  ]
+ },
+ {
+  "id": "bentoml",
+  "name": "BentoML",
+  "aliases": [],
+  "website": "https://www.bentoml.com",
+  "hq_country": "USA",
+  "discovery_status": "acquired by Modular (2026)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source model-serving framework and Bento inference platform for deploying any model.",
+   "BYOC/self-hosted deployment in customer cloud or on-prem; Apache-2.0 framework."
+  ],
+  "discovery_sources": [
+   "https://bentoml.com/blog/bentoml-is-joining-modular",
+   "https://www.modular.com/blog/bentoml-joins-modular",
+   "https://github.com/bentoml/BentoML"
+  ]
+ },
+ {
+  "id": "berget-ai",
+  "name": "Berget AI",
+  "aliases": [],
+  "website": "https://berget.ai",
+  "hq_country": "Sweden",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Swedish sovereign AI inference platform for developers.",
+   "EU-sovereign hosted inference positioned as alternative to US hyperscalers and complex on-prem."
+  ],
+  "discovery_sources": [
+   "https://tech.eu/2026/02/02/swedish-startup-berget-ai-lands-2-1m-as-demand-grows-for-sovereign-ai-in-europe/"
+  ]
+ },
+ {
+  "id": "bright-computing",
+  "name": "Bright Computing",
+  "aliases": [],
+  "website": "https://www.brightcomputing.com",
+  "hq_country": "Netherlands",
+  "discovery_status": "acquired by NVIDIA (2022)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Cluster management software, now NVIDIA Base Command Manager.",
+   "Provisions and manages on-prem HPC/AI clusters."
+  ],
+  "discovery_sources": [
+   "https://www.brightcomputing.com"
+  ]
+ },
+ {
+  "id": "deepgram",
+  "name": "Deepgram",
+  "aliases": [],
+  "website": "https://deepgram.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Speech-to-text, text-to-speech and voice-agent model company.",
+   "Speech-to-text, TTS and voice-agent foundation models.",
+   "Self-hosted/on-prem deployment of speech models.",
+   "Self-hosted/on-prem APIs; Fortanix partnership (June 2026) for on-prem regulated voice AI."
+  ],
+  "discovery_sources": [
+   "https://deepgram.com",
+   "https://deepgram.com/learn/deepgram-fortanix-press-release",
+   "https://deepgram.com/customers/prem-ai"
+  ]
+ },
+ {
+  "id": "docker-model-runner",
+  "name": "Docker (Model Runner)",
+  "aliases": [
+   "Docker, Inc. (Docker Model Runner)"
+  ],
+  "website": "https://docs.docker.com/ai/model-runner/",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Docker Model Runner pulls and runs LLMs as OCI artifacts from Docker Desktop.",
+   "Container platform; Docker Model Runner pulls and runs LLMs locally as OCI artifacts.",
+   "Local GPU-accelerated model inference for developers via llama.cpp backend.",
+   "Local model execution on developer machines and self-hosted infra."
+  ],
+  "discovery_sources": [
+   "https://docs.docker.com/ai/model-runner/",
+   "https://www.docker.com"
+  ]
+ },
+ {
+  "id": "dstack",
+  "name": "dstack",
+  "aliases": [],
+  "website": "https://dstack.ai",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source GPU orchestration alternative to Kubernetes/Slurm for AI teams.",
+   "Manages on-prem GPU fleets and clouds for training and inference."
+  ],
+  "discovery_sources": [
+   "https://github.com/dstackai/dstack"
+  ]
+ },
+ {
+  "id": "exostellar",
+  "name": "Exostellar",
+  "aliases": [],
+  "website": "https://exostellar.io",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Self-managed GPU/compute orchestration and virtualization for AI infrastructure.",
+   "Boosts utilization of on-prem heterogeneous GPU clusters."
+  ],
+  "discovery_sources": [
+   "https://exostellar.io"
+  ]
+ },
+ {
+  "id": "fixstars-aibooster",
+  "name": "Fixstars (AIBooster)",
+  "aliases": [],
+  "website": "https://www.fixstars.com",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Performance-engineering company with AI training/inference acceleration software.",
+   "Optimizes AI workloads on customer GPU servers."
+  ],
+  "discovery_sources": [
+   "https://www.fixstars.com"
+  ]
+ },
+ {
+  "id": "friendliai",
+  "name": "FriendliAI",
+  "aliases": [],
+  "website": "https://friendli.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Generative AI inference engine (Friendli Engine) and serving platform with iteration batching heritage.",
+   "Friendli Container runs the engine on customer GPUs, on-prem or VPC."
+  ],
+  "discovery_sources": [
+   "https://friendli.ai"
+  ]
+ },
+ {
+  "id": "gaianet",
+  "name": "GaiaNet",
+  "aliases": [],
+  "website": "https://www.gaianet.ai",
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Decentralized network of self-hosted AI agent nodes.",
+   "Nodes run open LLMs on personal hardware; raised $10M."
+  ],
+  "discovery_sources": [
+   "https://www.theblock.co/post/297035/decentralized-ai-project-gaianet-raises-10-million-%20in-funding-round"
+  ]
+ },
+ {
+  "id": "gcore",
+  "name": "Gcore",
+  "aliases": [
+   "Gcore (Everywhere Inference)"
+  ],
+  "website": "https://gcore.com",
+  "hq_country": "Luxembourg",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Edge cloud and Everywhere Inference platform",
+   "Edge cloud/CDN provider with Everywhere Inference AI serving product.",
+   "Offers inference across edge PoPs and customer on-prem sites",
+   "Everywhere Inference software can run on customer on-prem infrastructure."
+  ],
+  "discovery_sources": [
+   "https://en.wikipedia.org/wiki/Gcore",
+   "https://gcore.com"
+  ]
+ },
+ {
+  "id": "gimlet-labs",
+  "name": "Gimlet Labs",
+  "aliases": [],
+  "website": "https://gimletlabs.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Heterogeneous AI inference platform splitting workloads across multiple chip vendors.",
+   "Multi-silicon orchestration usable across mixed accelerator fleets."
+  ],
+  "discovery_sources": [
+   "https://gimletlabs.ai"
+  ]
+ },
+ {
+  "id": "gmi-cloud",
+  "name": "GMI Cloud",
+  "aliases": [],
+  "website": "https://www.gmicloud.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "GPU cloud provider with Cluster Engine orchestration and inference engine software.",
+   "Sells dedicated/private GPU clusters and cluster-management software."
+  ],
+  "discovery_sources": [
+   "https://www.gmicloud.ai"
+  ]
+ },
+ {
+  "id": "gpustack",
+  "name": "GPUStack",
+  "aliases": [
+   "GPUStack (Seal)"
+  ],
+  "website": "https://gpustack.ai",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source GPU cluster manager for serving LLMs.",
+   "Open-source GPU cluster manager for running LLMs across heterogeneous GPUs.",
+   "Pools heterogeneous on-prem GPUs (NVIDIA, Ascend, Apple) to self-host models.",
+   "Pools on-prem NVIDIA/AMD/Apple/Ascend GPUs into private model service."
+  ],
+  "discovery_sources": [
+   "https://gpustack.ai",
+   "https://github.com/gpustack/gpustack"
+  ]
+ },
+ {
+  "id": "impala-ai",
+  "name": "Impala AI",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise LLM inference platform emerging from stealth ($11M seed).",
+   "Runs inference inside customers' own VPC environments at lower cost per token."
+  ],
+  "discovery_sources": [
+   "https://www.ynetnews.com/tech-and-digital/article/h1ux03jjwx"
+  ]
+ },
+ {
+  "id": "inferact",
+  "name": "Inferact",
+  "aliases": [
+   "vLLM (vllm-project)"
+  ],
+  "website": null,
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company founded by vLLM creators to commercialize the vLLM open-source inference engine.",
+   "Open-source high-throughput LLM inference and serving engine (PagedAttention), PyTorch Foundation-hosted.",
+   "Steward of vLLM, the dominant engine for self-hosting open-weight LLMs on own GPUs.",
+   "De facto engine for on-prem/VPC LLM serving; basis of Red Hat AI Inference Server."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2026/01/22/inference-startup-inferact-lands-150m-to-commercialize-vllm/",
+   "https://a16z.com/announcement/investing-in-inferact/",
+   "https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/",
+   "https://github.com/vllm-project/vllm"
+  ]
+ },
+ {
+  "id": "inferless",
+  "name": "Inferless",
+  "aliases": [],
+  "website": "https://www.inferless.com",
+  "hq_country": "India",
+  "discovery_status": "unknown",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Serverless GPU inference platform for deploying custom ML models.",
+   "Offered deployment into customer cloud accounts (BYOC)."
+  ],
+  "discovery_sources": [
+   "https://www.inferless.com"
+  ]
+ },
+ {
+  "id": "infinigence-ai",
+  "name": "Infinigence AI",
+  "aliases": [],
+  "website": "https://www.infini-ai.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Shanghai Tsinghua-linked company optimizing inference across heterogeneous chips.",
+   "AI infrastructure software unifying heterogeneous Chinese and Western accelerators.",
+   "Inference platforms and on-device Megrez models for domestic hardware.",
+   "Optimizes training/inference across mixed on-prem compute clusters."
+  ],
+  "discovery_sources": [
+   "https://www.infini-ai.com"
+  ]
+ },
+ {
+  "id": "juice-labs",
+  "name": "Juice Labs",
+  "aliases": [],
+  "website": "https://www.juicelabs.co",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "GPU-over-IP software that shares and pools GPUs across a network.",
+   "Increases utilization of customer-owned GPUs."
+  ],
+  "discovery_sources": [
+   "https://www.juicelabs.co"
+  ]
+ },
+ {
+  "id": "kalavai",
+  "name": "Kalavai",
+  "aliases": [],
+  "website": "https://kalavai.net",
+  "hq_country": "UK",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source platform pooling spare/owned GPUs into a shared AI cluster.",
+   "Turns customer-owned devices into a self-hosted LLM cluster."
+  ],
+  "discovery_sources": [
+   "https://github.com/kalavai-net/kalavai-client"
+  ]
+ },
+ {
+  "id": "kog-ai",
+  "name": "Kog AI",
+  "aliases": [],
+  "website": "https://www.kog.ai",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Builds a high-speed inference engine optimized for AMD Instinct GPUs.",
+   "Sovereign European inference stack for self-hosted GPU clusters."
+  ],
+  "discovery_sources": [
+   "https://www.kog.ai"
+  ]
+ },
+ {
+  "id": "kove",
+  "name": "Kove",
+  "aliases": [],
+  "website": "https://kove.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Software-defined memory (Kove:SDM) pooling server memory across infrastructure.",
+   "Expands memory for on-prem AI/inference servers without new hardware."
+  ],
+  "discovery_sources": [
+   "https://kove.com"
+  ]
+ },
+ {
+  "id": "lablup",
+  "name": "Lablup",
+  "aliases": [
+   "Lablup (Backend.AI)"
+  ],
+  "website": "https://www.lablup.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Company behind Backend.AI GPU orchestration platform.",
+   "Backend.AI GPU cluster orchestration platform for AI training and serving.",
+   "Manages on-prem GPU/NPU clusters for training and LLM serving.",
+   "Manages on-prem GPU clusters with fractional GPU sharing."
+  ],
+  "discovery_sources": [
+   "https://www.lablup.com",
+   "https://github.com/lablup/backend.ai"
+  ]
+ },
+ {
+  "id": "lepton-ai",
+  "name": "Lepton AI",
+  "aliases": [],
+  "website": "https://www.lepton.ai",
+  "hq_country": "USA",
+  "discovery_status": "acquired by NVIDIA (2025)",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "AI cloud/inference platform from ex-Alibaba/Caffe founders; became NVIDIA DGX Cloud Lepton.",
+   "Platform software for running inference across distributed GPU capacity."
+  ],
+  "discovery_sources": [
+   "https://www.lepton.ai"
+  ]
+ },
+ {
+  "id": "lightning-ai",
+  "name": "Lightning AI",
+  "aliases": [],
+  "website": "https://lightning.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "PyTorch Lightning creator; AI development platform with LitServe serving.",
+   "Offers BYOC/on-prem deployment of its platform."
+  ],
+  "discovery_sources": [
+   "https://lightning.ai"
+  ]
+ }
+]

@@ -1,0 +1,882 @@
+[
+ {
+  "id": "nxp-semiconductors",
+  "name": "NXP Semiconductors",
+  "aliases": [],
+  "website": "https://www.nxp.com",
+  "hq_country": "Netherlands",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Automotive, industrial and IoT microcontroller/processor maker.",
+   "MCUs/processors with eIQ Neutron NPU plus Kinara discrete NPUs.",
+   "Eindhoven chipmaker with i.MX/MCX processors featuring eIQ Neutron NPUs.",
+   "i.MX application processors with integrated NPUs and eIQ ML software for edge inference.",
+   "Broad embedded portfolio running AI locally in industrial, IoT and automotive.",
+   "Edge processors and eIQ software run vision/GenAI on embedded devices; bought Kinara (2025)."
+  ],
+  "discovery_sources": [
+   "https://www.nxp.com",
+   "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-COMPLETES-ACQUISITIONS-AVIVA-LINKS-KINARA"
+  ]
+ },
+ {
+  "id": "openai-gpt-oss",
+  "name": "OpenAI (gpt-oss)",
+  "aliases": [],
+  "website": "https://openai.com/open-models/",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Released gpt-oss-20b and gpt-oss-120b open-weight reasoning models (2025).",
+   "20b model runs on 16GB consumer hardware locally."
+  ],
+  "discovery_sources": [
+   "https://openai.com/open-models/"
+  ]
+ },
+ {
+  "id": "oracle",
+  "name": "Oracle",
+  "aliases": [],
+  "website": "https://www.oracle.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Database, enterprise apps and cloud (OCI) company.",
+   "OCI Dedicated Region and Cloud@Customer deliver Oracle cloud inside customer data centers.",
+   "Cloud@Customer, Dedicated Region/Alloy, Roving Edge Infrastructure, air-gapped Isolated regions; hosts Anduril Lattice at tactical edge.",
+   "Sovereign on-prem OCI including GPU infrastructure and generative AI services."
+  ],
+  "discovery_sources": [
+   "https://www.oracle.com/news/announcement/ocw24-oracle-and-anduril-industries-partner-to-deliver-ai-powered-defense-solutions-from-the-datacenter-to-the-tactical-edge-2024-09-10/",
+   "https://www.oracle.com/cloud/cloud-at-customer/"
+  ]
+ },
+ {
+  "id": "palantir-technologies",
+  "name": "Palantir Technologies",
+  "aliases": [
+   "Palantir (AIP / Foundry on-prem)",
+   "Palantir (AIP)"
+  ],
+  "website": "https://www.palantir.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Data and AI platform company (Foundry, AIP, Ontology, Apollo) for governments and enterprises.",
+   "Data integration, ontology and AI platform (Foundry, AIP) for enterprises and governments",
+   "Data/AI platform company (Foundry, AIP) for government and enterprise.",
+   "AIP/Foundry run on-prem, air-gapped and at the edge via Apollo and Rubix; Sovereign AI OS Reference Architecture with NVIDIA; Dell on-prem offering.",
+   "With Dell, ships an on-prem AI operating system; also runs air-gapped and classified",
+   "AIP runs on-prem, classified and edge environments with NVIDIA."
+  ],
+  "discovery_sources": [
+   "https://www.businesswire.com/news/home/20260312795208/en/",
+   "https://www.constellationr.com/insights/news/palantir-and-nvidia-build-sovereign-premises-ai-reference-architecture",
+   "https://blogs.nvidia.com/blog/2026/06/29/palantir-secure-ai-us-agencies-nemotron-open-models/",
+   "https://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system"
+  ]
+ },
+ {
+  "id": "qualcomm",
+  "name": "Qualcomm",
+  "aliases": [
+   "Qualcomm (AI Hub / Edge Impulse / IoT)",
+   "Qualcomm (AI Hub, GenieX)"
+  ],
+  "website": "https://www.qualcomm.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "edge-silicon",
+   "industrial-edge",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Mobile, PC, automotive and IoT chip designer (Snapdragon, Dragonwing).",
+   "Snapdragon/Dragonwing SoCs with Hexagon NPU; Cloud AI 100; owns Edge Impulse and Arduino.",
+   "Edge AI chips and software for IoT, industrial and robotics",
+   "Hexagon NPUs in Snapdragon phones/PCs/cars, Qualcomm AI Hub, Cloud AI 100, AI200/AI250 inference racks, Edge Impulse and Arduino.",
+   "Leading on-device AI platform for phones, PCs, cars, IoT and on-prem.",
+   "Owns Edge Impulse, Foundries.io and Arduino to build an edge AI dev stack"
+  ],
+  "discovery_sources": [
+   "https://aihub.qualcomm.com",
+   "https://www.datacenterdynamics.com/en/news/qualcomm-launches-ai200-and-ai250-chip-offering-targeting-inferencing-workloads-at-rack-scale/",
+   "https://www.qualcomm.com/news/releases/2025/10/qualcomm-to-acquire-arduino-accelerating-developers--access-to-i",
+   "https://www.qualcomm.com"
+  ]
+ },
+ {
+  "id": "rackspace-technology",
+  "name": "Rackspace Technology",
+  "aliases": [],
+  "website": "https://www.rackspace.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Managed multicloud and private-cloud services provider.",
+   "Co-location/private-cloud hosting option for Palantir-NVIDIA Sovereign AI OS Reference Architecture."
+  ],
+  "discovery_sources": [
+   "https://thenextweb.com/news/nvidia-palantir-sovereign-ai-supply-chains",
+   "https://www.hpcwire.com/bigdatawire/this-just-in/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains/"
+  ]
+ },
+ {
+  "id": "red-hat",
+  "name": "Red Hat",
+  "aliases": [
+   "Red Hat (AI Inference Server / OpenShift AI)",
+   "Red Hat OpenShift AI"
+  ],
+  "website": "https://www.redhat.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open-source enterprise software company (RHEL, OpenShift), IBM subsidiary.",
+   "IBM subsidiary's hybrid MLOps and model-serving platform on OpenShift",
+   "IBM subsidiary selling RHEL AI, OpenShift AI and vLLM-based Red Hat AI Inference Server.",
+   "Red Hat AI 3: RHEL AI, OpenShift AI, AI Inference Server (vLLM), llm-d distributed inference, self-managed on bare metal/on-prem.",
+   "Runs on-prem, disconnected/air-gapped and at edge on OpenShift Kubernetes",
+   "Enterprise-supported vLLM/llm-d for on-prem, hybrid and air-gapped inference."
+  ],
+  "discovery_sources": [
+   "https://redhat.com/en/about/press-releases/red-hat-brings-distributed-ai-inference-production-ai-workloads-red-hat-ai-3",
+   "https://docs.redhat.com/en/documentation/red_hat_ai/3/html/introduction_to_red_hat_ai/introduction-to-red-hat-ai_rhai-overview",
+   "https://www.redhat.com/en/products/ai/openshift-ai",
+   "https://www.redhat.com/en/products/ai"
+  ]
+ },
+ {
+  "id": "samsung-electronics",
+  "name": "Samsung Electronics",
+  "aliases": [
+   "Samsung (SAIL Montreal TRM)",
+   "Samsung Electronics (Gauss / Exynos)"
+  ],
+  "website": "https://www.samsung.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Consumer electronics, smartphone and memory/semiconductor conglomerate.",
+   "Exynos SoCs with NPUs; image sensors; memory.",
+   "Electronics giant with Galaxy AI, Gauss models and Exynos NPUs.",
+   "Research released Tiny Recursive Model (7M params) reasoning architecture.",
+   "Galaxy AI hybrid on-device features, Samsung Gauss in-house models, Exynos NPUs; Gemini Nano on Galaxy devices.",
+   "On-device Galaxy AI on Exynos NPUs.",
+   "On-device AI in phones and appliances; NPU silicon.",
+   "Tiny reasoning models relevant to on-device AI."
+  ],
+  "discovery_sources": [
+   "https://www.samsung.com/global/galaxy/galaxy-ai/",
+   "https://developer.android.com/ai/aicore",
+   "https://semiconductor.samsung.com",
+   "https://www.samsung.com"
+  ]
+ },
+ {
+  "id": "sensetime",
+  "name": "SenseTime",
+  "aliases": [],
+  "website": "https://www.sensetime.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "AI company with SenseNova models, edge vision and on-device SenseChat-Lite.",
+   "On-prem appliances and on-device models for enterprises and devices."
+  ],
+  "discovery_sources": [
+   "https://www.sensetime.com"
+  ]
+ },
+ {
+  "id": "siemens",
+  "name": "Siemens",
+  "aliases": [
+   "Siemens",
+   "Siemens Industrial Edge"
+  ],
+  "website": "https://www.siemens.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Industrial automation, digital industries and infrastructure conglomerate.",
+   "Siemens platform for running apps and AI on shop-floor edge devices",
+   "Siemens platform for running apps and AI on factory edge devices.",
+   "Siemens Industrial Edge platform runs AI apps on shop-floor devices; Industrial Copilot for engineering.",
+   "Deploys and manages AI models on PLC-adjacent edge hardware",
+   "Deploys and manages AI models on shop-floor edge hardware."
+  ],
+  "discovery_sources": [
+   "https://www.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html",
+   "https://www.siemens.com/industrial-edge",
+   "https://www.siemens.com"
+  ]
+ },
+ {
+  "id": "sk-telecom-a-x",
+  "name": "SK Telecom (A.X)",
+  "aliases": [],
+  "website": "https://huggingface.co/skt",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Open A.X Korean LLMs incl. light variants.",
+   "Sovereign Korean models self-hostable."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/skt"
+  ]
+ },
+ {
+  "id": "sony-group",
+  "name": "Sony Group",
+  "aliases": [
+   "Sony AITRIOS",
+   "Sony Semiconductor Solutions",
+   "Sony Semiconductor Solutions (AITRIOS)"
+  ],
+  "website": "https://www.sony.com",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "edge-silicon",
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "Electronics, image sensors, gaming and entertainment conglomerate.",
+   "Image sensors incl. IMX500 intelligent vision sensor with on-chip AI; AITRIOS platform.",
+   "Edge AI sensing platform built on IMX500 intelligent vision sensors",
+   "Sony unit making IMX500 intelligent vision sensors and AITRIOS platform.",
+   "IMX500 intelligent vision sensor runs AI on-sensor; AITRIOS edge platform; powers Raspberry Pi AI Camera.",
+   "Runs inference inside the image sensor itself.",
+   "Runs vision models inside the image sensor with device management",
+   "AI processing on the image sensor itself; only metadata leaves the camera."
+  ],
+  "discovery_sources": [
+   "https://www.raspberrypi.com/products/ai-camera/",
+   "https://developer.aitrios.sony-semicon.com/en",
+   "https://www.sony-semicon.com",
+   "https://www.aitrios.sony-semicon.com"
+  ]
+ },
+ {
+  "id": "supermicro",
+  "name": "Supermicro",
+  "aliases": [],
+  "website": "https://www.supermicro.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Server and storage system maker focused on GPU and liquid-cooled systems.",
+   "GPU servers, rack-scale building blocks and liquid-cooled AI clusters.",
+   "On-prem GPU servers and edge systems; DGX Station maker; rack-scale partner in Cisco Secure AI Factory.",
+   "Major on-prem AI server supplier; sovereign AI telecom designs; partner on d-Matrix Squadron clusters."
+  ],
+  "discovery_sources": [
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-dgx-station-with-its-bleeding-edge-gb300-grace-blackwell-superchip-now-available-to-order-and-will-begin-shipping-in-the-coming-months",
+   "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/",
+   "https://www.supermicro.com/solutions/Solution_Brief_Sovereign_AI_for_Telecom.pdf",
+   "https://www.storagenewsletter.com/2026/10/16/ocp-global-summit-2026-d-matrix-announces-squadron-compute-clusters-for-ai-inference-at-data-center-scale/"
+  ]
+ },
+ {
+  "id": "tencent-hunyuan",
+  "name": "Tencent (Hunyuan)",
+  "aliases": [
+   "Tencent (ncnn)"
+  ],
+  "website": "https://hunyuan.tencent.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Open Hunyuan LLM, video and 3D models incl. small dense variants.",
+   "Tencent's Hunyuan model family across text, image, video and 3D.",
+   "Tencent's ncnn high-performance neural network inference framework optimized for mobile.",
+   "Open weights incl. edge-size Hunyuan models for local use.",
+   "Many Hunyuan models released open-weight for local deployment.",
+   "Widely embedded on-device vision inference for Android/iOS with Vulkan GPU support."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/tencent",
+   "https://www.tencent.com",
+   "https://github.com/Tencent/ncnn"
+  ]
+ },
+ {
+  "id": "vivo-bluelm",
+  "name": "vivo (BlueLM)",
+  "aliases": [],
+  "website": "https://www.vivo.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Smartphone maker with BlueLM models, including on-device versions.",
+   "Runs multi-billion-parameter models locally on its phones."
+  ],
+  "discovery_sources": [
+   "https://www.vivo.com"
+  ]
+ },
+ {
+  "id": "vmware-by-broadcom",
+  "name": "VMware by Broadcom",
+  "aliases": [
+   "Broadcom VMware Private AI Foundation",
+   "VMware by Broadcom (Private AI Foundation)"
+  ],
+  "website": "https://www.vmware.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Private-cloud virtualization platform (VMware Cloud Foundation), owned by Broadcom.",
+   "VMware Cloud Foundation private-AI stack with NVIDIA",
+   "Virtualization vendor offering VMware Private AI Foundation with NVIDIA on VCF.",
+   "VMware Private AI Foundation with NVIDIA on VCF: model store, model runtime, vector DB, agent builder for on-prem GenAI.",
+   "Runs GenAI and RAG inside customers' own VMware private clouds",
+   "Runs GenAI inference on private-cloud VMware infrastructure."
+  ],
+  "discovery_sources": [
+   "https://www.vmware.com/docs/vmware-privateai-foundation-with-nvidia-solutions-brief",
+   "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-foundation-with-nvidia-explore25/",
+   "https://www.vmware.com"
+  ]
+ },
+ {
+  "id": "xiaomi",
+  "name": "Xiaomi",
+  "aliases": [
+   "Xiaomi (MiMo / HyperAI)",
+   "Xiaomi (MiMo)"
+  ],
+  "website": "https://www.mi.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Smartphone, IoT and EV maker (HyperOS ecosystem).",
+   "Open MiMo reasoning and audio models; also backs Next-gen Kaldi/sherpa on-device ASR.",
+   "Consumer electronics/EV maker with MiMo models and on-device AI in HyperOS.",
+   "MiMo open-weight models for local deployment; HyperOS on-device AI features.",
+   "Small open models and on-device speech for phones/cars.",
+   "On-device models in phones, cars and smart home devices; open MiMo weights."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/XiaomiMiMo",
+   "https://github.com/XiaomiMiMo",
+   "https://www.mi.com"
+  ]
+ },
+ {
+  "id": "acrab",
+  "name": "Acrab",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Singapore",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Full-stack agentic AI compute startup (GELIX 1 edge SoC, Agent Box desktop).",
+   "Edge SoC and desktop box for local LLM inference; $350M raised."
+  ],
+  "discovery_sources": [
+   "https://www.unite.ai/acrabs-edge-chip-aims-to-run-100b-ai-models-locally/",
+   "https://e27.co/acrabs-us130m-raise-signals-seas-deeper-push-into-ai-hardware-20260807/"
+  ]
+ },
+ {
+  "id": "amax",
+  "name": "AMAX",
+  "aliases": [],
+  "website": "https://www.amax.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Designs and integrates GPU servers and liquid-cooled AI clusters.",
+   "Turnkey on-prem AI cluster builds for enterprises and research labs."
+  ],
+  "discovery_sources": [
+   "https://www.amax.com"
+  ]
+ },
+ {
+  "id": "ampere-computing",
+  "name": "Ampere Computing",
+  "aliases": [],
+  "website": "https://amperecomputing.com",
+  "hq_country": "United States",
+  "discovery_status": "acquired by SoftBank (2025)",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Arm-based server CPUs promoted for cost-efficient CPU AI inference.",
+   "GPU-free inference servers for on-prem deployments; SoftBank acquisition announced 2025."
+  ],
+  "discovery_sources": [
+   "https://amperecomputing.com"
+  ]
+ },
+ {
+  "id": "bizon",
+  "name": "BIZON",
+  "aliases": [],
+  "website": "https://bizon-tech.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "GPU workstations and servers preconfigured for deep learning and local LLMs.",
+   "Turnkey multi-GPU machines with preinstalled AI frameworks for on-prem use."
+  ],
+  "discovery_sources": [
+   "https://bizon-tech.com"
+  ]
+ },
+ {
+  "id": "boston-limited",
+  "name": "Boston Limited",
+  "aliases": [],
+  "website": "https://www.boston.co.uk",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Systems integrator building custom servers and AI clusters.",
+   "Designs on-prem AI infrastructure for UK and European organizations."
+  ],
+  "discovery_sources": [
+   "https://www.boston.co.uk"
+  ]
+ },
+ {
+  "id": "boxx-technologies",
+  "name": "BOXX Technologies",
+  "aliases": [],
+  "website": "https://boxx.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "High-performance workstations for AI, data science and 3D workloads.",
+   "Multi-GPU desk-side systems for local model development and inference."
+  ],
+  "discovery_sources": [
+   "https://boxx.com"
+  ]
+ },
+ {
+  "id": "cambricon",
+  "name": "Cambricon",
+  "aliases": [
+   "Cambricon Technologies"
+  ],
+  "website": "https://www.cambricon.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "AI chips for cloud and edge (MLU series).",
+   "Beijing AI chip company (MLU accelerators, edge chips).",
+   "Chinese AI accelerator chips (MLU series) and boards for data-center inference and training.",
+   "Domestic on-prem inference hardware.",
+   "Domestic accelerators used in on-prem Chinese LLM servers and appliances.",
+   "Domestic NVIDIA alternative for Chinese on-prem and sovereign AI deployments under export controls."
+  ],
+  "discovery_sources": [
+   "https://www.cambricon.com",
+   "https://fortune.com/asia/2025/09/18/huawei-china-ascend-ai-chips-nvidia/"
+  ]
+ },
+ {
+  "id": "cerebras-systems",
+  "name": "Cerebras Systems",
+  "aliases": [],
+  "website": "https://www.cerebras.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Wafer-scale WSE-3 chips and CS-3 systems for ultra-fast LLM inference and training.",
+   "Sells CS-3 systems on-premises for customers needing full data and infrastructure control, alongside its cloud."
+  ],
+  "discovery_sources": [
+   "https://www.cerebras.ai/press-release/cerebras-systems-announces-closing-of-initial-public-offering",
+   "https://www.bloomberg.com/news/articles/2026-04-17/ai-chipmaker-cerebras-systems-files-publicly-again-for-us-ipo"
+  ]
+ },
+ {
+  "id": "cirrascale-cloud-services",
+  "name": "Cirrascale Cloud Services",
+  "aliases": [],
+  "website": "https://www.cirrascale.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Specialized GPU/accelerator cloud and inference provider.",
+   "Specialized AI cloud and deployment partner for NVIDIA and alternative accelerators.",
+   "Offers Gemini on Google Distributed Cloud in connected or fully air-gapped on-prem setups (Apr 2026).",
+   "Delivers Gemini on-prem via Google-certified Dell appliances; hosts Tenstorrent Galaxy for evaluation."
+  ],
+  "discovery_sources": [
+   "https://www.storagenewsletter.com/2026/04/30/cirrascale-expands-model-offerings-to-include-gemini-on-google-distributed-cloud-with-the-cirrascale-inference-platform/",
+   "https://venturebeat.com/technology/googles-gemini-can-now-run-on-a-single-air-gapped-server-and-vanish-when-you-pull-the-plug",
+   "https://www.businesswire.com/news/home/20260504509508/en/Cirrascale-Cloud-Services-Adds-Tenstorrent-Galaxy-Blackhole-to-Its-AI-Innovation-Cloud"
+  ]
+ },
+ {
+  "id": "cloudian",
+  "name": "Cloudian",
+  "aliases": [],
+  "website": "https://cloudian.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "S3-compatible on-prem object storage with AI data platform features.",
+   "Sovereign, on-prem object storage for AI data and vector workloads."
+  ],
+  "discovery_sources": [
+   "https://cloudian.com"
+  ]
+ },
+ {
+  "id": "comino",
+  "name": "Comino",
+  "aliases": [],
+  "website": "https://www.comino.com",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Liquid-cooled multi-GPU workstations and servers (Grando line).",
+   "Dense, quiet multi-GPU systems for office or on-prem AI inference."
+  ],
+  "discovery_sources": [
+   "https://www.comino.com"
+  ]
+ },
+ {
+  "id": "cuon-terrasky-group",
+  "name": "Cuon (TerraSky group)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "TerraSky group company launching a Private AI Appliance on 1 November 2026.",
+   "Containerized local LLM and agent runtime appliance for Japanese enterprises."
+  ],
+  "discovery_sources": [
+   "https://finance.biggo.com/news/ir_3915.T_20260924_7f90862babdd"
+  ]
+ },
+ {
+  "id": "d-matrix",
+  "name": "d-Matrix",
+  "aliases": [],
+  "website": "https://www.d-matrix.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Digital in-memory compute Corsair inference accelerators.",
+   "Digital in-memory-compute Corsair inference accelerators, SquadRack racks and Squadron multi-rack clusters.",
+   "On-prem low-latency generative inference.",
+   "Air-cooled systems shipping to priority customers for deployment in their own existing data centers."
+  ],
+  "discovery_sources": [
+   "https://www.d-matrix.ai",
+   "https://www.hpcwire.com/off-the-wire/d-matrix-corsair-ai-inference-platform-enters-full-production-to-meet-customer-demand",
+   "https://www.storagenewsletter.com/2026/10/16/ocp-global-summit-2026-d-matrix-announces-squadron-compute-clusters-for-ai-inference-at-data-center-scale/"
+  ]
+ },
+ {
+  "id": "ddn",
+  "name": "DDN",
+  "aliases": [],
+  "website": "https://www.ddn.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "High-performance storage (EXAScaler, Infinia) for AI and HPC; Blackstone-backed.",
+   "AI/HPC storage company (EXAScaler, Infinia).",
+   "Data platforms underpinning on-prem AI factories and sovereign supercomputers.",
+   "Data platforms for on-prem AI factories."
+  ],
+  "discovery_sources": [
+   "https://blocksandfiles.com/tag/ddn",
+   "https://www.ddn.com"
+  ]
+ },
+ {
+  "id": "enflame",
+  "name": "Enflame",
+  "aliases": [],
+  "website": "https://www.enflame-tech.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Shanghai AI accelerator company (Tencent-backed) for training and inference.",
+   "Domestic accelerators for private/on-prem Chinese AI clusters."
+  ],
+  "discovery_sources": [
+   "https://scmp.com/tech/big-tech/article/3366025/enflames-us900m-ipo-tests-appetite-chinas-little-dragon-ai-chipmakers"
+  ]
+ },
+ {
+  "id": "etched",
+  "name": "Etched",
+  "aliases": [],
+  "website": "https://www.etched.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Transformer-specific ASIC (formerly branded Sohu) sold as rack-scale inference systems.",
+   "Sells inference racks for customer data centers; first racks reportedly delivered to Jane Street in 2026."
+  ],
+  "discovery_sources": [
+   "https://convergedigest.com/etched-emerges-from-stealth-with-800m-raised-for-ai-inference-systems/",
+   "https://www.eweek.com/news/etched-ai-chip-contracts",
+   "https://byteiota.com/etched-21b-sohu-chip-ships/"
+  ]
+ },
+ {
+  "id": "euclyd",
+  "name": "Euclyd",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Netherlands",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Eindhoven chip startup founded by ASML alumni (CRAFTWERK inference chip).",
+   "Inference silicon pitched as sovereign European alternative for operator-owned datacenters."
+  ],
+  "discovery_sources": [
+   "https://ioplus.nl/en/posts/euclyd-wants-to-raise-100-million-and-take-on-nvidia",
+   "https://dealroom.co/news/127426-euclyd-the-asml-alums-chip-startup-eyes-100m-to-take-on-nvidia-in-infere/"
+  ]
+ },
+ {
+  "id": "eviden-bull-atos-advanced-computing",
+  "name": "Eviden / Bull (Atos advanced computing)",
+  "aliases": [],
+  "website": "https://eviden.com",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "BullSequana supercomputers and AI systems; European HPC/AI system builder.",
+   "European sovereign on-prem AI and HPC systems for governments and research."
+  ],
+  "discovery_sources": [
+   "https://eviden.com"
+  ]
+ },
+ {
+  "id": "exxact-corporation",
+  "name": "Exxact Corporation",
+  "aliases": [],
+  "website": "https://www.exxactcorp.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Custom GPU workstations, servers and turnkey AI clusters.",
+   "Builds on-prem deep-learning workstations and clusters for local training and inference."
+  ],
+  "discovery_sources": [
+   "https://www.exxactcorp.com"
+  ]
+ },
+ {
+  "id": "fractile",
+  "name": "Fractile",
+  "aliases": [],
+  "website": "https://www.fractile.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "London in-memory-compute chip startup targeting much faster, cheaper LLM inference.",
+   "In-memory compute chips for fast, energy-efficient LLM token generation; pre-production.",
+   "Inference chips for operator-owned datacenters; sovereign European inference hardware alternative.",
+   "Named in UK's June 2026 AI Hardware Plan as domestic inference hardware company."
+  ],
+  "discovery_sources": [
+   "https://finance.yahoo.com/sectors/technology/articles/uk-chip-startup-fractile-raises-090729157.html",
+   "https://sifted.eu/articles/european-chips-funding-almost-quadruples-as-investors-back-nvidias-inference-challengers/",
+   "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/",
+   "https://thenextweb.com/news/fractile-220m-inference-chip"
+  ]
+ },
+ {
+  "id": "furiosaai",
+  "name": "FuriosaAI",
+  "aliases": [],
+  "website": "https://furiosa.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "RNGD datacenter inference accelerators.",
+   "Seoul AI chip company (RNGD inference accelerator).",
+   "RNGD inference chips and NXT RNGD 4U eight-card servers for LLM inference.",
+   "Efficient on-prem LLM inference servers.",
+   "Power-efficient inference cards/servers for enterprise on-prem LLM serving.",
+   "3kW air-cooled servers fit standard enterprise racks; RNGD mass production began January 2026."
+  ],
+  "discovery_sources": [
+   "https://furiosa.ai",
+   "https://www.crnasia.com/news/2026/components-and-peripherals/furiosaai-to-scale-rngd-inference-chip-production-following",
+   "https://www.techradar.com/pro/korean-startup-backed-by-lg-unveils-ai-server-that-matches-nvidias-h100-performance-but-with-a-much-lower-power-consumption",
+   "https://koreatechdesk.com/furiosaai-rngd-production-ai-inference-commercialization-korea"
+  ]
+ },
+ {
+  "id": "gigaio",
+  "name": "GigaIO",
+  "aliases": [],
+  "website": "https://gigaio.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Composable AI infrastructure and SuperNODE/Gryf portable AI systems.",
+   "On-prem and edge GPU systems for inference."
+  ],
+  "discovery_sources": [
+   "https://gigaio.com"
+  ]
+ },
+ {
+  "id": "graphcore",
+  "name": "Graphcore",
+  "aliases": [],
+  "website": "https://www.graphcore.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "acquired by SoftBank (2024)",
+  "segments": [
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "IPU AI processors.",
+   "Bristol maker of Intelligence Processing Units (IPUs) for AI compute.",
+   "IPU AI processors and IPU-POD systems; wholly owned SoftBank subsidiary.",
+   "On-prem AI compute.",
+   "IPU systems sold for on-prem AI training/inference; now part of SoftBank's AI hardware push.",
+   "Historically sold IPU systems for on-prem AI; now part of SoftBank's AI chip efforts."
+  ],
+  "discovery_sources": [
+   "https://www.graphcore.ai",
+   "https://techcrunch.com/2024/07/11/softbank-acquires-uk-ai-chipmaker-graphcore",
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-takes-over-ai-processor-designer-graphcore"
+  ]
+ }
+]

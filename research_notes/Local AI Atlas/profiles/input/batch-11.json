@@ -1,0 +1,752 @@
+[
+ {
+  "id": "abbyy",
+  "name": "ABBYY",
+  "aliases": [],
+  "website": "https://www.abbyy.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Document AI / intelligent document processing vendor (Vantage, FineReader).",
+   "On-premises deployment for regulated enterprises and government."
+  ],
+  "discovery_sources": [
+   "https://www.abbyy.com"
+  ]
+ },
+ {
+  "id": "adarga",
+  "name": "Adarga",
+  "aliases": [],
+  "website": "https://adarga.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "UK AI information-intelligence software for defense and national security analysts.",
+   "Deployable on secure on-prem government networks."
+  ],
+  "discovery_sources": [
+   "https://adarga.ai"
+  ]
+ },
+ {
+  "id": "ai-inside",
+  "name": "AI inside",
+  "aliases": [],
+  "website": "https://inside.ai",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Tokyo AI-OCR company (DX Suite) with edge computer 'AI inside Cube'.",
+   "On-prem edge appliance runs document AI locally."
+  ],
+  "discovery_sources": [
+   "https://inside.ai"
+  ]
+ },
+ {
+  "id": "alexi",
+  "name": "Alexi",
+  "aliases": [],
+  "website": "https://www.alexi.com",
+  "hq_country": "Canada",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "AI legal research and litigation platform for law firms.",
+   "Private-cloud deployment with complete model and data isolation per firm."
+  ],
+  "discovery_sources": [
+   "https://www.alexi.com/private-cloud"
+  ]
+ },
+ {
+  "id": "anjuna-security",
+  "name": "Anjuna Security",
+  "aliases": [],
+  "website": "https://www.anjuna.io",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Confidential-computing platform for running workloads in secure enclaves.",
+   "Runs AI and other workloads in enclaves across cloud and on-prem."
+  ],
+  "discovery_sources": [
+   "https://www.anjuna.io"
+  ]
+ },
+ {
+  "id": "apptek",
+  "name": "AppTek",
+  "aliases": [],
+  "website": "https://www.apptek.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Speech recognition and machine translation vendor serving government and media.",
+   "ASR/MT deployable on-premises for government and defense."
+  ],
+  "discovery_sources": [
+   "https://www.apptek.com"
+  ]
+ },
+ {
+  "id": "arondite",
+  "name": "Arondite",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "UK defense AI startup building human-machine teaming software.",
+   "Edge software for coordinating autonomous systems in disconnected operations (verify)."
+  ],
+  "discovery_sources": []
+ },
+ {
+  "id": "ask-sage",
+  "name": "Ask Sage",
+  "aliases": [],
+  "website": "https://www.asksage.ai",
+  "hq_country": "United States",
+  "discovery_status": "acquired by BigBear.ai (2026)",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Secure GenAI platform for government; Ask Sage Edge field system",
+   "Model-agnostic generative AI platform built for US government and defense users.",
+   "Air-gapped LLMs on HPE edge hardware for DDIL operations",
+   "Accredited secure-network gen AI; now delivered via BigBear.ai's air-gapped local device."
+  ],
+  "discovery_sources": [
+   "https://www.hstoday.us/subject-matter-areas/cybersecurity/ask-sage-unveils-edge-ai-solution-to-transform-military-operations/",
+   "https://www.executivebiz.com/articles/bigbear-ai-dow-genai-platform-expansion",
+   "https://www.asksage.ai",
+   "https://www.hpcwire.com/aiwire/2026/07/15/bigbear-ai-expands-generative-ai-platform-for-secure-mission-environments/"
+  ]
+ },
+ {
+  "id": "assemblyai",
+  "name": "AssemblyAI",
+  "aliases": [],
+  "website": "https://www.assemblyai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Speech-to-text and voice AI model provider.",
+   "Models deployable on customer infrastructure, in cloud VPC or on-premises."
+  ],
+  "discovery_sources": [
+   "https://www.assemblyai.com/features/self-hosted-voice-ai",
+   "https://assemblyai.com/deployments/self-hosted"
+  ]
+ },
+ {
+  "id": "auterion",
+  "name": "Auterion",
+  "aliases": [],
+  "website": "https://auterion.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Operating system and on-board computers for drones and robotic systems.",
+   "Edge OS and on-board AI enable autonomy and targeting without connectivity."
+  ],
+  "discovery_sources": [
+   "https://auterion.com"
+  ]
+ },
+ {
+  "id": "aveni",
+  "name": "Aveni",
+  "aliases": [],
+  "website": "https://aveni.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Financial-services AI company; FinLLM built with Lloyds and Nationwide.",
+   "Finance-specific sovereign LLM designed for private deployment by banks."
+  ],
+  "discovery_sources": [
+   "https://aveni.ai",
+   "https://www.thestack.technology/two-uk-banks-team-up-to-release-custom-sovereign-llm/"
+  ]
+ },
+ {
+  "id": "beekeeperai",
+  "name": "BeeKeeperAI",
+  "aliases": [],
+  "website": "https://www.beekeeperai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Confidential-computing collaboration platform (EscrowAI) for healthcare AI.",
+   "Algorithms run on PHI inside enclaves in the data steward's environment."
+  ],
+  "discovery_sources": [
+   "https://www.beekeeperai.com"
+  ]
+ },
+ {
+  "id": "bigbear-ai",
+  "name": "BigBear.ai",
+  "aliases": [
+   "BigBear.ai (GenAI platform)"
+  ],
+  "website": "https://bigbear.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Defense AI company; GenAI platform from Ask Sage acquisition",
+   "Public decision-intelligence and generative AI vendor for US defense and national security.",
+   "Runs up to TS/SCI, locally or fully air-gapped",
+   "Local device supports air-gapped deployments up to TS/SCI with locally hosted models (July 2026)."
+  ],
+  "discovery_sources": [
+   "https://www.executivebiz.com/articles/bigbear-ai-dow-genai-platform-expansion",
+   "https://www.hpcwire.com/aiwire/2026/07/15/bigbear-ai-expands-generative-ai-platform-for-secure-mission-environments/",
+   "https://bigbear.ai"
+  ]
+ },
+ {
+  "id": "carpl-ai",
+  "name": "CARPL.ai",
+  "aliases": [],
+  "website": "https://carpl.ai",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Radiology AI platform for testing, deploying and monitoring imaging algorithms.",
+   "Offered on-premises or cloud so imaging data can stay in-house."
+  ],
+  "discovery_sources": [
+   "https://carpl.ai"
+  ]
+ },
+ {
+  "id": "cobalt-speech-language",
+  "name": "Cobalt Speech & Language",
+  "aliases": [],
+  "website": "https://www.cobaltspeech.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Custom speech recognition, TTS and language tech.",
+   "Deploys on-prem, embedded or air-gapped for defense and enterprise."
+  ],
+  "discovery_sources": [
+   "https://www.cobaltspeech.com"
+  ]
+ },
+ {
+  "id": "coder",
+  "name": "Coder",
+  "aliases": [],
+  "website": "https://coder.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Self-hosted cloud development environments and Coder Agents.",
+   "Coder Agents (GA Sept 2026) run agent and execution on customer infra, incl. air-gapped."
+  ],
+  "discovery_sources": [
+   "https://coder.com/blog/coder-agents-ga",
+   "https://sdtimes.com/ai-coding-agents/coder-agents-bring-self-hosted-ai-coding/"
+  ]
+ },
+ {
+  "id": "confident-security",
+  "name": "Confident Security",
+  "aliases": [],
+  "website": "https://confident.security",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "'Signal for AI': CONFSEC private inference ($4.2M, July 2025).",
+   "Enterprise implementation of Apple Private Cloud Compute architecture for provably private inference."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/07/17/confident-security-the-signal-for-ai-comes-out-of-stealth-with-4-2m",
+   "https://www.businesswire.com/news/home/20250717403863/en/Confident-Security-Launches-The-First-Enterprise-Grade-System-for-Provably-Private-AI-Interactions"
+  ]
+ },
+ {
+  "id": "covar",
+  "name": "CoVar",
+  "aliases": [],
+  "website": "https://covar.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "AI/ML research and engineering firm for DARPA and DoD programs.",
+   "Develops edge-deployable ML and autonomy algorithms for military platforms."
+  ],
+  "discovery_sources": [
+   "https://covar.com"
+  ]
+ },
+ {
+  "id": "deepc",
+  "name": "deepc",
+  "aliases": [],
+  "website": "https://www.deepc.ai",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Radiology AI operating system (deepcOS) aggregating third-party imaging AI.",
+   "Deployable on-premises in hospital IT as well as cloud."
+  ],
+  "discovery_sources": [
+   "https://www.deepc.ai"
+  ]
+ },
+ {
+  "id": "defense-unicorns",
+  "name": "Defense Unicorns",
+  "aliases": [],
+  "website": "https://defenseunicorns.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Open-source software delivery for air-gapped defense (UDS)",
+   "Open-source software delivery platform (UDS) for DoD mission systems.",
+   "Deploys AI stacks (incl. LeapfrogAI) into disconnected environments",
+   "Packages and deploys software, including AI stacks, into air-gapped and classified networks."
+  ],
+  "discovery_sources": [
+   "https://defenseunicorns.com"
+  ]
+ },
+ {
+  "id": "domyn-formerly-igenius",
+  "name": "Domyn (formerly iGenius)",
+  "aliases": [],
+  "website": "https://www.domyn.com",
+  "hq_country": "Italy",
+  "discovery_status": "active (rebrand from iGenius not re-verified)",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Milan AI company building sovereign LLMs (Colosseum) for regulated industries.",
+   "Italian company building sovereign LLMs (Colosseum) for regulated industries.",
+   "Sovereign models and infrastructure for banks/government under customer control.",
+   "Private, on-prem deployment for banks and governments."
+  ],
+  "discovery_sources": [
+   "https://www.domyn.com"
+  ]
+ },
+ {
+  "id": "duality-technologies",
+  "name": "Duality Technologies",
+  "aliases": [],
+  "website": "https://dualitytech.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Privacy-enhancing technology platform (FHE, TEEs, federated learning).",
+   "Secure AI/analytics on sensitive data without exposing it; gov and healthcare."
+  ],
+  "discovery_sources": [
+   "https://dualitytech.com"
+  ]
+ },
+ {
+  "id": "edgeless-systems",
+  "name": "Edgeless Systems",
+  "aliases": [],
+  "website": "https://www.edgeless.systems",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "private-ai-platforms",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Bochum confidential-computing company (Constellation, Continuum, Privatemode AI).",
+   "Confidential-computing company (Privatemode, Continuum AI, Contrast).",
+   "Confidential AI keeps prompts encrypted in use; deployable in own datacenter or cloud.",
+   "Confidential inference and Kubernetes enclaves deployable on own infrastructure."
+  ],
+  "discovery_sources": [
+   "https://www.edgeless.systems"
+  ]
+ },
+ {
+  "id": "enveil",
+  "name": "Enveil",
+  "aliases": [],
+  "website": "https://www.enveil.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Privacy-enhancing technology (ZeroReveal) for government and finance.",
+   "Encrypted search, analytics and ML without exposing sensitive data."
+  ],
+  "discovery_sources": [
+   "https://www.enveil.com"
+  ]
+ },
+ {
+  "id": "ferrum-health",
+  "name": "Ferrum Health",
+  "aliases": [],
+  "website": "https://ferrumhealth.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Clinical AI orchestration/governance platform with catalog of validated AI apps for health systems.",
+   "On-prem and single-tenant private cloud; PHI never leaves the hospital environment."
+  ],
+  "discovery_sources": [
+   "https://ferrumhealth.com",
+   "https://www.healthcareittoday.com/2024/11/01/ferrum-health-raises-16m-in-series-a-funding-to-unlock-ai-adoption-in-healthcare/",
+   "https://www.medtechdive.com/press-release/20241127-ferrum-health-expands-ai-orchestrator-platform-with-managed-private-cloud-d/"
+  ]
+ },
+ {
+  "id": "helsing",
+  "name": "Helsing",
+  "aliases": [],
+  "website": "https://helsing.ai",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Munich defence AI company (software, drones, sensor fusion).",
+   "European defense AI company: software, strike drones, underwater and EW systems.",
+   "AI runs on military platforms at the tactical edge, disconnected from cloud.",
+   "AI runs on-platform in drones/aircraft for operation in contested, disconnected environments."
+  ],
+  "discovery_sources": [
+   "https://helsing.ai"
+  ]
+ },
+ {
+  "id": "hyperscience",
+  "name": "Hyperscience",
+  "aliases": [],
+  "website": "https://www.hyperscience.ai",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Intelligent document processing and automation platform.",
+   "Deployable on-prem and air-gapped for government and financial services."
+  ],
+  "discovery_sources": [
+   "https://www.hyperscience.ai"
+  ]
+ },
+ {
+  "id": "indev-software",
+  "name": "INDEV Software",
+  "aliases": [],
+  "website": "https://indevsoftware.io",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Sovereign AI software for European banks.",
+   "Operates domain-specific LLMs inside banks' regulatory perimeter."
+  ],
+  "discovery_sources": [
+   "https://indevsoftware.io/solutions/sovereignai/"
+  ]
+ },
+ {
+  "id": "instabase",
+  "name": "Instabase",
+  "aliases": [],
+  "website": "https://instabase.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "AI platform for unstructured-data and document understanding.",
+   "Private deployment options for banks and regulated enterprises (verify)."
+  ],
+  "discovery_sources": [
+   "https://instabase.com"
+  ]
+ },
+ {
+  "id": "intelligent-voice",
+  "name": "Intelligent Voice",
+  "aliases": [],
+  "website": "https://intelligentvoice.com",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Speech transcription and analytics for financial compliance and legal.",
+   "On-premises speech AI for regulated finance and eDiscovery."
+  ],
+  "discovery_sources": [
+   "https://intelligentvoice.com"
+  ]
+ },
+ {
+  "id": "jetbrains",
+  "name": "JetBrains",
+  "aliases": [],
+  "website": "https://www.jetbrains.com",
+  "hq_country": "Czech Republic",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Developer-tools company; JetBrains AI and Mellum code model.",
+   "Open Mellum model and AI Enterprise support on-prem/self-hosted LLMs."
+  ],
+  "discovery_sources": [
+   "https://www.jetbrains.com"
+  ]
+ },
+ {
+  "id": "john-snow-labs",
+  "name": "John Snow Labs",
+  "aliases": [],
+  "website": "https://www.johnsnowlabs.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Healthcare NLP and medical LLM vendor (Spark NLP for Healthcare, Medical LLMs).",
+   "Models and platform deploy on-prem and air-gapped inside hospital infrastructure."
+  ],
+  "discovery_sources": [
+   "https://www.johnsnowlabs.com"
+  ]
+ },
+ {
+  "id": "law-co-llm-co",
+  "name": "LAW.co (LLM.co)",
+  "aliases": [],
+  "website": "https://law.co",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Legal AI vendor offering custom private LLMs for law firms.",
+   "On-prem 'LLM-in-a-Box' appliances, private cloud or hybrid nodes."
+  ],
+  "discovery_sources": [
+   "https://law.co/private-llms-for-law-firms",
+   "https://law.co/private-hybrid-ai-deployment"
+  ]
+ },
+ {
+  "id": "legion-intelligence",
+  "name": "Legion Intelligence",
+  "aliases": [],
+  "website": "https://www.legionintel.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Secure AI agent/workflow platform for defense, intelligence and regulated enterprises.",
+   "Deployable on-prem and in classified and air-gapped networks."
+  ],
+  "discovery_sources": [
+   "https://www.legionintel.com"
+  ]
+ },
+ {
+  "id": "lilt",
+  "name": "Lilt",
+  "aliases": [],
+  "website": "https://lilt.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "AI translation and localization platform for enterprise and government.",
+   "On-prem and air-gapped deployment options for defense and intelligence customers."
+  ],
+  "discovery_sources": [
+   "https://lilt.com"
+  ]
+ },
+ {
+  "id": "mind-foundry",
+  "name": "Mind Foundry",
+  "aliases": [],
+  "website": "https://www.mindfoundry.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Oxford AI company for high-stakes public sector, defence and insurance applications.",
+   "Deploys AI in secure, on-prem and classified environments."
+  ],
+  "discovery_sources": [
+   "https://www.mindfoundry.ai"
+  ]
+ },
+ {
+  "id": "mithril-security",
+  "name": "Mithril Security",
+  "aliases": [],
+  "website": "https://www.mithrilsecurity.io",
+  "hq_country": "France",
+  "discovery_status": "unknown",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Open-source confidential AI tooling (BlindLlama, BlindBox).",
+   "Attested enclave-based LLM serving for private deployments."
+  ],
+  "discovery_sources": [
+   "https://www.mithrilsecurity.io"
+  ]
+ },
+ {
+  "id": "noah-labs",
+  "name": "Noah Labs",
+  "aliases": [],
+  "website": null,
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Stanford spin-out building Sentinel, an AI-native IDE for defense, federal and aerospace code.",
+   "Fully air-gapped, on-prem install with no telemetry or cloud calls."
+  ],
+  "discovery_sources": [
+   "https://itbrief.com.au/story/noah-labs-ai-touts-governed-software-agents-for-defence",
+   "https://resiliencemedia.co/noah-labs-is-bringing-air-gapped-ai-to-militaries-and-governments/",
+   "https://techbullion.com/how-noah-labs-is-helping-government-agencies-and-defense-teams-securely-adopt-ai/"
+  ]
+ },
+ {
+  "id": "noxtua-formerly-xayn",
+  "name": "Noxtua (formerly Xayn)",
+  "aliases": [],
+  "website": "https://www.noxtua.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Berlin sovereign legal AI company backed by C.H.Beck.",
+   "Sovereign legal AI trained on European data",
+   "Privacy-first legal AI with sovereign/private deployment for law firms.",
+   "Hosted on German infrastructure for data sovereignty"
+  ],
+  "discovery_sources": [
+   "https://tech.eu/2025/04/25/xayn-secures-80m-to-build-europe-s-privacy-first-legal-ai-backed-by-c-h-beck/",
+   "https://sifted.eu/articles/noxtua-sovereign-ai-series-b"
+  ]
+ },
+ {
+  "id": "nuix",
+  "name": "Nuix",
+  "aliases": [],
+  "website": "https://www.nuix.com",
+  "hq_country": "Australia",
+  "discovery_status": "active",
+  "segments": [
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Investigative analytics and eDiscovery software with AI (Nuix Neo).",
+   "Deployable on-premises for law enforcement, regulators and legal teams."
+  ],
+  "discovery_sources": [
+   "https://www.nuix.com"
+  ]
+ }
+]

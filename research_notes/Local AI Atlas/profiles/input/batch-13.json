@@ -1,0 +1,873 @@
+[
+ {
+  "id": "cartesia",
+  "name": "Cartesia",
+  "aliases": [],
+  "website": "https://cartesia.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "State-space-model lab behind Sonic real-time voice models and Edge on-device library.",
+   "Voice AI company built on state-space models; Sonic TTS plus on-device offerings.",
+   "SSM architectures enable low-latency voice and models on-device.",
+   "Open-source Edge library for SSMs on Apple silicon; Sonic On-Device for phones."
+  ],
+  "discovery_sources": [
+   "https://cartesia.ai",
+   "https://www.cartesia.ai/on-device",
+   "https://techcrunch.com/2024/12/12/cartesia-claims-its-ai-is-efficient-enough-to-run-pretty-much-anywhere/"
+  ]
+ },
+ {
+  "id": "celeris",
+  "name": "Celeris",
+  "aliases": [],
+  "website": null,
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Startup that emerged July 2026 with Celeris-1, a speed-focused diffusion LLM.",
+   "Diffusion decoding for fast inference; weight licensing unconfirmed - borderline."
+  ],
+  "discovery_sources": [
+   "https://app.dealroom.co/news/note/celeris-launches-celeris-1-a-diffusion-llm-built-for-speed-1"
+  ]
+ },
+ {
+  "id": "centml",
+  "name": "CentML",
+  "aliases": [],
+  "website": "https://centml.ai",
+  "hq_country": "Canada",
+  "discovery_status": "acquired by NVIDIA (2025)",
+  "segments": [
+   "efficient-models",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "ML compiler and inference-optimization platform (Hidet compiler) from University of Toronto researchers.",
+   "Toronto startup optimizing ML training/inference compute (compiler, serving platform).",
+   "Optimizes model execution on available GPUs, including self-managed clusters.",
+   "Hardware-agnostic optimization for inference on customer and cloud GPUs."
+  ],
+  "discovery_sources": [
+   "https://centml.ai"
+  ]
+ },
+ {
+  "id": "clika",
+  "name": "CLIKA",
+  "aliases": [
+   "Clika"
+  ],
+  "website": "https://www.clika.io",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Automated AI model compression engine (ACE) for vision and generative models.",
+   "Automated AI model compression engine for edge deployment.",
+   "Produces compact models deployable on edge devices and on-prem hardware.",
+   "Compresses models to fit edge hardware targets."
+  ],
+  "discovery_sources": [
+   "https://www.clika.io"
+  ]
+ },
+ {
+  "id": "darwinai",
+  "name": "DarwinAI",
+  "aliases": [],
+  "website": "https://darwinai.com",
+  "hq_country": "Canada",
+  "discovery_status": "acquired by Apple (2024)",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Waterloo startup for AI model compression and visual inspection in manufacturing.",
+   "Shrank neural networks for efficient edge deployment; technology absorbed into Apple's on-device AI."
+  ],
+  "discovery_sources": [
+   "https://darwinai.com",
+   "https://tech-insider.org/ca/?p=3478"
+  ]
+ },
+ {
+  "id": "deci",
+  "name": "Deci",
+  "aliases": [
+   "Deci AI"
+  ],
+  "website": "https://deci.ai",
+  "hq_country": "Israel",
+  "discovery_status": "acquired by NVIDIA (2024)",
+  "segments": [
+   "efficient-models",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Neural architecture search (AutoNAC) producing efficient models like YOLO-NAS and DeciLM.",
+   "Neural architecture search and efficient model platform",
+   "Neural architecture search and efficient model company.",
+   "Hardware-aware efficient models for edge and on-prem inference.",
+   "Produced hardware-aware models for edge and on-prem inference",
+   "Produced compact, fast models for edge and on-prem inference."
+  ],
+  "discovery_sources": [
+   "https://deci.ai"
+  ]
+ },
+ {
+  "id": "deep-cogito",
+  "name": "Deep Cogito",
+  "aliases": [],
+  "website": "https://www.deepcogito.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Open-weight hybrid reasoning models (Cogito v1/v2/v2.1) with iterated self-improvement.",
+   "Open weights from small to 671B for self-hosting."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/04/08/deep-cogito-emerges-from-stealth-with-hybrid-ai-reasoning-models"
+  ]
+ },
+ {
+  "id": "deepgrove",
+  "name": "deepgrove",
+  "aliases": [],
+  "website": "https://huggingface.co/deepgrove",
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Released Bonsai, a small ternary-weight language model (2025).",
+   "Ternary weights target low-memory on-device inference."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/deepgrove"
+  ]
+ },
+ {
+  "id": "deeplite",
+  "name": "Deeplite",
+  "aliases": [],
+  "website": "https://www.deeplite.ai",
+  "hq_country": "Canada",
+  "discovery_status": "unknown",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Neutrino model optimizer and DeepliteRT low-bit runtime for edge CPUs.",
+   "AI model compression and optimization for edge devices",
+   "Montreal startup optimizing deep learning models for low-power edge devices.",
+   "Ultra-low-bit vision models on Arm CPUs and microcontrollers.",
+   "Shrinks vision models to run on low-power CPUs/MCUs",
+   "Compression and low-bit inference runtime for running vision AI on CPUs and MCUs."
+  ],
+  "discovery_sources": [
+   "https://www.deeplite.ai",
+   "https://www.abiresearch.com/research-highlight/tiny-machine-learning-ml-software-solutions?hsLang=en"
+  ]
+ },
+ {
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "aliases": [],
+  "website": "https://www.deepseek.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Chinese AI lab releasing efficient open-weight LLMs.",
+   "High-Flyer-backed lab releasing open-weight DeepSeek-V3/R1 models and distilled small variants.",
+   "Hangzhou lab releasing frontier open-weight LLMs (V3, R1 series).",
+   "Open-weight V3/R1/V4 models widely self-hosted; tooling to run on Huawei Ascend hardware.",
+   "MIT-licensed weights and R1 distills are among most self-hosted models.",
+   "MIT-licensed weights drove a wave of on-prem 'all-in-one' appliance deployments in China."
+  ],
+  "discovery_sources": [
+   "https://scmp.com/tech/tech-trends/article/3369301/chinas-deepseek-open-sources-tools-help-huawei-chips-supplant-nvidia-ai",
+   "https://www.channelinsider.com/ai/news-deepseek-huawei-ascend-apac-china/",
+   "https://www.deepseek.com",
+   "https://huggingface.co/deepseek-ai"
+  ]
+ },
+ {
+  "id": "distil-labs",
+  "name": "Distil Labs",
+  "aliases": [],
+  "website": "https://www.distillabs.ai",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Platform distilling task-specific small language models from a prompt and few examples.",
+   "Small fine-tuned models replace cloud LLMs and run locally or self-hosted."
+  ],
+  "discovery_sources": [
+   "https://www.distillabs.ai",
+   "https://www.wearedevelopers.com/videos/1654-distil-labs-small-model-training-made-simple"
+  ]
+ },
+ {
+  "id": "edgerunner-ai",
+  "name": "EdgeRunner AI",
+  "aliases": [
+   "Edgerunner AI"
+  ],
+  "website": "https://www.edgerunnerai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "vertical-regulated"
+  ],
+  "discovery_notes": [
+   "Small task-specific 'ultra-efficient language models' that operate without internet, incl. military use.",
+   "On-device, air-gapped AI agents for military and enterprise users.",
+   "On-device military AI models and assistant",
+   "Air-gapped, offline generative AI on edge devices; $5.5M seed.",
+   "Runs LLM agents locally on laptops/devices without connectivity.",
+   "Runs fully air-gapped on laptops/edge devices; Carahsoft and Intel partner"
+  ],
+  "discovery_sources": [
+   "https://vmblog.com/bylines/edgerunner-ai-emerges-from-stealth-with-5-5m-seed-funding-to-build-generative-ai-for-the-edge/",
+   "https://www.edgerunnerai.com",
+   "https://www.carahsoft.com/edgerunner",
+   "https://cdrdv2-public.intel.com/862002/edge-runner-solution-brief-v3.1_Final.pdf"
+  ]
+ },
+ {
+  "id": "elbic-formerly-kugelaudio",
+  "name": "elbic (formerly KugelAudio)",
+  "aliases": [],
+  "website": null,
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Sovereign voice AI models for European customer calls",
+   "Voice models run on customers' own servers (e.g., sipgate)"
+  ],
+  "discovery_sources": [
+   "https://www.eu-startups.com/2026/11/yc-backed-elbic-raises-e2-7-million-to-keep-european-customer-calls-off-us-servers-with-sovereign-voice-ai"
+  ]
+ },
+ {
+  "id": "ellamind",
+  "name": "ellamind",
+  "aliases": [],
+  "website": "https://ellamind.com",
+  "hq_country": "Germany",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Bremen startup building and evaluating European/German LLMs; OpenEuroLLM partner.",
+   "Develops open models and fine-tunes for sovereign, self-hosted enterprise use."
+  ],
+  "discovery_sources": [
+   "https://ellamind.com",
+   "https://www.computerwoche.de/article/3815387/openeurollm-soll-europas-ki-souveranitat-starken.html"
+  ]
+ },
+ {
+  "id": "elyza",
+  "name": "ELYZA",
+  "aliases": [],
+  "website": "https://elyza.ai",
+  "hq_country": "Japan",
+  "discovery_status": "acquired by KDDI (2024)",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Japanese LLM developer (Llama-based ELYZA models) for enterprise.",
+   "University of Tokyo spinout building Japanese LLMs; KDDI group.",
+   "Open Japanese models self-hostable; KDDI-backed enterprise deployments.",
+   "Japanese models and solutions for private/on-prem enterprise deployment."
+  ],
+  "discovery_sources": [
+   "https://elyza.ai",
+   "https://huggingface.co/elyza"
+  ]
+ },
+ {
+  "id": "embedl",
+  "name": "Embedl",
+  "aliases": [],
+  "website": "https://www.embedl.com",
+  "hq_country": "Sweden",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Model optimization SDK and Embedl Hub for embedded AI in automotive, defence, robotics.",
+   "Model optimization SDK for deploying deep learning on embedded hardware",
+   "Gothenburg model optimization company for edge hardware.",
+   "Makes deep learning models run efficiently on existing embedded hardware.",
+   "Compresses models for automotive, defense and IoT edge chips",
+   "Compresses and optimizes models (incl. LLMs) to run on automotive and embedded chips."
+  ],
+  "discovery_sources": [
+   "https://tech.eu/2025/06/18/embedl-raises-eur55m-to-boost-ai-efficiency-in-embedded-systems/",
+   "https://www.embedl.com",
+   "https://www.prnewswire.com/news-releases/edge-ai-foundation-launches-first-of-its-kind-working-group-to-advance-mission-critical-ai-capabilities-for-defense-and-government-operations-302691604.html"
+  ]
+ },
+ {
+  "id": "enerzai",
+  "name": "ENERZAi",
+  "aliases": [],
+  "website": "https://enerzai.com",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Optimium inference engine and extreme low-bit (1.58-bit) models for edge devices.",
+   "On-device AI optimization company (Optimium inference engine).",
+   "Full-stack on-device AI company doing model compression and compiler-level optimization.",
+   "Runs speech/LLM models at very low bit-width on edge hardware.",
+   "Compiles and quantizes models for fast inference on edge hardware.",
+   "Optimizes models (Optimium engine) to run on edge devices incl. in-car systems."
+  ],
+  "discovery_sources": [
+   "https://enerzai.com",
+   "https://www.embedded-world.de/en/exhibitors/enerzai-inc-2611214"
+  ]
+ },
+ {
+  "id": "enot",
+  "name": "ENOT",
+  "aliases": [],
+  "website": "https://enot.ai",
+  "hq_country": null,
+  "discovery_status": "unknown",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Neural network compression and acceleration framework (pruning, NAS, quantization).",
+   "Optimizes models for edge devices and embedded hardware."
+  ],
+  "discovery_sources": [
+   "https://enot.ai"
+  ]
+ },
+ {
+  "id": "essential-ai",
+  "name": "Essential AI",
+  "aliases": [],
+  "website": "https://www.essential.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "AI lab co-founded by Transformer co-author Ashish Vaswani; publishes open datasets and models.",
+   "Open-weight model releases usable for self-hosting (details unverified this session)."
+  ],
+  "discovery_sources": [
+   "https://www.essential.ai"
+  ]
+ },
+ {
+  "id": "fastino",
+  "name": "Fastino",
+  "aliases": [],
+  "website": "https://fastino.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Task-specific language models (TLMs) trained on gaming GPUs, fast on CPUs.",
+   "Small specialized models cheap enough for CPU/self-hosted inference."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/05/07/fastino-trains-ai-models-on-cheap-gaming-gpus-and-just-raised-17-5m-led-by-khosla"
+  ]
+ },
+ {
+  "id": "fish-audio",
+  "name": "Fish Audio",
+  "aliases": [],
+  "website": "https://fish.audio",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Voice platform releasing open Fish-Speech / OpenAudio TTS models.",
+   "Open TTS weights deployable locally."
+  ],
+  "discovery_sources": [
+   "https://github.com/fishaudio/fish-speech"
+  ]
+ },
+ {
+  "id": "genmo",
+  "name": "Genmo",
+  "aliases": [],
+  "website": "https://www.genmo.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Video generation lab; open-sourced Mochi 1 video model under Apache 2.0.",
+   "Open video weights self-hostable on local GPUs."
+  ],
+  "discovery_sources": [
+   "https://www.genmo.ai",
+   "https://github.com/genmoai/mochi"
+  ]
+ },
+ {
+  "id": "gradium",
+  "name": "Gradium",
+  "aliases": [],
+  "website": "https://gradium.ai",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Kyutai spinout voice-AI company; open-sourced Phonon 31M/40M on-device TTS models.",
+   "Kyutai spinout building low-latency audio language models for voice AI.",
+   "TTS runs locally on phones, laptops, boards and browsers.",
+   "Released Phonon, open-weight on-device TTS (31M/40M params); mostly cloud otherwise."
+  ],
+  "discovery_sources": [
+   "https://gradium.ai/blog/release-phonon-open-weight",
+   "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
+   "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed",
+   "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed"
+  ]
+ },
+ {
+  "id": "h2o-ai",
+  "name": "H2O.ai",
+  "aliases": [],
+  "website": "https://h2o.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "private-ai-platforms"
+  ],
+  "discovery_notes": [
+   "Enterprise AI company; releases H2O-Danube small language models and h2oGPTe.",
+   "AI cloud and GenAI platform (h2oGPTe, Driverless AI) for regulated industries",
+   "Open-source AI company; h2oGPTe enterprise GenAI platform.",
+   "Danube SLMs for mobile/edge; h2oGPTe deploys on-prem and air-gapped.",
+   "Sells on-prem and fully air-gapped GenAI to banks, telcos and government",
+   "Air-gapped, on-prem private GenAI deployments."
+  ],
+  "discovery_sources": [
+   "https://h2o.ai",
+   "https://huggingface.co/h2oai",
+   "https://onyx.app/insights/enterprise-rag-platforms-2026",
+   "https://dev.to/jaipalsingh/air-gapped-ai-solutions-7-platforms-for-disconnected-enterprise-deployment-2026-2d1p"
+  ]
+ },
+ {
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "aliases": [],
+  "website": "https://huggingface.co",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Open model hub and ML tooling company (Transformers, TGI).",
+   "Open model hub; builds SmolLM/SmolVLM small models and Optimum optimization libraries.",
+   "Open model hub; ships Transformers.js, swift-transformers, SmolLM and now hosts ggml/llama.cpp.",
+   "Hosts open weights used for self-hosting; TGI inference server; Dell Enterprise Hub for on-prem; SmolLM small models.",
+   "Distribution hub for open weights; tiny models for browsers and phones.",
+   "Transformers.js runs models in-browser (ONNX/WebGPU); acquired ggml.ai team for local AI."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/blog/dell-enterprise-hub",
+   "https://huggingface.co/docs/text-generation-inference",
+   "https://huggingface.co/HuggingFaceTB",
+   "https://github.com/huggingface/optimum"
+  ]
+ },
+ {
+  "id": "inception-labs",
+  "name": "Inception Labs",
+  "aliases": [
+   "Inception (G42)",
+   "Inception (G42) - Jais"
+  ],
+  "website": "https://www.inceptionai.ai",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "international"
+  ],
+  "discovery_notes": [
+   "Diffusion-based LLMs (Mercury, Mercury 2) generating text in parallel at 1,000+ tok/s.",
+   "G42 unit building Jais open Arabic-English LLMs.",
+   "G42 model unit behind Jais Arabic LLMs and enterprise AI products.",
+   "Efficient dLLMs for latency-bound use; weights closed, enterprise deployments - borderline local.",
+   "Open Arabic models for regional sovereign/on-prem deployment.",
+   "Open-weight Jais models deployable in sovereign/private environments."
+  ],
+  "discovery_sources": [
+   "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text",
+   "https://the-decoder.com/inception-launches-mercury-2-the-first-diffusion-based-language-reasoning-model/",
+   "https://www.inceptionai.ai",
+   "https://huggingface.co/inceptionai"
+  ]
+ },
+ {
+  "id": "jina-ai",
+  "name": "Jina AI",
+  "aliases": [],
+  "website": "https://jina.ai",
+  "hq_country": "Germany",
+  "discovery_status": "acquired by Elastic (2025)",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Embeddings, rerankers and small reader LMs, many with open weights.",
+   "Berlin search-foundation model company (embeddings, rerankers, reader models).",
+   "Open-weight retrieval models for self-hosted search/RAG.",
+   "Open-weight embedding/reranker models widely self-hosted for local RAG."
+  ],
+  "discovery_sources": [
+   "https://jina.ai",
+   "https://surrealdb.com/blog/embedding-models-comparison"
+  ]
+ },
+ {
+  "id": "kittenml-kitten-tts",
+  "name": "KittenML (Kitten TTS)",
+  "aliases": [],
+  "website": "https://github.com/KittenML/KittenTTS",
+  "hq_country": null,
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Open-source ultra-small TTS models under 25 MB.",
+   "Developer of Kitten TTS, tiny 15M-80M parameter open text-to-speech models.",
+   "CPU-only TTS for embedded and edge devices.",
+   "25-80MB TTS models run on CPUs and edge devices without GPU."
+  ],
+  "discovery_sources": [
+   "https://github.com/KittenML/KittenTTS",
+   "https://rits.shanghai.nyu.edu/ai/kittentts-state-of-the-art-voice-synthesis-in-under-25-mb/",
+   "https://getstream.io/blog/best-on-device-tts-models/"
+  ]
+ },
+ {
+  "id": "krutrim",
+  "name": "Krutrim",
+  "aliases": [],
+  "website": "https://www.olakrutrim.com",
+  "hq_country": "India",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Ola group's AI unit building Indian LLMs, AI cloud and planned chips.",
+   "Open-weight Krutrim models and domestic compute for in-country deployment."
+  ],
+  "discovery_sources": [
+   "https://www.olakrutrim.com"
+  ]
+ },
+ {
+  "id": "kyutai",
+  "name": "Kyutai",
+  "aliases": [],
+  "website": "https://kyutai.org",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "on-device-sdks"
+  ],
+  "discovery_notes": [
+   "Open-science AI lab releasing Moshi, Helium, Kyutai STT/TTS and 100M-param Pocket TTS.",
+   "Non-profit open AI research lab (Moshi, Hibiki, Unmute speech models).",
+   "Paris non-profit open AI lab focused on voice models (Moshi, Pocket TTS).",
+   "Open small speech and language models that run on CPUs and devices.",
+   "Releases open-weight speech/LLM models that run locally, including on-device.",
+   "Releases open models like 100M-param Pocket TTS that run real-time on CPUs locally."
+  ],
+  "discovery_sources": [
+   "https://kyutai.org",
+   "https://medium.com/@cooksusan482/kyutai-pocket-tts-100m-parameter-that-runs-on-your-cpu-6cae1fd812bf",
+   "https://github.com/kyutai-labs/pocket-tts",
+   "https://kyutai.org/tts/"
+  ]
+ },
+ {
+  "id": "latent-ai",
+  "name": "Latent AI",
+  "aliases": [],
+  "website": "https://latentai.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "industrial-edge"
+  ],
+  "discovery_notes": [
+   "LEIP platform compressing and compiling models for edge, largely defense customers.",
+   "Edge MLOps toolkit (LEIP) to compress, compile and secure models for constrained hardware",
+   "Edge AI optimization platform (LEIP) for defense and industrial devices.",
+   "Optimized models deployable on tactical/edge hardware without cloud.",
+   "Optimizes and packages models for on-device inference in defense, space and industrial settings",
+   "Compiles and secures models for disconnected edge hardware."
+  ],
+  "discovery_sources": [
+   "https://latentai.com",
+   "https://www.satellitetoday.com/technology/2025/08/18/voyager-technologies-makes-investment-into-ai-software-company-latent-ai/",
+   "https://www.businesswire.com/news/home/20250818734194/en/Voyager-and-Latent-AI-Bring-Advanced-AI-to-Orbit",
+   "https://www.prnewswire.com/news-releases/edge-ai-foundation-launches-first-of-its-kind-working-group-to-advance-mission-critical-ai-capabilities-for-defense-and-government-operations-302691604.html"
+  ]
+ },
+ {
+  "id": "lelapa-ai",
+  "name": "Lelapa AI",
+  "aliases": [],
+  "website": "https://lelapa.ai",
+  "hq_country": "South Africa",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Johannesburg African-language AI lab (InkubaLM, Vulavula).",
+   "InkubaLM small model designed for low-resource devices and local deployment."
+  ],
+  "discovery_sources": [
+   "https://lelapa.ai"
+  ]
+ },
+ {
+  "id": "lighton",
+  "name": "LightOn",
+  "aliases": [
+   "LightOn (Paradigm)"
+  ],
+  "website": "https://www.lighton.ai",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "international",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Sovereign GenAI platform; co-created ModernBERT and open ColBERT retrieval models.",
+   "Paris GenAI company offering the Paradigm enterprise AI platform.",
+   "Enterprise GenAI platform Paradigm",
+   "On-prem enterprise GenAI and open retrieval models.",
+   "Paradigm deploys on-prem or in sovereign clouds for sensitive enterprise data.",
+   "On-prem and sovereign-cloud GenAI for European enterprises and public sector"
+  ],
+  "discovery_sources": [
+   "https://www.lighton.ai",
+   "https://huggingface.co/lightonai"
+  ]
+ },
+ {
+  "id": "lightricks",
+  "name": "Lightricks",
+  "aliases": [
+   "Lightricks (LTX-Video)"
+  ],
+  "website": "https://www.lightricks.com",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Creative-app company releasing open-weight LTX-Video/LTX-2 video generation models.",
+   "Jerusalem creative-app company behind open LTX-Video generation models.",
+   "Video generation that runs on consumer GPUs locally.",
+   "Open-weight LTX video models run locally on consumer GPUs."
+  ],
+  "discovery_sources": [
+   "https://github.com/Lightricks/LTX-Video",
+   "https://www.lightricks.com"
+  ]
+ },
+ {
+  "id": "literal-labs",
+  "name": "Literal Labs",
+  "aliases": [],
+  "website": "https://www.literal-labs.ai",
+  "hq_country": "United Kingdom",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Newcastle startup commercializing Tsetlin-machine, logic-based AI.",
+   "Logic-based models run fast, explainable inference on microcontrollers and edge CPUs."
+  ],
+  "discovery_sources": [
+   "https://www.literal-labs.ai"
+  ]
+ },
+ {
+  "id": "luminal",
+  "name": "Luminal",
+  "aliases": [],
+  "website": "https://github.com/luminal-ai/luminal",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "YC-backed ML compiler that searches kernel optimizations for fast model inference.",
+   "Compiles models to run fast on varied local hardware (Apple Silicon, GPUs)."
+  ],
+  "discovery_sources": [
+   "https://github.com/luminal-ai/luminal"
+  ]
+ },
+ {
+  "id": "manifest-ai",
+  "name": "Manifest AI",
+  "aliases": [],
+  "website": "https://manifestai.com",
+  "hq_country": "USA",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Research lab developing power-retention architecture replacing attention (Brumby models).",
+   "Linear-cost long-context inference for cheaper local deployment."
+  ],
+  "discovery_sources": [
+   "https://manifestai.com"
+  ]
+ },
+ {
+  "id": "minimax",
+  "name": "MiniMax",
+  "aliases": [],
+  "website": "https://www.minimax.io",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models"
+  ],
+  "discovery_notes": [
+   "Model developer releasing open-weight MiniMax-M1/M2 MoE models and media models.",
+   "Shanghai multimodal AI company (MiniMax-M LLMs, Hailuo video, speech).",
+   "Open weights enabling self-hosted agentic coding models.",
+   "Open-weight MiniMax-M models available for local deployment."
+  ],
+  "discovery_sources": [
+   "https://www.minimax.io",
+   "https://huggingface.co/MiniMaxAI"
+  ]
+ },
+ {
+  "id": "mipsology",
+  "name": "Mipsology",
+  "aliases": [],
+  "website": "https://mipsology.com",
+  "hq_country": "France",
+  "discovery_status": "acquired by AMD (2023)",
+  "segments": [
+   "efficient-models",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Zebra inference-acceleration software for FPGAs and edge accelerators.",
+   "FPGA-based neural network inference acceleration software (Zebra).",
+   "Accelerates CNN inference on edge/on-prem FPGA hardware.",
+   "Accelerated inference on FPGA cards in on-prem and edge servers."
+  ],
+  "discovery_sources": [
+   "https://mipsology.com"
+  ]
+ },
+ {
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "aliases": [
+   "Mistral AI (AI Studio / Le Chat Enterprise)"
+  ],
+  "website": "https://mistral.ai",
+  "hq_country": "France",
+  "discovery_status": "active",
+  "segments": [
+   "efficient-models",
+   "international",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "European frontier and open-weight LLM developer.",
+   "European model lab shipping open-weight Ministral, Mistral Small, Magistral, Devstral, Voxtral.",
+   "Paris foundation-model lab with open-weight and commercial models plus Le Chat Enterprise.",
+   "Open-weight models and self-hosted enterprise deployments; uses Dell AI Factory with NVIDIA for training and deployment.",
+   "Edge-sized open models plus self-deployment/on-prem offers for enterprises.",
+   "Sells self-hosted/on-prem deployments on customer GPU clusters; Ministral edge models."
+  ],
+  "discovery_sources": [
+   "https://www.fierce-network.com/cloud/dell-builds-sovereign-ai-stack-prem-era",
+   "https://storagereview.com/news/dell-expands-ai-factory-with-nvidia-adds-deskside-agentic-ai-and-deepens-mistral-collaboration",
+   "https://mistral.ai",
+   "https://venturebeat.com/ai/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and"
+  ]
+ }
+]
