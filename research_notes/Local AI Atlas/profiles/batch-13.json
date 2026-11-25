@@ -1,0 +1,2542 @@
+[
+ {
+  "id": "cartesia",
+  "name": "Cartesia",
+  "verdict": "in",
+  "verdict_reason": "State-space-model voice AI lab with dedicated on-device Sonic and open Edge library.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://cartesia.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 191,
+  "last_round": "Series B, ~$100M, Oct 2025, led by Kleiner Perkins (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Index Ventures",
+   "Kleiner Perkins",
+   "Lightspeed",
+   "NVIDIA"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Real-time voice AI built on state-space models, cloud and on-device",
+  "problem": "Voice agents are too slow, costly and cloud-dependent for devices and private deployments",
+  "products": [
+   {
+    "name": "Sonic",
+    "category": "model",
+    "description": "Low-latency streaming text-to-speech models, cloud API"
+   },
+   {
+    "name": "Sonic On-Device",
+    "category": "model",
+    "description": "Voice models running locally on phones and laptops"
+   },
+   {
+    "name": "Edge",
+    "category": "sdk",
+    "description": "Open-source library for running state-space models on Apple silicon and devices"
+   },
+   {
+    "name": "Ink",
+    "category": "model",
+    "description": "Streaming speech-to-text models for voice agents"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "embedded-iot",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "Apple",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "SSM architecture gives constant-memory, low-latency voice models small enough for devices.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://cartesia.ai",
+   "https://www.cartesia.ai/on-device",
+   "https://techcrunch.com/2024/12/12/cartesia-claims-its-ai-is-efficient-enough-to-run-pretty-much-anywhere/"
+  ]
+ },
+ {
+  "id": "celeris",
+  "name": "Celeris",
+  "verdict": "out",
+  "verdict_reason": "Proprietary diffusion-LLM API only (Celeris-1, Jul 2026); no local or on-prem deployment found.",
+  "status": "active",
+  "status_detail": null,
+  "website": null
+ },
+ {
+  "id": "centml",
+  "name": "CentML",
+  "verdict": "out",
+  "verdict_reason": "Cloud-oriented inference optimization; acquired by NVIDIA 2025 and ceased operations July 2025.",
+  "status": "acquired",
+  "status_detail": "Acquired by NVIDIA (2025); CentML services shut down July 2025",
+  "website": "https://centml.ai"
+ },
+ {
+  "id": "clika",
+  "name": "CLIKA",
+  "verdict": "in",
+  "verdict_reason": "Dedicated automated model compression engine (ACE) for edge hardware deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.clika.io",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Automated compression engine shrinking AI models for edge hardware",
+  "problem": "Models are too large and slow to deploy on constrained edge chips",
+  "products": [
+   {
+    "name": "ACE (Automatic Compression Engine)",
+    "category": "sdk",
+    "description": "Automated quantization and compression pipeline for vision and generative models"
+   },
+   {
+    "name": "CLIKA SDK",
+    "category": "sdk",
+    "description": "Python SDK for compressing and exporting models to edge inference targets"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Hardware-aware automated compression across many edge targets without manual tuning.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.clika.io"
+  ]
+ },
+ {
+  "id": "darwinai",
+  "name": "DarwinAI",
+  "verdict": "out",
+  "verdict_reason": "Acquired by Apple (2024); products absorbed into Apple, no independent offering.",
+  "status": "acquired",
+  "status_detail": "Acquired by Apple (2024), confirmed via BetaKit/Bloomberg reporting; Apple did not officially confirm",
+  "website": "https://darwinai.com"
+ },
+ {
+  "id": "deci",
+  "name": "Deci",
+  "verdict": "out",
+  "verdict_reason": "Acquired by NVIDIA (2024); no independent product line remains.",
+  "status": "acquired",
+  "status_detail": "Acquired by NVIDIA (2024); from knowledge, not searched",
+  "website": "https://deci.ai"
+ },
+ {
+  "id": "deep-cogito",
+  "name": "Deep Cogito",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight reasoning models self-hostable, but no dedicated local product; mainly model releases.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.deepcogito.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 13,
+  "last_round": "Seed, $13M, 2025, led by Benchmark (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Benchmark"
+  ],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Open-weight hybrid reasoning LLMs via iterated distillation and amplification",
+  "problem": "Teams need strong open reasoning models they can self-host instead of renting closed APIs",
+  "products": [
+   {
+    "name": "Cogito v1 models",
+    "category": "model",
+    "description": "Open-weight hybrid reasoning LLMs from 3B to 70B"
+   },
+   {
+    "name": "Cogito v2 / v2.1",
+    "category": "model",
+    "description": "Open-weight reasoning models up to 671B MoE"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "Hugging Face",
+   "Ollama"
+  ],
+  "notable_customers": [],
+  "differentiator": "Self-improving reasoning training yields shorter reasoning chains and strong open weights.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://techcrunch.com/2025/04/08/deep-cogito-emerges-from-stealth-with-hybrid-ai-reasoning-models"
+  ]
+ },
+ {
+  "id": "deepgrove",
+  "name": "deepgrove",
+  "verdict": "out",
+  "verdict_reason": "Small Hugging Face research org (Bonsai ternary model); no verifiable company or product.",
+  "status": "active",
+  "status_detail": null,
+  "website": "https://huggingface.co/deepgrove"
+ },
+ {
+  "id": "deeplite",
+  "name": "Deeplite",
+  "verdict": "out",
+  "verdict_reason": "Edge AI optimization startup acquired by STMicroelectronics (Apr 2025); technology folded into ST.",
+  "status": "acquired",
+  "status_detail": "Acquired by STMicroelectronics (Apr 2025), per CB Insights/The Logic; terms undisclosed",
+  "website": "https://www.deeplite.ai"
+ },
+ {
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight MIT-licensed LLMs widely self-hosted, but company sells no dedicated local product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.deepseek.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "High-Flyer (parent fund)"
+  ],
+  "employees": 160,
+  "employees_band": "51-200",
+  "focus": "Frontier open-weight LLMs and reasoning models",
+  "problem": "Organizations want frontier-class models they can run on their own hardware",
+  "products": [
+   {
+    "name": "DeepSeek-V3 / V3.x",
+    "category": "model",
+    "description": "Open-weight MoE general LLMs"
+   },
+   {
+    "name": "DeepSeek-R1",
+    "category": "model",
+    "description": "Open-weight reasoning model, MIT licensed"
+   },
+   {
+    "name": "R1 distilled models",
+    "category": "model",
+    "description": "Small dense models distilled from R1 for local use"
+   },
+   {
+    "name": "DeepSeek-V4",
+    "category": "model",
+    "description": "Latest open-weight flagship (per discovery notes, unverified)"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "MIT-licensed frontier-class weights became the default for self-hosting.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.deepseek.com",
+   "https://huggingface.co/deepseek-ai"
+  ]
+ },
+ {
+  "id": "distil-labs",
+  "name": "Distil Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Platform producing small task-specific models deployable locally; local is a pitch, not sole focus.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.distillabs.ai",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Project A",
+   "NAP",
+   "Helloworld VC"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Platform distilling small task-specific language models from a prompt and few examples",
+  "problem": "Cloud LLMs are costly and unsuitable for private, latency-sensitive tasks",
+  "products": [
+   {
+    "name": "Distil Labs platform",
+    "category": "platform",
+    "description": "Trains and exports task-specific small models from minimal data"
+   },
+   {
+    "name": "Distil SLM deployments",
+    "category": "model",
+    "description": "Fine-tuned small models for local or self-hosted inference"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Needs only a prompt and few examples to produce deployable small models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.distillabs.ai",
+   "https://www.wearedevelopers.com/videos/1654-distil-labs-small-model-training-made-simple"
+  ]
+ },
+ {
+  "id": "edgerunner-ai",
+  "name": "EdgeRunner AI",
+  "verdict": "in",
+  "verdict_reason": "Air-gapped on-device generative AI for military and enterprise is its core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.edgerunnerai.com",
+  "hq_city": "Seattle",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 17.5,
+  "last_round": "Series A, $12M, May 2025, led by Madrona",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Madrona",
+   "HP Tech Ventures",
+   "Four Rivers",
+   "Alumni Ventures"
+  ],
+  "employees": 29,
+  "employees_band": "11-50",
+  "focus": "Air-gapped, on-device AI agents and small models for defense and enterprise",
+  "problem": "Sensitive and disconnected users cannot send data to cloud LLMs",
+  "products": [
+   {
+    "name": "EdgeRunner Assistant",
+    "category": "app",
+    "description": "Offline AI assistant running locally on laptops and devices"
+   },
+   {
+    "name": "EdgeRunner Agents",
+    "category": "platform",
+    "description": "Air-gapped agents for mission and enterprise workflows"
+   },
+   {
+    "name": "Ultra-efficient language models",
+    "category": "model",
+    "description": "Small task-specific models for edge inference without connectivity"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "air-gapped",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [
+   "Intel",
+   "HP",
+   "Carahsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Military-focused models and agents that run fully offline on commodity devices.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250501050946/en/EdgeRunner-Raises-$17.5M-to-Develop-Air-Gapped-On-Device-AI-for-the-Warfighter",
+   "https://www.madrona.com/edgerunner-ai-air-gapped-on-device-agents/",
+   "https://www.carahsoft.com/edgerunner"
+  ]
+ },
+ {
+  "id": "elbic-formerly-kugelaudio",
+  "name": "elbic (formerly KugelAudio)",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign voice models deployable on customer servers, but also offers cloud API; evidence limited.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://kugelaudio.com",
+  "hq_city": null,
+  "hq_country": "Germany",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3.1,
+  "last_round": "Seed, EUR 2.7M (~$3.1M), Nov 2026 (single source, unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Sovereign European voice AI models for customer calls",
+  "problem": "European firms cannot send customer call audio to US cloud servers",
+  "products": [
+   {
+    "name": "elbic / KugelAudio TTS",
+    "category": "model",
+    "description": "European multilingual text-to-speech for real-time voice agents"
+   },
+   {
+    "name": "Self-hosted voice deployment",
+    "category": "service",
+    "description": "Voice models run on customer's own servers, e.g. sipgate"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "security-privacy"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "sipgate"
+  ],
+  "notable_customers": [],
+  "differentiator": "GDPR-focused voice models that stay on European or customer infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.eu-startups.com/2026/11/yc-backed-elbic-raises-e2-7-million-to-keep-european-customer-calls-off-us-servers-with-sovereign-voice-ai"
+  ]
+ },
+ {
+  "id": "ellamind",
+  "name": "ellamind",
+  "verdict": "borderline",
+  "verdict_reason": "Builds and evaluates German/European LLMs for self-hosted enterprise use; local is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://ellamind.com",
+  "hq_city": "Bremen",
+  "hq_country": "Germany",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "European open LLMs, fine-tuning and evaluation for sovereign enterprise use",
+  "problem": "Enterprises need German-language models they can control and evaluate on their own infrastructure",
+  "products": [
+   {
+    "name": "ellamind LLM services",
+    "category": "service",
+    "description": "Custom fine-tuning and evaluation of open models for enterprises"
+   },
+   {
+    "name": "Open German/European models",
+    "category": "model",
+    "description": "Open LLMs developed with OpenEuroLLM partners"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "services"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [
+   "OpenEuroLLM"
+  ],
+  "notable_customers": [],
+  "differentiator": "German-language specialization with rigorous evaluation tooling.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://ellamind.com",
+   "https://www.computerwoche.de/article/3815387/openeurollm-soll-europas-ki-souveranitat-starken.html"
+  ]
+ },
+ {
+  "id": "elyza",
+  "name": "ELYZA",
+  "verdict": "borderline",
+  "verdict_reason": "Japanese LLM developer with on-prem enterprise deployments; local is one option among services.",
+  "status": "active",
+  "status_detail": "KDDI and KDDI Digital Divergence Holdings acquired 53.4% (Mar 2024); consolidated subsidiary, not full acquisition",
+  "parent": "KDDI",
+  "website": "https://elyza.ai",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2018,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Japanese-language LLMs and enterprise AI solutions",
+  "problem": "Japanese enterprises need capable Japanese LLMs deployable privately",
+  "products": [
+   {
+    "name": "ELYZA LLM series",
+    "category": "model",
+    "description": "Japanese LLMs, including Llama-based open models"
+   },
+   {
+    "name": "ELYZA Pencil/Works",
+    "category": "app",
+    "description": "Enterprise generative-AI applications built on ELYZA models"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom"
+  ],
+  "partners": [
+   "KDDI"
+  ],
+  "notable_customers": [],
+  "differentiator": "Univ. of Tokyo spinout with top Japanese-language models backed by KDDI.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.telecomtv.com/content/ai/kddi-adds-to-its-ai-digital-arsenal-50012/",
+   "https://thebridge.jp/2024/03/kddi-group-buy-out-elyza"
+  ]
+ },
+ {
+  "id": "embedl",
+  "name": "Embedl",
+  "verdict": "in",
+  "verdict_reason": "Dedicated model-optimization SDK and Hub for embedded and edge AI deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.embedl.com",
+  "hq_city": "Gothenburg",
+  "hq_country": "Sweden",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 6.3,
+  "last_round": "Seed, EUR 5.5M, Jun 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Model optimization for embedded AI in automotive, defense and robotics",
+  "problem": "Deep learning models do not fit or run fast on embedded automotive and edge chips",
+  "products": [
+   {
+    "name": "Embedl SDK",
+    "category": "sdk",
+    "description": "Compression, quantization and hardware-aware optimization of neural networks"
+   },
+   {
+    "name": "Embedl Hub",
+    "category": "platform",
+    "description": "Platform to optimize, benchmark and deploy models on real edge devices"
+   },
+   {
+    "name": "Embedl LLM optimization",
+    "category": "service",
+    "description": "Compression of LLMs for automotive and embedded chips"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "automotive",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Qualcomm",
+   "NVIDIA",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-in-the-loop optimization tuned to automotive and defense embedded silicon.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://tech.eu/2025/06/18/embedl-raises-eur55m-to-boost-ai-efficiency-in-embedded-systems/",
+   "https://www.embedl.com"
+  ]
+ },
+ {
+  "id": "enerzai",
+  "name": "ENERZAi",
+  "verdict": "in",
+  "verdict_reason": "Core business is on-device AI: Optimium inference engine and extreme low-bit edge models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://enerzai.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 8.7,
+  "last_round": "Bridge, ~$5.6M, May 2025 (Dealroom dates 2024; sources conflict)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Springcamp"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "On-device AI optimization: Optimium engine and 1.58-bit models",
+  "problem": "Running speech and LLM models on edge hardware is too slow and memory-hungry",
+  "products": [
+   {
+    "name": "Optimium",
+    "category": "runtime",
+    "description": "Auto-tuning inference engine/compiler for fast on-device model execution"
+   },
+   {
+    "name": "Extreme low-bit models",
+    "category": "model",
+    "description": "1.58-bit ternary speech and language models for edge"
+   },
+   {
+    "name": "Nadya",
+    "category": "app",
+    "description": "On-device voice AI built on low-bit models"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "mobile",
+   "vehicle-robot-drone",
+   "camera"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization",
+   "models"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive"
+  ],
+  "partners": [
+   "Arm",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Compiler-level optimization plus 1.58-bit quantization for CPU/NPU edge targets.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://enerzai.com",
+   "https://en.wowtale.net/2025/05/14/231021/",
+   "https://app.dealroom.co/companies/enerzai_1"
+  ]
+ },
+ {
+  "id": "enot",
+  "name": "ENOT",
+  "verdict": "in",
+  "verdict_reason": "Neural network compression and acceleration framework for edge and embedded hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://enot.ai",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Neural network compression and NAS for edge and embedded deployment",
+  "problem": "Neural networks are too heavy for embedded and edge accelerators",
+  "products": [
+   {
+    "name": "ENOT framework",
+    "category": "sdk",
+    "description": "Pruning, NAS and quantization toolkit for accelerating neural networks"
+   },
+   {
+    "name": "ENOT Lite",
+    "category": "runtime",
+    "description": "Edge deployment tooling for optimized models"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Automated NAS and compression producing hardware-specific lean networks.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://enot.ai"
+  ]
+ },
+ {
+  "id": "essential-ai",
+  "name": "Essential AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight model releases usable for self-hosting; no dedicated local product found.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.essential.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 56.5,
+  "last_round": "Series A, $56.5M, 2024, led by Google/NVIDIA/AMD (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "March Capital",
+   "Thrive Capital",
+   "Google",
+   "NVIDIA",
+   "AMD"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Open datasets and open-weight foundation models",
+  "problem": "Teams lack high-quality open models and data to build on privately",
+  "products": [
+   {
+    "name": "Rnj-1",
+    "category": "model",
+    "description": "Open-weight small language model released by Essential AI (unverified details)"
+   },
+   {
+    "name": "Essential-Web",
+    "category": "model",
+    "description": "Large open web dataset with taxonomy labels for pretraining"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Transformer co-author led lab publishing open data and efficient models.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.essential.ai"
+  ]
+ },
+ {
+  "id": "fastino",
+  "name": "Fastino",
+  "verdict": "borderline",
+  "verdict_reason": "Small task-specific models run on CPUs and self-hosted; cloud API remains primary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://fastino.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "USA",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 25,
+  "last_round": "Seed, $17.5M, May 2025, led by Khosla Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Khosla Ventures",
+   "Insight Partners",
+   "M12"
+  ],
+  "employees": 29,
+  "employees_band": "11-50",
+  "focus": "Task-specific language models fast on CPUs, trained on gaming GPUs",
+  "problem": "General LLMs are too slow, costly and hard to keep private for narrow tasks",
+  "products": [
+   {
+    "name": "Fastino TLMs",
+    "category": "model",
+    "description": "Task-specific language models for extraction, classification and routing"
+   },
+   {
+    "name": "GLiNER2-PII",
+    "category": "model",
+    "description": "300M open-source model for PII detection and redaction"
+   },
+   {
+    "name": "Fastino-Nemotron Lightning finance/healthcare",
+    "category": "model",
+    "description": "Domain-specific open-weight models released Aug 2026"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "CPU-fast specialized models cheap enough to self-host.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/05/07/fastino-trains-ai-models-on-cheap-gaming-gpus-and-just-raised-17-5m-led-by-khosla",
+   "https://businesswire.com/news/home/20250506538922/en/Fastino-Launches-TLMs-Task-Specific-Language-Models-with-%2417.5M-Seed-Round-Led-by-Khosla-Ventures"
+  ]
+ },
+ {
+  "id": "fish-audio",
+  "name": "Fish Audio",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight TTS models runnable locally; commercial product is a mostly cloud voice platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://fish.audio",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Voice platform with open Fish-Speech/OpenAudio TTS models",
+  "problem": "Developers need natural multilingual TTS they can self-host",
+  "products": [
+   {
+    "name": "Fish Audio platform",
+    "category": "platform",
+    "description": "Cloud TTS and voice cloning API and app"
+   },
+   {
+    "name": "Fish-Speech / OpenAudio S1-mini",
+    "category": "model",
+    "description": "Open-weight TTS models deployable locally"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Strong open TTS weights alongside commercial voice platform.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/fishaudio/fish-speech"
+  ]
+ },
+ {
+  "id": "genmo",
+  "name": "Genmo",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Mochi 1 video model runs on local GPUs; main product is cloud video generation.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.genmo.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 28.4,
+  "last_round": "Series A, $28.4M, Oct 2024, led by NEA (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "NEA"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Open video generation models",
+  "problem": "Creators want controllable video generation without closed APIs",
+  "products": [
+   {
+    "name": "Mochi 1",
+    "category": "model",
+    "description": "10B open Apache-2.0 video diffusion model"
+   },
+   {
+    "name": "Genmo Creative Lab",
+    "category": "app",
+    "description": "Hosted video generation product"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Apache-2.0 state-of-the-art open video model.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/genmoai/mochi",
+   "https://www.genmo.ai"
+  ]
+ },
+ {
+  "id": "gradium",
+  "name": "Gradium",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight on-device Phonon TTS released Oct 2026, but core product is cloud voice API.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://gradium.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 100,
+  "last_round": "Seed extension, ~$30M, Jul 2026, led by NVIDIA",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "FirstMark",
+   "Eurazeo",
+   "NVIDIA",
+   "DST Global",
+   "Xavier Niel",
+   "Eric Schmidt"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Low-latency audio language models for voice AI, Kyutai spinout",
+  "problem": "Voice agents need fast, natural speech models at low cost",
+  "products": [
+   {
+    "name": "Gradium voice API",
+    "category": "service",
+    "description": "Real-time TTS and STT API for voice agents"
+   },
+   {
+    "name": "Phonon 31M/40M",
+    "category": "model",
+    "description": "Open-weight on-device text-to-speech models for phones, laptops and browsers"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "browser",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Kyutai founders' codec-based audio LMs with open tiny TTS.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed",
+   "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed",
+   "https://gradium.ai/blog/release-phonon-open-weight"
+  ]
+ },
+ {
+  "id": "h2o-ai",
+  "name": "H2O.ai",
+  "verdict": "in",
+  "verdict_reason": "Dedicated on-prem and air-gapped GenAI platform (h2oGPTe) plus small Danube models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://h2o.ai",
+  "hq_city": "Mountain View",
+  "hq_country": "USA",
+  "founded": 2012,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 251,
+  "last_round": "Series E, $100M, Mar 2023, led by Commonwealth Bank (unverified)",
+  "valuation_usd_m": 1600,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Commonwealth Bank",
+   "NVIDIA",
+   "Goldman Sachs",
+   "Wells Fargo"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Open-source AI platform; private and air-gapped enterprise GenAI",
+  "problem": "Regulated enterprises cannot send sensitive data to public AI clouds",
+  "products": [
+   {
+    "name": "h2oGPTe",
+    "category": "platform",
+    "description": "Enterprise RAG and agent platform deployable on-prem or air-gapped"
+   },
+   {
+    "name": "H2O-Danube",
+    "category": "model",
+    "description": "Small open language models for mobile and edge"
+   },
+   {
+    "name": "H2O Driverless AI",
+    "category": "platform",
+    "description": "Automated machine learning platform deployable on-prem"
+   },
+   {
+    "name": "H2O LLM Studio / h2oGPT",
+    "category": "sdk",
+    "description": "Open-source tools to fine-tune and run LLMs locally"
+   },
+   {
+    "name": "H2O-Mississippi / H2OVL",
+    "category": "model",
+    "description": "Compact open vision-language and document models"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud",
+   "mobile"
+  ],
+  "layers": [
+   "ai-platform",
+   "models",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "finance",
+   "government-defense",
+   "telecom",
+   "healthcare",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell",
+   "Intel"
+  ],
+  "notable_customers": [
+   "AT&T",
+   "Commonwealth Bank",
+   "Wells Fargo"
+  ],
+  "differentiator": "Air-gapped enterprise GenAI with open-source roots and top agent benchmark results.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://h2o.ai",
+   "https://huggingface.co/h2oai"
+  ]
+ },
+ {
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "verdict": "in",
+  "verdict_reason": "Dedicated local/edge stack: SmolLM, Transformers.js, Optimum, TGI and Dell on-prem hub.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://huggingface.co",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 395,
+  "last_round": "Series D, $235M, Aug 2023, led by Salesforce Ventures",
+  "valuation_usd_m": 4500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Salesforce Ventures",
+   "Google",
+   "Amazon",
+   "NVIDIA",
+   "Intel",
+   "AMD",
+   "Qualcomm"
+  ],
+  "employees": 550,
+  "employees_band": "501-1000",
+  "focus": "Open model hub and ML tooling for open and local AI",
+  "problem": "Developers and enterprises need open models and tooling to run AI on their own hardware",
+  "products": [
+   {
+    "name": "Transformers",
+    "category": "sdk",
+    "description": "Core open-source library for running open models locally"
+   },
+   {
+    "name": "Transformers.js",
+    "category": "sdk",
+    "description": "Runs models in-browser via ONNX/WebGPU"
+   },
+   {
+    "name": "SmolLM / SmolVLM",
+    "category": "model",
+    "description": "Small open language and vision-language models for devices"
+   },
+   {
+    "name": "Text Generation Inference (TGI)",
+    "category": "runtime",
+    "description": "Self-hostable LLM inference server"
+   },
+   {
+    "name": "Optimum",
+    "category": "sdk",
+    "description": "Hardware-specific model optimization and export tooling"
+   },
+   {
+    "name": "Dell Enterprise Hub",
+    "category": "platform",
+    "description": "Catalog for deploying open models on Dell on-prem hardware"
+   },
+   {
+    "name": "swift-transformers",
+    "category": "sdk",
+    "description": "Swift library for on-device inference on Apple platforms"
+   },
+   {
+    "name": "ggml/llama.cpp (ggml.ai team)",
+    "category": "runtime",
+    "description": "Local inference runtime; ggml.ai team reportedly joined HF, unverified"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation",
+   "mobile",
+   "browser",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Dell",
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "The default distribution hub for open weights, with first-party small models and local runtimes.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://huggingface.co/docs/text-generation-inference",
+   "https://huggingface.co/blog/dell-enterprise-hub",
+   "https://huggingface.co/HuggingFaceTB"
+  ]
+ },
+ {
+  "id": "inception-labs",
+  "name": "Inception Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Proprietary diffusion LLMs (Mercury); enterprise VPC/on-prem deployment possible but not core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.inceptionlabs.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "USA",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 56,
+  "last_round": "Seed, $50M, Nov 2025, led by Menlo Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Menlo Ventures",
+   "Mayfield",
+   "Innovation Endeavors",
+   "M12",
+   "Databricks Ventures",
+   "Snowflake Ventures",
+   "NVentures"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Diffusion-based LLMs generating text in parallel at 1000+ tokens/s",
+  "problem": "Autoregressive LLMs are too slow and costly for latency-bound applications",
+  "products": [
+   {
+    "name": "Mercury",
+    "category": "model",
+    "description": "General-purpose diffusion LLM"
+   },
+   {
+    "name": "Mercury Coder",
+    "category": "model",
+    "description": "Diffusion LLM for code generation and completion"
+   },
+   {
+    "name": "Mercury 2",
+    "category": "model",
+    "description": "Reasoning diffusion LLM released Feb 2026"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "Microsoft",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Commercial diffusion LLMs with order-of-magnitude token throughput.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text",
+   "https://the-decoder.com/inception-launches-mercury-2-the-first-diffusion-based-language-reasoning-model/"
+  ]
+ },
+ {
+  "id": "jina-ai",
+  "name": "Jina AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight embedding/reranker models widely self-hosted; now part of Elastic, mostly API-delivered.",
+  "status": "acquired",
+  "status_detail": "Acquired by Elastic (completed Oct 9, 2025); terms undisclosed",
+  "parent": "Elastic",
+  "website": "https://jina.ai",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2020,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 39,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "GGV Capital",
+   "Canaan Partners"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Multimodal and multilingual embeddings, rerankers and small reader LMs",
+  "problem": "Search and RAG teams need strong retrieval models they can run privately",
+  "products": [
+   {
+    "name": "jina-embeddings",
+    "category": "model",
+    "description": "Open-weight multilingual and multimodal embedding models"
+   },
+   {
+    "name": "jina-reranker",
+    "category": "model",
+    "description": "Open-weight rerankers for retrieval quality"
+   },
+   {
+    "name": "ReaderLM",
+    "category": "model",
+    "description": "Small LM converting HTML to markdown/JSON"
+   },
+   {
+    "name": "Jina Search Foundation API",
+    "category": "service",
+    "description": "Hosted embedding/reader/search APIs"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "Elastic"
+  ],
+  "notable_customers": [],
+  "differentiator": "Open retrieval models, including long-context multimodal embeddings.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ir.elastic.co/News--Events/news/news-details/2025/Elastic-Completes-Acquisition-of-Jina-AI-a-Leader-in-Frontier-Models-for-Multimodal-and-Multilingual-Search/default.aspx",
+   "https://www.elastic.co/blog/elastic-jina-ai"
+  ]
+ },
+ {
+  "id": "kittenml-kitten-tts",
+  "name": "KittenML (Kitten TTS)",
+  "verdict": "borderline",
+  "verdict_reason": "Tiny open CPU-only TTS models for edge; appears a small open-source project, entity unclear.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/KittenML/KittenTTS",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2025,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Ultra-small open-source text-to-speech models for CPUs and edge devices",
+  "problem": "Voice features need TTS small enough to run on-device without GPU",
+  "products": [
+   {
+    "name": "Kitten TTS",
+    "category": "model",
+    "description": "15M-80M parameter open TTS models under 25-80MB, CPU-only"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sub-25MB high-quality TTS running in real time on CPUs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/KittenML/KittenTTS",
+   "https://getstream.io/blog/best-on-device-tts-models/"
+  ]
+ },
+ {
+  "id": "krutrim",
+  "name": "Krutrim",
+  "verdict": "borderline",
+  "verdict_reason": "Indian LLM and sovereign AI cloud; open-weight models, but local deployment is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Ola group (ANI Technologies)",
+  "website": "https://www.olakrutrim.com",
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": 50,
+  "last_round": "Equity round, $50M, Jan 2024, at ~$1B valuation (unverified)",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Matrix Partners India",
+   "Bhavish Aggarwal"
+  ],
+  "employees": 500,
+  "employees_band": "201-500",
+  "focus": "Indian-language LLMs, sovereign AI cloud and planned chips",
+  "problem": "India lacks domestic-language models and in-country AI compute",
+  "products": [
+   {
+    "name": "Krutrim LLMs",
+    "category": "model",
+    "description": "Indian-language foundation models, some open-weight"
+   },
+   {
+    "name": "Krutrim Cloud",
+    "category": "service",
+    "description": "India-hosted AI cloud and GPU compute"
+   },
+   {
+    "name": "Kruti",
+    "category": "app",
+    "description": "Agentic assistant for Indian languages"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sovereign Indian-language AI stack from the Ola group.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.olakrutrim.com"
+  ]
+ },
+ {
+  "id": "kyutai",
+  "name": "Kyutai",
+  "verdict": "in",
+  "verdict_reason": "Open-science lab whose Moshi and Pocket TTS models are designed to run locally on devices/CPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://kyutai.org",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2023,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": 330,
+  "last_round": "Founding donations, ~EUR 300M, 2023",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Xavier Niel",
+   "Rodolphe Saade (CMA CGM)",
+   "Eric Schmidt"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Open research on efficient speech and language models",
+  "problem": "Voice AI is dominated by closed cloud models; open, local alternatives are scarce",
+  "products": [
+   {
+    "name": "Moshi",
+    "category": "model",
+    "description": "Open real-time full-duplex speech-text foundation model"
+   },
+   {
+    "name": "Pocket TTS",
+    "category": "model",
+    "description": "100M-parameter open TTS running real-time on CPU"
+   },
+   {
+    "name": "Kyutai STT/TTS",
+    "category": "model",
+    "description": "Open streaming speech-to-text and text-to-speech models"
+   },
+   {
+    "name": "Helium",
+    "category": "model",
+    "description": "Open 2B-parameter multilingual language model"
+   },
+   {
+    "name": "Hibiki",
+    "category": "model",
+    "description": "Real-time speech translation model"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "embedded-iot",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Non-profit funded lab shipping open real-time voice models small enough for devices.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://kyutai.org",
+   "https://github.com/kyutai-labs/pocket-tts"
+  ]
+ },
+ {
+  "id": "latent-ai",
+  "name": "Latent AI",
+  "verdict": "in",
+  "verdict_reason": "Dedicated edge MLOps platform (LEIP) to compress, secure and deploy models on edge hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://latentai.com",
+  "hq_city": "Princeton",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 34.5,
+  "last_round": "Strategic investment, undisclosed, Aug 2025, by Voyager Technologies",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Voyager Technologies",
+   "Perot Jain",
+   "Autotech Ventures"
+  ],
+  "employees": 50,
+  "employees_band": "11-50",
+  "focus": "Edge AI optimization and deployment platform for defense and industry",
+  "problem": "Models must run securely on constrained, disconnected tactical and industrial hardware",
+  "products": [
+   {
+    "name": "LEIP Optimize",
+    "category": "sdk",
+    "description": "Compiler/quantizer producing optimized models for target edge hardware"
+   },
+   {
+    "name": "LEIP Pipeline",
+    "category": "platform",
+    "description": "Edge MLOps pipeline for packaging and updating deployed models"
+   },
+   {
+    "name": "LEIP Design",
+    "category": "platform",
+    "description": "Hardware-aware model design and benchmarking tooling"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "vehicle-robot-drone",
+   "camera",
+   "air-gapped"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime",
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense",
+   "industrial-manufacturing",
+   "security-surveillance"
+  ],
+  "partners": [
+   "Voyager",
+   "Arm",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Defense-grade edge optimization with SRI roots and secure deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250818734194/en/Voyager-and-Latent-AI-Bring-Advanced-AI-to-Orbit",
+   "https://www.cbinsights.com/company/latent-ai/financials"
+  ]
+ },
+ {
+  "id": "lelapa-ai",
+  "name": "Lelapa AI",
+  "verdict": "borderline",
+  "verdict_reason": "African-language AI lab; small InkubaLM suits devices but local deployment is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lelapa.ai",
+  "hq_city": "Johannesburg",
+  "hq_country": "South Africa",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Mozilla Ventures"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "African-language AI models and products (InkubaLM, Vulavula)",
+  "problem": "Mainstream AI poorly serves African languages and low-resource devices",
+  "products": [
+   {
+    "name": "InkubaLM",
+    "category": "model",
+    "description": "Small open multilingual model for African languages, low-resource devices"
+   },
+   {
+    "name": "Vulavula",
+    "category": "service",
+    "description": "African-language speech and text API"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Purpose-built African-language models designed for low-resource settings.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://lelapa.ai"
+  ]
+ },
+ {
+  "id": "lighton",
+  "name": "LightOn",
+  "verdict": "in",
+  "verdict_reason": "Paradigm platform deployed on-prem or sovereign cloud is its core enterprise offering.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lighton.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2016,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (Euronext Growth Paris: ALLIT)",
+  "key_investors": [],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "Sovereign enterprise GenAI platform and open retrieval models",
+  "problem": "Enterprises cannot expose sensitive data to public AI clouds",
+  "products": [
+   {
+    "name": "Paradigm",
+    "category": "platform",
+    "description": "Enterprise GenAI and agent platform deployed on-prem or in sovereign clouds"
+   },
+   {
+    "name": "Alfred",
+    "category": "app",
+    "description": "Enterprise assistant built on Paradigm"
+   },
+   {
+    "name": "ModernBERT",
+    "category": "model",
+    "description": "Open encoder model co-created with Answer.AI"
+   },
+   {
+    "name": "LightOn retrieval models",
+    "category": "model",
+    "description": "Open multi-vector ColBERT-style retrieval models"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "models",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "finance",
+   "enterprise",
+   "legal"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Scaleway"
+  ],
+  "notable_customers": [],
+  "differentiator": "Euronext-listed European vendor with sovereign deployment and open retrieval research.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.lighton.ai",
+   "https://huggingface.co/lightonai"
+  ]
+ },
+ {
+  "id": "lightricks",
+  "name": "Lightricks",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight LTX video models run on consumer GPUs, but main business is creative apps.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lightricks.com",
+  "hq_city": "Jerusalem",
+  "hq_country": "Israel",
+  "founded": 2013,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 335,
+  "last_round": "Series D, $130M, 2021, at $1.8B valuation",
+  "valuation_usd_m": 1800,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Insight Partners",
+   "Viola Growth",
+   "Goldman Sachs"
+  ],
+  "employees": 600,
+  "employees_band": "501-1000",
+  "focus": "Creative apps plus open-weight LTX video generation models",
+  "problem": "Creators want video generation on their own GPUs rather than metered cloud tools",
+  "products": [
+   {
+    "name": "LTX-Video",
+    "category": "model",
+    "description": "Open-weight real-time video generation model"
+   },
+   {
+    "name": "LTX-2",
+    "category": "model",
+    "description": "Open-weight audio-video generation model runnable on consumer GPUs"
+   },
+   {
+    "name": "LTX Studio",
+    "category": "app",
+    "description": "Video creation platform"
+   },
+   {
+    "name": "Facetune/Videoleap",
+    "category": "app",
+    "description": "Consumer creative apps with on-device AI features"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Fast open video models designed for consumer hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/Lightricks/LTX-Video",
+   "https://www.lightricks.com"
+  ]
+ },
+ {
+  "id": "literal-labs",
+  "name": "Literal Labs",
+  "verdict": "in",
+  "verdict_reason": "Tsetlin-machine logic AI built specifically for fast inference on MCUs and edge CPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.literal-labs.ai",
+  "hq_city": "Newcastle upon Tyne",
+  "hq_country": "United Kingdom",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 6.2,
+  "last_round": "Pre-seed, GBP 4.6M, Jun 2025, led by Northern Gritstone and Mercuri",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Northern Gritstone",
+   "Mercuri",
+   "Sure Valley Ventures",
+   "Cambridge Future Tech"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Logic-based, energy-efficient AI models for edge hardware",
+  "problem": "Neural networks are too energy-hungry and opaque for microcontrollers and edge devices",
+  "products": [
+   {
+    "name": "Literal Labs models",
+    "category": "model",
+    "description": "Tsetlin-machine logic models for classification and anomaly detection"
+   },
+   {
+    "name": "Literal Labs toolkit",
+    "category": "sdk",
+    "description": "Training and deployment tools for logic-based models on edge CPUs/MCUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "consumer-electronics-oem",
+   "automotive"
+  ],
+  "partners": [
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Explainable logic models claimed orders of magnitude lower energy than neural nets.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2025/06/02/literal-labs-raises-ps46m-to-advance-energy-eeficient-ai-models/",
+   "https://www.ncl.ac.uk/press/articles/latest/2025/06/literallabs/"
+  ]
+ },
+ {
+  "id": "luminal",
+  "name": "Luminal",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source ML compiler targeting local hardware; commercial product is cloud inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://luminal.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 5.3,
+  "last_round": "Seed, ~$5.3M, 2025, led by Felicis (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Felicis",
+   "Y Combinator"
+  ],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "ML compiler searching kernel optimizations for fast inference",
+  "problem": "Model inference is slow and hard to port across GPUs and local hardware",
+  "products": [
+   {
+    "name": "Luminal compiler",
+    "category": "runtime",
+    "description": "Open-source Rust ML library/compiler with search-based kernel optimization"
+   },
+   {
+    "name": "Luminal Cloud",
+    "category": "service",
+    "description": "Serverless inference using the compiler"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Search-based compilation instead of hand-written kernels.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/luminal-ai/luminal"
+  ]
+ },
+ {
+  "id": "manifest-ai",
+  "name": "Manifest AI",
+  "verdict": "out",
+  "verdict_reason": "Research lab on power-retention architectures; no local product or offering found.",
+  "status": "active",
+  "status_detail": null,
+  "website": "https://manifestai.com"
+ },
+ {
+  "id": "minimax",
+  "name": "MiniMax",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight M-series MoE models available for self-hosting; company is mainly cloud/consumer apps.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.minimax.io",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2021,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX); IPO Jan 2026, unverified",
+  "key_investors": [
+   "Alibaba",
+   "Tencent",
+   "HongShan"
+  ],
+  "employees": 400,
+  "employees_band": "201-500",
+  "focus": "Multimodal foundation models: MiniMax-M LLMs, Hailuo video, speech",
+  "problem": "Teams want frontier agentic-coding models they can run privately",
+  "products": [
+   {
+    "name": "MiniMax-M1 / M2",
+    "category": "model",
+    "description": "Open-weight MoE LLMs for reasoning and agentic coding"
+   },
+   {
+    "name": "Hailuo",
+    "category": "model",
+    "description": "Video generation models (cloud)"
+   },
+   {
+    "name": "MiniMax Speech",
+    "category": "model",
+    "description": "Speech synthesis models (cloud)"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-weight agentic MoE models alongside multimodal consumer apps.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.minimax.io",
+   "https://huggingface.co/MiniMaxAI"
+  ]
+ },
+ {
+  "id": "mipsology",
+  "name": "Mipsology",
+  "verdict": "out",
+  "verdict_reason": "Acquired by AMD (Aug 2023); FPGA inference software folded into AMD, no independent offering.",
+  "status": "acquired",
+  "status_detail": "Acquired by AMD (announced Aug 24, 2023), confirmed by AMD blog; one database misdates to 2024",
+  "website": "https://mipsology.com"
+ },
+ {
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "verdict": "in",
+  "verdict_reason": "Open-weight edge models (Ministral) and dedicated self-hosted/on-prem enterprise deployments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mistral.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 3200,
+  "last_round": "Series C, EUR 1.7B, Sep 2025, led by ASML (unverified)",
+  "valuation_usd_m": 13700,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "ASML",
+   "a16z",
+   "General Catalyst",
+   "Lightspeed",
+   "Bpifrance",
+   "NVIDIA",
+   "Microsoft"
+  ],
+  "employees": 700,
+  "employees_band": "501-1000",
+  "focus": "Frontier and open-weight LLMs with private, on-prem deployment",
+  "problem": "Enterprises and governments need strong models running on their own infrastructure",
+  "products": [
+   {
+    "name": "Ministral 3B/8B",
+    "category": "model",
+    "description": "Open-weight small models for on-device and edge"
+   },
+   {
+    "name": "Mistral Small / Medium / Large",
+    "category": "model",
+    "description": "Open and commercial LLMs for self-hosting"
+   },
+   {
+    "name": "Magistral",
+    "category": "model",
+    "description": "Reasoning models"
+   },
+   {
+    "name": "Devstral",
+    "category": "model",
+    "description": "Open coding agent models"
+   },
+   {
+    "name": "Voxtral",
+    "category": "model",
+    "description": "Open speech understanding and TTS models"
+   },
+   {
+    "name": "Le Chat Enterprise / AI Studio",
+    "category": "platform",
+    "description": "Enterprise platform deployable self-hosted, VPC or on-prem"
+   },
+   {
+    "name": "Mistral Compute",
+    "category": "service",
+    "description": "Sovereign AI infrastructure offering for European customers"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "speech-audio",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell",
+   "Microsoft",
+   "SAP"
+  ],
+  "notable_customers": [
+   "BNP Paribas",
+   "Stellantis",
+   "CMA CGM"
+  ],
+  "differentiator": "Europe's leading frontier lab with open weights and sovereign deployment options.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://mistral.ai",
+   "https://www.fierce-network.com/cloud/dell-builds-sovereign-ai-stack-prem-era"
+  ]
+ }
+]
