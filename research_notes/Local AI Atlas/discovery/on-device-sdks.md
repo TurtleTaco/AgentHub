@@ -132,5 +132,4 @@ No standalone, funded startup focused purely on routing between on-device and cl
 - **consumer-local-apps:** Ollama, LM Studio, Jan, Locally AI, Open Home Foundation.
 - **private-ai-platforms:** webAI. **vertical-regulated:** Edgerunner AI. **international:** ThunderSoft.
 - **Excluded (cloud-only):** TrustedRouter and OpenRouter (cloud routers).
-- **Excluded (out of scope here):** Iconic is included as an on-device game-AI engine.
 - **Seen but not added for lack of detail:** SiMa.ai (edge silicon, runs Cerence CaLLM Edge), Callstack (react-native-ai), Useful Sensors (Moonshine parent/predecessor, Torre translator).
