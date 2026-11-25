@@ -987,5 +987,965 @@
   },
   "basis": "knowledge",
   "sources": []
+ },
+ {
+  "id": "bosch",
+  "name": "Robert Bosch GmbH",
+  "verdict": "in",
+  "verdict_reason": "Bosch Sensortec sells smart sensors with on-sensor AI; Bosch supplies on-vehicle ADAS compute and software to automakers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.bosch.com",
+  "hq_city": "Gerlingen (Stuttgart)",
+  "hq_country": "Germany",
+  "founded": 1886,
+  "org_type": "big-tech",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Private, foundation-owned (Robert Bosch Stiftung); 2024 sales ~EUR 90B",
+  "key_investors": [],
+  "employees": 418000,
+  "employees_band": "10000+",
+  "focus": "Automotive and industrial supplier; smart MEMS sensors and in-vehicle AI compute",
+  "problem": "Wearables and vehicles need always-on AI processing that is low-power, low-latency and works without connectivity.",
+  "products": [
+   {
+    "name": "Bosch Sensortec smart sensors (BHI380, BHI260AP)",
+    "category": "chip",
+    "description": "IMU-based smart sensor systems with integrated self-learning AI for fitness and gesture recognition."
+   },
+   {
+    "name": "BME688 gas sensor with BME AI-Studio",
+    "category": "chip",
+    "description": "AI-trainable gas sensor for odor and air-quality detection, with desktop training software."
+   },
+   {
+    "name": "Bosch ADAS and vehicle computers",
+    "category": "system",
+    "description": "Driver-assistance and central vehicle computers running perception AI on board."
+   }
+  ],
+  "deployment": [
+   "wearable-xr",
+   "embedded-iot",
+   "mobile",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Embeds machine learning directly inside MEMS sensors for ultra-low-power, always-on inference.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "bytedance-seed",
+  "name": "ByteDance Ltd. (ByteDance Seed)",
+  "verdict": "borderline",
+  "verdict_reason": "Seed team releases open-weight models (Seed-OSS, UI-TARS, BAGEL) usable locally; core AI business is cloud-hosted Doubao.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://seed.bytedance.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2012,
+  "org_type": "big-tech",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SIG",
+   "General Atlantic",
+   "KKR",
+   "HongShan (Sequoia China)",
+   "SoftBank Vision Fund",
+   "Coatue"
+  ],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "ByteDance's foundation-model research team, releasing selected open-weight LLM, agent and multimodal models",
+  "problem": "Developers need strong open models for self-hosted chat, GUI agents and multimodal tasks.",
+  "products": [
+   {
+    "name": "Seed-OSS-36B",
+    "category": "model",
+    "description": "Open-weight 36B LLM with long context, Apache 2.0, released August 2025."
+   },
+   {
+    "name": "UI-TARS / UI-TARS-desktop",
+    "category": "model",
+    "description": "Open GUI-agent models and desktop app for local computer-use automation."
+   },
+   {
+    "name": "BAGEL",
+    "category": "model",
+    "description": "Open-weight unified multimodal model for image understanding, generation and editing."
+   },
+   {
+    "name": "Seed-Coder-8B",
+    "category": "model",
+    "description": "Open 8B code models for self-hosted coding assistance."
+   },
+   {
+    "name": "Seed-X-7B",
+    "category": "model",
+    "description": "Open 7B multilingual translation model."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open agentic GUI and unified multimodal models from one of China's largest AI labs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "cisco",
+  "name": "Cisco Systems, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Markets AI PODs, Secure AI Factory with NVIDIA and Unified Edge as on-prem and edge AI infrastructure.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.cisco.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 1984,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: CSCO)",
+  "key_investors": [],
+  "employees": 86000,
+  "employees_band": "10000+",
+  "focus": "Networking, security and UCS compute packaged into validated on-prem AI infrastructure",
+  "problem": "Enterprises and governments need secure, validated infrastructure to run AI on-premises without integrating components themselves.",
+  "products": [
+   {
+    "name": "Cisco Secure AI Factory with NVIDIA",
+    "category": "platform",
+    "description": "Validated on-prem AI stack combining Cisco compute, networking and security with NVIDIA AI software."
+   },
+   {
+    "name": "Cisco AI PODs",
+    "category": "system",
+    "description": "Pre-validated, pre-sized infrastructure bundles for on-prem AI inference and RAG."
+   },
+   {
+    "name": "UCS C885A M8 / C845A M8",
+    "category": "system",
+    "description": "GPU servers for on-prem AI training and inference."
+   },
+   {
+    "name": "Cisco Unified Edge",
+    "category": "system",
+    "description": "Integrated compute, networking and security platform for AI inference at distributed sites."
+   },
+   {
+    "name": "Nexus HyperFabric AI",
+    "category": "system",
+    "description": "Cloud-managed AI cluster networking fabric for on-prem GPU deployments."
+   },
+   {
+    "name": "Cisco AI Defense",
+    "category": "platform",
+    "description": "Security for AI models and applications, including validation and runtime guardrails."
+   },
+   {
+    "name": "Foundation-sec-8b",
+    "category": "model",
+    "description": "Open-weight security-focused LLM from Cisco Foundation AI for self-hosted security workflows."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "security-privacy",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "retail",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Nutanix",
+   "NetApp",
+   "Pure Storage",
+   "VAST Data",
+   "Hitachi Vantara",
+   "Red Hat",
+   "Palantir"
+  ],
+  "notable_customers": [],
+  "differentiator": "Security and networking embedded throughout a validated NVIDIA-based on-prem AI factory stack.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "cloudera",
+  "name": "Cloudera, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Markets 'private AI' via Cloudera AI and AI Inference service (NVIDIA NIM) running in customer data centers.",
+  "status": "acquired",
+  "status_detail": "Taken private by KKR and Clayton, Dubilier & Rice (2021, ~$5.3B); operates independently",
+  "parent": "KKR; Clayton, Dubilier & Rice",
+  "website": "https://www.cloudera.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2008,
+  "org_type": "scaleup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Take-private by KKR and CD&R, ~$5.3B, Oct 2021",
+  "valuation_usd_m": 5300,
+  "market_cap_or_revenue": "Private (PE-owned since 2021)",
+  "key_investors": [
+   "KKR",
+   "Clayton, Dubilier & Rice"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Hybrid data platform with private AI, inference and analytics for regulated enterprises",
+  "problem": "Regulated enterprises want generative AI on their data without moving it to public-cloud AI services.",
+  "products": [
+   {
+    "name": "Cloudera AI Inference service",
+    "category": "platform",
+    "description": "Model serving built with NVIDIA NIM, deployable on-premises or in cloud for private LLM inference."
+   },
+   {
+    "name": "Cloudera AI (AI Studios)",
+    "category": "platform",
+    "description": "Workbench for building, fine-tuning and deploying ML and GenAI apps, including RAG studios."
+   },
+   {
+    "name": "Cloudera Data Services on premises",
+    "category": "platform",
+    "description": "Kubernetes-based data and AI services running in customer data centers."
+   },
+   {
+    "name": "Cloudera Data Platform",
+    "category": "platform",
+    "description": "Hybrid data lakehouse supplying governed data to on-prem AI workloads."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare",
+   "government-defense",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell",
+   "AWS",
+   "Microsoft",
+   "Google Cloud"
+  ],
+  "notable_customers": [],
+  "differentiator": "Brings AI to data already governed in its hybrid platform, keeping models next to on-prem data.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "dell-technologies",
+  "name": "Dell Technologies Inc.",
+  "verdict": "in",
+  "verdict_reason": "Leading on-prem AI infrastructure vendor: Dell AI Factory servers, GB10/GB300 deskside systems, NativeEdge and AI PCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.dell.com",
+  "hq_city": "Round Rock",
+  "hq_country": "United States",
+  "founded": 1984,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: DELL)",
+  "key_investors": [],
+  "employees": 108000,
+  "employees_band": "10000+",
+  "focus": "PCs, servers, storage and edge platforms for on-prem and deskside enterprise AI",
+  "problem": "Enterprises need turnkey infrastructure to run AI on their own data inside their own facilities.",
+  "products": [
+   {
+    "name": "Dell AI Factory (with NVIDIA, AMD, Intel)",
+    "category": "platform",
+    "description": "End-to-end on-prem AI offering bundling servers, storage, networking, software and services."
+   },
+   {
+    "name": "PowerEdge XE AI servers (XE9680, XE9780, XE9712)",
+    "category": "system",
+    "description": "GPU servers and rack-scale systems for on-prem AI training and inference."
+   },
+   {
+    "name": "Dell Pro Max with GB10 / GB300",
+    "category": "system",
+    "description": "Deskside AI workstations based on NVIDIA Grace Blackwell for local large-model development."
+   },
+   {
+    "name": "Dell NativeEdge",
+    "category": "platform",
+    "description": "Edge operations software for zero-touch provisioning and orchestration of AI workloads at distributed sites."
+   },
+   {
+    "name": "Dell AI Data Platform (PowerScale, ObjectScale)",
+    "category": "system",
+    "description": "Storage and data management feeding on-prem AI pipelines."
+   },
+   {
+    "name": "Dell Pro AI Studio",
+    "category": "sdk",
+    "description": "Toolkit for developers to build and deploy on-device AI apps on Dell AI PCs."
+   },
+   {
+    "name": "Dell Enterprise Hub on Hugging Face",
+    "category": "platform",
+    "description": "Curated, Dell-optimized open models packaged for on-prem deployment."
+   },
+   {
+    "name": "Dell Pro Copilot+ AI PCs",
+    "category": "device",
+    "description": "NPU-equipped commercial laptops for on-device AI."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "healthcare",
+   "finance",
+   "industrial-manufacturing",
+   "retail",
+   "telecom",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Hugging Face",
+   "Meta",
+   "Google",
+   "Mistral AI",
+   "Palantir",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Broadest enterprise portfolio from AI PCs to rack-scale, packaged as Dell AI Factory with global services.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "fujitsu",
+  "name": "Fujitsu Limited",
+  "verdict": "in",
+  "verdict_reason": "Offers Takane LLM (with Cohere) and Kozuchi AI platform for private/on-prem deployment, plus PRIMERGY GPU servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.fujitsu.com",
+  "hq_city": "Kawasaki",
+  "hq_country": "Japan",
+  "founded": 1935,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TYO: 6702)",
+  "key_investors": [],
+  "employees": 113000,
+  "employees_band": "10000+",
+  "focus": "Japanese IT services firm offering private enterprise LLMs, AI platforms and servers",
+  "problem": "Japanese enterprises and government need secure generative AI that keeps sensitive data inside their own environments.",
+  "products": [
+   {
+    "name": "Takane",
+    "category": "model",
+    "description": "Japanese-optimized enterprise LLM co-developed with Cohere, deployable in private environments."
+   },
+   {
+    "name": "Fujitsu Kozuchi",
+    "category": "platform",
+    "description": "AI service platform bundling Fujitsu AI technologies and generative AI for enterprises."
+   },
+   {
+    "name": "LLM quantization / reconstruction technology",
+    "category": "sdk",
+    "description": "Low-bit (down to ~1-bit) compression of Takane for lightweight, lower-cost deployment."
+   },
+   {
+    "name": "PRIMERGY GPU servers",
+    "category": "system",
+    "description": "x86 servers configured with GPUs for on-prem AI workloads."
+   },
+   {
+    "name": "FUJITSU-MONAKA",
+    "category": "chip",
+    "description": "Arm-based datacenter CPU in development for energy-efficient AI and HPC, targeted for 2027."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "model-optimization",
+   "ai-platform",
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Cohere",
+   "NVIDIA",
+   "AMD",
+   "Supermicro"
+  ],
+  "notable_customers": [],
+  "differentiator": "Combines Japanese-tuned private LLMs, model compression research and systems integration for regulated Japanese customers.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "g42",
+  "name": "G42 (Group 42 Holding Ltd)",
+  "verdict": "in",
+  "verdict_reason": "Builds sovereign AI stacks and in-country compute via Core42, plus open Arabic and multilingual models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.g42.ai",
+  "hq_city": "Abu Dhabi",
+  "hq_country": "United Arab Emirates",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "Strategic investment, $1.5B, Apr 2024, Microsoft",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Mubadala",
+   "Silver Lake",
+   "Microsoft"
+  ],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Sovereign AI infrastructure, cloud and models for the UAE and partner governments",
+  "problem": "Governments need national AI compute and models under their own jurisdiction rather than foreign hyperscalers.",
+  "products": [
+   {
+    "name": "Core42",
+    "category": "platform",
+    "description": "Sovereign cloud and AI infrastructure subsidiary offering in-country GPU compute and sovereign public cloud."
+   },
+   {
+    "name": "Jais (Inception)",
+    "category": "model",
+    "description": "Open-weight Arabic-English LLM family developed by G42's Inception with MBZUAI and Cerebras."
+   },
+   {
+    "name": "K2 Think",
+    "category": "model",
+    "description": "Open 32B reasoning model released with MBZUAI in 2025."
+   },
+   {
+    "name": "Nanda / Sherkala",
+    "category": "model",
+    "description": "Open language models for Hindi and Kazakh built for national sovereign use."
+   },
+   {
+    "name": "Stargate UAE",
+    "category": "system",
+    "description": "Planned 1GW Abu Dhabi AI compute cluster with OpenAI, Oracle, NVIDIA, Cisco and SoftBank."
+   },
+   {
+    "name": "Khazna Data Centers",
+    "category": "system",
+    "description": "Data center developer building sovereign AI capacity in the UAE and abroad."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "models",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "healthcare",
+   "energy-utilities",
+   "finance"
+  ],
+  "partners": [
+   "Microsoft",
+   "OpenAI",
+   "NVIDIA",
+   "Oracle",
+   "Cerebras",
+   "AMD",
+   "Qualcomm",
+   "Cisco",
+   "MBZUAI"
+  ],
+  "notable_customers": [
+   "Government of the UAE"
+  ],
+  "differentiator": "State-backed national champion delivering full-stack sovereign AI from data centers to culturally specific models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "gigabyte",
+  "name": "GIGA-BYTE Technology Co., Ltd. (GIGABYTE)",
+  "verdict": "in",
+  "verdict_reason": "AI TOP line of local AI training/inference desktops with own software, plus GIGAPOD and GPU servers via Giga Computing.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.gigabyte.com",
+  "hq_city": "New Taipei City",
+  "hq_country": "Taiwan",
+  "founded": 1986,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TWSE: 2376)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "Motherboards, GPUs, AI TOP local-AI desktops and GPU servers",
+  "problem": "Developers and SMBs want to fine-tune and run large models locally without datacenter infrastructure or cloud costs.",
+  "products": [
+   {
+    "name": "AI TOP desktops and components",
+    "category": "system",
+    "description": "Desktop systems and parts built for local LLM fine-tuning and inference."
+   },
+   {
+    "name": "AI TOP Atom",
+    "category": "system",
+    "description": "NVIDIA GB10-based compact desktop AI supercomputer."
+   },
+   {
+    "name": "AI TOP Utility",
+    "category": "app",
+    "description": "Software for local model fine-tuning, memory offloading and inference on AI TOP hardware."
+   },
+   {
+    "name": "GIGAPOD",
+    "category": "system",
+    "description": "Rack-scale GPU cluster solution for on-prem AI factories."
+   },
+   {
+    "name": "Giga Computing GPU servers",
+    "category": "system",
+    "description": "NVIDIA and AMD GPU servers for on-prem training and inference."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "smb",
+   "enterprise",
+   "education-research",
+   "consumers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Phison"
+  ],
+  "notable_customers": [],
+  "differentiator": "Consumer-channel desktop hardware plus software purpose-built for local fine-tuning of large models.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "google",
+  "name": "Google LLC (Alphabet Inc.)",
+  "verdict": "in",
+  "verdict_reason": "Gemini Nano on Android/Chrome, Gemma open models, LiteRT runtime, Coral edge silicon and air-gapped Gemini on GDC.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Alphabet Inc.",
+  "website": "https://ai.google.dev/edge",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 1998,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public via parent Alphabet (NASDAQ: GOOGL)",
+  "key_investors": [],
+  "employees": 190000,
+  "employees_band": "10000+",
+  "focus": "On-device Gemini Nano, Gemma open models, edge runtimes and sovereign on-prem Gemini",
+  "problem": "Developers and regulated organizations need Google-grade models that run on devices or inside their own facilities.",
+  "products": [
+   {
+    "name": "Gemini Nano (Android AICore)",
+    "category": "model",
+    "description": "On-device Gemini model running on Pixel, Samsung and other Android devices via AICore."
+   },
+   {
+    "name": "Built-in AI in Chrome",
+    "category": "runtime",
+    "description": "Gemini Nano-powered browser APIs (Prompt, Summarizer, Translator) running locally in Chrome."
+   },
+   {
+    "name": "Gemma (Gemma 3, Gemma 3n, EmbeddingGemma, MedGemma)",
+    "category": "model",
+    "description": "Open-weight models from 270M to 27B, including mobile-first Gemma 3n for phones and laptops."
+   },
+   {
+    "name": "LiteRT / LiteRT-LM",
+    "category": "runtime",
+    "description": "On-device inference runtime (formerly TensorFlow Lite) with GPU/NPU acceleration and LLM support."
+   },
+   {
+    "name": "MediaPipe / Google AI Edge",
+    "category": "sdk",
+    "description": "Cross-platform on-device ML pipelines and LLM Inference API for Android, iOS and web."
+   },
+   {
+    "name": "Google Distributed Cloud (air-gapped and connected)",
+    "category": "platform",
+    "description": "On-prem and air-gapped Google Cloud hardware/software stack offering Gemini models."
+   },
+   {
+    "name": "Coral (Edge TPU, Coral NPU)",
+    "category": "chip",
+    "description": "Edge TPU accelerators and open-source RISC-V Coral NPU IP for low-power edge AI."
+   },
+   {
+    "name": "Tensor G-series SoCs",
+    "category": "chip",
+    "description": "Pixel SoCs with TPU blocks running Gemini Nano on-device."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "browser",
+   "pc-workstation",
+   "embedded-iot",
+   "wearable-xr",
+   "edge-server",
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "models",
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "consumers",
+   "consumer-electronics-oem",
+   "government-defense",
+   "enterprise",
+   "healthcare"
+  ],
+  "partners": [
+   "Samsung",
+   "Qualcomm",
+   "MediaTek",
+   "NVIDIA",
+   "Dell",
+   "Cisco"
+  ],
+  "notable_customers": [],
+  "differentiator": "Spans browser, phone and air-gapped datacenter with the same Gemini and Gemma model families.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "hewlett-packard-enterprise",
+  "name": "Hewlett Packard Enterprise Company",
+  "verdict": "in",
+  "verdict_reason": "HPE Private Cloud AI turnkey on-prem stack with NVIDIA, ProLiant GPU servers, Cray systems and edge servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.hpe.com",
+  "hq_city": "Houston",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: HPE)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Enterprise servers, storage and networking delivering turnkey private and sovereign AI clouds",
+  "problem": "Enterprises need a fast, governed way to run GenAI on-premises without assembling hardware and software themselves.",
+  "products": [
+   {
+    "name": "HPE Private Cloud AI",
+    "category": "platform",
+    "description": "Turnkey on-prem AI cloud co-engineered with NVIDIA, delivered via GreenLake."
+   },
+   {
+    "name": "HPE AI Essentials",
+    "category": "platform",
+    "description": "Software for data pipelines, model serving and governance within Private Cloud AI."
+   },
+   {
+    "name": "HPE ProLiant Compute XD / DL380a Gen12",
+    "category": "system",
+    "description": "GPU servers for on-prem AI training and inference."
+   },
+   {
+    "name": "HPE Cray supercomputing (EX, XD)",
+    "category": "system",
+    "description": "Supercomputing systems for sovereign and research AI factories."
+   },
+   {
+    "name": "HPE Edgeline / ProLiant edge servers",
+    "category": "system",
+    "description": "Ruggedized edge servers for AI inference in remote and disconnected sites."
+   },
+   {
+    "name": "HPE Alletra Storage MP X10000",
+    "category": "system",
+    "description": "Object storage optimized for AI data pipelines."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research",
+   "healthcare",
+   "finance",
+   "telecom",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Turnkey private AI cloud consumed as-a-service via GreenLake, plus Cray supercomputing for sovereign AI.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
  }
 ]

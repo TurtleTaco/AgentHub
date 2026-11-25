@@ -2573,5 +2573,547 @@
    "https://ebrains.eu/news-and-events/2025/brain-tech-in-action-german-spinncloud-computing-startup-secures-funding-of-10",
    "https://tu-dresden.de/tu-dresden/newsportal/news/milestone-for-energy-efficient-ai-systems-tud-launches-spinncloud-supercomputer?set_language=en"
   ]
+ },
+ {
+  "id": "taalas",
+  "name": "Taalas Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Pre-commercial model-specific inference ASICs; now absorbed into AMD's datacenter accelerator roadmap.",
+  "status": "acquired",
+  "status_detail": "Acquired by AMD (announced Aug 2026, closed Nov 2026; terms undisclosed)",
+  "parent": "AMD",
+  "website": "https://taalas.com",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 219,
+  "last_round": "$169M, Feb 2026 (Quiet Capital, Fidelity, Pierre Lamond); acquired by AMD Nov 2026",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Quiet Capital",
+   "Fidelity",
+   "Pierre Lamond"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Hard-wiring specific AI model weights into custom silicon for ultra-efficient inference",
+  "problem": "General-purpose accelerators make fixed-model inference far costlier and slower than necessary.",
+  "products": [
+   {
+    "name": "HC1",
+    "category": "chip",
+    "description": "Model-specific chip running Llama 3.1 8B at ~17k tokens/s with weights etched in silicon."
+   },
+   {
+    "name": "Hardcore model silicon platform",
+    "category": "ip",
+    "description": "Automated flow to turn a given model into a dedicated inference ASIC."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Etches model weights directly into silicon, trading flexibility for order-of-magnitude efficiency.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ir.amd.com/news-events/press-releases/detail/1296",
+   "https://www.techpowerup.com/354943/amd-completes-acquisition-of-taalas-to-advance-ai-inference",
+   "https://betakit.com/us-chip-giant-amd-to-acquire-taalas/",
+   "https://www.datacenterdynamics.com/en/news/amd-acquires-ai-chip-startup-taalas-to-further-support-inference-workloads/",
+   "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/"
+  ]
+ },
+ {
+  "id": "tensordyne-formerly-recogni",
+  "name": "Tensordyne (formerly Recogni)",
+  "verdict": "in",
+  "verdict_reason": "Log-math inference chips in air-cooled pods designed to drop into existing customer datacenters.",
+  "status": "active",
+  "status_detail": "Rebranded from Recogni (Sep 2025); pivoted from automotive vision to datacenter GenAI inference",
+  "parent": null,
+  "website": null,
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 176,
+  "last_round": "Series C, $102M, 2024 (as Recogni), co-led by Celesta Capital and GreatPoint Ventures; Series D in preparation (2026)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Celesta Capital",
+   "GreatPoint Ventures",
+   "Juniper Networks",
+   "BMW i Ventures",
+   "Mayfield",
+   "Robert Bosch Venture Capital",
+   "Toyota Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Logarithmic-number-system AI inference processors and pod systems",
+  "problem": "GPU inference racks need liquid cooling and heavy power that existing datacenters cannot supply.",
+  "products": [
+   {
+    "name": "Napier",
+    "category": "chip",
+    "description": "TSMC 3nm log-math inference processor, 2.1 PFLOPS 8-bit, 144GB HBM3E; shipping late 2026."
+   },
+   {
+    "name": "TDN Pod",
+    "category": "system",
+    "description": "Air-cooled quarter-rack inference pod for existing datacenters; beta Q1 2027."
+   },
+   {
+    "name": "Tensordyne software stack",
+    "category": "runtime",
+    "description": "Compiler/runtime converting models to log-math execution on Napier."
+   },
+   {
+    "name": "Scorpio (legacy)",
+    "category": "chip",
+    "description": "Original Recogni automotive perception inference chip."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Broadcom",
+   "Juniper Networks (HPE)",
+   "TSMC"
+  ],
+  "notable_customers": [],
+  "differentiator": "Logarithmic math replaces multipliers with adders, cutting inference power enough for air cooling.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.runtimewire.com/article/tensordyne-napier-log-math-ai-inference-chip",
+   "https://www.nextplatform.com/compute/2026/06/16/tensordyne-converts-ai-matrix-math-to-logs-to-crank-up-inference-oomph/5256558",
+   "https://convergedigest.com/tensordyne-tapes-out-3nm-napier-ai-inference-proce/",
+   "https://www.globalbankingandfinance.com/chip-startup-tensordyne-expects-200-million-orders-ai-system/"
+  ]
+ },
+ {
+  "id": "tenstorrent",
+  "name": "Tenstorrent Inc.",
+  "verdict": "in",
+  "verdict_reason": "Sells AI cards, workstations and Galaxy servers for on-prem use; licenses RISC-V/AI IP for edge chips.",
+  "status": "active",
+  "status_detail": "Reported Qualcomm acquisition talks (Jun 2026) unconfirmed",
+  "parent": null,
+  "website": "https://tenstorrent.com",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "Series E, $1.5B, Oct 2026, led by Trace Capital and Innovation X, $6.2B valuation (reported); prior Series D $693M, Dec 2024",
+  "valuation_usd_m": 6200,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Trace Capital",
+   "Innovation X",
+   "Samsung Securities",
+   "AFW Partners",
+   "Fidelity",
+   "Bezos Expeditions",
+   "LG Electronics",
+   "Hyundai Motor Group"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "RISC-V CPUs and Tensix AI accelerators with open-source software, plus licensable IP",
+  "problem": "Buyers want affordable, open AI hardware they can own and run on-prem without CUDA lock-in.",
+  "products": [
+   {
+    "name": "Blackhole p100/p150",
+    "category": "chip",
+    "description": "PCIe AI accelerator cards with on-chip RISC-V cores and Ethernet scale-out."
+   },
+   {
+    "name": "Wormhole n150/n300",
+    "category": "chip",
+    "description": "Earlier-generation AI accelerator cards for developers and inference."
+   },
+   {
+    "name": "Galaxy Blackhole server",
+    "category": "system",
+    "description": "32-chip AI server, GA 2026, sold for on-prem inference and training."
+   },
+   {
+    "name": "TT-QuietBox / TT-LoudBox",
+    "category": "system",
+    "description": "Desk-side and rack workstations for local model development and inference."
+   },
+   {
+    "name": "TT-Metalium / TT-NN / TT-Forge",
+    "category": "sdk",
+    "description": "Open-source low-level kernel SDK, op library and MLIR compiler."
+   },
+   {
+    "name": "Ascalon RISC-V CPU & Tensix AI IP",
+    "category": "ip",
+    "description": "Licensable CPU and AI IP for automotive, edge and client SoCs."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "automotive",
+   "consumer-electronics-oem",
+   "education-research"
+  ],
+  "partners": [
+   "Samsung Foundry",
+   "LG Electronics",
+   "Hyundai Motor Group",
+   "Rapidus",
+   "Japan LSTC",
+   "Smallest.ai"
+  ],
+  "notable_customers": [
+   "LG Electronics",
+   "Hyundai Motor Group"
+  ],
+  "differentiator": "Open-source software stack and RISC-V IP licensing alongside ownable hardware, led by Jim Keller.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://datacenterdynamics.com/en/news/ai-chip-startup-tenstorrent-raises-15bn-at-62bn-valuation",
+   "https://sacra.com/c/tenstorrent",
+   "https://theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga",
+   "https://www.hpcwire.com/aiwire/2026/05/01/tenstorrent-announces-general-availability-of-galaxy-blackhole-ai-system/",
+   "https://www.unite.ai/on-prem-voice-agents-get-new-hardware-path-as-smallest-ai-joins-tenstorrent/"
+  ]
+ },
+ {
+  "id": "unconventional-ai",
+  "name": "Unconventional AI",
+  "verdict": "borderline",
+  "verdict_reason": "Pre-product energy-efficient AI compute startup; acquiring NeuReality to build production inference systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 475,
+  "last_round": "Seed, $475M, Dec 2025, co-led by Andreessen Horowitz and Lightspeed ($4.5B valuation)",
+  "valuation_usd_m": 4500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Lightspeed Venture Partners",
+   "Jeff Bezos",
+   "Naveen Rao"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "New, biology-like energy-efficient computers for AI targeting 1,000x efficiency",
+  "problem": "Datacenter power constraints limit AI scaling on conventional digital accelerators.",
+  "products": [
+   {
+    "name": "Energy-efficient AI computer (in development)",
+    "category": "system",
+    "description": "Analog/physics-inspired AI compute platform; no product shipped yet."
+   },
+   {
+    "name": "NeuReality NR1 head-node technology",
+    "category": "chip",
+    "description": "Inference head-node silicon and appliance tech being acquired (pending Q4 2026)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Founded by Naveen Rao (Nervana, MosaicML) with record seed to pursue non-digital AI compute.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round",
+   "https://www.theregister.com/2025/12/08/unconventional_ai/",
+   "https://a16z.com/announcement/investing-in-unconventional/",
+   "https://www.ynetnews.com/business/article/sjnxajphfx",
+   "https://runtimewire.com/article/unconventional-ai-acquires-neureality-chip-team"
+  ]
+ },
+ {
+  "id": "uptime-industries-lemony",
+  "name": "Uptime Industries (Lemony)",
+  "verdict": "in",
+  "verdict_reason": "Core product is Lemony, a stackable on-premise AI-in-a-box appliance keeping data on-site.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lemony.ai",
+  "hq_city": null,
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2,
+  "last_round": "Seed, $2M, Jun 2025, led by True Ventures (Alumni Ventures, JetBrains, angels)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "True Ventures",
+   "Alumni Ventures",
+   "JetBrains"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Plug-and-play on-site AI appliances for teams in regulated industries",
+  "problem": "Regulated teams cannot risk sending confidential data to cloud AI services.",
+  "products": [
+   {
+    "name": "Lemony AI node",
+    "category": "device",
+    "description": "Small stackable on-prem box hosting LLMs, adapters and agents for up to ~5 users per node."
+   },
+   {
+    "name": "Lemony workspace software",
+    "category": "app",
+    "description": "Private team chat, document and agent workspace running entirely on the appliance."
+   },
+   {
+    "name": "Lemony enterprise on-prem device",
+    "category": "system",
+    "description": "Larger on-prem device for enterprise deployments introduced Oct 2025."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "legal",
+   "finance",
+   "government-defense",
+   "healthcare",
+   "smb",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Subscription-priced (~$499/month) stackable AI box that scales by adding nodes.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/06/11/uptime-industries-wants-to-boost-localized-ai-usage-with-an-ai-in-a-box-called-lemony-ai",
+   "https://siliconangle.com/2025/06/11/lemony-launches-premises-ai-solution-local-model-deployment",
+   "https://campustechnology.com/articles/2025/10/08/lemony-introduces-on-premise-ai-device-for-enterprises.aspx",
+   "https://www.helpnetsecurity.com/2025/06/12/lemony-ai-nodes/",
+   "https://startupintros.com/orgs/uptime-industries"
+  ]
+ },
+ {
+  "id": "vast-data",
+  "name": "VAST Data, Inc.",
+  "verdict": "in",
+  "verdict_reason": "AI operating system (InsightEngine, AgentEngine) running RAG/agents inside customers' on-prem AI factories.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.vastdata.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "Series F, ~$1B (primary + secondary), Apr 2026, led by Drive Capital and Access Industries, $30B valuation",
+  "valuation_usd_m": 30000,
+  "market_cap_or_revenue": "Reported >$500M committed ARR and >$4B cumulative bookings (Apr 2026)",
+  "key_investors": [
+   "Drive Capital",
+   "Access Industries",
+   "Fidelity",
+   "NEA",
+   "NVIDIA"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Unified AI data platform/operating system for AI factories, RAG and agents",
+  "problem": "AI factories need unified, scalable data, database and compute services close to GPUs.",
+  "products": [
+   {
+    "name": "VAST AI Operating System / Data Platform",
+    "category": "platform",
+    "description": "Unified storage, database and compute software for on-prem and cloud AI infrastructure."
+   },
+   {
+    "name": "VAST InsightEngine",
+    "category": "platform",
+    "description": "Real-time RAG and vector retrieval pipeline with NVIDIA, running next to data."
+   },
+   {
+    "name": "VAST AgentEngine",
+    "category": "runtime",
+    "description": "Runtime for deploying and orchestrating AI agents within the VAST platform."
+   },
+   {
+    "name": "VAST DataBase",
+    "category": "platform",
+    "description": "Transactional/analytical database with vector support for AI pipelines."
+   },
+   {
+    "name": "VAST DataStore / DataEngine",
+    "category": "platform",
+    "description": "All-flash DASE storage and serverless compute engine for AI data processing."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "multimodal",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "education-research",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "HPE",
+   "Supermicro",
+   "Cisco",
+   "Kerno"
+  ],
+  "notable_customers": [
+   "CoreWeave",
+   "Lambda",
+   "Pixar"
+  ],
+  "differentiator": "DASE architecture unifying exabyte-scale data, database and agent runtime in one AI OS.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://builtin.com/articles/vast-data-raises-1b-series-f-30b-valuation-20260423",
+   "https://en.globes.co.il/en/article-1001540685",
+   "https://itbrief.com.au/story/vast-data-hits-30bn-valuation-after-1bn-series-f-round",
+   "https://www.hpcwire.com/bigdatawire/2026/11/10/vast-data-reports-10b-in-commitments-as-ai-storage-spending-surges/"
+  ]
+ },
+ {
+  "id": "vaultllm",
+  "name": "VaultLLM",
+  "verdict": "out",
+  "verdict_reason": "Cannot be verified: no independent sources found; website unreachable from research session.",
+  "status": "active",
+  "status_detail": "Existence and status unconfirmed",
+  "website": "https://vaultllm.in"
  }
 ]

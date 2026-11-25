@@ -1034,8 +1034,8 @@
   "verdict": "borderline",
   "verdict_reason": "Open A.X Korean LLMs support on-prem installation; telco where local AI is a secondary line.",
   "status": "active",
-  "status_detail": null,
-  "parent": "SK Group",
+  "status_detail": "SK Group affiliate",
+  "parent": null,
   "website": "https://www.sktelecom.com",
   "hq_city": "Seoul",
   "hq_country": "South Korea",
@@ -1929,6 +1929,1690 @@
    "https://amperecomputing.com/press/completion-of-acquisition-of-ampere-computing",
    "https://www.techzine.eu/news/infrastructure/136717/softbank-completes-acquisition-of-ampere-computing",
    "https://amperecomputing.com"
+  ]
+ },
+ {
+  "id": "bizon",
+  "name": "BIZON",
+  "verdict": "in",
+  "verdict_reason": "Multi-GPU workstations and servers sold with BizonOS, preconfigured for local LLM inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://bizon-tech.com",
+  "hq_city": "Miami",
+  "hq_country": "United States",
+  "founded": 2009,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Water-cooled multi-GPU workstations and servers for AI research and local LLMs.",
+  "problem": "Researchers and teams need ready-to-run local hardware for training and private LLM inference.",
+  "products": [
+   {
+    "name": "BIZON G/X/Z-series GPU workstations",
+    "category": "system",
+    "description": "Desk-side 2-8 GPU workstations, some custom water-cooled, for AI and local LLMs."
+   },
+   {
+    "name": "BIZON GPU servers",
+    "category": "system",
+    "description": "Rackmount multi-GPU servers for on-prem training and inference."
+   },
+   {
+    "name": "BizonOS",
+    "category": "platform",
+    "description": "Preinstalled operating environment with AI frameworks and tools for local LLM inference."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "image-video-gen"
+  ],
+  "customers": [
+   "education-research",
+   "government-defense",
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Custom water-cooled multi-GPU desk-side machines shipped with an AI-ready OS for local LLMs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://bizon-tech.com/about",
+   "https://bizon-tech.com/bizonos",
+   "https://bizon-tech.com/workstation-hardware-local-llm",
+   "https://bizon-tech.com/government-and-education"
+  ]
+ },
+ {
+  "id": "boston-limited",
+  "name": "Boston Limited",
+  "verdict": "borderline",
+  "verdict_reason": "UK systems integrator of GPU servers and AI clusters; AI one of several generic server/HPC lines.",
+  "status": "acquired",
+  "status_detail": "Acquired by SourceCode LLC (Jun 2023)",
+  "parent": "SourceCode, LLC",
+  "website": "https://www.boston.co.uk",
+  "hq_city": "St Albans",
+  "hq_country": "United Kingdom",
+  "founded": 1992,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Custom servers, GPU systems and on-prem AI/HPC clusters for UK and European organizations.",
+  "problem": "Organizations need specialist help designing and validating multi-vendor on-prem AI infrastructure.",
+  "products": [
+   {
+    "name": "Venom GPU compute servers",
+    "category": "system",
+    "description": "Supermicro-based multi-GPU servers for AI training and inference."
+   },
+   {
+    "name": "Boston AI solutions / AI clusters",
+    "category": "service",
+    "description": "Design, integration and project delivery of multi-vendor on-prem AI deployments."
+   },
+   {
+    "name": "Liquid-cooled and immersion servers (with Submer, Castrol)",
+    "category": "system",
+    "description": "Liquid and immersion cooling options to cut costs of dense AI racks."
+   },
+   {
+    "name": "Boston Labs",
+    "category": "service",
+    "description": "Test-drive lab for evaluating AI hardware before purchase."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense"
+  ],
+  "partners": [
+   "Supermicro",
+   "NVIDIA",
+   "Submer",
+   "Castrol"
+  ],
+  "notable_customers": [],
+  "differentiator": "Supermicro-based custom builds plus Boston Labs proof-of-concept testing for UK/EU buyers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://insidehpc.com/2023/06/sourcecode-acquires-boston-limited-adds-ungaro-and-andreolli-to-board/",
+   "https://www.scientific-computing.com/supplier/boston-limited",
+   "https://markets.financialcontent.com/stocks/article/prlog-2024-11-18-boston-ltd-castrol-and-submer-team-up-to-deliver-advanced-liquid-cooling-to-reduce-costs-for-ai-factories",
+   "https://www.boston.co.uk"
+  ]
+ },
+ {
+  "id": "boxx-technologies",
+  "name": "BOXX Technologies, LLC",
+  "verdict": "borderline",
+  "verdict_reason": "Workstation maker with a dedicated BOXX AI line; core market remains 3D/engineering workstations.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://boxx.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 1996,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "High-performance desk-side and rack workstations for 3D, engineering and AI workloads.",
+  "problem": "Teams need powerful local GPU machines to build and run AI models at the desk or in the server room.",
+  "products": [
+   {
+    "name": "BOXX AI workstations",
+    "category": "system",
+    "description": "Deskside and data-center workstations built for AI modeling, training and inference (2024)."
+   },
+   {
+    "name": "APEXX workstations",
+    "category": "system",
+    "description": "Multi-GPU professional workstations for creative, engineering and AI workloads."
+   },
+   {
+    "name": "RAXX rack workstations/servers",
+    "category": "system",
+    "description": "Rack-mounted GPU workstations and servers for data-center deployment."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "image-video-gen",
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "smb",
+   "education-research",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Carahsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Performance-tuned workstations spanning deskside to data center, with long creative-industry pedigree.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://boxx.com/press-releases/boxx-ai-workstations-bring-ai-to-the-deskside-and-the-data-center",
+   "https://boxx.com/about/about-us",
+   "https://boxx.com/resources/press-releases/boxx-expands-product-line-and-services-by-acquiring-cirrascale"
+  ]
+ },
+ {
+  "id": "cambricon",
+  "name": "Cambricon Technologies Corporation Limited",
+  "verdict": "in",
+  "verdict_reason": "MLU AI accelerators power Chinese on-prem and sovereign AI clusters; also edge AI modules.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.cambricon.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2016,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SSE STAR: 688256); 2025 revenue ~RMB 6.5B, net profit ~RMB 2.06B",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Domestic AI accelerator chips, boards and software for datacenter and edge inference/training.",
+  "problem": "Chinese organizations need non-NVIDIA AI compute for on-prem and sovereign AI under export controls.",
+  "products": [
+   {
+    "name": "Siyuan / MLU590 accelerators",
+    "category": "chip",
+    "description": "Flagship datacenter AI training and inference accelerators."
+   },
+   {
+    "name": "MLU370 series cards",
+    "category": "chip",
+    "description": "Inference/training accelerator cards for servers and on-prem LLM appliances."
+   },
+   {
+    "name": "MLU220 edge modules",
+    "category": "chip",
+    "description": "Low-power edge AI accelerator modules for edge servers and devices."
+   },
+   {
+    "name": "Cambricon NeuWare",
+    "category": "sdk",
+    "description": "Software stack (drivers, libraries, framework adapters) for Cambricon accelerators."
+   },
+   {
+    "name": "MagicMind",
+    "category": "runtime",
+    "description": "Inference engine for optimizing and deploying models on Cambricon hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Leading domestic NVIDIA alternative in China, profitable since 2025, with full-stack NeuWare software.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.yicaiglobal.com/news/chinese-ai-chip-giant-cambricon-posts-first-annual-profit-since-listing",
+   "https://www.trendforce.com/news/2026/03/09/news-china-gpu-race-intensifies-cambricon-turns-profitable-in-2025-moore-threads-metax-narrow-losses/",
+   "https://www.cambricon.com"
+  ]
+ },
+ {
+  "id": "cerebras-systems",
+  "name": "Cerebras Systems Inc.",
+  "verdict": "in",
+  "verdict_reason": "Sells wafer-scale CS-3 systems for on-prem deployment alongside its inference cloud.",
+  "status": "active",
+  "status_detail": "IPO on Nasdaq (CBRS) closed 15 May 2026",
+  "parent": null,
+  "website": "https://www.cerebras.ai",
+  "hq_city": "Sunnyvale",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": "IPO, ~$6.38B gross (34.5M shares at $185), May 2026, Nasdaq: CBRS",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: CBRS)",
+  "key_investors": [
+   "Benchmark",
+   "Eclipse Ventures",
+   "Altimeter",
+   "Fidelity",
+   "G42",
+   "Alpha Wave Global"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Wafer-scale AI processors and systems for ultra-fast LLM inference and training.",
+  "problem": "GPU clusters are slow and complex for low-latency LLM inference and large-model training.",
+  "products": [
+   {
+    "name": "WSE-3 (Wafer-Scale Engine 3)",
+    "category": "chip",
+    "description": "Wafer-sized processor with ~900k cores and massive on-chip SRAM."
+   },
+   {
+    "name": "CS-3 system",
+    "category": "system",
+    "description": "Datacenter system housing WSE-3, sold for on-prem deployment or used in Cerebras cloud."
+   },
+   {
+    "name": "Cerebras AI supercomputers (e.g., Condor Galaxy)",
+    "category": "system",
+    "description": "Multi-CS-3 clusters built for customers and partners such as G42."
+   },
+   {
+    "name": "Cerebras Inference",
+    "category": "service",
+    "description": "Hosted high-speed inference API for open models (cloud)."
+   },
+   {
+    "name": "Cerebras Software Platform (CSoft)",
+    "category": "sdk",
+    "description": "Compiler and framework integration for training and serving models on CS systems."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "healthcare",
+   "education-research",
+   "developers"
+  ],
+  "partners": [
+   "G42",
+   "Meta",
+   "Hugging Face"
+  ],
+  "notable_customers": [
+   "G42",
+   "Mayo Clinic",
+   "GSK",
+   "Argonne National Laboratory"
+  ],
+  "differentiator": "Wafer-scale engine with huge on-chip memory delivering record LLM inference speeds.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cerebras.ai/press-release/cerebras-systems-announces-closing-of-initial-public-offering",
+   "https://www.nasdaq.com/newsroom/cerebras-ipo-ushering-new-era-ai-hardware",
+   "https://www.bloomberg.com/news/articles/2026-04-17/ai-chipmaker-cerebras-systems-files-publicly-again-for-us-ipo"
+  ]
+ },
+ {
+  "id": "cirrascale-cloud-services",
+  "name": "Cirrascale Cloud Services, LLC",
+  "verdict": "borderline",
+  "verdict_reason": "Specialized AI cloud; offers private and air-gapped on-prem Gemini via Google Distributed Cloud, but mostly hosted.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.cirrascale.com",
+  "hq_city": "San Diego",
+  "hq_country": "United States",
+  "founded": 2010,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Multi-accelerator AI cloud and enterprise inference platform with dedicated and on-prem options.",
+  "problem": "Enterprises want production AI inference across accelerators without building infrastructure, sometimes air-gapped.",
+  "products": [
+   {
+    "name": "Cirrascale Inference Platform",
+    "category": "platform",
+    "description": "Enterprise inference stack routing models across NVIDIA, AMD, Qualcomm and Tenstorrent hardware."
+   },
+   {
+    "name": "AI Innovation Cloud",
+    "category": "service",
+    "description": "Cloud access to diverse accelerators, including Tenstorrent Galaxy Blackhole for evaluation."
+   },
+   {
+    "name": "Gemini on Google Distributed Cloud",
+    "category": "service",
+    "description": "Gemini delivered connected or fully air-gapped on-prem via Google-certified Dell appliances."
+   },
+   {
+    "name": "Inference Cloud powered by Qualcomm AI Inference Suite",
+    "category": "service",
+    "description": "Hosted inference on Qualcomm Cloud AI 100 accelerators."
+   },
+   {
+    "name": "Dedicated private cloud / bare-metal GPU",
+    "category": "service",
+    "description": "Single-tenant accelerator infrastructure for training and inference."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Qualcomm",
+   "Tenstorrent",
+   "Google Cloud",
+   "Dell",
+   "Cerebras"
+  ],
+  "notable_customers": [],
+  "differentiator": "Accelerator-agnostic AI cloud that also delivers Gemini on-prem in air-gapped configurations.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.storagenewsletter.com/2026/04/30/cirrascale-expands-model-offerings-to-include-gemini-on-google-distributed-cloud-with-the-cirrascale-inference-platform/",
+   "https://venturebeat.com/technology/googles-gemini-can-now-run-on-a-single-air-gapped-server-and-vanish-when-you-pull-the-plug",
+   "https://www.businesswire.com/news/home/20260504509508/en/Cirrascale-Cloud-Services-Adds-Tenstorrent-Galaxy-Blackhole-to-Its-AI-Innovation-Cloud",
+   "https://www.hpcwire.com/aiwire/2026/09/15/cirrascale-inference-platform-routes-ai-workloads-across-nvidia-amd-and-other-accelerators/",
+   "https://en.wikipedia.org/wiki/Cirrascale_Cloud_Services"
+  ]
+ },
+ {
+  "id": "cloudian",
+  "name": "Cloudian, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "On-prem S3 object storage with an AI data platform; storage rather than AI inference is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://cloudian.com",
+  "hq_city": "San Mateo",
+  "hq_country": "United States",
+  "founded": 2011,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 256,
+  "last_round": "Growth financing, $23M, Jun 2024, Morgan Stanley Expansion Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Morgan Stanley Expansion Capital",
+   "Intel Capital",
+   "Goldman Sachs",
+   "Eight Roads Ventures",
+   "INCJ"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Sovereign S3-compatible on-prem object storage extended for AI data, vectors and RAG.",
+  "problem": "Enterprises need to keep large AI datasets on-prem yet feed GPUs and RAG pipelines efficiently.",
+  "products": [
+   {
+    "name": "HyperStore",
+    "category": "platform",
+    "description": "Software-defined S3-compatible object storage for on-prem and private cloud."
+   },
+   {
+    "name": "HyperScale AI Data Platform",
+    "category": "platform",
+    "description": "S3-native platform bringing NVIDIA-accelerated compute and RAG to on-prem enterprise data."
+   },
+   {
+    "name": "HyperStore appliances",
+    "category": "system",
+    "description": "Pre-integrated storage appliances for sovereign and air-gapped deployments."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "HPE"
+  ],
+  "notable_customers": [],
+  "differentiator": "S3-native sovereign storage with integrated GPU-accelerated vector/RAG capabilities on-prem.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.storagenewsletter.com/?p=279406",
+   "https://cloudian.com/press/cloudian-secures-23m-growth-financing/",
+   "https://blocksandfiles.com/2024/06/25/cloudian-gets-more-funding-as-it-reaches-breakeven-bags-hpe-greenlake-wins/",
+   "https://www.caplight.com/company/cloudian",
+   "https://cloudian.com"
+  ]
+ },
+ {
+  "id": "comino",
+  "name": "Comino",
+  "verdict": "borderline",
+  "verdict_reason": "Liquid-cooled multi-GPU workstations and servers marketed for AI and rendering; generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.comino.com",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Fully liquid-cooled, dense multi-GPU workstations and servers.",
+  "problem": "Dense multi-GPU AI machines are too hot and loud for offices and standard racks.",
+  "products": [
+   {
+    "name": "Comino Grando workstations",
+    "category": "system",
+    "description": "Liquid-cooled multi-GPU desk-side workstations for AI, rendering and simulation."
+   },
+   {
+    "name": "Comino Grando servers",
+    "category": "system",
+    "description": "Liquid-cooled up-to-8-GPU rack servers for on-prem AI inference and training."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "developers"
+  ],
+  "partners": [
+   "Puget Systems",
+   "ORIGIN PC"
+  ],
+  "notable_customers": [],
+  "differentiator": "Custom full-system liquid cooling enabling quiet, dense 8-GPU systems in offices.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.linkedin.com/company/cominotech",
+   "https://www.pugetsystems.com/press/press-release-puget-systems-expands-partnership-with-comino/",
+   "https://www.storagereview.com/review/comino-grando-review-liquid-cooled-gpu-powerhouses",
+   "https://www.originpc.com/workstation/desktops/x-class-grando"
+  ]
+ },
+ {
+  "id": "cuon-terrasky-group",
+  "name": "Cuon Inc. (株式会社Cuon)",
+  "verdict": "in",
+  "verdict_reason": "Private AI Appliance: on-prem box running validated local LLMs and agent runtime, cloud-managed.",
+  "status": "acquired",
+  "status_detail": "Wholly owned TerraSky subsidiary since share acquisition (May 2019)",
+  "parent": "TerraSky Co., Ltd. (TSE: 3915)",
+  "website": null,
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": null,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "On-prem private generative AI appliance for Japanese enterprises.",
+  "problem": "Cloud LLMs risk leaking confidential corporate data outside the company network.",
+  "products": [
+   {
+    "name": "Private AI Appliance (Box)",
+    "category": "system",
+    "description": "On-prem server with validated LLMs, agent runtime, UI and management software; available 1 Nov 2026."
+   },
+   {
+    "name": "Cuon Cloud",
+    "category": "platform",
+    "description": "Cloud management plane; centrally holds SaaS credentials injected via gateway, not stored on the Box."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Hybrid design pairing an on-prem LLM box with a cloud-held credential gateway for SaaS access.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://it.impress.co.jp/articles/-/29817",
+   "https://cloud.watch.impress.co.jp/docs/news/2152724.html",
+   "https://edinetdb.jp/company/E31453/history",
+   "https://edinetdb.jp/company/E31453/text"
+  ]
+ },
+ {
+  "id": "d-matrix",
+  "name": "d-Matrix Corporation",
+  "verdict": "in",
+  "verdict_reason": "Corsair in-memory-compute inference accelerators and racks deployed in customers' own datacenters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.d-matrix.ai",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 450,
+  "last_round": "Series C, $275M, Nov 2025, co-led by Bullhound Capital, Triatomic Capital and Temasek",
+  "valuation_usd_m": 2000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bullhound Capital",
+   "Triatomic Capital",
+   "Temasek",
+   "Qatar Investment Authority",
+   "EDBI",
+   "Microsoft (M12)",
+   "Playground Global"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Digital in-memory-compute accelerators and rack systems for low-latency generative inference.",
+  "problem": "Memory bandwidth limits make GPU-based LLM inference slow and costly at low latency.",
+  "products": [
+   {
+    "name": "Corsair",
+    "category": "chip",
+    "description": "PCIe inference accelerator using digital in-memory compute chiplets."
+   },
+   {
+    "name": "JetStream",
+    "category": "system",
+    "description": "Accelerator-attached network card for low-latency scale-out inference."
+   },
+   {
+    "name": "SquadRack",
+    "category": "system",
+    "description": "Rack-scale reference system integrating Corsair with partner servers and networking."
+   },
+   {
+    "name": "Squadron",
+    "category": "system",
+    "description": "Multi-rack compute clusters for datacenter-scale inference (OCP 2026)."
+   },
+   {
+    "name": "Aviator software stack",
+    "category": "sdk",
+    "description": "Compiler and runtime integrating open models and frameworks with Corsair."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [
+   "Supermicro",
+   "Arista",
+   "Broadcom",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Digital in-memory compute chiplets deliver fast, efficient token generation in air-cooled systems.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.hpcwire.com/off-the-wire/d-matrix-closes-275m-series-c-funding-bringing-total-raised-to-450m",
+   "https://cdn.dealstreetasia.com/stories/d-matrix-raises-series-c-463364",
+   "https://www.hpcwire.com/off-the-wire/d-matrix-corsair-ai-inference-platform-enters-full-production-to-meet-customer-demand",
+   "https://www.storagenewsletter.com/2026/10/16/ocp-global-summit-2026-d-matrix-announces-squadron-compute-clusters-for-ai-inference-at-data-center-scale/",
+   "https://www.d-matrix.ai"
+  ]
+ },
+ {
+  "id": "ddn",
+  "name": "DataDirect Networks, Inc. (DDN)",
+  "verdict": "borderline",
+  "verdict_reason": "High-performance storage and data platforms underpinning on-prem AI factories; storage rather than inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.ddn.com",
+  "hq_city": "Chatsworth",
+  "hq_country": "United States",
+  "founded": 1998,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 300,
+  "last_round": "Strategic investment, $300M, Jan 2025, Blackstone Tactical Opportunities (first external funding)",
+  "valuation_usd_m": 5000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Blackstone"
+  ],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "AI and HPC data storage and data-intelligence platforms for large on-prem GPU clusters.",
+  "problem": "GPU clusters sit idle when storage cannot feed training and inference data fast enough.",
+  "products": [
+   {
+    "name": "EXAScaler / AI400X-series appliances",
+    "category": "system",
+    "description": "Parallel file system appliances certified for NVIDIA SuperPOD-scale AI clusters."
+   },
+   {
+    "name": "Infinia",
+    "category": "platform",
+    "description": "Software-defined data intelligence platform for AI pipelines, RAG and inference data."
+   },
+   {
+    "name": "DDN Inferno",
+    "category": "system",
+    "description": "Inference-acceleration appliance combining Infinia with high-speed networking (2025)."
+   },
+   {
+    "name": "xFusionAI",
+    "category": "platform",
+    "description": "Hybrid EXAScaler-plus-Infinia platform for training and inference data."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Default high-performance storage for NVIDIA SuperPOD-scale on-prem and sovereign AI factories.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.blackstone.com/news/press/blackstone-invests-300-million-at-a-5-billion-valuation-in-ddn-ai-and-data-intelligence-solutions-leader-to-fuel-further-rapid-growth/",
+   "https://www.ddn.com/blog/how-blackstones-300m-investment-will-propel-ddn-to-transform-enterprise-ai/",
+   "https://blocksandfiles.com/tag/ddn",
+   "https://www.ddn.com"
+  ]
+ },
+ {
+  "id": "enflame",
+  "name": "Shanghai Enflame Technology Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Domestic AI training/inference accelerators sold for private and on-prem Chinese AI clusters.",
+  "status": "active",
+  "status_detail": "Listed on Shanghai STAR Market (IPO Sept 2026)",
+  "parent": null,
+  "website": "https://www.enflame-tech.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": "IPO, ~RMB 6.1B (~$900M), Sept 2026, Shanghai STAR Market",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SSE STAR Market, listed Sept 2026); 2025 net loss ~RMB 1.2B",
+  "key_investors": [
+   "Tencent"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Domestic GPU-class AI accelerators and software for Chinese datacenters.",
+  "problem": "Chinese AI operators need domestic accelerators for private clusters as NVIDIA supply is restricted.",
+  "products": [
+   {
+    "name": "Suiyuan (DTU) AI chips",
+    "category": "chip",
+    "description": "In-house deep-learning processor architecture for training and inference."
+   },
+   {
+    "name": "CloudBlazer accelerator cards (i-series inference, T-series training)",
+    "category": "system",
+    "description": "PCIe/OAM accelerator cards and modules for datacenter servers."
+   },
+   {
+    "name": "TopsRider software stack",
+    "category": "sdk",
+    "description": "Compiler, runtime and framework adapters for Enflame accelerators."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [
+   "Tencent"
+  ],
+  "notable_customers": [
+   "Tencent"
+  ],
+  "differentiator": "Tencent-backed domestic accelerator vendor with full software stack, newly STAR-listed.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://scmp.com/tech/big-tech/article/3366025/enflames-us900m-ipo-tests-appetite-chinas-little-dragon-ai-chipmakers",
+   "https://www.caixinglobal.com/2026-09-02/tencent-backed-ai-chipmaker-enflame-eyes-9-billion-valuation-in-ipo-102481053.html",
+   "https://thenextweb.com/news/enflame-shanghai-ipo-debut-tencent-ai-chips",
+   "https://cryptobriefing.com/enflame-technology-ipo-tencent-backed/"
+  ]
+ },
+ {
+  "id": "etched",
+  "name": "Etched.ai, Inc. (Etched)",
+  "verdict": "in",
+  "verdict_reason": "Transformer-specific Sohu ASIC sold as rack-scale inference systems for customer datacenters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.etched.com",
+  "hq_city": "Cupertino",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 1100,
+  "last_round": "Series C, $300M, Jul 2026, led by Sequoia Capital, $10.3B valuation",
+  "valuation_usd_m": 10300,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Sequoia Capital",
+   "Stripes",
+   "Peter Thiel",
+   "Primary Venture Partners",
+   "SK Hynix",
+   "Jane Street"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Transformer-only inference ASICs delivered as rack-scale systems.",
+  "problem": "General-purpose GPUs waste silicon and power on transformer inference, limiting throughput per dollar.",
+  "products": [
+   {
+    "name": "Sohu",
+    "category": "chip",
+    "description": "ASIC hard-wired for transformer inference, claiming far higher throughput than GPUs."
+   },
+   {
+    "name": "Sohu rack-scale inference systems",
+    "category": "system",
+    "description": "Racks of Sohu chips delivered for deployment in customer datacenters."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "developers"
+  ],
+  "partners": [
+   "SK Hynix"
+  ],
+  "notable_customers": [
+   "Jane Street (reported)"
+  ],
+  "differentiator": "Bets entirely on transformer-specific silicon, trading flexibility for claimed order-of-magnitude efficiency.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.hpcwire.com/off-the-wire/etched-raises-300m-to-scale-production-of-frontier-scale-inference-hardware/",
+   "https://builtin.com/articles/etched-raises-500m-funding-20260114",
+   "https://forkast.news/etcheds-10-3-billion-valuation-is-a-bet-on-silicon-specialization-not-chip-performance/",
+   "https://sacra.com/c/etched/",
+   "https://convergedigest.com/etched-emerges-from-stealth-with-800m-raised-for-ai-inference-systems/",
+   "https://www.eweek.com/news/etched-ai-chip-contracts"
+  ]
+ },
+ {
+  "id": "euclyd",
+  "name": "Euclyd",
+  "verdict": "in",
+  "verdict_reason": "CRAFTWERK inference chip systems for operator-owned, sovereign European datacenters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Eindhoven",
+  "hq_country": "Netherlands",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 240,
+  "last_round": "Series A, >EUR 200M (~$230M), Sept 2026, co-led by Samsung, Somerset Capital Partners, Scale-up Europe Fund, Innovation Industries",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Samsung",
+   "Somerset Capital Partners",
+   "Scale-up Europe Fund (EQT)",
+   "Innovation Industries",
+   "EIFO",
+   "imec.xpand",
+   "BOM"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Ultra-efficient inference chip systems for foundation models and AI agents.",
+  "problem": "Data movement between memory and compute makes GPU inference energy-hungry and expensive.",
+  "products": [
+   {
+    "name": "CRAFTWERK",
+    "category": "chip",
+    "description": "Inference chip system designed to minimize memory-compute data movement; first deliveries expected 2027."
+   },
+   {
+    "name": "CRAFTWERK-based inference systems",
+    "category": "system",
+    "description": "Rack-level systems for operator-owned datacenters built around CRAFTWERK."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [
+   "Samsung"
+  ],
+  "notable_customers": [],
+  "differentiator": "ASML-alumni team claiming ~100x efficiency over GPU systems; European sovereign supply chain.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/09/15/euclyd-raises-230m-to-develop-chips-for-ai-agents/",
+   "https://www.hpcwire.com/off-the-wire/euclyd-raises-over-e200m-to-break-the-ai-efficiency-wall",
+   "https://www.techzine.eu/news/infrastructure/144285/eindhoven-based-euclyd-raises-200-million-for-more-energy-efficient-ai-chips/",
+   "https://nltimes.nl/2026/04/17/eindhoven-based-euclyd-targets-eu100-million-funding-round-ai-chip-expansion",
+   "https://ioplus.nl/en/posts/euclyd-wants-to-raise-100-million-and-take-on-nvidia"
+  ]
+ },
+ {
+  "id": "eviden-bull-atos-advanced-computing",
+  "name": "Bull SAS (formerly Atos/Eviden advanced computing)",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign HPC/AI supercomputer and server builder; AI systems are accelerated hardware within broad HPC portfolio.",
+  "status": "acquired",
+  "status_detail": "Sold by Atos to the French State, completed 31 Mar 2026 (EV up to EUR 404M incl. earn-outs)",
+  "parent": "French State",
+  "website": "https://eviden.com",
+  "hq_city": "Les Clayes-sous-Bois",
+  "hq_country": "France",
+  "founded": 1931,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "State-owned; 2025 revenue ~EUR 700-720M",
+  "key_investors": [],
+  "employees": 3000,
+  "employees_band": "1001-5000",
+  "focus": "European sovereign supercomputers, AI systems and quantum for governments and research.",
+  "problem": "European governments need sovereign, domestically controlled HPC and AI infrastructure on their own premises.",
+  "products": [
+   {
+    "name": "BullSequana XH3000",
+    "category": "system",
+    "description": "Liquid-cooled exascale-class HPC/AI supercomputer platform."
+   },
+   {
+    "name": "BullSequana AI server range",
+    "category": "system",
+    "description": "GPU-accelerated servers for on-prem AI training and inference."
+   },
+   {
+    "name": "BullSequana Edge",
+    "category": "system",
+    "description": "Edge server for running AI inference close to data sources."
+   },
+   {
+    "name": "Sovereign HPC/AI integration services",
+    "category": "service",
+    "description": "Design, build and operation of national supercomputing and AI facilities."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "education-research",
+   "enterprise",
+   "energy-utilities"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "ParTec"
+  ],
+  "notable_customers": [
+   "Forschungszentrum Jülich (JUPITER)",
+   "CEA/GENCI (Alice Recoque)"
+  ],
+  "differentiator": "Europe's main indigenous supercomputer maker, now state-owned to secure sovereign HPC/AI capacity.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://live.euronext.com/en/products/equities/company-news/2026-03-31-atos-group-completes-sale-bull-its-advanced-computing",
+   "https://www.marketscreener.com/news/atos-finalizes-sale-of-bull-to-the-french-state-ce7e51dede8bf12d",
+   "https://www.techzine.eu/news/applications/140149/french-government-acquires-bull-from-atos-for-e404-million",
+   "https://www.brusselstimes.com/2055528/french-government-completes-buyout-of-atos-strategic-operations",
+   "https://eviden.com"
+  ]
+ },
+ {
+  "id": "exxact-corporation",
+  "name": "Exxact Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "GPU workstation, server and cluster integrator; AI is one of several HPC verticals on generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.exxactcorp.com",
+  "hq_city": "Fremont",
+  "hq_country": "United States",
+  "founded": 1992,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Custom GPU workstations, servers and turnkey clusters for deep learning, life sciences and HPC.",
+  "problem": "Research and enterprise teams need configured, supported GPU systems for local training and inference.",
+  "products": [
+   {
+    "name": "Valence deep learning workstations",
+    "category": "system",
+    "description": "Multi-GPU workstations preconfigured with AI frameworks."
+   },
+   {
+    "name": "TensorEX GPU servers",
+    "category": "system",
+    "description": "Rackmount multi-GPU servers for on-prem training and inference."
+   },
+   {
+    "name": "Turnkey AI/HPC clusters",
+    "category": "service",
+    "description": "Designed and integrated GPU clusters with storage and networking."
+   },
+   {
+    "name": "NVIDIA DGX systems and NVIDIA AI Enterprise",
+    "category": "system",
+    "description": "Resold NVIDIA reference systems and enterprise AI software."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "education-research",
+   "enterprise",
+   "healthcare",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "VDURA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Long-running GPU systems integrator offering custom builds with preinstalled AI software stacks.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.exxactcorp.com/Deep-Learning-AI-Workstations",
+   "https://www.exxactcorp.com/News-Events/Exxact-Corporation-Solutions-Now-offer-NVIDIA-AI-Enterprise",
+   "https://simplify.jobs/c/ExxactCorporation",
+   "https://www.hpcwire.com/off-the-wire/exxact-announces-gpu-accelerated-deep-learning-inference-platforms-now-shipping-worldwide/"
+  ]
+ },
+ {
+  "id": "fractile",
+  "name": "Fractile Ltd",
+  "verdict": "in",
+  "verdict_reason": "3D-stacked DRAM-on-logic inference chips for fast LLM serving in operator-owned, sovereign datacenters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.fractile.ai",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2022,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $720M, Nov 2026, reportedly led by Thrive Capital with Founders Fund, Lightspeed, Redpoint; ~$7B valuation",
+  "valuation_usd_m": 7000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Thrive Capital",
+   "Founders Fund",
+   "Lightspeed",
+   "Redpoint",
+   "UK Sovereign AI Fund",
+   "Kindred Capital",
+   "NATO Innovation Fund",
+   "Oxford Science Enterprises"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Inference chips stacking DRAM directly on logic for much faster, cheaper LLM token generation.",
+  "problem": "Memory bandwidth bottlenecks make LLM token generation slow and expensive on GPUs.",
+  "products": [
+   {
+    "name": "Fractile inference chip",
+    "category": "chip",
+    "description": "3D-stacked DRAM-on-logic processor for LLM inference; first production chip expected 2027."
+   },
+   {
+    "name": "Fractile inference systems",
+    "category": "system",
+    "description": "Server systems built on Fractile chips for datacenter deployment (pre-production)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Compute-adjacent stacked DRAM targets ~10x faster inference (company claim) without off-chip HBM.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/",
+   "https://www.arr.club/signal/fractile-raised-720m-series-c-at-7b-valuation-led-by-thrive-capital",
+   "https://thenextweb.com/news/fractile-220m-inference-chip",
+   "https://finance.yahoo.com/sectors/technology/articles/uk-chip-startup-fractile-raises-090729157.html",
+   "https://www.hpcwire.com/off-the-wire/fractile-raises-220m-to-build-the-next-generation-of-inference-hardware/",
+   "https://sifted.eu/articles/european-chips-funding-almost-quadruples-as-investors-back-nvidias-inference-challengers/"
+  ]
+ },
+ {
+  "id": "furiosaai",
+  "name": "FuriosaAI, Inc.",
+  "verdict": "in",
+  "verdict_reason": "RNGD inference chips and NXT RNGD servers for power-efficient on-prem enterprise LLM serving.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://furiosa.ai",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": "Series D, $620M, 2026, largest investor Korea's National Growth Fund ($280M); ~$2.9B post-money",
+  "valuation_usd_m": 2900,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Korea National Growth Fund",
+   "Korea Development Bank",
+   "Naver"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Power-efficient datacenter inference accelerators and servers for LLMs and multimodal models.",
+  "problem": "GPU inference servers exceed the power and cooling limits of standard enterprise racks.",
+  "products": [
+   {
+    "name": "RNGD",
+    "category": "chip",
+    "description": "Second-gen Tensor Contraction Processor inference chip with HBM3; mass production since Jan 2026."
+   },
+   {
+    "name": "NXT RNGD server",
+    "category": "system",
+    "description": "4U eight-card ~3kW air-cooled server fitting standard enterprise racks."
+   },
+   {
+    "name": "Warboy",
+    "category": "chip",
+    "description": "First-generation vision inference accelerator."
+   },
+   {
+    "name": "Furiosa SDK",
+    "category": "sdk",
+    "description": "Compiler, runtime and vLLM-compatible serving stack for RNGD."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "LG AI Research",
+   "TSMC",
+   "SK Hynix",
+   "Broadcom"
+  ],
+  "notable_customers": [
+   "LG AI Research"
+  ],
+  "differentiator": "Tensor Contraction Processor architecture delivers H100-class inference in air-cooled ~3kW servers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://datacenterdynamics.com/en/news/furiosaai-raises-620m-at-a-post-money-valuation-of-approximately-29bn",
+   "https://www.crnasia.com/news/2026/components-and-peripherals/furiosaai-to-scale-rngd-inference-chip-production-following",
+   "https://thenextweb.com/news/furiosaai-series-d-620m-2-9bn-valuation",
+   "https://www.techradar.com/pro/korean-startup-backed-by-lg-unveils-ai-server-that-matches-nvidias-h100-performance-but-with-a-much-lower-power-consumption",
+   "https://koreatechdesk.com/furiosaai-rngd-production-ai-inference-commercialization-korea",
+   "https://furiosa.ai"
+  ]
+ },
+ {
+  "id": "gigaio",
+  "name": "GigaIO Networks, Inc.",
+  "verdict": "in",
+  "verdict_reason": "SuperNODE and portable Gryf systems target on-prem and edge AI inference on its FabreX composable fabric.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://gigaio.com",
+  "hq_city": "Carlsbad",
+  "hq_country": "United States",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B first close, $21M, Jul 2025, led by Impact Venture Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Impact Venture Capital",
+   "CerraCap Ventures",
+   "G Vision Capital",
+   "Mark IV Capital",
+   "SourceCode Cerberus"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Composable GPU infrastructure for AI inference, from datacenter nodes to carry-on edge systems.",
+  "problem": "Scaling many accelerators in one node, or taking GPU inference into the field, is hard with standard servers.",
+  "products": [
+   {
+    "name": "SuperNODE",
+    "category": "system",
+    "description": "Single-node AI system composing up to 32 GPUs over FabreX."
+   },
+   {
+    "name": "Gryf",
+    "category": "system",
+    "description": "Carry-on-suitcase-sized portable AI inferencing supercomputer for edge and field use."
+   },
+   {
+    "name": "FabreX",
+    "category": "platform",
+    "description": "PCIe/CXL memory fabric enabling composable, disaggregated accelerators."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "AMD",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Composable memory fabric lets many accelerators act as one node, from datacenter to carry-on edge.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.hpcwire.com/off-the-wire/gigaio-secures-21m-to-scale-ai-inferencing-infrastructure-solutions/",
+   "https://insidehpc.com/2025/07/gigaio-raises-21m-in-series-b-round/",
+   "https://www.blocksandfiles.com/ai-ml/2025/07/18/gigaio-bags-21m-to-scale-up-composable-ai-server-gear/1591602",
+   "https://gigaio.com"
+  ]
+ },
+ {
+  "id": "graphcore",
+  "name": "Graphcore Limited",
+  "verdict": "in",
+  "verdict_reason": "IPU AI processors and systems for customer-owned AI compute; now SoftBank's AI chip subsidiary.",
+  "status": "acquired",
+  "status_detail": "Acquired by SoftBank Group (Jul 2024); ~$450M SoftBank injection reported May 2026 (unconfirmed by company)",
+  "parent": "SoftBank Group",
+  "website": "https://www.graphcore.ai",
+  "hq_city": "Bristol",
+  "hq_country": "United Kingdom",
+  "founded": 2016,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SoftBank Group",
+   "Sequoia Capital",
+   "Microsoft",
+   "Baillie Gifford",
+   "Atomico",
+   "Robert Bosch Venture Capital",
+   "Samsung Catalyst Fund",
+   "Dell Technologies Capital"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Intelligence Processing Units and systems; now developing next-gen AI chips within SoftBank.",
+  "problem": "AI workloads need alternatives to GPUs with different memory and parallelism characteristics.",
+  "products": [
+   {
+    "name": "Colossus MK2 GC200 IPU",
+    "category": "chip",
+    "description": "Massively parallel processor with large on-chip SRAM for AI training and inference."
+   },
+   {
+    "name": "Bow IPU",
+    "category": "chip",
+    "description": "Wafer-on-wafer 3D-stacked IPU with higher clock speeds and efficiency."
+   },
+   {
+    "name": "IPU-POD / Bow Pod systems",
+    "category": "system",
+    "description": "Scalable on-prem IPU systems from 16 to thousands of IPUs."
+   },
+   {
+    "name": "C600 PCIe card",
+    "category": "system",
+    "description": "IPU accelerator card for inference in standard servers."
+   },
+   {
+    "name": "Poplar SDK",
+    "category": "sdk",
+    "description": "Graph compiler, libraries and framework integrations for programming IPUs."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "education-research",
+   "enterprise",
+   "finance"
+  ],
+  "partners": [
+   "SoftBank Group",
+   "Dell"
+  ],
+  "notable_customers": [],
+  "differentiator": "IPU architecture with large on-chip SRAM, now backed by SoftBank's AI hardware ambitions.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://techcrunch.com/2024/07/11/softbank-acquires-uk-ai-chipmaker-graphcore",
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-takes-over-ai-processor-designer-graphcore",
+   "https://seedtable.com/companies/graphcore/funding-rounds/series-e-2026-05",
+   "https://www.graphcore.ai"
   ]
  }
 ]

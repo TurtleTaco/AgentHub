@@ -49,3 +49,5 @@ METHOD
 Your final reply must be under 100 words: counts of in/borderline/out, number of profiles with searched basis, and the most important corrections to discovery data. Do not paste profiles.
 
 As a first step, read /root/.claude/skills/synced/a6b61689-2b55-4120-895e-3257164e3664_ffb8c948-2114-4140-8caa-a19efab7cf75/deep-research/references/researcher.md for research methodology; the output format above takes precedence over any format described there.
+
+EFFICIENCY RULES (added after a usage-limit interruption): use at most ~15 web searches in total, spent only on the highest-value checks (latest funding/acquisitions of startups). Do not fetch long pages unless essential. Write profiles in chunks of ~10 directly into the output file (read-modify-write the JSON array), and keep the .md notes to ~15 lines.

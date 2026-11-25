@@ -2500,5 +2500,887 @@
    "https://datacenterdynamics.com/en/news/nxp-semiconductors-acquires-ai-chip-startup-kinara-for-307m",
    "https://en.wikipedia.org/wiki/Kinara_(company)"
   ]
+ },
+ {
+  "id": "kneron",
+  "name": "Kneron, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Reconfigurable edge NPUs and private edge AI servers running vision and LLM inference locally.",
+  "status": "active",
+  "status_detail": "Non-binding SPAC LOI with Spark I Acquisition Corp (Oct 2024); definitive deal unconfirmed as of mid-2026",
+  "parent": null,
+  "website": "https://www.kneron.com",
+  "hq_city": "San Diego",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 190,
+  "last_round": "Series B extension, $49M, 2023 (Series B total $97M, incl. Foxconn); $2M Saudi NTDP grant Jun 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Foxconn (Hon Hai)",
+   "HH-CTBC",
+   "Horizons Ventures",
+   "Qualcomm",
+   "Sequoia Capital China",
+   "Alibaba Entrepreneurs Fund"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Edge AI NPUs and on-prem edge GPT servers",
+  "problem": "Enterprises and device makers need private, low-power AI inference without sending data to cloud LLMs.",
+  "products": [
+   {
+    "name": "KL730",
+    "category": "chip",
+    "description": "Edge NPU SoC supporting transformers for vision and lightweight LLM inference."
+   },
+   {
+    "name": "KL720 / KL520",
+    "category": "chip",
+    "description": "Earlier reconfigurable NPU SoCs for smart cameras, locks and IoT devices."
+   },
+   {
+    "name": "KL830",
+    "category": "chip",
+    "description": "Next-generation NPU targeting AI PCs and edge LLMs."
+   },
+   {
+    "name": "KNEO 300 edge AI server",
+    "category": "system",
+    "description": "On-prem edge GPT server for private enterprise LLM inference."
+   },
+   {
+    "name": "Kneron Edge GPT / KNEO platform",
+    "category": "platform",
+    "description": "Private edge LLM software and device network for enterprise deployment."
+   },
+   {
+    "name": "Kneron PLUS / toolchain",
+    "category": "sdk",
+    "description": "SDK and model toolchain for deploying models onto Kneron NPUs."
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "edge-server",
+   "vehicle-robot-drone",
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "consumer-electronics-oem",
+   "automotive",
+   "security-surveillance",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Foxconn",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Reconfigurable NPU architecture spanning chips to on-prem GPT servers; strong Taiwan supply-chain backing.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://us.design-reuse.com/news/54897/kneron-series-b-funding.html",
+   "https://www.benzinga.com/startups/23/10/35094321/foxconn-joins-forces-with-kneron-in-49-million-bid-to-rival-nvidias-ai-dominance",
+   "https://www.cbinsights.com/company/kneron/financials",
+   "https://tipranks.com/news/company-announcements/spark-i-acquisition-eyes-merger-with-kneron-holdings",
+   "https://www.boardroomalpha.com/sec/spkl-10-k-2026-03-30-0001104659-26-036922",
+   "https://kalkinemedia.com/news/world-news/kneron-secures-grant-from-saudi-arabias-ntdp-marking-strategic-milestone-in-the-middle-east"
+  ]
+ },
+ {
+  "id": "lattice-semiconductor",
+  "name": "Lattice Semiconductor Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "General low-power FPGA vendor with marketed sensAI edge AI stack; AI is one of many uses.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.latticesemi.com",
+  "hq_city": "Hillsboro",
+  "hq_country": "United States",
+  "founded": 1983,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: LSCC)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Low-power FPGAs with edge AI, vision and security solution stacks",
+  "problem": "Devices need milliwatt-level always-on AI (presence, sensing) and flexible sensor bridging without host-processor power.",
+  "products": [
+   {
+    "name": "sensAI solution stack",
+    "category": "platform",
+    "description": "IP, reference designs and tools for low-power edge AI on Lattice FPGAs."
+   },
+   {
+    "name": "sensAI Studio",
+    "category": "sdk",
+    "description": "Design environment for training, compiling and deploying models to Lattice FPGAs."
+   },
+   {
+    "name": "CrossLink-NX / Certus-NX / CertusPro-NX",
+    "category": "chip",
+    "description": "Nexus-platform low-power FPGAs used for edge vision and AI inference."
+   },
+   {
+    "name": "Nexus 2 (Certus-N2)",
+    "category": "chip",
+    "description": "Next-generation small low-power FPGA platform for edge AI and connectivity."
+   },
+   {
+    "name": "mVision solution stack",
+    "category": "platform",
+    "description": "Embedded vision IP and reference designs complementing sensAI."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Milliwatt FPGA inference used for client-PC presence detection and always-on sensing.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "leapmind",
+  "name": "LeapMind Inc.",
+  "verdict": "in",
+  "verdict_reason": "Developed ultra-low-bit edge AI accelerator IP (Efficiera); company reportedly dissolved in 2024.",
+  "status": "defunct",
+  "status_detail": "Reportedly dissolved 31 Jul 2024 (directory listing) - unconfirmed by official source",
+  "parent": null,
+  "website": "https://leapmind.io",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2012,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Intel Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Extremely quantized neural network accelerator IP for FPGAs and ASICs",
+  "problem": "Small edge devices lack power and silicon area to run deep learning at conventional precision.",
+  "products": [
+   {
+    "name": "Efficiera",
+    "category": "ip",
+    "description": "Ultra-low-power, ultra-low-bit CNN inference accelerator IP for FPGA or ASIC."
+   },
+   {
+    "name": "Efficiera SDK",
+    "category": "sdk",
+    "description": "Tools to train and quantize models to 1-2 bit precision for Efficiera."
+   },
+   {
+    "name": "Blueoil",
+    "category": "sdk",
+    "description": "Open-source framework for building low-bit neural networks for FPGAs."
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Extreme (1-2 bit) quantization co-designed with tiny accelerator IP.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://japan-dev.com/companies/leapmind",
+   "https://dealroom.co/companies/leapmind/",
+   "https://www.wantedly.com/companies/leapmind/about"
+  ]
+ },
+ {
+  "id": "lynxi-technologies",
+  "name": "Beijing Lynxi Technology Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Brain-inspired neuromorphic chips, cards and systems for edge and robotics inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lynxi.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, Apr 2024 (amount undisclosed), incl. Guoding Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Guoding Capital",
+   "China Electronics Haikang Group",
+   "China Electronics Technology Investment"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Brain-inspired (neuromorphic) computing chips and systems",
+  "problem": "Robots and edge systems need efficient processing of both spiking and conventional neural networks locally.",
+  "products": [
+   {
+    "name": "KA200",
+    "category": "chip",
+    "description": "Brain-inspired many-core chip supporting spiking and artificial neural networks."
+   },
+   {
+    "name": "Lynxi accelerator cards (HP series)",
+    "category": "system",
+    "description": "PCIe cards built on KA200 for edge servers and research systems."
+   },
+   {
+    "name": "Brain-inspired computing systems/servers",
+    "category": "system",
+    "description": "Server and edge systems for neuromorphic and hybrid AI workloads."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "education-research",
+   "industrial-manufacturing",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Tsinghua-rooted hybrid architecture supporting both spiking and conventional neural networks on one chip.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cbinsights.com/company/lynxi-technologies/financials",
+   "https://app.dealroom.co/companies/lynxi_technology",
+   "https://pitchhub.36kr.com/project/1678558076449800"
+  ]
+ },
+ {
+  "id": "memryx",
+  "name": "MemryX Inc.",
+  "verdict": "in",
+  "verdict_reason": "At-memory edge AI accelerator chips and M.2 modules for local computer vision inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://memryx.com",
+  "hq_city": "Ann Arbor",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 63,
+  "last_round": "Series B, $44M, Mar 2025 (plus undisclosed NEOM Investment Fund investment, May 2025)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "HarbourVest",
+   "M Ventures",
+   "eLab Ventures",
+   "Motus Ventures",
+   "Arm IoT Fund",
+   "NEOM Investment Fund"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Dataflow at-memory AI accelerators for edge computer vision",
+  "problem": "Edge PCs and gateways lack efficient, easy-to-deploy hardware for multi-stream real-time vision inference.",
+  "products": [
+   {
+    "name": "MX3 Edge AI Accelerator",
+    "category": "chip",
+    "description": "At-memory dataflow chip for low-power computer vision inference."
+   },
+   {
+    "name": "MX3 M.2 module",
+    "category": "system",
+    "description": "Four-chip M.2 accelerator adding vision inference to edge PCs and gateways."
+   },
+   {
+    "name": "MemryX SDK / Neural Compiler",
+    "category": "sdk",
+    "description": "One-click compiler and runtime mapping models onto MX3 without retraining."
+   },
+   {
+    "name": "MX4",
+    "category": "chip",
+    "description": "Next-generation accelerator in design, targeting larger and generative models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "embedded-iot",
+   "camera"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "security-surveillance",
+   "retail",
+   "developers"
+  ],
+  "partners": [
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "At-memory dataflow design with floating-point activations, enabling models to run without retraining or quantization effort.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.edge-ai-vision.com/2025/03/memryx-raises-44-million-in-series-b-funding-for-advanced-edge-ai-computing/",
+   "https://siliconangle.com/2025/03/28/edge-ai-semiconductor-maker-memryx-raises-44m",
+   "https://www.eenewseurope.com/en/memryx-gains-saudi-backing-from-neom-builder-of-the-line/",
+   "https://www.cbinsights.com/company/memryx-1/financials"
+  ]
+ },
+ {
+  "id": "microchip-technology",
+  "name": "Microchip Technology Inc.",
+  "verdict": "in",
+  "verdict_reason": "Owns Hailo edge AI processors (2026) plus VectorBlox FPGA AI and ML tooling for MCUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.microchip.com",
+  "hq_city": "Chandler",
+  "hq_country": "United States",
+  "founded": 1989,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: MCHP)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "MCUs, MPUs, FPGAs and now dedicated edge AI accelerators",
+  "problem": "Embedded and industrial designers need complete, low-power silicon and tools to deploy AI at the edge.",
+  "products": [
+   {
+    "name": "Hailo-8 / Hailo-10 / Hailo-15",
+    "category": "chip",
+    "description": "Edge AI accelerators and vision processors acquired with Hailo (2026)."
+   },
+   {
+    "name": "PolarFire FPGAs/SoCs with VectorBlox",
+    "category": "chip",
+    "description": "Low-power FPGAs running neural networks via VectorBlox soft accelerator."
+   },
+   {
+    "name": "VectorBlox Accelerator SDK",
+    "category": "sdk",
+    "description": "Tools compiling TensorFlow/ONNX models to PolarFire FPGA overlays."
+   },
+   {
+    "name": "MPLAB Machine Learning Development Suite",
+    "category": "sdk",
+    "description": "AutoML tooling for building ML models for Microchip MCUs and MPUs."
+   },
+   {
+    "name": "PIC64 (HPSC, PIC64GX) MPUs",
+    "category": "chip",
+    "description": "RISC-V processors for intelligent edge, aerospace and industrial AI."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "government-defense",
+   "automotive",
+   "consumer-electronics-oem",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Broad embedded portfolio and channel combined with Hailo's dedicated edge AI accelerators.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.microchip.com/en-us/about/media-center/blog/2026/microchip-hailo-expanding-the-possibilities-of-edge-ai",
+   "https://embeddedcomputing.com/application/edge-ai/microchip-technology-acquires-hailo-expanding-edge-ai-solutions",
+   "https://en.globes.co.il/en/article-1001550424"
+  ]
+ },
+ {
+  "id": "mindgrove-technologies",
+  "name": "Mindgrove Technologies Pvt. Ltd.",
+  "verdict": "borderline",
+  "verdict_reason": "RISC-V IoT MCU startup; edge-AI Vision SoC under development, current product is a general secure MCU.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.mindgrovetech.in",
+  "hq_city": "Chennai",
+  "hq_country": "India",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 10.3,
+  "last_round": "Series A, $8M, Dec 2024, co-led by Rocketship.vc and Speciale Invest",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Rocketship.vc",
+   "Speciale Invest",
+   "Peak XV Partners",
+   "Whiteboard Capital",
+   "Mela Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Indigenous RISC-V SoCs for IoT and edge vision",
+  "problem": "Indian device makers depend on imported chips; they need affordable local SoCs for IoT and edge vision.",
+  "products": [
+   {
+    "name": "Secure IoT SoC",
+    "category": "chip",
+    "description": "RISC-V microcontroller SoC with security features for IoT and embedded devices."
+   },
+   {
+    "name": "Vision SoC",
+    "category": "chip",
+    "description": "Edge computing vision SoC with AI acceleration, funded under India's DLI scheme."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [
+   "IIT Madras",
+   "MeitY Design Linked Incentive scheme"
+  ],
+  "notable_customers": [],
+  "differentiator": "Among India's first commercial fabless RISC-V MCU makers, with government DLI backing.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://yourstory.com/2024/12/mindgrove-technologies-funding-rocketshipvc-speciale-invest",
+   "https://inc42.com/buzz/semiconductor-startup-mindgrove-bags-8-mn-from-rocketship-vc-speciale-invest/",
+   "https://www.eenewseurope.com/en/indian-soc-developer-mindgrove-raises-us8-million-in-series-a",
+   "https://www.cbinsights.com/company/mindgrove-technologies/financials"
+  ]
+ },
+ {
+  "id": "mips",
+  "name": "MIPS Tech LLC",
+  "verdict": "in",
+  "verdict_reason": "RISC-V processor and NPU IP marketed for physical/edge AI SoCs; now a GlobalFoundries unit.",
+  "status": "acquired",
+  "status_detail": "Acquired by GlobalFoundries (closed 14 Aug 2025; terms undisclosed); operates as standalone business",
+  "parent": "GlobalFoundries",
+  "website": "https://mips.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 1984,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "RISC-V CPU and AI compute IP for physical AI and automotive",
+  "problem": "Autonomous, industrial and automotive SoCs need real-time, efficient compute IP for sense-think-act AI workloads.",
+  "products": [
+   {
+    "name": "P8700",
+    "category": "ip",
+    "description": "Multithreaded RISC-V CPU IP for automotive ADAS and autonomous platforms."
+   },
+   {
+    "name": "I8500",
+    "category": "ip",
+    "description": "Multithreaded RISC-V processor IP for data movement in edge AI systems."
+   },
+   {
+    "name": "M8500",
+    "category": "ip",
+    "description": "Real-time RISC-V core for control and sensing in physical AI."
+   },
+   {
+    "name": "S8200",
+    "category": "ip",
+    "description": "Software-first RISC-V NPU IP for edge AI inference."
+   },
+   {
+    "name": "Atlas portfolio",
+    "category": "platform",
+    "description": "Compute subsystem suite combining MIPS cores for physical AI SoCs."
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "multimodal"
+  ],
+  "customers": [
+   "automotive",
+   "industrial-manufacturing",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "GlobalFoundries"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware multithreading RISC-V IP tuned for real-time physical AI, backed by a foundry parent.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.globenewswire.com/news-release/2025/08/14/3133393/0/en/GlobalFoundries-Completes-Acquisition-of-MIPS.html",
+   "https://mips.com/press-releases/globalfoundries-completes-acquisition-of-mips/",
+   "https://electronics360.globalspec.com/article/22687/gf-completes-mips-acquisition"
+  ]
+ },
+ {
+  "id": "mobilint",
+  "name": "Mobilint, Inc.",
+  "verdict": "in",
+  "verdict_reason": "NPU chips, cards and systems running LLM and vision inference on edge and on-prem hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.mobilint.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, ~KRW 70B (~$46.4M), Apr 2026",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Korea Development Bank",
+   "Company K Partners",
+   "POSCO Investment",
+   "Praxis Capital Partners"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Edge and on-device NPUs for LLM and vision inference",
+  "problem": "Industrial and enterprise users need affordable, power-efficient local AI inference instead of GPU servers or cloud.",
+  "products": [
+   {
+    "name": "ARIES",
+    "category": "chip",
+    "description": "Edge NPU (~80 TOPS) for LLM and vision inference; mass production since Jan 2025."
+   },
+   {
+    "name": "MLA100",
+    "category": "system",
+    "description": "PCIe accelerator card built on ARIES for edge and on-prem servers."
+   },
+   {
+    "name": "MLX-A1",
+    "category": "system",
+    "description": "Standalone ARIES-based edge AI system for local deployment."
+   },
+   {
+    "name": "REGULUS",
+    "category": "chip",
+    "description": "Low-power on-device AI SoC for robots, drones and embedded devices."
+   },
+   {
+    "name": "Mobilint SDK (qb compiler)",
+    "category": "sdk",
+    "description": "Compiler and runtime for quantizing and deploying models to Mobilint NPUs."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem",
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "camera"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "enterprise",
+   "security-surveillance",
+   "government-defense"
+  ],
+  "partners": [
+   "POSCO DX"
+  ],
+  "notable_customers": [],
+  "differentiator": "Korean NPU vendor claiming edge LLM capability, with POSCO DX industrial AI co-development.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://en.wowtale.net/2026/04/07/233820",
+   "https://inforcapital.com/news/mobilint-raises-464m-series-c-bets-big-on-edge-ai-with-posco-dx/",
+   "https://www.ai-market-watch.com/company/mobilint",
+   "https://www.cbinsights.com/company/mobilint/financials",
+   "https://www.digitaltoday.co.kr/en/view/44811/mobilint-poscodx-npu-based-industrial-ai-joint-development"
+  ]
+ },
+ {
+  "id": "mythic",
+  "name": "Mythic, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Analog compute-in-memory processors for low-power local AI inference in edge, defense and industrial systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mythic.ai",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 2012,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": "$125M (oversubscribed, reported as Series D), Dec 2025, led by DCVC",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "DCVC",
+   "NEA",
+   "SoftBank Ventures Korea",
+   "Honda Motor",
+   "Lockheed Martin Ventures",
+   "Atreides Capital",
+   "Future Ventures",
+   "Catapult Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Analog compute-in-memory AI processors",
+  "problem": "Digital GPUs hit a power wall, making high-performance AI inference impractical in power-constrained edge systems.",
+  "products": [
+   {
+    "name": "M1076 Analog Matrix Processor",
+    "category": "chip",
+    "description": "Analog compute-in-memory AI processor (~25 TOPS) at a few watts."
+   },
+   {
+    "name": "MM1076 M.2 card",
+    "category": "system",
+    "description": "M.2 accelerator bringing analog AI inference to edge PCs and devices."
+   },
+   {
+    "name": "MP10304 PCIe card",
+    "category": "system",
+    "description": "Quad-AMP PCIe card for edge servers and multi-stream vision."
+   },
+   {
+    "name": "ME1076 module",
+    "category": "system",
+    "description": "Compact module for embedded and drone integration."
+   },
+   {
+    "name": "Mythic SDK",
+    "category": "sdk",
+    "description": "Compiler and tools converting trained models to analog compute-in-memory execution."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense",
+   "industrial-manufacturing",
+   "security-surveillance",
+   "automotive"
+  ],
+  "partners": [
+   "Honda Motor",
+   "Lockheed Martin"
+  ],
+  "notable_customers": [],
+  "differentiator": "Flash-based analog compute-in-memory claiming up to 100x energy advantage over GPUs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20251217546249/en/Mythic-to-Challenge-AIs-GPU-Pantheon-with-100x-Energy-Advantage-and-Oversubscribed-$125M-Raise",
+   "https://www.dcvc.com/news-insights/mythic-raises-125m-to-break-through-ais-power-wall/",
+   "https://siliconangle.com/?p=725484",
+   "https://multiples.vc/private-comps/mythic",
+   "https://www.cbinsights.com/company/isocline-engineering-corp/financials"
+  ]
  }
 ]

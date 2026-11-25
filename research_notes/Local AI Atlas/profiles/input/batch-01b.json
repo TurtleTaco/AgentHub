@@ -1,0 +1,512 @@
+[
+ {
+  "id": "hitachi-vantara",
+  "name": "Hitachi Vantara",
+  "aliases": [],
+  "website": "https://www.hitachivantara.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Hitachi's data infrastructure and storage subsidiary.",
+   "On-prem AI storage/infrastructure; storage partner in Cisco Secure AI Factory with NVIDIA."
+  ],
+  "discovery_sources": [
+   "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/"
+  ]
+ },
+ {
+  "id": "hp-inc",
+  "name": "HP Inc.",
+  "aliases": [],
+  "website": "https://www.hp.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "PC, workstation and printer maker.",
+   "PCs and Z workstations including ZGX Nano (GB10) AI station.",
+   "NPU-equipped AI PCs and Z workstations; GB10-based DGX Spark-class desktop and DGX Station partner.",
+   "Desktop AI workstations for local model development, fine-tuning and inference."
+  ],
+  "discovery_sources": [
+   "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-DGX-Spark-Arrives-for-Worlds-AI-Developers/default.aspx",
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-dgx-station-with-its-bleeding-edge-gb300-grace-blackwell-superchip-now-available-to-order-and-will-begin-shipping-in-the-coming-months",
+   "https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers",
+   "https://heise.de/-10759895"
+  ]
+ },
+ {
+  "id": "huawei",
+  "name": "Huawei",
+  "aliases": [
+   "HiSilicon",
+   "Huawei (Ascend / Atlas / Pangu)"
+  ],
+  "website": "https://www.huawei.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Telecom, devices and cloud giant building China's domestic AI chip stack.",
+   "Telecom/tech giant with Ascend AI chips, Atlas servers, Pangu models.",
+   "Ascend NPUs and Atlas 850/950 SuperPoD AI systems running open-source CANN software.",
+   "Huawei chip unit: Kirin NPUs, Ascend AI, camera SoCs.",
+   "Ascend NPUs and Atlas servers, Ascend 'AI boxes' for on-prem industry AI, MindSpore, HarmonyOS device AI; ~$12B AI chip revenue expected 2026.",
+   "Ascend-based on-prem appliances underpin most Chinese DeepSeek all-in-one machines.",
+   "Main sovereign on-prem AI stack in China; Atlas SuperPoDs marketed abroad since MWC 2026.",
+   "On-device and on-prem Ascend inference in China."
+  ],
+  "discovery_sources": [
+   "https://www.tomshardware.com/tech-industry/huawei-expects-12-billion-in-ai-chip-revenue-this-year-as-nvidias-china-market-share-hits-zero",
+   "https://www.scmp.com/print/tech/tech-war/article/3264575/tech-war-huawei-races-fill-void-left-nvidia-china-home-grown-chips-becoming-popular-components-ai",
+   "https://www.hiascend.com/",
+   "https://www.huawei.com"
+  ]
+ },
+ {
+  "id": "ibm",
+  "name": "IBM",
+  "aliases": [
+   "IBM (Granite)",
+   "IBM (watsonx / Granite)",
+   "IBM watsonx"
+  ],
+  "website": "https://www.ibm.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Enterprise software, consulting and infrastructure company; parent of Red Hat.",
+   "NorthPole and analog in-memory AI research chips.",
+   "Apache-licensed Granite models incl. Granite 4.0 hybrid Mamba small models.",
+   "watsonx.ai software deployable on-prem/hybrid, Granite open models (Apache 2.0), Red Hat AI stack, IBM Z/Power on-chip inference.",
+   "Research on energy-efficient local inference silicon.",
+   "Small efficient enterprise models for on-prem and edge."
+  ],
+  "discovery_sources": [
+   "https://www.ibm.com/granite",
+   "https://www.ibm.com/products/watsonx-ai",
+   "https://research.ibm.com",
+   "https://huggingface.co/ibm-granite"
+  ]
+ },
+ {
+  "id": "intel",
+  "name": "Intel",
+  "aliases": [
+   "Intel (Edge AI / OpenVINO / Tiber Edge Platform)",
+   "Intel (OpenVINO)",
+   "Intel (OpenVINO, Neural Compressor)"
+  ],
+  "website": "https://www.intel.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "industrial-edge",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "x86 CPU maker and foundry spanning PCs, servers and edge.",
+   "Core Ultra PC processors with NPU; Movidius; Loihi neuromorphic research.",
+   "OpenVINO toolkit, Neural Compressor and AutoRound quantization for Intel hardware.",
+   "Core Ultra AI PC NPUs (Panther Lake, up to 180 platform TOPS), OpenVINO, Gaudi, Xeon, Crescent Island inference GPU sampling 2H 2026.",
+   "AI PC NPUs and OpenVINO for local inference.",
+   "Quantize and run models on AI PCs, CPUs and edge devices."
+  ],
+  "discovery_sources": [
+   "https://newsroom.intel.com/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu",
+   "https://cdrdv2-public.intel.com/855291/Intel%C2%AE%20Core%E2%84%A2%20Ultra%20Processors%20Series%203%20for%20Edge%20Overview_2.pdf",
+   "https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html",
+   "https://www.intel.com"
+  ]
+ },
+ {
+  "id": "kakao-kanana",
+  "name": "Kakao (Kanana)",
+  "aliases": [],
+  "website": "https://huggingface.co/kakaocorp",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Open Kanana small language models.",
+   "Korean SLMs for local/on-prem use."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/kakaocorp"
+  ]
+ },
+ {
+  "id": "lenovo",
+  "name": "Lenovo",
+  "aliases": [
+   "Lenovo Group"
+  ],
+  "website": "https://www.lenovo.com",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "World's largest PC maker; also servers, workstations and smartphones (Motorola).",
+   "PC and server maker pushing AI PCs, hybrid AI and on-prem AI infrastructure.",
+   "ThinkSystem AI servers, Hybrid AI Factory offerings and ThinkStation PGX (GB10) workstation.",
+   "Hybrid AI Factory servers, GB10 desktop systems, VMware Private AI with NVIDIA on Lenovo, Copilot+ AI PCs.",
+   "AI PCs with local models and on-prem AI servers for private deployment.",
+   "Full-stack on-prem AI servers plus desktop AI supercomputers for private model development and inference."
+  ],
+  "discovery_sources": [
+   "https://lenovopress.lenovo.com/lp2004-vmware-private-ai-foundation-with-nvidia-on-lenovo-architecture",
+   "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-DGX-Spark-Arrives-for-Worlds-AI-Developers/default.aspx",
+   "https://www.lenovo.com",
+   "https://nvidianews.nvidia.com/news/nvidia-launches-ai-first-dgx-personal-computing-systems-with-global-computer-makers"
+  ]
+ },
+ {
+  "id": "lg-ai-research-exaone",
+  "name": "LG AI Research (EXAONE)",
+  "aliases": [
+   "LG (LG AI Research)"
+  ],
+  "website": "https://www.lgresearch.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "LG Group's AI lab developing the EXAONE model family.",
+   "EXAONE open models incl. 1.2B on-device variant.",
+   "LG group AI lab releasing EXAONE models.",
+   "EXAONE open-weight models, including small on-device-sized variants, published for local deployment.",
+   "Small Korean/English models for on-device use.",
+   "Open-weight EXAONE models including small on-device sizes."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/LGAI-EXAONE",
+   "https://www.lgresearch.ai"
+  ]
+ },
+ {
+  "id": "mediatek",
+  "name": "MediaTek",
+  "aliases": [
+   "MediaTek (NeuroPilot)"
+  ],
+  "website": "https://www.mediatek.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "Fabless chipmaker for smartphones (Dimensity), TVs, IoT and automotive.",
+   "Smartphone, PC, TV and IoT SoCs with APU NPUs (Dimensity, Genio).",
+   "Hsinchu SoC giant (Dimensity, Genio) with NPUs for GenAI.",
+   "Dimensity APU NPUs and NeuroPilot; LiteRT NPU acceleration running Gemma 3n on-device with Google.",
+   "On-device GenAI on phones and IoT devices.",
+   "Runs LLMs and diffusion on phones, PCs and IoT via NeuroPilot."
+  ],
+  "discovery_sources": [
+   "https://developers.googleblog.com/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/",
+   "https://www.mediatek.com",
+   "https://investors.cerence.com/news-events/press-releases/detail/98/cerence-ai-and-mediatek-partner-to-introduce-multi-modal-language-models-running-on-the-edge-built-on-nvidia"
+  ]
+ },
+ {
+  "id": "meituan-longcat",
+  "name": "Meituan (LongCat)",
+  "aliases": [],
+  "website": "https://huggingface.co/meituan-longcat",
+  "hq_country": "China",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Open LongCat MoE models.",
+   "Open weights for self-hosting."
+  ],
+  "discovery_sources": [
+   "https://huggingface.co/meituan-longcat"
+  ]
+ },
+ {
+  "id": "meta",
+  "name": "Meta",
+  "aliases": [
+   "Meta (ExecuTorch)",
+   "Meta (Llama)",
+   "Meta Platforms"
+  ],
+  "website": "https://about.meta.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Social media and XR company (Facebook, Instagram, WhatsApp, Reality Labs).",
+   "Llama open-weight model family incl. small 1B/3B on-device models.",
+   "PyTorch's on-device inference runtime for mobile, embedded and wearable devices.",
+   "Llama open-weight models; ExecuTorch 1.0 (Oct 2025) on-device runtime used in production on Ray-Ban Meta and Ray-Ban Display glasses.",
+   "Most widely self-hosted open weights; quantized Llama for phones.",
+   "Deploys PyTorch/Llama models on phones, AR/VR and MCUs; powers Meta apps."
+  ],
+  "discovery_sources": [
+   "https://pytorch.org/blog/introducing-executorch-1-0/",
+   "https://ai.meta.com/blog/executorch-reality-labs-on-device-ai/",
+   "https://www.llama.com",
+   "https://github.com/pytorch/executorch"
+  ]
+ },
+ {
+  "id": "microsoft",
+  "name": "Microsoft",
+  "aliases": [
+   "Microsoft (Foundry Local, Windows ML, ONNX Runtime)",
+   "Microsoft (Phi, BitNet)"
+  ],
+  "website": "https://www.microsoft.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Software, cloud and PC platform giant (Windows, Azure, Microsoft 365).",
+   "Phi small language models, BitNet b1.58 1-bit LLM and bitnet.cpp.",
+   "Microsoft's local inference stack: Foundry Local, Windows ML, ONNX Runtime, Phi small models.",
+   "Windows ML (GA Sep 2025), Foundry Local (GA Apr 2026), Phi small models, Copilot+ PCs, Azure Local disconnected Sovereign Private Cloud.",
+   "SLMs and 1-bit models designed for on-device/CPU inference.",
+   "Runs models on Windows/Mac PCs across CPU/GPU/NPU; ONNX Runtime Web for browsers."
+  ],
+  "discovery_sources": [
+   "https://blogs.windows.com/windowsdeveloper/2025/09/23/windows-ml-is-generally-available-empowering-developers-to-scale-local-ai-across-windows-devices",
+   "https://devblogs.microsoft.com/foundry/foundry-local-ga/",
+   "https://blogs.microsoft.com/blog/2026/02/24/microsoft-sovereign-cloud-adds-governance-productivity-and-support-for-large-ai-models-securely-running-even-when-completely-disconnected/",
+   "https://azure.microsoft.com/en-us/products/phi"
+  ]
+ },
+ {
+  "id": "mobileye",
+  "name": "Mobileye",
+  "aliases": [],
+  "website": "https://www.mobileye.com",
+  "hq_country": "Israel",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "edge-silicon"
+  ],
+  "discovery_notes": [
+   "ADAS and autonomous-driving chip and software company (Intel majority-owned).",
+   "EyeQ automotive vision SoCs and ADAS/autonomous driving systems.",
+   "Jerusalem maker of EyeQ automotive vision SoCs and ADAS software.",
+   "EyeQ SoCs run perception and driving-policy AI entirely on-vehicle.",
+   "In-vehicle edge AI perception without cloud.",
+   "All perception AI runs on in-vehicle EyeQ chips."
+  ],
+  "discovery_sources": [
+   "https://www.mobileye.com/technology/eyeq-chip/",
+   "https://www.mobileye.com"
+  ]
+ },
+ {
+  "id": "msi",
+  "name": "MSI",
+  "aliases": [],
+  "website": "https://www.msi.com",
+  "hq_country": "Taiwan",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Gaming PC, motherboard and GPU card maker.",
+   "PC and server maker; EdgeXpert GB10 desktop AI system and AI servers.",
+   "GB10 desktop AI systems and DGX Station partner.",
+   "Ruggedized, edge-focused local AI boxes plus DGX Station-class workstations."
+  ],
+  "discovery_sources": [
+   "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-DGX-Spark-Arrives-for-Worlds-AI-Developers/default.aspx",
+   "https://heise.de/-10759895",
+   "https://hub.tdsynnex.com/wp-content/uploads/2026/01/DEC028-25-NVIDIA-OEM-DGX-Spark-Awareness-Campaign-Battlecard.pdf"
+  ]
+ },
+ {
+  "id": "naver",
+  "name": "NAVER",
+  "aliases": [
+   "NAVER Cloud (HyperCLOVA X)",
+   "Naver (HyperCLOVA X SEED)"
+  ],
+  "website": "https://clova.ai",
+  "hq_country": "South Korea",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Korean internet giant's sovereign LLM HyperCLOVA X and open SEED models.",
+   "Open lightweight HyperCLOVA X SEED models.",
+   "Neurocloud on-prem offering and open lightweight SEED models.",
+   "Small Korean models for local deployment."
+  ],
+  "discovery_sources": [
+   "https://clova.ai",
+   "https://huggingface.co/naver-hyperclovax"
+  ]
+ },
+ {
+  "id": "nec-cotomi",
+  "name": "NEC (cotomi)",
+  "aliases": [],
+  "website": "https://www.nec.com",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "IT conglomerate with cotomi Japanese LLM.",
+   "Offers cotomi for on-prem/private deployments."
+  ],
+  "discovery_sources": [
+   "https://www.nec.com"
+  ]
+ },
+ {
+  "id": "netapp",
+  "name": "NetApp",
+  "aliases": [
+   "NetApp (AI Data Engine)"
+  ],
+  "website": "https://www.netapp.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "onprem-hardware",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Enterprise data storage and data-management company.",
+   "Enterprise storage with AIPod AI data platforms; acquiring PEAK:AIO for parallel NFS.",
+   "Enterprise storage vendor with AIPod and AFX/AI Data Engine for AI workloads.",
+   "AI-ready on-prem storage; validated storage partner in Cisco Secure AI Factory with NVIDIA.",
+   "Brings existing enterprise data to on-prem AI via AIPod reference architectures.",
+   "Keeps enterprise data on-prem for private RAG and inference."
+  ],
+  "discovery_sources": [
+   "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/",
+   "https://www.storagereview.com/news/netapp-to-acquire-peakaio-bringing-its-scale-out-pnfs-metadata-work-to-ontap",
+   "https://www.blocksandfiles.com/file/2026/09/25/netapp-buying-peakaio-to-give-ontap-parallel-nfs-injection/5299234",
+   "https://www.netapp.com"
+  ]
+ },
+ {
+  "id": "ntt-tsuzumi",
+  "name": "NTT (tsuzumi)",
+  "aliases": [],
+  "website": "https://group.ntt/en/",
+  "hq_country": "Japan",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech"
+  ],
+  "discovery_notes": [
+   "Lightweight Japanese LLM tsuzumi designed for on-prem enterprise use.",
+   "Telecom giant with lightweight tsuzumi LLM.",
+   "Small model runs on single GPU on-premises.",
+   "Small LLM runs on single GPU for on-prem enterprise use."
+  ],
+  "discovery_sources": [
+   "https://group.ntt/en/",
+   "https://group.ntt"
+  ]
+ },
+ {
+  "id": "nutanix",
+  "name": "Nutanix",
+  "aliases": [
+   "Nutanix (Enterprise AI)",
+   "Nutanix Enterprise AI"
+  ],
+  "website": "https://www.nutanix.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "private-ai-platforms",
+   "selfhosted-inference-llmops"
+  ],
+  "discovery_notes": [
+   "Hybrid multicloud infrastructure and hyperconverged software company.",
+   "Hybrid-cloud infrastructure software including Nutanix Enterprise AI / GPT-in-a-Box.",
+   "Hybrid-cloud infrastructure vendor with Nutanix Enterprise AI (formerly GPT-in-a-Box)",
+   "Nutanix Enterprise AI for private LLM endpoints on-prem/hybrid; storage partner in Cisco Secure AI Factory.",
+   "Turnkey private LLM serving on customer-owned hyperconverged infrastructure.",
+   "Deploys LLM endpoints on-prem, at the edge or in public cloud under customer control"
+  ],
+  "discovery_sources": [
+   "https://www.nutanix.com/products/nutanix-enterprise-ai",
+   "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/",
+   "https://www.nutanix.com",
+   "https://www.hstoday.us/subject-matter-areas/cybersecurity/ask-sage-unveils-edge-ai-solution-to-transform-military-operations/"
+  ]
+ },
+ {
+  "id": "nvidia",
+  "name": "NVIDIA",
+  "aliases": [
+   "NVIDIA (ChatRTX / DGX Spark / RTX AI PC)",
+   "NVIDIA (Metropolis / Jetson / Isaac / Fleet Command)",
+   "NVIDIA (NIM, Dynamo, Run:ai)",
+   "NVIDIA (Nemotron, Model Optimizer)",
+   "NVIDIA (RTX AI PC, DRIVE, Jetson)",
+   "NVIDIA AI Enterprise / Enterprise AI Factory"
+  ],
+  "website": "https://www.nvidia.com",
+  "hq_country": "United States",
+  "discovery_status": "active",
+  "segments": [
+   "bigtech",
+   "industrial-edge",
+   "onprem-hardware"
+  ],
+  "discovery_notes": [
+   "Accelerated-computing leader: GPUs, systems, networking and the CUDA AI software stack.",
+   "GPU leader promoting RTX AI PCs, ChatRTX and DGX Spark desktop AI supercomputer.",
+   "Jetson edge modules, DRIVE, DGX Spark personal AI computers.",
+   "Jetson Thor/Orin, IGX, RTX AI PCs, DGX Spark/Station desktops, NIM, AI Enterprise, Nemotron open models, sovereign AI factory reference designs.",
+   "Consumer RTX GPUs and DGX Spark power most local LLM and diffusion use.",
+   "Dominant platform for local robotics and edge GPU inference."
+  ],
+  "discovery_sources": [
+   "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-DGX-Spark-Arrives-for-Worlds-AI-Developers/default.aspx",
+   "https://investor.nvidia.com/news/press-release-details/2025/Palantir-and-NVIDIA-Team-Up-to-Operationalize-AI--Turning-Enterprise-Data-Into-Dynamic-Decision-Intelligence/",
+   "https://blogs.nvidia.com/blog/us-technology-leaders-ai-factory-design-government",
+   "https://blogs.nvidia.com/blog/rtx-ai-garage-nexa-hyperlink-local-agent"
+  ]
+ }
+]

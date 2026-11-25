@@ -2430,5 +2430,790 @@
    "https://dealroom.co/companies/impala-ai/",
    "https://www.viola-group.com/portfolio/impala-ai"
   ]
+ },
+ {
+  "id": "inferact",
+  "name": "Inferact, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Founded by vLLM creators to commercialize the dominant engine for self-hosting open LLMs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2025,
+  "org_type": "open-source-company",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 150,
+  "last_round": "Seed, $150M, Jan 2026, co-led by Andreessen Horowitz and Lightspeed ($800M post-money)",
+  "valuation_usd_m": 800,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Lightspeed Venture Partners",
+   "Sequoia Capital",
+   "Altimeter Capital",
+   "Redpoint Ventures",
+   "ZhenFund"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Commercial inference engine and services built on open-source vLLM",
+  "problem": "Serving open-weight LLMs efficiently on own GPUs at scale remains complex and expensive.",
+  "products": [
+   {
+    "name": "vLLM (open source)",
+    "category": "runtime",
+    "description": "High-throughput LLM serving engine (PagedAttention), PyTorch Foundation-hosted; basis of many on-prem stacks."
+   },
+   {
+    "name": "Inferact commercial inference platform",
+    "category": "platform",
+    "description": "Next-generation commercial serving engine/services around vLLM (early stage)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Red Hat",
+   "NVIDIA",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Stewards vLLM, the de facto open engine for on-prem and VPC LLM serving across hardware vendors.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/01/22/inference-startup-inferact-lands-150m-to-commercialize-vllm/",
+   "https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/",
+   "https://www.bloomberg.com/news/articles/2026-01-22/andreessen-backed-inferact-raises-150-million-in-seed-round",
+   "https://cryptobriefing.com/inferact-raises-150m-vllm-inference/",
+   "https://www.cooley.com/news/coverage/2026/2026-01-22-inferact-announces-$150-million-seed-financing"
+  ]
+ },
+ {
+  "id": "inferless",
+  "name": "Inferless",
+  "verdict": "borderline",
+  "verdict_reason": "Serverless GPU inference cloud with BYOC option; team acqui-hired by Baseten.",
+  "status": "acquired",
+  "status_detail": "Acqui-hired by Baseten (date unconfirmed, c. 2025); fate of Inferless product unconfirmed",
+  "parent": "Baseten",
+  "website": "https://www.inferless.com",
+  "hq_city": null,
+  "hq_country": "India",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1-10",
+  "focus": "Serverless GPU inference for deploying custom ML models",
+  "problem": "Deploying custom models on GPUs involves cold starts, idle cost and infrastructure overhead.",
+  "products": [
+   {
+    "name": "Inferless serverless inference",
+    "category": "platform",
+    "description": "Serverless GPU deployment of custom models with fast cold starts."
+   },
+   {
+    "name": "Inferless BYOC",
+    "category": "platform",
+    "description": "Deployment of the platform into customers' own cloud accounts."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fast cold-start serverless GPU serving; expertise folded into Baseten's inference stack.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.plushcap.com/content/baseten/blog/baseten-announcing-the-acquihire-of-inferless-by-baseten",
+   "https://www.producthunt.com/products/inferless"
+  ]
+ },
+ {
+  "id": "infinigence-ai",
+  "name": "Infinigence AI (无问芯穹)",
+  "verdict": "in",
+  "verdict_reason": "Heterogeneous-chip inference infrastructure for on-prem/private clusters plus on-device Megrez models.",
+  "status": "active",
+  "status_detail": "Preparing IPO after Series C (Oct 2026)",
+  "parent": null,
+  "website": "https://www.infini-ai.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 591,
+  "last_round": "Series C, RMB 2.3B (~$316-344M), Oct 2026; investors incl. Baidu, Tencent, Lenovo, Qiming, HSG, Shunwei",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Baidu",
+   "Tencent",
+   "Lenovo",
+   "Qiming Venture Partners",
+   "HongShan (HSG)",
+   "Shunwei Capital",
+   "Zhuhai Technology Group",
+   "Futeng Capital"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Unifying Chinese and Western accelerators for LLM training/inference, plus device-side models",
+  "problem": "China's fragmented AI chip landscape makes it hard to run LLMs efficiently across mixed hardware.",
+  "products": [
+   {
+    "name": "Infini-AI heterogeneous compute platform",
+    "category": "platform",
+    "description": "Cloud and private-deployment platform scheduling LLM workloads across multiple chip vendors."
+   },
+   {
+    "name": "Heterogeneous inference engine",
+    "category": "runtime",
+    "description": "Optimized inference stack adapting models to domestic and Western accelerators."
+   },
+   {
+    "name": "Megrez on-device models (e.g., Megrez-3B-Omni)",
+    "category": "model",
+    "description": "Small omni-modal models designed for phones, PCs and edge devices."
+   },
+   {
+    "name": "Agentic infrastructure services",
+    "category": "service",
+    "description": "Infrastructure for deploying AI agents on its compute network (2025-2026)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "model-optimization",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "developers"
+  ],
+  "partners": [
+   "Huawei Ascend",
+   "Moore Threads",
+   "MetaX",
+   "Enflame",
+   "Biren",
+   "Hygon",
+   "Cambricon"
+  ],
+  "notable_customers": [],
+  "differentiator": "Tsinghua-rooted 'M x N' middleware bridging many model types to many domestic chip types.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://technode.com/2026/10/12/ai-infrastructure-provider-infinigence-ai-raises-rmb-2-3-billion-in-series-c-funding/",
+   "https://dealroom.co/news/161653-chinas-infinigence-ai-raises-344m-series-c-in-record-ai-infra-round/",
+   "https://www.caixinglobal.com/2025-11-28/infinigence-ai-raises-500-million-yuan-to-expand-heterogeneous-computing-platform-102387594.html",
+   "https://www.yicaiglobal.com/news/chinas-infinigence-ai-raises-usd1029-million-in-new-funding-round",
+   "https://www.tmtpost.com/7784584.html"
+  ]
+ },
+ {
+  "id": "juice-labs",
+  "name": "Juice Labs Inc.",
+  "verdict": "in",
+  "verdict_reason": "GPU-over-IP software pools and shares customer-owned GPUs across networks, incl. telco edge.",
+  "status": "active",
+  "status_detail": "Joined NVIDIA AI Grid ecosystem (Mar 2026)",
+  "parent": null,
+  "website": "https://www.juicelabs.co",
+  "hq_city": null,
+  "hq_country": "USA",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "GPU-over-IP virtualization for pooling and remote sharing of GPUs",
+  "problem": "GPUs are trapped in individual machines, leaving expensive capacity idle while other workloads wait.",
+  "products": [
+   {
+    "name": "Juice GPU-over-IP (open source)",
+    "category": "platform",
+    "description": "Lets applications use remote GPUs over standard TCP/IP networks."
+   },
+   {
+    "name": "Juice Enterprise",
+    "category": "platform",
+    "description": "GPUaaS pooling and scheduling for enterprises and research institutions on x86/Arm."
+   },
+   {
+    "name": "Juice for NVIDIA AI Grid",
+    "category": "platform",
+    "description": "Connectivity fabric distributing GPU capacity for AI at the telco edge."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [],
+  "customers": [
+   "telecom",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Equinix"
+  ],
+  "notable_customers": [],
+  "differentiator": "Network-attached GPU virtualization requiring no application changes, open-source core.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/juice-labs-joins-nvidia-ai-grid-ecosystem-delivering-the-connectivity-fabric-for-distributed-intelligence-at-the-telco-edge-302716178.html",
+   "https://deploy.equinix.com/customers/juice-labs",
+   "https://github.com/Juice-Labs/Juice-Labs",
+   "https://www.cbinsights.com/company/juice-labs"
+  ]
+ },
+ {
+  "id": "kalavai",
+  "name": "Kalavai",
+  "verdict": "in",
+  "verdict_reason": "Open-source platform pooling owned/spare devices and GPUs into self-hosted LLM clusters.",
+  "status": "active",
+  "status_detail": "Not verified by search (rate limit); company details unconfirmed",
+  "parent": null,
+  "website": "https://kalavai.net",
+  "hq_city": null,
+  "hq_country": "United Kingdom",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1-10",
+  "focus": "Turning everyday and spare devices into a shared AI compute cluster",
+  "problem": "Teams own scattered GPUs and devices but cannot easily combine them to run LLMs privately.",
+  "products": [
+   {
+    "name": "Kalavai client (open source)",
+    "category": "platform",
+    "description": "Pools machines into a cluster to deploy and serve LLMs and AI jobs on own hardware."
+   },
+   {
+    "name": "Kalavai platform",
+    "category": "platform",
+    "description": "Managed layer for coordinating pooled community/organizational compute (details unverified)."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Aggregates heterogeneous consumer and workstation hardware into one LLM-serving cluster.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "kog-ai",
+  "name": "Kog (Kog AI)",
+  "verdict": "in",
+  "verdict_reason": "Low-latency inference engine for AMD/NVIDIA GPU clusters, positioned as sovereign European stack.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.kog.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bpifrance",
+   "French Tech 2030",
+   "Scaleway"
+  ],
+  "employees": 11,
+  "employees_band": "11-50",
+  "focus": "Ultra-fast per-request LLM inference engine for agentic workloads on GPUs",
+  "problem": "Agentic workflows need much faster token generation than standard engines deliver on existing GPUs.",
+  "products": [
+   {
+    "name": "Kog Inference Engine",
+    "category": "runtime",
+    "description": "Low-level GPU engine claiming ~3,000 tokens/s per request on 8x AMD MI300X."
+   },
+   {
+    "name": "Laneformer 2B",
+    "category": "model",
+    "description": "Open-sourced 2B-parameter model co-designed with the engine for speed."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization",
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "AMD",
+   "Scaleway"
+  ],
+  "notable_customers": [],
+  "differentiator": "Deep kernel-level optimization claiming up to 3.5x speedup on AMD MI300X versus vLLM/TensorRT-LLM.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+   "https://www.amd.com/en/blogs/2025/kog-reaches-3-5x-breakthrough-inference-speed-on-amd-instinct-mi.html",
+   "https://tech-insider.org/fr/kog-startup-francaise-inference-ia-gpu-2026/",
+   "https://www.frenchtechjournal.com/the-ai-industry-spent-billions-chasing-faster-chips-inference-startup-kog-says-they-were-solving-the-wrong-problem/"
+  ]
+ },
+ {
+  "id": "kove",
+  "name": "Kove IO, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Software-defined memory for on-prem servers, marketed for AI inference KV cache but general-purpose.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://kove.com",
+  "hq_city": "Chicago",
+  "hq_country": "USA",
+  "founded": 2003,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Software-defined memory pooling to expand server memory for AI and data workloads",
+  "problem": "Inference servers hit memory limits, causing KV-cache evictions and redundant GPU recomputation.",
+  "products": [
+   {
+    "name": "Kove:SDM",
+    "category": "platform",
+    "description": "Pools memory across servers on any Linux x86 hardware without application changes."
+   },
+   {
+    "name": "Kove:SDM for AI inference",
+    "category": "platform",
+    "description": "Expands KV-cache stores (Redis/Valkey) up to 5x versus local memory (vendor benchmark)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance"
+  ],
+  "partners": [
+   "Red Hat"
+  ],
+  "notable_customers": [],
+  "differentiator": "Memory disaggregation in software, claiming lower latency than local memory for some workloads.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.storagenewsletter.com/2025/09/12/software-defined-memory-kove-announces-benchmarks/",
+   "https://developers.redhat.com/articles/2026/07/23/optimize-openshift-workloads-software-defined-memory",
+   "https://www.fierce-network.com/cloud/virtualized-memory-could-be-key-better-ai-performance",
+   "https://spectrum.ieee.org/computer-memory-ai"
+  ]
+ },
+ {
+  "id": "lablup",
+  "name": "Lablup Inc.",
+  "verdict": "in",
+  "verdict_reason": "Backend.AI orchestrates on-prem GPU/NPU clusters for AI training and LLM serving.",
+  "status": "active",
+  "status_detail": "KOSDAQ IPO priced at KRW 19,000 (KRW 41.4B raised); listing scheduled Nov 3, 2026 (completion not re-verified)",
+  "parent": null,
+  "website": "https://www.lablup.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2015,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": "IPO, KRW 41.4B, Nov 2026 (KOSDAQ); prior Series A KRW 10.5B (2022-2023)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KOSDAQ, listed Nov 2026); implied mkt cap ~KRW 277B at IPO; 2025 revenue KRW 6.7B",
+  "key_investors": [
+   "LB Investment",
+   "IBK",
+   "K2 Investment Partners",
+   "Daesung Private Equity"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "GPU/NPU cluster operating platform for AI training and inference",
+  "problem": "Organizations underutilize costly on-prem GPU/NPU clusters and struggle to share them across teams.",
+  "products": [
+   {
+    "name": "Backend.AI (open source)",
+    "category": "platform",
+    "description": "Cluster orchestration with fractional GPU sharing across NVIDIA, AMD and Korean NPUs."
+   },
+   {
+    "name": "Backend.AI Enterprise",
+    "category": "platform",
+    "description": "Commercial on-prem/air-gapped edition with model serving, governance and support."
+   },
+   {
+    "name": "FastTrack",
+    "category": "platform",
+    "description": "MLOps pipeline automation on top of Backend.AI clusters."
+   },
+   {
+    "name": "Backend.AI model serving",
+    "category": "runtime",
+    "description": "LLM/model inference service deployment within Backend.AI clusters."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "NVIDIA",
+   "VAST Data",
+   "Rebellions",
+   "FuriosaAI"
+  ],
+  "notable_customers": [
+   "Samsung Electronics"
+  ],
+  "differentiator": "Container-level fractional GPU virtualization; profitable and key to Korea's sovereign AI push.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://byline.network/2026/10/1027-4/",
+   "https://www.venturesquare.net/en/1108380/",
+   "https://en.wowtale.net/2023/04/21/56242/",
+   "https://www.vastdata.com/press-releases/vast-data-and-lablup-power-koreas-sovereign-ai-initiative",
+   "https://newstomato.com/ReadNews.aspx?no=1311796"
+  ]
+ },
+ {
+  "id": "lepton-ai",
+  "name": "Lepton AI (now NVIDIA DGX Cloud Lepton)",
+  "verdict": "borderline",
+  "verdict_reason": "AI cloud platform/GPU marketplace; bring-your-own-compute is secondary to cloud offering.",
+  "status": "acquired",
+  "status_detail": "Acquired by NVIDIA (2025, reported nine-figure deal; NVIDIA did not comment); relaunched as DGX Cloud Lepton",
+  "parent": "NVIDIA",
+  "website": "https://www.lepton.ai",
+  "hq_city": null,
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Parent: NVIDIA (NASDAQ: NVDA)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Developer AI cloud, now an NVIDIA marketplace connecting developers to GPU clouds",
+  "problem": "AI developers struggle to find and use GPU capacity across fragmented cloud providers.",
+  "products": [
+   {
+    "name": "DGX Cloud Lepton",
+    "category": "platform",
+    "description": "NVIDIA marketplace/platform for running AI on partner GPU clouds and own compute."
+   },
+   {
+    "name": "Lepton AI platform",
+    "category": "platform",
+    "description": "Original serverless/dedicated AI cloud for training and inference (pre-acquisition)."
+   },
+   {
+    "name": "leptonai Python SDK",
+    "category": "sdk",
+    "description": "Open-source library for packaging and serving AI models as services."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Founded by Caffe/ONNX creator Yangqing Jia; became NVIDIA's GPU-cloud aggregation layer.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://technode.com/2025/04/09/nvidia-acquires-chinese-gpu-cloud-startup-lepton-ai-report/",
+   "https://siliconangle.com/?p=691095",
+   "https://seekingalpha.com/news/4429256-nvidia-closes-deal-to-acquire-startup-lepton-ai-report",
+   "https://wccftech.com/nvidia-successfully-acquires-server-renting-startup-lepton-ai/"
+  ]
+ },
+ {
+  "id": "lightning-ai",
+  "name": "Lightning AI, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "AI development cloud with BYOC/on-prem options and open-source serving; now merged with GPU cloud.",
+  "status": "merged",
+  "status_detail": "Merged with Voltage Park (completed Jan 21, 2026); combined company retains Lightning AI name",
+  "parent": null,
+  "website": "https://lightning.ai",
+  "hq_city": "New York",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "Merger with Voltage Park, Jan 2026; combined valuation reported >$2.5B (unverified)",
+  "valuation_usd_m": 2500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Coatue",
+   "Index Ventures",
+   "Lux Capital"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "End-to-end AI development platform plus owned GPU cloud capacity",
+  "problem": "AI teams juggle fragmented tools and scarce GPUs to build, train and serve models.",
+  "products": [
+   {
+    "name": "Lightning AI Studio",
+    "category": "platform",
+    "description": "Cloud AI development environment, deployable BYOC in customer clouds."
+   },
+   {
+    "name": "PyTorch Lightning",
+    "category": "sdk",
+    "description": "Open-source framework for structured, scalable PyTorch training."
+   },
+   {
+    "name": "LitServe",
+    "category": "runtime",
+    "description": "Open-source high-performance model serving engine, self-hostable anywhere."
+   },
+   {
+    "name": "LitGPT",
+    "category": "sdk",
+    "description": "Open-source library to pretrain, fine-tune and serve LLMs locally or on clusters."
+   },
+   {
+    "name": "Voltage Park GPU cloud",
+    "category": "service",
+    "description": "35,000+ owned H100/B200/GB300 GPUs available via Lightning."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "education-research"
+  ],
+  "partners": [
+   "Voltage Park"
+  ],
+  "notable_customers": [],
+  "differentiator": "Creator of PyTorch Lightning combining popular open-source tooling with owned GPU infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260121371691/en/Lightning-AI-and-Voltage-Park-Complete-Merger-to-Create-the-First-Cloud-Built-for-AI",
+   "https://venturebeat.com/business/lightning-ai-and-voltage-park-complete-merger-to-create-the-first-cloud-built-for-ai",
+   "https://www.cooley.com/news/coverage/2026/2026-01-21-lightning-ai-and-voltage-park-complete-merger",
+   "https://www.kucoin.com/news/flash/lightning-ai-and-voltage-park-merge-to-form-2-5b-ai-cloud-company"
+  ]
  }
 ]

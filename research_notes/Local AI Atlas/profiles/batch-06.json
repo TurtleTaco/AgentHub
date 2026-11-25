@@ -2375,5 +2375,883 @@
    "https://dataconomy.com/2025/07/01/chinas-sophgo-chip-powers-deepseek-ai-model",
    "https://www.cbinsights.com/company/sophgo"
   ]
+ },
+ {
+  "id": "spacemit",
+  "name": "SpacemiT (进迭时空)",
+  "verdict": "in",
+  "verdict_reason": "RISC-V AI CPUs with fused AI acceleration for robots, AI PCs and edge devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.spacemit.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, >CN¥600M (~$86M), Jan 2026; China Internet Investment Fund, ABC AIC, Beijing AI Industry Fund; Glory Ventures followed on",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "China Internet Investment Fund",
+   "ABC Financial Asset Investment",
+   "Beijing AI Industry Investment Fund",
+   "Glory Ventures"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "RISC-V CPUs with integrated AI compute for intelligent edge computing",
+  "problem": "Edge device makers want open, low-cost RISC-V processors that run AI models locally.",
+  "products": [
+   {
+    "name": "Key Stone K1",
+    "category": "chip",
+    "description": "8-core RISC-V AI CPU with fused AI instructions; >150k units shipped"
+   },
+   {
+    "name": "Key Stone K3",
+    "category": "chip",
+    "description": "8 X100 RISC-V cores, up to 60 TOPS AI, 32GB LPDDR5; mass production from Apr 2026"
+   },
+   {
+    "name": "M1",
+    "category": "chip",
+    "description": "Higher-performance K1-family variant for laptops and edge servers"
+   },
+   {
+    "name": "Bianbu OS",
+    "category": "platform",
+    "description": "RISC-V Linux distribution with integrated AI software stack"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "developers"
+  ],
+  "partners": [
+   "Banana Pi",
+   "Milk-V"
+  ],
+  "notable_customers": [],
+  "differentiator": "Fuses AI instructions into RISC-V CPU cores instead of a separate NPU; open software stack.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.dealstreetasia.com/?p=469519",
+   "https://autonews.gasgoo.com/articles/news/seeds-risc-v-chipmaker-spacemit-raises-over-600-million-yuan-in-series-b-financing-2012405271274295297",
+   "https://www.scmp.com/tech/tech-trends/article/3339953/chinas-spacemit-launch-server-class-risc-v-processor-after-raising-us86-million",
+   "https://kr-asia.com/pulses/159729"
+  ]
+ },
+ {
+  "id": "stmicroelectronics",
+  "name": "STMicroelectronics N.V.",
+  "verdict": "in",
+  "verdict_reason": "STM32N6 with Neural-ART NPU, ML-core sensors and the ST Edge AI Suite tools.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.st.com",
+  "hq_city": "Geneva",
+  "hq_country": "Switzerland",
+  "founded": 1987,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: STM; Euronext Paris)",
+  "key_investors": [],
+  "employees": 50000,
+  "employees_band": "10000+",
+  "focus": "MCUs, MPUs and smart sensors with embedded AI acceleration and tooling",
+  "problem": "Embedded designers need easy ways to run vision, audio and anomaly-detection AI on microcontrollers and sensors.",
+  "products": [
+   {
+    "name": "STM32N6",
+    "category": "chip",
+    "description": "First STM32 MCU with in-house Neural-ART NPU for vision and audio AI"
+   },
+   {
+    "name": "STM32 MCUs/MPUs",
+    "category": "chip",
+    "description": "Broad MCU/MPU line running optimized neural networks"
+   },
+   {
+    "name": "MEMS sensors with MLC/ISPU",
+    "category": "chip",
+    "description": "Smart sensors with machine-learning core for in-sensor inference"
+   },
+   {
+    "name": "ST Edge AI Suite / Developer Cloud",
+    "category": "platform",
+    "description": "Free tools to optimize, benchmark and deploy models on ST devices"
+   },
+   {
+    "name": "STM32Cube.AI / ST Edge AI Core",
+    "category": "sdk",
+    "description": "Converts trained models into optimized code for STM32"
+   },
+   {
+    "name": "NanoEdge AI Studio",
+    "category": "platform",
+    "description": "AutoML for anomaly detection and on-device learning (from Cartesiam acquisition)"
+   },
+   {
+    "name": "STM32 Model Zoo",
+    "category": "model",
+    "description": "Pretrained models ready for STM32 deployment"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "consumer-electronics-oem",
+   "healthcare",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Edge Impulse"
+  ],
+  "notable_customers": [],
+  "differentiator": "End-to-end MCU AI stack: NPU MCUs, in-sensor ML cores and free model tooling.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.st.com",
+   "https://stm32ai.st.com/nanoedge-ai/"
+  ]
+ },
+ {
+  "id": "synaptics",
+  "name": "Synaptics Incorporated",
+  "verdict": "in",
+  "verdict_reason": "Astra AI-native embedded processors and MCUs for edge AI in IoT devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.synaptics.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 1986,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: SYNA)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Edge AI processors, wireless connectivity and human-interface silicon for IoT",
+  "problem": "IoT device makers need scalable, AI-capable processors and open software for edge inference.",
+  "products": [
+   {
+    "name": "Astra SL-Series",
+    "category": "chip",
+    "description": "Linux/Android AI-native embedded processors with NPUs (e.g., SL1680)"
+   },
+   {
+    "name": "Astra SR-Series",
+    "category": "chip",
+    "description": "Low-power AI MCUs for always-on sensing and context awareness"
+   },
+   {
+    "name": "Astra SL2600 series",
+    "category": "chip",
+    "description": "Next-gen processors integrating Google's open Coral NPU architecture"
+   },
+   {
+    "name": "Astra Machina",
+    "category": "device",
+    "description": "Development kits for Astra processors"
+   },
+   {
+    "name": "SyNAP / Astra AI toolkit",
+    "category": "sdk",
+    "description": "Toolkit for compiling and deploying models to Astra NPUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "pc-workstation",
+   "wearable-xr"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "enterprise"
+  ],
+  "partners": [
+   "Google"
+  ],
+  "notable_customers": [],
+  "differentiator": "Open edge AI approach, collaborating with Google on Coral NPU across its Astra line.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.synaptics.com"
+  ]
+ },
+ {
+  "id": "synopsys-arc-processor-ip",
+  "name": "ARC Processor IP (GlobalFoundries/MIPS; formerly Synopsys)",
+  "verdict": "in",
+  "verdict_reason": "ARC NPX NPU and VPX DSP IP lines widely licensed for edge AI SoCs.",
+  "status": "acquired",
+  "status_detail": "Synopsys Processor IP Solutions (ARC) business acquired by GlobalFoundries; closed Jun 2, 2026; integrated into GF's MIPS unit",
+  "parent": "GlobalFoundries",
+  "website": "https://mips.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 1998,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Part of GlobalFoundries (NASDAQ: GFS)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Licensable CPU, DSP and NPU processor IP for embedded and edge AI SoCs",
+  "problem": "SoC designers need configurable, power-efficient processor and NPU IP for embedded AI.",
+  "products": [
+   {
+    "name": "ARC NPX6 NPU IP",
+    "category": "ip",
+    "description": "Scalable neural processing unit IP for edge AI and ADAS SoCs"
+   },
+   {
+    "name": "ARC VPX DSP IP",
+    "category": "ip",
+    "description": "Vector DSP processors for AI, vision and radar workloads"
+   },
+   {
+    "name": "ARC EV processors",
+    "category": "ip",
+    "description": "Embedded vision processors with CNN engines"
+   },
+   {
+    "name": "ARC-V RISC-V cores",
+    "category": "ip",
+    "description": "RISC-V-based ARC CPU cores from ultra-low-power to high-performance"
+   },
+   {
+    "name": "MetaWare MX / NN SDK",
+    "category": "sdk",
+    "description": "Toolchain and neural network compiler for ARC NPX/VPX"
+   },
+   {
+    "name": "ASIP Designer / ASIP Programmer",
+    "category": "sdk",
+    "description": "Tools for building custom application-specific processors"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera",
+   "embedded-iot",
+   "mobile"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "MIPS",
+   "GlobalFoundries",
+   "Synopsys"
+  ],
+  "notable_customers": [],
+  "differentiator": "Mature, widely deployed configurable IP family; now paired with GF manufacturing as a Physical AI platform.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://gf.com/?p=8092",
+   "https://mips.com/press-releases/gfmipsarcclose/",
+   "https://www.nasdaq.com/press-release/globalfoundries-completes-acquisition-synopsys-processor-ip-solutions-business",
+   "https://investors.gf.com/node/10841/pdf"
+  ]
+ },
+ {
+  "id": "synsense",
+  "name": "SynSense AG (时识科技)",
+  "verdict": "in",
+  "verdict_reason": "Neuromorphic processors and dynamic-vision SoCs for sub-milliwatt on-device sensing AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.synsense.ai",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 43.9,
+  "last_round": "Private equity round, Aug 2024 (per CB Insights; undisclosed); last confirmed: $10M Pre-B+ 2023 led by Ausvic Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Ausvic Capital",
+   "Maxvision",
+   "RunWoo"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Event-driven spiking neural network processors for ultra-low-power sensing",
+  "problem": "Always-on vision and audio sensing drains batteries when handled by conventional processors.",
+  "products": [
+   {
+    "name": "Speck",
+    "category": "chip",
+    "description": "Single-chip dynamic vision sensor plus spiking neural processor"
+   },
+   {
+    "name": "Xylo Audio",
+    "category": "chip",
+    "description": "Ultra-low-power neuromorphic audio processor"
+   },
+   {
+    "name": "Xylo IMU",
+    "category": "chip",
+    "description": "Neuromorphic processor for motion and IMU sensing"
+   },
+   {
+    "name": "DYNAP-CNN",
+    "category": "chip",
+    "description": "Neuromorphic CNN processor for event-based vision"
+   },
+   {
+    "name": "Sinabs / Rockpool",
+    "category": "sdk",
+    "description": "Open-source libraries to train and deploy spiking neural networks"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Prophesee"
+  ],
+  "notable_customers": [],
+  "differentiator": "Commercial spiking neural network chips with integrated event vision at sub-milliwatt power.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://design-reuse.com/news/53708/synsense-pre-b-round.html",
+   "https://www.biometricupdate.com/202304/synsense-raises-new-funding-for-3d-edge-vision-chips-expects-to-reach-29m-in-b-round",
+   "https://www.cbinsights.com/company/synsense/financials",
+   "https://www.eenewseurope.com/en/swiss-neuromorphic-startup-changes-name-raises-money"
+  ]
+ },
+ {
+  "id": "synthara",
+  "name": "Synthara AG",
+  "verdict": "in",
+  "verdict_reason": "ComputeRAM in-memory compute IP adds AI acceleration inside the SRAM of MCUs and SoCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.synthara.ai",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 15.9,
+  "last_round": ">$11M (equity plus EU/Swiss grants), Jun 2024, led by Vsquared Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Vsquared Ventures",
+   "OTB Ventures",
+   "Onsight Ventures",
+   "Deep Tech Labs",
+   "High-Tech Grunderfonds"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Drop-in SRAM in-memory computing IP for embedded chips",
+  "problem": "Embedded chips lack efficient AI/DSP acceleration without costly redesigns or separate accelerators.",
+  "products": [
+   {
+    "name": "ComputeRAM",
+    "category": "ip",
+    "description": "In-memory-compute SRAM macro replacing standard SRAM; >100x efficiency claimed for some workloads"
+   },
+   {
+    "name": "ComputeRAM software stack",
+    "category": "sdk",
+    "description": "Software enabling standard embedded code and AI kernels to use ComputeRAM"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Drop-in SRAM replacement lets chipmakers add AI acceleration without architectural changes.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.venturekick.ch/Synthara-raises-over-USD-11M-to-expand-the-embedded-computing-market-and-enable-AI-applications",
+   "https://www.eenewseurope.com/en/synthara-raises-11m-for-in-memory-compute-adds-hermann-hauser",
+   "https://innovation.uzh.ch/en/stories/news/2024/27.6.2024_Synthara_financing-.html",
+   "https://www.cbinsights.com/company/synthara"
+  ]
+ },
+ {
+  "id": "syntiant",
+  "name": "Syntiant Corp.",
+  "verdict": "in",
+  "verdict_reason": "Neural decision processors and edge AI models for always-on voice, audio, sensor and vision AI.",
+  "status": "active",
+  "status_detail": "Filed S-1 for Nasdaq IPO (ticker SYTN) Jul 6, 2026; pricing not confirmed as of Nov 2026",
+  "parent": null,
+  "website": "https://www.syntiant.com",
+  "hq_city": "Irvine",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": "Series D, Dec 2024 (Intel Capital, M12 among investors); IPO filed Jul 2026",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Revenue ~$270M (12 months to Mar 2026, per IPO filing coverage)",
+  "key_investors": [
+   "Intel Capital",
+   "M12 (Microsoft)",
+   "Amazon Alexa Fund",
+   "Applied Ventures",
+   "Robert Bosch Venture Capital",
+   "Motorola Solutions"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Ultra-low-power edge AI chips, models and MEMS microphones for always-on sensing",
+  "problem": "Battery devices need always-on voice and sensor intelligence without draining power or streaming audio to cloud.",
+  "products": [
+   {
+    "name": "NDP100 / NDP120",
+    "category": "chip",
+    "description": "Neural Decision Processors for always-on wake word and acoustic event detection"
+   },
+   {
+    "name": "NDP200 / NDP250",
+    "category": "chip",
+    "description": "NDPs for low-power vision, sensor fusion and multimodal edge AI"
+   },
+   {
+    "name": "Syntiant edge AI models",
+    "category": "model",
+    "description": "Pretrained low-footprint speech, audio, sensor and vision models"
+   },
+   {
+    "name": "MEMS microphones",
+    "category": "device",
+    "description": "Consumer MEMS microphones from Knowles acquisition, paired with on-device AI"
+   },
+   {
+    "name": "Orosound / AudioSourceRE audio AI",
+    "category": "app",
+    "description": "Speech enhancement and source-separation software (acquired Jun 2026)"
+   }
+  ],
+  "deployment": [
+   "wearable-xr",
+   "mobile",
+   "embedded-iot",
+   "camera",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "models",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing",
+   "government-defense"
+  ],
+  "partners": [
+   "Amazon Alexa",
+   "Edge Impulse"
+  ],
+  "notable_customers": [],
+  "differentiator": "Combines NDP silicon, in-house models and high-volume MEMS microphones in one edge-audio stack.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.renaissancecapital.com/IPO-Center/News/120304/edge-ai-chip-designer-syntiant-files-for-an-estimated-300-million-ipo",
+   "https://siliconangle.com/2026/07/06/syntiant-makes-low-power-chips-device-ai-files-initial-public-offering/",
+   "https://www.sec.gov/Archives/edgar/data/0001718728/000119312526296426/ck0001718728-20260706.htm",
+   "https://ocbj.com/oc-homepage/syntiant-broadens-ai-reach-with-2-acquisitions",
+   "https://thenextweb.com/news/syntiant-us-ipo-edge-ai-nasdaq"
+  ]
+ },
+ {
+  "id": "telechips",
+  "name": "Telechips Inc.",
+  "verdict": "in",
+  "verdict_reason": "Automotive SoCs plus A2X AI accelerator (up to 200 TOPS NPU) for in-vehicle edge AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.telechips.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 1999,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KOSDAQ)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Automotive infotainment, cockpit and ADAS SoCs and AI accelerators",
+  "problem": "Automakers need cost-effective chips to add AI-based ADAS and on-device LLM features to vehicles.",
+  "products": [
+   {
+    "name": "A2X (TCA2000 / TCA1000)",
+    "category": "chip",
+    "description": "Automotive AI accelerator with 200/100 TOPS NPU and sensor preprocessing; samples Apr 2025"
+   },
+   {
+    "name": "Dolphin series",
+    "category": "chip",
+    "description": "Arm-based infotainment and cockpit SoCs paired with A2X for AI features"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [
+   "SAPEON (now Rebellions)",
+   "Arm"
+  ],
+  "notable_customers": [
+   "Hyundai Motor Group"
+  ],
+  "differentiator": "Korea's first automotive AI accelerator, built on an incumbent IVI SoC base.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/telechips-unveils-automotive-ai-accelerator-a2x-featuring-200tops-npu-for-powerful-ai-processing-performance-ready-for-global-market-launch-302394144.html",
+   "https://autotechinsight.spglobal.com/news/5280837/telechips-introduces-south-koreas-first-automotive-ai-accelerator",
+   "https://www.kedglobal.com/newsView/ked202405030008"
+  ]
+ },
+ {
+  "id": "tetramem",
+  "name": "TetraMem Inc.",
+  "verdict": "in",
+  "verdict_reason": "Multi-level RRAM analog in-memory computing SoCs for low-power edge AI inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.tetramem.com",
+  "hq_city": "Fremont",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Foothill Ventures",
+   "Lam Capital",
+   "SAIC Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Memristor (multi-level RRAM) analog in-memory computing chips for edge AI",
+  "problem": "Edge AI chips waste energy shuttling weights between memory and compute.",
+  "products": [
+   {
+    "name": "MX100",
+    "category": "chip",
+    "description": "First-gen RRAM analog in-memory AI SoC with RISC-V control (Andes)"
+   },
+   {
+    "name": "MLX200",
+    "category": "chip",
+    "description": "22nm multi-level RRAM A-IMC SoC; evaluation kits targeted 2H 2026"
+   },
+   {
+    "name": "MLX300",
+    "category": "chip",
+    "description": "12nm A-IMC SoC holding 64M INT4 parameters on-chip; targets 50-80 TOPS/W"
+   },
+   {
+    "name": "Evaluation kits",
+    "category": "device",
+    "description": "EVKs for developers to test models on TetraMem silicon"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Andes Technology",
+   "SK hynix",
+   "USC"
+  ],
+  "notable_customers": [],
+  "differentiator": "Multi-level RRAM cells store weights on-chip without DRAM; founders' memristor research pedigree.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://thenextweb.com/news/tetramem-memristor-700c-space-ai-computing",
+   "https://www.businesswire.com/news/home/20260516556464/en/",
+   "https://app.dealroom.co/companies/tetramem",
+   "https://www.caplight.com/company/tetramem"
+  ]
+ },
+ {
+  "id": "texas-instruments",
+  "name": "Texas Instruments Incorporated",
+  "verdict": "in",
+  "verdict_reason": "Markets edge AI processors (AM6xA, TDA4) and NPU-equipped MCUs with free AI tooling.",
+  "status": "active",
+  "status_detail": "Acquiring Silicon Labs (~$7.5B, announced Feb 2026; close expected H1 2027)",
+  "parent": null,
+  "website": "https://www.ti.com",
+  "hq_city": "Dallas",
+  "hq_country": "United States",
+  "founded": 1930,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: TXN)",
+  "key_investors": [],
+  "employees": 34000,
+  "employees_band": "10000+",
+  "focus": "Analog and embedded processors, including edge AI vision processors and NPU MCUs",
+  "problem": "Industrial and automotive systems need real-time, low-power AI inference on embedded processors.",
+  "products": [
+   {
+    "name": "AM6xA vision processors (AM62A/AM67A/AM68A/AM69A)",
+    "category": "chip",
+    "description": "Arm-based edge AI SoCs with deep-learning accelerators for cameras and robots"
+   },
+   {
+    "name": "TDA4 (Jacinto)",
+    "category": "chip",
+    "description": "Automotive ADAS SoCs with deep-learning accelerators"
+   },
+   {
+    "name": "C2000 F28P55x",
+    "category": "chip",
+    "description": "Real-time MCUs with integrated NPU for arc/motor fault detection"
+   },
+   {
+    "name": "Edge AI Studio",
+    "category": "platform",
+    "description": "Free tools to train, compile and deploy models on TI devices"
+   },
+   {
+    "name": "Processor SDK Edge AI / TIDL",
+    "category": "sdk",
+    "description": "Deep-learning compiler and runtime for TI accelerators"
+   },
+   {
+    "name": "TI Model Zoo",
+    "category": "model",
+    "description": "Pretrained, optimized models for TI processors"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "energy-utilities",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Vast embedded/industrial footprint with own fabs; adding Silicon Labs' AI-capable wireless MCUs.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.ti.com",
+   "https://investor.ti.com/node/37826",
+   "https://www.sec.gov/Archives/edgar/data/97476/000119312526036727/d100130dex991.htm"
+  ]
  }
 ]
