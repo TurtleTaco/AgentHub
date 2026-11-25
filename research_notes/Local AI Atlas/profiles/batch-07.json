@@ -1,0 +1,2434 @@
+[
+ {
+  "id": "think-silicon",
+  "name": "Think Silicon S.A. (an Applied Materials company)",
+  "verdict": "in",
+  "verdict_reason": "Licenses ultra-low-power GPU and NEOX AI accelerator IP for on-device inference in wearables and MCUs.",
+  "status": "acquired",
+  "status_detail": "Acquired by Applied Materials (2020); operates as wholly owned subsidiary",
+  "parent": "Applied Materials",
+  "website": "https://www.think-silicon.com",
+  "hq_city": "Patras",
+  "hq_country": "Greece",
+  "founded": 2007,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Parent: Applied Materials (NASDAQ: AMAT)",
+  "key_investors": [
+   "Applied Materials"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Ultra-low-power GPU, display controller and ML accelerator IP for tiny edge SoCs",
+  "problem": "Battery-powered wearables and MCUs lack the power budget for rich graphics and on-device ML inference.",
+  "products": [
+   {
+    "name": "NEMA GPU family",
+    "category": "ip",
+    "description": "Ultra-low-power 2D/2.5D/3D GPU IP used in MCU and wearable SoCs (e.g., Ambiq, ST)."
+   },
+   {
+    "name": "NEOX|A",
+    "category": "ip",
+    "description": "RISC-V-based AI/ML accelerator IP for low-power edge inference."
+   },
+   {
+    "name": "NEOX|G",
+    "category": "ip",
+    "description": "RISC-V-based programmable GPU IP combining graphics and compute for edge devices."
+   },
+   {
+    "name": "NEMA|dc display controllers",
+    "category": "ip",
+    "description": "Low-power display controller IP for small screens in wearables and IoT."
+   },
+   {
+    "name": "NemaGFX SDK",
+    "category": "sdk",
+    "description": "Graphics/compute software stack and drivers for Think Silicon GPU IP."
+   }
+  ],
+  "deployment": [
+   "wearable-xr",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Ambiq",
+   "STMicroelectronics",
+   "RISC-V International"
+  ],
+  "notable_customers": [
+   "Ambiq",
+   "STMicroelectronics"
+  ],
+  "differentiator": "Among the smallest, lowest-power GPU IP cores; RISC-V NEOX line merges graphics with AI acceleration.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.design-reuse.com/sip/supplier/765/think-silicon-an-applied-materials-company/",
+   "https://think-silicon.com/corporate-information",
+   "https://www.jonpeddie.com/techwatch/think-silicons-new-gpu-and-ai-accelerator/",
+   "https://career.auth.gr/wp-content/uploads/2023/08/d2f740278f0d4186bd8b3a6143c05caa-silicon.pdf"
+  ]
+ },
+ {
+  "id": "tsingmicro",
+  "name": "Beijing Tsingmicro Intelligent Technology Co., Ltd. (Tsing Micro)",
+  "verdict": "in",
+  "verdict_reason": "Reconfigurable (CGRA) AI chips for edge devices plus datacenter inference accelerators.",
+  "status": "active",
+  "status_detail": "Completed IPO counseling for Shenzhen listing (2025-2026)",
+  "parent": null,
+  "website": "https://www.tsingmicro.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 326,
+  "last_round": "Series C, >RMB 2B (~$283M), Dec 2025, state-backed (Beijing energy SOE reported as lead; sources differ)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Guokai Equipment Manufacturing Industrial Investment Fund",
+   "Ant Group",
+   "Beijing Energy Holding / Jingneng (reported)",
+   "Beijing Industrial State-owned Assets (reported)"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Coarse-grained reconfigurable AI processors from edge voice/vision chips to datacenter accelerators",
+  "problem": "Fixed-function AI chips waste energy and cannot adapt efficiently to fast-changing AI models at the edge.",
+  "products": [
+   {
+    "name": "TX2 series",
+    "category": "chip",
+    "description": "Ultra-low-power reconfigurable edge AI chips for voice and sensing in consumer/IoT devices."
+   },
+   {
+    "name": "TX5 series",
+    "category": "chip",
+    "description": "Edge vision AI chips for face recognition, cameras and smart terminals."
+   },
+   {
+    "name": "TX8 series",
+    "category": "chip",
+    "description": "High-performance reconfigurable AI chips for datacenter LLM training and inference."
+   },
+   {
+    "name": "TX8-based accelerator cards and servers",
+    "category": "system",
+    "description": "Compute cards/servers built on TX8 chips for domestic AI computing clusters."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "China's leading reconfigurable-computing (CGRA) AI chip company, Tsinghua spinout, spanning edge to datacenter.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.caixinglobal.com/2025-12-03/tsing-micro-raises-over-2-billion-yuan-in-state-backed-round-as-china-ramps-up-ai-chip-push-102389255.html",
+   "https://cdn.dealstreetasia.com/stories/tsingmicro-financing-465382",
+   "https://www.cbinsights.com/company/tsing-micro/financials",
+   "https://kr-asia.com/tsing-micro-nears-becoming-chinas-first-listed-reconfigurable-chip-company",
+   "https://www.startupresearcher.com/news/reconfigurable-chip-maker-tsing-micro-completes-ipo-counseling-for-shenzhen-listing",
+   "https://equalocean.com/news/2022032517187-tsingmicro-intelligent-technology-raised-over-cny-100-mn-series-b"
+  ]
+ },
+ {
+  "id": "ubitium",
+  "name": "Ubitium GmbH",
+  "verdict": "in",
+  "verdict_reason": "Single universal RISC-V processor targeting low-cost on-device AI in embedded products.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.ubitium.com",
+  "hq_city": "Düsseldorf",
+  "hq_country": "Germany",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 18,
+  "last_round": "Seed extension, $14M, Oct 2026, led by Ibex Investors",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Ibex Investors",
+   "Runa Capital",
+   "Inflection",
+   "KBC Focus Fund"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Workload-agnostic universal RISC-V processor unifying CPU, GPU, DSP, FPGA and AI functions",
+  "problem": "Embedded products need several costly chips (CPU, GPU, DSP, NPU) to add AI, raising BOM and complexity.",
+  "products": [
+   {
+    "name": "Universal RISC-V Processor",
+    "category": "chip",
+    "description": "Single reconfigurable array chip handling CPU, GPU, DSP, FPGA and AI workloads; first silicon targeted 2026."
+   },
+   {
+    "name": "Prototype chips and development kits",
+    "category": "system",
+    "description": "Early dev kits for evaluating the universal processor in embedded designs."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "One homogeneous processor array replaces multiple specialized units, promising AI at no added silicon cost.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://newelectronics.co.uk/content/news/ubitium-debuts-universal-risc-v-processor-and-raises-37m",
+   "https://siliconangle.com/?p=850350",
+   "https://tomshardware.com/pc-components/cpus/ubitium-announces-development-of-universal-processor-that-combines-cpu-gpu-dsp-and-fpga-functionalities-risc-v-powered-chip-slated-to-arrive-in-two-years",
+   "https://www.eenewseurope.com/en/universal-ai-risc-v-processor-does-it-all-cpu-gpu-dsp-fpga/"
+  ]
+ },
+ {
+  "id": "unisoc",
+  "name": "UNISOC (Shanghai) Technologies Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Mobile, wearable, IoT and automotive SoCs with integrated NPUs for on-device AI.",
+  "status": "active",
+  "status_detail": "Filed IPO counseling for Shanghai STAR Market (Jun 2025); listing not confirmed",
+  "parent": "Unigroup (controlling holder Beijing Unisoc Investment Management, 32.22%)",
+  "website": "https://www.unisoc.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2001,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": 9100,
+  "market_cap_or_revenue": "Private; 2024 revenue >RMB 14.5B; ~14% global smartphone AP share Q4 2024 (Counterpoint)",
+  "key_investors": [
+   "Unigroup",
+   "China Integrated Circuit Industry Investment Fund (Big Fund)",
+   "Intel (2014 strategic stake)"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Affordable 4G/5G smartphone, wearable, IoT and automotive SoCs with on-chip AI",
+  "problem": "Budget phones and IoT devices need on-device AI without the cost of premium flagship chipsets.",
+  "products": [
+   {
+    "name": "T-series smartphone SoCs (incl. Tanggula 5G T760/T770)",
+    "category": "chip",
+    "description": "4G/5G mobile SoCs with integrated NPU for on-device camera, voice and AI features."
+   },
+   {
+    "name": "W-series wearable SoCs (e.g., W517)",
+    "category": "chip",
+    "description": "Smartwatch/wearable platforms with low-power processing for on-device features."
+   },
+   {
+    "name": "A-series automotive SoCs (e.g., A7870)",
+    "category": "chip",
+    "description": "Smart-cockpit SoCs for in-vehicle infotainment and AI functions."
+   },
+   {
+    "name": "Cellular IoT chips",
+    "category": "chip",
+    "description": "Cat.1/NB-IoT/5G RedCap modem SoCs for connected IoT devices."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "wearable-xr",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "telecom",
+   "automotive"
+  ],
+  "partners": [
+   "Arm",
+   "Google (Android)"
+  ],
+  "notable_customers": [
+   "Transsion",
+   "Samsung",
+   "HMD"
+  ],
+  "differentiator": "China's largest merchant mobile SoC vendor, dominant in low-cost phones and cellular IoT globally.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.digitimes.com/news/a20250702PD228.html",
+   "https://www.digitimes.com/news/a20241111PD220/unisoc-ipo-financing-revenue.html",
+   "https://www.caixinglobal.com/2024-06-04/exclusive-unigroup-backed-phone-chip-designer-valued-at-91-billion-plans-to-kick-off-ipo-process-next-year-102203199.html"
+  ]
+ },
+ {
+  "id": "untether-ai",
+  "name": "Untether AI Corporation",
+  "verdict": "in",
+  "verdict_reason": "Former maker of at-memory inference accelerators for edge and on-prem; now wound down.",
+  "status": "defunct",
+  "status_detail": "Shut down Jun 2025; engineering team acqui-hired by AMD (no assets/products acquired); speedAI and imAIgine support discontinued",
+  "parent": null,
+  "website": "https://www.untether.ai",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": 145,
+  "last_round": "$125M, Jul 2021, led by Tracker Capital and Intel Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Radical Ventures",
+   "Intel Capital",
+   "Tracker Capital Management",
+   "CPP Investments"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "At-memory compute inference chips and cards for energy-efficient edge and datacenter AI",
+  "problem": "Moving data between memory and compute dominates AI inference energy, limiting performance per watt.",
+  "products": [
+   {
+    "name": "speedAI240 (Boqueria)",
+    "category": "chip",
+    "description": "Second-gen at-memory inference chip, ~2 PetaFLOPs FP8; discontinued 2025."
+   },
+   {
+    "name": "runAI200",
+    "category": "chip",
+    "description": "First-gen at-memory compute inference chip (2020)."
+   },
+   {
+    "name": "tsunAImi accelerator cards",
+    "category": "system",
+    "description": "PCIe inference cards for edge/on-prem servers built on Untether chips."
+   },
+   {
+    "name": "imAIgine SDK",
+    "category": "sdk",
+    "description": "Compiler and runtime toolchain for deploying models on Untether accelerators."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "At-memory architecture placing RISC-V processing elements beside SRAM for very high inference TOPS/W.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/amd-scoops-entire-untether-ai-chip-team-canada-ai-inference-outfit-will-cease-product-support",
+   "https://www.hpcwire.com/off-the-wire/untether-ai-team-acquired-by-amd-product-support-discontinued/",
+   "https://betakit.com/american-chip-giant-amd-to-acquire-untether-ai-team/",
+   "https://thelogic.co/briefing/toronto-chipmaker-untether-ai-shuts-down-sells-team-to-amd/",
+   "https://www.benefitsandpensionsmonitor.com/news/industry-news/untether-ai-exits-as-chip-talent-shifts-to-amd-in-acquihire-move/392094"
+  ]
+ },
+ {
+  "id": "verisilicon",
+  "name": "VeriSilicon Microelectronics (Shanghai) Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Vivante NPU/GPU/ISP IP integrated in many edge AI SoCs, plus custom AI silicon services.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.verisilicon.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2001,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SSE STAR Market: 688521)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Processor IP (NPU, GPU, ISP, VPU, DSP) and turnkey custom silicon for edge AI chips",
+  "problem": "Chipmakers need proven AI and multimedia IP and design services to build edge AI SoCs quickly.",
+  "products": [
+   {
+    "name": "Vivante NPU IP (VIP9000 family)",
+    "category": "ip",
+    "description": "Scalable neural processing unit IP for on-device inference in SoCs."
+   },
+   {
+    "name": "Nano NPU IP (VIP9000Nano)",
+    "category": "ip",
+    "description": "Ultra-low-power NPU IP for wearables and always-on IoT devices."
+   },
+   {
+    "name": "Vivante GPU / GPGPU IP",
+    "category": "ip",
+    "description": "Graphics and compute GPU IP, including AI-oriented GPGPU cores."
+   },
+   {
+    "name": "ISP and Hantro VPU IP",
+    "category": "ip",
+    "description": "Image signal processing and video codec IP for cameras and vision pipelines."
+   },
+   {
+    "name": "ZSP DSP IP",
+    "category": "ip",
+    "description": "Digital signal processor IP for audio, voice and sensor processing."
+   },
+   {
+    "name": "Custom silicon / chiplet design services",
+    "category": "service",
+    "description": "Turnkey ASIC and chiplet design-to-production services for AI SoCs."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "wearable-xr",
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "services"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "NXP (i.MX 8M Plus NPU)"
+  ],
+  "differentiator": "Broad one-stop processor IP portfolio plus design services; NPU IP licensed into a large base of edge SoCs.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "witinmem-witmem",
+  "name": "Witmem Technology (WITINMEM, Beijing Zhicun Technology / 知存科技)",
+  "verdict": "in",
+  "verdict_reason": "Mass-produced compute-in-flash analog AI chips for ultra-low-power on-device voice and sensor AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.witmem.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 121.6,
+  "last_round": "Series B3 (B-III), ~$29M, Jan 2023, incl. SDIC Venture Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Shenzhen Capital Group",
+   "SDIC Venture Capital"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Analog compute-in-memory (flash) AI chips for wearables, hearables and IoT",
+  "problem": "Always-on AI in earbuds and wearables drains batteries when data shuttles between memory and processor.",
+  "products": [
+   {
+    "name": "WTM2101",
+    "category": "chip",
+    "description": "Compute-in-flash AI SoC for sub-mW voice recognition, denoising and health sensing."
+   },
+   {
+    "name": "WTM8 series",
+    "category": "chip",
+    "description": "Higher-performance compute-in-memory chips targeting vision and AR/edge workloads."
+   },
+   {
+    "name": "WTM2101 development kit and toolchain",
+    "category": "sdk",
+    "description": "Tools to map neural networks onto Witmem compute-in-memory arrays."
+   }
+  ],
+  "deployment": [
+   "wearable-xr",
+   "embedded-iot",
+   "mobile"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "speech-audio",
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Among the first to mass-produce analog compute-in-flash AI chips for consumer devices.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://pandaily.com/?p=89828",
+   "https://equalocean.com/news/2022092918974-chip-company-witinmem-raises-cny-100-million-series-b-funding-round",
+   "https://www.cbinsights.com/company/witinmen/financials",
+   "https://www.eenewseurope.com/en/china-startup-witinmem-uses-analog-flash-for-compute-in-memory/",
+   "https://www.linkedin.com/company/witmem"
+  ]
+ },
+ {
+  "id": "xmos",
+  "name": "XMOS Ltd",
+  "verdict": "in",
+  "verdict_reason": "xcore.ai processors and voice chips run voice and sensor AI locally on devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.xmos.com",
+  "hq_city": "Bristol",
+  "hq_country": "United Kingdom",
+  "founded": 2005,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": "$19M equity + venture debt, 2019, Harbert European Growth Capital and existing investors",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Infineon Technologies",
+   "Robert Bosch Venture Capital",
+   "Amadeus Capital Partners",
+   "Harbert European Growth Capital"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Software-defined multicore xcore processors for voice, audio and edge AI",
+  "problem": "Device makers need cheap, deterministic processors that add local voice and AI without extra chips or cloud.",
+  "products": [
+   {
+    "name": "xcore.ai",
+    "category": "chip",
+    "description": "Third-gen crossover multicore processor with vector unit for edge AI, from ~$1."
+   },
+   {
+    "name": "XVF3800 / XVF3610 voice processors",
+    "category": "chip",
+    "description": "Far-field voice processors with beamforming, AEC and local keyword spotting."
+   },
+   {
+    "name": "XMOS AI tools",
+    "category": "sdk",
+    "description": "Toolchain to optimize and deploy TensorFlow Lite models on xcore."
+   },
+   {
+    "name": "XCORE GenSoC platform",
+    "category": "platform",
+    "description": "2025 repositioning letting developers describe system behaviour in natural language on xcore."
+   }
+  ],
+  "deployment": [
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio",
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Infineon Technologies"
+  ],
+  "notable_customers": [],
+  "differentiator": "Deterministic real-time multicore architecture combining I/O, DSP, control and AI in one low-cost chip.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://design-reuse.com/news/46848/xmos-funding.html",
+   "https://www.biometricupdate.com/201710/uk-firm-xmos-raises-15m-in-series-e-funding-round",
+   "https://www.eenewseurope.com/en/xmos-finds-funds-to-pursue-ai-in-iot/",
+   "https://wikimili.com/en/XMOS"
+  ]
+ },
+ {
+  "id": "aibrix-bytedance",
+  "name": "ByteDance Ltd. (AIBrix)",
+  "verdict": "borderline",
+  "verdict_reason": "AIBrix is ByteDance's open-source self-hosted vLLM control plane; not a commercial product line.",
+  "status": "active",
+  "status_detail": "AIBrix open-sourced 2025 under the vllm-project GitHub org",
+  "parent": "ByteDance",
+  "website": "https://github.com/vllm-project/aibrix",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2012,
+  "org_type": "big-tech",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Private big-tech (ByteDance)",
+  "key_investors": [
+   "HongShan (Sequoia China)",
+   "SoftBank Vision Fund",
+   "General Atlantic",
+   "KKR"
+  ],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Open-source Kubernetes-native infrastructure for scalable, cost-efficient self-hosted LLM serving",
+  "problem": "Running vLLM at production scale on own Kubernetes clusters needs routing, autoscaling and KV-cache management.",
+  "products": [
+   {
+    "name": "AIBrix",
+    "category": "platform",
+    "description": "Open-source control plane for vLLM: LLM gateway, LoRA management, autoscaling, distributed KV cache."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "vLLM project"
+  ],
+  "notable_customers": [],
+  "differentiator": "Battle-tested inside ByteDance's production LLM serving and co-designed with the vLLM community.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/vllm-project/aibrix"
+  ]
+ },
+ {
+  "id": "anyscale",
+  "name": "Anyscale, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Managed Ray platform with BYOC in customer clouds; open-source Ray runs on-prem, but core is managed.",
+  "status": "active",
+  "status_detail": "Definitive agreement to be acquired by Nscale announced Jul 30, 2026 (reported ~$1.65B); closing unconfirmed",
+  "parent": "Nscale (pending)",
+  "website": "https://www.anyscale.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 259,
+  "last_round": "Series C extension, $99M, Aug 2022, led by Addition and Intel Capital",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "NEA",
+   "Addition",
+   "Intel Capital",
+   "Foundation Capital"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Ray-based distributed compute platform for scaling AI training, data processing and inference",
+  "problem": "Scaling AI workloads across many GPUs and nodes requires complex distributed-systems engineering.",
+  "products": [
+   {
+    "name": "Ray (open source)",
+    "category": "runtime",
+    "description": "Distributed compute framework for AI; transferred to PyTorch Foundation in late 2025."
+   },
+   {
+    "name": "Ray Serve / Ray Serve LLM",
+    "category": "runtime",
+    "description": "Scalable model and LLM serving library, integrates vLLM; deployable on own clusters."
+   },
+   {
+    "name": "Anyscale Platform (BYOC)",
+    "category": "platform",
+    "description": "Managed Ray platform deployable into customer AWS, GCP or Azure accounts."
+   },
+   {
+    "name": "RayTurbo",
+    "category": "runtime",
+    "description": "Anyscale's optimized proprietary Ray runtime for faster, cheaper workloads."
+   },
+   {
+    "name": "KubeRay",
+    "category": "platform",
+    "description": "Kubernetes operator for running Ray clusters on own infrastructure."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Google Cloud",
+   "Microsoft Azure",
+   "AWS",
+   "NVIDIA",
+   "PyTorch Foundation"
+  ],
+  "notable_customers": [],
+  "differentiator": "Created Ray, among the most widely used open-source engines for distributed AI workloads.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://siliconangle.com/2026/07/30/nscale-buys-ai-infrastructure-optimization-startup-anyscale-reported-1-65b/",
+   "https://www.hpcwire.com/off-the-wire/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform/",
+   "https://letsdatascience.com/blog/anyscale-ray-sold-nscale-1-65-billion",
+   "https://futurumgroup.com/?p=93517",
+   "https://multiples.vc/private-comps/anyscale"
+  ]
+ },
+ {
+  "id": "approaching-ai-ktransformers",
+  "name": "Approaching.AI (趋境科技)",
+  "verdict": "in",
+  "verdict_reason": "KTransformers CPU-GPU hybrid inference runs huge MoE LLMs on single local workstations/servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/kvcache-ai/ktransformers",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 140,
+  "last_round": "Pre-A/A round (labels differ), several hundred million RMB, May 2026, led by Xinglian Capital and Huakong Fund (T-Capital); >RMB 1B raised in ~6 months",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Xinglian Capital",
+   "Huakong Fund (T-Capital)",
+   "GL Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Heterogeneous CPU-GPU inference that makes frontier-size open LLMs affordable on local hardware",
+  "problem": "Running 600B+ parameter open models normally requires costly multi-GPU clusters enterprises cannot easily afford.",
+  "products": [
+   {
+    "name": "KTransformers",
+    "category": "runtime",
+    "description": "Open-source framework offloading MoE experts to CPU/DRAM to run DeepSeek-class models on one GPU."
+   },
+   {
+    "name": "ATaaS token production platform",
+    "category": "service",
+    "description": "AI-token-as-a-service inference capacity platform built on its heterogeneous inference stack."
+   },
+   {
+    "name": "LLM inference appliances (all-in-one machines)",
+    "category": "system",
+    "description": "On-prem inference servers bundling KTransformers optimizations for enterprise deployment (reported)."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Tsinghua University MADSys lab"
+  ],
+  "notable_customers": [],
+  "differentiator": "Tsinghua-linked expert-offloading technique lets trillion-parameter-class MoE models run on one workstation.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://equalocean.com/news/2026052021911-approaching-ai-has-completed-pre-round-financing-several-hundred-million-yuan",
+   "https://www.36kr.com/p/3893534354881282",
+   "https://www.36kr.com/p/3893711179922305",
+   "https://m.gelonghui.com/p/5555779",
+   "https://github.com/kvcache-ai/ktransformers"
+  ]
+ },
+ {
+  "id": "arc-compute",
+  "name": "Arc Compute",
+  "verdict": "in",
+  "verdict_reason": "ArcHPC software maximizes utilization and throughput of customer-owned on-prem GPU servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.arccompute.io",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Maple Leaf Angels"
+  ],
+  "employees": 17,
+  "employees_band": "11-50",
+  "focus": "GPU utilization and performance-management software for AI/HPC infrastructure",
+  "problem": "Expensive on-prem GPUs sit underutilized, wasting capital and limiting AI throughput.",
+  "products": [
+   {
+    "name": "ArcHPC",
+    "category": "platform",
+    "description": "GPU task-matching and utilization software that raises throughput on bare-metal AI/HPC servers."
+   },
+   {
+    "name": "GPU server solutions",
+    "category": "system",
+    "description": "NVIDIA HGX-class GPU servers supplied with ArcHPC (reported, details unverified)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Low-level GPU workload matching to squeeze more throughput from existing hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.blocksandfiles.com/ai-ml/2024/06/14/arc-compute-enters-gpu-management-fray-ahead-of-first-big-funding/1601639",
+   "https://www.cbinsights.com/company/arc-compute"
+  ]
+ },
+ {
+  "id": "avesha",
+  "name": "Avesha, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Elastic GPU Service orchestrates and shares GPUs across customer on-prem and cloud Kubernetes clusters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://avesha.io",
+  "hq_city": "Boston",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 21.16,
+  "last_round": "Seed II, $15.2M, Jan 2023 (CB Insights; unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Taiwania Capital"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Kubernetes multi-cluster and GPU orchestration for hybrid AI infrastructure",
+  "problem": "GPU capacity is stranded in silos across clusters, leaving AI teams short while GPUs sit idle.",
+  "products": [
+   {
+    "name": "Elastic GPU Service (EGS)",
+    "category": "platform",
+    "description": "Dynamic GPU orchestration, reallocation and bursting across on-prem and cloud clusters."
+   },
+   {
+    "name": "KubeSlice",
+    "category": "platform",
+    "description": "Open-source multi-cluster Kubernetes networking and tenancy layer."
+   },
+   {
+    "name": "Smart Scaler",
+    "category": "platform",
+    "description": "AI-driven predictive autoscaling for Kubernetes workloads."
+   },
+   {
+    "name": "SUSE AI + EGS blueprint",
+    "category": "platform",
+    "description": "Joint reference architecture combining EGS with SUSE AI for private AI."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "SUSE"
+  ],
+  "notable_customers": [],
+  "differentiator": "Treats GPUs across multiple clusters and clouds as one elastic, shareable pool.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cbinsights.com/company/avesha/financials",
+   "https://www.caplight.com/company/avesha",
+   "https://www.zoominfo.com/financial/avesha/531147436",
+   "https://www.suse.com/link/b97afe03b7e6445f9af09480e1135ceb.aspx"
+  ]
+ },
+ {
+  "id": "baseten",
+  "name": "Baseten, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Primarily an inference cloud; self-hosted and hybrid deployments in customer VPCs are secondary.",
+  "status": "active",
+  "status_detail": "Acqui-hired Inferless team (date unconfirmed)",
+  "parent": null,
+  "website": "https://www.baseten.co",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 2085,
+  "last_round": "Series F, $1.5B, Jun 2026, led by Altimeter Capital, Conviction and Spark Capital ($13B valuation)",
+  "valuation_usd_m": 13000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "IVP",
+   "Spark Capital",
+   "Greylock",
+   "BOND",
+   "CapitalG",
+   "NVIDIA",
+   "Altimeter Capital",
+   "Conviction"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "High-performance production inference for open, custom and fine-tuned models",
+  "problem": "Serving AI models in production at low latency and cost is hard to build and operate in-house.",
+  "products": [
+   {
+    "name": "Baseten Inference Stack / Model APIs",
+    "category": "platform",
+    "description": "Optimized runtime and APIs for serving open and custom models at scale."
+   },
+   {
+    "name": "Dedicated Deployments",
+    "category": "platform",
+    "description": "Autoscaling dedicated GPU deployments across multi-cloud capacity."
+   },
+   {
+    "name": "Baseten Self-hosted",
+    "category": "platform",
+    "description": "Runs Baseten's inference stack inside the customer's own VPC/cloud account."
+   },
+   {
+    "name": "Baseten Hybrid",
+    "category": "platform",
+    "description": "Combines customer-owned compute with burst to Baseten Cloud."
+   },
+   {
+    "name": "Truss",
+    "category": "sdk",
+    "description": "Open-source model packaging framework for deploying models anywhere."
+   },
+   {
+    "name": "Chains",
+    "category": "sdk",
+    "description": "Framework for multi-model, multi-step inference workflows."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "image-video-gen",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AWS",
+   "Google Cloud"
+  ],
+  "notable_customers": [
+   "Abridge",
+   "Writer",
+   "Descript",
+   "OpenEvidence"
+  ],
+  "differentiator": "Fast-growing inference leader (~$600M ARR est.) offering VPC self-hosting for regulated buyers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://dealroom.co/news/135561-baseten-raises-1-5b-series-f-at-13b-valuation-as-ai-inference-demand-sur/",
+   "https://siliconangle.com/2026/01/20/ai-inference-startup-baseten-hits-5b-valuation-300m-round-backed-nvidia/",
+   "https://bloomberg.com/news/articles/2026-01-20/ai-inference-startup-baseten-raises-300-million-at-5-billion-valuation",
+   "https://sacra.com/research/baseten",
+   "https://www.plushcap.com/content/baseten/blog/baseten-announcing-the-acquihire-of-inferless-by-baseten"
+  ]
+ },
+ {
+  "id": "beam-beta9",
+  "name": "Beam Cloud, Inc. (Beam)",
+  "verdict": "borderline",
+  "verdict_reason": "Mainly a managed serverless GPU cloud; open-source beta9 engine can be self-hosted.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.beam.cloud",
+  "hq_city": "New York",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 4.75,
+  "last_round": "Seed (amount/date unconfirmed; total ~$4-4.75M per aggregators)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": null,
+  "employees_band": "1-10",
+  "focus": "Serverless GPU infrastructure for inference, sandboxes and AI workloads",
+  "problem": "Developers waste time managing GPU infrastructure, cold starts and scaling for AI apps.",
+  "products": [
+   {
+    "name": "Beam Cloud",
+    "category": "platform",
+    "description": "Managed serverless GPU platform for inference endpoints, jobs and sandboxes."
+   },
+   {
+    "name": "beta9",
+    "category": "runtime",
+    "description": "Open-source (AGPL) serverless GPU engine self-hostable on own GPUs/Kubernetes across clouds."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "smb"
+  ],
+  "partners": [
+   "Tigris Data"
+  ],
+  "notable_customers": [
+   "Coca-Cola",
+   "Geospy"
+  ],
+  "differentiator": "Open-source Modal alternative whose engine can run serverless GPU workloads on any infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.github.com/beam-cloud/beta9",
+   "https://www.ycombinator.com/launches/OuS-beam-open-source-modal-alternative",
+   "https://www.cbinsights.com/company/slai/",
+   "https://kustiq.com/company/beam.cloud",
+   "https://www.tigrisdata.com/blog/case-study-beam/"
+  ]
+ },
+ {
+  "id": "bentoml",
+  "name": "BentoML (Atalaya Tech, Inc.)",
+  "verdict": "in",
+  "verdict_reason": "Open-source model-serving framework and BYOC platform for deploying models in customer cloud or on-prem.",
+  "status": "acquired",
+  "status_detail": "Acquired by Modular (announced Feb 10, 2026)",
+  "parent": "Modular",
+  "website": "https://www.bentoml.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Seed, $9M, 2022, led by DCM",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "DCM"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open-source inference serving and BYOC deployment platform for any model",
+  "problem": "Teams struggle to package, scale and operate models in their own infrastructure with production reliability.",
+  "products": [
+   {
+    "name": "BentoML",
+    "category": "runtime",
+    "description": "Apache-2.0 framework for building and serving model inference APIs anywhere."
+   },
+   {
+    "name": "BentoCloud (BYOC)",
+    "category": "platform",
+    "description": "Inference platform deployable into customer cloud accounts; basis for Modular Cloud."
+   },
+   {
+    "name": "OpenLLM",
+    "category": "runtime",
+    "description": "Open-source tool to self-host open LLMs behind OpenAI-compatible APIs."
+   },
+   {
+    "name": "Yatai",
+    "category": "platform",
+    "description": "Kubernetes deployment/operations layer for BentoML services on own clusters."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Modular"
+  ],
+  "notable_customers": [],
+  "differentiator": "Widely adopted open-source serving framework now combined with Modular's MAX/Mojo hardware-portable stack.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://modular.com/blog/bentoml-joins-modular",
+   "https://bentoml.com/blog/bentoml-is-joining-modular",
+   "https://forum.modular.com/t/modular-has-acquired-bentoml-ask-us-anything/2706",
+   "https://github.com/bentoml/BentoML"
+  ]
+ },
+ {
+  "id": "berget-ai",
+  "name": "Berget AI AB",
+  "verdict": "in",
+  "verdict_reason": "Core business is sovereign AI inference on Swedish-hosted infrastructure, keeping data in-country.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://berget.ai",
+  "hq_city": "Stockholm",
+  "hq_country": "Sweden",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2.4,
+  "last_round": "Seed, €2.1M (SEK 24M, ~$2.4M), Feb 2026, Luminar Ventures, Wellstreet, Norrsken Evolve",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Luminar Ventures",
+   "Wellstreet",
+   "Norrsken Evolve"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "EU-sovereign inference platform running open models on Swedish infrastructure",
+  "problem": "European organizations cannot send sensitive data to US hyperscaler AI APIs, yet on-prem AI is complex.",
+  "products": [
+   {
+    "name": "Berget AI inference platform",
+    "category": "platform",
+    "description": "OpenAI-compatible API serving open LLMs from Swedish-hosted, EU-compliant infrastructure."
+   },
+   {
+    "name": "Sovereign AI server infrastructure",
+    "category": "service",
+    "description": "Dedicated GPU capacity in Swedish datacenters for sensitive workloads."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Swedish-jurisdiction alternative to US clouds for developer-friendly open-model inference.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2026/02/02/swedish-startup-berget-ai-lands-2-1m-as-demand-grows-for-sovereign-ai-in-europe/",
+   "https://theaiinsider.tech/2026/02/10/berget-ai-announces-2-4m-funding-round-to-build-sovereign-ai-infrastructure-platform-in-europe/",
+   "https://www.cbinsights.com/company/berget-ai",
+   "https://kista.com/2025/09"
+  ]
+ },
+ {
+  "id": "bright-computing",
+  "name": "Bright Computing (now NVIDIA Base Command Manager)",
+  "verdict": "in",
+  "verdict_reason": "Cluster management software provisioning and operating on-prem AI/HPC GPU clusters.",
+  "status": "acquired",
+  "status_detail": "Acquired by NVIDIA (Jan 2022); not re-verified by search this pass (rate limit), high-confidence knowledge",
+  "parent": "NVIDIA",
+  "website": "https://www.brightcomputing.com",
+  "hq_city": "Amsterdam",
+  "hq_country": "Netherlands",
+  "founded": 2009,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Parent: NVIDIA (NASDAQ: NVDA)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Provisioning, monitoring and management of on-prem HPC and AI clusters",
+  "problem": "Building and operating large on-prem GPU clusters requires heavy manual provisioning and management.",
+  "products": [
+   {
+    "name": "NVIDIA Base Command Manager (formerly Bright Cluster Manager)",
+    "category": "platform",
+    "description": "Cluster provisioning, workload management and monitoring for on-prem AI/HPC clusters and DGX systems."
+   },
+   {
+    "name": "Base Command Manager Essentials",
+    "category": "platform",
+    "description": "Entry edition bundled with NVIDIA AI Enterprise for smaller GPU clusters."
+   },
+   {
+    "name": "Bright Cluster Manager for Data Science",
+    "category": "platform",
+    "description": "Legacy add-on packaging ML frameworks and Jupyter for cluster users."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Now NVIDIA's standard cluster manager for DGX SuperPOD and on-prem AI factories.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "deepgram",
+  "name": "Deepgram, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Speech models marketed with dedicated self-hosted/on-prem deployment line for regulated enterprises.",
+  "status": "active",
+  "status_detail": "Acquired OfOne (Jan 2026)",
+  "parent": null,
+  "website": "https://deepgram.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 234,
+  "last_round": "Series C, $130M, Jan 2026, led by AVP ($1.3B valuation)",
+  "valuation_usd_m": 1300,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "AVP",
+   "Tiger Global",
+   "Madrona",
+   "Y Combinator",
+   "In-Q-Tel"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Real-time speech-to-text, text-to-speech and voice-agent models via cloud or self-hosted",
+  "problem": "Enterprises need accurate, low-latency voice AI that can run under strict data-residency and compliance rules.",
+  "products": [
+   {
+    "name": "Nova-3",
+    "category": "model",
+    "description": "Speech-to-text models for real-time and batch transcription."
+   },
+   {
+    "name": "Flux",
+    "category": "model",
+    "description": "Conversational speech recognition model with turn detection for voice agents."
+   },
+   {
+    "name": "Aura-2",
+    "category": "model",
+    "description": "Low-latency text-to-speech model for enterprise voice apps."
+   },
+   {
+    "name": "Voice Agent API",
+    "category": "platform",
+    "description": "Unified STT, LLM orchestration and TTS API for building voice agents."
+   },
+   {
+    "name": "Deepgram Self-Hosted",
+    "category": "platform",
+    "description": "Containerized deployment of Deepgram models on-prem, in VPCs or air-gapped environments."
+   },
+   {
+    "name": "Audio Intelligence",
+    "category": "model",
+    "description": "Summarization, topic, sentiment and intent detection on audio."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "healthcare",
+   "finance",
+   "government-defense",
+   "telecom",
+   "developers"
+  ],
+  "partners": [
+   "Fortanix",
+   "Twilio",
+   "AWS"
+  ],
+  "notable_customers": [
+   "Twilio",
+   "Granola",
+   "Vapi"
+  ],
+  "differentiator": "End-to-end deep-learning speech stack with the same models available cloud, VPC or on-prem.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://deepgram.com/learn/press-release-deepgram-raises-series-c",
+   "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup",
+   "https://www.cbinsights.com/company/lexika/financials",
+   "https://deepgram.com/learn/deepgram-fortanix-press-release"
+  ]
+ },
+ {
+  "id": "docker-model-runner",
+  "name": "Docker, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Docker Model Runner is a dedicated, marketed product for local LLM inference in Docker workflows.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.docker.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "USA",
+  "founded": 2010,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $105M, Mar 2022, led by Bain Capital Ventures ($2.1B valuation)",
+  "valuation_usd_m": 2100,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bain Capital Ventures",
+   "Benchmark",
+   "Insight Partners",
+   "Tribe Capital"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Container developer platform extending to local-first AI model and agent development",
+  "problem": "Developers lack a standard, reproducible way to pull, run and ship LLMs locally alongside app containers.",
+  "products": [
+   {
+    "name": "Docker Model Runner",
+    "category": "runtime",
+    "description": "Pulls and runs LLMs locally as OCI artifacts with GPU acceleration (llama.cpp, vLLM backends)."
+   },
+   {
+    "name": "Docker Hub AI model catalog",
+    "category": "platform",
+    "description": "Curated OCI-packaged open models distributed via Docker Hub for local use."
+   },
+   {
+    "name": "Docker MCP Toolkit and MCP Catalog",
+    "category": "platform",
+    "description": "Runs containerized MCP servers locally to connect agents to tools."
+   },
+   {
+    "name": "Docker Compose for AI agents",
+    "category": "sdk",
+    "description": "Compose support for declaring models and agents alongside services."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "Hugging Face",
+   "Google",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Brings local model inference into the ubiquitous Docker toolchain used by millions of developers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://siliconangle.com/?p=692323",
+   "https://futurumgroup.com/insights/docker-gets-105m-in-series-c-funding-as-transformation-from-enterprise-container-vendor-to-a-collaborative-developer-platform-continues-after-2019-restructuring",
+   "https://sacra.com/c/docker/",
+   "https://docs.docker.com/ai/model-runner/"
+  ]
+ },
+ {
+  "id": "dstack",
+  "name": "dstack (dstack GmbH / dstack Inc.)",
+  "verdict": "in",
+  "verdict_reason": "Open-source GPU orchestration for AI teams managing on-prem fleets and clouds.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://dstack.ai",
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "founded": 2022,
+  "org_type": "open-source-company",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 0.53,
+  "last_round": "Seed, Aug 2023, Tensor Ventures (CB Insights)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Tensor Ventures",
+   "Rheingau Founders"
+  ],
+  "employees": 13,
+  "employees_band": "11-50",
+  "focus": "Vendor-agnostic control plane for AI training and inference on any GPU infrastructure",
+  "problem": "Kubernetes and Slurm are cumbersome for AI teams juggling on-prem GPU clusters and multiple clouds.",
+  "products": [
+   {
+    "name": "dstack (open source)",
+    "category": "platform",
+    "description": "MPL-2.0 orchestration for dev environments, tasks and services on on-prem SSH fleets and clouds."
+   },
+   {
+    "name": "dstack Sky",
+    "category": "platform",
+    "description": "Hosted dstack with access to GPU marketplace capacity."
+   },
+   {
+    "name": "dstack Enterprise",
+    "category": "platform",
+    "description": "Self-hosted enterprise edition with SSO, governance and support."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Nebius"
+  ],
+  "notable_customers": [],
+  "differentiator": "Lightweight AI-native alternative to Kubernetes/Slurm supporting NVIDIA, AMD, TPU and on-prem fleets.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cbinsights.com/company/dstack",
+   "https://www.everydev.ai/developers/dstack-inc",
+   "https://github.com/dstackai/dstack",
+   "https://nebius.com/partner-catalog/dstack"
+  ]
+ },
+ {
+  "id": "exostellar",
+  "name": "Exostellar, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Self-managed GPU orchestration and virtualization boosting utilization of on-prem heterogeneous clusters.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://exostellar.io",
+  "hq_city": "Santa Clara",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 34.83,
+  "last_round": "Series A, $15M, Sep 2023, led by Celesta Capital and Cambium Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Celesta Capital",
+   "Cambium Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "GPU orchestration and compute optimization for self-managed AI infrastructure",
+  "problem": "On-prem GPU clusters with mixed hardware are poorly utilized and hard to share across teams.",
+  "products": [
+   {
+    "name": "Exostellar GPU Orchestration",
+    "category": "platform",
+    "description": "Kubernetes-based heterogeneous GPU scheduling with fractional GPU sharing for AI workloads."
+   },
+   {
+    "name": "Exostellar CPU/HPC Optimization",
+    "category": "platform",
+    "description": "Workload virtualization and migration to optimize Slurm/HPC and cloud compute usage."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Vultr"
+  ],
+  "notable_customers": [],
+  "differentiator": "Cornell-originated live-migration/virtualization tech applied to heterogeneous GPU pools.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://finsmes.com/2023/09/exostellar-raises-15m-series-a-funding.html",
+   "https://techcrunch.com/2023/09/13/exostellar-raises-15m-to-help-companies-optimize-their-cloud-spend",
+   "https://www.cbinsights.com/company/exotanium/financials",
+   "https://pcvd.cornell.edu/exostellars-stellar-growth-15m-series-a-funding-2/"
+  ]
+ },
+ {
+  "id": "fixstars-aibooster",
+  "name": "Fixstars Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "AIBooster optimizes AI on customer GPU servers, but core business is performance-engineering services.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.fixstars.com",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2002,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TSE: 3687)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Software acceleration and performance engineering for AI, embedded and HPC workloads",
+  "problem": "AI training and inference on owned GPU servers runs far below hardware potential, wasting compute budgets.",
+  "products": [
+   {
+    "name": "Fixstars AIBooster",
+    "category": "platform",
+    "description": "Performance observability and automatic tuning for AI training/inference on customer GPU servers."
+   },
+   {
+    "name": "AI/embedded acceleration services",
+    "category": "service",
+    "description": "Engineering services optimizing models for edge, automotive and on-prem hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "model-optimization",
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive",
+   "industrial-manufacturing",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Two decades of low-level multicore/GPU optimization expertise packaged into a tuning product.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "friendliai",
+  "name": "FriendliAI Inc.",
+  "verdict": "in",
+  "verdict_reason": "Friendli Engine sold as containers for customer GPUs on-prem or VPC, plus managed endpoints.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://friendli.ai",
+  "hq_city": "Redwood City",
+  "hq_country": "USA",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 26.74,
+  "last_round": "Seed extension, $20M, Aug 2025, led by Capstone Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Capstone Partners",
+   "Sierra Ventures",
+   "Alumni Ventures",
+   "KDB",
+   "KB Securities",
+   "KB Investment"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Fast, low-cost generative AI inference engine and serving platform",
+  "problem": "Serving LLMs efficiently on GPUs is costly and slow without specialized batching and kernel optimizations.",
+  "products": [
+   {
+    "name": "Friendli Inference Engine",
+    "category": "runtime",
+    "description": "Optimized LLM/multimodal serving engine with iteration-level batching and custom kernels."
+   },
+   {
+    "name": "Friendli Container",
+    "category": "runtime",
+    "description": "Engine packaged for customer GPUs on-prem, VPC or Kubernetes."
+   },
+   {
+    "name": "Friendli Dedicated Endpoints",
+    "category": "platform",
+    "description": "Managed dedicated GPU deployments of custom and open models."
+   },
+   {
+    "name": "Friendli Serverless Endpoints",
+    "category": "platform",
+    "description": "Pay-per-token APIs for popular open models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Hugging Face",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Founders pioneered iteration-level (continuous) batching (Orca), now standard across LLM serving.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://friendli.ai/news/friendliai-raises-20m-in-seed-extension-round",
+   "https://siliconangle.com/?p=709513",
+   "https://news.crunchbase.com/ai/inference-platform-friendliai-raises-seed-extension-chun/",
+   "https://www.cbinsights.com/company/friendliai/financials"
+  ]
+ },
+ {
+  "id": "gaianet",
+  "name": "Gaia Labs (GaiaNet)",
+  "verdict": "borderline",
+  "verdict_reason": "Decentralized network of user-run LLM nodes; local self-hosting serves a crypto-network business.",
+  "status": "active",
+  "status_detail": "Rebranded Gaia Labs; latest news Jul 2025",
+  "parent": null,
+  "website": "https://www.gaianet.ai",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 20,
+  "last_round": "Seed + Series A totaling $20M, Jul 2025, led by ByteTrade/SIG",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "ByteTrade Lab",
+   "SIG",
+   "Generative Ventures",
+   "Republic Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Decentralized infrastructure where individuals run open-LLM agent nodes on own hardware",
+  "problem": "Centralized AI providers control models and data; users lack ownable, privately run AI agents.",
+  "products": [
+   {
+    "name": "Gaia node",
+    "category": "runtime",
+    "description": "Self-hostable node running open LLMs plus knowledge base with OpenAI-compatible API."
+   },
+   {
+    "name": "Gaia network and domains",
+    "category": "platform",
+    "description": "Decentralized network routing inference across 700k+ claimed community nodes."
+   },
+   {
+    "name": "Gaia AI phone (planned)",
+    "category": "device",
+    "description": "Announced smartphone with native offline on-device inference."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Lightweight WebAssembly-based node stack letting anyone host and monetize an AI agent node.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2024/05/28/gaianet-raises-10m-decentralized-ai-agent-project/",
+   "https://www.theblock.co/amp/post/297035/decentralized-ai-project-gaianet-raises-10-million-in-funding-round",
+   "https://www.barchart.com/story/news/33637352/gaia-labs-raises-20m-series-a-to-scale-decentralized-ai-infrastructure-and-expand-to-mobile",
+   "https://www.cbinsights.com/company/gaianet/financials"
+  ]
+ },
+ {
+  "id": "gcore",
+  "name": "Gcore (G-Core Labs S.A.)",
+  "verdict": "borderline",
+  "verdict_reason": "Edge cloud/CDN provider; Everywhere Inference adds on-prem and hybrid deployment as secondary option.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://gcore.com",
+  "hq_city": "Luxembourg",
+  "hq_country": "Luxembourg",
+  "founded": 2014,
+  "org_type": "scaleup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 60,
+  "last_round": "Series A, $60M, Jul 2024, led by Wargaming (first external raise)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Wargaming",
+   "Constructor Capital",
+   "Han River Partners"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Global edge cloud, CDN and AI inference across edge PoPs, clouds and on-prem",
+  "problem": "Latency-sensitive AI apps need inference close to users while keeping sensitive data isolated.",
+  "products": [
+   {
+    "name": "Everywhere Inference",
+    "category": "platform",
+    "description": "AI inference across Gcore edge, public clouds, on-prem or hybrid with smart routing."
+   },
+   {
+    "name": "Everywhere Inference on-premise/hybrid",
+    "category": "platform",
+    "description": "Software option running Gcore's inference stack on customer infrastructure (Jan 2025)."
+   },
+   {
+    "name": "GPU Cloud",
+    "category": "service",
+    "description": "Bare-metal and VM NVIDIA GPU clusters for AI training and inference."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Large global edge network (180+ PoPs) turned into a distributed inference fabric.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250116487759/en/Gcore-Enhances-Everywhere-Inference-With-Flexible-Deployment-Options-Including-Cloud-On-Premise-and-Hybrid",
+   "https://businesswire.com/news/home/20240722352056/en/Gcore-Raises-60-Million-in-Series-A-Funding-to-Drive-AI-Innovation-and-Global-Expansion/",
+   "https://gcore.com/press-releases/everywhere-inference"
+  ]
+ },
+ {
+  "id": "gimlet-labs",
+  "name": "Gimlet Labs, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Multi-silicon inference software delivered mainly as a cloud for labs/hyperscalers; local use secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://gimletlabs.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 392,
+  "last_round": "Series B, $300M, Sep 2026, led by Andreessen Horowitz ($3B valuation)",
+  "valuation_usd_m": 3000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Menlo Ventures",
+   "Factory",
+   "Sapphire Ventures",
+   "M12",
+   "Arm"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Heterogeneous AI inference splitting workloads across multiple chip vendors",
+  "problem": "Single-vendor GPU fleets are costly and supply-constrained; mixed hardware is hard to use efficiently.",
+  "products": [
+   {
+    "name": "Multi-silicon inference cloud",
+    "category": "platform",
+    "description": "Single inference API executing workloads across NVIDIA, AMD, Intel, Arm, Cerebras, d-Matrix chips."
+   },
+   {
+    "name": "Heterogeneous disaggregation orchestrator",
+    "category": "runtime",
+    "description": "Plans per-workload execution across chip types balancing latency, throughput and cost."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Arm",
+   "Cerebras",
+   "d-Matrix"
+  ],
+  "notable_customers": [],
+  "differentiator": "Disaggregates inference phases across different vendors' silicon, claiming 3-10x speedups.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://dealroom.co/news/148837-gimlet-labs-raises-300m-series-b-at-3b-valuation-to-rebuild-ai-inference/",
+   "https://pulse2.com/gimlet-labs-raises-300-million-series-b-led-by-andreessen-horowitz-at-3-billion-valuation/",
+   "https://siliconangle.com/?p=845868",
+   "https://www.channelinsider.com/ai/gimlet-labs-80m-series-a-ai-inference/",
+   "https://winbuzzer.com/2026/03/24/gimlet-labs-80m-series-a-multi-chip-ai-inference-xcxwbn/"
+  ]
+ },
+ {
+  "id": "gmi-cloud",
+  "name": "GMI Cloud",
+  "verdict": "borderline",
+  "verdict_reason": "GPU cloud selling dedicated private clusters and cluster software; not customer-owned hardware primarily.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.gmicloud.ai",
+  "hq_city": "Mountain View",
+  "hq_country": "USA",
+  "founded": 2021,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, $223M equity (+~$445M credit facility led by CTBC), Sep 2026, led by ARCHIV",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "ARCHIV",
+   "NVIDIA",
+   "Headline Asia",
+   "KT Corp",
+   "Kyobo Life",
+   "KB Investment",
+   "Redwood",
+   "DSC Investment"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "GPU cloud infrastructure, cluster orchestration and inference services across US and APAC",
+  "problem": "AI companies struggle to secure dedicated GPU capacity with software to run it efficiently.",
+  "products": [
+   {
+    "name": "GMI GPU Cloud",
+    "category": "service",
+    "description": "Bare-metal and dedicated private NVIDIA GPU clusters (H100/H200/Blackwell)."
+   },
+   {
+    "name": "Cluster Engine",
+    "category": "platform",
+    "description": "Kubernetes-based GPU orchestration and management software for clusters."
+   },
+   {
+    "name": "Inference Engine",
+    "category": "platform",
+    "description": "Model serving platform for deploying open and custom models."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "NVIDIA-backed neocloud with Taiwan supply-chain ties and >$600M contracted ARR (company claim).",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://siliconangle.com/2026/09/30/on-demand-gpu-infrastructure-startup-gmi-cloud-raises-263m-to-fuel-global-expansion/",
+   "https://thenextweb.com/news/gmi-cloud-668m-series-b-nvidia-archiv-ctbc",
+   "https://www.gmicloud.ai/blog/we-raised-over-660-million-to-accelerate-global-ai-infrastructure-expansion",
+   "https://datacenterdynamics.com/en/news/gmi-cloud-raises-668m-in-funding"
+  ]
+ },
+ {
+  "id": "gpustack",
+  "name": "Seal Software (数澈软件(深圳)) — GPUStack",
+  "verdict": "in",
+  "verdict_reason": "Open-source GPU cluster manager for self-hosting models on heterogeneous on-prem accelerators.",
+  "status": "active",
+  "status_detail": "Company name formerly Seal; now operates under GPUStack brand",
+  "parent": null,
+  "website": "https://gpustack.ai",
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 2021,
+  "org_type": "open-source-company",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 14.7,
+  "last_round": "Pre-A, RMB 50M, Oct 2026, led by Shuihua Future (Dio Shuihua Group subsidiary), GRC SinoGreen following",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "GRC SinoGreen (富华资本)",
+   "Shuihua Future (Dio Shuihua Group, 002798.SZ)"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Private model-serving clusters pooling NVIDIA, AMD, Apple and Chinese accelerators",
+  "problem": "Enterprises with mixed GPUs/NPUs lack simple tooling to pool them into a private model service.",
+  "products": [
+   {
+    "name": "GPUStack (open source)",
+    "category": "platform",
+    "description": "GPU cluster manager deploying LLM, embedding, image, STT/TTS models with OpenAI-compatible APIs."
+   },
+   {
+    "name": "GPUStack enterprise services",
+    "category": "service",
+    "description": "Commercial deployment, domestic-chip adaptation and support for 250+ enterprise customers."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Huawei Ascend"
+  ],
+  "notable_customers": [],
+  "differentiator": "Broad heterogeneous hardware support incl. Chinese NPUs; 110k+ users in 121 countries.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://tech.ifeng.com/c/8x4uSH3Lvbt",
+   "https://www.cbinsights.com/company/shuche-software/financials",
+   "https://news.pedaily.cn/202208/498819.shtml",
+   "https://gpustack.ai"
+  ]
+ },
+ {
+  "id": "impala-ai",
+  "name": "Impala AI",
+  "verdict": "in",
+  "verdict_reason": "Proprietary LLM inference engine that runs inside enterprises' own VPCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 11,
+  "last_round": "Seed, $11M, Oct 2025, led by Viola Ventures and NFX",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Viola Ventures",
+   "NFX"
+  ],
+  "employees": 32,
+  "employees_band": "11-50",
+  "focus": "Cost-efficient serverless-style LLM inference inside customer VPCs",
+  "problem": "Enterprises running open LLMs at scale face high cost per token and data-control concerns.",
+  "products": [
+   {
+    "name": "Impala inference platform",
+    "category": "platform",
+    "description": "Proprietary engine giving a serverless experience for LLMs within the customer's own VPC."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Claims up to 13x lower cost per token while data stays in the customer's cloud account.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.ynetnews.com/tech-and-digital/article/h1ux03jjwx",
+   "https://www.calcalistech.com/ctechnews/article/byuzxcykbl",
+   "https://www.axios.com/pro/enterprise-software-deals/2025/10/29/inference-ai-impala-11-million-seed",
+   "https://dealroom.co/companies/impala-ai/",
+   "https://www.viola-group.com/portfolio/impala-ai"
+  ]
+ }
+]

@@ -1,0 +1,1934 @@
+[
+ {
+  "id": "nxp-semiconductors",
+  "name": "NXP Semiconductors N.V.",
+  "verdict": "in",
+  "verdict_reason": "i.MX/MCX processors with eIQ Neutron NPUs, eIQ software and Kinara discrete NPUs for edge AI.",
+  "status": "active",
+  "status_detail": "Completed acquisition of Kinara (edge NPUs, $307M) on 27 Oct 2025",
+  "parent": null,
+  "website": "https://www.nxp.com",
+  "hq_city": "Eindhoven",
+  "hq_country": "Netherlands",
+  "founded": 2006,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: NXPI); 2024 revenue ~$12.6B",
+  "key_investors": [],
+  "employees": 33000,
+  "employees_band": "10000+",
+  "focus": "Embedded processors, MCUs and NPUs running AI at the automotive, industrial and IoT edge.",
+  "problem": "Running AI inference efficiently and securely on power-constrained embedded, industrial and automotive devices.",
+  "products": [
+   {
+    "name": "i.MX 95 / i.MX 9 applications processors",
+    "category": "chip",
+    "description": "Edge application processors with integrated eIQ Neutron NPU for vision and GenAI workloads."
+   },
+   {
+    "name": "i.MX 8M Plus",
+    "category": "chip",
+    "description": "Industrial/IoT applications processor with on-chip NPU for machine vision and voice."
+   },
+   {
+    "name": "MCX N series MCUs",
+    "category": "chip",
+    "description": "Microcontrollers with integrated Neutron NPU for low-power TinyML inference."
+   },
+   {
+    "name": "eIQ Neutron NPU",
+    "category": "ip",
+    "description": "Scalable in-house NPU architecture embedded across NXP MCU and processor families."
+   },
+   {
+    "name": "Ara-2 / Ara-1 discrete NPUs (ex-Kinara)",
+    "category": "chip",
+    "description": "Discrete edge AI accelerators for multi-camera vision and GenAI on edge servers and PCs."
+   },
+   {
+    "name": "eIQ AI software (Toolkit, Time Series Studio, GenAI Flow)",
+    "category": "sdk",
+    "description": "Model conversion, optimization, deployment and on-device RAG/LLM pipelines for NXP silicon."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "llm-text",
+   "multimodal",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "automotive",
+   "industrial-manufacturing",
+   "consumer-electronics-oem",
+   "developers",
+   "security-surveillance"
+  ],
+  "partners": [
+   "Arm",
+   "NVIDIA (TAO toolkit integration)",
+   "Kinara (acquired)"
+  ],
+  "notable_customers": [],
+  "differentiator": "Broad embedded portfolio pairing in-house Neutron NPUs with Kinara discrete NPUs under unified eIQ software.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-COMPLETES-ACQUISITIONS-AVIVA-LINKS-KINARA",
+   "https://investors.nxp.com/news-releases/news-release-details/nxp-completes-acquisitions-aviva-links-and-kinara-advance/",
+   "https://www.nxp.com"
+  ]
+ },
+ {
+  "id": "openai-gpt-oss",
+  "name": "OpenAI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight gpt-oss models run locally/on-prem, but core business is cloud API and ChatGPT.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://openai.com/open-models/",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "big-tech",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Private; 2026 funding/valuation not verified in this pass",
+  "key_investors": [
+   "Microsoft",
+   "SoftBank",
+   "Thrive Capital"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Frontier AI lab; gpt-oss open-weight reasoning models for local and self-hosted use.",
+  "problem": "Organizations want strong reasoning models they can run privately on their own hardware, without API dependence.",
+  "products": [
+   {
+    "name": "gpt-oss-120b",
+    "category": "model",
+    "description": "Apache-2.0 open-weight MoE reasoning model that fits a single 80GB GPU."
+   },
+   {
+    "name": "gpt-oss-20b",
+    "category": "model",
+    "description": "Smaller open-weight MoE reasoning model that runs on ~16GB consumer hardware."
+   },
+   {
+    "name": "gpt-oss-safeguard",
+    "category": "model",
+    "description": "Open-weight safety-classification reasoning models (120b/20b) for self-hosted policy enforcement."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Microsoft (Foundry Local / Windows AI)",
+   "NVIDIA",
+   "AMD",
+   "Hugging Face",
+   "Ollama",
+   "vLLM"
+  ],
+  "notable_customers": [
+   "AI Sweden",
+   "Orange",
+   "Snowflake"
+  ],
+  "differentiator": "Frontier-lab reasoning models released under Apache 2.0, with the 20b variant fitting consumer laptops.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://openai.com/open-models/"
+  ]
+ },
+ {
+  "id": "oracle",
+  "name": "Oracle Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "Cloud@Customer, Dedicated Region and isolated regions bring GPUs/GenAI on-prem; AI mostly public OCI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.oracle.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 1977,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: ORCL); FY2025 revenue ~$57.4B",
+  "key_investors": [],
+  "employees": 162000,
+  "employees_band": "10000+",
+  "focus": "Database, enterprise apps and OCI cloud delivered inside customer and sovereign datacenters.",
+  "problem": "Regulated organizations need cloud and GenAI services while keeping data in their own datacenters or jurisdiction.",
+  "products": [
+   {
+    "name": "OCI Dedicated Region",
+    "category": "platform",
+    "description": "Full OCI cloud region, including GPU and GenAI services, inside a customer datacenter."
+   },
+   {
+    "name": "Oracle Compute Cloud@Customer (GPU)",
+    "category": "system",
+    "description": "On-prem OCI compute racks with NVIDIA GPU options, managed by Oracle."
+   },
+   {
+    "name": "Exadata Cloud@Customer / Oracle AI Database",
+    "category": "platform",
+    "description": "On-prem database with in-database AI Vector Search for private RAG."
+   },
+   {
+    "name": "Oracle Alloy",
+    "category": "platform",
+    "description": "Partner-operated sovereign cloud built on OCI for national/regional providers."
+   },
+   {
+    "name": "OCI Isolated (air-gapped) Regions",
+    "category": "platform",
+    "description": "Disconnected cloud regions for defense and intelligence workloads."
+   },
+   {
+    "name": "Oracle Roving Edge Infrastructure",
+    "category": "system",
+    "description": "Ruggedized portable OCI edge servers with GPUs for disconnected field operations."
+   },
+   {
+    "name": "OCI Generative AI / AI Agents",
+    "category": "service",
+    "description": "Managed LLM and agent services, offered in sovereign and dedicated deployments."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Anduril",
+   "Cohere",
+   "Meta"
+  ],
+  "notable_customers": [
+   "Nomura Research Institute"
+  ],
+  "differentiator": "Delivers its public-cloud service catalog, including GPUs and GenAI, inside customer or sovereign datacenters.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.oracle.com/cloud/cloud-at-customer/",
+   "https://www.oracle.com/news/announcement/ocw24-oracle-and-anduril-industries-partner-to-deliver-ai-powered-defense-solutions-from-the-datacenter-to-the-tactical-edge-2024-09-10/"
+  ]
+ },
+ {
+  "id": "palantir-technologies",
+  "name": "Palantir Technologies Inc.",
+  "verdict": "in",
+  "verdict_reason": "AIP/Foundry deployed on-prem, air-gapped, classified and at the edge via Apollo; sovereign AI reference architecture.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.palantir.com",
+  "hq_city": "Denver",
+  "hq_country": "United States",
+  "founded": 2003,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: PLTR); 2024 revenue ~$2.87B",
+  "key_investors": [],
+  "employees": 4000,
+  "employees_band": "1001-5000",
+  "focus": "Data integration, ontology and AI platforms for government and enterprise, including disconnected environments.",
+  "problem": "Agencies and enterprises must apply LLMs to sensitive data in classified, air-gapped or edge environments.",
+  "products": [
+   {
+    "name": "AIP (Artificial Intelligence Platform)",
+    "category": "platform",
+    "description": "LLM/agent platform over the Ontology; runs on-prem, classified and edge with open models."
+   },
+   {
+    "name": "Foundry",
+    "category": "platform",
+    "description": "Data integration and ontology platform for enterprise operations, deployable on customer infrastructure."
+   },
+   {
+    "name": "Gotham",
+    "category": "platform",
+    "description": "Defense and intelligence analytics platform used in classified environments."
+   },
+   {
+    "name": "Apollo",
+    "category": "platform",
+    "description": "Continuous delivery and management of software across cloud, on-prem, air-gapped and edge."
+   },
+   {
+    "name": "Rubix",
+    "category": "platform",
+    "description": "Kubernetes-based secure infrastructure substrate underpinning Palantir deployments."
+   },
+   {
+    "name": "Maven Smart System",
+    "category": "app",
+    "description": "AI-enabled targeting and situational awareness system for defense users."
+   },
+   {
+    "name": "Sovereign AI OS Reference Architecture (with NVIDIA)",
+    "category": "platform",
+    "description": "Reference design for on-premises sovereign AI stacks on NVIDIA hardware."
+   },
+   {
+    "name": "On-prem AI operating system (with Dell)",
+    "category": "system",
+    "description": "Pre-integrated Palantir platform on Dell infrastructure for on-premises AI."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "healthcare",
+   "industrial-manufacturing",
+   "energy-utilities",
+   "finance"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell",
+   "Microsoft",
+   "Oracle",
+   "Anduril",
+   "Rackspace"
+  ],
+  "notable_customers": [
+   "US Department of Defense",
+   "US Army",
+   "NHS England",
+   "Airbus"
+  ],
+  "differentiator": "Ontology-centric AI platform proven in classified, air-gapped and tactical-edge deployments via Apollo.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260312795208/en/",
+   "https://www.constellationr.com/insights/news/palantir-and-nvidia-build-sovereign-premises-ai-reference-architecture",
+   "https://blogs.nvidia.com/blog/2026/06/29/palantir-secure-ai-us-agencies-nemotron-open-models/",
+   "https://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system"
+  ]
+ },
+ {
+  "id": "qualcomm",
+  "name": "Qualcomm Incorporated",
+  "verdict": "in",
+  "verdict_reason": "Hexagon NPUs across phones, PCs, cars and IoT, plus AI Hub, Edge Impulse and on-prem AI100/AI200 inference.",
+  "status": "active",
+  "status_detail": "Arduino acquisition announced Oct 2025; closing not confirmed in this pass",
+  "parent": null,
+  "website": "https://www.qualcomm.com",
+  "hq_city": "San Diego",
+  "hq_country": "United States",
+  "founded": 1985,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: QCOM); FY2024 revenue ~$39.0B",
+  "key_investors": [],
+  "employees": 49000,
+  "employees_band": "10000+",
+  "focus": "On-device AI silicon and developer tooling for phones, PCs, vehicles, IoT and on-prem inference.",
+  "problem": "Device makers and developers need to run generative and perceptual AI efficiently on-device instead of the cloud.",
+  "products": [
+   {
+    "name": "Snapdragon mobile platforms (Hexagon NPU)",
+    "category": "chip",
+    "description": "Smartphone SoCs running multi-billion-parameter models on-device."
+   },
+   {
+    "name": "Snapdragon X series",
+    "category": "chip",
+    "description": "Copilot+ PC processors with high-TOPS Hexagon NPU for local AI."
+   },
+   {
+    "name": "Dragonwing IoT and industrial processors",
+    "category": "chip",
+    "description": "Edge AI SoCs for robotics, cameras, gateways and industrial devices."
+   },
+   {
+    "name": "Snapdragon Ride / Digital Chassis",
+    "category": "chip",
+    "description": "Automotive compute platforms for ADAS and in-cabin AI."
+   },
+   {
+    "name": "Cloud AI 100 / AI 100 Ultra",
+    "category": "chip",
+    "description": "Low-power inference accelerator cards for on-prem and edge servers."
+   },
+   {
+    "name": "AI200 / AI250",
+    "category": "system",
+    "description": "Rack-scale inference accelerator systems for datacenter LLM serving."
+   },
+   {
+    "name": "Qualcomm AI On-Prem Appliance & AI Inference Suite",
+    "category": "system",
+    "description": "Turnkey on-prem GenAI appliance and serving software on Cloud AI accelerators."
+   },
+   {
+    "name": "Qualcomm AI Hub",
+    "category": "platform",
+    "description": "Optimizes, compiles and profiles models for on-device deployment on Qualcomm hardware."
+   },
+   {
+    "name": "Qualcomm AI Stack / AI Engine Direct (QNN)",
+    "category": "sdk",
+    "description": "Runtime and SDK for running models on Hexagon NPU, GPU and CPU."
+   },
+   {
+    "name": "Edge Impulse",
+    "category": "platform",
+    "description": "Edge ML development platform for building and deploying models to embedded devices."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "camera",
+   "wearable-xr",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing",
+   "developers",
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "Microsoft",
+   "Meta",
+   "Samsung",
+   "Cirrascale",
+   "Arduino"
+  ],
+  "notable_customers": [
+   "Samsung",
+   "HUMAIN"
+  ],
+  "differentiator": "Largest NPU footprint spanning phones, PCs, cars and IoT, plus end-to-end developer tooling.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://aihub.qualcomm.com",
+   "https://www.datacenterdynamics.com/en/news/qualcomm-launches-ai200-and-ai250-chip-offering-targeting-inferencing-workloads-at-rack-scale/",
+   "https://www.qualcomm.com/news/releases/2025/10/qualcomm-to-acquire-arduino-accelerating-developers--access-to-i",
+   "https://siliconangle.com/2025/10/07/qualcomm-acquires-miniature-computer-maker-arduino/",
+   "https://www.qualcomm.com/developer/blog/2025/03/qualcomm-ai-on-prem-appliance-and-inference-suite"
+  ]
+ },
+ {
+  "id": "rackspace-technology",
+  "name": "Rackspace Technology, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Managed private-cloud provider adding sovereign private-AI offerings built on partner stacks; AI secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.rackspace.com",
+  "hq_city": "San Antonio",
+  "hq_country": "United States",
+  "founded": 1998,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: RXT; Apollo majority-owned); 2024 revenue ~$2.7B",
+  "key_investors": [
+   "Apollo Global Management"
+  ],
+  "employees": 5000,
+  "employees_band": "1001-5000",
+  "focus": "Managed multicloud and private cloud, now packaging governed private and sovereign AI environments.",
+  "problem": "Regulated enterprises lack the skills to run governed AI infrastructure in private or sovereign clouds.",
+  "products": [
+   {
+    "name": "Rackspace Enterprise AI Cloud",
+    "category": "service",
+    "description": "Fully managed private/hybrid AI environment launched on AMD Instinct accelerators."
+   },
+   {
+    "name": "Institutional Sovereign Pod",
+    "category": "system",
+    "description": "Governed AI infrastructure architecture for sovereign data, models and environments."
+   },
+   {
+    "name": "Rackspace Private Cloud (VMware / OpenStack)",
+    "category": "platform",
+    "description": "Managed single-tenant private cloud hosting AI and enterprise workloads."
+   },
+   {
+    "name": "Foundry for AI by Rackspace (FAIR)",
+    "category": "service",
+    "description": "AI consulting and implementation practice for enterprise GenAI adoption."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "VMware by Broadcom",
+   "Palantir",
+   "Uniphore"
+  ],
+  "notable_customers": [],
+  "differentiator": "Operates governed private and sovereign AI environments as a managed service across partner stacks.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.rackspace.com/blog/why-sovereign-ai-demands-private-cloud",
+   "https://www.hpcwire.com/bigdatawire/this-just-in/rackspace-expands-sovereign-ai-capabilities-through-nvidia-cloud-partner-program/",
+   "https://ir.rackspace.com/news-releases/news-release-details/rackspace-joins-nvidia-cloud-partner-program-announces-nvidia",
+   "https://www.rackspace.com//blog/running-enterprise-ai-production-amd"
+  ]
+ },
+ {
+  "id": "red-hat",
+  "name": "Red Hat, Inc.",
+  "verdict": "in",
+  "verdict_reason": "RHEL AI, OpenShift AI and vLLM-based AI Inference Server for on-prem, hybrid and air-gapped inference.",
+  "status": "acquired",
+  "status_detail": "Acquired by IBM (2019); operates as IBM subsidiary",
+  "parent": "IBM",
+  "website": "https://www.redhat.com",
+  "hq_city": "Raleigh",
+  "hq_country": "United States",
+  "founded": 1993,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Subsidiary of IBM (NYSE: IBM)",
+  "key_investors": [],
+  "employees": 19000,
+  "employees_band": "10000+",
+  "focus": "Open-source enterprise platforms for serving and managing AI models across hybrid and on-prem infrastructure.",
+  "problem": "Enterprises need supported, accelerator-agnostic LLM inference they can run in their own datacenters or air-gapped.",
+  "products": [
+   {
+    "name": "Red Hat AI Inference Server",
+    "category": "runtime",
+    "description": "Enterprise-supported vLLM inference server running on any accelerator, any environment."
+   },
+   {
+    "name": "Red Hat OpenShift AI",
+    "category": "platform",
+    "description": "Kubernetes MLOps and model-serving platform for on-prem, hybrid and disconnected clusters."
+   },
+   {
+    "name": "Red Hat Enterprise Linux AI (RHEL AI)",
+    "category": "platform",
+    "description": "Bootable server image with Granite models and tooling for local model customization."
+   },
+   {
+    "name": "llm-d",
+    "category": "runtime",
+    "description": "Open-source Kubernetes-native distributed inference framework built on vLLM."
+   },
+   {
+    "name": "Red Hat AI 3",
+    "category": "platform",
+    "description": "Unified AI portfolio release bundling inference, MLOps and agent capabilities."
+   },
+   {
+    "name": "LLM Compressor & validated optimized models",
+    "category": "model",
+    "description": "Quantization tooling (from Neural Magic) and pre-optimized open models for efficient serving."
+   },
+   {
+    "name": "Red Hat Device Edge (MicroShift)",
+    "category": "platform",
+    "description": "Lightweight Kubernetes for deploying AI workloads on edge devices."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "finance"
+  ],
+  "partners": [
+   "IBM",
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Google Cloud",
+   "Meta"
+  ],
+  "notable_customers": [],
+  "differentiator": "Enterprise-supported vLLM/llm-d stack with Neural Magic optimization, portable across accelerators and air-gapped sites.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://redhat.com/en/about/press-releases/red-hat-brings-distributed-ai-inference-production-ai-workloads-red-hat-ai-3",
+   "https://docs.redhat.com/en/documentation/red_hat_ai/3/html/introduction_to_red_hat_ai/introduction-to-red-hat-ai_rhai-overview",
+   "https://www.redhat.com/en/products/ai/openshift-ai",
+   "https://www.redhat.com/en/products/ai"
+  ]
+ },
+ {
+  "id": "samsung-electronics",
+  "name": "Samsung Electronics Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Exynos SoCs with NPUs sold to OEMs, on-device Galaxy AI, and in-house Gauss models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.samsung.com",
+  "hq_city": "Suwon",
+  "hq_country": "South Korea",
+  "founded": 1969,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KRX: 005930); 2024 revenue ~KRW 300T",
+  "key_investors": [],
+  "employees": 260000,
+  "employees_band": "10000+",
+  "focus": "Phones, appliances and semiconductors with hybrid on-device AI and NPU silicon.",
+  "problem": "Delivering private, low-latency AI features on billions of consumer devices without constant cloud round-trips.",
+  "products": [
+   {
+    "name": "Exynos SoCs with NPU",
+    "category": "chip",
+    "description": "Mobile and automotive processors with integrated NPUs for on-device generative AI."
+   },
+   {
+    "name": "Galaxy AI",
+    "category": "app",
+    "description": "Hybrid on-device/cloud AI features (translation, transcription, photo editing) on Galaxy devices."
+   },
+   {
+    "name": "Samsung Gauss",
+    "category": "model",
+    "description": "In-house generative model family, including compact variants for on-device use."
+   },
+   {
+    "name": "Exynos AI Studio / Samsung Neural SDK",
+    "category": "sdk",
+    "description": "Toolchain for optimizing and deploying models on Exynos NPUs."
+   },
+   {
+    "name": "Tiny Recursive Model (TRM)",
+    "category": "model",
+    "description": "SAIL Montreal open research model: 7M-parameter recursive reasoning architecture."
+   },
+   {
+    "name": "LPDDR5X / processing-in-memory (PIM)",
+    "category": "chip",
+    "description": "Low-power memory and PIM technologies feeding on-device AI bandwidth needs."
+   },
+   {
+    "name": "Bespoke AI appliances / Vision AI TVs",
+    "category": "device",
+    "description": "Home appliances and TVs with on-device AI vision and voice features."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "wearable-xr",
+   "pc-workstation",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "models",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "consumer-electronics-oem",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [
+   "Google (Gemini Nano)",
+   "Qualcomm",
+   "AMD",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vertically integrated NPU silicon, memory, devices and models for hybrid on-device AI at massive scale.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.samsung.com/global/galaxy/galaxy-ai/",
+   "https://developer.android.com/ai/aicore",
+   "https://semiconductor.samsung.com",
+   "https://www.samsung.com"
+  ]
+ },
+ {
+  "id": "sensetime",
+  "name": "SenseTime Group Inc.",
+  "verdict": "in",
+  "verdict_reason": "Sells private/on-prem SenseNova deployments, edge vision systems and on-device models alongside SenseCore cloud.",
+  "status": "active",
+  "status_detail": "Spun off edge AI chip and intelligent-driving units after financing (per 2025 results)",
+  "parent": null,
+  "website": "https://www.sensetime.com",
+  "hq_city": "Hong Kong",
+  "hq_country": "China",
+  "founded": 2014,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX: 0020); 2025 revenue >RMB 5B",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Generative AI models, AI infrastructure and computer vision for enterprises, governments and devices.",
+  "problem": "Chinese enterprises and governments need capable AI models deployable inside their own infrastructure and devices.",
+  "products": [
+   {
+    "name": "SenseNova foundation models",
+    "category": "model",
+    "description": "LLM and multimodal model family offered via cloud and private deployment."
+   },
+   {
+    "name": "SenseChat-Lite / on-device SenseNova models",
+    "category": "model",
+    "description": "Small models optimized to run on phones, PCs and in-vehicle devices."
+   },
+   {
+    "name": "SenseCore AI infrastructure",
+    "category": "platform",
+    "description": "Large-scale AI compute and MLOps platform, also delivered for private deployments."
+   },
+   {
+    "name": "SenseNova private-deployment appliances",
+    "category": "system",
+    "description": "Integrated on-prem model-plus-compute packages for enterprise GenAI."
+   },
+   {
+    "name": "SenseFoundry",
+    "category": "platform",
+    "description": "Computer-vision platform for city and enterprise video analytics, deployable on-prem."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "camera",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "infra-orchestration",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "image-video-gen",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "security-surveillance",
+   "finance",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Combines in-house SenseNova models, SenseCore compute and a deep computer-vision installed base for private deployment.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://sensetime.com/en/news/51170581",
+   "https://kr-asia.com/sensetime-restructures-to-focus-on-ai-cloud-and-vision-models",
+   "https://technode.com/2024/12/04/sensetime-completes-strategic-restructuring-to-focus-on-ai-cloud-and-vision/",
+   "https://www.sensetime.com"
+  ]
+ },
+ {
+  "id": "siemens",
+  "name": "Siemens AG",
+  "verdict": "in",
+  "verdict_reason": "Industrial Edge platform deploys and manages AI apps and models on shop-floor devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.siemens.com",
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "founded": 1847,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (FWB: SIE); FY2024 revenue ~EUR 75.9B",
+  "key_investors": [],
+  "employees": 312000,
+  "employees_band": "10000+",
+  "focus": "Industrial automation with edge computing for deploying AI next to machines and PLCs.",
+  "problem": "Factories need low-latency, data-sovereign AI on shop-floor equipment without sending OT data to the cloud.",
+  "products": [
+   {
+    "name": "Siemens Industrial Edge",
+    "category": "platform",
+    "description": "Edge management platform and app ecosystem for running AI apps on shop-floor devices."
+   },
+   {
+    "name": "SIMATIC AI Inference Server / AI Model Deployer",
+    "category": "runtime",
+    "description": "Industrial Edge apps that deploy and execute ML models near production lines."
+   },
+   {
+    "name": "SIMATIC IPC / Industrial Edge devices",
+    "category": "system",
+    "description": "Rugged industrial PCs, including GPU-equipped models, hosting edge AI workloads."
+   },
+   {
+    "name": "SIMATIC S7-1500 TM NPU",
+    "category": "system",
+    "description": "PLC-integrated neural processing module for AI-based vision and control."
+   },
+   {
+    "name": "Siemens Industrial Copilot",
+    "category": "app",
+    "description": "GenAI copilots for automation engineering and operations; operations variant targets edge deployment."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "llm-text"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities",
+   "automotive"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Native coupling of edge AI with PLCs and automation hardware across the largest industrial installed base.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html",
+   "https://www.siemens.com/industrial-edge",
+   "https://www.siemens.com"
+  ]
+ },
+ {
+  "id": "sk-telecom-a-x",
+  "name": "SK Telecom Co., Ltd.",
+  "verdict": "borderline",
+  "verdict_reason": "Open A.X Korean LLMs support on-prem installation; telco where local AI is a secondary line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "SK Group",
+  "website": "https://www.sktelecom.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 1984,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KRX: 017670; NYSE: SKM)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "Korean telco building sovereign Korean-language A.X LLMs, partly open-weight and self-hostable.",
+  "problem": "Korean enterprises need strong Korean-language LLMs they can install on internal servers for data security.",
+  "products": [
+   {
+    "name": "A.X 4.0 (72B)",
+    "category": "model",
+    "description": "Korean-specialized LLM continued-pretrained from Qwen2.5; open weights, Apache-2.0."
+   },
+   {
+    "name": "A.X 4.0 Light (7B)",
+    "category": "model",
+    "description": "Lightweight open Korean LLM suited to on-prem and single-GPU deployment."
+   },
+   {
+    "name": "A.X 3.1 / A.X 3.1 Lite",
+    "category": "model",
+    "description": "From-scratch SKT-trained Korean LLMs released open source in 2025."
+   },
+   {
+    "name": "A.X on-premise package",
+    "category": "service",
+    "description": "Installation of A.X models on enterprise internal servers without external connectivity."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "services"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "developers",
+   "government-defense"
+  ],
+  "partners": [
+   "Hugging Face",
+   "AWS Marketplace",
+   "Rebellions"
+  ],
+  "notable_customers": [],
+  "differentiator": "Korean-specialized sovereign LLMs released Apache-2.0 for self-hosting by data-sensitive enterprises.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://huggingface.co/skt",
+   "https://huggingface.co/skt/a.x-4.0-light",
+   "https://www.asiae.co.kr/en/article/2025070309142262024",
+   "https://sktelecom.github.io/en/project/axllm",
+   "https://aws.amazon.com/marketplace/pp/prodview-r4ncdcp2i5ro2"
+  ]
+ },
+ {
+  "id": "sony-group",
+  "name": "Sony Group Corporation",
+  "verdict": "in",
+  "verdict_reason": "Sony Semiconductor Solutions sells IMX500 on-sensor AI chips and the AITRIOS edge AI platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sony.com",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 1946,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TSE: 6758; NYSE: SONY); FY2024 revenue ~JPY 13T",
+  "key_investors": [],
+  "employees": 112000,
+  "employees_band": "10000+",
+  "focus": "Image sensors with on-chip AI plus an edge vision platform for solution builders.",
+  "problem": "Camera AI deployments face bandwidth, privacy and power limits when streaming raw video to servers.",
+  "products": [
+   {
+    "name": "IMX500 intelligent vision sensor",
+    "category": "chip",
+    "description": "Stacked image sensor with on-chip DSP running vision models, outputting metadata only."
+   },
+   {
+    "name": "IMX501",
+    "category": "chip",
+    "description": "Intelligent vision sensor variant with integrated AI processing."
+   },
+   {
+    "name": "AITRIOS",
+    "category": "platform",
+    "description": "Edge AI sensing platform: device management, model deployment and app development for IMX500 cameras."
+   },
+   {
+    "name": "Brain Builder for AITRIOS",
+    "category": "platform",
+    "description": "No-code tool to train custom vision models for AITRIOS devices."
+   },
+   {
+    "name": "Model Compression Toolkit (MCT)",
+    "category": "sdk",
+    "description": "Open-source quantization and compression toolkit for deploying models on constrained hardware."
+   },
+   {
+    "name": "Raspberry Pi AI Camera (IMX500-based)",
+    "category": "device",
+    "description": "Low-cost camera module bringing on-sensor inference to Raspberry Pi developers."
+   },
+   {
+    "name": "SPRESENSE",
+    "category": "device",
+    "description": "Low-power microcontroller board with edge AI support and Neural Network Console tooling."
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "ai-platform",
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "retail",
+   "industrial-manufacturing",
+   "security-surveillance",
+   "developers",
+   "smb"
+  ],
+  "partners": [
+   "Raspberry Pi",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Runs inference inside the image sensor itself, emitting only metadata for privacy and low bandwidth.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.raspberrypi.com/products/ai-camera/",
+   "https://developer.aitrios.sony-semicon.com/en",
+   "https://www.sony-semicon.com",
+   "https://www.aitrios.sony-semicon.com"
+  ]
+ },
+ {
+  "id": "supermicro",
+  "name": "Super Micro Computer, Inc.",
+  "verdict": "in",
+  "verdict_reason": "AI-optimized GPU, rack-scale and edge server systems are its core business, widely sold for on-prem AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.supermicro.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 1993,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: SMCI); FY2025 revenue ~$22B",
+  "key_investors": [],
+  "employees": 6000,
+  "employees_band": "5001-10000",
+  "focus": "GPU servers, liquid-cooled rack-scale clusters and edge systems for AI infrastructure.",
+  "problem": "Organizations need fast access to dense, power-efficient GPU infrastructure for their own AI factories and edge sites.",
+  "products": [
+   {
+    "name": "GPU SuperServers (NVIDIA HGX, AMD Instinct)",
+    "category": "system",
+    "description": "8-GPU training/inference servers in air- and liquid-cooled configurations."
+   },
+   {
+    "name": "AI SuperCluster / Data Center Building Block Solutions (DCBBS)",
+    "category": "system",
+    "description": "Pre-validated rack-scale AI clusters delivered as turnkey on-prem AI factories."
+   },
+   {
+    "name": "GB200/GB300 NVL72 rack systems",
+    "category": "system",
+    "description": "NVIDIA Grace Blackwell rack-scale systems with direct liquid cooling."
+   },
+   {
+    "name": "Edge AI servers",
+    "category": "system",
+    "description": "Short-depth, ruggedized GPU systems for retail, telco and industrial edge inference."
+   },
+   {
+    "name": "AI workstations (incl. DGX Station-class)",
+    "category": "system",
+    "description": "Desk-side GPU workstations for local model development and inference."
+   },
+   {
+    "name": "Direct liquid cooling (DLC) solutions",
+    "category": "system",
+    "description": "In-house cold plates, CDUs and cooling towers for high-density AI racks."
+   },
+   {
+    "name": "SuperCloud Composer",
+    "category": "platform",
+    "description": "Datacenter management software for composing and monitoring Supermicro infrastructure."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel",
+   "Cisco",
+   "d-Matrix"
+  ],
+  "notable_customers": [
+   "xAI"
+  ],
+  "differentiator": "Building-block architecture and in-house liquid cooling enable fastest time-to-market on new GPU platforms.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-launches-dgx-station-with-its-bleeding-edge-gb300-grace-blackwell-superchip-now-available-to-order-and-will-begin-shipping-in-the-coming-months",
+   "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/",
+   "https://www.supermicro.com/solutions/Solution_Brief_Sovereign_AI_for_Telecom.pdf",
+   "https://www.storagenewsletter.com/2026/10/16/ocp-global-summit-2026-d-matrix-announces-squadron-compute-clusters-for-ai-inference-at-data-center-scale/"
+  ]
+ },
+ {
+  "id": "tencent-hunyuan",
+  "name": "Tencent Holdings Ltd.",
+  "verdict": "borderline",
+  "verdict_reason": "ncnn mobile runtime and open-weight Hunyuan models incl. edge sizes; core AI offered via cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://hunyuan.tencent.com",
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 1998,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX: 0700); 2024 revenue ~RMB 660B",
+  "key_investors": [],
+  "employees": 110000,
+  "employees_band": "10000+",
+  "focus": "Internet giant releasing open-weight Hunyuan models and open-source mobile inference frameworks.",
+  "problem": "Developers need efficient mobile inference engines and open models deployable on their own devices and servers.",
+  "products": [
+   {
+    "name": "ncnn",
+    "category": "runtime",
+    "description": "High-performance open-source neural network inference framework for mobile, with Vulkan GPU support."
+   },
+   {
+    "name": "TNN",
+    "category": "runtime",
+    "description": "Open-source cross-platform inference framework from Tencent Youtu Lab for mobile and edge."
+   },
+   {
+    "name": "Hunyuan open-weight LLMs (incl. 0.5B-7B dense, A13B MoE)",
+    "category": "model",
+    "description": "Open-weight text models including small dense variants aimed at edge and consumer GPUs."
+   },
+   {
+    "name": "HunyuanVideo",
+    "category": "model",
+    "description": "Open-weight text-to-video generation model."
+   },
+   {
+    "name": "Hunyuan3D",
+    "category": "model",
+    "description": "Open-weight 3D asset generation models."
+   },
+   {
+    "name": "HunyuanImage",
+    "category": "model",
+    "description": "Open-weight text-to-image generation models."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "datacenter-onprem",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "image-video-gen",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pairs widely embedded mobile runtime ncnn with a broad open-weight Hunyuan family across modalities.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://huggingface.co/tencent",
+   "https://www.tencent.com",
+   "https://github.com/Tencent/ncnn"
+  ]
+ },
+ {
+  "id": "vivo-bluelm",
+  "name": "vivo Mobile Communication Co., Ltd.",
+  "verdict": "borderline",
+  "verdict_reason": "Runs in-house BlueLM models on-device in its phones; AI is a device feature, not sold to others.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.vivo.com",
+  "hq_city": "Dongguan",
+  "hq_country": "China",
+  "founded": 2009,
+  "org_type": "big-tech",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Private; revenue undisclosed",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Smartphone maker developing BlueLM models that run fully on-device.",
+  "problem": "Phone users want capable multimodal AI assistants that work privately and offline on the handset.",
+  "products": [
+   {
+    "name": "BlueLM 3B (2025)",
+    "category": "model",
+    "description": "3B-parameter on-device multimodal reasoning model with 128K context for smartphones."
+   },
+   {
+    "name": "BlueLM-2.5-3B",
+    "category": "model",
+    "description": "Compact unified multimodal LLM designed for edge-device deployment (technical report Jul 2025)."
+   },
+   {
+    "name": "BlueLM-V-3B",
+    "category": "model",
+    "description": "Mobile multimodal LLM co-designed with system optimizations (CVPR 2025)."
+   },
+   {
+    "name": "BlueLM-7B",
+    "category": "model",
+    "description": "Earlier open-sourced BlueLM base/chat model released in 2023."
+   },
+   {
+    "name": "OriginOS AI features",
+    "category": "app",
+    "description": "On-device assistant, summarization and imaging features built on BlueLM."
+   }
+  ],
+  "deployment": [
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [
+   "MediaTek",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Early phone maker running multi-billion-parameter in-house multimodal models fully on-device.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://pandaily.com/vivo-unveils-blue-lm-3-b-an-on-device-multimodal-model-that-ranks-no-1-among-sub-10-b-models",
+   "https://arxiv.org/abs/2507.05934v1",
+   "https://arxiv.org/abs/2411.10640v1",
+   "https://www.vivo.com"
+  ]
+ },
+ {
+  "id": "vmware-by-broadcom",
+  "name": "VMware (Broadcom Inc.)",
+  "verdict": "in",
+  "verdict_reason": "VMware Private AI Foundation with NVIDIA delivers on-prem GenAI services on VMware Cloud Foundation.",
+  "status": "acquired",
+  "status_detail": "Acquired by Broadcom (Nov 2023)",
+  "parent": "Broadcom Inc.",
+  "website": "https://www.vmware.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 1998,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Division of Broadcom (NASDAQ: AVGO)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Private-cloud virtualization stack with built-in services for running GenAI on-premises.",
+  "problem": "Enterprises want GenAI and RAG on their own private cloud without building a separate AI stack.",
+  "products": [
+   {
+    "name": "VMware Private AI Foundation with NVIDIA",
+    "category": "platform",
+    "description": "Joint on-prem GenAI platform on VCF with NVIDIA AI Enterprise, NIM and GPUs."
+   },
+   {
+    "name": "VMware Cloud Foundation (VCF) 9",
+    "category": "platform",
+    "description": "Private-cloud platform providing GPU virtualization and AI workload management."
+   },
+   {
+    "name": "Private AI Services (model store, model runtime, vector DB, agent builder)",
+    "category": "platform",
+    "description": "Built-in VCF services for curating, serving and building on private models."
+   },
+   {
+    "name": "VMware Private AI with Intel / AMD",
+    "category": "platform",
+    "description": "Reference private-AI stacks on Intel and AMD accelerators."
+   },
+   {
+    "name": "Tanzu Platform AI solutions",
+    "category": "platform",
+    "description": "Developer platform for building and running GenAI apps on private infrastructure."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "AMD",
+   "Dell",
+   "HPE",
+   "Lenovo",
+   "Supermicro",
+   "Rackspace"
+  ],
+  "notable_customers": [],
+  "differentiator": "Brings GenAI services natively into the dominant enterprise private-cloud virtualization stack.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.vmware.com/docs/vmware-privateai-foundation-with-nvidia-solutions-brief",
+   "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-foundation-with-nvidia-explore25/",
+   "https://www.vmware.com"
+  ]
+ },
+ {
+  "id": "xiaomi",
+  "name": "Xiaomi Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "Open MiMo models and on-device HyperOS AI, but AI is mainly a feature of its own devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.mi.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2010,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX: 1810); 2024 revenue ~RMB 366B",
+  "key_investors": [],
+  "employees": 43000,
+  "employees_band": "10000+",
+  "focus": "Phones, smart home and EVs with on-device AI and open-weight MiMo models.",
+  "problem": "Users across phones, homes and cars expect responsive, private AI that works locally on devices.",
+  "products": [
+   {
+    "name": "MiMo reasoning models (MiMo-7B family)",
+    "category": "model",
+    "description": "Open-weight small reasoning LLMs suited to local deployment."
+   },
+   {
+    "name": "MiMo-VL",
+    "category": "model",
+    "description": "Open-weight vision-language models."
+   },
+   {
+    "name": "MiMo-Audio",
+    "category": "model",
+    "description": "Open-weight audio/speech foundation model."
+   },
+   {
+    "name": "Next-gen Kaldi (k2, icefall, sherpa-onnx)",
+    "category": "runtime",
+    "description": "Xiaomi-backed open-source speech toolkit and on-device ASR/TTS runtime."
+   },
+   {
+    "name": "HyperOS / HyperAI on-device features",
+    "category": "app",
+    "description": "On-device assistant and AI features across Xiaomi phones, home devices and cars."
+   },
+   {
+    "name": "XRING O1",
+    "category": "chip",
+    "description": "In-house smartphone SoC with NPU (2025), used in Xiaomi devices."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "wearable-xr"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "applications",
+   "silicon"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [
+   "Qualcomm",
+   "MediaTek"
+  ],
+  "notable_customers": [],
+  "differentiator": "Spans phones, IoT and EVs with in-house open models and an open on-device speech stack.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://huggingface.co/XiaomiMiMo",
+   "https://github.com/XiaomiMiMo",
+   "https://www.mi.com"
+  ]
+ },
+ {
+  "id": "acrab",
+  "name": "Acrab",
+  "verdict": "in",
+  "verdict_reason": "5nm GELIX 1 edge SoC and Agent Box desktop run open models up to 100B parameters locally.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 480,
+  "last_round": "Series B, $130M, Aug 2026, led by Vertex Ventures SEA & India and Vertex Growth",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Vertex Ventures Southeast Asia & India",
+   "Vertex Growth"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Full-stack compute for agentic AI at the edge: custom SoC plus desktop agent box.",
+  "problem": "Running large agentic AI models locally is impractical on existing consumer and edge hardware.",
+  "products": [
+   {
+    "name": "GELIX 1 (GΞLIX 1)",
+    "category": "chip",
+    "description": "5nm edge AI SoC supporting local open-source models up to 100B parameters."
+   },
+   {
+    "name": "Agent Box",
+    "category": "device",
+    "description": "Desktop agentic AI computer built on GELIX 1 for private local LLM agents."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers",
+   "smb",
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Custom 5nm SoC claiming 100B-parameter local inference in a desktop box; performance claims unverified.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://e27.co/acrab-raises-us350m-to-advance-agentic-ai-compute-infrastructure-20260618/",
+   "https://e27.co/acrabs-us130m-raise-signals-seas-deeper-push-into-ai-hardware-20260807/",
+   "https://vertexholdings.com/news/acrab-raises-over-us-350m-to-build-the-compute-foundation-for-agentic-ai/",
+   "https://www.dealstreetasia.com/stories/ai-startup-acrab-raises-130m-in-vertex-backed-series-b-funding-491373",
+   "https://www.aap.com.au/aapreleases/cision20260723ae10924/",
+   "https://www.unite.ai/acrabs-edge-chip-aims-to-run-100b-ai-models-locally/"
+  ]
+ },
+ {
+  "id": "amax",
+  "name": "AMAX Engineering Corporation",
+  "verdict": "in",
+  "verdict_reason": "Core business is engineering turnkey on-prem liquid-cooled AI clusters and edge-to-datacenter AI systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.amax.com",
+  "hq_city": "Fremont",
+  "hq_country": "United States",
+  "founded": 1979,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Designing, building and hosting liquid-cooled AI infrastructure from edge to AI factory.",
+  "problem": "Enterprises lack the engineering capacity to design, cool and deploy high-density on-prem AI clusters quickly.",
+  "products": [
+   {
+    "name": "AI Factory solutions (NVIDIA Vera Rubin NVL72 / DGX)",
+    "category": "system",
+    "description": "Turnkey rack-scale AI factory systems integrated, cooled and deployed by AMAX."
+   },
+   {
+    "name": "AceleMax GPU servers",
+    "category": "system",
+    "description": "Multi-GPU servers for AI training and inference."
+   },
+   {
+    "name": "LiquidMax liquid-cooled systems",
+    "category": "system",
+    "description": "Liquid-cooled high-density AI servers and racks."
+   },
+   {
+    "name": "HostMax",
+    "category": "service",
+    "description": "Fremont-based hosting for high-density GPU clusters to bypass datacenter build delays."
+   },
+   {
+    "name": "End-to-end on-prem professional services",
+    "category": "service",
+    "description": "Design, integration, networking, storage and deployment services for on-prem AI."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Engineering-led integrator with in-house liquid-cooling production capacity plus adjacent GPU hosting.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://amax.com/",
+   "https://www.amax.com/amax-advances-major-site-expansion/",
+   "https://www.hpcwire.com/off-the-wire/amax-launches-hostmax-to-eliminate-ai-infrastructure-deployment-delays",
+   "https://www.amax.com/content/files/2025/04/End-to-End-On-Prem.pdf"
+  ]
+ },
+ {
+  "id": "ampere-computing",
+  "name": "Ampere Computing LLC",
+  "verdict": "borderline",
+  "verdict_reason": "Arm server CPUs marketed for GPU-free AI inference; general-purpose compute with AI as secondary pitch.",
+  "status": "acquired",
+  "status_detail": "Acquired by SoftBank Group ($6.5B, completed 26 Nov 2025)",
+  "parent": "SoftBank Group",
+  "website": "https://amperecomputing.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Acquired by SoftBank Group for $6.5B (closed Nov 2025)",
+  "valuation_usd_m": 6500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Carlyle Group",
+   "Oracle",
+   "SoftBank Group"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Power-efficient many-core Arm server CPUs for cloud-native and AI inference workloads.",
+  "problem": "GPU-based inference is costly and power-hungry for many on-prem and edge inference workloads.",
+  "products": [
+   {
+    "name": "AmpereOne / AmpereOne M",
+    "category": "chip",
+    "description": "Many-core Arm server CPUs with AI-oriented features for dense inference."
+   },
+   {
+    "name": "Ampere Altra / Altra Max",
+    "category": "chip",
+    "description": "Up to 128-core Arm server processors used in on-prem and edge servers."
+   },
+   {
+    "name": "Ampere Optimized AI Frameworks (AIO)",
+    "category": "runtime",
+    "description": "Optimized PyTorch/TensorFlow/ONNX builds for CPU-based inference on Ampere."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "developers"
+  ],
+  "partners": [
+   "Oracle",
+   "Supermicro",
+   "HPE",
+   "Qualcomm"
+  ],
+  "notable_customers": [
+   "Oracle Cloud Infrastructure"
+  ],
+  "differentiator": "Cloud-native Arm CPUs with optimized frameworks pitched for cost-efficient GPU-free inference.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://group.softbank/en/news/press/20251126",
+   "https://amperecomputing.com/press/completion-of-acquisition-of-ampere-computing",
+   "https://www.techzine.eu/news/infrastructure/136717/softbank-completes-acquisition-of-ampere-computing",
+   "https://amperecomputing.com"
+  ]
+ }
+]

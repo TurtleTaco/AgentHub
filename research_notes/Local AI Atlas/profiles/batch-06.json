@@ -1,0 +1,2379 @@
+[
+ {
+  "id": "netrasemi",
+  "name": "Netrasemi",
+  "verdict": "in",
+  "verdict_reason": "Fabless startup building edge-AI vision SoCs and AI microcontrollers for on-device inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.netrasemi.com",
+  "hq_city": "Thiruvananthapuram",
+  "hq_country": "India",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 14,
+  "last_round": "Series A, INR 107 Cr (~$12M), Jul 2025, led by Zoho Corporation with Unicorn India Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Zoho Corporation",
+   "Unicorn India Ventures"
+  ],
+  "employees": 83,
+  "employees_band": "51-200",
+  "focus": "Edge-AI SoCs for smart vision cameras, IoT sensors and industrial devices",
+  "problem": "Device makers lack affordable, low-power (Indian-designed) silicon to run video analytics and AI on-device.",
+  "products": [
+   {
+    "name": "Netra A2000",
+    "category": "chip",
+    "description": "12nm (TSMC) edge-AI SoC for on-device video analytics in smart cameras and vision devices"
+   },
+   {
+    "name": "Netra R1000",
+    "category": "chip",
+    "description": "AI-enabled microcontroller for smart IoT sensors, 12nm TSMC"
+   },
+   {
+    "name": "Edge-AI SoC variants",
+    "category": "chip",
+    "description": "Four planned SoC variants combining AI acceleration and video analytics for production"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "security-surveillance",
+   "industrial-manufacturing",
+   "consumer-electronics-oem",
+   "automotive"
+  ],
+  "partners": [
+   "TSMC"
+  ],
+  "notable_customers": [],
+  "differentiator": "Among India's first edge-AI SoC startups; Zoho-backed, designing 12nm vision chips in Kerala.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://evertiq.com/news/2025-07-25-indian-semiconductor-startup-netrasemi-raises-12-million-in-series-a",
+   "https://yourstory.com/2025/08/netrasemi-semiconductor-startup-edge-ai-chips",
+   "https://www.dqindia.com/esdm/netrasemi-raises-rs-107cr-in-series-a-round-from-zoho-and-unicorn-india-ventures-to-build-advanced-edge-ai-socs-9530872",
+   "https://www.eenewseurope.com/en/indias-netrasemi-raises-funds-for-edge-ai-processors"
+  ]
+ },
+ {
+  "id": "neuchips",
+  "name": "Neuchips Corporation",
+  "verdict": "in",
+  "verdict_reason": "Builds low-power LLM inference ASICs and PCIe cards for offline GenAI on PCs and edge servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.neuchips.ai",
+  "hq_city": "Hsinchu",
+  "hq_country": "Taiwan",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 80.7,
+  "last_round": "Series B-III, ~$14.2M, Jan 2025 (per CB Insights; not confirmed by company)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Powerchip Semiconductor Manufacturing (PSMC)"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Energy-efficient GenAI/LLM inference accelerators for offline, on-prem enterprise AI",
+  "problem": "Enterprises want private GenAI on existing PCs and servers without power-hungry GPUs or sending data to cloud.",
+  "products": [
+   {
+    "name": "Raptor (N3000)",
+    "category": "chip",
+    "description": "GenAI/LLM inference ASIC, up to ~200 TOPS per chip, unveiled CES 2024"
+   },
+   {
+    "name": "Viper series",
+    "category": "system",
+    "description": "Low-profile PCIe GenAI cards running full ~12-14B-parameter LLMs offline at ~45W"
+   },
+   {
+    "name": "Evo PCIe card",
+    "category": "system",
+    "description": "Raptor-based PCIe accelerator card for edge and enterprise servers"
+   },
+   {
+    "name": "Offline GenAI solutions",
+    "category": "service",
+    "description": "Turnkey offline document/RAG GenAI solutions built with partners Vecow and GSH"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Vecow",
+   "GSH",
+   "Powerchip (PSMC)"
+  ],
+  "notable_customers": [],
+  "differentiator": "Purpose-built LLM ASIC that fits a full LLM in a 45W low-profile PCIe card for desktops.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/neuchips-introduces-plug-and-play-enterprise-genai-solution-viper-genai-pcie-card-at-computex-2024-302156792.html",
+   "https://www.prnewswire.com/news-releases/neuchips-champions-power-efficient-ai-at-computex-2025-302456682.html",
+   "https://www.cbinsights.com/company/neuchips/financials",
+   "https://dealroom.co/companies/neuchips/"
+  ]
+ },
+ {
+  "id": "neurobus",
+  "name": "Neurobus",
+  "verdict": "in",
+  "verdict_reason": "Builds neuromorphic embedded AI perception systems for drones, defense and space.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Undisclosed VC round, Apr 2025 (per Caplight; unconfirmed); reportedly preparing EUR 5-10M raise",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Neuromorphic, low-power on-board AI perception for defense, drones and space",
+  "problem": "Drones, satellites and defense platforms need real-time perception within tight power budgets and without cloud links.",
+  "products": [
+   {
+    "name": "Neuromorphic drone detection system",
+    "category": "system",
+    "description": "Event-based low-power drone detection/tracking (virtual tripwire); won a European defense innovation competition"
+   },
+   {
+    "name": "Neuromorphic embedded perception modules",
+    "category": "system",
+    "description": "Event-camera plus neuromorphic processing for on-board detection, tracking and identification"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [
+   "Airbus Defence and Space",
+   "European Space Agency",
+   "CNES"
+  ],
+  "notable_customers": [],
+  "differentiator": "Frugal neuromorphic perception (event sensors + spiking processing) targeting counter-UAS and space.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.hec.edu/en/innovation-entrepreneurship-institute/news/neurobus-frugal-ai-serving-defense-and-aerospace",
+   "https://europe.startupguide.com/interview/florian-corgnou",
+   "https://arxiv.org/abs/2509.12997",
+   "https://www.caplight.com/company/neurobus"
+  ]
+ },
+ {
+  "id": "nextchip",
+  "name": "Nextchip Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Sells automotive ADAS SoCs with integrated NPUs (Apache series) to Tier-1s and OEMs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nextchip.com",
+  "hq_city": "Seongnam",
+  "hq_country": "South Korea",
+  "founded": 2019,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KOSDAQ)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Automotive image signal processors and ADAS SoCs with NPUs",
+  "problem": "Automakers need low-cost, safety-capable chips for real-time camera perception in entry-level ADAS.",
+  "products": [
+   {
+    "name": "Apache6",
+    "category": "chip",
+    "description": "ADAS domain/zone SoC: quad Arm CPU, Mali GPU, ISP, aiWare4 NPU, ASIL-B; mass-production validated Q1 2025"
+   },
+   {
+    "name": "Apache5",
+    "category": "chip",
+    "description": "Earlier ADAS vision SoC for camera-based driver assistance"
+   },
+   {
+    "name": "Automotive ISPs",
+    "category": "chip",
+    "description": "Image signal processors for vehicle cameras feeding on-device perception"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [
+   "aiMotive (Stellantis)",
+   "JOYNEXT",
+   "Arteris",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Automotive ISP heritage combined with NPU-equipped ADAS SoCs aimed at entry L2 systems.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.asiae.co.kr/en/article/2025071508315223790",
+   "https://www.edge-ai-vision.com/?p=54667",
+   "https://www.eenewseurope.com/en/nextchip-licenses-aiware4-for-automotive-ai-processor/"
+  ]
+ },
+ {
+  "id": "nordic-semiconductor",
+  "name": "Nordic Semiconductor ASA",
+  "verdict": "in",
+  "verdict_reason": "Low-power wireless SoC leader with marketed edge AI: in-house NPU (Atlazo) and Neuton tinyML.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nordicsemi.com",
+  "hq_city": "Trondheim",
+  "hq_country": "Norway",
+  "founded": 1983,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (Oslo Bors: NOD)",
+  "key_investors": [],
+  "employees": 1400,
+  "employees_band": "1001-5000",
+  "focus": "Ultra-low-power wireless IoT SoCs with integrated tinyML and NPU acceleration",
+  "problem": "Battery-powered IoT devices need on-device intelligence without draining power or depending on cloud connectivity.",
+  "products": [
+   {
+    "name": "nRF54 Series",
+    "category": "chip",
+    "description": "Ultra-low-power Bluetooth LE/multiprotocol SoCs positioned for edge ML workloads"
+   },
+   {
+    "name": "Axon NPU (from Atlazo)",
+    "category": "ip",
+    "description": "Neural processing technology from Atlazo acquisition, integrated into Nordic SoCs"
+   },
+   {
+    "name": "Neuton",
+    "category": "platform",
+    "description": "Automated tinyML framework generating sub-5KB models (IP acquired Jun 2025)"
+   },
+   {
+    "name": "nRF Connect SDK edge AI support",
+    "category": "sdk",
+    "description": "SDK and Edge Impulse integration for deploying ML models on Nordic SoCs"
+   },
+   {
+    "name": "nRF91 Series",
+    "category": "chip",
+    "description": "Cellular IoT SiPs able to host tinyML at the edge"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "healthcare",
+   "developers"
+  ],
+  "partners": [
+   "Edge Impulse",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Leading BLE footprint plus sub-5KB auto-generated models and in-house NPU IP.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.nordicsemi.com/Nordic-news/2025/06/Nordic-Semiconductor-accelerates-edge-AI-leadership-with-acquisition-of-Neuton-AI",
+   "https://www.hackster.io/news/nordic-semi-dives-deeper-into-tinyml-acquires-sub-5kb-machine-learning-model-platform-neuton-ai-3748378b8c48"
+  ]
+ },
+ {
+  "id": "nuvoton-technology",
+  "name": "Nuvoton Technology Corporation",
+  "verdict": "in",
+  "verdict_reason": "MCU maker marketing edge-AI MCUs (NuMicro M55M1 with Ethos-U55 NPU) and ML tools.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nuvoton.com",
+  "hq_city": "Hsinchu",
+  "hq_country": "Taiwan",
+  "founded": 2008,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TWSE: 4919)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Microcontrollers and MPUs adding NPUs for embedded AI in industrial and consumer devices",
+  "problem": "Embedded designers need low-power MCUs that run vision, voice and anomaly-detection AI locally.",
+  "products": [
+   {
+    "name": "NuMicro M55M1",
+    "category": "chip",
+    "description": "Arm Cortex-M55 MCU with Ethos-U55 NPU for vision, voice and sensor AI"
+   },
+   {
+    "name": "NuMaker-M55M1 board",
+    "category": "device",
+    "description": "Development board for prototyping edge AI on M55M1"
+   },
+   {
+    "name": "NuEdgeWise / ML tools",
+    "category": "sdk",
+    "description": "Tools and model examples for training and deploying ML on NuMicro MCUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "consumer-electronics-oem",
+   "automotive",
+   "developers"
+  ],
+  "partners": [
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Broad MCU portfolio (Winbond spin-off) extended with Ethos-U NPU MCUs and free ML tooling.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.nuvoton.com"
+  ]
+ },
+ {
+  "id": "openedges-technology",
+  "name": "OPENEDGES Technology, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Licenses ENLIGHT NPU IP and memory-subsystem IP for on-device AI SoCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.openedges.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2017,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": "IPO on KOSDAQ (~KRW 33.85B raised), 2022",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KOSDAQ)",
+  "key_investors": [
+   "Woori Bank",
+   "LG CNS"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "NPU IP plus memory controller/PHY/NoC IP for edge AI SoCs",
+  "problem": "SoC designers need proven, efficient NPU and memory IP to add on-device AI quickly without bandwidth bottlenecks.",
+  "products": [
+   {
+    "name": "ENLIGHT Pro",
+    "category": "ip",
+    "description": "High-performance mixed-precision NPU IP (RISC-V based), ~4x prior generation, launched Apr 2024"
+   },
+   {
+    "name": "ENLIGHT Classic",
+    "category": "ip",
+    "description": "First-gen 4-/8-bit mixed-precision NPU IP for low-power vision inference"
+   },
+   {
+    "name": "LPDDR6/5X memory subsystem IP",
+    "category": "ip",
+    "description": "Memory controller and PHY IP for bandwidth-hungry AI and HPC SoCs"
+   },
+   {
+    "name": "ENLIGHT SDK",
+    "category": "sdk",
+    "description": "Compiler and quantization toolchain for deploying networks on ENLIGHT NPUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "mobile"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Rare pairing of NPU IP with matching memory controller/PHY IP for bandwidth-optimized AI SoCs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.design-reuse.com/news/56070/openedges-enlight-pro-npu-ip.html",
+   "https://view.asiae.co.kr/en/article/2021042110222819382",
+   "https://in.marketscreener.com/quote/stock/OPENEDGES-TECHNOLOGY-INC-142765643/news/Openedges-Technology-Inc-has-completed-an-IPO-in-the-amount-of-KRW-33-85-billion-41824865/",
+   "https://www.cbinsights.com/investor/openedges"
+  ]
+ },
+ {
+  "id": "perceive",
+  "name": "Perceive Corporation",
+  "verdict": "in",
+  "verdict_reason": "Ergo ultra-low-power edge inference chips were its core business before Amazon's asset purchase.",
+  "status": "acquired",
+  "status_detail": "Assets acquired by Amazon from Xperi for $80M cash (announced Aug 2024, closed Oct 2, 2024)",
+  "parent": "Amazon",
+  "website": "https://perceive.io",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Acquired for $80M (Amazon, 2024)",
+  "key_investors": [
+   "Xperi"
+  ],
+  "employees": 44,
+  "employees_band": "11-50",
+  "focus": "Ultra-low-power edge inference chips and model compression for battery-powered devices",
+  "problem": "Battery devices could not run large neural networks locally without cloud connectivity or high power draw.",
+  "products": [
+   {
+    "name": "Ergo",
+    "category": "chip",
+    "description": "Ultra-low-power edge inference processor running large DNNs in cameras and battery devices"
+   },
+   {
+    "name": "Ergo 2",
+    "category": "chip",
+    "description": "Second-gen Ergo with more performance for video, audio and transformer models"
+   },
+   {
+    "name": "Model compression technology",
+    "category": "sdk",
+    "description": "Information-theory-based compression enabling large networks on tiny chips"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "mobile"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Custom silicon plus aggressive model compression; team now in Amazon Devices for edge LLM work.",
+  "confidence": {
+   "funding": "high",
+   "employees": "high",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.geekwire.com/2024/amazon-to-acquire-perceive-for-80m-from-xperi-expanding-its-ai-technology-for-edge-devices/",
+   "https://www.datacenterdynamics.com/en/news/amazon-acquires-edge-chip-and-ai-model-compression-company-perceive/",
+   "https://www.sec.gov/Archives/edgar/data/1788999/000110465924090493/tm2421774d1_8k.htm"
+  ]
+ },
+ {
+  "id": "pimchip",
+  "name": "Pimchip Technology (Beijing Pimchip / 苹芯科技)",
+  "verdict": "in",
+  "verdict_reason": "SRAM compute-in-memory AI chip startup targeting low-power edge inference.",
+  "status": "active",
+  "status_detail": "No 2025-2026 news found; activity status unverified",
+  "parent": null,
+  "website": null,
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A, >$10M, Aug 2022, led by Primavera Venture Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Primavera Venture Partners",
+   "Sequoia China (HongShan)",
+   "Redpoint China Ventures",
+   "ZhenFund"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "SRAM-based compute-in-memory AI accelerator chips for edge devices",
+  "problem": "Edge devices struggle with the power and memory-bandwidth cost of running neural networks on conventional processors.",
+  "products": [
+   {
+    "name": "SRAM compute-in-memory edge AI chips",
+    "category": "chip",
+    "description": "Digital SRAM CIM accelerators for low-power voice, vision and wearable inference"
+   },
+   {
+    "name": "CIM accelerator IP/modules",
+    "category": "ip",
+    "description": "Compute-in-memory acceleration offered for AIoT device integration"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Tsinghua-rooted team commercializing digital SRAM compute-in-memory for energy-efficient edge AI.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://pandaily.com/?p=132310",
+   "https://pitchhub.36kr.com/project/1679727635550979",
+   "https://www.gunder.com/zh/news-insights/%E6%9C%80%E6%96%B0%E4%B8%9A%E7%BB%A9/%e9%ab%98%e9%94%90%e4%b8%9a%e7%bb%a9-%e9%ab%98%e9%94%90%e5%ae%a2%e6%88%b7%e3%80%8c%e8%8b%b9%e8%8a%af%e7%a7%91%e6%8a%80%e3%80%8d%e5%ae%8c%e6%88%90%e5%8d%83%e4%b8%87%e7%ba%a7%e7%be%8e%e5%85%83a"
+  ]
+ },
+ {
+  "id": "polyn-technology",
+  "name": "POLYN Technology Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Neuromorphic analog signal processing chips run tiny AI directly at the sensor.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://polyn.ai",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 9.1,
+  "last_round": "Small unattributed round, Oct 2024 (per CB Insights); no 2025-2026 round found",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Neuromorphic Analog Signal Processing (NASP) chips for sensor-level tiny AI",
+  "problem": "Always-on sensors waste power digitizing and processing raw data; wearables and IIoT need microwatt-level AI.",
+  "products": [
+   {
+    "name": "NASP chip",
+    "category": "chip",
+    "description": "Neuromorphic analog chip implementing trained neural nets in analog circuitry; first silicon Oct 2025"
+   },
+   {
+    "name": "NeuroVoice",
+    "category": "chip",
+    "description": "NASP-based voice extraction and noise suppression for hearables"
+   },
+   {
+    "name": "VibroSense",
+    "category": "chip",
+    "description": "NASP vibration-analysis solution for predictive maintenance"
+   },
+   {
+    "name": "NASP compiler",
+    "category": "sdk",
+    "description": "Converts trained neural networks into NASP analog chip designs"
+   }
+  ],
+  "deployment": [
+   "wearable-xr",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "healthcare"
+  ],
+  "partners": [
+   "ALTER Technology France",
+   "Fraunhofer"
+  ],
+  "notable_customers": [],
+  "differentiator": "Synthesizes trained neural networks directly into analog neuromorphic circuits at the sensor.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/polyn-technology/financials",
+   "https://embeddedcomputing.com/technology/processing/chips-and-socs/polyn-technology-and-alter-technology-france-collaborate-on-joint-chip-validation-lab-for-neuromorphic-analog-signal-processing-chips",
+   "https://www.electronicsmedia.info/?p=81300",
+   "https://aiwire.net/2022/05/03/tiny-ai-nasp-chip-project-unites-fraunhofer-polyn"
+  ]
+ },
+ {
+  "id": "prophesee",
+  "name": "Prophesee SA",
+  "verdict": "in",
+  "verdict_reason": "Event-based vision sensors, Metavision AI software and Mantara system for low-power on-device perception.",
+  "status": "active",
+  "status_detail": "Judicial recovery opened Oct 2024 (filed publicly Jan 2025); kept operating; new CEO Jean Ferre Dec 2025; raised EUR 20M in 2026",
+  "parent": null,
+  "website": "https://www.prophesee.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2014,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": "EUR 20M, 2026, led by Critical Path Ventures (with Mantara launch)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Critical Path Ventures",
+   "Prosperity7 Ventures",
+   "Intel Capital",
+   "360 Capital",
+   "Robert Bosch Venture Capital",
+   "Supernova Invest",
+   "European Investment Bank"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Event-based neuromorphic vision sensors and software for efficient machine perception",
+  "problem": "Frame-based cameras waste power and bandwidth, limiting fast, low-power perception on edge devices.",
+  "products": [
+   {
+    "name": "GenX320",
+    "category": "chip",
+    "description": "Ultra-low-power 320x320 event-based vision sensor for edge AI, wearables and IoT"
+   },
+   {
+    "name": "IMX636 / IMX637 (with Sony)",
+    "category": "chip",
+    "description": "Stacked event-based vision sensors co-developed and manufactured with Sony"
+   },
+   {
+    "name": "Metavision SDK",
+    "category": "sdk",
+    "description": "Event-vision software suite with ML modules for detection, tracking and counting"
+   },
+   {
+    "name": "Metavision evaluation kits",
+    "category": "device",
+    "description": "Event-camera kits and modules for developers and integrators"
+   },
+   {
+    "name": "Mantara",
+    "category": "system",
+    "description": "Integrated drone detection system built on event-based vision and AI (2026)"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "wearable-xr",
+   "vehicle-robot-drone",
+   "mobile"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "consumer-electronics-oem",
+   "automotive",
+   "government-defense"
+  ],
+  "partners": [
+   "Sony Semiconductor Solutions",
+   "Qualcomm",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Pioneer of neuromorphic event sensing with Sony-made sensors and mature Metavision software.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://prophesee.ai/2025/12/23/prophesee-appoints-jean-ferre-as-chief-executive-officer-to-lead-event-based-vision-sensing-pioneer-in-next-stage-of-growth/",
+   "https://aeromorning.com/en/prophesee-raises-e20m-and-launches-mantara/",
+   "https://www.f4news.com/2025/01/29/prophesee-files-for-insolvency/",
+   "https://www.bodacc.fr/telechargements/COMMERCIALES/PDF/A/2024/20240212/1/BODACC_A_PDF_Unitaire_20240212_02539.pdf"
+  ]
+ },
+ {
+  "id": "quadric",
+  "name": "Quadric, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Licenses Chimera GPNPU processor IP for running evolving AI models on edge SoCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://quadric.io",
+  "hq_city": "Burlingame",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 90,
+  "last_round": "Series C second close (round total $46M), Jul 2026, led by IFC; first close $30M Jan 2026 led by BEENEXT ACCELERATE Fund",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "BEENEXT (ACCELERATE Fund)",
+   "International Finance Corporation (IFC)",
+   "Pear VC",
+   "Uncork Capital",
+   "DENSO",
+   "Volta",
+   "Silicon Catalyst Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Programmable general-purpose NPU (GPNPU) processor IP for on-device AI",
+  "problem": "Fixed-function NPUs can't keep up with fast-changing AI models, forcing SoC makers into costly redesigns.",
+  "products": [
+   {
+    "name": "Chimera GPNPU",
+    "category": "ip",
+    "description": "Licensable general-purpose NPU IP running whole AI graphs plus C++ code; 1 to 3,200+ TOPS"
+   },
+   {
+    "name": "Chimera multicore/chiplet configurations",
+    "category": "ip",
+    "description": "Scaled GPNPU configurations for automotive, edge LLM and enterprise SoCs"
+   },
+   {
+    "name": "Chimera SDK",
+    "category": "sdk",
+    "description": "Compiler toolchain taking ONNX/PyTorch models and C++ to the GPNPU"
+   },
+   {
+    "name": "Quadric DevStudio",
+    "category": "platform",
+    "description": "Online environment to evaluate model performance on Chimera IP"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "camera",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [
+   "DENSO"
+  ],
+  "notable_customers": [
+   "DENSO"
+  ],
+  "differentiator": "Single programmable core runs both neural nets and classic DSP/C++ code, future-proofing silicon.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.edge-ai-vision.com/2026/01/quadric-inference-engine-for-on-device-ai-chips-raises-30m-series-c-as-design-wins-accelerate-across-edge/",
+   "https://www.ai-infra-summit.com/press-releases/quadric-extends-series-c-to-46m-with-second-close-led-by-world-bank-s-ifc",
+   "https://pulse2.com/quadric-raises-46-million-series-c-to-advance-programmable-ai-chip-platform/amp/"
+  ]
+ },
+ {
+  "id": "rain-ai",
+  "name": "Rain AI (Rain Neuromorphics Inc.)",
+  "verdict": "out",
+  "verdict_reason": "Defunct before shipping product: staff laid off 2025; OpenAI bought patents after takeover talks failed.",
+  "status": "defunct",
+  "status_detail": "Failed $150M Series B led to layoffs of nearly all staff (Jun 2025); OpenAI acquired patents (reported Aug 2026); company largely ceased operations",
+  "website": "https://rain.ai"
+ },
+ {
+  "id": "realtek",
+  "name": "Realtek Semiconductor Corp.",
+  "verdict": "in",
+  "verdict_reason": "Markets Ameba AIoT and AI-camera SoCs with integrated NPUs for local inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.realtek.com",
+  "hq_city": "Hsinchu",
+  "hq_country": "Taiwan",
+  "founded": 1987,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TWSE: 2379)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "Connectivity, audio and multimedia ICs, including NPU-equipped AIoT and camera SoCs",
+  "problem": "Device makers need low-cost SoCs that add local AI to cameras, smart-home and TV products.",
+  "products": [
+   {
+    "name": "AmebaPro2",
+    "category": "chip",
+    "description": "AI camera SoC with NPU for smart doorbells, IP cameras and vision IoT"
+   },
+   {
+    "name": "Ameba AIoT SoCs",
+    "category": "chip",
+    "description": "Wi-Fi/BLE AIoT SoCs with AI acceleration for voice and smart-home devices"
+   },
+   {
+    "name": "Smart TV / multimedia SoCs",
+    "category": "chip",
+    "description": "TV and display SoCs with AI picture and sound enhancement"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Huge consumer-electronics footprint lets it bundle NPUs into high-volume connectivity and camera SoCs.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.realtek.com"
+  ]
+ },
+ {
+  "id": "reexen-technology",
+  "name": "Reexen Technology",
+  "verdict": "in",
+  "verdict_reason": "Mixed-signal in-sensor and in-memory computing chips for always-on audio and vision edge AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, ~$14M, Sep 2025 (per Dealroom); further 2026 rounds listed by PitchBook/CB Insights, unconfirmed",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Inno-Chip",
+   "Spinnotec",
+   "MiraclePlus",
+   "WowNiu Capital"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Analog/mixed-signal compute-in-memory and in-sensor computing chips for edge AI",
+  "problem": "Always-on audio and vision devices burn power digitizing and processing raw sensor data.",
+  "products": [
+   {
+    "name": "In-sensor computing audio chips",
+    "category": "chip",
+    "description": "Analog feature extraction and inference for always-on voice and acoustic event detection"
+   },
+   {
+    "name": "Compute-in-memory AI SoCs",
+    "category": "chip",
+    "description": "Mixed-signal CIM inference for low-power vision and audio; ~20 TOPS/W claimed"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "ETH Zurich (Delbruck lab)-rooted team merging sensing and inference in analog circuits.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.eetasia.com/inference-sensing-and-in-memory-computing-chip-startup-claims-20-tops-w/",
+   "https://dealroom.co/companies/reexen-technology/",
+   "https://pitchbook.com/profiles/company/342028-72"
+  ]
+ },
+ {
+  "id": "renesas-electronics",
+  "name": "Renesas Electronics Corporation",
+  "verdict": "in",
+  "verdict_reason": "Major MCU/MPU vendor with DRP-AI accelerators, Ethos-U MCUs and Reality AI edge tools.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.renesas.com",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2010,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TSE: 6723)",
+  "key_investors": [],
+  "employees": 21000,
+  "employees_band": "10000+",
+  "focus": "Embedded processors with on-chip AI acceleration for industrial, automotive and IoT",
+  "problem": "Equipment makers need embedded vision, voice and sensor AI running in real time on low-power processors.",
+  "products": [
+   {
+    "name": "RZ/V series (RZ/V2H, V2N, V2L)",
+    "category": "chip",
+    "description": "MPUs with DRP-AI accelerator for embedded vision and robotics"
+   },
+   {
+    "name": "DRP-AI",
+    "category": "ip",
+    "description": "Dynamically reconfigurable AI accelerator integrated in RZ/V MPUs"
+   },
+   {
+    "name": "RA8P1",
+    "category": "chip",
+    "description": "Cortex-M85 MCU with Arm Ethos-U55 NPU for voice and vision AI"
+   },
+   {
+    "name": "R-Car SoCs",
+    "category": "chip",
+    "description": "Automotive SoCs with AI accelerators for ADAS/AD and cockpits"
+   },
+   {
+    "name": "Reality AI Tools",
+    "category": "platform",
+    "description": "AutoML for sensor/signal AI generating models for Renesas MCUs"
+   },
+   {
+    "name": "DRP-AI TVM / e-AI tools",
+    "category": "sdk",
+    "description": "Model translation and compilation tools for deploying AI on Renesas devices"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "model-optimization",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "consumer-electronics-oem",
+   "developers"
+  ],
+  "partners": [
+   "Arm",
+   "Edge Impulse"
+  ],
+  "notable_customers": [],
+  "differentiator": "DRP-AI reconfigurable accelerator plus Reality AI signal tooling across MCU, MPU and automotive lines.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.renesas.com",
+   "https://www.renesas.com/reality-ai"
+  ]
+ },
+ {
+  "id": "rockchip",
+  "name": "Rockchip Electronics Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "SoCs with integrated NPUs and RK182x LLM coprocessors widely used for edge AI devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.rock-chips.com",
+  "hq_city": "Fuzhou",
+  "hq_country": "China",
+  "founded": 2001,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SSE: 603893)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Arm application processors with NPUs plus dedicated LLM/VLM coprocessors",
+  "problem": "Device makers need cheap, power-efficient SoCs to run vision and LLM models locally.",
+  "products": [
+   {
+    "name": "RK3588",
+    "category": "chip",
+    "description": "Flagship 8-core SoC with 6 TOPS NPU for edge boxes, SBCs and robots"
+   },
+   {
+    "name": "RK3576",
+    "category": "chip",
+    "description": "Mid-range AIoT SoC with 6 TOPS NPU"
+   },
+   {
+    "name": "RK3668",
+    "category": "chip",
+    "description": "10-core Cortex-A730/A530 SoC with 16 TOPS NPU (announced Jul 2025)"
+   },
+   {
+    "name": "RK1820 / RK1828",
+    "category": "chip",
+    "description": "LLM/VLM coprocessors with stacked DRAM (2.5/5GB), 20 TOPS, for 3B/7B models"
+   },
+   {
+    "name": "RV11xx vision SoCs",
+    "category": "chip",
+    "description": "Low-power AI camera SoCs with integrated NPUs"
+   },
+   {
+    "name": "RKNN Toolkit / RKNN3 SDK",
+    "category": "sdk",
+    "description": "Model conversion, quantization and deployment toolchain for Rockchip NPUs"
+   },
+   {
+    "name": "RKLLM",
+    "category": "runtime",
+    "description": "Runtime for deploying LLMs on Rockchip NPUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "camera",
+   "vehicle-robot-drone",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "security-surveillance",
+   "developers"
+  ],
+  "partners": [
+   "Radxa",
+   "Forlinx",
+   "Geniatech",
+   "DFRobot"
+  ],
+  "notable_customers": [],
+  "differentiator": "Ubiquitous low-cost NPU SoCs plus stacked-DRAM LLM coprocessors and a mature open toolchain.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cnx-software.com/2025/12/30/rockchip-rk1820-rk1828-so-dimm-and-m-2-llm-vlm-ai-accelerator-modules-devkits-and-benchmarks/",
+   "https://www.cnx-software.com/2025/07/18/rockchip-unveils-rk3668-10-core-arm-cortex-a730-cortex-a530-soc-with-16-tops-npu-rk182x-llm-vlm-co-processor/"
+  ]
+ },
+ {
+  "id": "sagence-ai",
+  "name": "Sagence AI (formerly Analog Inference)",
+  "verdict": "in",
+  "verdict_reason": "Analog in-memory compute inference chips pitched for low-power edge-to-datacenter deployments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sagence-ai.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 58,
+  "last_round": "Series B (~$22M per CB Insights; dated 2023, publicized at stealth exit Nov 2024)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TDK Ventures",
+   "New Science Ventures",
+   "Aramco Ventures",
+   "Alumni Ventures"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Analog in-memory computing chips for cost- and power-efficient AI inference",
+  "problem": "GPU-based inference for large models is too costly and power-hungry for broad on-prem and edge deployment.",
+  "products": [
+   {
+    "name": "Sagence analog in-memory inference chip",
+    "category": "chip",
+    "description": "Deep-subthreshold analog compute-in-memory using flash cells for AI inference"
+   },
+   {
+    "name": "Sagence inference systems",
+    "category": "system",
+    "description": "Analog inference platforms claiming large power/cost cuts on Llama2-70B-class models"
+   },
+   {
+    "name": "Edge inference variants",
+    "category": "chip",
+    "description": "Lower-power configurations of the architecture targeting edge vision and AI"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Deep-subthreshold analog in-memory compute on standard process, scalable from edge to datacenter.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2024/11/18/sagence-is-building-analog-chips-to-run-ai/",
+   "https://dealroom.co/companies/sagence-ai/",
+   "https://tdk-ventures.com/portfolio/computing-connectivity/sagence-ai",
+   "https://www.cbinsights.com/company/analog-inference/financials"
+  ]
+ },
+ {
+  "id": "semidrive",
+  "name": "SemiDrive Technology (芯驰科技)",
+  "verdict": "in",
+  "verdict_reason": "Automotive SoCs with NPUs (X9 cockpit, V9 ADAS) for in-vehicle edge AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.semidrive.com",
+  "hq_city": "Nanjing",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C+/C++, Sep 2026; ~CN¥1B (~$148M) Series C raised in 2026 (amounts vary by source)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "CDB Industrial Fund",
+   "V Capital"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Automotive-grade cockpit, ADAS, gateway and MCU chips for software-defined vehicles",
+  "problem": "Automakers need domestic, safety-certified chips that run in-vehicle AI for cockpits and driver assistance.",
+  "products": [
+   {
+    "name": "X9 series",
+    "category": "chip",
+    "description": "Smart cockpit SoCs with NPU for in-vehicle AI assistants and multi-display cockpits"
+   },
+   {
+    "name": "V9 series",
+    "category": "chip",
+    "description": "ADAS/autonomous-driving SoCs with NPU for camera perception"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "High-volume Chinese auto-chip startup: >14M cumulative chips shipped by Sep 2026.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://cnevpost.com/2026/09/21/semidrive-secures-fresh-funding/",
+   "https://dealroom.co/news/155040-semidrive-raises-150m-series-c-extension-as-auto-chip-shipments-top-14-m/",
+   "https://pandaily.com/?p=152127",
+   "https://www.scmp.com/business/china-business/article/3314544/semidrive-supply-ev-cockpit-chips-european-carmaker-chinese-firms-go-global"
+  ]
+ },
+ {
+  "id": "semidynamics",
+  "name": "Semidynamics Technology Services SL",
+  "verdict": "in",
+  "verdict_reason": "Licenses RISC-V Cervell all-in-one NPU IP and is developing memory-centric AI inference chips.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://semidynamics.com",
+  "hq_city": "Barcelona",
+  "hq_country": "Spain",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Strategic investment from SK hynix, Apr 2026 (undisclosed); plus EUR 45M non-dilutive EU/Spanish funding",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SK hynix"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Programmable RISC-V CPU/vector/tensor NPU IP and AI inference chips",
+  "problem": "AI chips need programmable, memory-efficient NPUs that avoid closed architectures and memory-bandwidth bottlenecks.",
+  "products": [
+   {
+    "name": "Cervell",
+    "category": "ip",
+    "description": "All-in-one RISC-V NPU fusing CPU, vector and tensor units; up to 256 TOPS"
+   },
+   {
+    "name": "Atrevido / Avispado cores",
+    "category": "ip",
+    "description": "Customizable 64-bit RISC-V cores with vector units for AI SoCs"
+   },
+   {
+    "name": "Gazillion Misses",
+    "category": "ip",
+    "description": "Memory subsystem technology sustaining huge numbers of outstanding memory requests"
+   },
+   {
+    "name": "Memory-centric AI inference chip",
+    "category": "chip",
+    "description": "In-development inference silicon for rack-scale sovereign AI (with SiPearl collaboration)"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "enterprise"
+  ],
+  "partners": [
+   "SK hynix",
+   "SiPearl"
+  ],
+  "notable_customers": [],
+  "differentiator": "Unified RISC-V CPU+vector+tensor NPU with Gazillion memory tech, positioned for European sovereignty.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://riscv.org/ecosystem-news/2025/05/semidynamics-unveils-cervell-a-scalable-risc-v-neural-processing-unit-for-next-gen-ai-workloads",
+   "https://www.hpcwire.com/aiwire/2026/04/08/semidynamics-secures-sk-hynix-investment-to-advance-memory-centric-ai-inference-architecture/",
+   "https://www.storagenewsletter.com/2026/04/09/semidynamics-secures-a-strategic-investment-to-advance-memory-centric-ai-inference-chips/",
+   "https://www.jonpeddie.com/tag/semidynamics/"
+  ]
+ },
+ {
+  "id": "semron",
+  "name": "SEMRON GmbH",
+  "verdict": "in",
+  "verdict_reason": "Developing 3D-stacked analog in-memory chips to run large AI models on mobile and edge devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.semron.ai",
+  "hq_city": "Dresden",
+  "hq_country": "Germany",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 10.9,
+  "last_round": "Seed, EUR 7.3M, Jan 2024, led by Join Capital (total ~EUR 10M); ~EUR 2.5M grant listed Feb 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Join Capital",
+   "SquareOne",
+   "OTB Ventures",
+   "Onsight Ventures",
+   "SPRIND"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "3D-stacked capacitive analog in-memory AI chips (CapRAM) for mobile devices",
+  "problem": "Large AI models are too big and power-hungry to run on phones and edge devices today.",
+  "products": [
+   {
+    "name": "CapRAM",
+    "category": "ip",
+    "description": "Capacitive analog compute-in-memory device technology enabling dense 3D stacking"
+   },
+   {
+    "name": "3D analog AI chip",
+    "category": "chip",
+    "description": "Multi-layer stacked in-memory AI chips targeting large models in mobile devices"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "wearable-xr",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "SPRIND"
+  ],
+  "notable_customers": [],
+  "differentiator": "Capacitive rather than resistive in-memory compute, enabling 3D stacking at very low energy.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2024/01/30/semron-secures-eur73m-seed-funding/",
+   "https://sprind.org/en/magazine/semron",
+   "https://www.maginative.com/article/german-ai-chip-startup-semron-raises-7-9m-for-novel-semiconductor-tech/",
+   "https://www.vcbacked.co/company/semron"
+  ]
+ },
+ {
+  "id": "sensesemi",
+  "name": "Sensesemi Technologies Pvt Ltd",
+  "verdict": "in",
+  "verdict_reason": "Fabless startup building ultra-low-power edge-AI chips for IIoT, automotive and medical devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2014,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2.7,
+  "last_round": "Seed, INR 25 Cr (~$2.7M), Jan 2026, led by Piper Serica",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Piper Serica",
+   "LetsVenture Angel Fund",
+   "Sun Icon Ventures",
+   "MyAsiaVC",
+   "Whitepine Investments"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Single-chip compute, connectivity and sensing edge-AI SoCs plus analog AI inference",
+  "problem": "Battery-powered industrial and medical devices need on-device AI without multi-chip cost and power.",
+  "products": [
+   {
+    "name": "Edge-AI SoC",
+    "category": "chip",
+    "description": "Integrates compute, connectivity and sensing on one chip for IIoT, automotive and medical"
+   },
+   {
+    "name": "Analog AI inference processor",
+    "category": "chip",
+    "description": "Ultra-low-power analog inference for battery-operated and implantable devices"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Government DLI-approved Indian fabless firm integrating sensing, connectivity and analog AI on one die.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://inc42.com/?p=545791",
+   "https://analyticsindiamag.com/ai-news-updates/sensesemi-bags-rs25-cr-seed-funding-to-build-edge-ai-chips",
+   "https://www.business-standard.com/companies/news/sensesemi-technologies-raises-25-crore-to-build-edge-ai-chips-126012201563_1.html",
+   "https://india.entrepreneur.com/news-and-trends/fabless-chip-startup-sensesemi-secures-inr-25-cr-seed/502074"
+  ]
+ },
+ {
+  "id": "siengine",
+  "name": "SiEngine Technology (芯擎科技)",
+  "verdict": "in",
+  "verdict_reason": "Automotive 7nm cockpit and ADAS SoCs with NPUs running in-vehicle AI, including LLM assistants.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.siengine.com",
+  "hq_city": "Wuhan",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, >CN¥1B, Aug 2025 (state, insurance and bank-backed funds); ~$200M more reported H1 2026 (Dealroom, unconfirmed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "ECARX",
+   "China State-owned Enterprise Structural Adjustment Fund II"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "High-performance automotive cockpit and autonomous-driving SoCs",
+  "problem": "Chinese automakers need domestic high-end chips for AI cockpits and assisted driving.",
+  "products": [
+   {
+    "name": "Dragon Eagle-1 (SE1000)",
+    "category": "chip",
+    "description": "7nm smart-cockpit SoC with NPU, in volume in Geely, Lynk & Co and Hongqi models"
+   },
+   {
+    "name": "AD1000",
+    "category": "chip",
+    "description": "High-end 7nm autonomous-driving SoC launched 2024"
+   },
+   {
+    "name": "Antora platform (with ECARX)",
+    "category": "system",
+    "description": "Central computing platform pairing SiEngine chips with ECARX software"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [
+   "ECARX",
+   "Arm China"
+  ],
+  "notable_customers": [
+   "Geely",
+   "Lynk & Co",
+   "FAW Hongqi"
+  ],
+  "differentiator": "China's first 7nm automotive cockpit SoC, shipping across dozens of Geely-group models.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://autonews.gasgoo.com/articles/ICV/chinas-auto-soc-supplier-siengine-secures-over-1-billion-yuan-in-series-b-funding-70038670",
+   "https://dealroom.co/news/142387-siengine-raises-200m-to-build-custom-chips-for-software-defined-vehicles/",
+   "https://www.scmp.com/tech/big-tech/article/3185960/chinese-car-chip-start-siengine-raises-us148-million-new-funding"
+  ]
+ },
+ {
+  "id": "sifive",
+  "name": "SiFive, Inc.",
+  "verdict": "in",
+  "verdict_reason": "RISC-V IP leader with Intelligence AI-optimized vector/matrix cores for edge and datacenter SoCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sifive.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 760,
+  "last_round": "Series G, $400M, Apr 2026, led by Atreides Management (NVIDIA, Apollo participating) at $3.65B valuation",
+  "valuation_usd_m": 3650,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Atreides Management",
+   "NVIDIA",
+   "Apollo Global Management",
+   "Intel Capital",
+   "Qualcomm Ventures",
+   "SK hynix",
+   "Sutter Hill Ventures"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "RISC-V processor IP including AI-optimized vector and matrix cores",
+  "problem": "Chip designers need customizable CPU and AI-acceleration IP alternatives to proprietary architectures.",
+  "products": [
+   {
+    "name": "Intelligence X-series (X160/X180/X280/X390)",
+    "category": "ip",
+    "description": "RISC-V vector cores for ML, from tiny edge IoT to NPU-companion roles"
+   },
+   {
+    "name": "Intelligence XM series",
+    "category": "ip",
+    "description": "Scalable RISC-V matrix-engine AI IP for edge to datacenter accelerators"
+   },
+   {
+    "name": "Performance P-series",
+    "category": "ip",
+    "description": "High-performance application cores for AI-capable SoCs"
+   },
+   {
+    "name": "SiFive AI software stack",
+    "category": "sdk",
+    "description": "Compilers and libraries for RISC-V vector/matrix ML workloads"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "mobile",
+   "vehicle-robot-drone",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Google"
+  ],
+  "notable_customers": [
+   "Google"
+  ],
+  "differentiator": "Founded by RISC-V creators; broadest commercial RISC-V AI vector/matrix core portfolio.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://thenextweb.com/news/sifive-400m-series-g-risc-v-ipo",
+   "https://bloomberg.com/news/articles/2026-04-09/sifive-to-fuel-data-center-push-with-400-million-funding-round",
+   "https://www.jonpeddie.com/news/sifive-raises-again-as-cpus-return-to-the-center-of-the-ai-data-center-story/"
+  ]
+ },
+ {
+  "id": "sigmastar",
+  "name": "SigmaStar Technology Ltd. (星宸科技)",
+  "verdict": "in",
+  "verdict_reason": "Top global vision-AI SoC vendor by shipments; NPU SoCs for cameras, dashcams and displays.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sigmastar.com.cn",
+  "hq_city": "Xiamen",
+  "hq_country": "China",
+  "founded": 2017,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SZSE ChiNext: 301536); 2025 revenue CN¥2.97B",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Vision AI SoCs with NPUs for surveillance, automotive cameras and smart displays",
+  "problem": "Camera and display makers need low-cost SoCs that perform video AI analytics on-device.",
+  "products": [
+   {
+    "name": "IP camera SoCs",
+    "category": "chip",
+    "description": "Security-camera SoCs with ISP and NPU for on-device video analytics"
+   },
+   {
+    "name": "Dashcam / in-vehicle camera SoCs",
+    "category": "chip",
+    "description": "Automotive camera SoCs with AI for driver recording and assistance"
+   },
+   {
+    "name": "Smart display / NVR SoCs",
+    "category": "chip",
+    "description": "SoCs for smart displays and video recorders with AI processing"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "No.1 global vision-AI SoC shipments in 2024 (26.7% share; 41.2% in security) per Frost & Sullivan.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://finance.ifeng.com/c/8um3tcaCjVb",
+   "https://www1.hkexnews.hk/app/sehk/2026/108341/a131194/sehk26032702439_c.pdf",
+   "https://stockanalysis.com/quote/she/301536/financials"
+  ]
+ },
+ {
+  "id": "silicon-labs",
+  "name": "Silicon Laboratories Inc.",
+  "verdict": "in",
+  "verdict_reason": "Wireless IoT SoCs with integrated Matrix Vector Processor AI/ML accelerators and ML tooling.",
+  "status": "active",
+  "status_detail": "Agreed to be acquired by Texas Instruments for ~$7.5B EV ($231/share cash), announced Feb 4, 2026; close expected H1 2027",
+  "parent": null,
+  "website": "https://www.silabs.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 1996,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: SLAB); pending acquisition by Texas Instruments",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Secure wireless IoT SoCs with on-chip ML acceleration",
+  "problem": "Battery-powered connected devices need on-device ML without sacrificing battery life.",
+  "products": [
+   {
+    "name": "EFR32xG24",
+    "category": "chip",
+    "description": "Multiprotocol wireless SoC with Matrix Vector Processor for ML inference"
+   },
+   {
+    "name": "EFR32xG26",
+    "category": "chip",
+    "description": "Higher-memory multiprotocol SoCs with MVP AI/ML acceleration"
+   },
+   {
+    "name": "SiWx917",
+    "category": "chip",
+    "description": "Wi-Fi 6 SoC with integrated AI/ML accelerator"
+   },
+   {
+    "name": "Machine Learning Toolkit / AI-ML partner tools",
+    "category": "sdk",
+    "description": "MLTK plus Edge Impulse and SensiML integrations for tinyML deployment"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "energy-utilities",
+   "healthcare"
+  ],
+  "partners": [
+   "Edge Impulse",
+   "SensiML"
+  ],
+  "notable_customers": [],
+  "differentiator": "AI accelerator embedded in mainstream multiprotocol wireless SoCs; joining TI's embedded portfolio.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.nasdaq.com/press-release/texas-instruments-acquire-silicon-labs-2026-02-04",
+   "https://www.sec.gov/Archives/edgar/data/97476/000119312526036727/d100130dex991.htm",
+   "https://www.hackster.io/news/texas-instruments-splashes-the-cash-on-a-7-5-billion-deal-to-acquire-silicon-labs-0fe0f0c2a4bb"
+  ]
+ },
+ {
+  "id": "sima-ai",
+  "name": "SiMa.ai",
+  "verdict": "in",
+  "verdict_reason": "Edge ML SoCs plus Palette/LLiMa software running vision and GenAI inside physical AI systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://sima.ai",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 500,
+  "last_round": "Series C, $150M, Sep 2026, at $1.45B valuation (Fidelity, Amplify reported co-leads)",
+  "valuation_usd_m": 1450,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Fidelity",
+   "Amplify Partners",
+   "Maverick Capital",
+   "Dell Technologies Capital",
+   "Point72",
+   "MSD Partners",
+   "VentureTech Alliance",
+   "Micron"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Purpose-built MLSoCs and software for embedded edge and physical AI",
+  "problem": "Robots, drones and vehicles need power-efficient on-device multimodal AI without cloud latency.",
+  "products": [
+   {
+    "name": "MLSoC (Gen 1)",
+    "category": "chip",
+    "description": "Machine-learning SoC for embedded edge computer vision"
+   },
+   {
+    "name": "MLSoC Modalix",
+    "category": "chip",
+    "description": "Second-gen multimodal/GenAI edge SoC; reasoning LLMs under 10W; in production Aug 2025"
+   },
+   {
+    "name": "Modalix SoM",
+    "category": "system",
+    "description": "System-on-module (8GB/32GB) for integrating Modalix into products"
+   },
+   {
+    "name": "Modalix DevKit",
+    "category": "device",
+    "description": "Development kit for prototyping physical AI applications"
+   },
+   {
+    "name": "Palette",
+    "category": "sdk",
+    "description": "Software suite to compile, optimize and deploy ML pipelines on SiMa silicon"
+   },
+   {
+    "name": "LLiMa",
+    "category": "runtime",
+    "description": "Framework for deploying LLMs/VLMs on Modalix"
+   },
+   {
+    "name": "Edgematic",
+    "category": "platform",
+    "description": "Visual drag-and-drop environment for building edge AI pipelines"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal",
+   "llm-text"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "government-defense",
+   "healthcare",
+   "retail"
+  ],
+  "partners": [
+   "TSMC",
+   "Synopsys",
+   "Macnica",
+   "Micron"
+  ],
+  "notable_customers": [],
+  "differentiator": "Software-centric edge platform: Palette/LLiMa with Modalix delivering multimodal GenAI under 10W.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://secure.businesswire.com/news/home/20260928291227/en/SiMa.ai-Reaches-%241.45B-Valuation-with-%24500-Million-in-Total-Funding-to-Scale-Physical-AI-in-Humanoids-Automotive-and-Drones",
+   "https://siliconangle.com/2026/09/28/physical-ai-custom-chip-producer-sima-ai-raises-150m-at-1-45b-valuation/",
+   "https://www.edge-ai-vision.com/2025/08/sima-ai-raises-85m-to-scale-physical-ai-bringing-total-funding-to-355m/",
+   "https://www.businesswire.com/news/home/20250129421485/en"
+  ]
+ },
+ {
+  "id": "skymizer",
+  "name": "Skymizer Taiwan Inc.",
+  "verdict": "in",
+  "verdict_reason": "LLM inference accelerator IP (EdgeThought) and HTX301 chip for on-device and on-prem AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://skymizer.ai",
+  "hq_city": "Taipei",
+  "hq_country": "Taiwan",
+  "founded": 2013,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Undisclosed VC round, May 2025 (per CB Insights)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Harbinger Venture Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "AI compiler technology plus decode-first LLM inference accelerator IP and chips",
+  "problem": "Running very large LLMs on-prem or on-device requires costly GPU servers with massive memory.",
+  "products": [
+   {
+    "name": "EdgeThought",
+    "category": "ip",
+    "description": "Licensable LLM inference accelerator IP for on-device edge SoCs"
+   },
+   {
+    "name": "HyperThought",
+    "category": "ip",
+    "description": "Scalable LLM accelerator architecture for larger on-prem deployments"
+   },
+   {
+    "name": "HTX301",
+    "category": "chip",
+    "description": "Decode-first inference chip; 6-chip PCIe card (384GB) runs 700B models at ~240W; production Q1 2027"
+   },
+   {
+    "name": "ONNC compiler",
+    "category": "sdk",
+    "description": "Open Neural Network Compiler toolchain for retargeting models to AI chips"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "embedded-iot",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "Institute for Information Industry (III)"
+  ],
+  "notable_customers": [],
+  "differentiator": "Decode-first architecture fitting 700B-parameter LLMs on one low-power PCIe card for on-prem use.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://technode.global/prnasia/skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ultra-large-llm-inference-on-a-single-card/",
+   "https://www.digitimes.com/news/a20260601PD201.html",
+   "https://technode.global/prnasia/institute-for-information-industry-iii-partners-with-skymizer-to-advance-taiwan-built-on-premise-ai-solutions/",
+   "https://www.cbinsights.com/company/skymizer/financials",
+   "https://www.prnewswire.com/apac/zh/news-releases/skymizer-taiwan-inc----llm--302751512.html"
+  ]
+ },
+ {
+  "id": "socionext",
+  "name": "Socionext Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Custom SoC designer; AI-enabled imaging and automotive chips exist, but AI is one application among many.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.socionext.com",
+  "hq_city": "Yokohama",
+  "hq_country": "Japan",
+  "founded": 2015,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TSE: 6526)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Custom 'solution SoC' design for automotive, datacenter, networking and imaging",
+  "problem": "OEMs need custom chips integrating AI acceleration for cameras, vehicles and edge equipment.",
+  "products": [
+   {
+    "name": "Milbeaut image processors",
+    "category": "chip",
+    "description": "Imaging SoCs with AI processing for cameras and surveillance"
+   },
+   {
+    "name": "Custom automotive SoCs",
+    "category": "chip",
+    "description": "Advanced-node, chiplet-based custom SoCs for ADAS and cockpits with AI accelerators"
+   },
+   {
+    "name": "60GHz radar sensors",
+    "category": "chip",
+    "description": "Smart-sensing radar with on-device signal processing for presence and gesture detection"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "services"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem",
+   "security-surveillance"
+  ],
+  "partners": [
+   "TSMC",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Advanced-node (3nm/2nm) custom SoC design services with in-house imaging IP.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.socionext.com"
+  ]
+ },
+ {
+  "id": "sophgo",
+  "name": "SOPHGO Technologies Ltd. (算能科技)",
+  "verdict": "in",
+  "verdict_reason": "TPU-based edge AI chips, boxes and cards running vision and LLM inference locally.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sophgo.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A+, 2022 (undisclosed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "TPU and RISC-V processors for edge and server AI inference",
+  "problem": "Customers need affordable domestic chips to run vision analytics and LLMs on-prem and at the edge.",
+  "products": [
+   {
+    "name": "BM1684X",
+    "category": "chip",
+    "description": "Edge TPU SoC for multi-channel video analytics and LLM inference"
+   },
+   {
+    "name": "BM1688 / CV186AH",
+    "category": "chip",
+    "description": "Edge AI SoCs for smart cameras and AI boxes"
+   },
+   {
+    "name": "CV180 / CV181 series",
+    "category": "chip",
+    "description": "Low-cost RISC-V AI camera SoCs with TPU"
+   },
+   {
+    "name": "SG2042 / SG2044",
+    "category": "chip",
+    "description": "Server-class RISC-V processors for on-prem compute"
+   },
+   {
+    "name": "SE5/SE7 edge AI boxes",
+    "category": "system",
+    "description": "BM1684X-based microservers for local vision and LLM inference"
+   },
+   {
+    "name": "SC11 FP300 card",
+    "category": "system",
+    "description": "Inference accelerator card validated on DeepSeek R1 (2025)"
+   },
+   {
+    "name": "TPU-MLIR / LLM-TPU",
+    "category": "sdk",
+    "description": "Toolchain compiling vision models and LLMs to Sophon TPUs"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise",
+   "government-defense",
+   "industrial-manufacturing",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Full stack from edge TPUs to RISC-V servers with open TPU-MLIR toolchain; DeepSeek-ready cards.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://en.sophgo.com/about-us/index.html",
+   "https://dataconomy.com/2025/07/01/chinas-sophgo-chip-powers-deepseek-ai-model",
+   "https://www.cbinsights.com/company/sophgo"
+  ]
+ }
+]

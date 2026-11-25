@@ -1,0 +1,991 @@
+[
+ {
+  "id": "acer",
+  "name": "Acer Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "PC maker; local AI limited to a GB10 desktop AI box built on NVIDIA's reference design and NPU AI PCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.acer.com",
+  "hq_city": "New Taipei City",
+  "hq_country": "Taiwan",
+  "founded": 1976,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TWSE: 2353)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "PCs, displays and workstations, including NPU AI PCs and a GB10 desktop AI system",
+  "problem": "Developers and businesses need affordable desk-side hardware to run and fine-tune large models without cloud.",
+  "products": [
+   {
+    "name": "Veriton GN100 AI Mini Workstation",
+    "category": "system",
+    "description": "NVIDIA GB10 Grace Blackwell desktop with 128GB unified memory for local model development and inference."
+   },
+   {
+    "name": "Acer Copilot+ AI PCs (Swift, TravelMate)",
+    "category": "device",
+    "description": "Laptops with Intel, AMD or Qualcomm NPUs running on-device Windows AI features."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "AMD",
+   "Qualcomm",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Low-cost entry to GB10 desktop AI through a broad global PC distribution channel.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "alibaba-group",
+  "name": "Alibaba Group Holding Limited",
+  "verdict": "in",
+  "verdict_reason": "Open-weight Qwen models (0.6B to frontier MoE) are among the most self-hosted globally; MNN on-device engine; T-Head chips.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.alibabagroup.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 1999,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: BABA; HKEX: 9988)",
+  "key_investors": [],
+  "employees": 124000,
+  "employees_band": "10000+",
+  "focus": "E-commerce and cloud giant releasing open Qwen models and RISC-V/AI silicon",
+  "problem": "Developers and enterprises need capable, permissively licensed models they can run on their own hardware and devices.",
+  "products": [
+   {
+    "name": "Qwen3",
+    "category": "model",
+    "description": "Open-weight dense and MoE LLM family from 0.6B to 235B parameters, Apache 2.0 licensed."
+   },
+   {
+    "name": "Qwen-VL (Qwen2.5-VL, Qwen3-VL)",
+    "category": "model",
+    "description": "Open-weight vision-language models, including small sizes suited to edge and on-device deployment."
+   },
+   {
+    "name": "Qwen-Omni (Qwen2.5-Omni, Qwen3-Omni)",
+    "category": "model",
+    "description": "Open end-to-end multimodal models taking text, image, audio and video input with speech output."
+   },
+   {
+    "name": "Qwen-Coder (Qwen2.5-Coder, Qwen3-Coder)",
+    "category": "model",
+    "description": "Open coding models widely used in self-hosted coding assistants."
+   },
+   {
+    "name": "Wan (Wan2.1/2.2)",
+    "category": "model",
+    "description": "Open-weight text/image-to-video generation models, smaller variants runnable on consumer GPUs."
+   },
+   {
+    "name": "Qwen-Image",
+    "category": "model",
+    "description": "Open-weight image generation and editing model."
+   },
+   {
+    "name": "MNN",
+    "category": "runtime",
+    "description": "Open-source lightweight inference engine running LLMs and vision models on mobile and embedded devices."
+   },
+   {
+    "name": "T-Head XuanTie RISC-V cores",
+    "category": "ip",
+    "description": "RISC-V CPU IP with vector extensions licensed for edge AI and IoT SoCs."
+   },
+   {
+    "name": "Apsara Stack",
+    "category": "platform",
+    "description": "Alibaba Cloud's on-premises private cloud stack for government and enterprise data centers."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "pc-workstation",
+   "mobile",
+   "embedded-iot"
+  ],
+  "layers": [
+   "silicon",
+   "models",
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense",
+   "consumer-electronics-oem",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Qualcomm",
+   "MediaTek",
+   "Hugging Face"
+  ],
+  "notable_customers": [],
+  "differentiator": "Broadest permissively licensed open model family, spanning tiny on-device to frontier sizes across modalities.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "amazon-aws",
+  "name": "Amazon Web Services (Amazon.com, Inc.)",
+  "verdict": "borderline",
+  "verdict_reason": "Public-cloud leader; Outposts, AI Factories and IoT Greengrass bring AWS AI on-premises, but secondary to cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Amazon.com, Inc.",
+  "website": "https://aws.amazon.com",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2006,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public via parent Amazon.com (NASDAQ: AMZN)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Hyperscale cloud extending AWS infrastructure and AI services into customer facilities and edge sites",
+  "problem": "Regulated organizations need cloud AI services but must keep data and compute inside their own facilities.",
+  "products": [
+   {
+    "name": "AWS AI Factories",
+    "category": "system",
+    "description": "Dedicated NVIDIA/Trainium AI infrastructure with AWS AI services deployed in customer data centers."
+   },
+   {
+    "name": "AWS Outposts",
+    "category": "system",
+    "description": "Fully managed AWS racks and servers running AWS services inside customer data centers."
+   },
+   {
+    "name": "AWS IoT Greengrass",
+    "category": "runtime",
+    "description": "Edge runtime for deploying and running ML inference components on customer devices."
+   },
+   {
+    "name": "AWS Dedicated Local Zones",
+    "category": "service",
+    "description": "Single-customer AWS infrastructure placed in a customer-specified location for sovereignty requirements."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare",
+   "telecom",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Same AWS APIs, tooling and managed services extended into customer sites and edge locations.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "amd",
+  "name": "Advanced Micro Devices, Inc. (AMD)",
+  "verdict": "in",
+  "verdict_reason": "Ryzen AI NPUs, Instinct GPUs, Versal AI Edge and Lemonade/ROCm software form a dedicated local AI portfolio.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.amd.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 1969,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: AMD)",
+  "key_investors": [],
+  "employees": 28000,
+  "employees_band": "10000+",
+  "focus": "CPUs, GPUs, NPUs and adaptive SoCs for AI PCs, edge and on-prem datacenters",
+  "problem": "Organizations and users need open, cost-effective hardware and software to run AI models on their own systems.",
+  "products": [
+   {
+    "name": "Ryzen AI processors (300 series and successors)",
+    "category": "chip",
+    "description": "Laptop and desktop processors with XDNA 2 NPUs (50+ TOPS) for Copilot+ on-device AI."
+   },
+   {
+    "name": "Ryzen AI Max (Strix Halo)",
+    "category": "chip",
+    "description": "APU with up to 128GB unified memory enabling 70B-class LLMs on mini-PCs and laptops."
+   },
+   {
+    "name": "Instinct MI350 series",
+    "category": "chip",
+    "description": "Datacenter GPUs with large HBM capacity for on-prem LLM inference and training."
+   },
+   {
+    "name": "Radeon AI PRO R9700",
+    "category": "chip",
+    "description": "32GB workstation GPU aimed at local LLM inference and AI development."
+   },
+   {
+    "name": "Versal AI Edge Gen 2",
+    "category": "chip",
+    "description": "Adaptive SoCs combining FPGA fabric and AI engines for embedded, automotive and industrial edge AI."
+   },
+   {
+    "name": "ROCm",
+    "category": "runtime",
+    "description": "Open-source GPU compute stack supporting PyTorch, vLLM and llama.cpp on AMD GPUs."
+   },
+   {
+    "name": "Lemonade Server / Ryzen AI Software",
+    "category": "runtime",
+    "description": "Open-source local LLM server with OpenAI-compatible API across Ryzen AI NPU, iGPU and Radeon."
+   },
+   {
+    "name": "GAIA",
+    "category": "app",
+    "description": "Open-source desktop app for running local LLM agents and RAG on Ryzen AI PCs."
+   },
+   {
+    "name": "Instella",
+    "category": "model",
+    "description": "AMD's fully open small language models trained on Instinct GPUs."
+   },
+   {
+    "name": "AMD Quark",
+    "category": "sdk",
+    "description": "Quantization toolkit for deploying optimized models on AMD NPUs and GPUs."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "pc-workstation",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "model-optimization",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "vision",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "consumers",
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "automotive",
+   "government-defense"
+  ],
+  "partners": [
+   "Microsoft",
+   "Dell",
+   "HPE",
+   "Lenovo",
+   "HP",
+   "Hugging Face",
+   "Meta",
+   "Oracle"
+  ],
+  "notable_customers": [
+   "Meta",
+   "Microsoft",
+   "Oracle"
+  ],
+  "differentiator": "Only vendor spanning x86 NPU PCs, large-unified-memory APUs, FPGAs and datacenter GPUs with open-source software.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "anduril-industries",
+  "name": "Anduril Industries, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Lattice autonomy and C2 software runs at the disconnected tactical edge and is sold to militaries and partners.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.anduril.com",
+  "hq_city": "Costa Mesa",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 6300,
+  "last_round": "Series G, $2.5B, Jun 2025, led by Founders Fund (any later rounds not verified)",
+  "valuation_usd_m": 30500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Founders Fund",
+   "Andreessen Horowitz",
+   "General Catalyst",
+   "Lux Capital",
+   "8VC",
+   "Valor Equity Partners",
+   "Fidelity",
+   "Sands Capital"
+  ],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "Autonomous defense systems and Lattice software for sensing, command and control at the edge",
+  "problem": "Militaries need AI-driven sensing and autonomy that works on disconnected, contested battlefields without cloud access.",
+  "products": [
+   {
+    "name": "Lattice",
+    "category": "platform",
+    "description": "AI-powered sensor fusion, command-and-control and autonomy OS running on edge hardware and air-gapped networks."
+   },
+   {
+    "name": "Lattice for Mission Autonomy",
+    "category": "platform",
+    "description": "Software enabling teams of uncrewed systems to execute missions with minimal human supervision."
+   },
+   {
+    "name": "Lattice SDK",
+    "category": "sdk",
+    "description": "Developer kit letting third parties integrate sensors, effectors and apps with Lattice."
+   },
+   {
+    "name": "Menace",
+    "category": "system",
+    "description": "Expeditionary edge compute and communications systems for running C2 and AI at the tactical edge."
+   },
+   {
+    "name": "Sentry",
+    "category": "device",
+    "description": "Autonomous surveillance towers performing on-board AI detection and tracking."
+   },
+   {
+    "name": "Autonomous vehicles (Fury, Roadrunner, Ghost, Dive-LD)",
+    "category": "device",
+    "description": "Air and undersea autonomous systems running on-board AI autonomy via Lattice."
+   },
+   {
+    "name": "EagleEye",
+    "category": "device",
+    "description": "Military mixed-reality helmet system with on-board AI, developed with Meta."
+   }
+  ],
+  "deployment": [
+   "air-gapped",
+   "edge-server",
+   "vehicle-robot-drone",
+   "camera",
+   "wearable-xr"
+  ],
+  "layers": [
+   "hardware-systems",
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [
+   "Oracle",
+   "Palantir",
+   "Meta",
+   "OpenAI",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "US Department of Defense",
+   "US Army",
+   "US Air Force",
+   "US Customs and Border Protection",
+   "UK Ministry of Defence",
+   "Australian Defence Force"
+  ],
+  "differentiator": "Vertically integrated hardware plus Lattice software, built for autonomy in denied, disconnected environments.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ant-group-inclusionai-ling-ring",
+  "name": "Ant Group Co., Ltd.",
+  "verdict": "borderline",
+  "verdict_reason": "Fintech giant whose inclusionAI unit releases open-weight Ling/Ring/Ming models; local deployment is incidental, not a product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.antgroup.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2014,
+  "org_type": "big-tech",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": 78500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Alibaba Group",
+   "Temasek",
+   "GIC",
+   "Carlyle",
+   "Warburg Pincus",
+   "Silver Lake",
+   "General Atlantic"
+  ],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Digital payments and fintech; open-weight Ling, Ring and Ming model families via inclusionAI",
+  "problem": "Developers want efficient open MoE models they can self-host, including on domestic Chinese hardware.",
+  "products": [
+   {
+    "name": "Ling 2.0 (Ling-mini, Ling-flash, Ling-1T)",
+    "category": "model",
+    "description": "Open-weight MoE LLM family from small mini variants to the trillion-parameter Ling-1T."
+   },
+   {
+    "name": "Ring (Ring-mini, Ring-flash, Ring-1T)",
+    "category": "model",
+    "description": "Open-weight reasoning models built on Ling MoE bases."
+   },
+   {
+    "name": "Ming (Ming-lite-omni, Ming-flash-omni)",
+    "category": "model",
+    "description": "Open-weight omni-modal models for image, audio and video understanding and generation."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "finance",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sparse MoE designs optimized for training and inference on lower-cost and domestic chips.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "apple",
+  "name": "Apple Inc.",
+  "verdict": "in",
+  "verdict_reason": "Apple Intelligence runs foundation models on-device on Apple silicon; MLX, Core ML and Foundation Models framework serve developers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.apple.com",
+  "hq_city": "Cupertino",
+  "hq_country": "United States",
+  "founded": 1976,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: AAPL)",
+  "key_investors": [],
+  "employees": 166000,
+  "employees_band": "10000+",
+  "focus": "Consumer devices with custom silicon and on-device Apple Intelligence models",
+  "problem": "Users want capable AI features that keep personal data private on their own devices.",
+  "products": [
+   {
+    "name": "Apple silicon (A-series, M-series) with Neural Engine",
+    "category": "chip",
+    "description": "In-house SoCs with Neural Engine and unified memory; M-series Macs widely used for local LLMs."
+   },
+   {
+    "name": "Apple Intelligence on-device foundation model",
+    "category": "model",
+    "description": "Roughly 3B-parameter on-device language model powering system features on iPhone, iPad and Mac."
+   },
+   {
+    "name": "Foundation Models framework",
+    "category": "sdk",
+    "description": "Swift API giving apps free, offline access to the on-device Apple Intelligence model."
+   },
+   {
+    "name": "Core ML",
+    "category": "runtime",
+    "description": "On-device inference framework running models across CPU, GPU and Neural Engine."
+   },
+   {
+    "name": "MLX",
+    "category": "runtime",
+    "description": "Open-source array framework for efficient LLM inference and fine-tuning on Apple silicon."
+   },
+   {
+    "name": "Mac Studio / Mac mini",
+    "category": "device",
+    "description": "Unified-memory desktops (Mac Studio up to 512GB) popular for running large open models locally."
+   },
+   {
+    "name": "Private Cloud Compute",
+    "category": "platform",
+    "description": "Apple-operated Apple-silicon servers extending on-device privacy guarantees to larger model requests."
+   },
+   {
+    "name": "OpenELM / FastVLM",
+    "category": "model",
+    "description": "Open efficient language and vision-language research models designed for on-device use."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "wearable-xr"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "models",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "OpenAI",
+   "Google"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vertically integrated silicon, OS and models delivering private on-device AI across a vast installed device base.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "arm",
+  "name": "Arm Holdings plc",
+  "verdict": "in",
+  "verdict_reason": "CPU, GPU and Ethos NPU IP plus KleidiAI libraries underpin most on-device and embedded AI processing.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "SoftBank Group (majority shareholder)",
+  "website": "https://www.arm.com",
+  "hq_city": "Cambridge",
+  "hq_country": "United Kingdom",
+  "founded": 1990,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: ARM)",
+  "key_investors": [],
+  "employees": 8300,
+  "employees_band": "5001-10000",
+  "focus": "Licensing CPU, GPU and NPU IP and software libraries for AI-capable chips",
+  "problem": "Chipmakers and developers need efficient, ubiquitous compute and software to run AI within device power budgets.",
+  "products": [
+   {
+    "name": "Ethos-U NPUs (Ethos-U85, U65, U55)",
+    "category": "ip",
+    "description": "Micro NPUs for microcontroller and embedded SoCs, with U85 supporting transformer models at the edge."
+   },
+   {
+    "name": "Cortex-A and Cortex-M CPUs",
+    "category": "ip",
+    "description": "CPU IP with SME2, SVE2 or Helium vector extensions accelerating on-device AI."
+   },
+   {
+    "name": "Lumex CSS",
+    "category": "ip",
+    "description": "Smartphone compute subsystem with SME2-enabled CPUs and Mali GPUs for on-device AI."
+   },
+   {
+    "name": "Mali / Immortalis GPUs",
+    "category": "ip",
+    "description": "Mobile GPU IP used for on-device ML inference and graphics."
+   },
+   {
+    "name": "KleidiAI / Arm Kleidi",
+    "category": "sdk",
+    "description": "Optimized micro-kernels integrated into llama.cpp, ExecuTorch, LiteRT and ONNX Runtime for Arm CPUs."
+   },
+   {
+    "name": "Zena CSS",
+    "category": "ip",
+    "description": "Automotive compute subsystem for AI-defined vehicles."
+   },
+   {
+    "name": "Neoverse",
+    "category": "ip",
+    "description": "Datacenter CPU IP used in AI servers such as NVIDIA Grace and AWS Graviton."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "embedded-iot",
+   "wearable-xr",
+   "vehicle-robot-drone",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio",
+   "multimodal",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "industrial-manufacturing",
+   "developers",
+   "telecom"
+  ],
+  "partners": [
+   "Meta",
+   "Google",
+   "Microsoft",
+   "Samsung",
+   "MediaTek",
+   "Qualcomm",
+   "NVIDIA",
+   "Alibaba"
+  ],
+  "notable_customers": [],
+  "differentiator": "Architecture in virtually every smartphone; AI acceleration reaches developers via KleidiAI inside mainstream runtimes.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "asus",
+  "name": "ASUSTeK Computer Inc. (ASUS)",
+  "verdict": "in",
+  "verdict_reason": "Sells Ascent GX10 GB10 desktop, DGX Station-class workstations, AI servers and Jetson-based edge AI systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.asus.com",
+  "hq_city": "Taipei",
+  "hq_country": "Taiwan",
+  "founded": 1989,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TWSE: 2357)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "PCs, servers and edge systems, including desktop AI supercomputers and AI PCs",
+  "problem": "Developers and enterprises need ready-made hardware to run and fine-tune large models locally or on-prem.",
+  "products": [
+   {
+    "name": "Ascent GX10",
+    "category": "system",
+    "description": "Compact NVIDIA GB10 desktop AI supercomputer with 128GB unified memory."
+   },
+   {
+    "name": "ExpertCenter Pro ET900N G3",
+    "category": "system",
+    "description": "Deskside workstation based on NVIDIA DGX Station GB300 for large-model development."
+   },
+   {
+    "name": "ASUS AI POD / ESC GPU servers",
+    "category": "system",
+    "description": "Rack-scale and GPU servers (NVIDIA HGX, GB200/GB300) for on-prem AI factories."
+   },
+   {
+    "name": "ASUS IoT edge AI computers (PE series)",
+    "category": "system",
+    "description": "Industrial edge AI computers built on NVIDIA Jetson and Intel platforms."
+   },
+   {
+    "name": "Copilot+ AI PCs (Zenbook, ProArt, Vivobook)",
+    "category": "device",
+    "description": "NPU-equipped laptops with ASUS on-device AI apps."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers",
+   "industrial-manufacturing",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "AMD",
+   "Qualcomm",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Breadth from consumer AI PCs to desktop GB10, deskside GB300 and rack-scale AI servers.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "baidu",
+  "name": "Baidu, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Open-weight ERNIE 4.5 models, Paddle Lite/FastDeploy edge inference, Kunlunxin chips and private ERNIE deployments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.baidu.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2000,
+  "org_type": "big-tech",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: BIDU; HKEX: 9888)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Search and AI company with ERNIE models, PaddlePaddle framework and Kunlun AI chips",
+  "problem": "Chinese enterprises and developers need domestic models, frameworks and chips deployable on their own infrastructure and devices.",
+  "products": [
+   {
+    "name": "ERNIE 4.5 open-weight family",
+    "category": "model",
+    "description": "Ten open-weight models from 0.3B dense to 424B MoE, Apache 2.0, released June 2025."
+   },
+   {
+    "name": "ERNIE 4.5 VL and Thinking variants",
+    "category": "model",
+    "description": "Open multimodal and reasoning variants, including mid-size MoE suited to single-GPU self-hosting."
+   },
+   {
+    "name": "PaddlePaddle",
+    "category": "sdk",
+    "description": "Open-source deep learning framework widely used in China for training and deployment."
+   },
+   {
+    "name": "Paddle Lite",
+    "category": "runtime",
+    "description": "Lightweight inference engine for mobile, embedded and edge devices."
+   },
+   {
+    "name": "FastDeploy",
+    "category": "runtime",
+    "description": "Inference and deployment toolkit serving ERNIE and Paddle models on servers and edge hardware."
+   },
+   {
+    "name": "PaddleOCR",
+    "category": "model",
+    "description": "Open-source OCR and document-parsing models widely deployed on-premises."
+   },
+   {
+    "name": "Kunlunxin AI chips (P800)",
+    "category": "chip",
+    "description": "Domestic AI accelerators from Baidu's chip subsidiary for on-prem and cloud data centers."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "mobile",
+   "embedded-iot",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "models",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "developers",
+   "industrial-manufacturing",
+   "energy-utilities",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Full domestic Chinese stack: Kunlun chips, PaddlePaddle framework and open ERNIE models with edge runtimes.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ }
+]

@@ -1,0 +1,2577 @@
+[
+ {
+  "id": "groq",
+  "name": "Groq, Inc.",
+  "verdict": "in",
+  "verdict_reason": "LPU inference chips; markets GroqRack on-prem/sovereign racks alongside GroqCloud.",
+  "status": "active",
+  "status_detail": "Non-exclusive tech license to NVIDIA plus founder/president hired by NVIDIA (Dec 2025, reported ~$20B); Groq remains independent under CEO Simon Edwards",
+  "parent": null,
+  "website": "https://groq.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "Growth capital reported 2026 (one source: $650M, Jun 2026, led by Disruptive & Infinitum; Sacra: $350M at $3.5B, Aug 2026) - conflicting; prior $750M at $6.9B, Sep 2025",
+  "valuation_usd_m": 3500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Disruptive",
+   "BlackRock",
+   "Samsung",
+   "Cisco Investments",
+   "Tiger Global",
+   "D1 Capital",
+   "Infinitum"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "LPU inference silicon, GroqRack on-prem/sovereign clusters and GroqCloud inference service",
+  "problem": "GPU-based LLM inference is slow and expensive; sovereign buyers need fast inference under their own control.",
+  "products": [
+   {
+    "name": "LPU (Language Processing Unit)",
+    "category": "chip",
+    "description": "SRAM-based deterministic inference processor optimized for low-latency token generation."
+   },
+   {
+    "name": "GroqRack",
+    "category": "system",
+    "description": "On-prem/colocation rack clusters of 64 to 576+ LPUs for sovereign and regulated deployments."
+   },
+   {
+    "name": "GroqNode / GroqCard",
+    "category": "system",
+    "description": "Server node and PCIe card packaging LPUs for integration into customer datacenters."
+   },
+   {
+    "name": "GroqWare compiler/SDK",
+    "category": "sdk",
+    "description": "Compiler and software stack mapping models onto LPU hardware."
+   },
+   {
+    "name": "GroqCloud",
+    "category": "platform",
+    "description": "Hosted inference API and dedicated capacity; also powers regional sovereign data centers (e.g., Dammam)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "developers",
+   "energy-utilities",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Aramco Digital",
+   "Bell Canada",
+   "Samsung Foundry"
+  ],
+  "notable_customers": [
+   "Aramco Digital"
+  ],
+  "differentiator": "Deterministic SRAM-centric LPU delivering very low-latency inference; architecture licensed by NVIDIA.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
+   "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-confirms-20-billion-groq-deal-to-bolster-ai-inference-dominance",
+   "https://www.constellationr.com/insights/news/nvidias-groq-deal-acquisition-acquihire-or-creative-licensing-deal",
+   "https://www.hpcwire.com/2026/01/08/what-nvidias-20b-purchase-of-groqs-assets-means-for-ai-accelerators/",
+   "https://sacra.com/research/groq",
+   "https://www.businessinsider.jp/article/2609groq-navigates-ai-cloud-market-shift-after-nvidia-deal/"
+  ]
+ },
+ {
+  "id": "h3c",
+  "name": "New H3C Technologies Co., Ltd. (H3C)",
+  "verdict": "in",
+  "verdict_reason": "Markets LinSeer Cube pre-integrated private LLM appliances plus AI servers for on-prem enterprise deployment.",
+  "status": "active",
+  "status_detail": "Subsidiary of Unisplendour (Tsinghua Unigroup), which bought HPE's remaining 49% stake (2024)",
+  "parent": "Unisplendour Corporation",
+  "website": "https://www.h3c.com",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2003,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Subsidiary of Unisplendour (SZSE: 000938)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "10000+",
+  "focus": "Networking, servers and private LLM all-in-one appliances for Chinese enterprises and government",
+  "problem": "Chinese enterprises need domestic, pre-integrated LLM infrastructure they can run privately on-prem.",
+  "products": [
+   {
+    "name": "LinSeer Cube",
+    "category": "system",
+    "description": "Pre-integrated on-prem LLM all-in-one appliances bundling compute, software and domestic models (e.g., DeepSeek)."
+   },
+   {
+    "name": "LinSeer",
+    "category": "model",
+    "description": "H3C's privately deployable industry large-model family for enterprise use cases."
+   },
+   {
+    "name": "H3C UniServer GPU/AI servers",
+    "category": "system",
+    "description": "AI training and inference servers supporting NVIDIA and domestic accelerators."
+   },
+   {
+    "name": "AI computing network fabric",
+    "category": "system",
+    "description": "Lossless Ethernet switching for on-prem AI clusters."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "models",
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "finance",
+   "healthcare",
+   "education-research",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "DeepSeek"
+  ],
+  "notable_customers": [],
+  "differentiator": "Large domestic network/server vendor bundling its own LinSeer models into turnkey private LLM appliances.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "hammerspace",
+  "name": "Hammerspace, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Data orchestration/parallel file platform feeding on-prem GPU clusters; enables but does not run inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://hammerspace.com",
+  "hq_city": "San Mateo",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 156.7,
+  "last_round": "Strategic venture round, $100M, Apr 2025, at $500M+ valuation (Altimeter, ARK Invest); small 2026 follow-on listed by aggregators, unconfirmed",
+  "valuation_usd_m": 500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Altimeter Capital",
+   "ARK Invest",
+   "Prosperity7 Ventures",
+   "SK Square"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Global data platform orchestrating unstructured data across storage and sites for AI/HPC",
+  "problem": "AI data is scattered across silos and sites, starving GPUs without costly migrations.",
+  "products": [
+   {
+    "name": "Hammerspace Global Data Platform",
+    "category": "platform",
+    "description": "Parallel global namespace orchestrating data across existing storage, sites and clouds."
+   },
+   {
+    "name": "Hyperscale NAS",
+    "category": "platform",
+    "description": "Standards-based pNFS NAS architecture delivering HPC-class throughput to GPU clusters."
+   },
+   {
+    "name": "Tier 0",
+    "category": "platform",
+    "description": "Turns GPU servers' local NVMe into shared protected storage tier for AI workloads."
+   },
+   {
+    "name": "Hammerspace AI Data Platform",
+    "category": "platform",
+    "description": "Reference design with NVIDIA for feeding RAG and inference pipelines on-prem."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "government-defense",
+   "automotive"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [
+   "Meta",
+   "Tesla",
+   "NVIDIA"
+  ],
+  "differentiator": "Standards-based parallel global namespace that makes existing storage GPU-ready without data migration.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://techcrunch.com/2025/04/16/hammerspace-an-unstructured-data-wrangler-used-by-nvidia-meta-and-tesla-raises-100m-at-500m-valuation",
+   "https://www.cbinsights.com/company/hammerspace/financials",
+   "https://dealroom.co/companies/hammerspace-1/"
+  ]
+ },
+ {
+  "id": "hyperaccel",
+  "name": "HyperAccel Inc.",
+  "verdict": "in",
+  "verdict_reason": "Builds LLM-specialized LPU chips and inference servers for on-prem and edge LLM serving.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://hyperaccel.ai",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, ~KRW 150B (~$108M; Dealroom: $167.7M), Sep 2026, Krafton committed KRW 50B; possible extension to KRW 200B",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Krafton"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "LLM inference-specific LPU silicon and servers using low-cost LPDDR memory",
+  "problem": "GPU servers make LLM serving costly and power-hungry for on-prem operators.",
+  "products": [
+   {
+    "name": "LPU (Latency Processing Unit)",
+    "category": "chip",
+    "description": "LLM-specialized inference processor using LPDDR instead of HBM for cost and power efficiency."
+   },
+   {
+    "name": "Orion LPU server",
+    "category": "system",
+    "description": "Eight-card LPU inference server for on-prem LLM serving; showcased at SC26."
+   },
+   {
+    "name": "Edge LPU variant",
+    "category": "chip",
+    "description": "Planned on-device/edge LLM chip co-developed with LG Electronics."
+   },
+   {
+    "name": "HyperDex software stack",
+    "category": "sdk",
+    "description": "Compiler/runtime and serving stack for deploying LLMs on LPU hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "consumer-electronics-oem",
+   "developers"
+  ],
+  "partners": [
+   "Naver Cloud",
+   "LG Electronics",
+   "Samsung Foundry",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "LLM-specific latency processing unit claiming ~1/10 GPU cost and ~1/3 power using LPDDR.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.plataformamedia.com/en/2026/11/12/hyperaccel-to-showcase-lpu-based-ai-inference-system-at-sc26-highlighting-power-and-cost-efficiency/",
+   "https://dealroom.co/news/150403-hyperaccel-raises-150m-series-b-with-krafton-backing/",
+   "https://www.hankyung.com/article/202609078421r"
+  ]
+ },
+ {
+  "id": "hypertec",
+  "name": "Hypertec Group",
+  "verdict": "borderline",
+  "verdict_reason": "Server maker/integrator; sovereign AI infrastructure is generic NVIDIA hardware rather than a local-AI product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.hypertec.com",
+  "hq_city": "Montreal",
+  "hq_country": "Canada",
+  "founded": 1984,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "Canadian-built HPC/AI servers, immersion cooling and sovereign AI data-centre infrastructure",
+  "problem": "Governments and enterprises need domestically built, energy-efficient AI infrastructure under national control.",
+  "products": [
+   {
+    "name": "Ciara NVIDIA-Certified Systems",
+    "category": "system",
+    "description": "Canadian-built GPU servers; Ciara division named NVIDIA OEM partner (2026)."
+   },
+   {
+    "name": "Immersion-cooled HPC/AI servers",
+    "category": "system",
+    "description": "High-density immersion-cooled compute for AI and HPC data centres."
+   },
+   {
+    "name": "Sovereign AI infrastructure (with 5C)",
+    "category": "service",
+    "description": "Design, build and hosting of sovereign AI compute campuses, e.g., LaSalle research hub."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Bell Canada",
+   "Cohere",
+   "Mila",
+   "5C Group",
+   "BUZZ HPC"
+  ],
+  "notable_customers": [
+   "Bell Canada",
+   "Mila"
+  ],
+  "differentiator": "One of few domestic NVIDIA OEM system builders in Canada, with immersion cooling expertise.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://thelogic.co/news/exclusive/hypertec-nvidia-oem/",
+   "https://mila.quebec/en/news/mila-5c-and-hypertec-announce-250-million-lasalle-campus-and-sovereign-ai-research-hub-to",
+   "https://hypertec.com/news/bell-and-hypertec-partner-to-strengthen-canadas-sovereign-ai-ecosystem",
+   "https://explore.business.bell.ca/en-articles/bell-ai-fabric-cohere-hypertec-buzz-hpc-landmark-deal-to-further-advance-sovereign-ai-in-canada"
+  ]
+ },
+ {
+  "id": "ieit-systems-inspur",
+  "name": "IEIT Systems Co., Ltd. (Inspur Information)",
+  "verdict": "in",
+  "verdict_reason": "China's leading AI server vendor with dedicated on-prem LLM all-in-ones, EPAI platform and Yuan models.",
+  "status": "active",
+  "status_detail": "Listed subsidiary of Inspur Group",
+  "parent": "Inspur Group",
+  "website": "https://en.ieisystem.com",
+  "hq_city": "Jinan",
+  "hq_country": "China",
+  "founded": 1998,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SZSE: 000977)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "AI servers, LLM inference appliances and enterprise LLM platforms for private deployment",
+  "problem": "Enterprises and agencies need high-performance AI compute and LLM stacks deployable privately on-prem.",
+  "products": [
+   {
+    "name": "Metabrain (Yuannao) AI servers",
+    "category": "system",
+    "description": "AI training/inference servers such as NF5688 series for enterprise and sovereign clusters."
+   },
+   {
+    "name": "Metabrain R1 inference server",
+    "category": "system",
+    "description": "Single-machine server designed to run full DeepSeek-R1-class models on-prem."
+   },
+   {
+    "name": "Metabrain LLM all-in-one appliances",
+    "category": "system",
+    "description": "Pre-integrated hardware/software appliances for private enterprise LLM deployment."
+   },
+   {
+    "name": "EPAI (Enterprise Platform for AI)",
+    "category": "platform",
+    "description": "Enterprise LLM development platform for data prep, fine-tuning, RAG and app deployment."
+   },
+   {
+    "name": "Yuan 2.0 / Yuan2.0-M32",
+    "category": "model",
+    "description": "Open-source LLM family including MoE variant for efficient deployment."
+   },
+   {
+    "name": "AIStation",
+    "category": "platform",
+    "description": "AI resource scheduling and cluster management software."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "finance",
+   "industrial-manufacturing",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "DeepSeek"
+  ],
+  "notable_customers": [],
+  "differentiator": "Largest Chinese AI server maker pairing hardware with own Yuan models and EPAI for private deployment.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "lambda",
+  "name": "Lambda, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Primarily a public GPU cloud; private dedicated clusters and on-prem hardware are secondary.",
+  "status": "active",
+  "status_detail": "Pre-IPO; reported raising up to $3-4B ahead of possible 2027 IPO (unconfirmed)",
+  "parent": null,
+  "website": "https://lambda.ai",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2012,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 2360,
+  "last_round": "Series E, $1.5B, Nov 2025, led by TWG Global (~$5.9B valuation); reported $350M pre-IPO convertible early 2026",
+  "valuation_usd_m": 5900,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TWG Global",
+   "US Innovative Technology Fund",
+   "NVIDIA",
+   "ARK Invest",
+   "Andra Capital",
+   "SGW",
+   "Mubadala Capital"
+  ],
+  "employees": null,
+  "employees_band": "501-1000",
+  "focus": "NVIDIA GPU cloud plus dedicated private clusters and AI servers/workstations",
+  "problem": "AI teams need dedicated, single-tenant GPU capacity without building datacenters themselves.",
+  "products": [
+   {
+    "name": "Lambda Private Cloud",
+    "category": "service",
+    "description": "Dedicated single-tenant NVIDIA GPU clusters reserved for one customer."
+   },
+   {
+    "name": "Lambda Scalar / Hyperplane servers",
+    "category": "system",
+    "description": "Multi-GPU servers sold for customer-owned on-prem clusters (availability may have narrowed)."
+   },
+   {
+    "name": "Lambda Vector workstations",
+    "category": "system",
+    "description": "Desk-side multi-GPU workstations for local training and inference."
+   },
+   {
+    "name": "Lambda Stack",
+    "category": "sdk",
+    "description": "Free packaged deep-learning software stack (drivers, CUDA, frameworks) for local machines."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "Microsoft"
+  ],
+  "differentiator": "NVIDIA-centric AI cloud that also offers dedicated private clusters and legacy on-prem hardware.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.cbinsights.com/company/lambda-labs/financials",
+   "https://stockanalysis.com/private/lambda/",
+   "https://siliconangle.com/2026/01/09/ai-cloud-provider-lambda-reportedly-raising-350m-round/",
+   "https://dealroom.co/news/160600-lambda-to-raise-4b-pre-ipo-leaning-on-35b-anthropic-deal/",
+   "https://w.media/lambda-lining-up-us-3-billion-funding-ahead-of-possible-ipo-report/"
+  ]
+ },
+ {
+  "id": "lightmatter",
+  "name": "Lightmatter, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Photonic interconnect for AI datacenter clusters; generic AI hardware with only indirect local-AI role.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lightmatter.co",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series D",
+  "total_funding_usd_m": 850,
+  "last_round": "Series D, $400M, Oct 2024, led by T. Rowe Price-advised funds ($4.4B valuation); a 2026 Series E report is unverified",
+  "valuation_usd_m": 4400,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "T. Rowe Price",
+   "Fidelity",
+   "GV",
+   "Viking Global",
+   "HPE Pathfinder",
+   "Matrix Partners",
+   "Spark Capital"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "3D photonic interposers and co-packaged optics to scale AI accelerator clusters",
+  "problem": "Electrical interconnect bandwidth and power limit scaling of large AI accelerator clusters.",
+  "products": [
+   {
+    "name": "Passage M1000",
+    "category": "chip",
+    "description": "3D photonic superchip/interposer with 114 Tbps optical bandwidth for XPUs and switches."
+   },
+   {
+    "name": "Passage L200",
+    "category": "chip",
+    "description": "3D co-packaged optics chiplet for XPU and switch I/O."
+   },
+   {
+    "name": "Envise",
+    "category": "chip",
+    "description": "Earlier photonic AI compute accelerator; now de-emphasized versus interconnect."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [
+   "GlobalFoundries",
+   "Amkor",
+   "ASE",
+   "Flex"
+  ],
+  "notable_customers": [],
+  "differentiator": "Record-bandwidth 3D photonic interposer technology for chip-to-chip AI cluster interconnect.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20241016498931/en/Lightmatter-Raises-%2524400M-Series-D-Quadruples-Valuation-to-%25244.4B-as-Photonics-Leader-for-Next-Gen-AI-Data-Centers",
+   "https://www.datacenterdynamics.com/en/news/photonic-computing-company-lightmatter-achieves-44bn-valuation-from-400m-series-d-funding-round/",
+   "https://defillama.com/pre-ipo/lightmatter",
+   "https://sacra.com/c/lightmatter"
+  ]
+ },
+ {
+  "id": "lionbox",
+  "name": "LionBox",
+  "verdict": "out",
+  "verdict_reason": "Cannot be verified: no independent sources found; website unreachable from research session.",
+  "status": "active",
+  "status_detail": "Existence and status unconfirmed",
+  "website": "https://www.lionbox.ai"
+ },
+ {
+  "id": "liqid",
+  "name": "Liqid Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Composable GPU/CXL memory infrastructure marketed for on-prem inference; generic infrastructure rather than AI product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.liqid.com",
+  "hq_city": "Westminster",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $100M (Lightrock, DH Capital affiliates); aggregators list a further ~$8M round in May 2026 (unconfirmed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Lightrock",
+   "DH Capital",
+   "DigitalBridge Ventures",
+   "Blackwells Capital",
+   "Panorama Point Partners"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Software-composable GPU and CXL memory pooling for on-prem and edge AI",
+  "problem": "On-prem GPU servers are stranded and underutilized because accelerators and memory are fixed per box.",
+  "products": [
+   {
+    "name": "Liqid Matrix",
+    "category": "platform",
+    "description": "Composability software dynamically assigning pooled GPUs, memory and storage to servers."
+   },
+   {
+    "name": "EX-5410P GPU expansion chassis",
+    "category": "system",
+    "description": "PCIe Gen5 10-slot composable GPU platform, up to 30 GPUs per server."
+   },
+   {
+    "name": "Composable CXL 2.0 memory",
+    "category": "system",
+    "description": "Pooled and shared CXL memory for memory-hungry inference workloads."
+   },
+   {
+    "name": "Liqid composable GPU servers",
+    "category": "system",
+    "description": "Pre-integrated composable GPU server configurations for AI inference and HPC."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell Technologies",
+   "Cisco"
+  ],
+  "notable_customers": [],
+  "differentiator": "PCIe/CXL composable fabric pooling GPUs and memory to raise on-prem utilization.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://datacenterdynamics.com/en/news/composable-infrastructure-firm-liqid-raises-100-million",
+   "https://www.cbinsights.com/company/liqid/financials",
+   "https://multiples.vc/private-comps/liqid",
+   "https://www.blocksandfiles.com/ai-ml/2025/07/17/liqid-unveils-composable-gpu-servers-with-cxl-20-memory-pooling/100989"
+  ]
+ },
+ {
+  "id": "lumai",
+  "name": "Lumai Ltd",
+  "verdict": "borderline",
+  "verdict_reason": "Pre-commercial optical AI accelerator for datacenters; generic AI compute, not yet a local-AI product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Oxford",
+  "hq_country": "United Kingdom",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 11.4,
+  "last_round": "$10M+ round, Apr 2025, led by Constructor Capital (plus GBP 1.1M Innovate UK grant 2023)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Constructor Capital",
+   "IP Group",
+   "PhotonVentures",
+   "Journey Ventures",
+   "LIFTT",
+   "Qubits Ventures",
+   "State Farm Ventures",
+   "TIS Inc."
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Free-space optical matrix multiplication for energy-efficient AI inference",
+  "problem": "Silicon AI accelerators are hitting power and cost limits for datacenter inference.",
+  "products": [
+   {
+    "name": "Lumai optical AI processor",
+    "category": "chip",
+    "description": "3D free-space optical matrix multiplier claiming 50x performance at 10% energy (company claim)."
+   },
+   {
+    "name": "Optical inference accelerator system",
+    "category": "system",
+    "description": "Datacenter-deployable accelerator integrating optical compute with electronic control; in development."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Uses beams of light in 3D free space for matrix math rather than integrated photonics.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2025/04/02/lumai-secures-over-10m-investment-for-optical-processing-tech/",
+   "https://optics.org/news/photonic-computing-startup-lumai-lands-10m",
+   "https://theoxfordtrust.co.uk/lumai-secures-nearly-8-million-in-funding",
+   "https://sifted.eu/articles/lumai-optical-computing-news"
+  ]
+ },
+ {
+  "id": "mark-iii-systems",
+  "name": "Mark III Systems, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Systems integrator deploying on-prem NVIDIA AI clusters; services rather than own local-AI product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.markiiisys.com",
+  "hq_city": "Houston",
+  "hq_country": "United States",
+  "founded": 1995,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 34,
+  "employees_band": "11-50",
+  "focus": "Design, deployment and enablement of on-prem NVIDIA AI/HPC infrastructure",
+  "problem": "Enterprises and universities lack in-house expertise to stand up on-prem AI clusters.",
+  "products": [
+   {
+    "name": "AI/HPC infrastructure integration",
+    "category": "service",
+    "description": "Design and deployment of NVIDIA DGX/HGX clusters, storage and networking on-prem."
+   },
+   {
+    "name": "MLOps platform enablement",
+    "category": "service",
+    "description": "Deployment of Domino Data Lab and NVIDIA AI Enterprise software stacks."
+   },
+   {
+    "name": "Edge and datacenter modernization",
+    "category": "service",
+    "description": "Infrastructure services spanning datacenter, cloud and edge computing."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "services",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "education-research",
+   "healthcare",
+   "energy-utilities",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell Technologies",
+   "Domino Data Lab"
+  ],
+  "notable_customers": [],
+  "differentiator": "NVIDIA Elite partner (2021 Rising Star Partner of the Year) with HPC/AI cluster engineering depth.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/mark-iii-systems",
+   "https://builtin.com/company/mark-iii-systems",
+   "https://domino.ai/partners/markiii",
+   "https://www.highergov.com/awardee/mark-iii-systems-inc-10026944/"
+  ]
+ },
+ {
+  "id": "matx",
+  "name": "MatX, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Pre-product LLM accelerator aimed at large AI labs' datacenters; local relevance indirect.",
+  "status": "active",
+  "status_detail": "Reported Anthropic acquisition talks (~$7B) ended without deal (unconfirmed)",
+  "parent": null,
+  "website": "https://matx.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, $500M, Feb 2026, led by Jane Street and Situational Awareness",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Jane Street",
+   "Situational Awareness",
+   "Marvell Technology",
+   "NFDG",
+   "Spark Capital",
+   "Patrick Collison",
+   "John Collison"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "High-throughput silicon purpose-built for large language model training and inference",
+  "problem": "General-purpose GPUs deliver poor cost per token for the largest LLMs.",
+  "products": [
+   {
+    "name": "MatX One",
+    "category": "chip",
+    "description": "LLM accelerator with splittable systolic array and SRAM+HBM memory; first units expected 2026-27."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "Marvell Technology",
+   "Alchip"
+  ],
+  "notable_customers": [],
+  "differentiator": "Ex-Google TPU founders designing silicon exclusively around transformer LLM workloads.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+   "https://siliconangle.com/2026/02/24/chip-startup-matx-raises-500m-speed-large-language-models/",
+   "https://sacra.com/c/matx"
+  ]
+ },
+ {
+  "id": "moore-threads",
+  "name": "Moore Threads Intelligent Technology (Beijing) Co., Ltd.",
+  "verdict": "in",
+  "verdict_reason": "Domestic GPUs and KUAE AI clusters sold for Chinese sovereign/on-prem AI; AI PC line too.",
+  "status": "active",
+  "status_detail": "Listed on Shanghai STAR Market (Dec 2025); planning Hong Kong listing (2026)",
+  "parent": null,
+  "website": "https://en.mthreads.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2020,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": "IPO on STAR Market, RMB 8B raised, Dec 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SSE STAR: 688795); H1 2026 revenue RMB 1.7B",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Full-function domestic GPUs, MUSA software and KUAE AI computing clusters",
+  "problem": "Chinese buyers cut off from NVIDIA need domestic GPU compute for on-prem AI.",
+  "products": [
+   {
+    "name": "MTT S4000 / S5000 AI GPUs",
+    "category": "chip",
+    "description": "Datacenter GPUs for LLM training and inference."
+   },
+   {
+    "name": "KUAE intelligent computing clusters",
+    "category": "system",
+    "description": "Turnkey GPU clusters and software for sovereign and enterprise AI datacenters."
+   },
+   {
+    "name": "MUSA SDK",
+    "category": "sdk",
+    "description": "CUDA-like programming platform and toolchain for Moore Threads GPUs."
+   },
+   {
+    "name": "MTT X300 / workstation GPUs",
+    "category": "chip",
+    "description": "Professional GPUs for workstations, including local AI workloads."
+   },
+   {
+    "name": "MTT AIBOOK",
+    "category": "device",
+    "description": "AI PC laptop with own SoC for on-device AI."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "education-research",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "China's first listed full-function GPU maker with CUDA-compatible MUSA stack; on US Entity List.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://pandaily.com/moore-threads-lists-on-star-market-becomes-china-s-first-public-gpu-company",
+   "https://kr-asia.com/moore-threads-makes-record-ipo-debut-as-chinas-ai-chip-fever-rages-on",
+   "https://www.thestandard.com.hk/finance/article/342164/Nvidia-like-Chinese-AI-chipmaker-Moore-Threads-files-for-US1b-Hong-Kong-IPO-report",
+   "https://view.asiae.co.kr/en/article/2026081009371585614"
+  ]
+ },
+ {
+  "id": "myrepublic",
+  "name": "MyRepublic",
+  "verdict": "in",
+  "verdict_reason": "Telco with a dedicated, marketed on-prem AI server product (AI Automation Box) for SMEs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://myrepublic.net",
+  "hq_city": "Singapore",
+  "hq_country": "Singapore",
+  "founded": 2011,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Broadband/telco services plus plug-and-play on-prem AI automation servers for SMEs",
+  "problem": "SMEs want AI workflow automation without cloud subscriptions, data exposure or in-house AI skills.",
+  "products": [
+   {
+    "name": "AI Automation Box Basic",
+    "category": "system",
+    "description": "On-prem AI server (NVIDIA GB10, 128GB) running up to 120B-class models; air-gap capable."
+   },
+   {
+    "name": "AI Automation Box Pro",
+    "category": "system",
+    "description": "Dual GX10, 256GB unified memory, running up to 405B-class models for 30-80 staff."
+   },
+   {
+    "name": "No-code workflow builder and templates",
+    "category": "app",
+    "description": "Low-code automation builder with 100+ templates using self-hosted LLMs."
+   },
+   {
+    "name": "MyRepublic AI Academy",
+    "category": "service",
+    "description": "Training and tutorials to help SME staff build AI automations."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications",
+   "services"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "smb"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Telco-delivered subscription on-prem AI box (from ~$255/month) bundling self-hosted LLMs and no-code workflows.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.malaymail.com/news/money/mediaoutreach/2025/09/03/myrepublic-launches-ai-automation-box-an-industry-first-plug-and-play-ai-server-that-lets-smes-automate-their-business/406541",
+   "https://www.zawya.com/en/economy/global/myrepublic-launches-ai-automation-box-an-industry-first-plug-and-play-ai-server-that-lets-smes-automate-their-u3q9y7mc",
+   "https://myrepublic.net/sg/business/blog/business-solutions/build-faster-how-ai-automation-can-help-your-sme/"
+  ]
+ },
+ {
+  "id": "myrtle-ai",
+  "name": "Myrtle.ai (Myrtle Software Ltd)",
+  "verdict": "in",
+  "verdict_reason": "Ultra-low-latency ML inference engines deployed on FPGAs inside customers' own servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://myrtle.ai",
+  "hq_city": "Cambridge",
+  "hq_country": "United Kingdom",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "IQ Capital"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Microsecond-latency ML inference on FPGAs and accelerators for trading, telecom and speech",
+  "problem": "Latency-critical applications cannot tolerate GPU or cloud round-trip inference delays.",
+  "products": [
+   {
+    "name": "VOLLO",
+    "category": "runtime",
+    "description": "Low-latency ML inference accelerator/compiler for FPGA cards, benchmarked in STAC-ML for trading."
+   },
+   {
+    "name": "CAIMAN-ASR",
+    "category": "model",
+    "description": "Low-latency streaming speech recognition running on FPGA accelerator cards."
+   },
+   {
+    "name": "MAU / SEAL accelerators",
+    "category": "ip",
+    "description": "Inference acceleration IP for recommendation and other datacenter workloads."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization",
+   "models"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "finance",
+   "telecom",
+   "enterprise"
+  ],
+  "partners": [
+   "AMD",
+   "Intel (Altera)",
+   "BittWare"
+  ],
+  "notable_customers": [],
+  "differentiator": "Sub-10-microsecond FPGA inference proven in STAC-ML benchmarks for colocated trading racks.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://app.dealroom.co/companies/myrtle",
+   "https://www.cbinsights.com/company/myrtle-software/financials"
+  ]
+ },
+ {
+  "id": "netweb-technologies",
+  "name": "Netweb Technologies India Ltd",
+  "verdict": "borderline",
+  "verdict_reason": "Indian server/HPC maker; AI systems are generic NVIDIA-based hardware marketed for sovereign AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://netwebindia.com",
+  "hq_city": "Faridabad",
+  "hq_country": "India",
+  "founded": 1999,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NSE: NETWEB; BSE: 543945)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Made-in-India HPC, AI servers and private cloud systems under the Tyrone brand",
+  "problem": "Indian government and enterprises need domestically manufactured AI compute for sovereign deployments.",
+  "products": [
+   {
+    "name": "Tyrone AI GPU servers",
+    "category": "system",
+    "description": "NVIDIA-based AI training/inference servers manufactured in India."
+   },
+   {
+    "name": "Sovereign AI systems on NVIDIA Grace Blackwell",
+    "category": "system",
+    "description": "India-built rack-scale AI systems for national and enterprise AI."
+   },
+   {
+    "name": "Skylus.ai",
+    "category": "platform",
+    "description": "GPU aggregation and AI workload orchestration platform for on-prem clusters."
+   },
+   {
+    "name": "HPC supercomputers (e.g., AIRAWAT)",
+    "category": "system",
+    "description": "Supercomputing and AI systems built for national research programmes."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "education-research",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "AMD"
+  ],
+  "notable_customers": [
+   "C-DAC"
+  ],
+  "differentiator": "Leading domestic Indian OEM for HPC/AI systems aligned with Make in India sovereign compute.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "neureality",
+  "name": "NeuReality Ltd.",
+  "verdict": "in",
+  "verdict_reason": "NR1 AI-CPU and preloaded inference appliances for on-prem/private GenAI inference clusters.",
+  "status": "active",
+  "status_detail": "Acquisition by Unconventional AI agreed Oct 26, 2026 (cash-and-stock, terms undisclosed); closing expected Q4 2026",
+  "parent": null,
+  "website": "https://www.neureality.ai",
+  "hq_city": "Caesarea",
+  "hq_country": "Israel",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": 105,
+  "last_round": "Pending acquisition by Unconventional AI (Oct 2026)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Samsung Ventures",
+   "SK hynix",
+   "Cardumen Capital",
+   "OurCrowd",
+   "Varana Capital",
+   "XT Hi-Tech",
+   "EIC Fund"
+  ],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "AI inference head-node silicon, appliances and inference OS",
+  "problem": "x86 host CPUs and NICs bottleneck GPU inference servers, wasting accelerator capacity and cost.",
+  "products": [
+   {
+    "name": "NR1 AI-CPU",
+    "category": "chip",
+    "description": "Inference head-node chip combining CPU, NIC and AI hypervisor to replace x86 hosts."
+   },
+   {
+    "name": "NR1 Inference Appliance",
+    "category": "system",
+    "description": "Preloaded appliance with models and software for private GenAI and on-prem clusters."
+   },
+   {
+    "name": "NR-NEXUS / NeuReality software stack",
+    "category": "runtime",
+    "description": "Inference operating system and APIs orchestrating models across accelerators."
+   },
+   {
+    "name": "NR2 AI-SuperNIC",
+    "category": "chip",
+    "description": "Next-gen head node on Arm Neoverse V3 announced 2025."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "finance"
+  ],
+  "partners": [
+   "Arm",
+   "Qualcomm",
+   "AMD",
+   "IBM",
+   "Supermicro"
+  ],
+  "notable_customers": [],
+  "differentiator": "Purpose-built AI head node raising GPU utilization versus CPU-centric inference servers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.calcalistech.com/ctechnews/article/rz4yeog9t",
+   "https://www.ynetnews.com/business/article/sjnxajphfx",
+   "https://runtimewire.com/article/unconventional-ai-acquires-neureality-chip-team",
+   "https://insidehpc.com/2025/05/neureality-announces-inference-appliance-is-preloaded-with-ai-models/",
+   "https://dev.aiwire.net/2025/08/21/neureality-redefines-the-ai-head-node-with-arm-neoverse-v3/"
+  ]
+ },
+ {
+  "id": "normal-computing",
+  "name": "Normal Computing",
+  "verdict": "out",
+  "verdict_reason": "Thermodynamic AI chips still at tape-out/characterization; main product is hardware verification software.",
+  "status": "active",
+  "status_detail": "Raised $50M led by Samsung Catalyst (Mar 2026); CN101 taped out",
+  "website": "https://www.normalcomputing.com"
+ },
+ {
+  "id": "peak-aio",
+  "name": "PEAK:AIO",
+  "verdict": "borderline",
+  "verdict_reason": "Software-defined AI storage for on-prem GPU servers; enables but does not run local AI.",
+  "status": "active",
+  "status_detail": "NetApp announced intent to acquire (Sep 25, 2026); completion unconfirmed",
+  "parent": null,
+  "website": "https://www.peakaio.com",
+  "hq_city": "Manchester",
+  "hq_country": "United Kingdom",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Pending acquisition by NetApp (announced Sep 2026, terms undisclosed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Low-cost software-defined AI data servers, pNFS metadata and KV-cache memory",
+  "problem": "Feeding on-prem GPUs with fast storage is costly and complex for smaller AI teams.",
+  "products": [
+   {
+    "name": "PEAK:AIO AI Data Server",
+    "category": "platform",
+    "description": "Software-defined NVMe storage delivering high throughput to on-prem GPU servers."
+   },
+   {
+    "name": "Lattice pNFS metadata server",
+    "category": "platform",
+    "description": "Open-source scale-out pNFS metadata service; early research release."
+   },
+   {
+    "name": "CXL KV-cache memory platform",
+    "category": "platform",
+    "description": "CXL-based memory tier for LLM KV-cache reuse in inference."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "healthcare",
+   "education-research",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell Technologies",
+   "NetApp"
+  ],
+  "notable_customers": [],
+  "differentiator": "Lean software-defined AI storage with roots in Los Alamos/CMU pNFS research.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.netapp.com/newsroom/press-releases/news-rel-20260925-520072/",
+   "https://www.storagereview.com/news/netapp-to-acquire-peakaio-bringing-its-scale-out-pnfs-metadata-work-to-ontap",
+   "https://www.hpcwire.com/bigdatawire/this-just-in/netapp-plans-peakaio-acquisition-to-scale-storage-for-ai-clouds/"
+  ]
+ },
+ {
+  "id": "penguin-solutions",
+  "name": "Penguin Solutions, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Core business designs, deploys and manages on-prem/sovereign AI clusters with own ClusterWare software.",
+  "status": "active",
+  "status_detail": "Formerly SMART Global Holdings (renamed 2024)",
+  "parent": null,
+  "website": "https://www.penguinsolutions.com",
+  "hq_city": "Milpitas",
+  "hq_country": "United States",
+  "founded": 1988,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: PENG)",
+  "key_investors": [
+   "SK Telecom"
+  ],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Full-stack AI factory design, deployment and managed services plus memory and edge compute",
+  "problem": "Enterprises and sovereigns struggle to build and operate large on-prem AI clusters reliably.",
+  "products": [
+   {
+    "name": "OriginAI",
+    "category": "platform",
+    "description": "Validated AI factory blueprints combining hardware, software and services."
+   },
+   {
+    "name": "ICE ClusterWare / ClusterWare AI",
+    "category": "platform",
+    "description": "Cluster provisioning and management software for AI/HPC infrastructure."
+   },
+   {
+    "name": "ComputeAI racks",
+    "category": "system",
+    "description": "Pre-integrated GPU rack systems for on-prem AI clusters."
+   },
+   {
+    "name": "Managed AI infrastructure services",
+    "category": "service",
+    "description": "Deployment and ongoing operation of customer-owned AI clusters."
+   },
+   {
+    "name": "Stratus ztC Edge",
+    "category": "system",
+    "description": "Fault-tolerant edge computing platforms for industrial sites."
+   },
+   {
+    "name": "SMART Modular CXL memory",
+    "category": "system",
+    "description": "CXL memory expansion modules for memory-bound AI servers."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "education-research",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "SK Telecom"
+  ],
+  "notable_customers": [
+   "SK Telecom",
+   "Meta"
+  ],
+  "differentiator": "Long track record building and managing large GPU clusters; NVIDIA AI Factory specialized partner.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "phison-aidaptiv",
+  "name": "Phison Electronics Corp. (aiDAPTIV+)",
+  "verdict": "in",
+  "verdict_reason": "aiDAPTIV+ is a dedicated product line enabling local LLM fine-tuning/inference on workstations and PCs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.phison.com",
+  "hq_city": "Zhunan, Miaoli",
+  "hq_country": "Taiwan",
+  "founded": 2000,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (TPEx: 8299)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "NAND controllers/SSDs; aiDAPTIV+ SSD-based memory extension for local AI",
+  "problem": "Fine-tuning and running large LLMs locally exceeds GPU memory on affordable workstations.",
+  "products": [
+   {
+    "name": "aiDAPTIV+",
+    "category": "platform",
+    "description": "Middleware plus SSDs offloading model memory to flash for on-prem LLM fine-tuning and inference."
+   },
+   {
+    "name": "aiDAPTIVCache SSDs",
+    "category": "system",
+    "description": "High-endurance SSDs used as GPU memory extension tier."
+   },
+   {
+    "name": "aiDAPTIVLink middleware",
+    "category": "runtime",
+    "description": "Software that manages memory tiering between GPU, DRAM and flash."
+   },
+   {
+    "name": "aiDAPTIV+ for AI PCs",
+    "category": "runtime",
+    "description": "Extension bringing local LLM inference/fine-tuning to notebooks and mini PCs."
+   },
+   {
+    "name": "Pascari enterprise SSDs",
+    "category": "system",
+    "description": "Enterprise SSD line for AI servers and datacenters."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "smb",
+   "education-research",
+   "consumer-electronics-oem",
+   "developers"
+  ],
+  "partners": [
+   "Maingear",
+   "MSI",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Uses flash as GPU memory extension so 70B-class models fine-tune on desk-side workstations.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "pliops",
+  "name": "Pliops Ltd.",
+  "verdict": "in",
+  "verdict_reason": "XDP LightningAI KV-cache offload accelerator for self-hosted LLM inference servers.",
+  "status": "acquired",
+  "status_detail": "Assets/IP and ~half of staff acquired by Astera Labs (Feb 2026, reported ~$70M)",
+  "parent": "Astera Labs",
+  "website": "https://pliops.com",
+  "hq_city": "Ramat Gan",
+  "hq_country": "Israel",
+  "founded": 2017,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 205,
+  "last_round": "Series D, $100M, Aug 2022; asset acquisition by Astera Labs, Feb 2026",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Koch Disruptive Technologies",
+   "State of Mind Ventures",
+   "Intel Capital",
+   "SK hynix",
+   "Western Digital",
+   "NVIDIA"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Storage/data processors accelerating KV-cache and data access for LLM inference",
+  "problem": "Limited GPU HBM forces recomputation of KV-cache, cutting LLM inference throughput.",
+  "products": [
+   {
+    "name": "XDP LightningAI",
+    "category": "system",
+    "description": "KV-cache offload accelerator extending GPU memory to SSD for vLLM/Dynamo inference."
+   },
+   {
+    "name": "XDP Extreme Data Processor",
+    "category": "chip",
+    "description": "Hardware data processor accelerating storage and key-value workloads."
+   },
+   {
+    "name": "FusIOnX software stack",
+    "category": "runtime",
+    "description": "Software integrating KV-cache tiering with inference frameworks."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell Technologies",
+   "DapuStor"
+  ],
+  "notable_customers": [],
+  "differentiator": "SSD-based KV-cache tier claiming >2.5x end-to-end gains for vLLM/Dynamo inference.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.calcalistech.com/ctechnews/article/bkamelwvbe",
+   "https://www.storagenewsletter.com/2026/02/23/astera-labs-acquired-pliops/",
+   "https://en.globes.co.il/en/article-1001534361",
+   "https://www.cbinsights.com/company/pliops/financials",
+   "https://www.storagenewsletter.com/2025/05/21/dell-technologies-world-pliops-unveils-ai-performance-enhancements/"
+  ]
+ },
+ {
+  "id": "positron-ai",
+  "name": "Positron AI, Inc.",
+  "verdict": "in",
+  "verdict_reason": "Sells power-efficient inference servers for enterprises/neoclouds to run models in their own facilities.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.positron.ai",
+  "hq_city": "Reno",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $375M firm + Series C-1 up to $500M (contingent), Sep 2026, C-1 led by NEA and Jim Clark; ~$5B valuation",
+  "valuation_usd_m": 5000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "NEA",
+   "Jim Clark",
+   "Valor Equity Partners",
+   "Atreides Management",
+   "DFJ Growth",
+   "Fincadia Advisors"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Memory-first LLM inference chips and servers using LPDDR5X instead of HBM",
+  "problem": "HBM/CoWoS supply limits and GPU power costs make self-hosted inference expensive.",
+  "products": [
+   {
+    "name": "Atlas",
+    "category": "system",
+    "description": "Current inference server offering OpenAI-compatible serving at lower power than GPU servers."
+   },
+   {
+    "name": "Asimov",
+    "category": "chip",
+    "description": "Next-gen custom inference ASIC built on commodity LPDDR5X memory."
+   },
+   {
+    "name": "Titan",
+    "category": "system",
+    "description": "Server with 4-8 Asimov chips targeting very large models and long context (specified, not validated)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Avoids HBM entirely, using LPDDR5X for capacity-rich, supply-chain-resilient inference systems.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips",
+   "https://dealroom.co/news/150061-positron-raises-875m-series-c-at-5b-valuation-for-inference-chips/",
+   "https://www.datacenterdynamics.com/en/news/positron-ai-raises-875m-at-a-5bn-valuation-to-support-develop-of-next-generation-hardware/",
+   "https://www.sdxcentral.com/news/former-lambda-groq-alums-secure-875m-to-build-memory-first-ai-inference-chips/"
+  ]
+ },
+ {
+  "id": "privatebox-ai",
+  "name": "PrivateBox AI",
+  "verdict": "out",
+  "verdict_reason": "Cannot be verified: no independent sources found; website unreachable from research session.",
+  "status": "active",
+  "status_detail": "Existence and status unconfirmed",
+  "website": "https://privateboxai.com"
+ },
+ {
+  "id": "puget-systems",
+  "name": "Puget Systems",
+  "verdict": "borderline",
+  "verdict_reason": "Custom workstation/server builder; AI/LLM configurations are generic hardware marketed for local AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.pugetsystems.com",
+  "hq_city": "Auburn",
+  "hq_country": "United States",
+  "founded": 2000,
+  "org_type": "scaleup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Custom high-performance workstations and servers, including AI/ML and LLM inference builds",
+  "problem": "Professionals need reliable, tuned desk-side or rack hardware to run AI models locally.",
+  "products": [
+   {
+    "name": "AI/ML & data science workstations",
+    "category": "system",
+    "description": "Multi-GPU desk-side workstations configured for local training and LLM inference."
+   },
+   {
+    "name": "Rackmount AI servers",
+    "category": "system",
+    "description": "Custom GPU servers for on-prem LLM inference and fine-tuning."
+   },
+   {
+    "name": "Puget Labs benchmarks & consulting",
+    "category": "service",
+    "description": "Hardware testing and configuration guidance for AI and creative workloads."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "smb",
+   "education-research",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Benchmark-driven custom builds with strong support reputation for professional local compute.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "pure-storage",
+  "name": "Pure Storage, Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "All-flash storage vendor; AI-ready on-prem designs support local AI but are not inference products.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.purestorage.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2009,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: PSTG)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "5001-10000",
+  "focus": "All-flash storage and data platforms for enterprise and AI workloads",
+  "problem": "On-prem AI pipelines need fast, scalable storage to keep GPUs fed for training, RAG and inference.",
+  "products": [
+   {
+    "name": "FlashBlade//S and //EXA",
+    "category": "system",
+    "description": "Scale-out all-flash file/object storage for AI training and inference clusters."
+   },
+   {
+    "name": "AIRI",
+    "category": "system",
+    "description": "Converged AI-ready infrastructure with NVIDIA DGX and Pure storage."
+   },
+   {
+    "name": "GenAI Pod",
+    "category": "system",
+    "description": "Turnkey on-prem full-stack design for deploying generative AI and RAG."
+   },
+   {
+    "name": "Key Value Accelerator",
+    "category": "platform",
+    "description": "Storage-based KV-cache offload for faster LLM inference."
+   },
+   {
+    "name": "Portworx",
+    "category": "platform",
+    "description": "Kubernetes data management for containerized AI workloads."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Evergreen subscription all-flash platform with NVIDIA-certified AI reference architectures.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "quanta-cloud-technology-qct",
+  "name": "Quanta Cloud Technology Inc. (QCT)",
+  "verdict": "borderline",
+  "verdict_reason": "Server OEM supplying generic NVIDIA-based AI platforms to enterprises, telcos and sovereign clouds.",
+  "status": "active",
+  "status_detail": "Subsidiary of Quanta Computer",
+  "parent": "Quanta Computer Inc.",
+  "website": "https://www.qct.io",
+  "hq_city": null,
+  "hq_country": "Taiwan",
+  "founded": 2012,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Subsidiary of Quanta Computer (TWSE: 2382)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "1001-5000",
+  "focus": "Datacenter, AI and edge servers, storage and rack solutions",
+  "problem": "Enterprises and telcos need validated AI server platforms for their own datacenters and edge sites.",
+  "products": [
+   {
+    "name": "QuantaGrid AI servers",
+    "category": "system",
+    "description": "NVIDIA HGX/MGX-based GPU servers for training and inference."
+   },
+   {
+    "name": "QCT GB200/GB300 NVL72 racks",
+    "category": "system",
+    "description": "Rack-scale NVIDIA Grace Blackwell systems for AI factories."
+   },
+   {
+    "name": "QuantaEdge servers",
+    "category": "system",
+    "description": "Short-depth edge servers for telco and on-site AI inference."
+   },
+   {
+    "name": "QCT POD",
+    "category": "platform",
+    "description": "Pre-validated cluster solution with management software for AI/HPC."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "ODM-scale manufacturing selling direct hyperscale-style AI servers to enterprises and telcos.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "rebellions",
+  "name": "Rebellions Inc.",
+  "verdict": "in",
+  "verdict_reason": "Inference NPUs, RebelRack/RebelPOD systems for sovereign and enterprise on-prem datacenters.",
+  "status": "active",
+  "status_detail": "Merged with SK Telecom's SAPEON Korea (2024); pre-IPO",
+  "parent": null,
+  "website": "https://rebellions.ai",
+  "hq_city": "Seongnam",
+  "hq_country": "South Korea",
+  "founded": 2020,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 850,
+  "last_round": "Pre-IPO, $400M, Mar 2026, led by Mirae Asset Financial Group and Korea National Growth Fund (~$2.34B valuation)",
+  "valuation_usd_m": 2340,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Mirae Asset Financial Group",
+   "Korea National Growth Fund",
+   "Arm",
+   "Samsung",
+   "SK Telecom",
+   "KT",
+   "Aramco Wa'ed Ventures",
+   "Korea Development Bank"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Energy-efficient datacenter AI inference NPUs and rack-scale systems",
+  "problem": "Sovereign and enterprise datacenters need non-NVIDIA, power-efficient inference compute.",
+  "products": [
+   {
+    "name": "ATOM / ATOM-Max",
+    "category": "chip",
+    "description": "Inference NPU and PCIe cards deployed in Korean clouds and enterprise datacenters."
+   },
+   {
+    "name": "REBEL / Rebel100",
+    "category": "chip",
+    "description": "Chiplet-based next-gen NPU with HBM for LLM inference."
+   },
+   {
+    "name": "RebelRack",
+    "category": "system",
+    "description": "Vertically integrated NPU rack for deployable inference datacenters."
+   },
+   {
+    "name": "RebelPOD",
+    "category": "system",
+    "description": "Multi-rack inference pod platform for large-scale deployments."
+   },
+   {
+    "name": "RBLN SDK",
+    "category": "sdk",
+    "description": "Compiler and runtime supporting PyTorch, vLLM and Hugging Face models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "telecom",
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [
+   "Samsung Foundry",
+   "SK Telecom",
+   "KT",
+   "Arm",
+   "Red Hat"
+  ],
+  "notable_customers": [
+   "KT Cloud",
+   "SK Telecom"
+  ],
+  "differentiator": "Korea's leading NPU unicorn with national backing and production deployments in telco clouds.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+   "https://dealroom.co/news/127104-rebellions-raises-400m-pre-ipo-round-at-2-34b-valuation-launches-two-ai/",
+   "https://siliconangle.com/2026/03/30/rebellions-inc-lands-400m-funding-lead-south-korean-revolt-nvidia-chips/",
+   "https://www.koreatimes.co.kr/business/tech-science/20260805/korean-npu-makers-seek-track-records-ahead-of-potential-ipos"
+  ]
+ },
+ {
+  "id": "saal-ai",
+  "name": "SAAL.ai",
+  "verdict": "in",
+  "verdict_reason": "Markets on-prem sovereign AI-in-a-box offerings (SovereignGPT with Nutanix; UAE-built box with Kerno).",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://saal.ai",
+  "hq_city": "Abu Dhabi",
+  "hq_country": "United Arab Emirates",
+  "founded": null,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Sovereign AI platforms and on-prem generative AI appliances for UAE government and enterprise",
+  "problem": "Regulated UAE entities cannot send sensitive data to foreign public-cloud AI services.",
+  "products": [
+   {
+    "name": "SovereignGPT",
+    "category": "platform",
+    "description": "Agentic on-prem generative AI platform on Nutanix certified AI-in-a-Box architecture."
+   },
+   {
+    "name": "Sovereign AI-in-a-Box (with Kerno)",
+    "category": "system",
+    "description": "UAE-engineered and manufactured integrated appliance with compute, OS, containers and models."
+   },
+   {
+    "name": "DigiXT",
+    "category": "platform",
+    "description": "Data and analytics platform underpinning SAAL.ai enterprise AI solutions."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "healthcare",
+   "finance"
+  ],
+  "partners": [
+   "Nutanix",
+   "Kerno"
+  ],
+  "notable_customers": [],
+  "differentiator": "UAE-built end-to-end sovereign AI appliance, engineered and supported domestically.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://gulfnews.com/business/corporate-news/kerno-and-saalai-unveil-uae-built-sovereign-ai-in-a-box-1.500704548",
+   "https://www.zawya.com/en/press-release/companies-news/saalai-and-nutanix-introduce-sovereigngpt-at-abu-dhabi-launch-event-marking-a-breakthrough-in-secure-ai-innovation-anvzi389",
+   "https://www.the-sourcecode.com/ai-tech/saalai-and-nutanix-partner-on-sovereigngpt-for-on-premise-generative-ai-in-the-uae"
+  ]
+ },
+ {
+  "id": "salience-labs",
+  "name": "Salience Labs Ltd",
+  "verdict": "borderline",
+  "verdict_reason": "Photonic optical-switching chips for AI datacenter networks; generic AI infrastructure, indirect local role.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://saliencelabs.ai",
+  "hq_city": "Oxford",
+  "hq_country": "United Kingdom",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, $125M, Oct 2026, led by Bullhound Capital (AMD Ventures, Intel Capital participating)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bullhound Capital",
+   "AMD Ventures",
+   "Intel Capital",
+   "ICM HPQC Fund",
+   "Applied Ventures",
+   "Oxford Science Enterprises",
+   "Cambridge Innovation Capital"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Silicon-photonic optical circuit switching for AI datacenter interconnect",
+  "problem": "Electrical packet switching adds power and latency as AI clusters scale.",
+  "products": [
+   {
+    "name": "64-port all-optical photonic switch",
+    "category": "chip",
+    "description": "Silicon photonics optical circuit switch demonstrated at ECOC 2026."
+   },
+   {
+    "name": "Photonic networking chips",
+    "category": "chip",
+    "description": "SOA-based photonic switching silicon for scale-up/scale-out AI networks."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "silicon"
+  ],
+  "modalities": [
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "AMD",
+   "Intel",
+   "Applied Materials"
+  ],
+  "notable_customers": [],
+  "differentiator": "Semiconductor-optical-amplifier-based photonic switching enabling fast all-optical circuit switching.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://optics.org/news/uks-salience-labs-adds-125m-series-b",
+   "https://www.optica-opn.org/home/industry/2026/october/salience_labs_raises_us$125_million_to_go_all-optical/",
+   "https://www.businesswire.com/news/home/20250207290130/en",
+   "https://www.cbinsights.com/company/salience-labs/financials"
+  ]
+ },
+ {
+  "id": "sambanova-systems",
+  "name": "SambaNova Systems, Inc.",
+  "verdict": "in",
+  "verdict_reason": "RDU chips and SambaRack systems sold for on-prem and sovereign enterprise LLM inference.",
+  "status": "active",
+  "status_detail": "Intel acquisition talks (~$1.6B) collapsed Jan 2026; replaced by partnership and Intel stake (~8.2%)",
+  "parent": null,
+  "website": "https://sambanova.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": "$350M+ round, Feb 2026, led by Vista Equity Partners and Cambium Capital, Intel Capital participating",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Vista Equity Partners",
+   "Cambium Capital",
+   "Intel Capital",
+   "SoftBank Vision Fund 2",
+   "BlackRock",
+   "GV",
+   "Temasek",
+   "GIC",
+   "Walden International"
+  ],
+  "employees": null,
+  "employees_band": "201-500",
+  "focus": "Reconfigurable dataflow chips and full-stack systems for fast, efficient LLM inference",
+  "problem": "Enterprises need fast multi-model LLM inference they can run privately at lower power than GPUs.",
+  "products": [
+   {
+    "name": "SN50 RDU",
+    "category": "chip",
+    "description": "2026 reconfigurable dataflow unit aimed at agentic AI inference."
+   },
+   {
+    "name": "SN40L RDU",
+    "category": "chip",
+    "description": "Dataflow chip with three-tier memory for serving many large models."
+   },
+   {
+    "name": "SambaRack",
+    "category": "system",
+    "description": "Air-cooled inference rack for on-prem and sovereign datacenters."
+   },
+   {
+    "name": "SambaNova Suite / SambaStack",
+    "category": "platform",
+    "description": "Full-stack software for deploying open models on SambaNova hardware privately."
+   },
+   {
+    "name": "SambaManaged",
+    "category": "service",
+    "description": "Managed inference service deployed in customer or partner datacenters."
+   },
+   {
+    "name": "SambaNova Cloud",
+    "category": "platform",
+    "description": "Hosted inference API on RDU hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "code",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research",
+   "finance",
+   "telecom"
+  ],
+  "partners": [
+   "Intel",
+   "SoftBank Corp."
+  ],
+  "notable_customers": [
+   "SoftBank Corp.",
+   "Argonne National Laboratory",
+   "Lawrence Livermore National Laboratory"
+  ],
+  "differentiator": "Dataflow architecture with large tiered memory serving many models per rack at high tokens/s.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://siliconangle.com/2026/02/24/sambanova-steps-challenge-nvidia-new-chip-350m-funding-powerful-ally-intel/",
+   "https://www.intelcapital.com/sambanova-unveils-fastest-chip-for-agentic-ai-collaborates-with-intel-and-raises-350m/",
+   "https://www.bloomberg.com/news/articles/2026-01-22/sambanova-drawing-more-large-investors-intel-interest-ceo-says",
+   "https://www.jonpeddie.com/news/ok-no-wedding-but-can-we-still-date/",
+   "https://finance.yahoo.com/sectors/technology/articles/intel-investment-sambanova-gets-us-080234028.html"
+  ]
+ },
+ {
+  "id": "spinncloud-systems",
+  "name": "Sparxity (formerly SpiNNcloud Systems GmbH)",
+  "verdict": "in",
+  "verdict_reason": "Sells SpiNNaker2-based neuromorphic/sparse AI systems installed on-prem at research and enterprise sites.",
+  "status": "active",
+  "status_detail": "Renamed Sparxity (2026)",
+  "parent": null,
+  "website": "https://spinncloud.com",
+  "hq_city": "Dresden",
+  "hq_country": "Germany",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 90,
+  "last_round": "Series A, amount undisclosed, Nov 2026, led by ICM HPQC Fund (Lockheed Martin Ventures, GlobalFoundries); $90M cumulative",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "ICM HPQC Fund",
+   "Lockheed Martin Ventures",
+   "GlobalFoundries",
+   "EIC Fund"
+  ],
+  "employees": null,
+  "employees_band": "51-200",
+  "focus": "Brain-inspired, sparsity-native AI supercomputers and chips for efficient inference",
+  "problem": "Dense GPU computing wastes energy on sparse AI workloads in on-prem datacenters.",
+  "products": [
+   {
+    "name": "SpiNNaker2 systems",
+    "category": "system",
+    "description": "Neuromorphic supercomputer systems (e.g., TU Dresden, Jülich JUBIS) for event-based and sparse AI."
+   },
+   {
+    "name": "SpiNNext",
+    "category": "chip",
+    "description": "Next-gen chip with native dynamic-sparsity support targeting up to 44x faster sparse inference."
+   },
+   {
+    "name": "SpiNNaker2 software stack",
+    "category": "sdk",
+    "description": "Tools to map neural networks and sparse models onto SpiNNaker2 hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "education-research",
+   "government-defense",
+   "telecom",
+   "enterprise"
+  ],
+  "partners": [
+   "TU Dresden",
+   "GlobalFoundries",
+   "Deutsche Telekom"
+  ],
+  "notable_customers": [
+   "Jülich Supercomputing Centre",
+   "TU Dresden",
+   "Sandia National Laboratories"
+  ],
+  "differentiator": "Commercializes SpiNNaker2 brain-inspired architecture with hardware-native dynamic sparsity.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://thenextweb.com/news/dresden-sparxity-series-a-90m",
+   "https://www.hpcwire.com/off-the-wire/sparxity-closes-series-a-bringing-total-funding-to-90m/",
+   "https://eic.ec.europa.eu/impact/spinncloud_en",
+   "https://ebrains.eu/news-and-events/2025/brain-tech-in-action-german-spinncloud-computing-startup-secures-funding-of-10",
+   "https://tu-dresden.de/tu-dresden/newsportal/news/milestone-for-energy-efficient-ai-systems-tud-launches-spinncloud-supercomputer?set_language=en"
+  ]
+ }
+]
