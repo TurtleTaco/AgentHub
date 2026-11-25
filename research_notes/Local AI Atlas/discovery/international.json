@@ -1,0 +1,2705 @@
+[
+  {
+    "name": "Cohere",
+    "website": "https://cohere.com",
+    "hq_country": "Canada",
+    "one_liner": "Enterprise LLM company (Command models, North agent platform) focused on regulated sectors.",
+    "local_ai_angle": "Deploys models and North platform in private cloud, on-prem and air-gapped environments; merging with Aleph Alpha.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active (combination with Aleph Alpha signed Sept 2026, pending approvals)",
+    "sources": [
+      "https://cohere.com",
+      "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai"
+    ]
+  },
+  {
+    "name": "Shakudo",
+    "website": "https://www.shakudo.io",
+    "hq_country": "Canada",
+    "one_liner": "Operating system for data and AI stacks, bundling open-source tools and LLMs.",
+    "local_ai_angle": "Installs the full AI stack inside the customer's own cloud VPC or on-prem infrastructure.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.shakudo.io"
+    ]
+  },
+  {
+    "name": "Tenstorrent",
+    "website": "https://tenstorrent.com",
+    "hq_country": "Canada",
+    "one_liner": "RISC-V and AI processor company (Wormhole, Blackhole) with open-source software stack.",
+    "local_ai_angle": "Sells AI cards, workstations and servers customers run on-prem; licenses IP for edge chips. Dual Toronto/Santa Clara presence.",
+    "segment": "onprem-hardware",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://tenstorrent.com"
+    ]
+  },
+  {
+    "name": "Taalas",
+    "website": "https://taalas.com",
+    "hq_country": "Canada",
+    "one_liner": "Toronto chip startup hard-wiring specific AI models into silicon for inference.",
+    "local_ai_angle": "Model-specific inference chips aim to make dense, low-cost self-hosted inference hardware.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://taalas.com"
+    ]
+  },
+  {
+    "name": "Untether AI",
+    "website": "https://www.untether.ai",
+    "hq_country": "Canada",
+    "one_liner": "At-memory compute inference chips (speedAI, tsunAImi) for edge and datacenter.",
+    "local_ai_angle": "Built low-power inference accelerators for edge and on-prem deployment.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "defunct (engineering team acqui-hired by AMD, 2025; products discontinued)",
+    "sources": [
+      "https://www.tomshardware.com/tech-industry/amd-scoops-entire-untether-ai-chip-team-canada-ai-inference-outfit-will-cease-product-support",
+      "https://www.hpcwire.com/off-the-wire/untether-ai-team-acquired-by-amd-product-support-discontinued/"
+    ]
+  },
+  {
+    "name": "Blumind",
+    "website": null,
+    "hq_country": "Canada",
+    "one_liner": "Ottawa analog AI chip maker for ultra-low-power always-on edge inference.",
+    "local_ai_angle": "Analog inference chips (BM110) for wearables and battery devices run AI fully on-device.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techsoda.substack.com/p/canadian-startup-blumind-to-release",
+      "https://tech-insider.org/ca/blumind-bm110-evaluation-kit-analog-ai-chip-ottawa-2026/"
+    ]
+  },
+  {
+    "name": "Applied Brain Research",
+    "website": "https://www.appliedbrainresearch.com",
+    "hq_country": "Canada",
+    "one_liner": "Waterloo company behind TSP1 time-series/speech processor chip and state-space models.",
+    "local_ai_angle": "Sub-35mW chip runs speech recognition and voice interfaces locally without cloud.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://yespress.io/applied-brain-research",
+      "https://www.appliedbrainresearch.com"
+    ]
+  },
+  {
+    "name": "Picovoice",
+    "website": "https://picovoice.ai",
+    "hq_country": "Canada",
+    "one_liner": "On-device voice AI platform: wake word, speech-to-text, TTS and picoLLM.",
+    "local_ai_angle": "SDKs run speech and compressed LLMs entirely on device across mobile, web, embedded.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://picovoice.ai",
+      "https://www.digitimes.com/news/a20250505PR208.html?chid=9"
+    ]
+  },
+  {
+    "name": "Private AI",
+    "website": "https://www.private-ai.com",
+    "hq_country": "Canada",
+    "one_liner": "Toronto company detecting and redacting PII in text, audio and documents.",
+    "local_ai_angle": "Ships as containers customers run in their own environment so sensitive data never leaves.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.private-ai.com"
+    ]
+  },
+  {
+    "name": "DarwinAI",
+    "website": "https://darwinai.com",
+    "hq_country": "Canada",
+    "one_liner": "Waterloo startup for AI model compression and visual inspection in manufacturing.",
+    "local_ai_angle": "Shrank neural networks for efficient edge deployment; technology absorbed into Apple's on-device AI.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "acquired by Apple (2024)",
+    "sources": [
+      "https://darwinai.com",
+      "https://tech-insider.org/ca/?p=3478"
+    ]
+  },
+  {
+    "name": "Deeplite",
+    "website": "https://www.deeplite.ai",
+    "hq_country": "Canada",
+    "one_liner": "Montreal startup optimizing deep learning models for low-power edge devices.",
+    "local_ai_angle": "Compression and low-bit inference runtime for running vision AI on CPUs and MCUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.deeplite.ai"
+    ]
+  },
+  {
+    "name": "Fluent.ai",
+    "website": "https://fluent.ai",
+    "hq_country": "Canada",
+    "one_liner": "Montreal speech-understanding company for voice commands.",
+    "local_ai_angle": "Offline, on-device speech-to-intent models for embedded devices and hearables.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://fluent.ai"
+    ]
+  },
+  {
+    "name": "Graphcore",
+    "website": "https://www.graphcore.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Bristol maker of Intelligence Processing Units (IPUs) for AI compute.",
+    "local_ai_angle": "IPU systems sold for on-prem AI training/inference; now part of SoftBank's AI hardware push.",
+    "segment": "onprem-hardware",
+    "type": "subsidiary",
+    "status": "acquired by SoftBank (2024)",
+    "sources": [
+      "https://www.graphcore.ai"
+    ]
+  },
+  {
+    "name": "Fractile",
+    "website": "https://www.fractile.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "London in-memory-compute chip startup targeting much faster, cheaper LLM inference.",
+    "local_ai_angle": "Inference chips for operator-owned datacenters; sovereign European inference hardware alternative.",
+    "segment": "onprem-hardware",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://finance.yahoo.com/sectors/technology/articles/uk-chip-startup-fractile-raises-090729157.html",
+      "https://sifted.eu/articles/european-chips-funding-almost-quadruples-as-investors-back-nvidias-inference-challengers/"
+    ]
+  },
+  {
+    "name": "Speechmatics",
+    "website": "https://www.speechmatics.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Cambridge speech recognition and voice AI company covering 50+ languages.",
+    "local_ai_angle": "Offers on-prem containers and on-device deployment alongside cloud APIs.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.speechmatics.com"
+    ]
+  },
+  {
+    "name": "Plumerai",
+    "website": "https://plumerai.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "London 'Tiny AI' company for people/face detection in smart cameras.",
+    "local_ai_angle": "Runs accurate vision models on microcontrollers and camera SoCs entirely on-device.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2025/09/16/plumerai-raises-87m-series-a-to-scale-tiny-ai-for-cameras/"
+    ]
+  },
+  {
+    "name": "Arm",
+    "website": "https://www.arm.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "CPU and NPU IP licensor behind most mobile and embedded processors.",
+    "local_ai_angle": "Ethos NPUs, KleidiAI libraries and CPU IP power on-device AI in phones, PCs, IoT.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active (majority-owned by SoftBank)",
+    "sources": [
+      "https://www.arm.com"
+    ]
+  },
+  {
+    "name": "Imagination Technologies",
+    "website": "https://www.imaginationtech.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "GPU and AI accelerator IP licensor for mobile, automotive and consumer chips.",
+    "local_ai_angle": "GPU/NPU IP enables on-device inference in edge SoCs.",
+    "segment": "edge-silicon",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.imaginationtech.com"
+    ]
+  },
+  {
+    "name": "XMOS",
+    "website": "https://www.xmos.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Bristol fabless company making xcore multicore processors for audio and edge AI.",
+    "local_ai_angle": "Low-cost processors run voice and sensor AI locally on devices.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.xmos.com"
+    ]
+  },
+  {
+    "name": "Locai",
+    "website": "https://www.locai.co.uk",
+    "hq_country": "United Kingdom",
+    "one_liner": "London deep-tech startup building off-cloud AI infrastructure.",
+    "local_ai_angle": "Moves inference from cloud APIs onto user-owned hardware for fixed, predictable costs.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.uktech.news/ai/locai-raises-1m-to-develop-its-off-cloud-ai-infrastructure-20260422",
+      "https://www.locai.co.uk/blog/press-release-locai-raises-1m-to-free-ai-companies-from-big-"
+    ]
+  },
+  {
+    "name": "Stanhope AI",
+    "website": null,
+    "hq_country": "United Kingdom",
+    "one_liner": "UCL/King's spinout building adaptive 'active inference' AI for robotics and defence.",
+    "local_ai_angle": "Models designed to run on-device with minimal data and energy.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://thenextweb.com/news/stanhope-ai-raises-8m-to-build-adaptive-ai-for-robotics-and-defence"
+    ]
+  },
+  {
+    "name": "Edgify",
+    "website": "https://www.edgify.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Distributed edge AI for retail self-checkouts and in-store cameras.",
+    "local_ai_angle": "Runs inference and federated training on store devices instead of cloud.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://dealroom.co/news/143996-edgify-raises-9m-to-run-ai-inside-store-checkouts-and-cameras/"
+    ]
+  },
+  {
+    "name": "Literal Labs",
+    "website": "https://www.literal-labs.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Newcastle startup commercializing Tsetlin-machine, logic-based AI.",
+    "local_ai_angle": "Logic-based models run fast, explainable inference on microcontrollers and edge CPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.literal-labs.ai"
+    ]
+  },
+  {
+    "name": "Lumai",
+    "website": null,
+    "hq_country": "United Kingdom",
+    "one_liner": "Oxford University spinout building optical (free-space photonic) AI compute.",
+    "local_ai_angle": "Optical inference accelerators aim at low-power AI compute in operator-owned datacenters.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": []
+  },
+  {
+    "name": "Salience Labs",
+    "website": "https://saliencelabs.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Oxford photonic chip startup for AI and networking.",
+    "local_ai_angle": "Photonic processing aims to cut energy for AI compute in private datacenters.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://saliencelabs.ai"
+    ]
+  },
+  {
+    "name": "Myrtle.ai",
+    "website": "https://myrtle.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Cambridge company offering ultra-low-latency ML inference on FPGAs and accelerators (VOLLO).",
+    "local_ai_angle": "Inference engine deployed in customers' own servers, e.g. trading firms' colocated racks.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://myrtle.ai"
+    ]
+  },
+  {
+    "name": "Seldon",
+    "website": "https://www.seldon.io",
+    "hq_country": "United Kingdom",
+    "one_liner": "London MLOps company behind Seldon Core model serving on Kubernetes.",
+    "local_ai_angle": "Lets enterprises serve and monitor models, including LLMs, on their own clusters.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.seldon.io"
+    ]
+  },
+  {
+    "name": "Mind Foundry",
+    "website": "https://www.mindfoundry.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Oxford AI company for high-stakes public sector, defence and insurance applications.",
+    "local_ai_angle": "Deploys AI in secure, on-prem and classified environments.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.mindfoundry.ai"
+    ]
+  },
+  {
+    "name": "Ori Industries",
+    "website": "https://www.ori.co",
+    "hq_country": "United Kingdom",
+    "one_liner": "London GPU cloud and AI infrastructure software company.",
+    "local_ai_angle": "Ori platform lets operators and enterprises run private/sovereign AI clouds on their own GPUs.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.ori.co"
+    ]
+  },
+  {
+    "name": "Mistral AI",
+    "website": "https://mistral.ai",
+    "hq_country": "France",
+    "one_liner": "Paris foundation-model lab with open-weight and commercial models plus Le Chat Enterprise.",
+    "local_ai_angle": "Sells self-hosted/on-prem deployments on customer GPU clusters; Ministral edge models.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://mistral.ai",
+      "https://sacra.com/chat/h/1df259c3-0150-468a-bb1d-e6db821d0663/",
+      "https://www.intelligentcio.com/me/2026/08/25/mistral-and-humain-announce-strategic-collaboration-to-advance-sovereign-ai-in-saudi-arabia/"
+    ]
+  },
+  {
+    "name": "LightOn",
+    "website": "https://www.lighton.ai",
+    "hq_country": "France",
+    "one_liner": "Paris GenAI company offering the Paradigm enterprise AI platform.",
+    "local_ai_angle": "Paradigm deploys on-prem or in sovereign clouds for sensitive enterprise data.",
+    "segment": "private-ai-platforms",
+    "type": "public",
+    "status": "active (Euronext Growth listed)",
+    "sources": [
+      "https://www.lighton.ai"
+    ]
+  },
+  {
+    "name": "Kyutai",
+    "website": "https://kyutai.org",
+    "hq_country": "France",
+    "one_liner": "Non-profit open AI research lab (Moshi, Hibiki, Unmute speech models).",
+    "local_ai_angle": "Releases open-weight speech/LLM models that run locally, including on-device.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://kyutai.org"
+    ]
+  },
+  {
+    "name": "Pleias",
+    "website": "https://pleias.fr",
+    "hq_country": "France",
+    "one_liner": "Paris lab training small open LLMs on openly licensed data.",
+    "local_ai_angle": "Small models designed for local RAG and on-device use in regulated settings.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pleias.fr"
+    ]
+  },
+  {
+    "name": "Pruna AI",
+    "website": "https://www.pruna.ai",
+    "hq_country": "France",
+    "one_liner": "Model optimization framework compressing and accelerating AI models.",
+    "local_ai_angle": "Makes image/LLM models smaller and faster to run on own GPUs or edge devices.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.pruna.ai"
+    ]
+  },
+  {
+    "name": "GreenWaves Technologies",
+    "website": "https://greenwaves-technologies.com",
+    "hq_country": "France",
+    "one_liner": "Grenoble fabless maker of GAP ultra-low-power RISC-V AI processors.",
+    "local_ai_angle": "Enables audio/vision AI on battery-powered hearables and IoT devices.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://greenwaves-technologies.com"
+    ]
+  },
+  {
+    "name": "Prophesee",
+    "website": "https://www.prophesee.ai",
+    "hq_country": "France",
+    "one_liner": "Paris maker of event-based neuromorphic vision sensors and software.",
+    "local_ai_angle": "Sensor-level, low-power vision processing for edge devices and wearables.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.prophesee.ai"
+    ]
+  },
+  {
+    "name": "VSORA",
+    "website": "https://vsora.com",
+    "hq_country": "France",
+    "one_liner": "Paris fabless company building high-efficiency AI inference chips (Jotunn8).",
+    "local_ai_angle": "Inference accelerators for datacenter and edge, a European on-prem hardware option.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://vsora.com"
+    ]
+  },
+  {
+    "name": "ZML",
+    "website": "https://zml.ai",
+    "hq_country": "France",
+    "one_liner": "Paris company building an open-source, high-performance ML inference framework.",
+    "local_ai_angle": "Runs models efficiently across NVIDIA, AMD, TPU and other accelerators on own infrastructure.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://zml.ai"
+    ]
+  },
+  {
+    "name": "LM-Kit",
+    "website": "https://lm-kit.com",
+    "hq_country": "France",
+    "one_liner": "SDK and server (LM-Kit One) for local LLM inference and agents in .NET.",
+    "local_ai_angle": "Self-contained on-prem server and SDK keep inference on local hardware.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://lm-kit.com",
+      "https://briefglance.com/articles/lm-kit-one-launches-offering-enterprises-an-ai-lifeline-to-data-sovereignty"
+    ]
+  },
+  {
+    "name": "Mipsology",
+    "website": "https://mipsology.com",
+    "hq_country": "France",
+    "one_liner": "FPGA-based neural network inference acceleration software (Zebra).",
+    "local_ai_angle": "Accelerated inference on FPGA cards in on-prem and edge servers.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "acquired by AMD (2023)",
+    "sources": [
+      "https://mipsology.com"
+    ]
+  },
+  {
+    "name": "Aleph Alpha",
+    "website": "https://aleph-alpha.com",
+    "hq_country": "Germany",
+    "one_liner": "Heidelberg sovereign AI company offering the PhariaAI enterprise/government stack.",
+    "local_ai_angle": "PhariaAI deploys on-prem and in sovereign clouds for public sector and regulated firms.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active (combining with Cohere; definitive agreement Sept 2026, pending)",
+    "sources": [
+      "https://aleph-alpha.com",
+      "https://siliconangle.com/2026/09/16/cohere-and-aleph-alpha-agree-to-merge-in-reported-20b-deal/",
+      "https://thelogic.co/news/cohere-aleph-alpha-merger-sovereign-ai/"
+    ]
+  },
+  {
+    "name": "Black Forest Labs",
+    "website": "https://bfl.ai",
+    "hq_country": "Germany",
+    "one_liner": "Freiburg image-generation lab behind the FLUX model family.",
+    "local_ai_angle": "Open-weight FLUX models (dev/schnell/Kontext) run locally on consumer and enterprise GPUs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://bfl.ai"
+    ]
+  },
+  {
+    "name": "Edgeless Systems",
+    "website": "https://www.edgeless.systems",
+    "hq_country": "Germany",
+    "one_liner": "Bochum confidential-computing company (Constellation, Continuum, Privatemode AI).",
+    "local_ai_angle": "Confidential AI keeps prompts encrypted in use; deployable in own datacenter or cloud.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.edgeless.systems"
+    ]
+  },
+  {
+    "name": "nyonic",
+    "website": "https://nyonic.ai",
+    "hq_country": "Germany",
+    "one_liner": "Berlin startup building European foundation models for industry (Wonton).",
+    "local_ai_angle": "Industrial LLMs aimed at sovereign, on-prem enterprise deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://nyonic.ai"
+    ]
+  },
+  {
+    "name": "deepset",
+    "website": "https://www.deepset.ai",
+    "hq_country": "Germany",
+    "one_liner": "Berlin company behind open-source Haystack and the deepset AI platform.",
+    "local_ai_angle": "Haystack and enterprise platform run in VPC or on-prem for RAG and agents.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.deepset.ai"
+    ]
+  },
+  {
+    "name": "Langdock",
+    "website": "https://www.langdock.com",
+    "hq_country": "Germany",
+    "one_liner": "Berlin enterprise AI workspace for chat, assistants and agents.",
+    "local_ai_angle": "Model-agnostic workspace with EU hosting and self-hosted deployment options.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.langdock.com",
+      "https://www.starting-up.de/news/news-investments/berliner-ki-plattform-langdock-sammelt-3-mio-usd-ein.html"
+    ]
+  },
+  {
+    "name": "amber",
+    "website": null,
+    "hq_country": "Germany",
+    "one_liner": "Aachen startup selling a sovereign AI data layer to German Mittelstand firms.",
+    "local_ai_angle": "Keeps company data and AI processing under customer/European control.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://thenextweb.com/news/amber-series-a-7m-ventech-nrw-bank-ai-data-layer"
+    ]
+  },
+  {
+    "name": "INXM",
+    "website": null,
+    "hq_country": "Germany",
+    "one_liner": "Berlin startup for on-premise AI automation in European enterprises.",
+    "local_ai_angle": "Automation agents run on customers' own infrastructure.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://ai-radar.it/article/inxm-raccoglie-57-milioni-di-euro-per-l-automazione-ai-on-premise-nelle-imprese-europee?lang=en"
+    ]
+  },
+  {
+    "name": "Blockbrain",
+    "website": null,
+    "hq_country": "Germany",
+    "one_liner": "German GenAI startup building enterprise-grade AI agents.",
+    "local_ai_angle": "Positions as sovereign European agent platform for enterprise data (deployment detail unverified).",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://bebeez.eu/2026/02/12/german-genai-startup-blockbrain-lands-e17-5-million-to-advance-enterprise-grade-ai-agents/"
+    ]
+  },
+  {
+    "name": "Noxtua (formerly Xayn)",
+    "website": "https://www.noxtua.com",
+    "hq_country": "Germany",
+    "one_liner": "Berlin sovereign legal AI company backed by C.H.Beck.",
+    "local_ai_angle": "Privacy-first legal AI with sovereign/private deployment for law firms.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2025/04/25/xayn-secures-80m-to-build-europe-s-privacy-first-legal-ai-backed-by-c-h-beck/"
+    ]
+  },
+  {
+    "name": "Jina AI",
+    "website": "https://jina.ai",
+    "hq_country": "Germany",
+    "one_liner": "Berlin search-foundation model company (embeddings, rerankers, reader models).",
+    "local_ai_angle": "Open-weight embedding/reranker models widely self-hosted for local RAG.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by Elastic (2025)",
+    "sources": [
+      "https://jina.ai"
+    ]
+  },
+  {
+    "name": "SpiNNcloud Systems",
+    "website": "https://spinncloud.com",
+    "hq_country": "Germany",
+    "one_liner": "Dresden company commercializing SpiNNaker2 neuromorphic supercomputers.",
+    "local_ai_angle": "Neuromorphic hardware for energy-efficient on-prem AI inference.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://eic.ec.europa.eu/impact/spinncloud_en"
+    ]
+  },
+  {
+    "name": "SEMRON",
+    "website": "https://www.semron.ai",
+    "hq_country": "Germany",
+    "one_liner": "Dresden startup building 3D analog in-memory compute chips.",
+    "local_ai_angle": "Aims to fit large models into mobile devices for on-device inference.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.semron.ai"
+    ]
+  },
+  {
+    "name": "ellamind",
+    "website": "https://ellamind.com",
+    "hq_country": "Germany",
+    "one_liner": "Bremen startup building and evaluating European/German LLMs; OpenEuroLLM partner.",
+    "local_ai_angle": "Develops open models and fine-tunes for sovereign, self-hosted enterprise use.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://ellamind.com",
+      "https://www.computerwoche.de/article/3815387/openeurollm-soll-europas-ki-souveranitat-starken.html"
+    ]
+  },
+  {
+    "name": "Helsing",
+    "website": "https://helsing.ai",
+    "hq_country": "Germany",
+    "one_liner": "Munich defence AI company (software, drones, sensor fusion).",
+    "local_ai_angle": "AI runs on military platforms at the tactical edge, disconnected from cloud.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://helsing.ai"
+    ]
+  },
+  {
+    "name": "Flower Labs",
+    "website": "https://flower.ai",
+    "hq_country": "Germany",
+    "one_liner": "Company behind Flower, the open-source federated learning framework.",
+    "local_ai_angle": "Trains and fine-tunes models across devices/sites without centralizing data.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://flower.ai"
+    ]
+  },
+  {
+    "name": "Infineon (PSOC Edge / Imagimob)",
+    "website": "https://www.infineon.com",
+    "hq_country": "Germany",
+    "one_liner": "Semiconductor major with AI-enabled PSOC Edge MCUs and Imagimob tinyML tools.",
+    "local_ai_angle": "MCUs with NPUs plus tooling run ML models on embedded devices.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.infineon.com"
+    ]
+  },
+  {
+    "name": "Siemens Industrial Edge",
+    "website": "https://www.siemens.com",
+    "hq_country": "Germany",
+    "one_liner": "Siemens platform for running apps and AI on factory edge devices.",
+    "local_ai_angle": "Deploys and manages AI models on shop-floor edge hardware.",
+    "segment": "industrial-edge",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.siemens.com"
+    ]
+  },
+  {
+    "name": "NXAI",
+    "website": "https://www.nx-ai.com",
+    "hq_country": "Austria",
+    "one_liner": "Linz company commercializing xLSTM architecture from Sepp Hochreiter.",
+    "local_ai_angle": "Efficient xLSTM models target fast, low-memory inference on edge and industrial devices.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.nx-ai.com"
+    ]
+  },
+  {
+    "name": "Ablatic AI",
+    "website": null,
+    "hq_country": "Austria",
+    "one_liner": "JKU Linz spin-off developing the European LLM 'Talos' for regulated sectors.",
+    "local_ai_angle": "Sovereign model intended for controlled, compliant deployments.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.jku.at/en/quanta/detail/news/jku-spin-off-ablatic-ai-develops-european-ai-language-model/"
+    ]
+  },
+  {
+    "name": "Axelera AI",
+    "website": "https://axelera.ai",
+    "hq_country": "Netherlands",
+    "one_liner": "Eindhoven maker of Metis AIPU edge inference chips, cards and systems.",
+    "local_ai_angle": "Runs vision and GenAI inference on cameras, PCs and edge servers; Titania chiplet.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://dealroom.co/news/126111-axelera-ai-raises-250m-to-scale-energy-efficient-edge-ai-chips-in-europe/",
+      "https://multiversecomputing.com/resources/multiverse-computing-and-axelera-ai-launch-strategic-collaboration-to-bring-next-generation-ai"
+    ]
+  },
+  {
+    "name": "Innatera",
+    "website": "https://innatera.com",
+    "hq_country": "Netherlands",
+    "one_liner": "Delft neuromorphic microcontroller company (Pulsar spiking neural processor).",
+    "local_ai_angle": "Ultra-low-power sensor AI processed directly on device.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://innatera.com"
+    ]
+  },
+  {
+    "name": "GrAI Matter Labs",
+    "website": "https://www.graimatterlabs.ai",
+    "hq_country": "Netherlands",
+    "one_liner": "Brain-inspired edge AI processor startup (GrAI VIP).",
+    "local_ai_angle": "Low-latency sparse processing for edge vision; team now builds AR silicon at Snap.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "acquired by Snap (2023)",
+    "sources": [
+      "https://www.graimatterlabs.ai"
+    ]
+  },
+  {
+    "name": "Euclyd",
+    "website": null,
+    "hq_country": "Netherlands",
+    "one_liner": "Eindhoven chip startup founded by ASML alumni (CRAFTWERK inference chip).",
+    "local_ai_angle": "Inference silicon pitched as sovereign European alternative for operator-owned datacenters.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://ioplus.nl/en/posts/euclyd-wants-to-raise-100-million-and-take-on-nvidia",
+      "https://dealroom.co/news/127426-euclyd-the-asml-alums-chip-startup-eyes-100m-to-take-on-nvidia-in-infere/"
+    ]
+  },
+  {
+    "name": "Weaviate",
+    "website": "https://weaviate.io",
+    "hq_country": "Netherlands",
+    "one_liner": "Amsterdam company behind the open-source Weaviate vector database.",
+    "local_ai_angle": "Self-hostable vector DB with local embedding modules for private RAG.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://weaviate.io"
+    ]
+  },
+  {
+    "name": "NXP Semiconductors",
+    "website": "https://www.nxp.com",
+    "hq_country": "Netherlands",
+    "one_liner": "Eindhoven chipmaker with i.MX/MCX processors featuring eIQ Neutron NPUs.",
+    "local_ai_angle": "Edge processors and eIQ software run vision/GenAI on embedded devices; bought Kinara (2025).",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.nxp.com"
+    ]
+  },
+  {
+    "name": "Zylon",
+    "website": "https://www.zylon.ai",
+    "hq_country": "Spain",
+    "one_liner": "Creators of open-source PrivateGPT, offering an enterprise private AI platform.",
+    "local_ai_angle": "Fully on-prem/air-gapped GenAI workspace for regulated industries.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.zylon.ai"
+    ]
+  },
+  {
+    "name": "Multiverse Computing",
+    "website": "https://multiversecomputing.com",
+    "hq_country": "Spain",
+    "one_liner": "San Sebastian company compressing LLMs with quantum-inspired tensor networks (CompactifAI).",
+    "local_ai_angle": "Compressed models run on laptops, phones, cars, Raspberry Pi and private datacenters.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+      "https://siliconangle.com/2026/07/28/ai-model-compression-startup-multiverse-raises-570m-1-7b-valuation/",
+      "https://www.globenewswire.com/news-release/2026/03/03/3248035/0/en/multiverse-computing-launches-compactifai-app-bringing-offline-ai-to-edge-devices.html"
+    ]
+  },
+  {
+    "name": "Barbara",
+    "website": "https://www.barbara.tech",
+    "hq_country": "Spain",
+    "one_liner": "Madrid edge orchestration platform for industrial AI and IoT.",
+    "local_ai_angle": "Deploys, runs and manages AI models on distributed industrial edge nodes.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.barbara.tech"
+    ]
+  },
+  {
+    "name": "Stream Analyze",
+    "website": "https://streamanalyze.com",
+    "hq_country": "Sweden",
+    "one_liner": "Stockholm edge analytics company (SA Engine) for real-time AI on devices.",
+    "local_ai_angle": "Tiny engine runs and updates models directly on embedded and industrial devices.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://streamanalyze.com"
+    ]
+  },
+  {
+    "name": "Embedl",
+    "website": "https://www.embedl.com",
+    "hq_country": "Sweden",
+    "one_liner": "Gothenburg model optimization company for edge hardware.",
+    "local_ai_angle": "Compresses and optimizes models (incl. LLMs) to run on automotive and embedded chips.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.embedl.com"
+    ]
+  },
+  {
+    "name": "Silo AI",
+    "website": "https://www.silo.ai",
+    "hq_country": "Finland",
+    "one_liner": "Helsinki AI lab that built Poro/Viking open Nordic LLMs and enterprise AI.",
+    "local_ai_angle": "Built private/open models for enterprises; now core of AMD's AI software org.",
+    "segment": "private-ai-platforms",
+    "type": "subsidiary",
+    "status": "acquired by AMD (2024)",
+    "sources": [
+      "https://www.silo.ai"
+    ]
+  },
+  {
+    "name": "NobodyWho",
+    "website": null,
+    "hq_country": "Denmark",
+    "one_liner": "Copenhagen open-source startup running small language models in apps and games.",
+    "local_ai_angle": "Embeds SLMs directly on users' devices instead of cloud APIs.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2025/12/17/nobodywho-raises-eur2m-to-challenge-big-techs-cloud-ai-with-slms-for-local-devices/"
+    ]
+  },
+  {
+    "name": "Berget AI",
+    "website": "https://berget.ai",
+    "hq_country": "Sweden",
+    "one_liner": "Swedish sovereign AI inference platform for developers.",
+    "local_ai_angle": "EU-sovereign hosted inference positioned as alternative to US hyperscalers and complex on-prem.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2026/02/02/swedish-startup-berget-ai-lands-2-1m-as-demand-grows-for-sovereign-ai-in-europe/"
+    ]
+  },
+  {
+    "name": "Nordic Semiconductor",
+    "website": "https://www.nordicsemi.com",
+    "hq_country": "Norway",
+    "one_liner": "Low-power wireless SoC maker adding edge AI (acquired Neuton.AI, Atlazo).",
+    "local_ai_angle": "Tiny ML models run on Bluetooth/cellular IoT chips at the edge.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.nordicsemi.com"
+    ]
+  },
+  {
+    "name": "Imagimob",
+    "website": "https://www.imagimob.com",
+    "hq_country": "Sweden",
+    "one_liner": "Stockholm tinyML platform for building edge AI models for sensors and audio.",
+    "local_ai_angle": "Builds models that run on microcontrollers; now Infineon's edge AI tooling.",
+    "segment": "on-device-sdks",
+    "type": "subsidiary",
+    "status": "acquired by Infineon (2023)",
+    "sources": [
+      "https://www.imagimob.com"
+    ]
+  },
+  {
+    "name": "SynSense",
+    "website": "https://www.synsense.ai",
+    "hq_country": "Switzerland",
+    "one_liner": "Neuromorphic processor company (Speck vision, Xylo audio); Zurich and Chengdu operations.",
+    "local_ai_angle": "Milliwatt-scale spiking processors run sensing AI on devices.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.synsense.ai"
+    ]
+  },
+  {
+    "name": "Swiss AI Initiative (Apertus)",
+    "website": "https://www.swiss-ai.org",
+    "hq_country": "Switzerland",
+    "one_liner": "ETH Zurich/EPFL/CSCS initiative releasing Apertus, a fully open multilingual LLM.",
+    "local_ai_angle": "Fully open weights, data and code enable sovereign self-hosted deployment.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://www.swiss-ai.org"
+    ]
+  },
+  {
+    "name": "STMicroelectronics",
+    "website": "https://www.st.com",
+    "hq_country": "Switzerland",
+    "one_liner": "Geneva-headquartered chipmaker; STM32N6 MCU with Neural-ART NPU and ST Edge AI Suite.",
+    "local_ai_angle": "MCUs/MPUs and free tools run vision and audio AI on embedded devices.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.st.com",
+      "https://www.edb.gov.sg/en/news-and-insights/stmicroelectronics-and-nus-power-singapore-edge-ai"
+    ]
+  },
+  {
+    "name": "Privately SA",
+    "website": "https://www.privately.eu",
+    "hq_country": "Switzerland",
+    "one_liner": "Lausanne company providing on-device age assurance and online-safety AI.",
+    "local_ai_angle": "Facial age estimation and safety models run on-device; no images leave phone.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.privately.eu"
+    ]
+  },
+  {
+    "name": "ggml.ai (llama.cpp)",
+    "website": "https://ggml.ai",
+    "hq_country": "Bulgaria",
+    "one_liner": "Sofia company of Georgi Gerganov behind ggml tensor library, llama.cpp and GGUF.",
+    "local_ai_angle": "Foundational runtime for running LLMs locally on CPUs, Macs, phones and GPUs.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "open-source-org",
+    "status": "active (any 2026 corporate tie-up unverified)",
+    "sources": [
+      "https://ggml.ai"
+    ]
+  },
+  {
+    "name": "LocalAI",
+    "website": "https://localai.io",
+    "hq_country": "Italy",
+    "one_liner": "Open-source OpenAI-compatible local inference server created by Ettore Di Giacinto.",
+    "local_ai_angle": "Drop-in self-hosted API running LLMs, image, audio on consumer hardware.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://localai.io"
+    ]
+  },
+  {
+    "name": "Domyn (formerly iGenius)",
+    "website": "https://www.domyn.com",
+    "hq_country": "Italy",
+    "one_liner": "Milan AI company building sovereign LLMs (Colosseum) for regulated industries.",
+    "local_ai_angle": "Sovereign models and infrastructure for banks/government under customer control.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active (rebrand from iGenius not re-verified)",
+    "sources": [
+      "https://www.domyn.com"
+    ]
+  },
+  {
+    "name": "Bielik (SpeakLeash)",
+    "website": "https://bielik.ai",
+    "hq_country": "Poland",
+    "one_liner": "Community-built open Polish LLM family by SpeakLeash with ACK Cyfronet.",
+    "local_ai_angle": "Open weights for self-hosted Polish-language deployments, including small sizes.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://bielik.ai"
+    ]
+  },
+  {
+    "name": "Nokia (MX Industrial Edge)",
+    "website": "https://www.nokia.com",
+    "hq_country": "Finland",
+    "one_liner": "Telecom vendor offering MX Industrial Edge for private networks and on-site AI.",
+    "local_ai_angle": "On-premise edge compute appliance runs industrial AI apps locally.",
+    "segment": "industrial-edge",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.nokia.com",
+      "https://www.digitimes.com/news/a20260414PD226.html"
+    ]
+  },
+  {
+    "name": "Hailo",
+    "website": "https://hailo.ai",
+    "hq_country": "Israel",
+    "one_liner": "Tel Aviv edge AI processor maker (Hailo-8, Hailo-15, Hailo-10H).",
+    "local_ai_angle": "Hailo-10H runs generative AI locally on devices without cloud.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.ynetnews.com/tech-and-digital/article/skpxw508lx",
+      "https://www.eenewseurope.com/en/hailo-10h-edge-ai-accelerator-with-on-device-generative-ai"
+    ]
+  },
+  {
+    "name": "NeuReality",
+    "website": "https://www.neureality.ai",
+    "hq_country": "Israel",
+    "one_liner": "AI inference system company (NR1 AI-CPU, inference appliance, software OS).",
+    "local_ai_angle": "Preloaded inference appliance for private GenAI clouds and on-prem clusters.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://insidehpc.com/2025/05/neureality-announces-inference-appliance-is-preloaded-with-ai-models/",
+      "https://eic.ec.europa.eu/eic-fund/eic-fund-portfolio/neureality_en"
+    ]
+  },
+  {
+    "name": "Deci",
+    "website": "https://deci.ai",
+    "hq_country": "Israel",
+    "one_liner": "Neural architecture search and efficient model company.",
+    "local_ai_angle": "Produced compact, fast models for edge and on-prem inference.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://deci.ai"
+    ]
+  },
+  {
+    "name": "Run:ai",
+    "website": "https://www.run.ai",
+    "hq_country": "Israel",
+    "one_liner": "GPU orchestration and virtualization platform for AI workloads.",
+    "local_ai_angle": "Pools and schedules on-prem GPU clusters for training and inference.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://www.run.ai"
+    ]
+  },
+  {
+    "name": "AI21 Labs",
+    "website": "https://www.ai21.com",
+    "hq_country": "Israel",
+    "one_liner": "Tel Aviv LLM company (Jamba open models, Maestro agent platform).",
+    "local_ai_angle": "Offers private VPC/on-prem deployment and open-weight Jamba models.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.ai21.com"
+    ]
+  },
+  {
+    "name": "Tabnine",
+    "website": "https://www.tabnine.com",
+    "hq_country": "Israel",
+    "one_liner": "AI coding assistant for enterprises.",
+    "local_ai_angle": "Runs fully self-hosted and air-gapped so code never leaves customer infrastructure.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.tabnine.com"
+    ]
+  },
+  {
+    "name": "Impala AI",
+    "website": null,
+    "hq_country": "Israel",
+    "one_liner": "Enterprise LLM inference platform emerging from stealth ($11M seed).",
+    "local_ai_angle": "Runs inference inside customers' own VPC environments at lower cost per token.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.ynetnews.com/tech-and-digital/article/h1ux03jjwx"
+    ]
+  },
+  {
+    "name": "Mobileye",
+    "website": "https://www.mobileye.com",
+    "hq_country": "Israel",
+    "one_liner": "Jerusalem maker of EyeQ automotive vision SoCs and ADAS software.",
+    "local_ai_angle": "All perception AI runs on in-vehicle EyeQ chips.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active (Intel majority-owned)",
+    "sources": [
+      "https://www.mobileye.com"
+    ]
+  },
+  {
+    "name": "Lightricks",
+    "website": "https://www.lightricks.com",
+    "hq_country": "Israel",
+    "one_liner": "Jerusalem creative-app company behind open LTX-Video generation models.",
+    "local_ai_angle": "Open-weight LTX video models run locally on consumer GPUs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.lightricks.com"
+    ]
+  },
+  {
+    "name": "Visionary.ai",
+    "website": "https://www.visionary.ai",
+    "hq_country": "Israel",
+    "one_liner": "Jerusalem startup for AI-based real-time image denoising/ISP.",
+    "local_ai_angle": "Video enhancement AI runs on device chipsets in cameras and phones.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.visionary.ai"
+    ]
+  },
+  {
+    "name": "Pliops",
+    "website": "https://pliops.com",
+    "hq_country": "Israel",
+    "one_liner": "Storage/data accelerator company with LightningAI KV-cache offload for LLM inference.",
+    "local_ai_angle": "Boosts throughput of self-hosted LLM inference servers via accelerated storage.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pliops.com"
+    ]
+  },
+  {
+    "name": "G42",
+    "website": "https://www.g42.ai",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "Abu Dhabi AI holding company spanning cloud, models, health and infrastructure.",
+    "local_ai_angle": "Builds national sovereign AI stacks and in-country compute for governments.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.g42.ai",
+      "https://lucidityinsights.com/articles/g42-vs-humain-inside-uae-ksa-ai-race"
+    ]
+  },
+  {
+    "name": "Core42",
+    "website": "https://www.core42.ai",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "G42 sovereign cloud and enterprise AI infrastructure company.",
+    "local_ai_angle": "In-country sovereign GPU compute and private AI for government and enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.zawya.com/en/business/e-uae-and-core42-partner-to-deliver-sovereign-ai-infrastructure-at-scale-403213",
+      "https://www.computerweekly.com/news/366642883/Core42-partners-with-Solutions-on-Mubadala-sovereign-AI"
+    ]
+  },
+  {
+    "name": "Inception (G42)",
+    "website": "https://www.inceptionai.ai",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "G42 model unit behind Jais Arabic LLMs and enterprise AI products.",
+    "local_ai_angle": "Open-weight Jais models deployable in sovereign/private environments.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.inceptionai.ai"
+    ]
+  },
+  {
+    "name": "Technology Innovation Institute (Falcon)",
+    "website": "https://falconllm.tii.ae",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "Abu Dhabi government research institute releasing Falcon open-weight models.",
+    "local_ai_angle": "Falcon, Falcon-H1 and edge-sized models freely run on-prem and on-device.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://falconllm.tii.ae"
+    ]
+  },
+  {
+    "name": "MBZUAI (Institute of Foundation Models)",
+    "website": "https://mbzuai.ac.ae",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "Abu Dhabi AI university releasing open models (K2 series).",
+    "local_ai_angle": "Fully open models support sovereign self-hosted deployment.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://mbzuai.ac.ae"
+    ]
+  },
+  {
+    "name": "SAAL.ai",
+    "website": "https://saal.ai",
+    "hq_country": "United Arab Emirates",
+    "one_liner": "Abu Dhabi AI company co-developing UAE-built 'Sovereign AI-in-a-Box' with Kerno.",
+    "local_ai_angle": "Integrated on-prem appliance engineered, manufactured and supported in the UAE.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://gulfnews.com/business/corporate-news/kerno-and-saalai-unveil-uae-built-sovereign-ai-in-a-box-1.500704548"
+    ]
+  },
+  {
+    "name": "HUMAIN",
+    "website": "https://www.humain.com",
+    "hq_country": "Saudi Arabia",
+    "one_liner": "PIF-owned national AI company (ALLaM models, datacenters, HUMAIN Chat).",
+    "local_ai_angle": "Sovereign in-kingdom compute; 'AI in a Box' enterprise appliance with AMD.",
+    "segment": "private-ai-platforms",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://backup.arabnews.com/node/2656424/business-economy",
+      "https://yourstory.com/ai-story/mistral-ai-humain-sovereign-ai-saudi-arabia",
+      "https://cryptobriefing.com/humain-cohere-sovereign-ai-compute/"
+    ]
+  },
+  {
+    "name": "Sarvam AI",
+    "website": "https://www.sarvam.ai",
+    "hq_country": "India",
+    "one_liner": "Bengaluru full-stack Indic AI company (LLMs, speech, translation).",
+    "local_ai_angle": "Sarvam Edge runs speech, translation and LLMs offline on phones and feature phones.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.newsbytesapp.com/news/science/sarvam-ai-pushes-offline-models-to-reduce-cloud-spending/story",
+      "https://trak.in/stories/made-in-india-ai-model-sarvam-edge-runs-without-internet-on-phones-laptops/",
+      "https://gadgets.beebom.com/news/hmd-sarvam-ai-join-hands-for-conversational-ai-in-feature-phones"
+    ]
+  },
+  {
+    "name": "Krutrim",
+    "website": "https://www.olakrutrim.com",
+    "hq_country": "India",
+    "one_liner": "Ola group's AI unit building Indian LLMs, AI cloud and planned chips.",
+    "local_ai_angle": "Open-weight Krutrim models and domestic compute for in-country deployment.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.olakrutrim.com"
+    ]
+  },
+  {
+    "name": "Mindgrove Technologies",
+    "website": "https://www.mindgrovetech.in",
+    "hq_country": "India",
+    "one_liner": "Chennai fabless startup building RISC-V SoCs (Secure IoT, vision).",
+    "local_ai_angle": "Low-cost Indian SoCs with AI acceleration for edge devices.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.mindgrovetech.in"
+    ]
+  },
+  {
+    "name": "Netrasemi",
+    "website": "https://www.netrasemi.com",
+    "hq_country": "India",
+    "one_liner": "Kerala semiconductor startup making edge AI SoCs (A2000 12nm).",
+    "local_ai_angle": "Multi-TOPS application processors run AI workloads directly on devices.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://yourstory.com/2025/08/netrasemi-semiconductor-startup-edge-ai-chips",
+      "https://analyticsindiamag.com/ai-features/from-chip-talent-to-chipmaker-netrasemi-bets-on-indias-semiconductor-future"
+    ]
+  },
+  {
+    "name": "HrdWyr",
+    "website": null,
+    "hq_country": "India",
+    "one_liner": "Indian startup building AI-native processors for appliances, EVs and industry.",
+    "local_ai_angle": "Edge processors handle data where generated rather than in cloud.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://business-standard.com/companies/start-ups/hrdwyr-raises-13-mn-to-scale-ai-native-chips-for-edge-devices-globally-126051200964_1.html"
+    ]
+  },
+  {
+    "name": "Sensesemi",
+    "website": null,
+    "hq_country": "India",
+    "one_liner": "Bengaluru startup developing edge AI chips for IIoT, automotive and medical.",
+    "local_ai_angle": "On-device inference silicon for industrial and medical devices.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://analyticsindiamag.com/ai-news-updates/sensesemi-bags-₹25-cr-seed-funding-to-build-edge-ai-chips"
+    ]
+  },
+  {
+    "name": "Ziroh Labs",
+    "website": "https://www.zirohlabs.com",
+    "hq_country": "India",
+    "one_liner": "Bengaluru company behind Kompact AI (with IIT Madras) for CPU-based LLM inference.",
+    "local_ai_angle": "Runs LLMs on commodity CPUs without GPUs for local/private deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://analyticsindiamag.com/ai-startups/this-indian-ai-startup-proves-llms-no-longer-need-expensive-gpus/"
+    ]
+  },
+  {
+    "name": "Soket AI",
+    "website": "https://soket.ai",
+    "hq_country": "India",
+    "one_liner": "Indian lab building sovereign multilingual foundation models under IndiaAI Mission.",
+    "local_ai_angle": "Indian-built open models for domestic, self-hosted deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://soket.ai"
+    ]
+  },
+  {
+    "name": "BharatGen",
+    "website": "https://bharatgen.com",
+    "hq_country": "India",
+    "one_liner": "Government-funded IIT Bombay-led consortium building Indic foundation models.",
+    "local_ai_angle": "Open Indic models (Param) for sovereign self-hosted use.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://bharatgen.com"
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "website": "https://www.deepseek.com",
+    "hq_country": "China",
+    "one_liner": "Hangzhou lab releasing frontier open-weight LLMs (V3, R1 series).",
+    "local_ai_angle": "MIT-licensed weights drove a wave of on-prem 'all-in-one' appliance deployments in China.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.deepseek.com",
+      "https://www.digitimes.com/news/a20250212PD230.html"
+    ]
+  },
+  {
+    "name": "Alibaba Qwen",
+    "website": "https://qwen.ai",
+    "hq_country": "China",
+    "one_liner": "Alibaba Cloud's Qwen model family, from sub-1B to frontier MoE.",
+    "local_ai_angle": "Open-weight Qwen models are among the most self-hosted and on-device-deployed globally.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://qwen.ai"
+    ]
+  },
+  {
+    "name": "Zhipu AI (Z.ai)",
+    "website": "https://z.ai",
+    "hq_country": "China",
+    "one_liner": "Beijing Tsinghua spinout building GLM models and agents.",
+    "local_ai_angle": "Open-weight GLM models plus private deployments for government and SOEs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://z.ai"
+    ]
+  },
+  {
+    "name": "Moonshot AI",
+    "website": "https://www.moonshot.ai",
+    "hq_country": "China",
+    "one_liner": "Beijing lab behind Kimi assistant and open-weight Kimi K2 models.",
+    "local_ai_angle": "Open-weight MoE models self-hostable on private GPU clusters.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.moonshot.ai",
+      "https://www.venturesquare.net/zh/1106255/"
+    ]
+  },
+  {
+    "name": "MiniMax",
+    "website": "https://www.minimax.io",
+    "hq_country": "China",
+    "one_liner": "Shanghai multimodal AI company (MiniMax-M LLMs, Hailuo video, speech).",
+    "local_ai_angle": "Open-weight MiniMax-M models available for local deployment.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.minimax.io"
+    ]
+  },
+  {
+    "name": "ModelBest (MiniCPM)",
+    "website": "https://modelbest.cn",
+    "hq_country": "China",
+    "one_liner": "Beijing on-device foundation model company behind MiniCPM.",
+    "local_ai_angle": "Small open models run on phones, PCs and cars (e.g., Changan Mazda EZ-60).",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://pandaily.com/model-best-raises-tens-of-millions-of-dollars-to-advance-edge-optimized-large-models",
+      "https://news.metal.com/newscontent/103690673-modelbest-secures-fresh-funding-to-accelerate-on-device-ai-deployment",
+      "https://news.metal.com/newscontent/103540560/HUIXI-ModelBest-form-strategic-alliance-to-drive-edge-AI-innovation-in-autos-embodied-intelligence"
+    ]
+  },
+  {
+    "name": "StepFun",
+    "website": "https://www.stepfun.com",
+    "hq_country": "China",
+    "one_liner": "Shanghai foundation-model company with multimodal and Step Edge on-device models.",
+    "local_ai_angle": "Edge models for phones, cars and devices; open-weight releases.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.scmp.com/tech/tech-trends/article/3360820/giant-models-grab-headlines-some-chinese-start-ups-bet-smaller-phone-ready-ai"
+    ]
+  },
+  {
+    "name": "Benzhi Activation (PowerInfer / SmallThinker)",
+    "website": null,
+    "hq_country": "China",
+    "one_liner": "Shanghai Jiao Tong-incubated startup behind PowerInfer engine and SmallThinker models.",
+    "local_ai_angle": "Models and sparse inference engine designed for consumer devices.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.scmp.com/tech/tech-trends/article/3360820/giant-models-grab-headlines-some-chinese-start-ups-bet-smaller-phone-ready-ai"
+    ]
+  },
+  {
+    "name": "Om AI",
+    "website": null,
+    "hq_country": "China",
+    "one_liner": "Chinese company focused on video understanding and small edge multimodal models (VLX).",
+    "local_ai_angle": "Efficient multimodal models deployed on edge devices.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://technode.com/2026/05/27/from-video-understanding-to-edge-deployment-om-ai-targets-real-world-ai/"
+    ]
+  },
+  {
+    "name": "Baichuan AI",
+    "website": "https://www.baichuan-ai.com",
+    "hq_country": "China",
+    "one_liner": "Beijing LLM company now focused on medical AI (Baichuan-M series).",
+    "local_ai_angle": "Open-weight medical models for private hospital deployment.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.baichuan-ai.com"
+    ]
+  },
+  {
+    "name": "01.AI",
+    "website": "https://www.01.ai",
+    "hq_country": "China",
+    "one_liner": "Kai-Fu Lee's AI company (Yi models), pivoted to enterprise solutions.",
+    "local_ai_angle": "Sells on-prem enterprise LLM platforms and appliance deployments.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.01.ai"
+    ]
+  },
+  {
+    "name": "Tencent (Hunyuan)",
+    "website": "https://www.tencent.com",
+    "hq_country": "China",
+    "one_liner": "Tencent's Hunyuan model family across text, image, video and 3D.",
+    "local_ai_angle": "Many Hunyuan models released open-weight for local deployment.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.tencent.com"
+    ]
+  },
+  {
+    "name": "Xiaomi (MiMo / HyperAI)",
+    "website": "https://www.mi.com",
+    "hq_country": "China",
+    "one_liner": "Consumer electronics/EV maker with MiMo models and on-device AI in HyperOS.",
+    "local_ai_angle": "On-device models in phones, cars and smart home devices; open MiMo weights.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.mi.com"
+    ]
+  },
+  {
+    "name": "Huawei (Ascend / Atlas / Pangu)",
+    "website": "https://www.huawei.com",
+    "hq_country": "China",
+    "one_liner": "Telecom/tech giant with Ascend AI chips, Atlas servers, Pangu models.",
+    "local_ai_angle": "Ascend-based on-prem appliances underpin most Chinese DeepSeek all-in-one machines.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.huawei.com",
+      "https://apps.digitimes.com/news/a20250326PD214.html"
+    ]
+  },
+  {
+    "name": "Lenovo",
+    "website": "https://www.lenovo.com",
+    "hq_country": "China",
+    "one_liner": "PC and server maker pushing AI PCs, hybrid AI and on-prem AI infrastructure.",
+    "local_ai_angle": "AI PCs with local models and on-prem AI servers for private deployment.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.lenovo.com"
+    ]
+  },
+  {
+    "name": "IEIT Systems (Inspur)",
+    "website": "https://en.ieisystem.com",
+    "hq_country": "China",
+    "one_liner": "Major AI server vendor (Inspur subsidiary) and Yuan model developer.",
+    "local_ai_angle": "LLM inference appliances and servers for on-prem enterprise deployment.",
+    "segment": "onprem-hardware",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://en.ieisystem.com",
+      "https://www.digitimes.com/news/a20250212PD230.html"
+    ]
+  },
+  {
+    "name": "H3C",
+    "website": "https://www.h3c.com",
+    "hq_country": "China",
+    "one_liner": "Networking/server vendor offering LinSeer Cube LLM all-in-one appliances.",
+    "local_ai_angle": "Pre-integrated on-prem LLM appliances with domestic models.",
+    "segment": "onprem-hardware",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.digitimes.com/news/a20250212PD230.html"
+    ]
+  },
+  {
+    "name": "iFLYTEK",
+    "website": "https://www.iflytek.com",
+    "hq_country": "China",
+    "one_liner": "Hefei speech/AI giant behind Spark LLM, offline translators and education devices.",
+    "local_ai_angle": "Spark private deployments on domestic chips and offline on-device speech products.",
+    "segment": "private-ai-platforms",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.iflytek.com"
+    ]
+  },
+  {
+    "name": "SenseTime",
+    "website": "https://www.sensetime.com",
+    "hq_country": "China",
+    "one_liner": "AI company with SenseNova models, edge vision and on-device SenseChat-Lite.",
+    "local_ai_angle": "On-prem appliances and on-device models for enterprises and devices.",
+    "segment": "bigtech",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.sensetime.com"
+    ]
+  },
+  {
+    "name": "Horizon Robotics",
+    "website": "https://en.horizon.auto",
+    "hq_country": "China",
+    "one_liner": "Beijing automotive AI chip maker (Journey SoCs) and driving software.",
+    "local_ai_angle": "In-vehicle edge inference for ADAS and autonomous driving.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active (HKEX-listed 2024)",
+    "sources": [
+      "https://en.horizon.auto"
+    ]
+  },
+  {
+    "name": "Black Sesame Technologies",
+    "website": "https://www.blacksesame.com",
+    "hq_country": "China",
+    "one_liner": "Wuhan automotive AI SoC company (Huashan/Wudang chips).",
+    "local_ai_angle": "In-vehicle edge AI chips for perception and cockpit.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active (HKEX-listed 2024)",
+    "sources": [
+      "https://www.blacksesame.com"
+    ]
+  },
+  {
+    "name": "Axera",
+    "website": "https://www.axera-tech.com",
+    "hq_country": "China",
+    "one_liner": "Ningbo/Shanghai edge AI vision SoC maker with integrated NPUs.",
+    "local_ai_angle": "Edge inference chips for cameras, cars and devices; HK-listed Feb 2026.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active (HKEX-listed Feb 2026)",
+    "sources": [
+      "https://qimingvc.com/en/news/chinese-edge-ai-chip-leader-axera-lists-hong-kong-stock-exchange",
+      "https://www.eweek.com/news/axera-hong-kong-ipo/"
+    ]
+  },
+  {
+    "name": "SOPHGO",
+    "website": "https://www.sophgo.com",
+    "hq_country": "China",
+    "one_liner": "AI chip maker (BM1684X TPUs, RISC-V SoCs) for edge and servers.",
+    "local_ai_angle": "Edge boxes and accelerator cards run vision and LLM inference locally.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.sophgo.com"
+    ]
+  },
+  {
+    "name": "Rockchip",
+    "website": "https://www.rock-chips.com",
+    "hq_country": "China",
+    "one_liner": "Fuzhou SoC designer (RK3588 etc.) with integrated NPUs.",
+    "local_ai_angle": "Ubiquitous low-cost SoCs running local AI on boards, tablets and devices.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.rock-chips.com"
+    ]
+  },
+  {
+    "name": "Cambricon",
+    "website": "https://www.cambricon.com",
+    "hq_country": "China",
+    "one_liner": "Beijing AI chip company (MLU accelerators, edge chips).",
+    "local_ai_angle": "Domestic accelerators used in on-prem Chinese LLM servers and appliances.",
+    "segment": "onprem-hardware",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.cambricon.com"
+    ]
+  },
+  {
+    "name": "Houmo AI",
+    "website": "https://www.houmo.ai",
+    "hq_country": "China",
+    "one_liner": "Nanjing compute-in-memory chip startup (M50) for on-device large models.",
+    "local_ai_angle": "CIM chips target LLM inference in PCs, speakers and robots.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://kr-asia.com/beyond-the-cloud-houmo-ai-sees-ai-compute-shifting-to-the-edge"
+    ]
+  },
+  {
+    "name": "Enflame",
+    "website": "https://www.enflame-tech.com",
+    "hq_country": "China",
+    "one_liner": "Shanghai AI accelerator company (Tencent-backed) for training and inference.",
+    "local_ai_angle": "Domestic accelerators for private/on-prem Chinese AI clusters.",
+    "segment": "onprem-hardware",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://scmp.com/tech/big-tech/article/3366025/enflames-us900m-ipo-tests-appetite-chinas-little-dragon-ai-chipmakers"
+    ]
+  },
+  {
+    "name": "Intellifusion",
+    "website": "https://www.intellif.com",
+    "hq_country": "China",
+    "one_liner": "Shenzhen AI chip and vision company (DeepEdge inference chips).",
+    "local_ai_angle": "Edge inference SoCs and appliances for local LLM and vision workloads.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.intellif.com"
+    ]
+  },
+  {
+    "name": "Hikvision",
+    "website": "https://www.hikvision.com",
+    "hq_country": "China",
+    "one_liner": "Video surveillance giant with AI cameras, NVRs and Guanlan large models.",
+    "local_ai_angle": "Vision AI runs on cameras and on-site servers.",
+    "segment": "industrial-edge",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.hikvision.com"
+    ]
+  },
+  {
+    "name": "Espressif Systems",
+    "website": "https://www.espressif.com",
+    "hq_country": "China",
+    "one_liner": "Shanghai maker of ESP32 Wi-Fi/BLE MCUs with AI acceleration.",
+    "local_ai_angle": "ESP-DL runs tiny models on ultra-cheap IoT chips.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.espressif.com"
+    ]
+  },
+  {
+    "name": "vivo (BlueLM)",
+    "website": "https://www.vivo.com",
+    "hq_country": "China",
+    "one_liner": "Smartphone maker with BlueLM models, including on-device versions.",
+    "local_ai_angle": "Runs multi-billion-parameter models locally on its phones.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.vivo.com"
+    ]
+  },
+  {
+    "name": "Infinigence AI",
+    "website": "https://www.infini-ai.com",
+    "hq_country": "China",
+    "one_liner": "Shanghai Tsinghua-linked company optimizing inference across heterogeneous chips.",
+    "local_ai_angle": "Inference platforms and on-device Megrez models for domestic hardware.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.infini-ai.com"
+    ]
+  },
+  {
+    "name": "Xorbits (Xinference)",
+    "website": "https://xorbits.io",
+    "hq_country": "China",
+    "one_liner": "Company behind Xinference, open-source model serving platform.",
+    "local_ai_angle": "Self-host LLMs, embeddings and multimodal models on own servers.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://xorbits.io"
+    ]
+  },
+  {
+    "name": "GPUStack (Seal)",
+    "website": "https://gpustack.ai",
+    "hq_country": "China",
+    "one_liner": "Open-source GPU cluster manager for serving LLMs.",
+    "local_ai_angle": "Pools heterogeneous on-prem GPUs (NVIDIA, Ascend, Apple) to self-host models.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://gpustack.ai"
+    ]
+  },
+  {
+    "name": "Approaching.AI (KTransformers)",
+    "website": "https://github.com/kvcache-ai/ktransformers",
+    "hq_country": "China",
+    "one_liner": "Tsinghua MADSys spinout behind KTransformers CPU-GPU hybrid inference.",
+    "local_ai_angle": "Runs 671B-class MoE models like DeepSeek on single workstations.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/kvcache-ai/ktransformers"
+    ]
+  },
+  {
+    "name": "Shanghai AI Laboratory (InternLM / LMDeploy)",
+    "website": "https://www.shlab.org.cn",
+    "hq_country": "China",
+    "one_liner": "State-backed lab releasing InternLM models and LMDeploy inference toolkit.",
+    "local_ai_angle": "Open models and serving toolkit for local/on-prem deployment.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://www.shlab.org.cn"
+    ]
+  },
+  {
+    "name": "Cherry Studio",
+    "website": "https://www.cherry-ai.com",
+    "hq_country": "China",
+    "one_liner": "Open-source desktop AI client supporting cloud and local models.",
+    "local_ai_angle": "Connects to Ollama/LM Studio for private desktop chat and knowledge bases.",
+    "segment": "consumer-local-apps",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://www.cherry-ai.com"
+    ]
+  },
+  {
+    "name": "LobeHub (LobeChat)",
+    "website": "https://lobehub.com",
+    "hq_country": "China",
+    "one_liner": "Open-source AI chat framework and agent platform.",
+    "local_ai_angle": "Self-hostable chat UI that runs with local models via Ollama.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://lobehub.com"
+    ]
+  },
+  {
+    "name": "FIT2CLOUD (MaxKB)",
+    "website": "https://github.com/1Panel-dev/MaxKB",
+    "hq_country": "China",
+    "one_liner": "Open-source vendor behind MaxKB enterprise knowledge-base agent.",
+    "local_ai_angle": "Self-hosted RAG/agent platform popular for private DeepSeek deployments.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/1Panel-dev/MaxKB"
+    ]
+  },
+  {
+    "name": "Labring (FastGPT)",
+    "website": "https://github.com/labring/FastGPT",
+    "hq_country": "China",
+    "one_liner": "Open-source knowledge-base QA and workflow platform.",
+    "local_ai_angle": "Self-hosted RAG platform used with locally served models.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/labring/FastGPT"
+    ]
+  },
+  {
+    "name": "Rebellions",
+    "website": "https://rebellions.ai",
+    "hq_country": "South Korea",
+    "one_liner": "AI inference chip unicorn (ATOM, REBEL) merged with SAPEON.",
+    "local_ai_angle": "NPU servers for sovereign/on-prem inference in Korean datacenters.",
+    "segment": "onprem-hardware",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://rebellions.ai",
+      "https://www.koreatimes.co.kr/business/tech-science/20260805/korean-npu-makers-seek-track-records-ahead-of-potential-ipos"
+    ]
+  },
+  {
+    "name": "FuriosaAI",
+    "website": "https://furiosa.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Seoul AI chip company (RNGD inference accelerator).",
+    "local_ai_angle": "Power-efficient inference cards/servers for enterprise on-prem LLM serving.",
+    "segment": "onprem-hardware",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://furiosa.ai"
+    ]
+  },
+  {
+    "name": "DeepX",
+    "website": "https://deepx.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Pangyo edge/physical AI NPU maker (DX-M1, DX-M2 on Samsung 2nm).",
+    "local_ai_angle": "Low-power NPUs run vision and GenAI on devices, robots and edge systems.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active (IPO preparation 2026)",
+    "sources": [
+      "https://www.asiae.co.kr/en/article/2026041412075569608",
+      "https://www.koreaherald.com/article/10716963",
+      "https://thenextweb.com/news/deepx-series-d-2-2bn-edge-ai-chips-robotics"
+    ]
+  },
+  {
+    "name": "Mobilint",
+    "website": "https://www.mobilint.com",
+    "hq_country": "South Korea",
+    "one_liner": "Korean NPU maker (ARIES, REGULUS, MLX-A1) for edge and on-prem AI.",
+    "local_ai_angle": "Claims only Korean NPU running LLMs at edge; industrial AI with POSCO DX.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.weforum.org/organizations/mobilint/",
+      "https://www.digitaltoday.co.kr/en/view/44811/mobilint-poscodx-npu-based-industrial-ai-joint-development"
+    ]
+  },
+  {
+    "name": "Nota AI",
+    "website": "https://www.nota.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Model compression/optimization company (NetsPresso) for edge and LLMs.",
+    "local_ai_angle": "Quantization cut Solar 100B memory 72%; optimizes models for devices and fewer GPUs.",
+    "segment": "efficient-models",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://blog.nota.ai/newsroom/nota-ai-upstage-solar-llm-memory-reduction",
+      "https://www.digitaltoday.co.kr/en/view/18641/nota-compresses-upstages-solar-100b-memory-by-72-percent"
+    ]
+  },
+  {
+    "name": "Upstage",
+    "website": "https://www.upstage.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Seoul LLM company (Solar, Solar Open 2) and Document AI.",
+    "local_ai_angle": "On-premises deployment offering; Solar runs on domestic NPUs.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://upstage.ai/pricing/on-premises",
+      "https://www.koreatimes.co.kr/business/companies/20260723/upstage-unveils-solar-open-2-open-weight-ai-model-built-for-autonomous-tasks"
+    ]
+  },
+  {
+    "name": "LG AI Research (EXAONE)",
+    "website": "https://www.lgresearch.ai",
+    "hq_country": "South Korea",
+    "one_liner": "LG group AI lab releasing EXAONE models.",
+    "local_ai_angle": "Open-weight EXAONE models including small on-device sizes.",
+    "segment": "bigtech",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.lgresearch.ai"
+    ]
+  },
+  {
+    "name": "NAVER Cloud (HyperCLOVA X)",
+    "website": "https://clova.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Korean internet giant's sovereign LLM HyperCLOVA X and open SEED models.",
+    "local_ai_angle": "Neurocloud on-prem offering and open lightweight SEED models.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://clova.ai"
+    ]
+  },
+  {
+    "name": "Samsung Electronics (Gauss / Exynos)",
+    "website": "https://www.samsung.com",
+    "hq_country": "South Korea",
+    "one_liner": "Electronics giant with Galaxy AI, Gauss models and Exynos NPUs.",
+    "local_ai_angle": "On-device AI in phones and appliances; NPU silicon.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.samsung.com"
+    ]
+  },
+  {
+    "name": "Allganize",
+    "website": "https://www.allganize.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Enterprise LLM app/agent platform (Alli) strong in finance and Japan.",
+    "local_ai_angle": "Offers on-premise LLM deployments for banks and regulated enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.allganize.ai"
+    ]
+  },
+  {
+    "name": "SqueezeBits",
+    "website": "https://squeezebits.com",
+    "hq_country": "South Korea",
+    "one_liner": "Seoul AI model compression and serving optimization startup.",
+    "local_ai_angle": "Quantization/serving tools make LLMs run on fewer GPUs and NPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://squeezebits.com"
+    ]
+  },
+  {
+    "name": "Saltlux",
+    "website": "https://www.saltlux.com",
+    "hq_country": "South Korea",
+    "one_liner": "Korean AI company with LUXIA LLM and enterprise knowledge AI.",
+    "local_ai_angle": "On-prem LLM solutions for government and enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.saltlux.com"
+    ]
+  },
+  {
+    "name": "Konan Technology",
+    "website": "https://www.konantech.com",
+    "hq_country": "South Korea",
+    "one_liner": "Korean AI/search company with Konan LLM.",
+    "local_ai_angle": "On-prem LLM deployments for public sector and enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.konantech.com"
+    ]
+  },
+  {
+    "name": "OPENEDGES Technology",
+    "website": "https://www.openedges.com",
+    "hq_country": "South Korea",
+    "one_liner": "NPU and memory-interface IP company.",
+    "local_ai_angle": "NPU IP for edge AI SoCs.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.openedges.com"
+    ]
+  },
+  {
+    "name": "HyperAccel",
+    "website": "https://hyperaccel.ai",
+    "hq_country": "South Korea",
+    "one_liner": "KAIST spinout building LPU chips specialized for LLM inference.",
+    "local_ai_angle": "LLM inference servers and edge chips for on-prem deployment.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://hyperaccel.ai"
+    ]
+  },
+  {
+    "name": "ENERZAi",
+    "website": "https://enerzai.com",
+    "hq_country": "South Korea",
+    "one_liner": "On-device AI optimization company (Optimium inference engine).",
+    "local_ai_angle": "Compiles and quantizes models for fast inference on edge hardware.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://enerzai.com"
+    ]
+  },
+  {
+    "name": "Lablup",
+    "website": "https://www.lablup.com",
+    "hq_country": "South Korea",
+    "one_liner": "Company behind Backend.AI GPU orchestration platform.",
+    "local_ai_angle": "Manages on-prem GPU/NPU clusters for training and LLM serving.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.lablup.com"
+    ]
+  },
+  {
+    "name": "Moreh",
+    "website": "https://moreh.io",
+    "hq_country": "South Korea",
+    "one_liner": "AI infrastructure software (MoAI) optimizing AMD GPU clusters.",
+    "local_ai_angle": "Software stack for running LLM training/inference on own non-NVIDIA clusters.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://moreh.io"
+    ]
+  },
+  {
+    "name": "EdgeCortix",
+    "website": "https://www.edgecortix.com",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo fabless edge AI chip company (SAKURA-II, NovaEdge chiplet).",
+    "local_ai_angle": "Energy-efficient accelerators for GenAI inference at the edge, incl. space.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://evertiq.com/news/2025-06-02-edgecortix-secures-21m-to-develop-energy-efficient-ai-chiplet",
+      "https://www.edgecortix.com/en/press-releases/edgecortix-showcases-sakura-ii-and-partner-solutions-at-ai-expo-tokyo-2026"
+    ]
+  },
+  {
+    "name": "Preferred Networks",
+    "website": "https://www.preferred.jp",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo AI company with MN-Core chips and PLaMo LLMs (incl. PLaMo Lite).",
+    "local_ai_angle": "Domestic models deployable on-prem; PLaMo Lite for edge devices.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.preferred.jp/en/business/genai",
+      "https://codenote.net/en/posts/japanese-local-llm-development-case-studies/"
+    ]
+  },
+  {
+    "name": "Sakana AI",
+    "website": "https://sakana.ai",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo research lab for nature-inspired, efficient AI methods.",
+    "local_ai_angle": "Small Japanese models (e.g., TinySwallow) and efficiency research for local use.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://sakana.ai"
+    ]
+  },
+  {
+    "name": "ELYZA",
+    "website": "https://elyza.ai",
+    "hq_country": "Japan",
+    "one_liner": "University of Tokyo spinout building Japanese LLMs; KDDI group.",
+    "local_ai_angle": "Japanese models and solutions for private/on-prem enterprise deployment.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "active (KDDI majority-owned)",
+    "sources": [
+      "https://elyza.ai"
+    ]
+  },
+  {
+    "name": "NTT (tsuzumi)",
+    "website": "https://group.ntt",
+    "hq_country": "Japan",
+    "one_liner": "Telecom giant with lightweight tsuzumi LLM.",
+    "local_ai_angle": "Small LLM runs on single GPU for on-prem enterprise use.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://group.ntt"
+    ]
+  },
+  {
+    "name": "NEC (cotomi)",
+    "website": "https://www.nec.com",
+    "hq_country": "Japan",
+    "one_liner": "IT conglomerate with cotomi Japanese LLM.",
+    "local_ai_angle": "Offers cotomi for on-prem/private deployments.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.nec.com"
+    ]
+  },
+  {
+    "name": "Fujitsu (Takane)",
+    "website": "https://www.fujitsu.com",
+    "hq_country": "Japan",
+    "one_liner": "IT services giant with Takane LLM (with Cohere) and 1-bit quantization.",
+    "local_ai_angle": "Private, secure deployments for regulated Japanese enterprises.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.fujitsu.com"
+    ]
+  },
+  {
+    "name": "Sony Semiconductor Solutions (AITRIOS)",
+    "website": "https://www.aitrios.sony-semicon.com",
+    "hq_country": "Japan",
+    "one_liner": "Sony unit making IMX500 intelligent vision sensors and AITRIOS platform.",
+    "local_ai_angle": "AI processing on the image sensor itself; only metadata leaves the camera.",
+    "segment": "edge-silicon",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.aitrios.sony-semicon.com"
+    ]
+  },
+  {
+    "name": "Renesas Electronics",
+    "website": "https://www.renesas.com",
+    "hq_country": "Japan",
+    "one_liner": "MCU/MPU maker with DRP-AI accelerators.",
+    "local_ai_angle": "Embedded processors run vision AI at the edge.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.renesas.com"
+    ]
+  },
+  {
+    "name": "Idein",
+    "website": "https://idein.jp",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo company behind Actcast edge AI platform.",
+    "local_ai_angle": "Deploys and manages AI on fleets of low-cost edge devices.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://idein.jp"
+    ]
+  },
+  {
+    "name": "LeapMind",
+    "website": "https://leapmind.io",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo developer of ultra-low-bit edge AI accelerator IP (Efficiera).",
+    "local_ai_angle": "Extreme quantization for on-device inference in FPGAs/ASICs.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://leapmind.io"
+    ]
+  },
+  {
+    "name": "Stockmark",
+    "website": "https://stockmark.co.jp",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo business-AI company releasing Japanese open LLMs.",
+    "local_ai_angle": "Open models trained for low-hallucination business use, self-hostable.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://stockmark.co.jp"
+    ]
+  },
+  {
+    "name": "AI inside",
+    "website": "https://inside.ai",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo AI-OCR company (DX Suite) with edge computer 'AI inside Cube'.",
+    "local_ai_angle": "On-prem edge appliance runs document AI locally.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://inside.ai"
+    ]
+  },
+  {
+    "name": "Kneron",
+    "website": "https://www.kneron.com",
+    "hq_country": "Taiwan / USA",
+    "one_liner": "Edge AI NPU chip company (KL730) with large Taiwan operations; US-registered HQ San Diego.",
+    "local_ai_angle": "NPUs and edge servers (KNEO) run vision and LLM inference locally.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.kneron.com"
+    ]
+  },
+  {
+    "name": "MediaTek",
+    "website": "https://www.mediatek.com",
+    "hq_country": "Taiwan",
+    "one_liner": "Hsinchu SoC giant (Dimensity, Genio) with NPUs for GenAI.",
+    "local_ai_angle": "Runs LLMs and diffusion on phones, PCs and IoT via NeuroPilot.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.mediatek.com"
+    ]
+  },
+  {
+    "name": "Skymizer",
+    "website": "https://skymizer.ai",
+    "hq_country": "Taiwan",
+    "one_liner": "Taipei AI compiler/IP company (EdgeThought, HyperThought, HTX301 chip).",
+    "local_ai_angle": "HTX301 claims 700B-parameter models on single PCIe card for on-prem.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://technode.global/prnasia/skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ultra-large-llm-inference-on-a-single-card/",
+      "https://technews.tw/2026/05/29/skymizer-htx301-the-worlds-first-edge-ai-inference-chip/"
+    ]
+  },
+  {
+    "name": "Neuchips",
+    "website": "https://www.neuchips.ai",
+    "hq_country": "Taiwan",
+    "one_liner": "Hsinchu AI ASIC company with LLM inference accelerator cards.",
+    "local_ai_angle": "Low-power cards for on-prem servers and AI PCs.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.neuchips.ai"
+    ]
+  },
+  {
+    "name": "Phison (aiDAPTIV+)",
+    "website": "https://www.phison.com",
+    "hq_country": "Taiwan",
+    "one_liner": "NAND controller maker offering aiDAPTIV+ SSD-based AI memory extension.",
+    "local_ai_angle": "Lets on-prem workstations fine-tune and run large LLMs locally.",
+    "segment": "onprem-hardware",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.phison.com"
+    ]
+  },
+  {
+    "name": "GIGABYTE (AI TOP)",
+    "website": "https://www.gigabyte.com",
+    "hq_country": "Taiwan",
+    "one_liner": "PC/server maker with AI TOP local AI training desktops and AI servers.",
+    "local_ai_angle": "Desktop hardware/software for local LLM fine-tuning and inference.",
+    "segment": "onprem-hardware",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.gigabyte.com"
+    ]
+  },
+  {
+    "name": "TAIDE",
+    "website": "https://taide.tw",
+    "hq_country": "Taiwan",
+    "one_liner": "Government-backed Traditional Chinese LLM project.",
+    "local_ai_angle": "Open models for sovereign, self-hosted Taiwanese use.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://taide.tw"
+    ]
+  },
+  {
+    "name": "Andes Technology",
+    "website": "https://www.andestech.com",
+    "hq_country": "Taiwan",
+    "one_liner": "RISC-V CPU IP vendor with AI/vector extensions.",
+    "local_ai_angle": "CPU IP used in edge AI SoCs.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.andestech.com"
+    ]
+  },
+  {
+    "name": "Acrab",
+    "website": null,
+    "hq_country": "Singapore",
+    "one_liner": "Full-stack agentic AI compute startup (GELIX 1 edge SoC, Agent Box desktop).",
+    "local_ai_angle": "Edge SoC and desktop box for local LLM inference; $350M raised.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.unite.ai/acrabs-edge-chip-aims-to-run-100b-ai-models-locally/",
+      "https://e27.co/acrabs-us130m-raise-signals-seas-deeper-push-into-ai-hardware-20260807/"
+    ]
+  },
+  {
+    "name": "Menlo Research (Jan)",
+    "website": "https://jan.ai",
+    "hq_country": "Singapore",
+    "one_liner": "Team behind Jan, open-source ChatGPT-alternative desktop app.",
+    "local_ai_angle": "Runs LLMs 100% offline on users' computers.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://jan.ai"
+    ]
+  },
+  {
+    "name": "AI Singapore (SEA-LION)",
+    "website": "https://aisingapore.org",
+    "hq_country": "Singapore",
+    "one_liner": "National programme releasing SEA-LION Southeast Asian LLMs.",
+    "local_ai_angle": "Open models for sovereign regional self-hosted deployment.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://aisingapore.org",
+      "https://fulcrum.sg/advancing-southeast-asias-ai-future-through-sovereign-ai-models/"
+    ]
+  },
+  {
+    "name": "MarsLab",
+    "website": null,
+    "hq_country": "Singapore",
+    "one_liner": "Singapore AI inference infrastructure company (roadmap announced May 2026).",
+    "local_ai_angle": "Plans enterprise and edge inference deployments (company-stated).",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://technode.global/2026/05/28/marslab-introduces-singapore-based-ai-inference-infrastructure-roadmap-for-enterprise-edge-deployment/"
+    ]
+  },
+  {
+    "name": "Sahabat-AI",
+    "website": "https://sahabat-ai.com",
+    "hq_country": "Indonesia",
+    "one_liner": "GoTo/Indosat-backed open Indonesian LLM ecosystem.",
+    "local_ai_angle": "Open models for local Bahasa deployment.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://sahabat-ai.com"
+    ]
+  },
+  {
+    "name": "Typhoon (SCB 10X)",
+    "website": "https://opentyphoon.ai",
+    "hq_country": "Thailand",
+    "one_liner": "Open Thai LLM family from SCB 10X.",
+    "local_ai_angle": "Open weights self-hostable for Thai enterprises.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://opentyphoon.ai"
+    ]
+  },
+  {
+    "name": "BrainChip",
+    "website": "https://brainchip.com",
+    "hq_country": "Australia",
+    "one_liner": "ASX-listed neuromorphic AI company (Akida IP and chips); US ops in Laguna Hills.",
+    "local_ai_angle": "Event-based Akida processors run ultra-low-power inference on device.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://brainchip.com"
+    ]
+  },
+  {
+    "name": "SCX.ai (Southern Cross AI)",
+    "website": "https://scx.ai",
+    "hq_country": "Australia",
+    "one_liner": "ASX-listed sovereign AI inference infrastructure company.",
+    "local_ai_angle": "Australian-hosted sovereign inference node and MAGPiE model for data-resident AI.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "public",
+    "status": "active (ASX-listed Aug 2026)",
+    "sources": [
+      "https://www.hpcwire.com/aiwire/2026/01/30/scx-ai-launches-australias-1st-sovereign-ai-inference-node-in-sydney/",
+      "https://dealroom.co/news/140248-scx-ai-seeks-aud-40m-in-asx-float-for-local-ai-inference/",
+      "https://itbrief.com.au/story/scx-ai-launches-australian-hosted-ai-for-apple-apps"
+    ]
+  },
+  {
+    "name": "Trellis Data",
+    "website": "https://www.trellisdata.com.au",
+    "hq_country": "Australia",
+    "one_liner": "Canberra AI company behind AgentAus sovereign AI platform.",
+    "local_ai_angle": "Sovereign agent platform for government and regulated customers.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.canberratimes.com.au/story/9325923/trellis-data-ai-platform-agentaus-challenges-global-tech/"
+    ]
+  },
+  {
+    "name": "Latam-GPT (CENIA)",
+    "website": "https://cenia.cl",
+    "hq_country": "Chile",
+    "one_liner": "Open regional LLM led by Chile's CENIA with 60 institutions in 15 countries.",
+    "local_ai_angle": "Open model for sovereign Latin American self-hosted use.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://www.brookings.edu/articles/latam-gpt-and-the-search-for-ai-sovereignty/",
+      "https://www.intellinews.com/chile-launches-latam-gpt-in-push-for-regional-ai-sovereignty-425563/"
+    ]
+  },
+  {
+    "name": "Saptiva",
+    "website": "https://saptiva.com",
+    "hq_country": "Mexico",
+    "one_liner": "Mexican sovereign AI platform for enterprises and government.",
+    "local_ai_angle": "Air-gapped training environments and composable LLM stacks on sovereign infrastructure.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://mexicobusiness.news/cloudanddata/news/sovereign-ai-when-protocol-product"
+    ]
+  },
+  {
+    "name": "Lelapa AI",
+    "website": "https://lelapa.ai",
+    "hq_country": "South Africa",
+    "one_liner": "Johannesburg African-language AI lab (InkubaLM, Vulavula).",
+    "local_ai_angle": "InkubaLM small model designed for low-resource devices and local deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://lelapa.ai"
+    ]
+  },
+  {
+    "name": "Jacaranda Health (UlizaLlama)",
+    "website": "https://jacarandahealth.org",
+    "hq_country": "Kenya",
+    "one_liner": "Kenyan maternal-health nonprofit that released UlizaLlama Swahili LLM.",
+    "local_ai_angle": "Open Swahili model self-hostable for health services.",
+    "segment": "vertical-regulated",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://jacarandahealth.org",
+      "https://www.techpolicy.press/latamgpt-navigates-the-gap-between-regional-aspiration-and-market-realities"
+    ]
+  }
+]
