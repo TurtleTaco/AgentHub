@@ -1,0 +1,698 @@
+[
+ {
+  "id": "shield-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 3568,
+   "last_round": "Series G $1.5B (+$500M preferred), Mar 2026, co-led by Advent and JPMorgan SIG, $12.7B post-money",
+   "valuation_usd_m": 12700,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation/",
+   "https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/",
+   "https://www.cbinsights.com/company/shield-ai/financials"
+  ],
+  "note": "Mar 2026 Series G at $12.7B; total ~$3.57B per CB Insights (Sacra older, lower). Headcount not found."
+ },
+ {
+  "id": "sifive",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 500,
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20260409986099/en",
+   "https://pitchbook.com/profiles/company/151331-77"
+  ],
+  "note": "Series G $400M Apr 2026 at $3.65B confirmed; total ~$766M; headcount ~500 (497-524 by source)."
+ },
+ {
+  "id": "hugging-face",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 700,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/08/23/report-ai-model-hub-hugging-face-exploring-sale-at-13b-valuation/",
+   "https://sacra.com/c/hugging-face"
+  ],
+  "note": "Funding confirmed ($395M, Series D 2023). Sale to Nvidia ~$13B reported Aug-Sep 2026, unconfirmed; headcount 600-856 by source."
+ },
+ {
+  "id": "liquid-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.liquid.ai/blog/we-raised-250m-to-scale-capable-and-efficient-general-purpose-ai.md",
+   "https://www.cbinsights.com/company/liquid-ai/financials"
+  ],
+  "note": "Dec 2024 $250M Series A still latest; total $288-297M by source; no 2026 round found."
+ },
+ {
+  "id": "cartesia",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_country": "United States",
+   "last_round": "$100M, Oct 2025, led by Kleiner Perkins (labelled Series B or A-II by sources), NVIDIA participating",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://fortune.com/2025/03/11/exclusive-cartesia-voice-ai-startup-raises-64-million-series-a/",
+   "https://www.cbinsights.com/company/cartesia/financials",
+   "https://sacra.com/c/cartesia/"
+  ],
+  "note": "Total $191M confirmed; Oct 2025 $100M round; Series B vs A-II label conflicts. Country normalized."
+ },
+ {
+  "id": "kneron",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/kneron/financials",
+   "https://www.panabee.com/news/spark-i-acquisition-earnings-q1-2026-report"
+  ],
+  "note": "Total $190M vs $235M conflict; SPAC Spark I deadline Sep 29 2026, outcome unconfirmed; headcount unreliable (<100 to 150+)."
+ },
+ {
+  "id": "seekr",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 184,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.seekr.com/blog/seekr-raising-100mm-funding-round-at-a-1-2b-valuation-led-by-danu-venture-group-and-amd-ventures/",
+   "https://www.tipranks.com/private-companies/seekr-technologies-inc"
+  ],
+  "note": "June 2025 $100M at $1.2B confirmed; total $100-294M by source; headcount 184 (TipRanks, Sep 2026)."
+ },
+ {
+  "id": "witinmem-witmem",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://pitchhub.36kr.com/project/1679660495360776",
+   "https://pitchbook.com/profiles/company/277740-28"
+  ],
+  "note": "36Kr says ~RMB600M cumulative vs CB $121.6M (possibly different entity); PitchBook shows B1 $14M Sep 2025 unconfirmed."
+ },
+ {
+  "id": "allganize",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Series B, $20M, Nov 2023",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.allganize.ai/en/blog/allganize-secures-20-million-in-series-b-funding-to-propel-ai-solutions-and-target-japanese-stock-exchange-listing-by-2025"
+  ],
+  "note": "Series B $20M Nov 2023 per company; company cites $35M cumulative A+B, CB $60M; total not resolved."
+ },
+ {
+  "id": "tabnine",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status": "acquired",
+   "status_detail": "Acquired by Tricentis, announced Jul 30, 2026 (terms undisclosed)",
+   "employees": 75,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.tricentis.com/news/tricentis-acquires-tabnine",
+   "https://sdtimes.com/ai/tricentis-acquires-tabnine-to-further-scale-agentic-quality-engineering-for-the-enterprise/",
+   "https://dealroom.co/news/142212-tricentis-buys-ai-coding-platform-tabnine-to-power-its-testing-agents/"
+  ],
+  "note": "Acquired by Tricentis Jul 2026; headcount ~74 (LinkedIn Jun 2025); company-stated total $55M, aggregators $57-67M."
+ },
+ {
+  "id": "litmus",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.insightpartners.com/ideas/litmus-secures-additional-investment-led-by-insight-partners-to-accelerate-industrial-ai/"
+  ],
+  "note": "Nov 12 2025 undisclosed round led by Insight with Munich Re Ventures confirmed; total and headcount not found."
+ },
+ {
+  "id": "auterion",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 167,
+   "valuation_usd_m": 600,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.orrick.com/en/News/2025/09/Auterion-Raises-130-Million-Series-B-Financing-to-Advance-Combat-Proven-Autonomous",
+   "https://www.therobotreport.com/auterion-raises-130m-build-drone-swarms-defense/"
+  ],
+  "note": "Series B $130M Sep 2025 (Bessemer) confirmed; valuation 'north of $600M' per CEO; total ~$167M (PitchBook); $200M 2026 round only on Caplight, unconfirmed."
+ },
+ {
+  "id": "plainsight",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 51,
+   "last_round": "$12M, Jun 2024, led by DRW Venture Partners",
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/sixgill/financials",
+   "https://www.employbl.com/companies/plainsight"
+  ],
+  "note": "Total $34-46M by source (CB $45.9M kept); lead DRW Venture Partners; headcount 51 (Jun 2026)."
+ },
+ {
+  "id": "mvtec-software",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.mvtec.com/knowledge-base/news/article/mvtec-takes-a-giant-step-forward-in-expanding-its-international-footprint"
+  ],
+  "note": "Munich HQ, founded 1996, family-owned, still independent; older page cites ~300 staff (undated), not changed."
+ },
+ {
+  "id": "comma-soft-alan",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 1989,
+   "employees": 135,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.pressebox.de/newsroom/comma-soft-ag",
+   "https://comma-soft.com/en/history/"
+  ],
+  "note": "2025 press release states founded 1989 (registry 1999), not 1977; ~135 employees."
+ },
+ {
+  "id": "chooch",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://techcrunch.com/2020/11/16/computer-vision-startup-chooch-ai-scores-20m-series-a/",
+   "https://dealroom.co/companies/chooch-ai/"
+  ],
+  "note": "$20M Series A Nov 2020 confirmed; total $22.9-42.9M by source; HQ Palo Alto vs San Mateo unresolved; no new round."
+ },
+ {
+  "id": "lamini",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/lamini"
+  ],
+  "note": "AMD hired team (not acquisition) per CRN via CB Insights; undated; Lamini's current status not confirmed."
+ },
+ {
+  "id": "simplismart",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 8,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://yourstory.com/2024/10/simplismart-bags-7-million-series-a-funding-round-led-by-accel",
+   "https://entrackr.com/2024/10/saas-startup-simplismart-raises-7-mn-in-series-a-funding"
+  ],
+  "note": "Series A $7M Oct 2024 (Accel) confirmed; under $1M raised before it, so total ~$8M not $17M; no later round found."
+ },
+ {
+  "id": "plumerai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://bits-chips.com/article/plumerai-raises-8-7m-series-a-to-connect-vision-llms-to-edge-devices/",
+   "https://vestbee.com/blog/articles/plumerai-raises-8-7-m"
+  ],
+  "note": "Series A $8.7M Sep 2025 co-led by Partech and OTB confirmed; total over $17M."
+ },
+ {
+  "id": "intrafind",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 65,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://intrafind.com/en/about-us",
+   "https://intrafind.com/en/20-Years"
+  ],
+  "note": "Founded Oct 2000 in Munich confirmed; company says 65+ employees (not 100), so band is 51-200."
+ },
+ {
+  "id": "aixcoder",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/aixcoder/financials",
+   "https://pandaily.com/?p=168138"
+  ],
+  "note": "CB lists Series B rounds in 2025 without amounts; ~CNY1B valuation mentioned; nothing reliable to correct."
+ },
+ {
+  "id": "edgeless-systems",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 24,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://osborneclarke.com/news/osborne-clarke-advises-cybersecurity-start-edgeless-systems-seed-funding-round",
+   "https://pitchbook.com/profiles/company/439876-27"
+  ],
+  "note": "EUR5M seed Mar 2023 confirmed; totals $6.5-8M by source; headcount ~23-24 (PitchBook, LeadIQ Apr 2026)."
+ },
+ {
+  "id": "gpustack",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.ifeng.com/c/8x4uSH3Lvbt",
+   "https://www.cbinsights.com/company/shuche-software/financials"
+  ],
+  "note": "RMB50M Pre-A led by Shuihua Future, GRC following, confirmed; prior seed ~$7.7M (2022) consistent with total."
+ },
+ {
+  "id": "cogniac",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 40.1,
+   "last_round": "Series B1, $20M, Oct 2021, led by National Grid Partners with Cisco Investments",
+   "employees": 37,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.globenewswire.com/en/news-release/2021/10/27/2321655/0/en/Cogniac-Raises-20-Million-in-Series-B1-Financing-to-Drive-Global-Expansion.html",
+   "https://pitchbook.com/profiles/company/157321-45"
+  ],
+  "note": "Total ~$40M (PitchBook/CB); latest round B1 Oct 2021; headcount ~37 (PitchBook)."
+ },
+ {
+  "id": "katonic-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.caplight.com/company/katonic",
+   "https://fundediq.co/katonic-ai-katonic-ai-funding/"
+  ],
+  "note": "Sydney, 2020, Dec 2022 seed ~$1.6M confirmed; total $1.6-1.9M; ~50 staff Mar 2026 (Caplight)."
+ },
+ {
+  "id": "iternal-technologies-airgapai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://iternal.ai/origin-story"
+  ],
+  "note": "Company says founded 2018 (consistent); no funding or reliable headcount found; aggregator lists 20+ staff."
+ },
+ {
+  "id": "zylon-privategpt",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2024/02/14/from-the-creators-of-privategpt-zylon-emerges-from-stealth-announcing-a-3-2m-pre-seed-funding-round"
+  ],
+  "note": "$3.2M pre-seed Feb 2024 led by Felicis confirmed; no later round found."
+ },
+ {
+  "id": "vivoka",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 19,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/vivoka/financials"
+  ],
+  "note": "March 2026 French article: team of 19, planning new raise; past funding $3.4M (CB) vs EUR1M (tech.eu), unresolved."
+ },
+ {
+  "id": "neurala",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 26,
+   "last_round": "$12M, Jun 2021, co-led by Pelion Venture Partners and Zebra Ventures",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://design-reuse.com/news/50224/neurala-funding.html",
+   "https://www.finsmes.com/?p=199929"
+  ],
+  "note": "FinSMEs: $12M Jun 2021 brought total to $26M; aggregators $29-34M."
+ },
+ {
+  "id": "benzhi-activation-powerinfer-smallthinker",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Seed",
+   "last_round": "Seed, several tens of millions RMB, Jul 2025, led by Yunqi Capital with Baidu Ventures and L2F",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://news.pedaily.cn/202507/552747.shtml",
+   "https://www.qbitai.com/2025/07/313482.html"
+  ],
+  "note": "Seed round Jul 2025 per Pedaily; amount only 'tens of millions RMB', so total left null."
+ },
+ {
+  "id": "viso-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Schaffhausen",
+   "funding_stage": "Seed",
+   "total_funding_usd_m": 9.2,
+   "last_round": "Seed, EUR8.7M, Oct 2023, led by Accel",
+   "employees": 28,
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.eu-startups.com/2023/10/swiss-startup-viso-raises-e8-7-million-to-help-businesses-build-and-deploy-computer-vision-applications/",
+   "https://techcrunch.com/2023/10/25/viso-eyes-no-code-for-the-future-of-computer-vision-and-scores-funding-to-scale"
+  ],
+  "note": "HQ Schaffhausen (Zurich office); EUR8.7M seed Oct 2023 led by Accel; headcount 28 (PitchBook)."
+ },
+ {
+  "id": "tracel-ai-burn",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Quebec City",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://burn.dev/blog/funding-announcement",
+   "https://app.dealroom.co/companies/tracel_technologies"
+  ],
+  "note": "$3M seed Aug 2025 (Golden Ventures, OSS Capital) confirmed by company; HQ Quebec City per Dealroom and grant record, not Montreal."
+ },
+ {
+  "id": "zetic-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://en.wowtale.net/2024/05/21/76988"
+  ],
+  "note": "May 2024 seed from Korea Investment Accelerator and TheVentures confirmed, amount undisclosed; $1M total aggregator-only."
+ },
+ {
+  "id": "xailient",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 0.07,
+   "funding_stage": "Angel",
+   "last_round": "Angel round, Jul 2024, Brisbane Angels",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/xailient/financials"
+  ],
+  "note": "CB: ~$70K over 4 rounds, angel Jul 2024; HQ Sydney vs Sunnyvale conflicts, founded 2018/2019 conflicts; unchanged."
+ },
+ {
+  "id": "pleias",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Accelerator, Sep 2024, Mozilla Builders",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/pleias/financials",
+   "https://www.startuphub.ai/startups/pleias"
+  ],
+  "note": "Only CB-listed round: Mozilla Builders Sep 2024; StartupHub $10M uncorroborated; founded year conflicts 2022-2024."
+ },
+ {
+  "id": "locai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_country": "United Kingdom",
+   "total_funding_usd_m": 1.3,
+   "last_round": "Pre-seed, GBP1M, Apr 2026, led by Fuel Ventures",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.uktech.news/ai/locai-raises-1m-to-develop-its-off-cloud-ai-infrastructure-20260422",
+   "https://inforcapital.com/news/locai-raises-1m-to-develop-its-off-cloud-ai-infrastructure/"
+  ],
+  "note": "GBP1M pre-seed 22 Apr 2026 led by Fuel Ventures (~$1.3M); founded 2022 vs 2025 conflict."
+ },
+ {
+  "id": "noah-labs",
+  "checked": false,
+  "result": "unchecked",
+  "corrections": {},
+  "evidence": [],
+  "note": "Not searched; search budget prioritised earlier companies."
+ },
+ {
+  "id": "mintplex-labs",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2022,
+   "hq_city": "Orange County",
+   "hq_country": "United States",
+   "funding_stage": "Seed",
+   "employees": 4,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.ycombinator.com/companies/mintplex-labs",
+   "https://www.cbinsights.com/company/mintplex-labs/financials"
+  ],
+  "note": "YC S22; Orange County CA; team of 4; funding ~$0.5-0.63M by source (not set)."
+ },
+ {
+  "id": "alpha-cephei-vosk",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Astrakhan",
+   "hq_country": "Russia",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.github.com/nshmyrev",
+   "https://alphacephei.com/"
+  ],
+  "note": "Founder's GitHub lists Alpha Cephei Inc, Astrakhan, Russia; founded 2012 only from Village.ai (not applied); headcount unknown."
+ },
+ {
+  "id": "numen-technologies",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://opentools.ai/organizations/numen-technologies"
+  ],
+  "note": "Confirmed only that Numen Technologies Limited develops Private LLM; Hyderabad, founding year not verifiable."
+ }
+]

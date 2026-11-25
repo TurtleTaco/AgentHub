@@ -1,0 +1,583 @@
+[
+ {
+  "target": "Cloudera",
+  "id": "cloudera",
+  "buyer": "KKR; Clayton, Dubilier & Rice",
+  "year": 2021,
+  "detail": "Taken private by KKR and Clayton, Dubilier & Rice (2021, ~$5.3B); operates independently"
+ },
+ {
+  "target": "Red Hat",
+  "id": "red-hat",
+  "buyer": "IBM",
+  "year": 2019,
+  "detail": "Acquired by IBM (2019); operates as IBM subsidiary"
+ },
+ {
+  "target": "VMware by Broadcom",
+  "id": "vmware-by-broadcom",
+  "buyer": "Broadcom",
+  "year": 2023,
+  "detail": "Acquired by Broadcom (Nov 2023)"
+ },
+ {
+  "target": "Ampere Computing",
+  "id": "ampere-computing",
+  "buyer": "SoftBank Group",
+  "year": 2025,
+  "detail": "Acquired by SoftBank Group ($6.5B, completed 26 Nov 2025)"
+ },
+ {
+  "target": "Boston",
+  "id": "boston-limited",
+  "buyer": "SourceCode",
+  "year": 2023,
+  "detail": "Acquired by SourceCode LLC (Jun 2023)"
+ },
+ {
+  "target": "Cuon",
+  "id": "cuon-terrasky-group",
+  "buyer": "TerraSky",
+  "year": 2019,
+  "detail": "Wholly owned TerraSky subsidiary since share acquisition (May 2019)"
+ },
+ {
+  "target": "Eviden / Bull",
+  "id": "eviden-bull-atos-advanced-computing",
+  "buyer": "French State",
+  "year": 2026,
+  "detail": "Sold by Atos to the French State, completed 31 Mar 2026 (EV up to EUR 404M incl. earn-outs)"
+ },
+ {
+  "target": "Graphcore",
+  "id": "graphcore",
+  "buyer": "SoftBank Group",
+  "year": 2024,
+  "detail": "Acquired by SoftBank Group (Jul 2024); ~$450M SoftBank injection reported May 2026 (unconfirmed by company)"
+ },
+ {
+  "target": "Pliops",
+  "id": "pliops",
+  "buyer": "Astera Labs",
+  "year": 2026,
+  "detail": "Assets/IP and ~half of staff acquired by Astera Labs (Feb 2026, reported ~$70M)"
+ },
+ {
+  "target": "Taalas",
+  "id": "taalas",
+  "buyer": "AMD",
+  "year": 2026,
+  "detail": "Acquired by AMD (announced Aug 2026, closed Nov 2026; terms undisclosed)"
+ },
+ {
+  "target": "Alif Semiconductor",
+  "id": "alif-semiconductor",
+  "buyer": "Analog Devices",
+  "year": 2026,
+  "detail": "Acquired by Analog Devices (announced Sep 2026, completed Nov 3, 2026; $1.35B cash + up to $200M earnout)"
+ },
+ {
+  "target": "Atlazo",
+  "id": "atlazo",
+  "buyer": "Nordic Semiconductor",
+  "year": 2023,
+  "detail": "IP portfolio and team acquired by Nordic Semiconductor (2023) - unconfirmed by search (search budget exhausted); matches model knowledge"
+ },
+ {
+  "target": "Flex Logix",
+  "id": "flex-logix",
+  "buyer": "Analog Devices",
+  "year": 2024,
+  "detail": "Acquired by Analog Devices (Nov 2024; technology assets and team, terms undisclosed)"
+ },
+ {
+  "target": "GrAI Matter Labs",
+  "id": "grai-matter-labs",
+  "buyer": "Snap",
+  "year": 2023,
+  "detail": "Acquired by Snap Inc. (Oct 2023; widely reported, not officially announced by either company)"
+ },
+ {
+  "target": "Hailo",
+  "id": "hailo",
+  "buyer": "Microchip Technology",
+  "year": 2026,
+  "detail": "Acquired by Microchip Technology (agreement Jul 2026, completed ~Sep 2026; terms undisclosed)"
+ },
+ {
+  "target": "iniVation",
+  "id": "inivation",
+  "buyer": "SynSense Group",
+  "year": 2024,
+  "detail": "Acquired by SynSense Group (100% of shares, Feb 2024); Zurich entity continues operating"
+ },
+ {
+  "target": "Kinara",
+  "id": "kinara",
+  "buyer": "NXP Semiconductors",
+  "year": 2025,
+  "detail": "Acquired by NXP Semiconductors (closed 27 Oct 2025, $307M cash)"
+ },
+ {
+  "target": "MIPS",
+  "id": "mips",
+  "buyer": "GlobalFoundries",
+  "year": 2025,
+  "detail": "Acquired by GlobalFoundries (closed 14 Aug 2025; terms undisclosed); operates as standalone business"
+ },
+ {
+  "target": "Perceive",
+  "id": "perceive",
+  "buyer": "Amazon",
+  "year": 2024,
+  "detail": "Assets acquired by Amazon from Xperi for $80M cash (announced Aug 2024, closed Oct 2, 2024)"
+ },
+ {
+  "target": "Synopsys ARC Processor IP",
+  "id": "synopsys-arc-processor-ip",
+  "buyer": "GlobalFoundries",
+  "year": 2026,
+  "detail": "Synopsys Processor IP Solutions (ARC) business acquired by GlobalFoundries; closed Jun 2, 2026; integrated into GF's MIPS unit"
+ },
+ {
+  "target": "Think Silicon",
+  "id": "think-silicon",
+  "buyer": "Applied Materials",
+  "year": 2020,
+  "detail": "Acquired by Applied Materials (2020); operates as wholly owned subsidiary"
+ },
+ {
+  "target": "BentoML",
+  "id": "bentoml",
+  "buyer": "Modular",
+  "year": 2026,
+  "detail": "Acquired by Modular (announced Feb 10, 2026)"
+ },
+ {
+  "target": "Bright Computing",
+  "id": "bright-computing",
+  "buyer": "NVIDIA",
+  "year": 2022,
+  "detail": "Acquired by NVIDIA (Jan 2022); not re-verified by search this pass (rate limit), high-confidence knowledge"
+ },
+ {
+  "target": "Inferless",
+  "id": "inferless",
+  "buyer": "Baseten",
+  "year": 2025,
+  "detail": "Acqui-hired by Baseten (date unconfirmed, c. 2025); fate of Inferless product unconfirmed"
+ },
+ {
+  "target": "Lepton AI",
+  "id": "lepton-ai",
+  "buyer": "NVIDIA",
+  "year": 2025,
+  "detail": "Acquired by NVIDIA (2025, reported nine-figure deal; NVIDIA did not comment); relaunched as DGX Cloud Lepton"
+ },
+ {
+  "target": "Lightning AI",
+  "id": "lightning-ai",
+  "buyer": "Voltage Park",
+  "year": 2026,
+  "detail": "Merged with Voltage Park (completed Jan 21, 2026); combined company retains Lightning AI name"
+ },
+ {
+  "target": "MK1",
+  "id": "mk1",
+  "buyer": "AMD",
+  "year": 2025,
+  "detail": "Acquired by AMD (2025; per AMD blog URL, date not independently searched)"
+ },
+ {
+  "target": "Modular",
+  "id": "modular",
+  "buyer": "Qualcomm",
+  "year": 2026,
+  "detail": "Acquired by Qualcomm; announced Jun 2026, completed Jul 29 2026"
+ },
+ {
+  "target": "NeuralFabric",
+  "id": "neuralfabric",
+  "buyer": "Cisco",
+  "year": 2025,
+  "detail": "Acquired by Cisco; announced Nov 2025, completed Nov 21 2025"
+ },
+ {
+  "target": "Predibase",
+  "id": "predibase",
+  "buyer": "Rubrik",
+  "year": 2025,
+  "detail": "Acquired by Rubrik (announced Jun 2025; price undisclosed, reported ~$100M+)"
+ },
+ {
+  "target": "Run:ai",
+  "id": "run-ai",
+  "buyer": "NVIDIA",
+  "year": 2024,
+  "detail": "Acquired by NVIDIA (announced Apr 2024, closed Dec 2024, ~$700M reported)"
+ },
+ {
+  "target": "SchedMD",
+  "id": "schedmd-slurm",
+  "buyer": "NVIDIA",
+  "year": 2025,
+  "detail": "Acquired by NVIDIA (announced Dec 2025; not re-searched)"
+ },
+ {
+  "target": "cnvrg.io",
+  "id": "cnvrg-io",
+  "buyer": "Intel",
+  "year": 2020,
+  "detail": "Acquired by Intel (2020); Tiber AI Studio continuation unconfirmed"
+ },
+ {
+  "target": "Cognigy",
+  "id": "cognigy",
+  "buyer": "NICE",
+  "year": 2025,
+  "detail": "Acquired by NICE (completed 8 Sep 2025, ~$955M)"
+ },
+ {
+  "target": "Flowise",
+  "id": "flowise",
+  "buyer": "Workday",
+  "year": 2025,
+  "detail": "Acquired by Workday (announced 14 Aug 2025)"
+ },
+ {
+  "target": "Iguazio",
+  "id": "iguazio",
+  "buyer": "McKinsey & Company",
+  "year": 2023,
+  "detail": "Acquired by McKinsey & Company (announced 23 Jan 2023), folded into QuantumBlack"
+ },
+ {
+  "target": "Langflow",
+  "id": "langflow",
+  "buyer": "IBM",
+  "year": 2024,
+  "detail": "Acquired by DataStax (April 2024, via Logspace); DataStax acquired by IBM (announced Feb 2025, closing mid-2025 per IBM page title 'DataStax, an IBM company')"
+ },
+ {
+  "target": "Sinequa",
+  "id": "sinequa",
+  "buyer": "ChapsVision",
+  "year": 2024,
+  "detail": "Acquired by ChapsVision (announced Nov 18, 2024); confirmed"
+ },
+ {
+  "target": "Tabnine",
+  "id": "tabnine",
+  "buyer": "Tricentis",
+  "year": 2026,
+  "detail": "Acquired by Tricentis, announced Jul 30, 2026 (terms undisclosed)"
+ },
+ {
+  "target": "Ask Sage",
+  "id": "ask-sage",
+  "buyer": "BigBear.ai",
+  "year": 2025,
+  "detail": "Acquired by BigBear.ai for ~$250M cash; announced Nov 2025, closed Dec 31 2025"
+ },
+ {
+  "target": "Cobalt Speech & Language",
+  "id": "cobalt-speech-language",
+  "buyer": "Quansight",
+  "year": null,
+  "detail": "Acquired by Quansight (date not confirmed); continues as distinct team"
+ },
+ {
+  "target": "Mithril Security",
+  "id": "mithril-security",
+  "buyer": "H Company",
+  "year": 2024,
+  "detail": "Reported acquired by H Company (2024) per CB Insights/Dealroom; unconfirmed"
+ },
+ {
+  "target": "Phonexia",
+  "id": "phonexia",
+  "buyer": "Crescendo Equity Partners",
+  "year": 2025,
+  "detail": "Dec 2025: became portfolio company of South Korean fund Crescendo Equity Partners; terms undisclosed"
+ },
+ {
+  "target": "Safran.AI",
+  "id": "safran-ai-formerly-preligens",
+  "buyer": "Safran",
+  "year": 2024,
+  "detail": "Acquired by Safran (completed Sep 2024, EUR 220M enterprise value); renamed Safran.AI"
+ },
+ {
+  "target": "Systran",
+  "id": "systran",
+  "buyer": "ChapsVision",
+  "year": 2024,
+  "detail": "Acquired by ChapsVision (announced Jan 2024)"
+ },
+ {
+  "target": "Windsurf",
+  "id": "windsurf-formerly-codeium",
+  "buyer": "Cognition",
+  "year": 2025,
+  "detail": "Remaining business acquired by Cognition (Jul 2025); CEO and co-founders joined Google in $2.4B licensing deal"
+ },
+ {
+  "target": "Brium",
+  "id": null,
+  "buyer": "AMD",
+  "year": 2025,
+  "detail": "Acquired by AMD (announced Jun 4, 2025; terms undisclosed); confirmed via AMD blog and TechCrunch"
+ },
+ {
+  "target": "CentML",
+  "id": null,
+  "buyer": "NVIDIA",
+  "year": 2025,
+  "detail": "Acquired by NVIDIA (2025); CentML services shut down July 2025"
+ },
+ {
+  "target": "DarwinAI",
+  "id": null,
+  "buyer": "Apple",
+  "year": 2024,
+  "detail": "Acquired by Apple (2024), confirmed via BetaKit/Bloomberg reporting; Apple did not officially confirm"
+ },
+ {
+  "target": "Deci",
+  "id": null,
+  "buyer": "NVIDIA",
+  "year": 2024,
+  "detail": "Acquired by NVIDIA (2024); from knowledge, not searched"
+ },
+ {
+  "target": "Deeplite",
+  "id": null,
+  "buyer": "STMicroelectronics",
+  "year": 2025,
+  "detail": "Acquired by STMicroelectronics (Apr 2025), per CB Insights/The Logic; terms undisclosed"
+ },
+ {
+  "target": "Jina AI",
+  "id": "jina-ai",
+  "buyer": "Elastic",
+  "year": 2025,
+  "detail": "Acquired by Elastic (completed Oct 9, 2025); terms undisclosed"
+ },
+ {
+  "target": "Mipsology",
+  "id": null,
+  "buyer": "AMD",
+  "year": 2023,
+  "detail": "Acquired by AMD (announced Aug 24, 2023), confirmed by AMD blog; one database misdates to 2024"
+ },
+ {
+  "target": "Moondream",
+  "id": "moondream-m87-labs",
+  "buyer": "Prime Intellect",
+  "year": 2026,
+  "detail": "Acquired by Prime Intellect (announced Oct 13, 2026); Moondream Cloud shutting down Nov 13, 2026; brand and open models continue"
+ },
+ {
+  "target": "Neural Magic",
+  "id": "neural-magic",
+  "buyer": "Red Hat",
+  "year": 2024,
+  "detail": "Acquired by Red Hat (IBM) - announced Nov 2024, completed Jan 2025"
+ },
+ {
+  "target": "Nod.ai",
+  "id": "nod-ai",
+  "buyer": "AMD",
+  "year": 2023,
+  "detail": "Acquired by AMD (announced Oct 2023, per AMD announcement; recalled from knowledge, not re-searched)"
+ },
+ {
+  "target": "OctoML / OctoAI",
+  "id": "octoml-octoai",
+  "buyer": "NVIDIA",
+  "year": 2024,
+  "detail": "Acquired by NVIDIA (announced Sep 2024, reported ~ $250M; service shut down end of Oct 2024; from knowledge, not re-searched)"
+ },
+ {
+  "target": "OmniML",
+  "id": "omniml",
+  "buyer": "NVIDIA",
+  "year": 2024,
+  "detail": "Acquired by NVIDIA (reported Feb 2024; discovery said 2023 - corrected; from knowledge, not re-searched)"
+ },
+ {
+  "target": "Silo AI",
+  "id": "silo-ai",
+  "buyer": "AMD",
+  "year": 2024,
+  "detail": "Acquired by AMD (announced Jul 2024, ~$665M; completed Mar 2025; from knowledge, not re-searched)"
+ },
+ {
+  "target": "SqueezeBits",
+  "id": "squeezebits",
+  "buyer": "Rebellions",
+  "year": 2026,
+  "detail": "Acquired by Rebellions (announced Jun 30, 2026; one outlet says Jul 13); terms undisclosed"
+ },
+ {
+  "target": "ggml.ai",
+  "id": "ggml-ai-llama-cpp",
+  "buyer": "Hugging Face",
+  "year": 2026,
+  "detail": "Team joined/acquired by Hugging Face, announced Feb 20, 2026; projects stay open source under MIT"
+ },
+ {
+  "target": "Invoke",
+  "id": "invoke-invoke-ai",
+  "buyer": "Adobe",
+  "year": 2025,
+  "detail": "Team acquired by Adobe (Oct 2025, joined AI Foundry); terms undisclosed; open-source project continues"
+ },
+ {
+  "target": "LibreChat",
+  "id": "librechat",
+  "buyer": "ClickHouse",
+  "year": 2025,
+  "detail": "Acquired by ClickHouse (announced Nov 4, 2025); confirmed"
+ },
+ {
+  "target": "Limitless",
+  "id": null,
+  "buyer": "Meta",
+  "year": 2025,
+  "detail": "Acquired by Meta (announced Dec 5, 2025); Rewind capture disabled Dec 19, 2025; confirmed"
+ },
+ {
+  "target": "Locally AI",
+  "id": "locally-ai",
+  "buyer": "LM Studio",
+  "year": 2026,
+  "detail": "Acquired by LM Studio / Element Labs (announced Apr 8, 2026; terms undisclosed)"
+ },
+ {
+  "target": "Nexa AI",
+  "id": "nexa-ai",
+  "buyer": "Qualcomm",
+  "year": 2026,
+  "detail": "Acquired by Qualcomm (Mar 2026 per founder post; terms undisclosed); continues as GenieX"
+ },
+ {
+  "target": "Topaz Labs",
+  "id": "topaz-labs",
+  "buyer": "Adobe",
+  "year": 2026,
+  "detail": "Acquired by Adobe (announced Jun 2026, completed Sep 23, 2026); remains standalone brand"
+ },
+ {
+  "target": "Arduino",
+  "id": "arduino",
+  "buyer": "Qualcomm",
+  "year": 2025,
+  "detail": "Qualcomm acquisition announced Oct 2025; closing unconfirmed in search"
+ },
+ {
+  "target": "Crosser",
+  "id": "crosser",
+  "buyer": "AVEVA",
+  "year": 2025,
+  "detail": "Acquired by AVEVA (Schneider Electric), announced 16 Dec 2025; terms undisclosed"
+ },
+ {
+  "target": "Edge Impulse",
+  "id": "edge-impulse",
+  "buyer": "Qualcomm",
+  "year": 2025,
+  "detail": "Acquired by Qualcomm (announced Mar 2025)"
+ },
+ {
+  "target": "Falkonry",
+  "id": "falkonry",
+  "buyer": "IFS",
+  "year": 2023,
+  "detail": "Acquired by IFS (2023; from memory, not searched)"
+ },
+ {
+  "target": "FogHorn",
+  "id": "foghorn",
+  "buyer": "Johnson Controls",
+  "year": 2022,
+  "detail": "Acquired by Johnson Controls (2022; from memory, not searched)"
+ },
+ {
+  "target": "Foundries.io",
+  "id": "foundries-io",
+  "buyer": "Qualcomm",
+  "year": 2024,
+  "detail": "Acquired by Qualcomm (2024; from memory, unconfirmed by search)"
+ },
+ {
+  "target": "Imagimob",
+  "id": "imagimob",
+  "buyer": "Infineon Technologies",
+  "year": 2023,
+  "detail": "Acquired by Infineon (announced 2023; from memory, not searched)"
+ },
+ {
+  "target": "Inspekto",
+  "id": "inspekto",
+  "buyer": "Siemens",
+  "year": 2024,
+  "detail": "Acquired by Siemens (Feb 2024) from D11Z Ventures; now in Siemens Factory Automation"
+ },
+ {
+  "target": "Iteris",
+  "id": "iteris",
+  "buyer": "Almaviva",
+  "year": 2024,
+  "detail": "Acquired by Almaviva (take-private, ~$335M, closed Oct 2024)"
+ },
+ {
+  "target": "Neuton.AI",
+  "id": "neuton-ai",
+  "buyer": "Nordic Semiconductor",
+  "year": 2025,
+  "detail": "IP and team acquired by Nordic Semiconductor (announced Jun 2025); terms undisclosed"
+ },
+ {
+  "target": "Oosto",
+  "id": "oosto-formerly-anyvision",
+  "buyer": "Metropolis Technologies",
+  "year": 2025,
+  "detail": "Acquired by Metropolis Technologies (announced Jan 2025, reported ~$125M all-share); discovery said 2024"
+ },
+ {
+  "target": "Qeexo",
+  "id": "qeexo",
+  "buyer": "TDK",
+  "year": 2023,
+  "detail": "Acquired by TDK (announced Jan 2023, subject to CFIUS; closure not separately confirmed)"
+ },
+ {
+  "target": "Scailable",
+  "id": "scailable",
+  "buyer": "Network Optix",
+  "year": 2024,
+  "detail": "Acquired by Network Optix (Jan 2024)"
+ },
+ {
+  "target": "SensiML",
+  "id": "sensiml",
+  "buyer": "QuickLogic",
+  "year": 2019,
+  "detail": "Acquired by QuickLogic (2019) (from knowledge, not re-searched)"
+ },
+ {
+  "target": "Wallaroo.AI",
+  "id": "wallaroo-ai",
+  "buyer": "d-Matrix",
+  "year": 2026,
+  "detail": "Acquired by d-Matrix (announced Aug 3, 2026), terms undisclosed"
+ },
+ {
+  "target": "Wind River",
+  "id": "wind-river",
+  "buyer": "Aptiv",
+  "year": 2022,
+  "detail": "Acquired by Aptiv from TPG, closed Dec 23, 2022 (~$3.5B)"
+ }
+]

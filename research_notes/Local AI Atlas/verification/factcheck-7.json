@@ -1,0 +1,703 @@
+[
+ {
+  "id": "zackriya-solutions-meetily",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://insights.persana.ai/Zackriya Solutions"
+  ],
+  "note": "Only weak aggregator hits (Bangalore, founded 2020); nothing on Meetily itself. No change made."
+ },
+ {
+  "id": "g42",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://news.bgov.com/mergers-and-acquisitions/microsoft-backed-ai-firm-g42-weighs-raising-billions-of-dollars"
+  ],
+  "note": "Headcount estimates conflict (576 to 3,519 to 22,000); Bloomberg reports G42 weighing multibillion raise (Sep 2026). Microsoft round unchanged."
+ },
+ {
+  "id": "gigaio",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 40.2,
+   "employees": 31,
+   "employees_band": "11-50",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://insidehpc.com/2025/07/gigaio-raises-21m-in-series-b-round/",
+   "https://www.storagenewsletter.com/?p=238596",
+   "https://dealroom.co/companies/gigaio/"
+  ],
+  "note": "Series B $21M first tranche Jul 2025 confirmed; total = $19.2M (2021) + $21M. Headcount 31 (Dealroom), 11-50 (Parsers)."
+ },
+ {
+  "id": "positron-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 1100,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.datacenterdynamics.com/en/news/positron-ai-raises-875m-at-a-5bn-valuation-to-support-develop-of-next-generation-hardware/",
+   "https://siliconangle.com/2026/02/04/positron-ai-raises-230m-1b-valuation-build-energy-efficient-ai-accelerator-hardware/"
+  ],
+  "note": "Series C/C-1 $875M at $5B confirmed (Sep 2026); Series B $230M Feb 2026; total about $1.1B."
+ },
+ {
+  "id": "ambient-scientific",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.vcbacked.co/company/ambient-scientific-ai"
+  ],
+  "note": "Aggregators conflict: ~$10M total (seed Dec 2021 vs Jan 2023); headcount 86 (Growjo) to 51-200. No primary source."
+ },
+ {
+  "id": "blumind",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2020,
+   "funding_stage": "Series A",
+   "last_round": "Series A, C$20M (~US$14M), Apr 2025, co-led by Cycle Capital and BDC Capital",
+   "total_funding_usd_m": 14,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://betakit.com/blumind-secures-20-million-series-a-to-build-the-ai-chip-wed-have-if-computers-didnt-exist",
+   "https://builtin.com/articles/blumind-raises-20m-series-a-20250408",
+   "https://www.businesswire.com/news/home/20250408503288/en/"
+  ],
+  "note": "Founded 2020; C$20M Series A Apr 2025. HQ Ottawa per Business Wire (OBJ says Toronto). Total approximate USD."
+ },
+ {
+  "id": "d-robotics",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series C",
+   "last_round": "Series C, US$400M, Sep 2026, led by Mirae Asset with Meituan",
+   "total_funding_usd_m": 770,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://equalocean.com/news/2026091822200",
+   "https://dealroom.co/news/151395-d-robotics-lands-400m-series-c-the-largest-china-robotics-round-in-four/"
+  ],
+  "note": "US$400M Series C Sep 2026; two Series B rounds earlier in 2026 raised $270M; total announced ~$770M. No valuation disclosed."
+ },
+ {
+  "id": "gyrfalcon-technology",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/gyrfalcon-technology"
+  ],
+  "note": "Aggregators list it Active, Milpitas, ~$1.5M disclosed funding; no closure announcement. Defunct status remains unconfirmed; not changed."
+ },
+ {
+  "id": "lynxi-technologies",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.caplight.com/company/lynxi",
+   "https://www.cbinsights.com/company/lynxi-technologies"
+  ],
+  "note": "Series B Nov 2023 and B+ Apr 2024 (Guoding Capital) per aggregators; no 2026 round found. Headcount unverified."
+ },
+ {
+  "id": "prophesee",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.prophesee.ai/2026/06/15/prophesee-launches-mantara-event-based-drone-detection/"
+  ],
+  "note": "Company announced EUR 20M led by Critical Path Ventures on 15 Jun 2026 with Mantara launch; still operating."
+ },
+ {
+  "id": "skymizer",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/skymizer"
+  ],
+  "note": "Only CB Insights notes unattributed VC May 2025 (Harbinger VC); founded Nov 2013 confirmed. No amount or headcount found."
+ },
+ {
+  "id": "unisoc",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.digitimes.com/news/a20250702PD228.html",
+   "https://www.caixinglobal.com/2024-06-04/exclusive-unigroup-backed-phone-chip-designer-valued-at-91-billion-plans-to-kick-off-ipo-process-next-year-102203199.html"
+  ],
+  "note": "Valuation ~$9.1B (66B RMB, Caixin 2024) consistent; STAR IPO prep, listing not confirmed; no headcount found."
+ },
+ {
+  "id": "llmware-ai-bloks",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/ai-bloks"
+  ],
+  "note": "CB Insights: $40K GitHub Accelerator only; docs say founded Oct 2022. No reliable headcount."
+ },
+ {
+  "id": "lm-kit",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Toulouse",
+   "founded": 2024,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.componentsource.com/brand/lm-kit",
+   "https://startup-seeker.com/company/lm-kit~com"
+  ],
+  "note": "Sources place LM-Kit in Toulouse/Muret, France, founded 2024; funding undisclosed. Paris not supported."
+ },
+ {
+  "id": "reflection-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 203,
+   "employees_band": "201-500",
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sacra.com/c/reflection-ai/",
+   "https://www.tipranks.com/private-companies/reflection-ai"
+  ],
+  "note": "$4.63B total and $27.5B post-money confirmed; TipRanks 203 employees (Jun 2026), Caplight 213."
+ },
+ {
+  "id": "scale-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 15900,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sacra.com/research/scale-ai",
+   "https://stockanalysis.com/private/scale-ai/"
+  ],
+  "note": "Total ~$15.9B incl. Meta's $14.3B (Jun 2025); $29B valuation confirmed. Headcount conflicts (1,300 vs 5,600); not changed."
+ },
+ {
+  "id": "baichuan-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "last_round": "Series A, ~US$690-700M (RMB 5B), 2024, Alibaba, Tencent, Xiaomi; >RMB 20B valuation",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.scmp.com/tech/tech-trends/article/3271908/chinese-ai-start-baichuan-raises-us700-million-alibaba-tencent-xiaomi",
+   "https://cryptobriefing.com/baichuan-ai-2027-ipo-china/"
+  ],
+  "note": "Last round was ~$700M not $300M; still Series A, not D+. No confirmed 2026 round; IPO targeted 2027. Dates differ across sources."
+ },
+ {
+  "id": "writer",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2024/11/12/generative-ai-startup-writer-raises-200m-at-a-1-9b-valuation",
+   "https://sacra.com/c/writer/"
+  ],
+  "note": "$326M total, $200M Series C Nov 2024 at $1.9B confirmed. Headcount conflicts (145 to 350+); not changed."
+ },
+ {
+  "id": "ai21-labs",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 700,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://en.globes.co.il/en/article-1001530580",
+   "https://techcrunch.com/2023/08/30/generative-ai-startup-ai21-labs-lands-155m-at-a-1-4b-valuation"
+  ],
+  "note": "Globes: ~$700M raised overall, company seeking exit. A $300M May 2025 round reported by others, unconfirmed; layoff reports unverified."
+ },
+ {
+  "id": "mirantis-k0rdent-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 242,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/mirantis/financials",
+   "https://6figr.com/company/mirantis"
+  ],
+  "note": "Aggregators give $211-255M total (CB $241.7M, last round debt Oct 2023); headcount 391-605 conflicts, unchanged."
+ },
+ {
+  "id": "sourcegraph",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 150,
+   "employees_band": "51-200",
+   "status_detail": "Amp spun out as independent company in 2026 (Quinn Slack leads Amp; Dan Adler leads Sourcegraph)",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies",
+   "https://www.trueup.io/co/sourcegraph"
+  ],
+  "note": "Series D $125M Jul 2021 at $2.625B confirmed; headcount ~150 (130-165 across sources); Amp split 2026."
+ },
+ {
+  "id": "qure-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://radiologybusiness.com/node/267671",
+   "https://www.cbinsights.com/company/qureai/financials"
+  ],
+  "note": "$65M Series D (Lightspeed, 360 ONE) confirmed; total $117-157M across trackers, $125.8M CB. No 2026 round or IPO found."
+ },
+ {
+  "id": "reka",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20250723821034/en",
+   "https://siliconangle.com/2025/07/22/multimodal-ai-startup-reka-ai-raises-110m-1b-valuation"
+  ],
+  "note": "$110M Series B Jul 2025 at $1B confirmed; total $167-170M; no 2026 round found."
+ },
+ {
+  "id": "assemblyai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2023/12/04/assemblyai-nabs-50m-to-build-and-serve-ai-speech-models"
+  ],
+  "note": "$50M Series C Dec 2023 (Accel) confirmed; total $108-158M by source; no 2026 round found."
+ },
+ {
+  "id": "zyphra",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.caplight.com/company/zyphra",
+   "https://pulseaugur.com/cluster/38845-zyphra-raises-500m-touts-amd-hardware-to-challenge-nvidia"
+  ],
+  "note": "Series A ~$100-110M 2025 confirmed; $500M AMD-led round at >=$5B reported May 2026 but no official announcement. Unchanged."
+ },
+ {
+  "id": "ambient-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series C",
+   "last_round": "Series C, Oct 2026, led by Allegion Ventures (amount not found); total funding past $100M",
+   "total_funding_usd_m": 100,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://dealroom.co/news/164311-allegion-ventures-leads-ambient-ai-series-c-pushing-total-funding-past-1/",
+   "https://www.startupresearcher.com/news/allegion-ventures-leads-series-c-round-for-ambient-ai"
+  ],
+  "note": "Series C Oct 2026 led by Allegion Ventures; company says total past $100M (floor value used)."
+ },
+ {
+  "id": "moonshot-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "~US$2B, May 2026, led by Meituan Dragon Ball, >$20B post-money; later reports of $30-35B rounds unconfirmed",
+   "valuation_usd_m": 20000,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets",
+   "https://thenextweb.com/news/moonshot-ai-kimi-30-billion-valuation-china-ai-race"
+  ],
+  "note": "TechCrunch confirms $2B at $20B (May 2026); weaker sources report $30-50B later. Total funding not reconciled."
+ },
+ {
+  "id": "deepset",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.deepset.ai/news/funding-announcement-balderton-capital",
+   "https://dealroom.co/companies/deepset/"
+  ],
+  "note": "$30M Series B Aug 2023 (Balderton), total ~$46M confirmed; no 2026 round or acquisition found."
+ },
+ {
+  "id": "instabase",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series D",
+   "total_funding_usd_m": 277,
+   "valuation_usd_m": 1240,
+   "last_round": "Series D, $100M, Jan 2025, down round at ~$1.24B valuation",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.bloomberg.com/news/articles/2025-01-17/software-unicorn-instabase-raises-100-million-in-down-round",
+   "https://www.zoominfo.com/financial/instabase-inc/25773384"
+  ],
+  "note": "Jan 2025 $100M down round (Bloomberg) cut valuation from $2B to $1.24B; total ~$277M (CB $281M)."
+ },
+ {
+  "id": "drishti",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.thecompanycheck.com/company/b/drishti/3vvd4w5axmsscp7x2",
+   "https://dealroom.co/companies/drishti/"
+  ],
+  "note": "Acquirer conflict persists: Apple (CompanyCheck, CB Insights 2023) vs Atlas Copco (Dealroom). No official announcement found; unchanged."
+ },
+ {
+  "id": "vcluster-labs-loft",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 28.6,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20240416839215/en/Loft-Labs-",
+   "https://www.vcluster.com/blog/our-24m-series-a-led-by-khosla-ventures"
+  ],
+  "note": "$24M Series A (Khosla) Apr 2024 confirmed (not Feb); total $28.6M incl. $4.6M seed; no later round found."
+ },
+ {
+  "id": "mozn",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.intelligentcio.com/me/2026/08/03/humain-invests-in-mozn-partners-to-build-enterprise-ai-solutions/",
+   "https://www.wamda.com/2026/08/saudi-ai-firm-mozn-secures-strategic-investment-humain"
+  ],
+  "note": "HUMAIN strategic investment announced 3 Aug 2026 (press release); amount undisclosed. Headcount unverified."
+ },
+ {
+  "id": "seldon",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status": "acquired",
+   "status_detail": "Acquired by TrueFoundry, announced 25 Jun 2026 (price undisclosed)",
+   "total_funding_usd_m": 33,
+   "funding_stage": "Series B",
+   "last_round": "Series B, $20M, Mar 2023, led by Bright Pixel",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/06/25/truefoundry-acquires-mlops-pioneer-seldon-ai-accelerate-enterprise-agentic-ai/",
+   "https://tech.eu/2023/03/16/helping-companies-roll-out-machine-learning-models-faster-better-and-stronger-seldon-raises-20-million"
+  ],
+  "note": "Acquired by TrueFoundry Jun 2026; total ~$33M (ZoomInfo $116M outlier); Series B $20M Mar 2023."
+ },
+ {
+  "id": "duality-technologies",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 50,
+   "last_round": "Series B, $30M, Oct 2021, led by LG Technology Ventures",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://venturebeat.com/business/privacy-preserving-data-platform-duality-technologies-raises-30m",
+   "https://www.cbinsights.com/company/duality-technologies/financials"
+  ],
+  "note": "Series B $30M Oct 2021 (LG Tech Ventures); total ~$50M (ZoomInfo $56M incl. 2024 grant). Headcount unverified."
+ },
+ {
+  "id": "zeroeyes",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "last_round": "Series B, $53M, Jul 2024, led by Sorenson & Co",
+   "total_funding_usd_m": 97,
+   "employees": 170,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.govtech.com/artificial-intelligence/ai-gun-scan-company-zeroeyes-raises-53m",
+   "https://www.startuphub.ai/startups/zeroeyes"
+  ],
+  "note": "Series B $53M Jul 2024; total $78-108M by tracker ($97M StartupHub); 170 employees mid-2024 per company."
+ },
+ {
+  "id": "rapt-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://rocketreach.co/raptai-profile_b41dadc7ff6c2fc0"
+  ],
+  "note": "No funding data found; only RocketReach estimate of ~17 staff. Search results mostly other companies."
+ },
+ {
+  "id": "mind-foundry",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 44,
+   "last_round": "Series B, $22M, 2023, Aioi Nissay Dowa Insurance, Parkwalk, Oxford University",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Mind_Foundry",
+   "https://app.dealroom.co/companies/mind_foundry"
+  ],
+  "note": "Series B $22M 2023; total ~$44M (Dealroom $46.5M; CB/ZoomInfo lower)."
+ },
+ {
+  "id": "vivacity-labs",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 20.3,
+   "last_round": "Funding round ~$8.4M, Feb 2023 (earlier: GBP 7.2M Jul 2022, GBP 5M Series A Feb 2021)",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.zoominfo.com/financial/vivacity-labs-ltd/373122851",
+   "https://tech.eu/2021/02/22/vivacity-labs-series-a/"
+  ],
+  "note": "Total ~$20-21M (ZoomInfo, CB); Craft $4.3M outlier. Latest round ~Feb 2023."
+ },
+ {
+  "id": "balena",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 31.4,
+   "funding_stage": "Series B",
+   "last_round": "Series B, $14.4M, Jul 2019, led by OpenView",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2019/07/24/balena-raises-14-4m-container-native-connected-device-platform",
+   "https://www.geekwire.com/2019/industrial-iot-startup-balena-raises-14m-help-developers-build-edge-computing-apps/"
+  ],
+  "note": "Series B $14.4M Jul 2019; total >$31M; Seattle HQ confirmed. No newer round found."
+ },
+ {
+  "id": "expanso",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20231114359768/en",
+   "https://www.businesswire.com/news/home/20240516826040/en/Expanso-Lands-Strategic-Investment-From-Samsung-Next-to-Reshape-Compute-Infrastructures"
+  ],
+  "note": "$7.5M seed Nov 2023 (General Catalyst, Hetz) confirmed; Samsung Next strategic investment May 2024, amount undisclosed."
+ }
+]

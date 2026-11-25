@@ -1,0 +1,744 @@
+[
+ {
+  "id": "mistral-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 7500,
+   "valuation_usd_m": 24000,
+   "last_round": "Series D, EUR 3B, Sep 2026, led by Samsung (some reports: EQT/PSG co-led); ~EUR 21B post-money",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://thenextweb.com/news/mistral-3bn-series-d-samsung-21bn-valuation",
+   "https://www.euronews.com/2026/09/08/mistral-ai-raises-record-3-billion-in-samsung-led-funding-round"
+  ],
+  "note": "Series D EUR3B Sep 2026 supersedes Series C; total ~$7.5B incl. debt (sources vary); headcount not found; lead conflict."
+ },
+ {
+  "id": "field-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
+   "https://techcrunch.com/2025/08/20/fieldai-raises-405m-to-build-universal-robot-brains"
+  ],
+  "note": "$700M at ~$10B Oct 2026 reported (term sheet/closed per some outlets); not company-confirmed. Headcount not found."
+ },
+ {
+  "id": "infinigence-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://technode.com/2026/10/12/ai-infrastructure-provider-infinigence-ai-raises-rmb-2-3-billion-in-series-c-funding/",
+   "https://phemex.com/news/article/infinigence-ai-closes-344m-series-c-eyes-hong-kong-ipo-in-2027-99540"
+  ],
+  "note": "Series C RMB2.3B (~$344M) Oct 2026, total ~RMB4.3B (~$600M); HK IPO eyed 2027; investor lists vary."
+ },
+ {
+  "id": "axelera-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 287,
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sifted.eu/articles/axelera-ai-inference-250m-raise",
+   "https://dealroom.co/companies/axelera-ai/"
+  ],
+  "note": "Funding ~$450M and Feb 2026 $250M+ round confirmed; headcount ~287 per Dealroom (estimates 200-500)."
+ },
+ {
+  "id": "euclyd",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.hpcwire.com/off-the-wire/euclyd-raises-over-e200m-to-break-the-ai-efficiency-wall",
+   "https://siliconangle.com/2026/09/15/euclyd-raises-230m-to-develop-chips-for-ai-agents/"
+  ],
+  "note": "Series A >EUR200M Sep 15 2026 co-led by Samsung, Somerset, EQT Scaleup Europe Fund, Innovation Industries confirmed."
+ },
+ {
+  "id": "brain-corp",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 182,
+   "last_round": "~$32M round, Feb 2024 (per Fundz/6figr); earlier Series D $36M Apr 2020, SoftBank",
+   "employees": 288,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://6figr.com/company/brain",
+   "https://app.fundz.net/companies/brain-e74623"
+  ],
+  "note": "Aggregators only: total $125-193M, last round Feb 2024, headcount ~200-300; low confidence."
+ },
+ {
+  "id": "zededa",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://futurumgroup.com/insights/zededa-soars-with-72-million-to-fuel-edge-ai-and-computing",
+   "https://www.cbinsights.com/company/zededa/financials"
+  ],
+  "note": "$72M Series C Feb 2024 confirmed; no 2026 round found; total estimates $72-175M; headcount estimates 81-130."
+ },
+ {
+  "id": "netradyne",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series D",
+   "total_funding_usd_m": 353,
+   "last_round": "Series D, $90M, Jan 2025, led by Point72 Private Investments",
+   "employees": 1100,
+   "employees_band": "1001-5000",
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://stnonline.com/industry-releases/netradyne-raises-90-million-in-series-d-funding-led-by-point72-private-investments",
+   "https://siliconvalleyinvestclub.com/pl/companies/netradyne/"
+  ],
+  "note": "Series D $90M Jan 2025; total $287-373M (used ~$353M); headcount ~1,100-1,270 per Revelio/6figr."
+ },
+ {
+  "id": "speechmatics",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 70,
+   "last_round": "Series B, $62M, Jun 2022, led by Susquehanna Growth Equity",
+   "employees": 110,
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2022/06/28/speechmatics-raises-62m-for-its-inclusive-approach-to-speech-to-text-ai",
+   "https://www.startuphub.ai/startups/speechmatics"
+  ],
+  "note": "Series B was Jun 2022 (not Jan 2023); total ~$70M; headcount ~110."
+ },
+ {
+  "id": "spinncloud-systems",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.hpcwire.com/off-the-wire/sparxity-closes-series-a-bringing-total-funding-to-90m/",
+   "https://itbrief.co.uk/story/sparxity-lands-series-a-to-build-ai-sparsity-chips"
+  ],
+  "note": "Series A led by ICM HPQC Fund, $90M cumulative confirmed (amount undisclosed). Founding year 2021 vs 2022 conflicting; unchanged."
+ },
+ {
+  "id": "saltlux",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Public (KOSDAQ)",
+   "status_detail": "Listed on KOSDAQ (304100) July 2020",
+   "employees": 163,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.asiae.co.kr/en/article/2020071013473679043",
+   "https://www.google.com/finance/beta/quote/304100:KOSDAQ"
+  ],
+  "note": "Publicly listed since Jul 2020; headcount 163 (undated, Google Finance); founding year 1979 vs 2000 conflict, unchanged."
+ },
+ {
+  "id": "preferred-networks",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "JPY 19B Dec 2024 (SBI, Mitsubishi Corp) plus JPY 5B extension Apr 2025 (JPY 24B total)",
+   "employees": 400,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://thebridge.jp/en/2024/12/preferred-networks-ai-development-unicorn-raises-19b-yen-including-debt-financing-sbi-and-mitsubishi-corporation-among-investors",
+   "https://www.preferred.jp/en/news/pr20250430"
+  ],
+  "note": "Round data added; valuation estimates $1.0-2.4B conflict (unchanged); headcount ~385-450; unconfirmed Aug 2026 JPY10B MHI report ignored."
+ },
+ {
+  "id": "modelbest-openbmb",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.ai-market-watch.com/news/modelbest-raises-7-billion-in-first-half-2026-tops-28-billion-valuation-as-china-cdidef",
+   "https://news.metal.com/newscontent/103690673"
+  ],
+  "note": "H1 2026 rounds >RMB5B at >RMB20B (~$2.8B) valuation; one outlet's 10x figure looks like units error."
+ },
+ {
+  "id": "ultralytics",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Series A, $30M, Sep 2025, led by Elephant (SquareOne participating)",
+   "employees": 100,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20250917562938/en",
+   "https://www.ultralytics.com/news/ultralytics-raises-30mseries-a"
+  ],
+  "note": "Series A was Sep 2025 (not 2024). HQ Frederick MD vs London conflicting; founded year conflicting; headcount 42-135."
+ },
+ {
+  "id": "expedera",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Series B, $20M, Mar 2024, led by indie Semiconductor",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://uk.marketscreener.com/quote/stock/INDIE-SEMICONDUCTOR-INC-123687656/news/Expedera-Inc-announced-that-it-expects-to-receive-21-496137-million-in-funding-46516623/",
+   "https://www.cbinsights.com/company/expedera/financials"
+  ],
+  "note": "Series B dated Mar 2024 per CB Insights (not May); no 2026 round; total $18-47M conflicting, unchanged."
+ },
+ {
+  "id": "network-optix-nx",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 1.43,
+   "funding_stage": "Bootstrapped",
+   "employees": 170,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/network-optix/financials",
+   "https://builtin.com/company/network-optix"
+  ],
+  "note": "Essentially bootstrapped (~$0.4-1.4M seed/PPP loan); headcount ~170 per Built In; HQ Walnut Creek vs Burbank conflicts."
+ },
+ {
+  "id": "edgify",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2026/08/10/edgify-raises-9m-to-expand-its-edge-ai-platform/",
+   "https://thesaasnews.com/news/edgify-raises-9m-series-a-extension"
+  ],
+  "note": "$9M Series A+ Aug 10 2026 (Rank Ventures, Mangrove); total ~$25M confirmed. Headcount not found."
+ },
+ {
+  "id": "shakudo",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "~$7M strategic round, Feb 2026, led by Wittington Ventures; Series A $7M Jul 2023, led by GreatPoint Ventures",
+   "employees": 40,
+   "employees_band": "11-50",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.shakudo.io/blog/7-million-strategic-round-to-power-sovereign-enterprise-ai",
+   "https://6figr.com/company/shakudo"
+  ],
+  "note": "Feb 2026 round led by Wittington per company blog; total $11-18M conflicting, unchanged; headcount ~40 (6figr)."
+ },
+ {
+  "id": "yurts",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "total_funding_usd_m": 56,
+   "last_round": "Series B, $40M, Dec 2024, led by XYZ Venture Capital",
+   "employees": 77,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2024/12/03/yurts-raises-40-million-to-be-the-dods-ai-chatbot",
+   "https://dealroom.co/companies/yurts-ai/"
+  ],
+  "note": "Series B $40M Dec 2024 (not seed); total ~$56-58M; headcount 77 per Dealroom."
+ },
+ {
+  "id": "utilidata",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series C",
+   "last_round": "Series C extension, $40M, May 2026 (Renown, Keyframe); $60.3M Series C Apr 2025 led by Renown with NVIDIA; Series C total $100.3M",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/05/28/utilidata-raises-another-40m-optimize-data-center-power-use/",
+   "https://www.globenewswire.com/fr/news-release/2025/04/29/3070286/0/en/Utilidata-Raises-60-Million-to-Scale-Distributed-AI-Across-Energy-Infrastructure.html"
+  ],
+  "note": "Series C $100.3M completed May 2026; total raised conflicting ($116-302M). Some local press say Ann Arbor HQ; unchanged."
+ },
+ {
+  "id": "webai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/01/13/sovereign-ai-unicorn-webais-value-soars-2-5b-double-digit-funding-round/",
+   "https://www.axios.com/2026/01/13/webai-sovereign-cloud-unicorn"
+  ],
+  "note": "Jan 13 2026 Series A extension at $2.5B valuation confirmed (pre/post-money unclear); amount undisclosed."
+ },
+ {
+  "id": "ubitium",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://itbrief.co.uk/story/ubitium-raises-usd-14-million-to-build-one-ai-chip",
+   "https://theaiinsider.tech/2026/10/13/ubitium-raises-14m-in-new-funding-to-build-universal-processor-for-physical-ai/"
+  ],
+  "note": "$14M seed led by Ibex Investors Oct 2026, ~$18M total seed confirmed (one outlet says EUR14M)."
+ },
+ {
+  "id": "synthara",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.htgf.de/en/htgf-synthara/",
+   "https://bebeez.eu/2024/06/05/zurich-based-synthara-raises-e10-5-million-to-expand-the-embedded-computing-market/"
+  ],
+  "note": "Jun 2024 >$11M round led by Vsquared confirmed; no 2026 round found. Zurich vs Zug seat noted."
+ },
+ {
+  "id": "sensory",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 1.9,
+   "employees": 60,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/sensory/financials",
+   "https://pitchbook.com/profiles/company/58072-60"
+  ],
+  "note": "Largely self-funded; CB Insights total ~$1.9M; headcount ~60 (2021 PitchBook)."
+ },
+ {
+  "id": "idein",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 28.5,
+   "last_round": "Strategic round Jul 2025, Canon Marketing Japan MIRAI Fund (amount undisclosed); JPY 2B Series 2020 led by Global Brain",
+   "employees": 55,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sogyotecho.jp/news/20250723idein/",
+   "https://www.cbinsights.com/company/idein"
+  ],
+  "note": "Jul 2025 Canon fund round; total $28.5M (CB) vs JPY3.25B conflicting; headcount 55 (undated)."
+ },
+ {
+  "id": "airrived",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Dublin",
+   "hq_country": "United States",
+   "last_round": "Seed, $6.1M, Feb 3 2026, led by Cannage Capital",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/02/03/airrived-says-agentic-ais-breakthrough-moment-arrived-raising-6-1m-seed-funding",
+   "https://www.securityweek.com/airrived-emerges-from-stealth-with-6-1-million-in-funding/"
+  ],
+  "note": "Seed $6.1M confirmed; press release datelined Dublin, California (not Dubai); HQ inferred from dateline."
+ },
+ {
+  "id": "polyn-technology",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/polyn-technology/financials",
+   "https://pitchbook.com/profiles/company/463118-32"
+  ],
+  "note": "Total funding $4.75-26.5M conflicting across aggregators; no 2025-26 round found; headcount ~30."
+ },
+ {
+  "id": "ibl-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://getlatka.com/companies/ibl.ai",
+   "https://rocketreach.co/iblai-profile_b6d4b65ec7471dc5"
+  ],
+  "note": "New York HQ consistent; appears bootstrapped; headcount estimates 11-480 conflict."
+ },
+ {
+  "id": "barbara",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 8.0,
+   "last_round": "EUR 4.5M strategic round (date unconfirmed); earlier EUR 2.5M 2022 (Caixa Capital Risc, Iberdrola), EUR 0.5M 2020",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://kurrant.com/kurrantly-news/barbara-iot-closes-e4-5m-round-to-scale-edge-ai-into-global-critical-infrastructure-markets/",
+   "https://www.privateequitywire.co.uk/barbara-iot-raises-eu25m-funding-caixa-capital-risc-and-iberdrola/"
+  ],
+  "note": "Total ~EUR7.5M summed from reported rounds; EUR4.5M round date not confirmed; headcount 11-50."
+ },
+ {
+  "id": "xorbits-xinference",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Seed",
+   "last_round": "Angel, multi-million USD, Feb 2023, Glory Venture",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://equalocean.com/news/2023022719498"
+  ],
+  "note": "Only angel round Feb 2023 found; amount undisclosed; no later round or headcount found."
+ },
+ {
+  "id": "picovoice",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 0.5,
+   "last_round": "Angel/seed, $500K, Dec 2020, Founders' Co-op",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.geekwire.com/2020/ex-amazon-engineer-raises-500k-grow-voice-tech-platform-used-whirlpool-lg-others/",
+   "https://techcouver.com/2020/12/08/picovoice-raises-500k-starts-licensing-wake-word-models-for-free/"
+  ],
+  "note": "$500K Dec 2020 round confirmed by GeekWire; headcount estimates 11-50."
+ },
+ {
+  "id": "cobalt-speech-language",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status": "acquired",
+   "status_detail": "Acquired by Quansight (date not confirmed); continues as distinct team",
+   "employees": 17,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.silicon.co.uk/press-release/quansight-acquires-cobalt-speech-and-language-expanding-ai-capabilities-in-voice-and-language-technologies",
+   "https://bouncewatch.com/company/cobalt-speech-language"
+  ],
+  "note": "Quansight acquisition per press release; no outside funding; headcount ~15-17 predates deal. HQ not verified."
+ },
+ {
+  "id": "alwaysai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/alwaysai/financials",
+   "https://www.vcbacked.co/company/alwaysai"
+  ],
+  "note": "Total funding $4-27M conflicting; latest round 2022; no 2026 round or headcount found."
+ },
+ {
+  "id": "menlo-research-jan",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://simplify.jobs/c/Menlo"
+  ],
+  "note": "Singapore HQ plausible; no funding disclosed; headcount sources weak (one lists 64). Beware Menlo Ventures confusion."
+ },
+ {
+  "id": "nobodywho",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2025/12/17/nobodywho-raises-eur2m-to-challenge-big-techs-cloud-ai-with-slms-for-local-devices/",
+   "https://funding.tech.eu/deals/64220EEE-A5ED-4E6C-AD02-F7EFFD4FE5B2"
+  ],
+  "note": "EUR2M pre-seed Dec 2025 (PSV Tech, Footprint Firm, Norrsken Evolve) confirmed; headcount not found."
+ },
+ {
+  "id": "lm-studio",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 19.3,
+   "last_round": "~$19.3M round, Apr-May 2025 (labelled Series A or B; Matrix, Preston-Werner Ventures, Torch, FirstMark reported)",
+   "employees": 44,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/lm-studio/financials",
+   "https://builtin.com/company/lm-studio"
+  ],
+  "note": "Aggregators: ~$19.3M raised 2025; headcount 44 (Built In) vs 16-49; round label conflicts."
+ },
+ {
+  "id": "kog-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 5.4,
+   "funding_stage": "Seed",
+   "last_round": "Seed, EUR 5M, co-led by Varsity VC with Bpifrance Deep Tech and Scaleway (date unconfirmed)",
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://nordic9.com/news/kog-closed-a-5-million-seed-funding-round-co-/",
+   "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus"
+  ],
+  "note": "EUR5M seed per Nordic9; VCBacked says $2.7M, conflict; 11-person team per TechCrunch."
+ },
+ {
+  "id": "backyard-ai-formerly-faraday-dev",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.tooljunction.io/ai-tools/faraday-dev/company"
+  ],
+  "note": "Run by Ahoy Labs; team 1-10; no funding or HQ city found."
+ },
+ {
+  "id": "cactus-compute",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.ycombinator.com/companies/cactus-compute",
+   "https://www.everydev.ai/developers/cactus-compute"
+  ],
+  "note": "YC S25 ~$500K confirmed; docs mention Jul 2026 funding from YC and Oxford, no amount."
+ },
+ {
+  "id": "conway-underdog",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+   "https://runtimewire.com/article/a16z-leads-conway-first-round-sigil-wen-on-device-ai"
+  ],
+  "note": "First round led by a16z announced Oct 2 2026, undisclosed; Khosla, Hummingbird also reported."
+ }
+]

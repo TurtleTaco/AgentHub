@@ -1,0 +1,696 @@
+[
+ {
+  "id": "anduril-industries",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Late/Growth",
+   "total_funding_usd_m": 11300,
+   "last_round": "Series H, $5B, May 2026, led by Thrive Capital and Andreessen Horowitz",
+   "valuation_usd_m": 61000,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+   "https://siliconangle.com/2026/05/13/anduril-doubles-valuation-61b-new-5b-funding-round/"
+  ],
+  "note": "Series H $5B at $61B (May 2026); total estimated as prior 6.3B plus 5B. Headcount not found."
+ },
+ {
+  "id": "domyn-formerly-igenius",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2016,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://sifted.eu/articles/domyn-raises-over-1bn/",
+   "https://www.cbinsights.com/company/domyn/financials"
+  ],
+  "note": "Founded 2016 as iGenius per CB Insights/Sifted. $1.1B (90% debt) is CEO-reported; CB Insights lists ~$836M. Conflict."
+ },
+ {
+  "id": "aleph-alpha",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://thenextweb.com/news/cohere-aleph-alpha-definitive-agreement-transatlantic-sovereign-ai",
+   "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
+  ],
+  "note": "Merger definitive agreement 16 Sep 2026, not closed; ~200 employees confirmed. Schwarz-led ~$600M commitment tied to deal."
+ },
+ {
+  "id": "acrab",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://technode.global/2026/08/06/singapores-ai-company-acrab-raises-further-130m-series-b-to-scale-edge-ai-platform-after-350m-funding/",
+   "https://www.dealstreetasia.com/stories/ai-startup-acrab-raises-130m-in-vertex-backed-series-b-funding-491373"
+  ],
+  "note": "$130M Series B Aug 2026 led by Vertex confirmed; >$350M prior plus 130M consistent with 480."
+ },
+ {
+  "id": "h2o-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Series E, $100M, Nov 2021, led by Commonwealth Bank of Australia",
+   "valuation_usd_m": 1700,
+   "employees": 350,
+   "employees_band": "201-500",
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20211108005527/en/H2O.ai-Closes-100-Million-in-Funding-Led-by-Customer-Commonwealth-Bank-of-Australia"
+  ],
+  "note": "Series E was Nov 2021 (not Mar 2023), $1.7B valuation; no 2026 round. Headcount estimates 326-423; total ~$251M kept."
+ },
+ {
+  "id": "conet-sovira-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_city": "Bonn",
+   "employees": 2000,
+   "employees_band": "1001-5000",
+   "confidence": {
+    "funding": "low",
+    "employees": "high",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://legacy.conet.de/EN/conet/news/2025/conet-goup-on-course-for-growth",
+   "https://esut.de/en/2026/01/fachbeitraege/66640/wir-atmen-defense/"
+  ],
+  "note": "Company says HQ Bonn and 2,000+ employees (Jan 2026); revenue ~EUR 305M FY24/25. ZoomInfo's 501-1000 is outdated."
+ },
+ {
+  "id": "tensordyne-formerly-recogni",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://multiples.vc/private-comps/tensordyne",
+   "https://www.celesta.vc/insights/recogni-doubling-down-on-an-emerging-leader-in-ai-computing"
+  ],
+  "note": "Series D not confirmed closed; total funding reported $176M-$211M, headcount 117-150; sources conflict."
+ },
+ {
+  "id": "approaching-ai-ktransformers",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "total_funding_usd_m": 340,
+   "last_round": "Series B, >RMB 1.3B (~$180M), Oct 2026, led by Zhejiang Caichuang Innovation, Xiaoshan Capital, ICBC Investment and others (A round Jul 2026 led by Henan Investment Group fund)",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.36kr.com/p/3893711179922305",
+   "https://finance.sina.cn/tech/2026-10-26/detail-iniwpfnc2476774.d.html?fromtech=1"
+  ],
+  "note": "Three 2026 rounds totalling ~RMB 2.4B (~$335M): Pre-A May, A Jul, B Oct. Founding 2023 vs 2024 conflict."
+ },
+ {
+  "id": "olares",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://dealroom.co/news/150432-bytefuture-raises-55m-to-scale-local-ai-hardware-and-os/",
+   "https://www.financialcontent.com/article/marketersmedia-2026-9-12-bytefuture-secures-55-million-to-expand-olares-one-and-olares-os"
+  ],
+  "note": "$55M Jun 2026, total >$100M confirmed; investors undisclosed. Earlier $45M Series A Nov 2025 (SIG)."
+ },
+ {
+  "id": "striveworks",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series B",
+   "last_round": "Series B/growth, $18M, Mar 2026, led by Washington Harbour Partners",
+   "employees": 75,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://builtin.com/articles/striveworks-raises-funding-20260324",
+   "https://www.zoominfo.com/financial/striveworks-inc/466258907"
+  ],
+  "note": "Missed Mar 2026 $18M round. Aggregator totals $33-51M conflict with input 70; total left unchanged. Headcount 67-80."
+ },
+ {
+  "id": "neuchips",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/neuchips/financials"
+  ],
+  "note": "Only CB Insights ($80.7M, B-III Jan 2025) vs Seedtable ($42.7M); no 2026 news or headcount found."
+ },
+ {
+  "id": "legion-intelligence",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/yurts-ai"
+  ],
+  "note": "CB Insights (Yurts AI profile) shows $56M, Series B $40M Dec 2024; no 2026 round found. Link between names is weakly sourced."
+ },
+ {
+  "id": "ai2-allen-institute-for-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://geekwire.com/2025/allen-institute-for-ai-lands-152m-from-nvidia-and-nsf-to-lead-national-ai-project",
+   "https://geekwire.com/2026/allen-institute-for-ai-ceo-ali-farhadi-steps-down-as-nonprofit-navigates-shifting-ai-landscape"
+  ],
+  "note": "$152M NSF/NVIDIA confirmed; CEO Farhadi stepping down 2026 and researchers left for Microsoft; band 201-500 per job board."
+ },
+ {
+  "id": "degirum",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/degirum/financials"
+  ],
+  "note": "CB Insights: $46.27M total, $5M convertible note Dec 2025; no 2026 round found."
+ },
+ {
+  "id": "nauto",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 174,
+   "employees": 140,
+   "employees_band": "51-200",
+   "status_detail": "Agreed to merge with Nexar (Jul 2026) into combined physical-AI infrastructure company; closing not confirmed",
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://yespress.io/nexar-inc",
+   "https://www.inven.ai/data/companies/nauto-com"
+  ],
+  "note": "Nexar merger Jul 2026; total ~$174M per several aggregators (outlier $345M); headcount ~132-150."
+ },
+ {
+  "id": "upstage",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series C",
+   "total_funding_usd_m": 280,
+   "last_round": "Series C first close, KRW 180B (~$120M), Apr 2026",
+   "valuation_usd_m": 1000,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://dealroom.co/news/127353-upstage-raises-120m-series-c-becomes-koreas-first-generative-ai-unicorn/",
+   "https://www.asiae.co.kr/en/article/2026041509240767495"
+  ],
+  "note": "Series C first close KRW 180B, valuation >KRW 1T (unicorn); cumulative ~KRW 400B (~$280M). Lead named Sazze/Saje inconsistently."
+ },
+ {
+  "id": "exostellar",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/exotanium/financials"
+  ],
+  "note": "CB Insights $34.83M total; latest listed Series A-III Feb 2025, so input last round (Sep 2023) is older. No 2026 round."
+ },
+ {
+  "id": "pryon",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 137,
+   "last_round": "Series B, $100M, Sep 2023, led by Thomas Tull's U.S. Innovative Technology Fund",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.bloomberg.com/news/articles/2023-09-19/ai-firm-pryon-raises-100-million-led-by-billionaire-thomas-tull",
+   "https://techcrunch.com/?p=2602053"
+  ],
+  "note": "Lead was Thomas Tull's USIT, not Smash Capital; TechCrunch total $137M (aggregators $124-199M). Headcount unclear (40-150)."
+ },
+ {
+  "id": "prem-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2026/06/18/prem-seeks-100m-series-export-bans-boost-sovereign-ai-demand/",
+   "https://thenextweb.com/news/prem-ai-swiss-100m-series-a-private-ai"
+  ],
+  "note": "Series A $100M at $500M+ still being raised (Bloomberg Jun 2026); ~$19.5M raised to date. One source says founded 2023."
+ },
+ {
+  "id": "nomic-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Strategic round, undisclosed, Sep 2026 (partners Aurecon, Arcadis); prior Series A $17M, Jul 2023, led by Coatue",
+   "employees": 30,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.nomic.ai/news/announcing-nomics-strategic-funding-round-and-partnerships-with-aurecon-and-arcadis",
+   "https://sg.finance.yahoo.com/news/open-source-ai-model-creator-110712669.html"
+  ],
+  "note": "Added Sep 2026 undisclosed strategic round; $17M 2023 confirmed. Headcount estimates 22-40."
+ },
+ {
+  "id": "iterate-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2013,
+   "last_round": "$6.4M, Jun 2025, led by Auxier Asset Management",
+   "employees": 63,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.unite.ai/iterate-ai-secures-6-4m-to-bring-secure-scalable-ai-to-the-edge-of-the-enterprise/",
+   "https://www.cbinsights.com/company/iterate-studio/financials"
+  ],
+  "note": "Founded 2013 per CB Insights; $6.4M Jun 2025 round. Total $6.4-10.9M conflicting, left blank; ~63 employees."
+ },
+ {
+  "id": "kamiwaza",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Seed",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.premieralts.com/companies/kamiwaza/funding-history",
+   "https://www.vcbacked.co/company/kamiwazaai"
+  ],
+  "note": "No source supports a Series A; ~$11M across rounds ($8.5M Dec 2024) confirmed. Labels conflict (pre-seed/seed/early-stage)."
+ },
+ {
+  "id": "mariner",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [],
+  "note": "Search returned a different Mariner (wealth firm); Charlotte industrial AI Mariner has only an undisclosed 2022 Series A."
+ },
+ {
+  "id": "enerzai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://en.wowtale.net/2025/05/14/231021/"
+  ],
+  "note": "May 2025 ~$5.6M bridge, total ~$8.7M confirmed; no 2026 round found."
+ },
+ {
+  "id": "eigen-innovations",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2012,
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://entrevestor.com/blog/eigen-raises-2.6m1"
+  ],
+  "note": "Entrevestor says founded 2012 (UNB spinout); $2.6M and $3.5M rounds exist but undated/stale. Headcount 20-30+, unclear."
+ },
+ {
+  "id": "embedl",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2025/06/18/embedl-raises-eur55m-to-boost-ai-efficiency-in-embedded-systems/"
+  ],
+  "note": "EUR 5.5M Jun 2025 confirmed (pre-Series A/seed); totals $6.3-15.5M conflict; no 2026 round."
+ },
+ {
+  "id": "thirdai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://techcrunch.com/2021/08/13/thirdai-raises-6m-to-democratize-ai-to-any-hardware"
+  ],
+  "note": "$6M seed Aug 2021 confirmed; no later round or acquisition found."
+ },
+ {
+  "id": "tiny-corp",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://wandb.ai/byyoung3/ml-news/reports/George-Hotz-Raises-5-Million-For-Tiny-Corp---Vmlldzo0NDY4NTgy",
+   "https://www.cbinsights.com/company/tinygrad/financials"
+  ],
+  "note": "$5.1M 2023 seed confirmed; a Mar 2026 report of a $20M raise at $200M is single-source, unconfirmed."
+ },
+ {
+  "id": "comfy-org",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 47,
+   "last_round": "$30M, Apr 2026, led by Craft Ventures",
+   "valuation_usd_m": 500,
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open",
+   "https://www.financialcontent.com/article/gnwcq-2026-4-24-comfyui-raises-30m-at-500m-valuation-to-scale-open-source-ai-for-creative-production"
+  ],
+  "note": "$30M at $500M, Apr 2026 (company blog); total $47M blog vs $48M release. 'Series A' label is press shorthand."
+ },
+ {
+  "id": "tabbyml",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://seedtable.com/companies/tabbyml/funding-rounds/seed-2023-10"
+  ],
+  "note": "$3.2M seed Oct 2023 confirmed; no 2026 round found."
+ },
+ {
+  "id": "fluent-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/investor/fluentai"
+  ],
+  "note": "Still no sign of acquisition; funding totals conflict ($2M vs $7.5M), last round 2020. No headcount found."
+ },
+ {
+  "id": "pipeshift",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "last_round": "Seed, $2.5M, Jan 2025, led by Y Combinator and SenseAI Ventures",
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://yourstory.com/2025/01/funding-pipeshift-25m-y-combinator-senseai-ventures",
+   "https://inc42.com/?p=496543"
+  ],
+  "note": "Seed was Jan 2025, not 2024; $2.5M confirmed; no 2026 round found."
+ },
+ {
+  "id": "nexa-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 12,
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.qualcomm.com/developer/blog/2026/06/geniex-developer-preview",
+   "https://www.huxiu.com/article/4875366.html"
+  ],
+  "note": "Qualcomm acquisition (Mar 2026) confirmed; team of 12 joined per Huxiu interview."
+ },
+ {
+  "id": "mediar-inc-screenpipe",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.everydev.ai/developers/mediar",
+   "https://www.ycombinator.com/companies/screenpipe"
+  ],
+  "note": "$2.8M seed 2025 led by Founders, Inc. confirmed; Screenpipe YC S26, team size 2 per YC (headcount unclear)."
+ },
+ {
+  "id": "arc-compute",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.startuphub.ai/startups/arc-compute"
+  ],
+  "note": "Only StartupHub (~$40M total) and CB Insights ('Other Investors'); no confirmed round or headcount."
+ },
+ {
+  "id": "unsloth",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.everydev.ai/developers/unsloth",
+   "https://pitchbook.com/profiles/company/590107-78"
+  ],
+  "note": "Seed stage confirmed (YC 2024, ~$0.5M Pioneer Fund seed); total ~$0.54-0.63M; no 2026 round confirmed."
+ },
+ {
+  "id": "neuton-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "low",
+    "employees": "high",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.nordicsemi.com/Nordic-news/2025/06/Nordic-Semiconductor-accelerates-edge-AI-leadership-with-acquisition-of-Neuton-AI"
+  ],
+  "note": "Nordic acquired IP and 13-person team, announced 17 Jun 2025; terms undisclosed. CB lists HQ Pleasanton."
+ },
+ {
+  "id": "out-of-set",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "founded": 2026,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.digitaltoday.co.kr/en/view/57110/out-of-set-raises-seed-funding-from-theventures",
+   "https://en.wowtale.net/2026/05/21/234111/"
+  ],
+  "note": "Seed led by TheVentures announced 20 May 2026 confirmed; company founded 2026 per press; amount undisclosed."
+ },
+ {
+  "id": "genta-technology-kolosal-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [],
+  "note": "No search results found for Genta Technology or Kolosal AI."
+ },
+ {
+  "id": "fluid-inference-fluidaudio",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://github.com/FluidInference"
+  ],
+  "note": "Only GitHub presence found; no founders, funding, HQ or headcount sources."
+ }
+]

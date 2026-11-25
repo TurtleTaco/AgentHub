@@ -59,7 +59,10 @@ for f in sorted(glob.glob(P("data", "factcheck*.json"))) + sorted(glob.glob(P("v
         if not p: continue
         for k, v in (fx.get("corrections") or {}).items():
             p.setdefault("_fc", []).append({"field": k, "old": p.get(k), "new": v})
-            p[k] = v
+            if k == "confidence" and isinstance(v, dict):
+                p[k] = {**(p.get(k) or {}), **v}
+            else:
+                p[k] = v
         if fx.get("verdict"): p["verdict"] = fx["verdict"]
 
 onto = json.load(open(P("data", "ontology.json")))
@@ -83,6 +86,13 @@ def heuristic(p):
     if "camera" in D or "security-surveillance" in C: return "7a"
     return "6b"
 
+def infer_parent(p):
+    if p.get("parent"): return p["parent"]
+    if (p.get("status") or "").lower() in ("acquired", "merged"):
+        m = re.search(r"(?:[Aa]cquired|[Bb]ought|[Mm]erged into|[Mm]erged with|IP to|team to|joined)\s+(?:by\s+)?([A-Z][\w.&\- ]+?)(?:\s*[(,;]|\s+in\s|\s+for\s|$)", p.get("status_detail") or "")
+        if m: return m.group(1).strip()
+    return None
+
 companies, out_scope = [], []
 for p in profiles:
     if p.get("verdict") not in ("in", "borderline"):
@@ -97,7 +107,7 @@ for p in profiles:
         "id": p["id"], "name": display_name(p), "legalName": p.get("name"), "verdict": p.get("verdict"), "web": p.get("website"),
         "city": p.get("hq_city"), "country": country, "region": REGION.get(country, "Other" if country else None),
         "founded": p.get("founded") if isinstance(p.get("founded"), int) else None,
-        "type": p.get("org_type"), "status": (p.get("status") or "active").lower(), "statusDetail": p.get("status_detail"), "parent": PARENT_ALIAS.get(clean(p.get("parent")), clean(p.get("parent"))) if p.get("parent") else None,
+        "type": p.get("org_type"), "status": (p.get("status") or "active").lower(), "statusDetail": p.get("status_detail"), "parent": PARENT_ALIAS.get(clean(infer_parent(p)), clean(infer_parent(p))) if infer_parent(p) else None,
         "stage": p.get("funding_stage"), "fund": p.get("total_funding_usd_m") if isinstance(p.get("total_funding_usd_m"), (int, float)) else None,
         "lastRound": p.get("last_round"), "val": p.get("valuation_usd_m") if isinstance(p.get("valuation_usd_m"), (int, float)) else None,
         "mcap": p.get("market_cap_or_revenue"), "investors": (p.get("key_investors") or [])[:8],
@@ -127,6 +137,15 @@ with open(P("data", "companies.csv"), "w", newline="") as fh:
                     c["focus"], c["problem"], " | ".join(p[0] for p in c["products"]), ", ".join(c["dep"]), ", ".join(c["cust"]), c["diff"], c["web"],
                     c["conf"]["f"], c["conf"]["e"], c["basis"]])
 
+deals = []
+for p in profiles:
+    if (p.get("status") or "").lower() in ("acquired", "merged") and infer_parent(p):
+        buyer = clean(infer_parent(p)); buyer = PARENT_ALIAS.get(buyer, buyer)
+        m = re.search(r"(19|20)\d\d", p.get("status_detail") or "")
+        deals.append({"target": display_name(p), "id": p["id"] if p.get("verdict") in ("in", "borderline") else None,
+                      "buyer": buyer, "year": int(m.group(0)) if m else None, "detail": p.get("status_detail")})
+json.dump(deals, open(P("data", "deals.json"), "w"), indent=1, ensure_ascii=False)
+
 narr = json.load(open(P("data", "narrative.json"))) if os.path.exists(P("data", "narrative.json")) else {"insights": [], "partnerships": [], "method": {"steps": [], "caveats": []}}
 cand = json.load(open(P("data", "candidates.json")))
 indep = [c for c in companies if c["status"] == "active" and c["type"] not in ("public", "big-tech", "subsidiary")]
@@ -135,7 +154,7 @@ atlas = {
              "fundingTotal": round(sum(c["fund"] or 0 for c in indep)), "acquired": sum(1 for c in companies if c["status"] in ("acquired", "merged", "defunct"))},
     "domains": onto["domains"], "niches": onto["niches"],
     "companies": [{k: v for k, v in c.items() if k not in ("layers", "mod", "classified", "verdict")} for c in companies],
-    "insights": narr["insights"], "partnerships": narr["partnerships"], "method": narr["method"],
+    "deals": deals, "insights": narr["insights"], "partnerships": narr["partnerships"], "method": narr["method"],
 }
 json.dump(atlas, open(out_path, "w"), ensure_ascii=False, separators=(",", ":"))
 print(f"profiles {len(profiles)} | in-scope {len(companies)} | out {len(out_scope)} | classified {sum(c['classified'] for c in companies)} | atlas {os.path.getsize(out_path)//1024} KB")

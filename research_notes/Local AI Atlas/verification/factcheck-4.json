@@ -1,0 +1,678 @@
+[
+ {
+  "id": "poolside",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.newcomer.co/p/sources-poolside-strikes-6-billion",
+   "https://dealroom.co/news/146210-poolside-ais-6b-nvidia-licensing-deal-reshapes-the-model-building-race/"
+  ],
+  "note": "Nvidia $1B equity + $6B license Aug 2026 confirmed; headcount unverified (Nvidia hiring ~109 staff, single source)."
+ },
+ {
+  "id": "multiverse-computing",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://multiversecomputing.com/resources/multiverse-computing-announces-series-c-fundraising-targeting-up-to-usd570m-eur500m-to-power",
+   "https://thequantuminsider.com/2026/07/27/multiverse-computing-announces-series-c-fundraising-targeting-up-to-570-million/"
+  ],
+  "note": "Series C announced Jul 2026 targeting up to $570M at $1.7B pre-money; closing amount unconfirmed."
+ },
+ {
+  "id": "weka",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.weka.io/news/weka-nets-140m-in-series-e-funding-at-1-6b-valuation"
+  ],
+  "note": "No 2026 round found; Series E May 2024 $140M at $1.6B confirmed; total funding varies by tracker ($373-565M)."
+ },
+ {
+  "id": "tsingmicro",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.caixinglobal.com/2025-12-03/tsing-micro-raises-over-2-billion-yuan-in-state-backed-round-as-china-ramps-up-ai-chip-push-102389255.html"
+  ],
+  "note": "Series C >RMB2B Dec 2025 led by Beijing Jingneng confirmed; headcount unverifiable (Dealroom <100 implausible)."
+ },
+ {
+  "id": "defense-unicorns",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.baincapital.com/news/defense-unicorns-raises-136-million-series-b-build-software-backbone-department-war",
+   "https://siliconangle.com/2026/01/13/defense-unicorns-bags-136-million-funding-deliver-secure-military-software-updates/"
+  ],
+  "note": "Series B $136M Jan 2026 led by Bain Capital at >$1B confirmed; one source says San Antonio, HQ conflict unresolved."
+ },
+ {
+  "id": "arcee-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://fortune.com/2026/09/16/arcee-ai-trained-four-models-for-20-million-now-its-worth-1-billion/",
+   "https://theaiinsider.tech/2026/09/18/arcee-ai-raises-series-b-at-over-1b-valuation-to-build-open-weight-frontier-models/"
+  ],
+  "note": "Series B announced 16 Sep 2026, >=$150M, >$1B valuation, led by Vista/Cambium/Emergence; size undisclosed by company."
+ },
+ {
+  "id": "encharge-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://pitchbook.com/profiles/company/510265-45",
+   "https://www.cbinsights.com/company/encharge-ai/financials"
+  ],
+  "note": "Series B $100M Feb 2025 confirmed; total $144M (PitchBook) vs $163M (CB Insights); headcount estimates 31-92."
+ },
+ {
+  "id": "clarifai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status_detail": "May 2026: core engineering/research team led by founder Matthew Zeiler joined Nebius, which also licensed inference IP and acquired patents; gov/defense programs excluded",
+   "last_round": "Series C, $60M, Oct 2021",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Clarifai",
+   "https://www.cbinsights.com/company/clarifai/financials"
+  ],
+  "note": "Nebius team/IP deal May 2026 added; last round Series C $60M Oct 2021; total ~$100M confirmed."
+ },
+ {
+  "id": "neureality",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.calcalistech.com/ctechnews/article/rz4yeog9t",
+   "https://letsdatascience.com/news/unconventional-ai-agrees-to-acquire-neureality-b5cbc350"
+  ],
+  "note": "Unconventional AI agreed Oct 26 2026 to acquire; cash-and-stock, close expected Q4; ~40 staff transfer; raised ~$105M."
+ },
+ {
+  "id": "roboflow",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 135,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "high",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/roboflow/financials",
+   "https://www.caplight.com/company/roboflow"
+  ],
+  "note": "No 2026 round; Series B $40M Nov 2024 and $62.75M total confirmed; headcount 135 per Caplight (Jun 2026, aggregator)."
+ },
+ {
+  "id": "landing-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 115,
+   "confidence": {
+    "funding": "medium",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/landingai/financials",
+   "https://dealroom.co/companies/landing-ai/"
+  ],
+  "note": "Funding $57M and Sep 2025 strategic round confirmed; headcount ~115 per Dealroom."
+ },
+ {
+  "id": "fit2cloud-maxkb",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series D",
+   "last_round": "Series D+, RMB 100M (~$16M), Apr 2022, led by Legend Capital with Jiayu Capital",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://equalocean.com/news/2022041217311-china-saas-startup-fit2cloud-nets-usd-16-mn-series-d-funding-round",
+   "https://www.36kr.com/p/794834454171138"
+  ],
+  "note": "Last known round D/D+ ~RMB100M Apr 2022; lead and dates differ between sources; headcount unverifiable."
+ },
+ {
+  "id": "sagence-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/analog-inference/financials"
+  ],
+  "note": "Series B ~$22M (May 2023 per CB) confirmed; total $50.5M (CB) vs $58M (Caplight); headcount unverifiable."
+ },
+ {
+  "id": "lightmetrics",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "hq_country": "United States",
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 9.5,
+   "last_round": "Series A, ~$8.5M, Apr 2023, led by Peak XV (Sequoia India)",
+   "employees": 124,
+   "employees_band": "51-200",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://pitchbook.com/profiles/company/121611-79",
+   "https://yourstory.com/2023/04/video-telematics-startup-lightmetrics-raises-85-million",
+   "https://www.cbinsights.com/company/lightmetrics/financials"
+  ],
+  "note": "San Jose is US not India (CB lists Bengaluru ops); Series A $8.5M Apr 2023; total ~$9.5M; PitchBook 124 staff."
+ },
+ {
+  "id": "synsense",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/synsense/financials",
+   "https://dealroom.co/companies/synsense/"
+  ],
+  "note": "CB total $43.9M matches; Dealroom lists unspecified Series B Jun 2026; trackers conflict ($27.7M, $86.7M); no primary source."
+ },
+ {
+  "id": "tiiny-ai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://dealroom.co/news/169762-tiiny-ai-raises-30m-seed-for-personal-ai-devices-sits-in-singapores-top/",
+   "https://www.ai-market-watch.com/company/tiiny-ai"
+  ],
+  "note": "Seed $30M only from Dealroom headline; other sources say multi-million; HQ conflicts (Dover DE, Singapore, Hong Kong)."
+ },
+ {
+  "id": "greenwaves-technologies",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/greenwaves-technologies/financials"
+  ],
+  "note": "No 2025-26 round found; Series B ~$21.6M Feb 2023 and total ~$30.1M per CB Insights confirmed."
+ },
+ {
+  "id": "phonexia",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "status": "acquired",
+   "status_detail": "Dec 2025: became portfolio company of South Korean fund Crescendo Equity Partners; terms undisclosed",
+   "employees": 50,
+   "employees_band": "11-50",
+   "confidence": {
+    "funding": "low",
+    "employees": "medium",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.fit.vut.cz/fit/news/d313049/.en",
+   "https://www.businessinfo.cz/clanky/nekdejsi-spin-off-fit-vut-meni-majitele-phonexia-je-soucasti-portfolia-jihokorejskeho-fondu/"
+  ],
+  "note": "Acquired by Crescendo Equity Partners (Dec 2025); 50+ employees per Czech press, company says 40+."
+ },
+ {
+  "id": "prismml",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.hpcwire.com/2026/04/03/prismml-emerges-from-stealth-with-1-bit-llm-family/",
+   "https://dealroom.co/news/152150-prismml-raises-22m-seed-to-shrink-ai-models-onto-your-phone/"
+  ],
+  "note": "Stealth exit 31 Mar 2026; seed $16.25M (most sources) vs $22.25M (Dealroom); keep original, conflict unresolved."
+ },
+ {
+  "id": "titanml-doubleword",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.doubleword.ai/resources/doubleword-series-a-announcement",
+   "https://www.cbinsights.com/company/tytn/financials"
+  ],
+  "note": "Series A $12M (GBP9M) May 2025 led by Dawn Capital confirmed via company; total $14.8M per CB Insights."
+ },
+ {
+  "id": "clearblade",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 12.45,
+   "last_round": "Venture round ~$6.7M, 2020; Sumitomo strategic investment Nov 2022; Series A $3M Sep 2017 led by Align Capital",
+   "employees": 45,
+   "employees_band": "11-50",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/clearblade/financials",
+   "https://www.clearblade.com/press/clearblade-closes-3-0m-in-series-a-funding-led-by-align-capital-to-bring-secure-iot-solutions-to-the-enterprise"
+  ],
+  "note": "Total ~$12.5M per CB (trackers $10.8-14.9M); headcount 41-51 across aggregators."
+ },
+ {
+  "id": "ainekko",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/veevx"
+  ],
+  "note": "Veevx merger (Jan 2026) corroborated; no founding date, location or funding details found for Ainekko."
+ },
+ {
+  "id": "visionary-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://finsmes.com/2022/03/visionary-ai-raises-2-5m-in-funding.html",
+   "https://www.businesswire.com/news/home/20210519005431/en/Visionary.ai-Raises-4.5-Million-to-Help-Revolutionize-the-Quality-of-Digital-Imaging-in-Poor-Light-Wide-Dynamic-Range-and-Low-Visibility"
+  ],
+  "note": "No Series A found; seed $4.5M (2021) + $2.5M (2022) led by Ibex confirmed; some trackers say $8M total."
+ },
+ {
+  "id": "zml",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 20,
+   "last_round": "Pre-seed and seed, ~$20M, Jul 2026, led by 20VC",
+   "employees": 20,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://dealroom.co/news/137921-zml-raises-20m-to-run-llms-on-any-chip/",
+   "https://nordic9.com/news/zml-raised-a-20-million-pre-seed-and-seed-led/"
+  ],
+  "note": "Raised ~$20M (not EUR8M) Jul 2026 led by 20VC; ~20 staff; founding year 2023 vs 2024 conflict."
+ },
+ {
+  "id": "overview-ai",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 13.9,
+   "last_round": "Convertible note, $3.75M, May 2025; Series A $10M Feb 2022 led by Blumberg Capital",
+   "employees": 64,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/overview/financials",
+   "https://bouncewatch.com/company/overviewai"
+  ],
+  "note": "Total ~$13.9M per CB Insights (others $10-13.3M); May 2025 note; ~64 staff per Bouncewatch."
+ },
+ {
+  "id": "alphaics",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://siliconangle.com/2021/01/20/alphaics-raises-8m-funding-round-edge-ai-chips/",
+   "https://www.cbinsights.com/company/alphaics/financials"
+  ],
+  "note": "No newer round found; Series B $8M Jan 2021 confirmed; total ~$10.4M incl. Silicon Catalyst accelerator."
+ },
+ {
+  "id": "confidentialmind",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://vestbee.com/blog/articles/confidential-mind-raises-1-5-m",
+   "https://fundediq.co/confidentialmind-confidentialmind-com-funding/"
+  ],
+  "note": "EUR1.5M pre-seed (Jun 2024) documented; $4.1M Apr 2026 seed only on FundedIQ aggregator; unconfirmed."
+ },
+ {
+  "id": "aizip",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "high"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.cbinsights.com/company/aizip/financials"
+  ],
+  "note": "Seed ~$2M May 2023 (CB Insights) only source; no newer round found; headcount 19-30 uncertain."
+ },
+ {
+  "id": "mimik-technology",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Series A",
+   "total_funding_usd_m": 19,
+   "last_round": "Series A, C$17.9M (~US$14.4M), Nov 2021, led by Pier 88 Investment Partners",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://betakit.com/mimik-technology-raises-17-9-million-cad-to-make-any-computing-device-act-like-a-cloud-server/"
+  ],
+  "note": "Series A Nov 2021 per BetaKit; company says ~US$19M total; Vancouver HQ supported by CB Insights."
+ },
+ {
+  "id": "octostar",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "total_funding_usd_m": 7.0,
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://octostar.com/post/octostar-closes-seed-round-at-eu6-1m-as-demand-for-sovereign-defence-and-intelligence-platforms-accelerates",
+   "https://seedtable.com/companies/octostar/funding-rounds/seed-2026-04"
+  ],
+  "note": "Seed extension EUR6.1M (~$7.0M) Apr 2026 led by The Techshop confirmed; Galway HQ per company site; earlier rounds add unknown amount."
+ },
+ {
+  "id": "microai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cryptonewsnavigator.com/companies/microai"
+  ],
+  "note": "No funding data found; CB Insights lists Irving TX address; headcount 29-55 across aggregators."
+ },
+ {
+  "id": "privately-sa",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [],
+  "note": "Search returned nothing relevant on Privately SA funding or headcount."
+ },
+ {
+  "id": "neuphonic",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "funding_stage": "Pre-Seed",
+   "total_funding_usd_m": 3.9,
+   "last_round": "Pre-seed, GBP3M (~$3.9M), Oct 2024, led by Moonfire",
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://tech.eu/2024/10/17/neuphonic-raises-3m-fo-text-to-speech-voice-ai/",
+   "https://www.cbinsights.com/company/neuphonic/financials"
+  ],
+  "note": "Pre-seed GBP3M Oct 2024 led by Moonfire; some trackers label it $4M seed; headcount unverified."
+ },
+ {
+  "id": "stream-analyze",
+  "checked": true,
+  "result": "corrected",
+  "corrections": {
+   "employees": 16,
+   "employees_band": "11-50",
+   "last_round": "Equity investment from MOOR Holding (amount undisclosed), with new CEO Stefan Mansby",
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "low"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://dealroom.co/news/132494-stream-analyze-taps-moor-holding-to-fuel-edge-ai-expansion/",
+   "https://www.reveliolabs.com/companies/stream-analyze/employees"
+  ],
+  "note": "MOOR Holding investment added; ~16 staff per Revelio; Revelio says Uppsala HQ and 2015 founding, conflicts with input, not changed."
+ },
+ {
+  "id": "moonshine-ai",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "medium",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://www.businesswire.com/news/home/20250731017792/en/Moonshine-AI-Secures-Funding-to-Advance-On-Device-Voice-AI"
+  ],
+  "note": "Undisclosed funding from Wing VC and IQT announced 31 Jul 2025 via Business Wire confirmed."
+ },
+ {
+  "id": "sensesemi",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "high",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://entrackr.com/snippets/semiconductor-startup-sensesemi-raises-rs-25-cr-led-by-piper-serica-11018670",
+   "https://inc42.com/?p=545791"
+  ],
+  "note": "INR25 Cr (~$2.7M) seed led by Piper Serica, Jan 2026, confirmed; founded 2014 per press."
+ },
+ {
+  "id": "arc53-docsgpt",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://linkedin.com/company/arc53",
+   "https://www.cbinsights.com/investor/arc53"
+  ],
+  "note": "LinkedIn/CB say Arc53 founded 2019, Edinburgh; StartupHub says DocsGPT 2023; no funding beyond accelerator; conflict unresolved."
+ },
+ {
+  "id": "exo-labs",
+  "checked": true,
+  "result": "confirmed",
+  "corrections": {
+   "confidence": {
+    "funding": "low",
+    "employees": "low",
+    "founded": "medium"
+   },
+   "basis": "searched"
+  },
+  "evidence": [
+   "https://ai.engineer/orgs/exo-labs"
+  ],
+  "note": "Founded 2024, London, per AI Engineer listing; funding not verifiable (tracker figures belong to another company)."
+ },
+ {
+  "id": "open-webui",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.cbinsights.com/company/open-webui",
+   "https://pitchbook.com/profiles/company/608052-61"
+  ],
+  "note": "No venture round found; accelerators only (GitHub 2024, Mozilla Builders); CB shows $40K; other trackers conflict."
+ },
+ {
+  "id": "localai",
+  "checked": true,
+  "result": "unverifiable",
+  "corrections": {},
+  "evidence": [
+   "https://www.everydev.ai/developers/ettore-di-giacinto"
+  ],
+  "note": "No company or funding found; community/GitHub Sponsors project of Ettore Di Giacinto; HQ unverified."
+ }
+]

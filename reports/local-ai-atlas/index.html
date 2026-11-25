@@ -504,7 +504,7 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
       kpi(String(d.companies.length), `companies profiled (from ${m.candidates} candidates)`),
       kpi(String(m.countries), "countries"),
       kpi(fmtM(m.fundingTotal), "disclosed venture funding, independent companies"),
-      kpi(String(m.acquired), "acquired, merged or shut down"));
+      kpi(String((d.deals || []).length), `acquisitions tracked (${(d.deals || []).filter(x => x.year >= 2025).length} in 2025–26)`));
     $("#takeaways").replaceChildren(...d.insights.map((t, i) => h("li", null, h("span", { class: "k" }, String(i + 1).padStart(2, "0")), h("span", null, ...richText(t)))));
     bars($("#bars-domain"), d.domains.map(dm => ({ label: `${dm.code}. ${dm.name}`, v: d.companies.filter(c => S.niche[c.primary]?.domain === dm.id).length, color: domColor(dm.id), tip: dm.q, onClick: () => { location.hash = "territory"; setTimeout(() => document.getElementById("dp-" + dm.id)?.scrollIntoView({ behavior: "smooth" }), 60); } })));
     const regions = {}; d.companies.forEach(c => { regions[c.region || "Unknown"] = (regions[c.region || "Unknown"] || 0) + 1; });
@@ -520,10 +520,15 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     bars($("#bars-stage"), stageOrder.filter(s => st[s]).map(s => ({ label: s, v: st[s] })));
     $("#partnerships").replaceChildren(...d.partnerships.map(p => h("li", { class: "player", style: "cursor:default;grid-template-columns:minmax(0,1fr)" },
       h("div", null, h("span", { class: "pn" }, p.parties), h("span", { class: "tag" }, `  ${p.date}`), h("div", { style: "color:var(--ink-2);font-size:13px" }, p.what)))));
-    const acq = {}; d.companies.forEach(c => { if (c.status === "acquired" && c.parent) (acq[c.parent] = acq[c.parent] || []).push(c); });
-    const acqRows = Object.entries(acq).sort((a, b) => b[1].length - a[1].length).slice(0, 10);
+    const acq = {}; (d.deals || []).forEach(x => { (acq[x.buyer] = acq[x.buyer] || []).push(x); });
+    const acqRows = Object.entries(acq).sort((a, b) => b[1].length - a[1].length).slice(0, 9);
     $("#acquirers").replaceChildren(...acqRows.map(([buyer, list]) => h("li", { style: "display:grid;grid-template-columns:minmax(90px,30%) minmax(0,1fr);gap:10px;align-items:start;font-size:13.5px" },
-      h("b", null, buyer, h("span", { class: "tag" }, ` ${list.length}`)), h("div", { class: "chips" }, list.map(c => h("span", { class: "chip acq", onclick: () => openCompany(c.id) }, c.name))))));
+      h("b", null, buyer, h("span", { class: "tag" }, ` ${list.length}`)), h("div", { class: "chips" }, list.sort((a, b) => (b.year || 0) - (a.year || 0)).map(x => {
+        const ch = h("span", { class: `chip acq${x.id && S.co[x.id] ? "" : " static"}`, title: x.detail || "" }, x.target, x.year ? h("span", { class: "tag" }, ` ’${String(x.year).slice(2)}`) : null);
+        if (x.id && S.co[x.id]) ch.addEventListener("click", () => openCompany(x.id));
+        return ch; })))));
+    const others = Object.keys(acq).length - acqRows.length;
+    if (others > 0) $("#acquirers").append(h("li", { class: "tag" }, `+ ${others} other buyers with one deal each · ${d.deals.length} deals tracked`));
   }
   function richText(t) { // **bold** support, safe
     return t.split(/(\*\*[^*]+\*\*)/).map(s => s.startsWith("**") ? h("b", null, s.slice(2, -2)) : s);
