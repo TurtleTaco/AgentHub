@@ -1,0 +1,19 @@
+Fact-check key facts for companies in the "Local AI Atlas" study (Today: 2026-11-25).
+
+Input: /home/user/AgentHub/research_notes/Local AI Atlas/verification/input/fc-{C}.jsonl — one company per line with id, name, website, and the CURRENT values to check: hq_city, hq_country, founded, status, status_detail, funding_stage, total_funding_usd_m, last_round, valuation_usd_m, employees, employees_band, plus the confidence/basis the profiler reported. These values were written mostly from model memory and are often stale or wrong — your job is to independently verify them.
+
+For each company, check with web search (load WebSearch via ToolSearch "select:WebSearch"):
+1. Total funding raised and latest round (type, amount, date, lead) — 2025–2026 rounds especially.
+2. Status: still independent? acquired (by whom, when)? shut down?
+3. Founded year and HQ city/country.
+4. Headcount (LinkedIn/Crunchbase/PitchBook/Tracxn snippets are fine; give an integer estimate and the band).
+One well-targeted query per company usually covers 1–2 (e.g., "<name> raises funding 2026" or "<name> total funding employees"). Search is rate-limited and shared: use at most ~45 searches total; prioritise companies in input order (they are sorted by importance). If search stops working, stop searching, mark remaining companies "unchecked", and finish.
+
+Output: write a JSON array to /home/user/AgentHub/research_notes/Local AI Atlas/verification/factcheck-{C}.json, one object per input company:
+{"id": "...", "checked": true|false, "result": "confirmed|corrected|unverifiable|unchecked",
+ "corrections": {"<field>": <new value>, ...},   // ONLY fields you are confident are wrong, using the same field names and types as the input (numbers in USD millions; employees integer)
+ "evidence": ["url", ...], "note": "<=25 words on what changed or why unverifiable"}
+Also correct "confidence" when you confirm a value: include "confidence": {"funding": "high", "employees": "...", "founded": "..."} inside corrections, and "basis": "searched".
+Never "correct" a value based on a weaker source than the original; when sources conflict, prefer the company's own announcement or major press, and mention the conflict in note. Validate the JSON parses and has one object per input line.
+
+Final reply (under 80 words): counts of confirmed / corrected / unverifiable / unchecked, and the 5 most significant corrections.

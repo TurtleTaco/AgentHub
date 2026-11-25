@@ -74,7 +74,7 @@
   "verdict_reason": "UK software vendor with a UK-hosted private LLM; vendor-hosted, not customer-controlled hardware.",
   "status": "active",
   "status_detail": null,
-  "parent": "Vista Equity Partners (owner)",
+  "parent": "Vista Equity Partners / BC Partners (owners)",
   "website": "https://www.oneadvanced.com",
   "hq_city": "Birmingham",
   "hq_country": "United Kingdom",
@@ -86,7 +86,8 @@
   "valuation_usd_m": null,
   "market_cap_or_revenue": null,
   "key_investors": [
-   "Vista Equity Partners"
+   "Vista Equity Partners",
+   "BC Partners"
   ],
   "employees": 2500,
   "employees_band": "1001-5000",
@@ -125,7 +126,8 @@
    "founded": "low"
   },
   "basis": "knowledge",
-  "sources": []
+  "sources": [],
+  "inv": null
  },
  {
   "id": "opaque",
@@ -1359,6 +1361,2304 @@
   "sources": [
    "https://tech.slator.com/?p=94465",
    "https://www.bakermckenzie.com/en/newsroom/2024/01/sale-of-systran-to-chapsvision"
+  ]
+ },
+ {
+  "id": "tinfoil",
+  "name": "Tinfoil",
+  "verdict": "borderline",
+  "verdict_reason": "Attested GPU-enclave private inference; Tinfoil-hosted cloud, with some self-hosted options, not customer hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://tinfoil.sh",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 1.1,
+  "last_round": "Seed, ~$0.5M, 2025, Y Combinator and Pioneer Fund (unconfirmed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator",
+   "Pioneer Fund"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Verifiably private AI inference inside attested confidential-computing GPU enclaves.",
+  "problem": "Users want to run LLMs on sensitive data without the provider or cloud operator being able to see it.",
+  "products": [
+   {
+    "name": "Tinfoil Inference API",
+    "category": "service",
+    "description": "OpenAI-compatible private inference of open models inside attested NVIDIA GPU enclaves."
+   },
+   {
+    "name": "Tinfoil Private Chat",
+    "category": "app",
+    "description": "Chat app with enclave-backed privacy."
+   },
+   {
+    "name": "Tinfoil open-source verifiable stack",
+    "category": "runtime",
+    "description": "Open-source enclave tooling for remote attestation of deployed models."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "security-privacy",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "consumers",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source, verifiable confidential AI stack with hardware attestation clients can check.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ycombinator.com/companies/tinfoil",
+   "https://tinfoil.sh/technology"
+  ]
+ },
+ {
+  "id": "tungsten-automation-formerly-kofax",
+  "name": "Tungsten Automation",
+  "verdict": "borderline",
+  "verdict_reason": "Document-processing and automation suite with on-prem option; AI is embedded, not local-AI product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Clearlake Capital / TA Associates",
+  "website": "https://www.tungstenautomation.com",
+  "hq_city": "Irvine",
+  "hq_country": "United States",
+  "founded": 1985,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Clearlake Capital",
+   "TA Associates"
+  ],
+  "employees": 2000,
+  "employees_band": "1001-5000",
+  "focus": "Intelligent document processing and workflow automation (TotalAgility, Kofax products).",
+  "problem": "Enterprises need AI document extraction on sensitive records without moving them to external clouds.",
+  "products": [
+   {
+    "name": "TotalAgility",
+    "category": "platform",
+    "description": "Intelligent automation platform deployable on-premises or cloud."
+   },
+   {
+    "name": "Tungsten Automation Transformation / Intelligent Document Processing",
+    "category": "platform",
+    "description": "AI document classification and extraction, on-prem capable."
+   },
+   {
+    "name": "Tungsten Copilot",
+    "category": "app",
+    "description": "Generative AI assistant for automation workflows."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Long-established IDP vendor with mature on-prem and regulated-industry deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "vannevar-labs",
+  "name": "Vannevar Labs",
+  "verdict": "out",
+  "verdict_reason": "AI intelligence tools for national security; no dedicated local/on-prem AI product evidenced.",
+  "status": "active",
+  "status_detail": null,
+  "website": "https://www.vannevarlabs.com"
+ },
+ {
+  "id": "voicegain",
+  "name": "Voicegain",
+  "verdict": "in",
+  "verdict_reason": "Speech-to-text and analytics marketed for on-prem, edge and private-cloud deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.voicegain.ai",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Speech-to-text platform with on-premises and edge deployment for contact centres and developers.",
+  "problem": "Enterprises and CPaaS vendors need accurate transcription without sending audio to public cloud APIs.",
+  "products": [
+   {
+    "name": "Voicegain Speech-to-Text",
+    "category": "runtime",
+    "description": "Cloud, private-cloud and on-prem ASR with API."
+   },
+   {
+    "name": "Voicegain Edge",
+    "category": "runtime",
+    "description": "Containerised ASR deployed in customer VPC or datacenter."
+   },
+   {
+    "name": "Voicegain Whisper",
+    "category": "model",
+    "description": "Whisper-based transcription option."
+   },
+   {
+    "name": "Voicegain Analytics",
+    "category": "app",
+    "description": "Speech analytics and meeting transcription for call centres."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "developers",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Private-deployable ASR with developer-friendly API and per-minute low pricing.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "voxist",
+  "name": "Voxist",
+  "verdict": "in",
+  "verdict_reason": "Installs ASR, translation and TTS models inside the customer's own environment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.voxist.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2013,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Speech recognition, machine translation and text-to-speech installed within the organisation's environment.",
+  "problem": "Regulated organisations need speech AI without sending voice data outside their infrastructure.",
+  "products": [
+   {
+    "name": "Voxist ASR",
+    "category": "runtime",
+    "description": "On-premises speech recognition for French and other languages."
+   },
+   {
+    "name": "Voxist MT",
+    "category": "runtime",
+    "description": "Self-hosted machine translation."
+   },
+   {
+    "name": "Voxist TTS",
+    "category": "runtime",
+    "description": "Self-hosted text-to-speech."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sovereign European speech and translation stack installed on customer infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "windsurf-formerly-codeium",
+  "name": "Windsurf",
+  "verdict": "borderline",
+  "verdict_reason": "AI coding IDE; self-hosted/VPC enterprise deployment exists but is secondary to SaaS.",
+  "status": "acquired",
+  "status_detail": "Remaining business acquired by Cognition (Jul 2025); CEO and co-founders joined Google in $2.4B licensing deal",
+  "parent": "Cognition",
+  "website": "https://windsurf.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 243,
+  "last_round": "Acquired by Cognition, Jul 2025, terms undisclosed",
+  "valuation_usd_m": 1250,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "General Catalyst",
+   "Kleiner Perkins",
+   "Greenoaks"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "AI-native coding IDE and assistant (formerly Codeium) now part of Cognition.",
+  "problem": "Enterprises want AI coding assistance without sending proprietary source code to third-party clouds.",
+  "products": [
+   {
+    "name": "Windsurf Editor",
+    "category": "app",
+    "description": "Agentic AI IDE with Cascade agent."
+   },
+   {
+    "name": "Windsurf Enterprise (self-hosted/hybrid)",
+    "category": "platform",
+    "description": "Self-hosted VPC/on-prem deployment option with FedRAMP High variant."
+   },
+   {
+    "name": "Devin Desktop",
+    "category": "app",
+    "description": "Next-generation Windsurf successor introduced June 2026."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Early to offer self-hosted and FedRAMP High AI coding assistant.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://cognition.ai/blog/windsurf",
+   "https://www.techcrunch.com/2025/07/14/cognition-maker-of-the-ai-coding-agent-devin-acquires-windsurf/"
+  ]
+ },
+ {
+  "id": "yurts",
+  "name": "Yurts",
+  "verdict": "in",
+  "verdict_reason": "Secure GenAI platform sold for deployment in on-prem and air-gapped government environments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.yurts.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 20,
+  "last_round": "Seed, $15.5M, 2024, led by Lightspeed (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Lightspeed Venture Partners"
+  ],
+  "employees": 35,
+  "employees_band": "11-50",
+  "focus": "Secure generative AI platform deploying inside customer infrastructure for government and defense.",
+  "problem": "Government and regulated enterprises cannot use public LLM APIs but need generative AI on private data.",
+  "products": [
+   {
+    "name": "Yurts AI Platform",
+    "category": "platform",
+    "description": "Private enterprise GenAI with RAG and agents deployable on-prem or air-gapped."
+   },
+   {
+    "name": "Yurts Model Gateway",
+    "category": "platform",
+    "description": "Routes workloads across self-hosted open models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "US Air Force",
+   "US Navy"
+  ],
+  "differentiator": "Turnkey deployment on classified and air-gapped networks, including onto customer hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "zama",
+  "name": "Zama",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source homomorphic encryption enabling private compute; relevant to privacy-preserving AI, not local inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zama.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 150,
+  "last_round": "Series B, $57M, Jun 2025, led by Blockchange and Pantera",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Pantera",
+   "Blockchange",
+   "Multicoin",
+   "Protocol Labs"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Open-source fully homomorphic encryption for confidential blockchain and AI computation.",
+  "problem": "Sensitive data must be processed by models and servers without ever being decrypted.",
+  "products": [
+   {
+    "name": "Concrete ML",
+    "category": "sdk",
+    "description": "Open-source library running ML models on encrypted data."
+   },
+   {
+    "name": "TFHE-rs",
+    "category": "sdk",
+    "description": "Rust fully homomorphic encryption library."
+   },
+   {
+    "name": "fhEVM / Zama Confidential Blockchain Protocol",
+    "category": "platform",
+    "description": "Confidential smart-contract protocol."
+   },
+   {
+    "name": "Zama Protocol",
+    "category": "platform",
+    "description": "FHE-based confidentiality layer."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "security-privacy",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "developers",
+   "finance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pioneer in practical fully homomorphic encryption, first FHE unicorn.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "01-ai",
+  "name": "01.AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open Yi weights are self-hostable and enterprise on-prem offerings exist, but business is China enterprise models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.01.ai",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 200,
+  "last_round": "Round led by Alibaba Cloud, ~$200M, Nov 2023 (valuation >$1B)",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Alibaba Cloud",
+   "Sinovation Ventures"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "Kai-Fu Lee's company: Yi open models and enterprise LLM solutions in China.",
+  "problem": "Enterprises need capable LLMs deployed privately on their own infrastructure.",
+  "products": [
+   {
+    "name": "Yi model family",
+    "category": "model",
+    "description": "Open-weight LLMs (Yi-6B/34B, Yi-1.5, Yi-Lightning)."
+   },
+   {
+    "name": "Yi-VL",
+    "category": "model",
+    "description": "Open multimodal vision-language models."
+   },
+   {
+    "name": "Enterprise on-prem LLM solutions",
+    "category": "service",
+    "description": "Private deployment of customised models for Chinese enterprises."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open Yi models with strong benchmarks, pivoting to private enterprise deployments.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ablatic-ai",
+  "name": "Ablatic AI",
+  "verdict": "out",
+  "verdict_reason": "Could not verify a real company or product; discovery notes unconfirmed, no website found.",
+  "status": "active",
+  "status_detail": "Not found; unconfirmed",
+  "website": null
+ },
+ {
+  "id": "ai2-allen-institute-for-ai",
+  "name": "Ai2 (Allen Institute for AI)",
+  "verdict": "in",
+  "verdict_reason": "Fully open models (OLMo, Molmo, OLMoE) designed for self-hosting and on-device use.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://allenai.org",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2014,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": "NSF/NVIDIA $152M award, Aug 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Paul Allen estate",
+   "NSF",
+   "NVIDIA"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Nonprofit AI research releasing fully open models, data and code.",
+  "problem": "Teams need transparent, fully open models they can run and audit on their own hardware.",
+  "products": [
+   {
+    "name": "OLMo",
+    "category": "model",
+    "description": "Fully open LLM family with weights, data and training code."
+   },
+   {
+    "name": "OLMoE",
+    "category": "model",
+    "description": "Open mixture-of-experts model with on-device iOS app."
+   },
+   {
+    "name": "Molmo",
+    "category": "model",
+    "description": "Open multimodal vision-language models."
+   },
+   {
+    "name": "Tulu",
+    "category": "model",
+    "description": "Open post-training recipes and models."
+   },
+   {
+    "name": "OLMo 3",
+    "category": "model",
+    "description": "Latest open model generation with fully open flow."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "education-research",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "NSF",
+   "Microsoft",
+   "Cirrascale"
+  ],
+  "notable_customers": [],
+  "differentiator": "Truly open weights, data and training recipes, funded as a nonprofit research institute.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ai21-labs",
+  "name": "AI21 Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Jamba models and private VPC/on-prem deployment; much revenue via cloud API.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.ai21.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 336,
+  "last_round": "Series D, $208M, Aug 2023",
+  "valuation_usd_m": 1400,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Google",
+   "NVIDIA",
+   "Intel Capital",
+   "Walden International",
+   "Ahren"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Jamba hybrid SSM-Transformer open models and enterprise agent platform Maestro.",
+  "problem": "Enterprises need long-context LLMs they can deploy privately in VPC or on-prem.",
+  "products": [
+   {
+    "name": "Jamba",
+    "category": "model",
+    "description": "Open-weight hybrid Mamba-Transformer LLM family with long context."
+   },
+   {
+    "name": "Jamba Reasoning 3B",
+    "category": "model",
+    "description": "Small open reasoning model aimed at on-device use."
+   },
+   {
+    "name": "Maestro",
+    "category": "platform",
+    "description": "Enterprise agent orchestration platform with private deployment."
+   },
+   {
+    "name": "Wordtune",
+    "category": "app",
+    "description": "Writing assistant."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "developers"
+  ],
+  "partners": [
+   "Google Cloud",
+   "NVIDIA",
+   "Amazon Bedrock",
+   "Snowflake"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hybrid SSM-Transformer architecture with open weights and private deployment options.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "aizip",
+  "name": "Aizip",
+  "verdict": "in",
+  "verdict_reason": "Tiny models and design automation built to run on MCUs and edge chips.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://aizip.ai",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2,
+  "last_round": "Seed, ~$2M, May 2023 (CB Insights)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TSVC"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Ultra-small AI models (audio, vision, time-series, language) for MCUs and edge devices.",
+  "problem": "Tiny IoT and wearable chips lack the compute and memory to run useful AI models.",
+  "products": [
+   {
+    "name": "Gizmo SLMs",
+    "category": "model",
+    "description": "Small language models (300M-2B) for edge devices."
+   },
+   {
+    "name": "Aizip audio models",
+    "category": "model",
+    "description": "Tiny wake word, noise reduction and speech models for MCUs."
+   },
+   {
+    "name": "Aizip vision models",
+    "category": "model",
+    "description": "Compact vision models for sensors and cameras."
+   },
+   {
+    "name": "Aizip Design Automation (AIZIPLINE)",
+    "category": "platform",
+    "description": "Automated model design and optimisation for target chips."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision",
+   "sensor-timeseries",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [
+   "Renesas",
+   "Arm",
+   "Lattice",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Model design automation yielding the smallest models for microcontroller-class hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/aizip/financials",
+   "https://www.arm.com/partners/catalog/aizip-inc"
+  ]
+ },
+ {
+  "id": "almawave-velvet",
+  "name": "Almawave",
+  "verdict": "borderline",
+  "verdict_reason": "Italian AI firm; Velvet open small LLMs built for efficient on-prem deployment alongside broader AI services.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Almaviva Group (majority)",
+  "website": "https://www.almawave.com",
+  "hq_city": "Rome",
+  "hq_country": "Italy",
+  "founded": 1991,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (Euronext Growth Milan: AIW)",
+  "key_investors": [],
+  "employees": 800,
+  "employees_band": "501-1000",
+  "focus": "Italian AI company with Velvet open LLMs, AIaaS platform and language/analytics solutions.",
+  "problem": "Italian enterprises and public bodies need sovereign, efficient LLMs deployable on their own infrastructure.",
+  "products": [
+   {
+    "name": "Velvet 2B",
+    "category": "model",
+    "description": "Small open Italian-European LLM for efficient and edge deployment."
+   },
+   {
+    "name": "Velvet 14B",
+    "category": "model",
+    "description": "Larger open model for on-prem enterprise use."
+   },
+   {
+    "name": "AIWave platform",
+    "category": "platform",
+    "description": "AI-as-a-service platform with private and sovereign deployment."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "CINECA",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Sovereign Italian-language LLM family trained on Italian supercomputer Leonardo.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "arcee-ai",
+  "name": "Arcee AI",
+  "verdict": "in",
+  "verdict_reason": "Small and open-weight models deployable in customer VPC, on-prem or at the edge are core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.arcee.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 180,
+  "last_round": "Series B, >=$150M, Sep 2026, led by Vista Equity Partners, Cambium Capital, Emergence Capital",
+  "valuation_usd_m": 1100,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Vista Equity Partners",
+   "Emergence Capital",
+   "Cambium Capital",
+   "Flybridge",
+   "Hope Partners"
+  ],
+  "employees": 70,
+  "employees_band": "51-200",
+  "focus": "US open-weight small and frontier models (AFM, Trinity) plus model merging tooling for enterprise ownership.",
+  "problem": "Enterprises want capable models they own and run privately, not rented through closed APIs.",
+  "products": [
+   {
+    "name": "Trinity Nano",
+    "category": "model",
+    "description": "Small open-weight Apache-2.0 model for edge and local use."
+   },
+   {
+    "name": "Trinity Mini",
+    "category": "model",
+    "description": "Mid-size open MoE model for private deployment."
+   },
+   {
+    "name": "Trinity Large",
+    "category": "model",
+    "description": "Large open frontier-class model trained in the US."
+   },
+   {
+    "name": "AFM-4.5B",
+    "category": "model",
+    "description": "Open small foundation model for enterprise and edge."
+   },
+   {
+    "name": "MergeKit",
+    "category": "sdk",
+    "description": "Open-source toolkit for merging language models."
+   },
+   {
+    "name": "Arcee Conductor",
+    "category": "platform",
+    "description": "Model routing across small and large models."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "developers"
+  ],
+  "partners": [
+   "Intel",
+   "AWS",
+   "Microsoft Azure",
+   "Prime Intellect"
+  ],
+  "notable_customers": [],
+  "differentiator": "US-trained open weights that enterprises can own, merge and deploy privately.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://fortune.com/2026/09/16/arcee-ai-trained-four-models-for-20-million-now-its-worth-1-billion/",
+   "https://dealroom.co/news/151200-arcee-raises-150m-series-b-at-1b-valuation-to-chase-china-on-open-weight/",
+   "https://stockanalysis.com/private/arcee-ai/"
+  ]
+ },
+ {
+  "id": "baichuan-ai",
+  "name": "Baichuan AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Baichuan models, now medical-focused with private hospital deployment; mostly Chinese-market models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.baichuan-ai.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 700,
+  "last_round": "Series A, ~$300M, Jul 2024 (Alibaba, Tencent, Xiaomi)",
+  "valuation_usd_m": 2800,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Alibaba",
+   "Tencent",
+   "Xiaomi",
+   "Meituan"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Chinese LLM developer with open Baichuan models, now focused on medical AI (Baichuan-M).",
+  "problem": "Hospitals need medical LLMs deployed privately on local infrastructure.",
+  "products": [
+   {
+    "name": "Baichuan-M series",
+    "category": "model",
+    "description": "Open-weight medical reasoning models for hospital deployment."
+   },
+   {
+    "name": "Baichuan 2",
+    "category": "model",
+    "description": "Open-weight 7B/13B base and chat models."
+   },
+   {
+    "name": "Baichuan4 / Baichuan-Omni",
+    "category": "model",
+    "description": "Proprietary and multimodal models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "healthcare",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open medical reasoning models enabling private deployment by hospitals.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "benzhi-activation-powerinfer-smallthinker",
+  "name": "Benzhi Activation (Zenergize AI)",
+  "verdict": "in",
+  "verdict_reason": "Spin-off building PowerInfer sparse inference engine and SmallThinker models explicitly for local consumer devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "On-device LLM inference engine (PowerInfer) and SmallThinker models for phones and PCs.",
+  "problem": "Large LLMs run too slowly or not at all on consumer devices with limited memory and compute.",
+  "products": [
+   {
+    "name": "PowerInfer",
+    "category": "runtime",
+    "description": "Open-source sparse-activation inference engine for consumer GPUs and PCs."
+   },
+   {
+    "name": "PowerInfer-2",
+    "category": "runtime",
+    "description": "Mobile-focused engine for running large models on smartphones."
+   },
+   {
+    "name": "SmallThinker",
+    "category": "model",
+    "description": "Open MoE LLM family (4B, 21B) designed for local deployment."
+   },
+   {
+    "name": "SmallThinker device deployment",
+    "category": "service",
+    "description": "On-device deployment support for OEM partners."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "embedded-iot"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sparsity-based inference co-designed with models, from Shanghai Jiao Tong IPADS lab.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://arxiv.org/html/2507.20984v2",
+   "https://en.tmtpost.com/post/7636667"
+  ]
+ },
+ {
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight FLUX models widely run locally, but revenue mainly from hosted API and licensing.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://bfl.ai",
+  "hq_city": "Freiburg",
+  "hq_country": "Germany",
+  "founded": 2024,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 450,
+  "last_round": "Series B, $300M, Dec 2025, led by AMP and Salesforce Ventures",
+  "valuation_usd_m": 3250,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "AMP",
+   "Salesforce Ventures",
+   "a16z",
+   "General Catalyst",
+   "NVIDIA",
+   "Temasek",
+   "Canva"
+  ],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "Frontier image-generation models (FLUX) with open-weight variants.",
+  "problem": "Creators and enterprises need high-quality image generation they can run on their own GPUs.",
+  "products": [
+   {
+    "name": "FLUX.1 [dev]",
+    "category": "model",
+    "description": "Open-weight 12B image model for non-commercial local use."
+   },
+   {
+    "name": "FLUX.1 [schnell]",
+    "category": "model",
+    "description": "Apache-2.0 fast distilled open image model."
+   },
+   {
+    "name": "FLUX.1 Kontext [dev]",
+    "category": "model",
+    "description": "Open-weight image editing model."
+   },
+   {
+    "name": "FLUX.2",
+    "category": "model",
+    "description": "Next-generation image model family with open variants."
+   },
+   {
+    "name": "BFL API",
+    "category": "service",
+    "description": "Hosted API for FLUX models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "developers",
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Adobe",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Top-tier open-weight image models by original Stable Diffusion creators.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation",
+   "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/"
+  ]
+ },
+ {
+  "id": "boson-ai",
+  "name": "Boson AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Higgs Audio models self-hostable, but company mainly builds frontier audio AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.boson.ai",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 9,
+  "last_round": "Seed/Series A, ~$9M, 2023 (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Index Ventures",
+   "Chan Zuckerberg Initiative"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Audio foundation models (Higgs Audio) for speech generation and understanding.",
+  "problem": "Developers need expressive speech models they can self-host rather than call via closed APIs.",
+  "products": [
+   {
+    "name": "Higgs Audio v2",
+    "category": "model",
+    "description": "Open-weight expressive text-to-speech and audio generation model."
+   },
+   {
+    "name": "Higgs Audio Tokenizer",
+    "category": "sdk",
+    "description": "Open audio tokenizer for speech models."
+   },
+   {
+    "name": "Higgs Audio Understanding",
+    "category": "model",
+    "description": "Audio understanding model."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open expressive audio models from Alex Smola and Mu Li, ex-AWS.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "brium",
+  "name": "Brium",
+  "verdict": "out",
+  "verdict_reason": "Acquired by AMD in June 2025 and absorbed into AMD software team; no standalone local-AI product.",
+  "status": "acquired",
+  "status_detail": "Acquired by AMD (announced Jun 4, 2025; terms undisclosed); confirmed via AMD blog and TechCrunch",
+  "website": "https://brium.ai"
+ },
+ {
+  "id": "canopy-labs",
+  "name": "Canopy Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Orpheus TTS models run locally; small team with narrow voice-model focus.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://canopylabs.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "Open-source Orpheus text-to-speech models for real-time voice AI.",
+  "problem": "Developers need natural, low-latency speech synthesis they can run locally.",
+  "products": [
+   {
+    "name": "Orpheus TTS",
+    "category": "model",
+    "description": "Open-weight Llama-based TTS family (3B, 1B, 400M, 150M) with emotion and voice cloning."
+   },
+   {
+    "name": "Orpheus multilingual",
+    "category": "model",
+    "description": "Research-preview multilingual voice models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source Llama-based TTS with human-level speech and small variants for local real-time use.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "tinfoil",
+  "name": "Tinfoil",
+  "verdict": "borderline",
+  "verdict_reason": "Attested GPU-enclave private inference; Tinfoil-hosted cloud, with some self-hosted options, not customer hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://tinfoil.sh",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 1.1,
+  "last_round": "Seed, ~$0.5M, 2025, Y Combinator and Pioneer Fund (unconfirmed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator",
+   "Pioneer Fund"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Verifiably private AI inference inside attested confidential-computing GPU enclaves.",
+  "problem": "Users want to run LLMs on sensitive data without the provider or cloud operator being able to see it.",
+  "products": [
+   {
+    "name": "Tinfoil Inference API",
+    "category": "service",
+    "description": "OpenAI-compatible private inference of open models inside attested NVIDIA GPU enclaves."
+   },
+   {
+    "name": "Tinfoil Private Chat",
+    "category": "app",
+    "description": "Chat app with enclave-backed privacy."
+   },
+   {
+    "name": "Tinfoil open-source verifiable stack",
+    "category": "runtime",
+    "description": "Open-source enclave tooling for remote attestation of deployed models."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "security-privacy",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "consumers",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source, verifiable confidential AI stack with hardware attestation clients can check.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ycombinator.com/companies/tinfoil",
+   "https://tinfoil.sh/technology"
+  ]
+ },
+ {
+  "id": "tungsten-automation-formerly-kofax",
+  "name": "Tungsten Automation",
+  "verdict": "borderline",
+  "verdict_reason": "Document-processing and automation suite with on-prem option; AI is embedded, not local-AI product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Clearlake Capital / TA Associates",
+  "website": "https://www.tungstenautomation.com",
+  "hq_city": "Irvine",
+  "hq_country": "United States",
+  "founded": 1985,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Clearlake Capital",
+   "TA Associates"
+  ],
+  "employees": 2000,
+  "employees_band": "1001-5000",
+  "focus": "Intelligent document processing and workflow automation (TotalAgility, Kofax products).",
+  "problem": "Enterprises need AI document extraction on sensitive records without moving them to external clouds.",
+  "products": [
+   {
+    "name": "TotalAgility",
+    "category": "platform",
+    "description": "Intelligent automation platform deployable on-premises or cloud."
+   },
+   {
+    "name": "Tungsten Automation Transformation / Intelligent Document Processing",
+    "category": "platform",
+    "description": "AI document classification and extraction, on-prem capable."
+   },
+   {
+    "name": "Tungsten Copilot",
+    "category": "app",
+    "description": "Generative AI assistant for automation workflows."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Long-established IDP vendor with mature on-prem and regulated-industry deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "vannevar-labs",
+  "name": "Vannevar Labs",
+  "verdict": "out",
+  "verdict_reason": "AI intelligence tools for national security; no dedicated local/on-prem AI product evidenced.",
+  "status": "active",
+  "status_detail": null,
+  "website": "https://www.vannevarlabs.com"
+ },
+ {
+  "id": "voicegain",
+  "name": "Voicegain",
+  "verdict": "in",
+  "verdict_reason": "Speech-to-text and analytics marketed for on-prem, edge and private-cloud deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.voicegain.ai",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Speech-to-text platform with on-premises and edge deployment for contact centres and developers.",
+  "problem": "Enterprises and CPaaS vendors need accurate transcription without sending audio to public cloud APIs.",
+  "products": [
+   {
+    "name": "Voicegain Speech-to-Text",
+    "category": "runtime",
+    "description": "Cloud, private-cloud and on-prem ASR with API."
+   },
+   {
+    "name": "Voicegain Edge",
+    "category": "runtime",
+    "description": "Containerised ASR deployed in customer VPC or datacenter."
+   },
+   {
+    "name": "Voicegain Whisper",
+    "category": "model",
+    "description": "Whisper-based transcription option."
+   },
+   {
+    "name": "Voicegain Analytics",
+    "category": "app",
+    "description": "Speech analytics and meeting transcription for call centres."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "developers",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Private-deployable ASR with developer-friendly API and per-minute low pricing.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "voxist",
+  "name": "Voxist",
+  "verdict": "in",
+  "verdict_reason": "Installs ASR, translation and TTS models inside the customer's own environment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.voxist.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2013,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Speech recognition, machine translation and text-to-speech installed within the organisation's environment.",
+  "problem": "Regulated organisations need speech AI without sending voice data outside their infrastructure.",
+  "products": [
+   {
+    "name": "Voxist ASR",
+    "category": "runtime",
+    "description": "On-premises speech recognition for French and other languages."
+   },
+   {
+    "name": "Voxist MT",
+    "category": "runtime",
+    "description": "Self-hosted machine translation."
+   },
+   {
+    "name": "Voxist TTS",
+    "category": "runtime",
+    "description": "Self-hosted text-to-speech."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sovereign European speech and translation stack installed on customer infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "windsurf-formerly-codeium",
+  "name": "Windsurf",
+  "verdict": "borderline",
+  "verdict_reason": "AI coding IDE; self-hosted/VPC enterprise deployment exists but is secondary to SaaS.",
+  "status": "acquired",
+  "status_detail": "Remaining business acquired by Cognition (Jul 2025); CEO and co-founders joined Google in $2.4B licensing deal",
+  "parent": "Cognition",
+  "website": "https://windsurf.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 243,
+  "last_round": "Acquired by Cognition, Jul 2025, terms undisclosed",
+  "valuation_usd_m": 1250,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "General Catalyst",
+   "Kleiner Perkins",
+   "Greenoaks"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "AI-native coding IDE and assistant (formerly Codeium) now part of Cognition.",
+  "problem": "Enterprises want AI coding assistance without sending proprietary source code to third-party clouds.",
+  "products": [
+   {
+    "name": "Windsurf Editor",
+    "category": "app",
+    "description": "Agentic AI IDE with Cascade agent."
+   },
+   {
+    "name": "Windsurf Enterprise (self-hosted/hybrid)",
+    "category": "platform",
+    "description": "Self-hosted VPC/on-prem deployment option with FedRAMP High variant."
+   },
+   {
+    "name": "Devin Desktop",
+    "category": "app",
+    "description": "Next-generation Windsurf successor introduced June 2026."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Early to offer self-hosted and FedRAMP High AI coding assistant.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://cognition.ai/blog/windsurf",
+   "https://www.techcrunch.com/2025/07/14/cognition-maker-of-the-ai-coding-agent-devin-acquires-windsurf/"
+  ]
+ },
+ {
+  "id": "yurts",
+  "name": "Yurts",
+  "verdict": "in",
+  "verdict_reason": "Secure GenAI platform sold for deployment in on-prem and air-gapped government environments.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.yurts.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 20,
+  "last_round": "Seed, $15.5M, 2024, led by Lightspeed (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Lightspeed Venture Partners"
+  ],
+  "employees": 35,
+  "employees_band": "11-50",
+  "focus": "Secure generative AI platform deploying inside customer infrastructure for government and defense.",
+  "problem": "Government and regulated enterprises cannot use public LLM APIs but need generative AI on private data.",
+  "products": [
+   {
+    "name": "Yurts AI Platform",
+    "category": "platform",
+    "description": "Private enterprise GenAI with RAG and agents deployable on-prem or air-gapped."
+   },
+   {
+    "name": "Yurts Model Gateway",
+    "category": "platform",
+    "description": "Routes workloads across self-hosted open models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "US Air Force",
+   "US Navy"
+  ],
+  "differentiator": "Turnkey deployment on classified and air-gapped networks, including onto customer hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "zama",
+  "name": "Zama",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source homomorphic encryption enabling private compute; relevant to privacy-preserving AI, not local inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zama.ai",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 150,
+  "last_round": "Series B, $57M, Jun 2025, led by Blockchange and Pantera",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Pantera",
+   "Blockchange",
+   "Multicoin",
+   "Protocol Labs"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Open-source fully homomorphic encryption for confidential blockchain and AI computation.",
+  "problem": "Sensitive data must be processed by models and servers without ever being decrypted.",
+  "products": [
+   {
+    "name": "Concrete ML",
+    "category": "sdk",
+    "description": "Open-source library running ML models on encrypted data."
+   },
+   {
+    "name": "TFHE-rs",
+    "category": "sdk",
+    "description": "Rust fully homomorphic encryption library."
+   },
+   {
+    "name": "fhEVM / Zama Confidential Blockchain Protocol",
+    "category": "platform",
+    "description": "Confidential smart-contract protocol."
+   },
+   {
+    "name": "Zama Protocol",
+    "category": "platform",
+    "description": "FHE-based confidentiality layer."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "security-privacy",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "developers",
+   "finance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pioneer in practical fully homomorphic encryption, first FHE unicorn.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "01-ai",
+  "name": "01.AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open Yi weights are self-hostable and enterprise on-prem offerings exist, but business is China enterprise models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.01.ai",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 200,
+  "last_round": "Round led by Alibaba Cloud, ~$200M, Nov 2023 (valuation >$1B)",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Alibaba Cloud",
+   "Sinovation Ventures"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "Kai-Fu Lee's company: Yi open models and enterprise LLM solutions in China.",
+  "problem": "Enterprises need capable LLMs deployed privately on their own infrastructure.",
+  "products": [
+   {
+    "name": "Yi model family",
+    "category": "model",
+    "description": "Open-weight LLMs (Yi-6B/34B, Yi-1.5, Yi-Lightning)."
+   },
+   {
+    "name": "Yi-VL",
+    "category": "model",
+    "description": "Open multimodal vision-language models."
+   },
+   {
+    "name": "Enterprise on-prem LLM solutions",
+    "category": "service",
+    "description": "Private deployment of customised models for Chinese enterprises."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open Yi models with strong benchmarks, pivoting to private enterprise deployments.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ablatic-ai",
+  "name": "Ablatic AI",
+  "verdict": "out",
+  "verdict_reason": "Could not verify a real company or product; discovery notes unconfirmed, no website found.",
+  "status": "active",
+  "status_detail": null,
+  "website": "null"
+ },
+ {
+  "id": "ai2-allen-institute-for-ai",
+  "name": "Ai2 (Allen Institute for AI)",
+  "verdict": "in",
+  "verdict_reason": "Fully open models (OLMo, Molmo, OLMoE) designed for self-hosting and on-device use.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://allenai.org",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2014,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": "NSF/NVIDIA $152M award, Aug 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Paul Allen estate",
+   "NSF",
+   "NVIDIA"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Nonprofit AI research releasing fully open models, data and code.",
+  "problem": "Teams need transparent, fully open models they can run and audit on their own hardware.",
+  "products": [
+   {
+    "name": "OLMo",
+    "category": "model",
+    "description": "Fully open LLM family with weights, data and training code."
+   },
+   {
+    "name": "OLMoE",
+    "category": "model",
+    "description": "Open mixture-of-experts model with on-device iOS app."
+   },
+   {
+    "name": "Molmo",
+    "category": "model",
+    "description": "Open multimodal vision-language models."
+   },
+   {
+    "name": "Tulu",
+    "category": "model",
+    "description": "Open post-training recipes and models."
+   },
+   {
+    "name": "OLMo 3",
+    "category": "model",
+    "description": "Latest open model generation with fully open flow."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "education-research",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "NSF",
+   "Microsoft",
+   "Cirrascale"
+  ],
+  "notable_customers": [],
+  "differentiator": "Truly open weights, data and training recipes, funded as a nonprofit research institute.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ai21-labs",
+  "name": "AI21 Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight Jamba models and private VPC/on-prem deployment; much revenue via cloud API.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.ai21.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 336,
+  "last_round": "Series D, $208M, Aug 2023",
+  "valuation_usd_m": 1400,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Google",
+   "NVIDIA",
+   "Intel Capital",
+   "Walden International",
+   "Ahren"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Jamba hybrid SSM-Transformer open models and enterprise agent platform Maestro.",
+  "problem": "Enterprises need long-context LLMs they can deploy privately in VPC or on-prem.",
+  "products": [
+   {
+    "name": "Jamba",
+    "category": "model",
+    "description": "Open-weight hybrid Mamba-Transformer LLM family with long context."
+   },
+   {
+    "name": "Jamba Reasoning 3B",
+    "category": "model",
+    "description": "Small open reasoning model aimed at on-device use."
+   },
+   {
+    "name": "Maestro",
+    "category": "platform",
+    "description": "Enterprise agent orchestration platform with private deployment."
+   },
+   {
+    "name": "Wordtune",
+    "category": "app",
+    "description": "Writing assistant."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "developers"
+  ],
+  "partners": [
+   "Google Cloud",
+   "NVIDIA",
+   "Amazon Bedrock",
+   "Snowflake"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hybrid SSM-Transformer architecture with open weights and private deployment options.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "aizip",
+  "name": "Aizip",
+  "verdict": "in",
+  "verdict_reason": "Tiny models and design automation built to run on MCUs and edge chips.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://aizip.ai",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2,
+  "last_round": "Seed, ~$2M, May 2023 (CB Insights)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TSVC"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Ultra-small AI models (audio, vision, time-series, language) for MCUs and edge devices.",
+  "problem": "Tiny IoT and wearable chips lack the compute and memory to run useful AI models.",
+  "products": [
+   {
+    "name": "Gizmo SLMs",
+    "category": "model",
+    "description": "Small language models (300M-2B) for edge devices."
+   },
+   {
+    "name": "Aizip audio models",
+    "category": "model",
+    "description": "Tiny wake word, noise reduction and speech models for MCUs."
+   },
+   {
+    "name": "Aizip vision models",
+    "category": "model",
+    "description": "Compact vision models for sensors and cameras."
+   },
+   {
+    "name": "Aizip Design Automation (AIZIPLINE)",
+    "category": "platform",
+    "description": "Automated model design and optimisation for target chips."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "camera",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision",
+   "sensor-timeseries",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [
+   "Renesas",
+   "Arm",
+   "Lattice",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Model design automation yielding the smallest models for microcontroller-class hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/aizip/financials",
+   "https://www.arm.com/partners/catalog/aizip-inc"
   ]
  }
 ]

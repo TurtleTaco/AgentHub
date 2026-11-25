@@ -1,0 +1,17 @@
+Classify companies into the "Local AI Atlas" ontology.
+
+Inputs:
+- Ontology: /home/user/AgentHub/research_notes/Local AI Atlas/data/ontology.json (8 domains D1–D8, each framed as a customer problem; niches like "1a", "6b" with descriptions).
+- Companies: /home/user/AgentHub/research_notes/Local AI Atlas/data/classify-input/chunk-{C}.jsonl — one company per line with id, name, focus, problem, products, layers, deployment, modalities, customers, differentiator.
+
+Task: for EVERY company assign
+- "primary": the ONE niche id that best describes what the company mainly does for its customers in local AI (its core job, not every capability). For big multi-product companies pick the niche of their most important local-AI offering.
+- "secondary": 0–3 other niche ids where the company has a real, shipping local-AI product (not aspirations). Use them to capture genuine overlap (e.g., a chip company that also ships an on-device SDK → primary 1a, secondary 4a). Most focused startups should have 0–1 secondary niches.
+- "fit": "good" or "weak" (weak = no niche describes it well).
+- "note": <=12 words, only when fit is weak (what niche is missing).
+
+Rules: use only niche ids that exist in ontology.json. Judge from the company data given; do not browse the web. Be consistent across similar companies.
+
+Output: write a JSON array to /home/user/AgentHub/research_notes/Local AI Atlas/data/classification-{C}.json with objects {"id","primary","secondary","fit","note"} — one per input line, every id exactly once. Validate with python3 (count must equal input lines; every niche id must exist in ontology.json).
+
+Final reply (under 80 words): count classified, count per domain (D1..D8), number of "weak" fits and the missing-niche themes they suggest.

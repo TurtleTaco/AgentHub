@@ -1,0 +1,12 @@
+# Batch 08 notes (40 candidates: 15 in, 25 borderline, 0 out)
+- Modular: acquisition by Qualcomm CONFIRMED (announced Jun 2026, completed Jul 29 2026). Discovery said "active" -> status acquired. BentoML-joins-Modular (Feb 2026) only single-source (ABI), unconfirmed.
+- Aleph Alpha: Cohere merger confirmed as agreed (April 2026 announcement, definitive agreement Sep 16 2026); closing not confirmed, kept status active.
+- Predibase: Rubrik acquisition confirmed (Jun 2025, SEC 8-K). NeuralFabric: Cisco acquisition confirmed (completed Nov 21 2025).
+- MK1 (AMD 2025), Run:ai (NVIDIA 2024), SchedMD (NVIDIA Dec 2025): taken from AMD/NVIDIA sources/knowledge, not re-searched.
+- Mako has rebranded to Makora; funding $8.5M seed (Aug 2025). Not to be confused with Standard Kernel.
+- RadixArk: $100M seed at $400M post-money (May 2026, Accel) confirmed. Together AI: $800M Series C at $8.3B (Jul 2026). Poolside: Nvidia $1B + licensing deal (Aug 2026), valuation reported only.
+- SCX.ai: ASX listing confirmed Aug 21 2026 (A$40M IPO); hosted in-country (sovereign), not customer hardware.
+- MarsLab: only a press-release roadmap (M100/M200); no independent validation; low confidence, borderline.
+- AlpineAI funding amount/date conflicting; Blockbrain and Airia on-prem options not confirmed.
+- Mystic AI operating status not verified. Many funding/headcount figures for smaller firms are from knowledge (confidence low); 22 profiles basis=knowledge.
+- No duplicates spotted within batch.

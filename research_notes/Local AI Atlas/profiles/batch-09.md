@@ -1,0 +1,11 @@
+# Batch 09 notes
+- Confirmed by search: Cognigy acquired by NICE (closed 8 Sep 2025, ~$955M); Flowise acquired by Workday (14 Aug 2025); Iguazio acquired by McKinsey (Jan 2023).
+- Cohere: merger with Aleph Alpha announced Apr 2026, definitive agreement Sep 2026, ~$20B combined valuation press-reported, closing pending; valuation recorded as last confirmed $7B (Sep 2025).
+- cnvrg.io: Intel acquisition (2020) from discovery not re-searched; Tiber AI Studio status unconfirmed; marked borderline.
+- Cognizer: out; found to be a contract-intelligence firm (Pleasanton CA), no on-prem evidence.
+- INXM: funding confirmed (EUR 5.7M pre-seed, Jun 2026) but on-prem claim thinly sourced; borderline.
+- Deliverance AI: exited stealth Jun 2026 with GBP 6M ARR claimed; no funding disclosed.
+- Dify: $30M Pre-A Mar 2026 at $180M (HSG led); HQ per press release Menlo Park.
+- ConfidentialMind seed ($4.1M Apr 2026) is aggregator-only, unconfirmed.
+- Most remaining profiles (headcount, founded, funding for non-searched companies) are from model knowledge with low/medium confidence.
+- No duplicates spotted in this batch.

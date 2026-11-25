@@ -1,0 +1,12 @@
+# Batch 11 notes (40 companies: 11 in, 26 borderline, 3 out)
+- Ask Sage: acquisition by BigBear.ai CONFIRMED (~$250M cash, announced 10 Nov 2025, closed 31 Dec 2025; discovery said "2026"). Kept as separate row, status acquired; BigBear.ai remains active/public.
+- Mithril Security: CB Insights/Dealroom say acquired by H Company (2024); not independently confirmed (LongTerm Wiki rated partially verified); site still live. Status "acquired", flagged unconfirmed. Discovery status "unknown".
+- Domyn: rebrand from iGenius confirmed; raised ~$1B+ (about 90% debt) Aug 2026 per Sifted/TNW; aggregators (CB Insights ~$836M) disagree.
+- Helsing: Series E $1.8B at $18B (13 Jul 2026); lead investor and EUR/USD figures vary by source. Verdict borderline (weapons platforms with onboard AI, not a seller of edge compute to others).
+- Legion Intelligence = former Yurts AI; $40M Series B Dec 2024, ~$56M total (CB Insights). Not to be confused with Legion Security (Israel).
+- Auterion: Series B $130M Sep 2025 confirmed; a ~$200M/$1.2B 2026 round appears only in secondary sources (unverified), total funding left null.
+- Defense Unicorns: $136M Series B Jan 2026 (Bain), valuation >$1B confirmed; $186M total is CB Insights figure.
+- Confident Security: $4.2M seed (Jul 2025, Decibel) confirmed; no later round found. Edgeless: only EUR5M seed 2023 confirmed; total ~$8M uncertain.
+- Out: Alexi (cloud SaaS), Arondite (no local-AI product found, no website), INDEV Software (unverifiable).
+- Unverified/low-confidence: Noah Labs (founded/HQ/funding unknown), LAW.co (HQ/founding unknown), Cobalt HQ (Pittsburgh from memory), Adarga financial health in 2026 not verified. Most employee counts are rough estimates.
+- No duplicates found within batch (BigBear.ai and Ask Sage are parent/subsidiary).
