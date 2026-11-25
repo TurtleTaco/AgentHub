@@ -1,0 +1,1135 @@
+[
+  {
+    "name": "Cactus Compute",
+    "website": "https://cactuscompute.com",
+    "hq_country": "United States",
+    "one_liner": "YC S25 cross-platform inference engine and SDKs for running LLMs on phones and wearables.",
+    "local_ai_angle": "C++ engine with Flutter/React Native/Kotlin/Swift SDKs; on-device by default, optional cloud fallback.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.infoq.com/news/2025/12/cactus-on-device-inference/",
+      "https://huggingface.co/blog/rshemet/cactus-on-device-inference",
+      "https://ycombinator.com/companies/cactus"
+    ]
+  },
+  {
+    "name": "RunAnywhere",
+    "website": "https://www.runanywhere.ai",
+    "hq_country": null,
+    "one_liner": "YC W26 open-source SDK plus control plane to run multimodal AI on-device at scale.",
+    "local_ai_angle": "One SDK for on-device LLM/speech/vision on iOS, Android, React Native; OTA model rollouts, hybrid routing.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.ycombinator.com/launches/PFB-runanywhere-the-default-way-to-run-on-device-ai-at-scale",
+      "https://www.founderland.ai/articles/yc-backed-runanywhere-launches-platform-for-on-device-ai-at--mmyvdc1j"
+    ]
+  },
+  {
+    "name": "Nexa AI",
+    "website": "https://nexa.ai",
+    "hq_country": "United States",
+    "one_liner": "Nexa SDK runs text, vision, audio and image models locally on NPU, GPU or CPU.",
+    "local_ai_angle": "NPU-first on-device runtime (NexaML) for phones, PCs, IoT; continues as Qualcomm GenieX after acquisition.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "acquired by Qualcomm (2026)",
+    "sources": [
+      "https://www.qualcomm.com/developer/blog/2026/06/geniex-developer-preview",
+      "https://www.qualcomm.com/developer/blog/2025/11/nexa-ai-for-android-simple-way-to-bring-on-device-ai-to-smartphones-with-snapdragon",
+      "https://t.cj.sina.com.cn/articles/view/2833534593/a8e44e8102001cuqe",
+      "https://www.producthunt.com/products/nexa-sdk-2"
+    ]
+  },
+  {
+    "name": "Mirai",
+    "website": "https://trymirai.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Rust inference engine and SDK optimizing on-device model inference, starting with Apple Silicon.",
+    "local_ai_angle": "Runtime (uzu) embedded in apps; claims faster generation than MLX; Android support planned.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/",
+      "https://trymirai.com/blog/mirai-raises-10m-to-build-the-on-device-ai-capability-layer",
+      "https://github.com/trymirai/uzu",
+      "https://uncorkcapital.com/blog/to-the-edge-again-welcoming-mirai-to-the-uncork-portfolio"
+    ]
+  },
+  {
+    "name": "Liquid AI (LEAP)",
+    "website": "https://www.liquid.ai",
+    "hq_country": "United States",
+    "one_liner": "MIT spinout building efficient LFM2 foundation models and the LEAP edge AI developer platform.",
+    "local_ai_angle": "LEAP SDK deploys small LFM models on iOS/Android/laptops (AMD Ryzen AI); Apollo offline app.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.liquid.ai/en/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer",
+      "https://www.businesswire.com/news/home/20250818260821/en/Liquid%E2%80%99s-Edge-AI-Platform-LEAP-Expands-Support-to-Laptops-With-Best-in-Class-Performance-on-AMD-Ryzen%E2%84%A2-and-Ryzen-AI%E2%84%A2-Processors",
+      "https://venturebeat.com/ai/finally-a-dev-kit-for-designing-on-device-mobile-ai-apps-is-here-liquid-ais-leap"
+    ]
+  },
+  {
+    "name": "ZETIC.ai",
+    "website": "https://zetic.ai",
+    "hq_country": "South Korea",
+    "one_liner": "MLange (ex-Melange) platform converting models into device-specific NPU libraries for mobile apps.",
+    "local_ai_angle": "Moves B2B AI services from GPU servers onto phone NPUs; claims up to 60x vs mobile CPU.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://en.wowtale.net/2024/05/21/76988",
+      "https://www.pulse.bot/b2b-growth/news/zeticai-launches-mlange-the-first-one-stop-on-device-ai-app-development-platform-2e95e1f9-3839-4707-bdd1-eb0fa9a472cc/",
+      "https://www.producthunt.com/p/zetic-melange"
+    ]
+  },
+  {
+    "name": "ggml.ai (llama.cpp)",
+    "website": "https://ggml.ai",
+    "hq_country": "Bulgaria",
+    "one_liner": "Company behind ggml tensor library, llama.cpp and whisper.cpp, the de facto local inference stack.",
+    "local_ai_angle": "Runs quantized GGUF LLMs and speech models on laptops, phones, edge; team joined Hugging Face.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "acquired by Hugging Face (2026)",
+    "sources": [
+      "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/",
+      "https://gihyo.jp/article/2026/02/ggml-join-hugging-face",
+      "https://letsdatascience.com/news/ggmlai-joins-hugging-face-to-advance-local-ai-baece755"
+    ]
+  },
+  {
+    "name": "MLC (MLC-LLM / WebLLM)",
+    "website": "https://llm.mlc.ai",
+    "hq_country": "United States",
+    "one_liner": "Open-source ML compilation project deploying LLMs natively on phones, GPUs and in browsers.",
+    "local_ai_angle": "WebLLM runs LLMs in-browser via WebGPU/WASM; MLC-LLM compiles models for iOS/Android/desktop.",
+    "segment": "on-device-sdks",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://blog.mlc.ai/2024/06/13/webllm-a-high-performance-in-browser-llm-inference-engine",
+      "https://arxiv.org/html/2412.15803v1",
+      "https://raw.githubusercontent.com/mlc-ai/web-llm/HEAD/README.md"
+    ]
+  },
+  {
+    "name": "Mozilla.ai (llamafile)",
+    "website": "https://www.mozilla.ai",
+    "hq_country": "United States",
+    "one_liner": "Mozilla's AI arm; llamafile packages an LLM and runtime into one cross-platform executable.",
+    "local_ai_angle": "Single-file local LLM execution on any desktop OS/CPU without install or cloud.",
+    "segment": "on-device-sdks",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://github.com/Mozilla-Ocho/llamafile"
+    ]
+  },
+  {
+    "name": "Exo Labs",
+    "website": "https://www.exolabs.net",
+    "hq_country": "United Kingdom",
+    "one_liner": "Open-source exo software linking everyday devices into a peer-to-peer local AI cluster.",
+    "local_ai_angle": "Shards large models across Macs/phones/PCs at home to run frontier-size models locally.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.exolabs.net/",
+      "https://www.cbinsights.com/company/exo-labs",
+      "https://www.crunchbase.com/organization/exo-labs"
+    ]
+  },
+  {
+    "name": "Nomic AI (GPT4All)",
+    "website": "https://www.nomic.ai",
+    "hq_country": "United States",
+    "one_liner": "Builds GPT4All desktop app/SDK and Nomic embedding models plus Atlas data platform.",
+    "local_ai_angle": "GPT4All runs open LLMs privately on consumer CPUs/GPUs with local document chat.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/nomic-ai/gpt4all"
+    ]
+  },
+  {
+    "name": "Fluid Inference (FluidAudio)",
+    "website": "https://github.com/FluidInference/FluidAudio",
+    "hq_country": null,
+    "one_liner": "Maintains FluidAudio, open-source Swift SDK for local ASR, TTS, diarization and VAD.",
+    "local_ai_angle": "Offloads audio models to Apple Neural Engine on macOS/iOS; used by Spokenly, Hedy and others.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/FluidInference/FluidAudio",
+      "https://swiftpackageregistry.com/FluidInference/FluidAudio"
+    ]
+  },
+  {
+    "name": "Aizip",
+    "website": "https://aizip.ai",
+    "hq_country": "United States",
+    "one_liner": "Silicon Valley maker of tiny edge models, incl. Gizmo small language models (300M-2B).",
+    "local_ai_angle": "Models for MCUs, smart sensors, wearables; demoed SLM agents on Renesas Arm MPUs.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.businesswire.com/news/home/20240723463718/en",
+      "https://huggingface.co/spaces/aizip/README/blob/main/README.md"
+    ]
+  },
+  {
+    "name": "Tether (QVAC)",
+    "website": "https://qvac.tether.io",
+    "hq_country": "El Salvador",
+    "one_liner": "Stablecoin issuer's QVAC open-source SDK for building local, offline AI apps.",
+    "local_ai_angle": "QVAC Fabric (llama.cpp fork) plus whisper.cpp/Parakeet/Bergamot across phones, desktops, servers.",
+    "segment": "on-device-sdks",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://decrypt.co/363809/stablecoin-giant-tether-launches-toolkit-for-building-local-offline-ai-apps",
+      "https://raw.githubusercontent.com/tetherto/qvac/main/README.md",
+      "https://www.networkworld.com/article/4250425/app-developers-turn-to-qvac-for-ai-tooling-without-the-cloud.html"
+    ]
+  },
+  {
+    "name": "NobodyWho",
+    "website": "https://www.nobodywho.ai",
+    "hq_country": null,
+    "one_liner": "Open-source llama.cpp-based engine for running LLMs inside games and apps on-device.",
+    "local_ai_angle": "Local LLM plugins across six platforms/frameworks incl. iOS/Android demos; no cloud calls.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.producthunt.com/posts/nobodywho"
+    ]
+  },
+  {
+    "name": "Second State (LlamaEdge / WasmEdge)",
+    "website": "https://www.secondstate.io",
+    "hq_country": null,
+    "one_liner": "Maintainer of WasmEdge runtime and LlamaEdge for portable LLM apps via WebAssembly.",
+    "local_ai_angle": "Runs LLM inference portably on edge devices and laptops through a lightweight Wasm runtime.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://github.com/WasmEdge/WasmEdge"
+    ]
+  },
+  {
+    "name": "Tracel AI (Burn)",
+    "website": "https://burn.dev",
+    "hq_country": "Canada",
+    "one_liner": "Develops Burn, a Rust deep-learning framework with WebGPU, Metal, CUDA and embedded backends.",
+    "local_ai_angle": "Portable training/inference from browsers (WASM/WebGPU) to no_std embedded devices.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/tracel-ai/burn"
+    ]
+  },
+  {
+    "name": "Software Mansion (React Native ExecuTorch)",
+    "website": "https://swmansion.com",
+    "hq_country": "Poland",
+    "one_liner": "Software house building React Native ExecuTorch and on-device AI app development services.",
+    "local_ai_angle": "Open-source bindings to run ExecuTorch models locally in React Native mobile apps.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://swmansion.com/services/on-device-ai-and-local-ai-development/",
+      "https://github.com/software-mansion/react-native-executorch"
+    ]
+  },
+  {
+    "name": "Datasapiens",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "Low-code mobile SDK for building on-device AI features into apps.",
+    "local_ai_angle": "Packages model execution on the handset so features run without cloud inference.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://thenewstack.io/datasapiens-sdk-the-low-code-way-to-build-on-device-ai/"
+    ]
+  },
+  {
+    "name": "Cephable",
+    "website": "https://cephable.com",
+    "hq_country": "United States",
+    "one_liner": "Enterprise startup building AI agents that run directly on laptops and devices.",
+    "local_ai_angle": "On-device agents keep enterprise data off the cloud; raised $7M seed (Nov 2026).",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.axios.com/pro/climate-deals/2026/11/03/cephable-mass-mutual-ventures"
+    ]
+  },
+  {
+    "name": "TraceWeave",
+    "website": null,
+    "hq_country": "South Korea",
+    "one_liner": "Korean startup building an architecture for running AI agents on-device.",
+    "local_ai_angle": "On-device agent runtime; $2.3M seed led by Mirae Asset Capital with Naver D2SF (Oct 2026).",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://en.wowtale.net/2026/10/21/235665/"
+    ]
+  },
+  {
+    "name": "Out of Set",
+    "website": null,
+    "hq_country": "South Korea",
+    "one_liner": "Korean on-device AI infrastructure startup focused initially on speech recognition and synthesis.",
+    "local_ai_angle": "Builds on-device speech models for smartphones and devices; seed led by TheVentures (2026).",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://en.wowtale.net/2026/05/21/234111/"
+    ]
+  },
+  {
+    "name": "Iconic",
+    "website": null,
+    "hq_country": "United Kingdom",
+    "one_liner": "Gaming startup whose ACT-1 on-device engine lets players control characters by voice.",
+    "local_ai_angle": "Interprets spoken input and drives game characters locally on the player's device; GBP10M seed.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.startupmag.co.uk/funding/iconic-2025-seed-funding/"
+    ]
+  },
+  {
+    "name": "Picovoice",
+    "website": "https://picovoice.ai",
+    "hq_country": "Canada",
+    "one_liner": "On-device voice AI platform: wake word, VAD, STT, speaker recognition, TTS and picoLLM.",
+    "local_ai_angle": "Engines process audio fully on-device across mobile, web (WASM), desktop, MCUs; picoLLM local LLMs.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/Picovoice/picovoice",
+      "https://picovoice.ai/blog/cross-browser-local-llm-inference-using-webassembly/",
+      "https://picovoice.ai/blog/ios-speech-recognition/"
+    ]
+  },
+  {
+    "name": "Argmax",
+    "website": "https://www.argmaxinc.com",
+    "hq_country": "United States",
+    "one_liner": "Builds WhisperKit, SpeakerKit, TTSKit and Pro SDK for on-device speech AI.",
+    "local_ai_angle": "Optimized speech foundation models on Apple Silicon and Android (LiteRT); $8M seed 2024.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.argmaxinc.com/blog/seed",
+      "https://salesforceventures.com/perspectives/welcome-argmax",
+      "https://github.com/argmaxinc/WhisperKit"
+    ]
+  },
+  {
+    "name": "Moonshine AI",
+    "website": null,
+    "hq_country": "United States",
+    "one_liner": "Pete Warden's company (ex-Useful Sensors) commercializing Moonshine on-device speech recognition models.",
+    "local_ai_angle": "Small open ASR models for local voice commands/transcription on edge hardware; Wing VC, IQT funding.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.businesswire.com/news/home/20250731017792/en/Moonshine-AI-Secures-Funding-to-Advance-On-Device-Voice-AI",
+      "https://huggingface.co/UsefulSensors/moonshine",
+      "https://arxiv.org/pdf/2410.15608v2"
+    ]
+  },
+  {
+    "name": "Sensory",
+    "website": "https://www.sensory.com",
+    "hq_country": "United States",
+    "one_liner": "Veteran embedded voice/vision AI vendor (TrulyHandsfree) for automotive, consumer and IoT.",
+    "local_ai_angle": "100% on-device wake word, STT, voice commands with LLM handoff for complex queries.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.sensory.com/automotive/"
+    ]
+  },
+  {
+    "name": "Speechmatics",
+    "website": "https://www.speechmatics.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Speech recognition company offering cloud, on-prem and on-device speech-to-text.",
+    "local_ai_angle": "Speechmatics On-Device runs ASR on end-user hardware with no audio leaving device.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.speechmatics.com/company/articles-and-news/on-device-speech-to-text-in-10-questions"
+    ]
+  },
+  {
+    "name": "Cartesia",
+    "website": "https://cartesia.ai",
+    "hq_country": "United States",
+    "one_liner": "Voice AI company built on state-space models; Sonic TTS plus on-device offerings.",
+    "local_ai_angle": "Open-source Edge library for SSMs on Apple silicon; Sonic On-Device for phones.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.cartesia.ai/on-device",
+      "https://techcrunch.com/2024/12/12/cartesia-claims-its-ai-is-efficient-enough-to-run-pretty-much-anywhere/"
+    ]
+  },
+  {
+    "name": "Kyutai",
+    "website": "https://kyutai.org",
+    "hq_country": "France",
+    "one_liner": "Paris non-profit open AI lab focused on voice models (Moshi, Pocket TTS).",
+    "local_ai_angle": "Releases open models like 100M-param Pocket TTS that run real-time on CPUs locally.",
+    "segment": "on-device-sdks",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://github.com/kyutai-labs/pocket-tts",
+      "https://kyutai.org/tts/",
+      "https://sciencebusiness.net/news/r-d-funding/ai/how-non-profit-research-lab-produced-frances-hottest-new-ai-start"
+    ]
+  },
+  {
+    "name": "Gradium",
+    "website": "https://gradium.ai",
+    "hq_country": "France",
+    "one_liner": "Kyutai spinout building low-latency audio language models for voice AI.",
+    "local_ai_angle": "Released Phonon, open-weight on-device TTS (31M/40M params); mostly cloud otherwise.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://gradium.ai/blog/release-phonon-open-weight",
+      "https://techcrunch.com/2025/12/02/paris-based-ai-voice-startup-gradium-nabs-70m-seed",
+      "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed"
+    ]
+  },
+  {
+    "name": "Neuphonic",
+    "website": "https://www.neuphonic.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Voice AI startup releasing NeuTTS open on-device speech language models with voice cloning.",
+    "local_ai_angle": "NeuTTS models run text-to-speech locally on devices under open licenses.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/neuphonic/neuTTS",
+      "https://getstream.io/blog/best-on-device-tts-models/"
+    ]
+  },
+  {
+    "name": "KittenML (Kitten TTS)",
+    "website": "https://github.com/KittenML/KittenTTS",
+    "hq_country": null,
+    "one_liner": "Developer of Kitten TTS, tiny 15M-80M parameter open text-to-speech models.",
+    "local_ai_angle": "25-80MB TTS models run on CPUs and edge devices without GPU.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://getstream.io/blog/best-on-device-tts-models/"
+    ]
+  },
+  {
+    "name": "SoundHound AI",
+    "website": "https://www.soundhound.com",
+    "hq_country": "United States",
+    "one_liner": "Public voice AI company (Houndify) for automotive, restaurants and devices.",
+    "local_ai_angle": "Edge/on-chip voice AI with on-device LLM on NVIDIA DRIVE; works without connectivity.",
+    "segment": "on-device-sdks",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.speechtechmag.com/Articles/News/Speech-Technology-News/SoundHound-to-Offer-On-Chip-Voice-AI-with-NVIDIA-163116.aspx",
+      "https://autotechinsight.spglobal.com/news/5274864/soundhound-to-offer-on-chip-voice-ai-with-nvidia-for-in-vehicle-generative-ai-responses"
+    ]
+  },
+  {
+    "name": "Cerence",
+    "website": "https://www.cerence.com",
+    "hq_country": "United States",
+    "one_liner": "Automotive voice and conversational AI supplier (ex-Nuance) to major carmakers.",
+    "local_ai_angle": "CaLLM Edge 3.8B embedded SLM runs in head units offline or as hybrid backup.",
+    "segment": "on-device-sdks",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://investors.cerence.com/news-events/press-releases/detail/114/cerence-introduces-pioneering-embedded-small-language-model-purpose-built-for-automotive",
+      "https://investors.cerence.com/news-events/press-releases/detail/98/cerence-ai-and-mediatek-partner-to-introduce-multi-modal-language-models-running-on-the-edge-built-on-nvidia",
+      "https://www.edgeir.com/cerence-ai-and-arm-push-llm-boundaries-with-on-device-ai-for-smarter-cars-20250606"
+    ]
+  },
+  {
+    "name": "Kardome",
+    "website": "https://kardome.com",
+    "hq_country": "Israel",
+    "one_liner": "Spatial hearing voice AI that isolates speakers by seat for cars and devices.",
+    "local_ai_angle": "Deploys proprietary voice models on edge hardware (NVIDIA AGX); partners with SoundHound.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.twice.com/the-wire/kardome-demonstrates-edge-based-voice-ai-at-ces-2026",
+      "https://kardome.com/blog-posts/kardome-soundhound-ai-team-up-transform-in-car-voice-ui-multi-zone-conversational-ai",
+      "https://embeddedcomputing.com/application/automotive/infotainment/kardome-joins-nvidia-agx-to-offer-ai-voice-recognition-to-auto-oems"
+    ]
+  },
+  {
+    "name": "Alpha Cephei (Vosk)",
+    "website": "https://alphacephei.com/vosk",
+    "hq_country": null,
+    "one_liner": "Maker of Vosk, open-source offline speech recognition toolkit for 20+ languages.",
+    "local_ai_angle": "Small ASR models run offline on Android, iOS, Raspberry Pi and servers.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://alphacephei.com/vosk/"
+    ]
+  },
+  {
+    "name": "k2-fsa (sherpa-onnx / Next-gen Kaldi)",
+    "website": "https://github.com/k2-fsa/sherpa-onnx",
+    "hq_country": null,
+    "one_liner": "Open-source Next-gen Kaldi project; sherpa-onnx offers offline ASR, TTS, VAD, diarization.",
+    "local_ai_angle": "ONNX-based speech runtime for Android, iOS, Raspberry Pi, embedded boards and WebAssembly.",
+    "segment": "on-device-sdks",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://github.com/k2-fsa/sherpa-onnx"
+    ]
+  },
+  {
+    "name": "Coqui",
+    "website": "https://github.com/coqui-ai/TTS",
+    "hq_country": "Germany",
+    "one_liner": "Open-source speech startup behind Coqui TTS and XTTS voice cloning models.",
+    "local_ai_angle": "Open TTS models widely self-hosted and run locally; company shut down early 2024.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "defunct",
+    "sources": [
+      "https://github.com/coqui-ai/TTS"
+    ]
+  },
+  {
+    "name": "Moondream (M87 Labs)",
+    "website": "https://moondream.ai",
+    "hq_country": "United States",
+    "one_liner": "Tiny open vision-language models (Moondream 0.5B/2B/3) for image understanding.",
+    "local_ai_angle": "Compact VLMs run on edge devices and phones; $4.5M pre-seed (Felicis, M12).",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://venturebeat.com/ai/moondream-raises-4-5m-to-prove-that-smaller-ai-models-can-still-pack-a-punch",
+      "https://github.com/m87-labs/moondream",
+      "https://moondream.ai/about/us"
+    ]
+  },
+  {
+    "name": "Nota AI",
+    "website": "https://www.nota.ai",
+    "hq_country": "South Korea",
+    "one_liner": "AI model optimization company; NetsPresso platform compresses models for edge hardware.",
+    "local_ai_angle": "Optimizes and deploys models on-device (Qualcomm AI Hub, NVIDIA, Samsung); KOSDAQ-listed Nov 2025.",
+    "segment": "on-device-sdks",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://technode.global/prnasia/nota-ai-seeks-kosdaq-listing-as-the-first-ai-optimization-tech-startup/",
+      "https://www.edge-ai-vision.com/2025/05/nota-ai-demonstrates-on-device-ai-breakthrough-at-embedded-vision-summit-2025-in-collaboration-with-qualcomm-ai-hub/",
+      "https://en.edaily.co.kr/news/eda202606295130"
+    ]
+  },
+  {
+    "name": "ENERZAi",
+    "website": "https://enerzai.com",
+    "hq_country": "South Korea",
+    "one_liner": "Full-stack on-device AI company doing model compression and compiler-level optimization.",
+    "local_ai_angle": "Optimizes models (Optimium engine) to run on edge devices incl. in-car systems.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.embedded-world.de/en/exhibitors/enerzai-inc-2611214"
+    ]
+  },
+  {
+    "name": "Plumerai",
+    "website": "https://plumerai.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Tiny on-device vision AI (people/face detection) for smart home cameras and chips.",
+    "local_ai_angle": "Runs compact detection models on camera MCUs/SoCs without cloud processing.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://plumerai.com"
+    ]
+  },
+  {
+    "name": "Xnor.ai",
+    "website": "https://en.wikipedia.org/wiki/Xnor.ai",
+    "hq_country": "United States",
+    "one_liner": "AI2 spinout pioneering binarized on-device vision models for low-power devices.",
+    "local_ai_angle": "Ran deep learning on battery-powered edge devices; bought by Apple.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "acquired by Apple (2020)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Xnor.ai"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "website": "https://huggingface.co",
+    "hq_country": "United States",
+    "one_liner": "Open model hub; ships Transformers.js, swift-transformers, SmolLM and now hosts ggml/llama.cpp.",
+    "local_ai_angle": "Transformers.js runs models in-browser (ONNX/WebGPU); acquired ggml.ai team for local AI.",
+    "segment": "on-device-sdks",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/",
+      "https://www.intel.com/content/www/us/en/developer/articles/technical/web-developers-guide-to-in-browser-llms.html"
+    ]
+  },
+  {
+    "name": "Google (AI Edge: LiteRT, MediaPipe, Gemini Nano)",
+    "website": "https://ai.google.dev/edge",
+    "hq_country": "United States",
+    "one_liner": "Google's on-device AI stack: LiteRT, MediaPipe LLM Inference, Gemini Nano/AICore, Chrome built-in AI.",
+    "local_ai_angle": "Firebase AI Logic hybrid inference routes between on-device Gemini Nano and cloud.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://firebase.google.com/docs/ai-logic/hybrid/android/get-started"
+    ]
+  },
+  {
+    "name": "Apple (Core ML, MLX, Foundation Models)",
+    "website": "https://developer.apple.com/machine-learning/",
+    "hq_country": "United States",
+    "one_liner": "Apple's on-device ML frameworks: Core ML, MLX, Foundation Models framework, SpeechAnalyzer.",
+    "local_ai_angle": "Apple Intelligence runs on-device first, escalating to Private Cloud Compute (hybrid).",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/ml-explore/mlx",
+      "https://www.forasoft.com/blog/article/speech-recognition-with-neural-networks-on-ios-1621"
+    ]
+  },
+  {
+    "name": "Meta (ExecuTorch)",
+    "website": "https://github.com/pytorch/executorch",
+    "hq_country": "United States",
+    "one_liner": "PyTorch's on-device inference runtime for mobile, embedded and wearable devices.",
+    "local_ai_angle": "Deploys PyTorch/Llama models on phones, AR/VR and MCUs; powers Meta apps.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/pytorch/executorch"
+    ]
+  },
+  {
+    "name": "Microsoft (Foundry Local, Windows ML, ONNX Runtime)",
+    "website": "https://github.com/microsoft/Foundry-Local",
+    "hq_country": "United States",
+    "one_liner": "Microsoft's local inference stack: Foundry Local, Windows ML, ONNX Runtime, Phi small models.",
+    "local_ai_angle": "Runs models on Windows/Mac PCs across CPU/GPU/NPU; ONNX Runtime Web for browsers.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/microsoft/Foundry-Local",
+      "https://www.microsoft.com/en-us/research/?p=1173686"
+    ]
+  },
+  {
+    "name": "Qualcomm (AI Hub, GenieX)",
+    "website": "https://aihub.qualcomm.com",
+    "hq_country": "United States",
+    "one_liner": "Snapdragon chipmaker offering AI Hub model zoo, AI Engine Direct and GenieX SDK.",
+    "local_ai_angle": "Optimizes/deploys models to Hexagon NPU on phones, PCs, cars; acquired Nexa AI, Edge Impulse.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://aihub.qualcomm.com/genai/bounty",
+      "https://www.qualcomm.com/developer/blog/2025/09/omnineural-4b-nexaml-qualcomm-hexagon-npu",
+      "https://www.qualcomm.com/developer/blog/2026/03/qualcomm-nexa-ai-docker-bring-ai-to-iot-robotics-with-nexasdk-linux"
+    ]
+  },
+  {
+    "name": "Intel (OpenVINO)",
+    "website": "https://github.com/openvinotoolkit/openvino",
+    "hq_country": "United States",
+    "one_liner": "Intel's OpenVINO toolkit and AI PC software for CPU, GPU and NPU inference.",
+    "local_ai_angle": "Optimizes LLM/vision inference on Intel Core Ultra AI PCs and edge devices.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/openvinotoolkit/openvino",
+      "https://www.intel.com/content/www/us/en/developer/articles/technical/web-developers-guide-to-in-browser-llms.html"
+    ]
+  },
+  {
+    "name": "AMD (Ryzen AI, Lemonade)",
+    "website": "https://github.com/lemonade-sdk/lemonade",
+    "hq_country": "United States",
+    "one_liner": "AMD Ryzen AI PC software incl. Lemonade local LLM server; investor in Liquid AI.",
+    "local_ai_angle": "Local LLM serving on Ryzen AI NPU/iGPU; LEAP models accelerated on Ryzen.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.businesswire.com/news/home/20250818260821/en/Liquid%E2%80%99s-Edge-AI-Platform-LEAP-Expands-Support-to-Laptops-With-Best-in-Class-Performance-on-AMD-Ryzen%E2%84%A2-and-Ryzen-AI%E2%84%A2-Processors",
+      "https://www.amd.com/en/developer/resources/technical-articles/2025/hack-the-edge-amd-and-liquid-ai-hackathon-recap.html"
+    ]
+  },
+  {
+    "name": "NVIDIA (RTX AI PC, DRIVE, Jetson)",
+    "website": "https://developer.nvidia.com",
+    "hq_country": "United States",
+    "one_liner": "GPU leader providing RTX AI PC, Jetson and DRIVE platforms for local inference.",
+    "local_ai_angle": "Hosts on-device LLMs in cars (SoundHound, Cerence) and RTX PCs; acquired OctoAI, Deci.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.speechtechmag.com/Articles/News/Speech-Technology-News/SoundHound-to-Offer-On-Chip-Voice-AI-with-NVIDIA-163116.aspx",
+      "https://investors.cerence.com/news-events/press-releases/detail/98/cerence-ai-and-mediatek-partner-to-introduce-multi-modal-language-models-running-on-the-edge-built-on-nvidia"
+    ]
+  },
+  {
+    "name": "Arm (KleidiAI)",
+    "website": "https://www.arm.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "CPU IP licensor; KleidiAI libraries accelerate on-device AI on Arm CPUs.",
+    "local_ai_angle": "Kleidi speeds LLMs like Cerence CaLLM Edge on Arm phone/car chipsets.",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://autotechinsight.spglobal.com/news/5282206/cerence-ai-partners-with-arm-to-enhance-ai-capabilities-in-automotive-sector"
+    ]
+  },
+  {
+    "name": "MediaTek (NeuroPilot)",
+    "website": "https://www.mediatek.com",
+    "hq_country": "Taiwan",
+    "one_liner": "Mobile and automotive SoC maker with NeuroPilot on-device AI SDK.",
+    "local_ai_angle": "Runs multimodal LLMs on Dimensity phones and auto chips (with Cerence, NVIDIA).",
+    "segment": "edge-silicon",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://investors.cerence.com/news-events/press-releases/detail/98/cerence-ai-and-mediatek-partner-to-introduce-multi-modal-language-models-running-on-the-edge-built-on-nvidia"
+    ]
+  },
+  {
+    "name": "Alibaba (MNN)",
+    "website": "https://github.com/alibaba/MNN",
+    "hq_country": "China",
+    "one_liner": "Alibaba's MNN lightweight inference engine, incl. MNN-LLM for phones.",
+    "local_ai_angle": "Runs LLMs and diffusion models on Android/iOS devices; open source.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/alibaba/MNN"
+    ]
+  },
+  {
+    "name": "Tencent (ncnn)",
+    "website": "https://github.com/Tencent/ncnn",
+    "hq_country": "China",
+    "one_liner": "Tencent's ncnn high-performance neural network inference framework optimized for mobile.",
+    "local_ai_angle": "Widely embedded on-device vision inference for Android/iOS with Vulkan GPU support.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/Tencent/ncnn"
+    ]
+  },
+  {
+    "name": "ThunderSoft (Rubik Device AI)",
+    "website": "https://www.thundersoft.com",
+    "hq_country": "China",
+    "one_liner": "Chinese OS/edge software vendor with Rubik on-device LLM for phones, cars, IoT.",
+    "local_ai_angle": "Supplies on-device AI OS stacks to OEMs on Qualcomm/other SoCs.",
+    "segment": "international",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.thundersoft.com"
+    ]
+  },
+  {
+    "name": "PrismML",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "AI lab building small reasoning LLMs that run on PCs and smartphones.",
+    "local_ai_angle": "Shrinks reasoning models for on-device use; $22.25M seed from Khosla, Cerberus, Caltech.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://dealroom.co/news/152150-prismml-raises-22m-seed-to-shrink-ai-models-onto-your-phone/"
+    ]
+  },
+  {
+    "name": "Edge Impulse",
+    "website": "https://edgeimpulse.com",
+    "hq_country": "United States",
+    "one_liner": "Edge ML development platform for building and deploying models to MCUs and devices.",
+    "local_ai_angle": "TinyML/edge model training and deployment to embedded hardware; now part of Qualcomm.",
+    "segment": "industrial-edge",
+    "type": "subsidiary",
+    "status": "acquired by Qualcomm (2025)",
+    "sources": [
+      "https://edgeimpulse.com"
+    ]
+  },
+  {
+    "name": "Imagimob",
+    "website": "https://www.imagimob.com",
+    "hq_country": "Sweden",
+    "one_liner": "TinyML studio for building edge AI models for sensors and MCUs.",
+    "local_ai_angle": "Deploys audio/sensor models on microcontrollers; integrated into Infineon ModusToolbox.",
+    "segment": "industrial-edge",
+    "type": "subsidiary",
+    "status": "acquired by Infineon (2023)",
+    "sources": [
+      "https://www.imagimob.com"
+    ]
+  },
+  {
+    "name": "OctoAI (OctoML)",
+    "website": "https://octo.ai",
+    "hq_country": "United States",
+    "one_liner": "Apache TVM creators' model optimization and inference company.",
+    "local_ai_angle": "Compiler tech (TVM/MLC roots) for efficient inference across hardware; bought by NVIDIA.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://github.com/apache/tvm"
+    ]
+  },
+  {
+    "name": "Deci",
+    "website": "https://deci.ai",
+    "hq_country": "Israel",
+    "one_liner": "Neural architecture search and efficient model company (YOLO-NAS, DeciLM).",
+    "local_ai_angle": "Produced hardware-aware efficient models for edge and on-prem; bought by NVIDIA.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://deci.ai"
+    ]
+  },
+  {
+    "name": "Neural Magic",
+    "website": "https://neuralmagic.com",
+    "hq_country": "United States",
+    "one_liner": "Sparsification/quantization company and major vLLM contributor.",
+    "local_ai_angle": "Ran sparse models efficiently on CPUs and self-hosted GPUs; bought by Red Hat.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "acquired by Red Hat (2025)",
+    "sources": [
+      "https://neuralmagic.com"
+    ]
+  },
+  {
+    "name": "Embedl",
+    "website": "https://www.embedl.com",
+    "hq_country": "Sweden",
+    "one_liner": "Model optimization SDK making deep learning models efficient for embedded hardware.",
+    "local_ai_angle": "Compresses models for automotive and edge devices; hardware-aware optimization.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.embedl.com"
+    ]
+  },
+  {
+    "name": "SqueezeBits",
+    "website": "https://squeezebits.com",
+    "hq_country": "South Korea",
+    "one_liner": "Korean AI model compression and quantization startup.",
+    "local_ai_angle": "Quantizes LLMs/vision models for on-device and efficient inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://squeezebits.com"
+    ]
+  },
+  {
+    "name": "Clika",
+    "website": "https://www.clika.io",
+    "hq_country": null,
+    "one_liner": "Automated AI model compression engine for edge deployment.",
+    "local_ai_angle": "Compresses models to fit edge hardware targets.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.clika.io"
+    ]
+  },
+  {
+    "name": "Pruna AI",
+    "website": "https://www.pruna.ai",
+    "hq_country": "Germany",
+    "one_liner": "Open-source model optimization framework combining quantization, pruning, caching, compilation.",
+    "local_ai_angle": "Makes models smaller/faster for self-hosted and edge deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/PrunaAI/pruna"
+    ]
+  },
+  {
+    "name": "Multiverse Computing",
+    "website": "https://multiversecomputing.com",
+    "hq_country": "Spain",
+    "one_liner": "Quantum-inspired AI compression (CompactifAI) producing tiny LLMs.",
+    "local_ai_angle": "Compressed models for on-prem and on-device deployment.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://multiversecomputing.com"
+    ]
+  },
+  {
+    "name": "Roboflow",
+    "website": "https://roboflow.com",
+    "hq_country": "United States",
+    "one_liner": "Computer vision platform with open-source Inference server for edge deployment.",
+    "local_ai_angle": "Self-hosted/edge vision inference on Jetson, CPUs, cameras.",
+    "segment": "industrial-edge",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://github.com/roboflow/inference"
+    ]
+  },
+  {
+    "name": "Latent AI",
+    "website": "https://latentai.com",
+    "hq_country": "United States",
+    "one_liner": "Edge AI optimization platform (LEIP) for defense and industrial devices.",
+    "local_ai_angle": "Compiles and secures models for disconnected edge hardware.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://latentai.com"
+    ]
+  },
+  {
+    "name": "DeGirum",
+    "website": "https://www.degirum.com",
+    "hq_country": "United States",
+    "one_liner": "Edge AI software (PySDK) spanning many accelerators plus AI hardware.",
+    "local_ai_angle": "Hardware-agnostic edge inference SDK for Hailo, Intel, NVIDIA, etc.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.degirum.com"
+    ]
+  },
+  {
+    "name": "Syntiant",
+    "website": "https://www.syntiant.com",
+    "hq_country": "United States",
+    "one_liner": "Ultra-low-power neural decision processors and edge models for voice/sensors.",
+    "local_ai_angle": "Always-on on-device wake word and sensor AI in earbuds, wearables.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.syntiant.com"
+    ]
+  },
+  {
+    "name": "Quadric",
+    "website": "https://quadric.io",
+    "hq_country": "United States",
+    "one_liner": "Licensable inference engine processor IP (Chimera GPNPU) for on-device AI chips.",
+    "local_ai_angle": "NPU IP runs LLMs/vision on edge SoCs; $30M Series C.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.edge-ai-vision.com/?p=56520"
+    ]
+  },
+  {
+    "name": "Axelera AI",
+    "website": "https://www.axelera.ai",
+    "hq_country": "Netherlands",
+    "one_liner": "Edge AI accelerator chips (Metis) and Voyager SDK.",
+    "local_ai_angle": "Low-power inference hardware for edge devices and PCs.",
+    "segment": "edge-silicon",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Axelera_AI"
+    ]
+  },
+  {
+    "name": "Edgerunner AI",
+    "website": "https://www.edgerunnerai.com",
+    "hq_country": "United States",
+    "one_liner": "On-device, air-gapped AI agents for military and enterprise users.",
+    "local_ai_angle": "Runs LLM agents locally on laptops/devices without connectivity.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.edgerunnerai.com"
+    ]
+  },
+  {
+    "name": "webAI",
+    "website": "https://www.webai.com",
+    "hq_country": "United States",
+    "one_liner": "Local AI platform (Navigator) for building and running models across owned devices.",
+    "local_ai_angle": "Distributed private inference on customer hardware instead of cloud.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.webai.com"
+    ]
+  },
+  {
+    "name": "GaiaNet",
+    "website": "https://www.gaianet.ai",
+    "hq_country": null,
+    "one_liner": "Decentralized network of self-hosted AI agent nodes.",
+    "local_ai_angle": "Nodes run open LLMs on personal hardware; raised $10M.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.theblock.co/post/297035/decentralized-ai-project-gaianet-raises-10-million-%20in-funding-round"
+    ]
+  },
+  {
+    "name": "Open Home Foundation (Piper, Home Assistant voice)",
+    "website": "https://www.openhomefoundation.org",
+    "hq_country": "Switzerland",
+    "one_liner": "Non-profit owning Home Assistant and local voice projects like Piper TTS.",
+    "local_ai_angle": "Fully local smart-home voice assistant pipeline on user hardware.",
+    "segment": "consumer-local-apps",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://www.openhomefoundation.org",
+      "https://github.com/rhasspy/piper"
+    ]
+  },
+  {
+    "name": "Ollama",
+    "website": "https://ollama.com",
+    "hq_country": "United States",
+    "one_liner": "Popular tool to download and run open LLMs locally with an API.",
+    "local_ai_angle": "Local LLM runtime/server on Mac, Windows, Linux built on llama.cpp heritage.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/ollama/ollama"
+    ]
+  },
+  {
+    "name": "LM Studio (Element Labs)",
+    "website": "https://lmstudio.ai",
+    "hq_country": "United States",
+    "one_liner": "Desktop app and SDK for discovering and running local LLMs.",
+    "local_ai_angle": "Runs GGUF/MLX models locally with OpenAI-compatible local server.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://lmstudio.ai"
+    ]
+  },
+  {
+    "name": "Jan (Menlo Research)",
+    "website": "https://jan.ai",
+    "hq_country": null,
+    "one_liner": "Open-source offline ChatGPT alternative desktop app.",
+    "local_ai_angle": "Runs LLMs 100% locally via llama.cpp engine.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/janhq/jan"
+    ]
+  },
+  {
+    "name": "Locally AI",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "iOS/Mac app for chatting with open models (e.g., Qwen) fully offline.",
+    "local_ai_angle": "Runs LLMs on-device on Apple hardware with no cloud.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.producthunt.com/p/locally-ai-for-mac/locally-ai-qwen"
+    ]
+  }
+]
