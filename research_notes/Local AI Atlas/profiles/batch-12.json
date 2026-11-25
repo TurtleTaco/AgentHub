@@ -1,0 +1,1364 @@
+[
+ {
+  "id": "octostar",
+  "name": "Octostar",
+  "verdict": "in",
+  "verdict_reason": "Sovereign AI-native intelligence platform that runs fully offline and air-gapped for security agencies.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://octostar.com",
+  "hq_city": "Galway",
+  "hq_country": "Ireland",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": "Seed extension, EUR 6.1M, Apr 2026, led by The Techshop",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "The Techshop",
+   "Cysero",
+   "Kilometro Rosso",
+   "Euveca"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Sovereign AI-native intelligence and investigation platform for security, law-enforcement and financial intelligence.",
+  "problem": "Security agencies cannot send sensitive investigative data to public clouds yet need AI-driven analysis.",
+  "products": [
+   {
+    "name": "Octostar platform",
+    "category": "platform",
+    "description": "Data-fusion and AI investigation platform deployable offline in no-cloud, air-gapped environments."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "finance",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fully sovereign, air-gapped-capable architecture built for law-enforcement and intelligence users.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://bebeez.eu/2026/04/06/irelands-octostar-closes-seed-extension-round-at-e6-1-million-for-its-sovereign-ai-native-intelligence-platform/",
+   "https://octostar.com/post/octostar-closes-seed-round-at-eu6-1m-as-demand-for-sovereign-defence-and-intelligence-platforms-accelerates"
+  ]
+ },
+ {
+  "id": "oneadvanced",
+  "name": "OneAdvanced",
+  "verdict": "borderline",
+  "verdict_reason": "UK software vendor with a UK-hosted private LLM; vendor-hosted, not customer-controlled hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Vista Equity Partners (owner)",
+  "website": "https://www.oneadvanced.com",
+  "hq_city": "Birmingham",
+  "hq_country": "United Kingdom",
+  "founded": 1987,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Vista Equity Partners"
+  ],
+  "employees": 2500,
+  "employees_band": "1001-5000",
+  "focus": "UK business software for health, legal, education and public sector, with sovereign private AI.",
+  "problem": "Regulated UK organisations need generative AI without sending data to public AI services.",
+  "products": [
+   {
+    "name": "OneAdvanced AI / Advanced Private LLM",
+    "category": "service",
+    "description": "UK-hosted private sovereign LLM keeping customer data out of public AI services."
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "healthcare",
+   "legal",
+   "enterprise",
+   "education-research",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Sovereign UK-hosted private LLM embedded in established vertical business software.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "opaque",
+  "name": "OPAQUE",
+  "verdict": "in",
+  "verdict_reason": "Confidential AI platform with hardware attestation running AI in customer's own cloud, on-prem and sovereign clouds.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.opaque.co",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 55.5,
+  "last_round": "Series B, $24M, Feb 2026, led by Walden Catalyst",
+  "valuation_usd_m": 300,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Walden Catalyst",
+   "Intel Capital",
+   "Race Capital",
+   "Storm Ventures",
+   "Thomvest Ventures",
+   "ATRC"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Confidential AI platform with cryptographic attestation for sensitive enterprise data and agent workloads.",
+  "problem": "Enterprises cannot prove sensitive data and models stay protected when running AI on shared infrastructure.",
+  "products": [
+   {
+    "name": "OPAQUE Confidential AI Platform",
+    "category": "platform",
+    "description": "Runs agents and models in confidential-computing enclaves with verifiable policy enforcement."
+   },
+   {
+    "name": "Confidential Agents",
+    "category": "platform",
+    "description": "Attested agent workflows over encrypted enterprise data."
+   },
+   {
+    "name": "Confidential AI training/post-quantum security",
+    "category": "service",
+    "description": "Planned expansion into confidential model training and post-quantum cryptography."
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "edge-server"
+  ],
+  "layers": [
+   "security-privacy",
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense",
+   "healthcare"
+  ],
+  "partners": [
+   "Intel",
+   "NVIDIA",
+   "Microsoft Azure",
+   "Technology Innovation Institute"
+  ],
+  "notable_customers": [
+   "ServiceNow",
+   "Accenture",
+   "Encore Capital"
+  ],
+  "differentiator": "Cryptographic attestation of data and model handling, built by UC Berkeley RISELab confidential-computing team.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/02/12/opaque-raises-24m-300m-valuation-confidential-ai-platform/",
+   "https://www.intelcapital.com/opaque-raises-24m-series-b-at-300m-valuation-to-advance-confidential-ai-for-the-enterprise/"
+  ]
+ },
+ {
+  "id": "owkin",
+  "name": "Owkin",
+  "verdict": "borderline",
+  "verdict_reason": "Federated-learning biotech AI; models train at data custodians, but core business is drug and diagnostics discovery.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.owkin.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 300,
+  "last_round": "Series B (Sanofi-led, $180M, 2021); later Sanofi investment",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Sanofi",
+   "BMS",
+   "Bpifrance",
+   "Fidelity"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "AI biotech using federated learning and agentic AI across hospital and pharma data.",
+  "problem": "Hospitals cannot share patient data, blocking multi-centre AI model training for drug and diagnostics discovery.",
+  "products": [
+   {
+    "name": "Owkin Connect / Substra",
+    "category": "platform",
+    "description": "Federated learning platform; Substra framework is open source."
+   },
+   {
+    "name": "K Navigator",
+    "category": "app",
+    "description": "Agentic AI co-pilot for biology and drug-discovery questions."
+   },
+   {
+    "name": "MSIntuit CRC / RlapsRisk BC",
+    "category": "app",
+    "description": "AI diagnostic tools for colorectal and breast cancer pathology."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "healthcare",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Sanofi",
+   "AstraZeneca",
+   "Servier"
+  ],
+  "notable_customers": [],
+  "differentiator": "Federated learning on distributed hospital data without moving it, plus clinical-grade diagnostics.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "phonexia",
+  "name": "Phonexia",
+  "verdict": "in",
+  "verdict_reason": "Speech analytics and voice biometrics sold mainly as on-premises deployments to security agencies and banks.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Czech investors (majority owned by Rockaway Capital / Presto Ventures)",
+  "website": "https://www.phonexia.com",
+  "hq_city": "Brno",
+  "hq_country": "Czech Republic",
+  "founded": 2006,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Speech technologies: transcription, voice biometrics, language and gender ID, deployed on-premises.",
+  "problem": "Agencies and banks must analyse voice data without sending recordings to third-party clouds.",
+  "products": [
+   {
+    "name": "Phonexia Speech to Text",
+    "category": "runtime",
+    "description": "On-premises ASR in dozens of languages."
+   },
+   {
+    "name": "Phonexia Voice Biometrics",
+    "category": "runtime",
+    "description": "Speaker identification and verification engine."
+   },
+   {
+    "name": "Phonexia Audio Analysis",
+    "category": "runtime",
+    "description": "Language, gender and age identification, keyword spotting."
+   },
+   {
+    "name": "Phonexia Speech Platform",
+    "category": "platform",
+    "description": "Containerised microservice platform for self-hosted deployment."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "finance",
+   "telecom",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Decades of speech R&D from Brno University of Technology, deployable fully on-premises.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "primer-ai",
+  "name": "Primer AI",
+  "verdict": "in",
+  "verdict_reason": "Dedicated on-prem, air-gapped deployments of NLP/LLM analysis platform for defense and intelligence.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://primer.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 170,
+  "last_round": "Series C, $110M, 2022, led by Addition",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Addition",
+   "Lightspeed",
+   "Data Collective",
+   "Amplify Partners"
+  ],
+  "employees": 130,
+  "employees_band": "51-200",
+  "focus": "NLP and LLM intelligence-analysis products for defense, intelligence and national security.",
+  "problem": "Analysts drown in unstructured text and need AI that can run on classified, disconnected networks.",
+  "products": [
+   {
+    "name": "Primer Command",
+    "category": "platform",
+    "description": "Real-time narrative and event detection from open-source and classified text."
+   },
+   {
+    "name": "Primer Delta",
+    "category": "app",
+    "description": "Large-scale document analysis for intelligence and enterprise users."
+   },
+   {
+    "name": "Primer Engines",
+    "category": "sdk",
+    "description": "NLP/LLM engines for entity extraction, summarisation and classification."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "US Army",
+   "US Special Operations Command",
+   "US Air Force"
+  ],
+  "differentiator": "Deployed on classified networks, with defense and intelligence customers as core market.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "qodo-formerly-codiumai",
+  "name": "Qodo",
+  "verdict": "borderline",
+  "verdict_reason": "AI code review and testing platform; on-prem and air-gapped deployment is an enterprise option, not core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.qodo.ai",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 50,
+  "last_round": "Series A, $40M, Sep 2024, led by Susa Ventures and Square Peg",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Susa Ventures",
+   "Square Peg",
+   "TLV Partners",
+   "Vine Ventures"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "AI code review, testing and generation platform with enterprise self-hosting.",
+  "problem": "Enterprises need AI code quality tooling without exposing proprietary source code to external services.",
+  "products": [
+   {
+    "name": "Qodo Merge",
+    "category": "platform",
+    "description": "AI pull-request review; PR-Agent open source, self-hosted option."
+   },
+   {
+    "name": "Qodo Gen",
+    "category": "app",
+    "description": "IDE assistant for code and test generation."
+   },
+   {
+    "name": "Qodo Cover",
+    "category": "app",
+    "description": "Automated regression test generation."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "finance"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Google Cloud"
+  ],
+  "notable_customers": [
+   "Nvidia",
+   "Intuit",
+   "Monday.com"
+  ],
+  "differentiator": "Code-integrity focus with test generation and on-prem/air-gapped enterprise deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "qure-ai",
+  "name": "Qure.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Medical-imaging AI with on-prem/offline deployment options; mainly SaaS and PACS-integrated software.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.qure.ai",
+  "hq_city": "Mumbai",
+  "hq_country": "India",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 125,
+  "last_round": "Series D, $65M, Sep 2024, led by Lightspeed and 360 One",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Lightspeed",
+   "360 ONE Asset",
+   "Novo Holdings",
+   "Kae Capital"
+  ],
+  "employees": 500,
+  "employees_band": "501-1000",
+  "focus": "AI for chest X-ray, CT and head CT interpretation and TB screening.",
+  "problem": "Radiologist shortages and low-connectivity screening sites need AI reading of scans on local systems.",
+  "products": [
+   {
+    "name": "qXR",
+    "category": "app",
+    "description": "Chest X-ray AI for TB and lung abnormalities, including offline deployments."
+   },
+   {
+    "name": "qCT",
+    "category": "app",
+    "description": "Lung nodule and chest CT analysis."
+   },
+   {
+    "name": "qER",
+    "category": "app",
+    "description": "Head CT triage for haemorrhage and stroke."
+   },
+   {
+    "name": "Qure Portable/handheld X-ray integrations",
+    "category": "device",
+    "description": "AI bundled with portable X-ray devices for field screening."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "healthcare",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Large-scale deployed imaging AI with offline operation for TB screening programmes.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "rebellion-defense",
+  "name": "Rebellion Defense",
+  "verdict": "out",
+  "verdict_reason": "No dedicated local-AI product found; defense software firm, rebranded Rebellion Industries; Palantir acquisition claim unconfirmed.",
+  "status": "active",
+  "status_detail": "Possible rebrand to Rebellion Industries; one weak source claims Palantir acquisition 2025 (unconfirmed)",
+  "website": "https://rebelliondefense.com"
+ },
+ {
+  "id": "rhino-health-rhino-federated-computing",
+  "name": "Rhino Health",
+  "verdict": "borderline",
+  "verdict_reason": "Federated computing runs AI at the data custodian's site, but it is a healthcare data-collaboration platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.rhinohealth.com",
+  "hq_city": "Boston",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 30,
+  "last_round": "Series A, $15M, 2022, led by Singtel Innov8",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Singtel Innov8",
+   "Taiwania Capital",
+   "Mayo Clinic",
+   "Hitachi"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Federated computing platform for healthcare and life-sciences AI model training and validation.",
+  "problem": "Hospitals cannot centralise patient data, blocking development and validation of clinical AI.",
+  "products": [
+   {
+    "name": "Rhino Federated Computing Platform",
+    "category": "platform",
+    "description": "Federated data collaboration and model training across hospitals."
+   },
+   {
+    "name": "Rhino Edge Client",
+    "category": "runtime",
+    "description": "On-site agent that runs code next to data inside the hospital."
+   },
+   {
+    "name": "Rhino Health Harmonize",
+    "category": "service",
+    "description": "Data harmonisation and curation for federated datasets."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "security-privacy",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "healthcare",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Mayo Clinic"
+  ],
+  "notable_customers": [],
+  "differentiator": "Edge-deployed federated clients with NVIDIA FLARE integration for regulated healthcare data.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "rune-technologies",
+  "name": "Rune Technologies",
+  "verdict": "borderline",
+  "verdict_reason": "Defense logistics software (TyrOS) with edge operation in disconnected environments; AI is one feature set.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.runetech.co",
+  "hq_city": "Arlington",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 100,
+  "last_round": "Series B, $64M, 2025, led by Washington Harbour Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Washington Harbour Partners",
+   "Alumni Ventures",
+   "Matrix Partners"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Defense logistics and sustainment software TyrOS for contested, disconnected environments.",
+  "problem": "Warfighters need logistics planning that works at the tactical edge without cloud connectivity.",
+  "products": [
+   {
+    "name": "TyrOS",
+    "category": "platform",
+    "description": "Logistics operating system with predictive sustainment planning running at the edge."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "air-gapped",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Decision-support software designed for denied, disconnected, intermittent environments.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "safran-ai-formerly-preligens",
+  "name": "Safran.AI",
+  "verdict": "in",
+  "verdict_reason": "Geospatial-intelligence AI deployed on-premises and onboard for defense users; core product is edge/sovereign AI.",
+  "status": "acquired",
+  "status_detail": "Acquired by Safran (completed Sep 2024, EUR 220M enterprise value); renamed Safran.AI",
+  "parent": "Safran",
+  "website": "https://www.preligens.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2016,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Acquired by Safran, EUR 220M, Sep 2024",
+  "valuation_usd_m": 240,
+  "market_cap_or_revenue": "Subsidiary of Safran (Euronext: SAF)",
+  "key_investors": [],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "AI analytics of satellite, aerial imagery, video and acoustic signals for defense intelligence.",
+  "problem": "Defense analysts cannot manually process growing imagery volumes and need sovereign AI on their own infrastructure.",
+  "products": [
+   {
+    "name": "Mission Intelligence / Preligens Analysis",
+    "category": "platform",
+    "description": "Imagery analysis workflows for geospatial intelligence analysts."
+   },
+   {
+    "name": "Preligens Embedded AI",
+    "category": "sdk",
+    "description": "Detection models for onboard deployment on aircraft and sensors."
+   },
+   {
+    "name": "Acoustic Intelligence",
+    "category": "app",
+    "description": "AI recognition of sonar and acoustic signals for naval use."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "models"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "DGA",
+   "NGA",
+   "French Ministry of Armed Forces"
+  ],
+  "differentiator": "Field-proven defense AI trusted by French and allied intelligence agencies, now backed by Safran.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.safran-group.com/pressroom/ai-leader-preligens-joins-safran-2024-09-02",
+   "https://defence-industry.eu/safran-strengthens-ai-capabilities-with-eur-220-million-acquisition-of-preligens-forming-safran-ai/"
+  ]
+ },
+ {
+  "id": "sbs-sopra-banking-software",
+  "name": "SBS (Sopra Banking Software)",
+  "verdict": "borderline",
+  "verdict_reason": "Core-banking vendor offering sovereign AI platform deployable on-premises with NVIDIA; AI is an add-on.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Sopra Steria / Axway Software (Sopra GMT)",
+  "website": "https://sbs-software.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 1968,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Part of Sopra Steria group (Euronext: SOP) / SBS",
+  "key_investors": [],
+  "employees": 4000,
+  "employees_band": "1001-5000",
+  "focus": "Core banking and digital banking software, now with sovereign generative AI platform for banks.",
+  "problem": "Banks need generative AI under regulatory and data-sovereignty constraints without public-cloud exposure.",
+  "products": [
+   {
+    "name": "SBS Sovereign AI platform",
+    "category": "platform",
+    "description": "Bank-focused AI platform deployable on private cloud, managed cloud or on-premises."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "finance"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Sovereign AI stack co-developed with NVIDIA tailored to banking regulation.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "scale-ai",
+  "name": "Scale AI",
+  "verdict": "borderline",
+  "verdict_reason": "Data-labeling company; Donovan platform deploys on classified networks but local AI is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://scale.com/donovan",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 1600,
+  "last_round": "Meta investment ~$14.3B for 49% stake, Jun 2025",
+  "valuation_usd_m": 29000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Meta",
+   "Accel",
+   "Index Ventures",
+   "Founders Fund",
+   "Nvidia"
+  ],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "AI data labeling and evaluation, plus public-sector Donovan agents for national security.",
+  "problem": "Defense users need LLM agents on classified networks without sending data to commercial APIs.",
+  "products": [
+   {
+    "name": "Donovan",
+    "category": "platform",
+    "description": "Agentic AI platform for defense and intelligence, deployable on classified networks."
+   },
+   {
+    "name": "Defense Llama",
+    "category": "model",
+    "description": "Llama-based LLM fine-tuned for national-security tasks, deployed in secure networks."
+   },
+   {
+    "name": "Scale GenAI Platform",
+    "category": "platform",
+    "description": "Enterprise LLM customisation and evaluation, with private deployment options."
+   }
+  ],
+  "deployment": [
+   "air-gapped",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "US Army",
+   "US Air Force",
+   "OpenAI"
+  ],
+  "differentiator": "Government-cleared AI agents deployed on classified systems alongside leading data-labeling business.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "shield-ai",
+  "name": "Shield AI",
+  "verdict": "in",
+  "verdict_reason": "Sells Hivemind onboard autonomy software to third-party aircraft; runs on-board without comms or GPS.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://shield.ai",
+  "hq_city": "San Diego",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 1000,
+  "last_round": "Late-stage round, 2025 (valuation ~$5.3B)",
+  "valuation_usd_m": 5300,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Riot Ventures",
+   "Point72",
+   "Hanwha",
+   "Brookfield"
+  ],
+  "employees": 900,
+  "employees_band": "501-1000",
+  "focus": "Defense autonomy: Hivemind AI pilot and V-BAT drones operating without GPS or comms.",
+  "problem": "Military aircraft must operate autonomously in contested environments with jammed GPS and communications.",
+  "products": [
+   {
+    "name": "Hivemind",
+    "category": "sdk",
+    "description": "Autonomy software and AI pilot running on-board for drones and fixed-wing aircraft."
+   },
+   {
+    "name": "Hivemind Enterprise",
+    "category": "sdk",
+    "description": "Toolkit for third parties to build and integrate autonomy."
+   },
+   {
+    "name": "V-BAT",
+    "category": "device",
+    "description": "Vertical-takeoff drone using on-board autonomy."
+   },
+   {
+    "name": "X-BAT",
+    "category": "device",
+    "description": "Autonomous fighter aircraft concept running Hivemind."
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [
+   "Airbus",
+   "Kratos",
+   "Hanwha"
+  ],
+  "notable_customers": [],
+  "differentiator": "Battle-tested on-board autonomy usable on third-party platforms in GPS/comms-denied settings.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "sourcegraph",
+  "name": "Sourcegraph",
+  "verdict": "borderline",
+  "verdict_reason": "Code search with self-hosted Cody Enterprise; air-gap supported but SaaS is main motion.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://sourcegraph.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2013,
+  "org_type": "scaleup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 225,
+  "last_round": "Series D, $125M, Jul 2021, led by Andreessen Horowitz",
+  "valuation_usd_m": 2600,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Sequoia",
+   "Redpoint",
+   "Craft Ventures"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "Code search and AI coding assistants (Cody, Amp) with self-hosted enterprise deployment.",
+  "problem": "Enterprises need AI coding help over large codebases without exposing source code externally.",
+  "products": [
+   {
+    "name": "Sourcegraph Code Search",
+    "category": "platform",
+    "description": "Self-hostable universal code search and navigation."
+   },
+   {
+    "name": "Cody Enterprise",
+    "category": "app",
+    "description": "AI coding assistant, self-hosted with bring-your-own-LLM."
+   },
+   {
+    "name": "Amp",
+    "category": "app",
+    "description": "Agentic coding tool."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Uber",
+   "Qualcomm",
+   "Workday"
+  ],
+  "differentiator": "Self-hosted code intelligence with bring-your-own-model and air-gapped options.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "spitch",
+  "name": "Spitch",
+  "verdict": "borderline",
+  "verdict_reason": "Speech AI vendor with on-premises option for banks and contact centres; cloud is also offered.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.spitch.ai",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Speech recognition, analytics, voice biometrics and voicebots for contact centres and banks.",
+  "problem": "Regulated contact centres need speech AI that keeps customer calls inside their own infrastructure.",
+  "products": [
+   {
+    "name": "Spitch ASR",
+    "category": "runtime",
+    "description": "Speech recognition with Swiss German and many languages, on-prem capable."
+   },
+   {
+    "name": "Spitch Voice Biometrics",
+    "category": "runtime",
+    "description": "Speaker verification and fraud detection."
+   },
+   {
+    "name": "Spitch Voicebot/Analytics",
+    "category": "platform",
+    "description": "Conversational voicebots and call analytics."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "models"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "finance",
+   "telecom",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Strong Swiss-German and Swiss-hosted speech technology for regulated customers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "striveworks",
+  "name": "Striveworks",
+  "verdict": "in",
+  "verdict_reason": "Chariot MLOps platform built for on-prem, edge and disconnected/classified deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.striveworks.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 70,
+  "last_round": "Series A, $38M, Nov 2022, led by Centana Growth Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Centana Growth Partners",
+   "Capital Factory",
+   "Next47"
+  ],
+  "employees": 120,
+  "employees_band": "51-200",
+  "focus": "MLOps and AI platform (Chariot) for defense and regulated industries, deployable in disconnected environments.",
+  "problem": "Defense and regulated users cannot deploy and monitor models in air-gapped or edge settings with cloud-only tools.",
+  "products": [
+   {
+    "name": "Chariot",
+    "category": "platform",
+    "description": "End-to-end MLOps for building, deploying and monitoring models on-prem and at the edge."
+   },
+   {
+    "name": "Chariot GenAI / RAG",
+    "category": "platform",
+    "description": "Self-hosted LLM and retrieval workflows for secure environments."
+   },
+   {
+    "name": "Chariot Edge",
+    "category": "runtime",
+    "description": "Model deployment and monitoring at edge nodes."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "energy-utilities"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "US Army",
+   "US Air Force",
+   "NGA"
+  ],
+  "differentiator": "MLOps designed for classified, disconnected and edge environments, proven with US defense.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "systran",
+  "name": "Systran",
+  "verdict": "in",
+  "verdict_reason": "Neural machine translation servers sold for on-premises and offline use by defense and security agencies.",
+  "status": "acquired",
+  "status_detail": "Acquired by ChapsVision (announced Jan 2024)",
+  "parent": "ChapsVision",
+  "website": "https://www.systransoft.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 1968,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Acquired by ChapsVision, Jan 2024, terms undisclosed",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Neural machine translation and speech translation software for enterprise and government.",
+  "problem": "Agencies and enterprises must translate confidential documents without sending them to public translation clouds.",
+  "products": [
+   {
+    "name": "SYSTRAN Translate Server",
+    "category": "system",
+    "description": "On-premises neural machine translation server."
+   },
+   {
+    "name": "SYSTRAN Pure Neural Server",
+    "category": "runtime",
+    "description": "Self-hosted NMT engine and API."
+   },
+   {
+    "name": "Systran Model Studio",
+    "category": "platform",
+    "description": "Customisable translation model training."
+   },
+   {
+    "name": "Systran Translate Pro / Mobile",
+    "category": "app",
+    "description": "Desktop and mobile apps with offline translation."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "pc-workstation",
+   "mobile",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "legal",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Decades-old translation pioneer with fully offline/on-prem engines.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.slator.com/?p=94465",
+   "https://www.bakermckenzie.com/en/newsroom/2024/01/sale-of-systran-to-chapsvision"
+  ]
+ }
+]

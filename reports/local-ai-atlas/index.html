@@ -606,8 +606,11 @@ code { font-family: var(--font-mono); font-size: 12.5px; background: var(--rule-
     function fit() {
       const b = bounds(), W = frame.clientWidth, H = frame.clientHeight;
       if (!b.width || !W) return;
-      const k = Math.min(W / (b.width + 60), H / (b.height + 40), 1.1);
-      svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity.translate((W - b.width * k) / 2 - b.x * k, (H - b.height * k) / 2 - b.y * k).scale(k));
+      const kFit = Math.min(W / (b.width + 60), H / (b.height + 40), 1.1);
+      const k = Math.max(kFit, W < 640 ? 0.6 : 0.78);
+      const tx = b.width * k + 40 <= W ? (W - b.width * k) / 2 - b.x * k : 20 - b.x * k;
+      const ty = b.height * k + 40 <= H ? (H - b.height * k) / 2 - b.y * k : 24 - b.y * k;
+      svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
     }
     function centerOn(n, zoomIn) {
       const W = frame.clientWidth, H = frame.clientHeight;
