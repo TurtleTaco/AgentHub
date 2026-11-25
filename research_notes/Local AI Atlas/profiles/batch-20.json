@@ -1,0 +1,2281 @@
+[
+ {
+  "id": "seco-clea",
+  "name": "SECO S.p.A.",
+  "verdict": "in",
+  "verdict_reason": "Dedicated Clea AIoT platform and edge compute modules with AI acceleration marketed to industrial OEMs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.seco.com",
+  "hq_city": "Arezzo",
+  "hq_country": "Italy",
+  "founded": 1979,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (Euronext Milan: IOT)",
+  "key_investors": [],
+  "employees": 1100,
+  "employees_band": "1001-5000",
+  "focus": "Edge computing modules and Clea AIoT software platform for industrial and medical devices.",
+  "problem": "Industrial OEMs struggle to deploy, manage and update AI applications across fleets of edge devices.",
+  "products": [
+   {
+    "name": "Clea Platform",
+    "category": "platform",
+    "description": "AIoT suite to orchestrate, deploy and manage AI apps on edge devices"
+   },
+   {
+    "name": "Clea OS",
+    "category": "runtime",
+    "description": "Yocto-based edge operating system for SECO and third-party hardware"
+   },
+   {
+    "name": "Clea AI Studio",
+    "category": "sdk",
+    "description": "Tooling to build and deploy ML models to edge devices"
+   },
+   {
+    "name": "SECO AI edge modules / SBCs",
+    "category": "system",
+    "description": "SoM and single-board computers with NXP, NVIDIA and Qualcomm AI acceleration"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "camera"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "multimodal"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "healthcare",
+   "retail",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "NVIDIA",
+   "NXP",
+   "Qualcomm",
+   "Intel",
+   "AWS",
+   "Microsoft"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vertically integrated edge hardware plus Clea software for managing AI across heterogeneous device fleets.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.seco.com"
+  ]
+ },
+ {
+  "id": "sensiml",
+  "name": "SensiML",
+  "verdict": "in",
+  "verdict_reason": "Core product is AutoML toolkit generating on-device sensor inference firmware for microcontrollers.",
+  "status": "acquired",
+  "status_detail": "Acquired by QuickLogic (2019) (from knowledge, not re-searched)",
+  "parent": "QuickLogic Corporation",
+  "website": "https://sensiml.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2013,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "AutoML toolkit for building sensor-based TinyML models running on microcontrollers.",
+  "problem": "Embedded teams lack ML expertise to build compact sensor-inference models for resource-constrained devices.",
+  "products": [
+   {
+    "name": "SensiML Analytics Toolkit",
+    "category": "sdk",
+    "description": "AutoML to build and deploy sensor ML firmware for edge devices"
+   },
+   {
+    "name": "SensiML Data Studio",
+    "category": "app",
+    "description": "Labeling and data capture tool for sensor datasets"
+   },
+   {
+    "name": "SensiML Open Gateway",
+    "category": "sdk",
+    "description": "Open-source data collection gateway for edge devices"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "vehicle-robot-drone",
+   "wearable-xr"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "healthcare",
+   "developers"
+  ],
+  "partners": [
+   "QuickLogic",
+   "Arm",
+   "Nordic Semiconductor",
+   "Infineon",
+   "Microchip"
+  ],
+  "notable_customers": [],
+  "differentiator": "AutoML to tiny firmware libraries for MCUs and FPGAs, from sensor data to inference.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://sensiml.com"
+  ]
+ },
+ {
+  "id": "sixgill",
+  "name": "Sixgill",
+  "verdict": "out",
+  "verdict_reason": "Sixgill Sense vendor not verifiable as active; distinct from Cybersixgill (acquired by Bitsight); no current evidence of operations.",
+  "status": "defunct",
+  "status_detail": "Unconfirmed: web search found no current activity; do not confuse with Cybersixgill (Bitsight, 2024)",
+  "website": "https://www.sixgill.com"
+ },
+ {
+  "id": "sonatus",
+  "name": "Sonatus",
+  "verdict": "borderline",
+  "verdict_reason": "Vehicle software platform with in-vehicle AI deployment tools; edge AI secondary to SDV infrastructure.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sonatus.com",
+  "hq_city": "Sunnyvale",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Software-defined vehicle platform: vehicle data, configuration and AI deployment.",
+  "problem": "Automakers cannot easily update vehicle behavior and deploy AI models across fleets of ECUs.",
+  "products": [
+   {
+    "name": "Sonatus Collector",
+    "category": "platform",
+    "description": "In-vehicle data collection and dynamic logging"
+   },
+   {
+    "name": "Sonatus Automator",
+    "category": "platform",
+    "description": "No-code in-vehicle automation and configuration"
+   },
+   {
+    "name": "Sonatus AI Technician",
+    "category": "app",
+    "description": "In-vehicle and cloud AI for diagnostics and fleet analytics"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "llm-text"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [
+   "Qualcomm",
+   "NVIDIA",
+   "Arm",
+   "Toyota"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vehicle-level software layer that reconfigures ECUs and deploys AI without hardware changes.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.sonatus.com"
+  ]
+ },
+ {
+  "id": "spectro-cloud",
+  "name": "Spectro Cloud",
+  "verdict": "in",
+  "verdict_reason": "PaletteAI and Palette Edge deploy AI/Kubernetes stacks on-prem, air-gapped and at edge.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.spectrocloud.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $75M, Jan 2024, led by Growth Equity at Goldman Sachs Alternatives (from memory)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Growth Equity at Goldman Sachs Alternatives",
+   "Translink Capital",
+   "Alter Venture Partners",
+   "Sierra Ventures",
+   "Stripes"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Kubernetes lifecycle management and PaletteAI for AI stacks across datacenter, edge and air-gap.",
+  "problem": "Enterprises cannot consistently deploy and operate AI workloads and Kubernetes across on-prem and edge sites.",
+  "products": [
+   {
+    "name": "Palette",
+    "category": "platform",
+    "description": "Kubernetes management across datacenter, cloud and edge"
+   },
+   {
+    "name": "PaletteAI",
+    "category": "platform",
+    "description": "Deploys and manages full AI stacks on private infrastructure"
+   },
+   {
+    "name": "Palette Edge",
+    "category": "platform",
+    "description": "Edge Kubernetes with zero-touch provisioning and air-gap support"
+   },
+   {
+    "name": "Palette VerteX",
+    "category": "platform",
+    "description": "FIPS-validated Kubernetes for government and regulated environments"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "retail",
+   "industrial-manufacturing",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "Dell",
+   "HPE",
+   "Canonical"
+  ],
+  "notable_customers": [],
+  "differentiator": "Declarative full-stack Kubernetes management scaling to thousands of edge and air-gapped sites.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.spectrocloud.com"
+  ]
+ },
+ {
+  "id": "spot-ai",
+  "name": "Spot AI",
+  "verdict": "borderline",
+  "verdict_reason": "Camera systems with on-prem video AI appliance; edge AI is a feature of security video product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.spot.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 93,
+  "last_round": "$31M, Oct 2024 (total ~$93M per SiliconANGLE; one tracker shows $97M)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Redpoint Ventures",
+   "Bessemer Venture Partners",
+   "Scale Venture Partners"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "AI camera system and video AI agents for physical operations.",
+  "problem": "Businesses cannot turn hours of camera footage into proactive operational and safety insight.",
+  "products": [
+   {
+    "name": "Spot AI Cameras",
+    "category": "device",
+    "description": "AI IP cameras for business video security"
+   },
+   {
+    "name": "Video AI Agents",
+    "category": "app",
+    "description": "Agents answering questions and detecting events from video"
+   },
+   {
+    "name": "Spot AI Edge Video Appliance",
+    "category": "system",
+    "description": "On-prem video recorder running AI locally, compatible with existing cameras"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing",
+   "retail",
+   "security-surveillance"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Plug-and-play AI over existing cameras with local processing and agent-style video search.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2024/10/31/spot-ai-reels-31m-ai-powered-video-processing-platform/"
+  ]
+ },
+ {
+  "id": "stream-analyze",
+  "name": "Stream Analyze",
+  "verdict": "in",
+  "verdict_reason": "SA Engine runs and updates analytics and ML models directly on edge devices and fleets.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://streamanalyze.com",
+  "hq_city": "Stockholm",
+  "hq_country": "Sweden",
+  "founded": 2007,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Edge analytics and AI engine for streaming sensor data on embedded devices.",
+  "problem": "Streaming sensor data is too voluminous and latency-sensitive to ship to the cloud for analysis.",
+  "products": [
+   {
+    "name": "SA Engine",
+    "category": "runtime",
+    "description": "Lightweight engine for edge analytics and on-device model execution"
+   },
+   {
+    "name": "SA Studio",
+    "category": "platform",
+    "description": "Web IDE to build, deploy and update edge analytics and models"
+   },
+   {
+    "name": "Edge AI fleet management",
+    "category": "service",
+    "description": "Update models and queries across device fleets"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "vehicle-robot-drone",
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Volvo",
+   "Siemens"
+  ],
+  "notable_customers": [],
+  "differentiator": "Tiny footprint engine that pushes analytics and models to devices without redeploying firmware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://streamanalyze.com"
+  ]
+ },
+ {
+  "id": "sunlight",
+  "name": "Sunlight",
+  "verdict": "borderline",
+  "verdict_reason": "Lightweight edge virtualization infrastructure hosting AI/IIoT workloads; AI is a use case, not core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://sunlight.io",
+  "hq_city": "Cambridge",
+  "hq_country": "United Kingdom",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Lightweight hyperconverged edge infrastructure with fleet management for edge workloads.",
+  "problem": "Running and managing compute reliably on small, remote edge sites is costly with conventional virtualization.",
+  "products": [
+   {
+    "name": "Sunlight NexVisor",
+    "category": "runtime",
+    "description": "Lightweight hypervisor for edge hardware"
+   },
+   {
+    "name": "Sunlight Edge Platform",
+    "category": "platform",
+    "description": "Centrally managed edge compute-as-a-service for AI/IIoT"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "telecom",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Litmus",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Small-footprint hypervisor tuned for resource-constrained edge nodes.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://sunlight.io"
+  ]
+ },
+ {
+  "id": "surveily",
+  "name": "Surveily",
+  "verdict": "borderline",
+  "verdict_reason": "Computer vision on existing CCTV for workplace hazards; local inference reported but unverified.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://surveily.com",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Computer vision on industrial CCTV to detect workplace safety hazards.",
+  "problem": "Safety teams cannot monitor every site camera for hazards manually.",
+  "products": [
+   {
+    "name": "Surveily platform",
+    "category": "app",
+    "description": "Vision analytics for PPE, hazard and safety detection on existing CCTV"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Retrofits safety analytics onto existing cameras without new hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://surveily.com"
+  ]
+ },
+ {
+  "id": "switchon",
+  "name": "SwitchOn",
+  "verdict": "borderline",
+  "verdict_reason": "DeepInspect visual inspection runs at the edge; focused vertical application, not general local-AI platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.switchon.io",
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": 8,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "Edge-based AI visual inspection and shop-floor digitization for manufacturing.",
+  "problem": "Manufacturers miss defects with manual inspection and lack real-time quality data on lines.",
+  "products": [
+   {
+    "name": "DeepInspect",
+    "category": "app",
+    "description": "Edge AI visual inspection for defect detection on production lines"
+   },
+   {
+    "name": "SwitchOn manufacturing platform",
+    "category": "platform",
+    "description": "Shop-floor digitization and analytics"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Edge-run inspection tailored to Indian and APAC manufacturing at low cost.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.woodenscale.ai/blogs/switchon-funding-8m-for-deepinspect-expansion/"
+  ]
+ },
+ {
+  "id": "trigo",
+  "name": "Trigo",
+  "verdict": "borderline",
+  "verdict_reason": "Store computer vision processed on in-store compute; retail application, not an AI platform for others.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.trigoretail.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Hetz Ventures",
+   "Red Dot Capital",
+   "Intel Capital",
+   "Tiger Global"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Computer vision for frictionless checkout and store operations.",
+  "problem": "Retailers face long checkout lines, shrink and poor shelf visibility.",
+  "products": [
+   {
+    "name": "Trigo Autonomous Checkout",
+    "category": "system",
+    "description": "Ceiling-camera vision with on-site compute for checkout-free stores"
+   },
+   {
+    "name": "Trigo Retail Media/Store Ops",
+    "category": "app",
+    "description": "Shelf and inventory analytics from store camera feeds"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "retail"
+  ],
+  "partners": [
+   "Aldi",
+   "REWE",
+   "Tesco",
+   "Shufersal"
+  ],
+  "notable_customers": [],
+  "differentiator": "Retrofittable ceiling-camera autonomous store tech with on-premise processing.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.trigoretail.com"
+  ]
+ },
+ {
+  "id": "tristar-ai",
+  "name": "Tristar AI",
+  "verdict": "borderline",
+  "verdict_reason": "Visual inspection on an on-site edge stack; manufacturing application rather than local-AI platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.tristar.ai",
+  "hq_city": "Cambridge",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 15.5,
+  "last_round": "Series A, $12.4M, Nov 2026, led by Isogon Ventures; seed $3.15M in 2024",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Isogon Ventures",
+   "Blackhorn Ventures",
+   "Ford Street Ventures",
+   "Las Olas VC"
+  ],
+  "employees": 50,
+  "employees_band": "11-50",
+  "focus": "AI visual inspection software for manufacturing quality on edge infrastructure.",
+  "problem": "Manufacturers miss defects because human inspectors tire and legacy vision systems are rigid.",
+  "products": [
+   {
+    "name": "Tristar AI inspection platform",
+    "category": "platform",
+    "description": "Real-time visual inspection on edge stack integrated with cameras and PLCs"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Deployed on 500+ lines; integrates with existing cameras and PLCs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/?p=853935",
+   "https://traded.co/vc/deal/tristar-ai-secures-12-4-million-in-series-a-funding-led-by-isogon-ventures/"
+  ]
+ },
+ {
+  "id": "unitx",
+  "name": "UnitX",
+  "verdict": "borderline",
+  "verdict_reason": "Inspection station with on-site deep-learning inference; hardware-plus-software application for factories.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.unitxlabs.com",
+  "hq_city": "Los Altos",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "AI visual inspection systems combining optics and deep learning for manufacturing.",
+  "problem": "Factories cannot reliably catch subtle defects with traditional machine vision.",
+  "products": [
+   {
+    "name": "UnitX inspection system",
+    "category": "system",
+    "description": "Optics plus deep-learning inspection station running inference on-site"
+   },
+   {
+    "name": "CorteX",
+    "category": "platform",
+    "description": "AI defect detection software"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Co-designed optics and deep learning for hard-to-see defects.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.unitxlabs.com"
+  ]
+ },
+ {
+  "id": "utilidata",
+  "name": "Utilidata",
+  "verdict": "in",
+  "verdict_reason": "Karman platform puts AI compute inside smart meters and grid edge devices, built on NVIDIA.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://utilidata.com",
+  "hq_city": "Providence",
+  "hq_country": "United States",
+  "founded": 2004,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Growth round, ~$60M, 2025, with NVIDIA participation (from memory, unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "NVIDIA",
+   "Renown Capital Partners"
+  ],
+  "employees": 110,
+  "employees_band": "51-200",
+  "focus": "Distributed AI at the grid edge via smart meter chips and software.",
+  "problem": "Utilities lack real-time visibility and control at the grid edge because meters cannot run AI.",
+  "products": [
+   {
+    "name": "Karman",
+    "category": "platform",
+    "description": "Grid-edge AI platform: NVIDIA-based chip and software in meters"
+   },
+   {
+    "name": "Karman software platform",
+    "category": "sdk",
+    "description": "Apps for real-time grid analytics and control at the edge"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "silicon",
+   "hardware-systems",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "energy-utilities"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Landis+Gyr",
+   "Aclara"
+  ],
+  "notable_customers": [],
+  "differentiator": "Embeds AI computing in meters with NVIDIA, avoiding cloud round trips.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://utilidata.com"
+  ]
+ },
+ {
+  "id": "vaidio-ironyun",
+  "name": "IronYun (Vaidio)",
+  "verdict": "borderline",
+  "verdict_reason": "Vision AI platform deployable on-prem/edge integrated with VMS; analytics application focus.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://vaidio.ai",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "AI vision platform for security, retail and operational analytics.",
+  "problem": "Security and ops teams cannot review camera feeds at scale to find incidents.",
+  "products": [
+   {
+    "name": "Vaidio",
+    "category": "platform",
+    "description": "AI video analytics platform deployed on-prem or edge"
+   },
+   {
+    "name": "Vaidio Edge",
+    "category": "device",
+    "description": "Edge appliance running vision analytics near cameras"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "retail",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Milestone",
+   "Genetec"
+  ],
+  "notable_customers": [],
+  "differentiator": "Many analytics on one platform, VMS-integrated, on-prem friendly.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://vaidio.ai"
+  ]
+ },
+ {
+  "id": "viam",
+  "name": "Viam",
+  "verdict": "borderline",
+  "verdict_reason": "Robotics platform deploying ML models to on-device fleets; edge ML is one component.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.viam.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 117,
+  "last_round": "Series C, $30M, Mar 2025, led by Union Square Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Union Square Ventures",
+   "Battery Ventures",
+   "Neurone",
+   "General Catalyst",
+   "Andreessen Horowitz",
+   "Tiger Global"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Software platform for building, deploying and managing robots and smart machines.",
+  "problem": "Teams building smart machines lack unified software for hardware, ML and fleet management.",
+  "products": [
+   {
+    "name": "Viam platform",
+    "category": "platform",
+    "description": "Software for configuring, deploying and managing smart machines"
+   },
+   {
+    "name": "Viam ML/Data pipeline",
+    "category": "service",
+    "description": "Train and deploy ML models to edge machines"
+   },
+   {
+    "name": "viam-server",
+    "category": "runtime",
+    "description": "On-device runtime for hardware control and ML inference"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Raspberry Pi"
+  ],
+  "notable_customers": [],
+  "differentiator": "Open-source runtime plus cloud management for any hardware.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.viam.com/press-releases/viam-announces-30-million-series-c"
+  ]
+ },
+ {
+  "id": "viso-ai",
+  "name": "Viso.ai",
+  "verdict": "in",
+  "verdict_reason": "Viso Suite builds and deploys computer vision apps to on-prem edge devices at scale.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://viso.ai",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "No-code end-to-end computer vision platform deployed on edge devices.",
+  "problem": "Enterprises struggle to take computer vision from prototype to scaled edge deployment.",
+  "products": [
+   {
+    "name": "Viso Suite",
+    "category": "platform",
+    "description": "End-to-end no-code CV platform: build, deploy, manage edge apps"
+   },
+   {
+    "name": "Viso Builder",
+    "category": "app",
+    "description": "Visual editor for vision application pipelines"
+   },
+   {
+    "name": "Viso Edge Manager",
+    "category": "service",
+    "description": "Fleet management for edge vision deployments"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem",
+   "embedded-iot"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing",
+   "retail",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Intel",
+   "NVIDIA",
+   "Dell",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "Siemens Energy",
+   "Bosch",
+   "Deloitte"
+  ],
+  "differentiator": "Full-lifecycle CV platform with edge-first deployment, on-prem option.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://viso.ai"
+  ]
+ },
+ {
+  "id": "vivacity-labs",
+  "name": "Vivacity Labs",
+  "verdict": "borderline",
+  "verdict_reason": "AI traffic sensors run vision on-device; vertical smart-city product, not a platform for others.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://vivacitylabs.com",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2014,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "AI traffic sensors and signal control for cities.",
+  "problem": "Cities lack accurate real-time road-user data without privacy-invasive video.",
+  "products": [
+   {
+    "name": "Vivacity sensor",
+    "category": "device",
+    "description": "Edge vision sensor counting and classifying road users on-device"
+   },
+   {
+    "name": "Vivacity signal control",
+    "category": "service",
+    "description": "Adaptive signal control driven by sensor data"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [
+   "Transport for London"
+  ],
+  "notable_customers": [],
+  "differentiator": "Anonymised on-sensor vision, only counts leave device.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://vivacitylabs.com"
+  ]
+ },
+ {
+  "id": "wallaroo-ai",
+  "name": "Wallaroo.AI",
+  "verdict": "in",
+  "verdict_reason": "Inference deployment platform for on-prem, edge and air-gapped hardware, now part of d-Matrix.",
+  "status": "acquired",
+  "status_detail": "Acquired by d-Matrix (announced Aug 3, 2026), terms undisclosed",
+  "parent": "d-Matrix",
+  "website": "https://wallaroo.ai",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "AI inference deployment, serving and observability across heterogeneous hardware.",
+  "problem": "Enterprises struggle to run and monitor AI inference efficiently on-prem and at the edge.",
+  "products": [
+   {
+    "name": "Wallaroo Platform",
+    "category": "platform",
+    "description": "Deploy, serve and observe AI models on-prem, edge and cloud"
+   },
+   {
+    "name": "Wallaroo Inference Server",
+    "category": "runtime",
+    "description": "High-performance inference serving on CPUs and accelerators"
+   },
+   {
+    "name": "Wallaroo Edge",
+    "category": "runtime",
+    "description": "Run models at edge sites with remote management"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "retail",
+   "telecom"
+  ],
+  "partners": [
+   "Intel",
+   "Ampere",
+   "d-Matrix",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic inference ops now paired with d-Matrix silicon.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.storagenewsletter.com/2026/08/11/d-matrix-acquires-wallaroo-ai-to-speed-up-deployment-of-heterogeneous-ai-inference-workloads/",
+   "https://www.unite.ai/d-matrix-buys-wallaroo-to-orchestrate-inference-across-chips/"
+  ]
+ },
+ {
+  "id": "wind-river",
+  "name": "Wind River Systems",
+  "verdict": "borderline",
+  "verdict_reason": "Embedded OS/edge platforms hosting AI workloads; AI is positioning layer on broader RTOS business.",
+  "status": "acquired",
+  "status_detail": "Acquired by Aptiv from TPG, closed Dec 23, 2022 (~$3.5B)",
+  "parent": "Aptiv",
+  "website": "https://www.windriver.com",
+  "hq_city": "Alameda",
+  "hq_country": "United States",
+  "founded": 1981,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 1300,
+  "employees_band": "1001-5000",
+  "focus": "Embedded and edge software: VxWorks, Linux and cloud-native edge platform.",
+  "problem": "Mission-critical embedded and edge systems need safe, certified software to run modern AI workloads.",
+  "products": [
+   {
+    "name": "VxWorks",
+    "category": "runtime",
+    "description": "Safety-certifiable RTOS for edge devices running AI workloads"
+   },
+   {
+    "name": "Wind River Studio",
+    "category": "platform",
+    "description": "Cloud-native platform to develop, deploy and operate intelligent edge"
+   },
+   {
+    "name": "Wind River Linux / eLxr Pro",
+    "category": "runtime",
+    "description": "Commercial embedded Linux for edge AI systems"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "automotive",
+   "industrial-manufacturing",
+   "government-defense",
+   "telecom",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Intel",
+   "NVIDIA",
+   "NXP",
+   "Arm"
+  ],
+  "notable_customers": [
+   "Boeing",
+   "Siemens"
+  ],
+  "differentiator": "Decades of safety-certified embedded OS applied to edge AI.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1521332/000152133222000065/aptv-20221223.htm"
+  ]
+ },
+ {
+  "id": "xailient",
+  "name": "Xailient",
+  "verdict": "in",
+  "verdict_reason": "Core product is on-device computer-vision and face recognition software for cameras and devices.",
+  "status": "active",
+  "status_detail": "Unconfirmed current activity",
+  "parent": null,
+  "website": "https://xailient.com",
+  "hq_city": null,
+  "hq_country": "Australia",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Efficient on-device computer vision and face recognition for edge cameras.",
+  "problem": "Cloud-based vision is costly, slow and privacy-invasive for cameras and low-power devices.",
+  "products": [
+   {
+    "name": "Xailient Face Recognition SDK",
+    "category": "sdk",
+    "description": "On-device face detection and recognition keeping biometric data local"
+   },
+   {
+    "name": "Xailient Detectum",
+    "category": "sdk",
+    "description": "Efficient on-device object detection software"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "security-surveillance"
+  ],
+  "partners": [
+   "Qualcomm",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Highly optimized small-footprint CV models for low-power chips.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://xailient.com"
+  ]
+ },
+ {
+  "id": "zebra-technologies-matrox-imaging",
+  "name": "Zebra Technologies",
+  "verdict": "borderline",
+  "verdict_reason": "Enterprise devices and Aurora/Matrox vision software with on-device AI; local AI secondary to core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zebra.com",
+  "hq_city": "Lincolnshire",
+  "hq_country": "United States",
+  "founded": 1969,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: ZBRA)",
+  "key_investors": [],
+  "employees": 9900,
+  "employees_band": "5001-10000",
+  "focus": "Enterprise mobile devices, scanners and machine vision with on-device AI.",
+  "problem": "Frontline and factory workflows need vision AI that runs on-site without cloud dependence.",
+  "products": [
+   {
+    "name": "Zebra Aurora Vision / Imaging Library",
+    "category": "sdk",
+    "description": "Machine vision and deep-learning software, formerly Matrox"
+   },
+   {
+    "name": "Zebra Aurora Focus/Design Assistant",
+    "category": "platform",
+    "description": "Deploy vision inspection apps on smart cameras and industrial PCs"
+   },
+   {
+    "name": "Zebra Mobile computers with on-device AI",
+    "category": "device",
+    "description": "Handhelds with AI features like on-device OCR and detection"
+   },
+   {
+    "name": "Zebra Iris Smart Cameras",
+    "category": "device",
+    "description": "Fixed industrial smart cameras with embedded vision processing"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "mobile",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "retail",
+   "healthcare",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Large installed base of scanners and rugged devices; Matrox acquired 2022.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.zebra.com"
+  ]
+ },
+ {
+  "id": "zededa",
+  "name": "ZEDEDA",
+  "verdict": "in",
+  "verdict_reason": "Edge orchestration platform on open EVE-OS purpose-built for distributed edge AI workloads.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://zededa.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 129.6,
+  "last_round": "Series C, $72M, Feb 2024, led by Smith Point Capital; Series C extension Jan 2025 (no 2026 round found)",
+  "valuation_usd_m": 400,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Smith Point Capital",
+   "Lux Capital",
+   "Alpha Wave Global",
+   "Prosperity7 Ventures",
+   "Sutter Hill Ventures"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Zero-trust edge orchestration and lifecycle management for edge AI apps.",
+  "problem": "Enterprises struggle to securely deploy and manage AI workloads across thousands of remote edge nodes.",
+  "products": [
+   {
+    "name": "ZEDEDA Edge Computing Platform",
+    "category": "platform",
+    "description": "Cloud-based orchestration for edge hardware, apps and AI"
+   },
+   {
+    "name": "EVE-OS",
+    "category": "runtime",
+    "description": "Open-source Linux Foundation edge OS for secure workload hosting"
+   },
+   {
+    "name": "ZEDEDA Edge AI marketplace and Kubernetes",
+    "category": "service",
+    "description": "Deploy containers, VMs and Kubernetes AI apps to edge nodes"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "camera",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries",
+   "multimodal"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities",
+   "retail",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Intel",
+   "Dell",
+   "Lenovo",
+   "Linux Foundation"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vendor-neutral zero-trust edge control plane based on open-source EVE-OS.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.businesswire.com/news/home/20240207876324/en",
+   "https://futurumgroup.com/insights/zededa-soars-with-72-million-to-fuel-edge-ai-and-computing",
+   "https://www.cbinsights.com/company/zededa"
+  ]
+ },
+ {
+  "id": "zeroeyes",
+  "name": "ZeroEyes",
+  "verdict": "borderline",
+  "verdict_reason": "Gun detection runs on-site on existing cameras but pairs with a cloud human-verification center.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://zeroeyes.com",
+  "hq_city": "Conshohocken",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "AI gun detection on existing security cameras with human verification.",
+  "problem": "Schools and venues cannot spot visible firearms in time from camera feeds.",
+  "products": [
+   {
+    "name": "ZeroEyes gun detection",
+    "category": "app",
+    "description": "AI weapon detection on existing cameras with 24/7 human verification"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "government-defense",
+   "education-research",
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pairs on-site visual detection with trained human verification in seconds.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://zeroeyes.com"
+  ]
+ },
+ {
+  "id": "4paradigm",
+  "name": "4Paradigm",
+  "verdict": "in",
+  "verdict_reason": "Sage AI platform and all-in-one LLM machines deployed privately for enterprises.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.4paradigm.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2014,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX: 1764)",
+  "key_investors": [],
+  "employees": 1500,
+  "employees_band": "1001-5000",
+  "focus": "Enterprise AI platforms (Sage) deployed on customer infrastructure.",
+  "problem": "Enterprises need to build and run AI models on private infrastructure with data staying in-house.",
+  "products": [
+   {
+    "name": "Sage AIOS",
+    "category": "platform",
+    "description": "Enterprise AI operating system for private deployment"
+   },
+   {
+    "name": "Sage LLM all-in-one machine",
+    "category": "system",
+    "description": "Integrated hardware/software appliance for private LLM deployment"
+   },
+   {
+    "name": "Sage Studio",
+    "category": "platform",
+    "description": "Model development and orchestration for enterprise AI"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Huawei",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "One of China's largest enterprise AI vendors with private deployment focus.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.4paradigm.com"
+  ]
+ },
+ {
+  "id": "aixcoder",
+  "name": "aiXcoder",
+  "verdict": "in",
+  "verdict_reason": "Code LLM and assistant offered with private on-prem deployment for enterprises and government.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.aixcoder.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Code LLMs and AI programming assistant with private deployment.",
+  "problem": "Enterprises cannot send proprietary code to public AI services but want AI coding help.",
+  "products": [
+   {
+    "name": "aiXcoder code assistant",
+    "category": "app",
+    "description": "IDE code completion and generation"
+   },
+   {
+    "name": "aiXcoder code models",
+    "category": "model",
+    "description": "Code LLMs available for private deployment"
+   },
+   {
+    "name": "aiXcoder enterprise private deployment",
+    "category": "platform",
+    "description": "On-prem deployment with enterprise code knowledge"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense",
+   "telecom"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Private-deployment-first code LLM for regulated Chinese enterprises.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.aixcoder.com"
+  ]
+ },
+ {
+  "id": "chapsvision",
+  "name": "ChapsVision",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign data and AI software group with on-prem options; AI is part of broader data suite.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.chapsvision.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2018,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "Sovereign data, investigation and AI software for defense, security and enterprise.",
+  "problem": "Security and defense bodies need AI over sensitive data without foreign cloud dependence.",
+  "products": [
+   {
+    "name": "Sinequa Enterprise Search",
+    "category": "platform",
+    "description": "Enterprise search and RAG assistants deployable on-prem"
+   },
+   {
+    "name": "Systran translation",
+    "category": "service",
+    "description": "Neural translation with on-prem deployment"
+   },
+   {
+    "name": "ChapsVision AI/data platform",
+    "category": "platform",
+    "description": "Sovereign data analytics and investigation suite"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "security-surveillance"
+  ],
+  "partners": [
+   "Sinequa",
+   "Systran"
+  ],
+  "notable_customers": [],
+  "differentiator": "French sovereign-positioned platform consolidating data, search and translation AI.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.chapsvision.com"
+  ]
+ },
+ {
+  "id": "corover-bharatgpt",
+  "name": "CoRover.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Conversational AI vendor; on-prem or offline BharatGPT deployment reported but not verified.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://corover.ai",
+  "hq_city": "Gurugram",
+  "hq_country": "India",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Conversational AI and BharatGPT sovereign Indian-language models.",
+  "problem": "Indian enterprises need multilingual AI with data residency control.",
+  "products": [
+   {
+    "name": "BharatGPT",
+    "category": "model",
+    "description": "Indian-language LLM and chatbot"
+   },
+   {
+    "name": "CoRover conversational AI platform",
+    "category": "platform",
+    "description": "Virtual assistant platform for enterprises"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "IRCTC"
+  ],
+  "differentiator": "Multilingual Indian sovereign LLM branding.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://corover.ai"
+  ]
+ },
+ {
+  "id": "kt-sovereign-ai-appliance",
+  "name": "KT Corporation",
+  "verdict": "borderline",
+  "verdict_reason": "Telco with sovereign on-prem AI server appliance (Rebellions chips, Mi:dm LLM); telecom core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.kt.com",
+  "hq_city": "Seongnam",
+  "hq_country": "South Korea",
+  "founded": 1981,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (KRX: 030200; NYSE: KT)",
+  "key_investors": [],
+  "employees": 19000,
+  "employees_band": "10000+",
+  "focus": "Korean telecom with sovereign AI appliance and Mi:dm LLM.",
+  "problem": "Korean enterprises need AI that runs on domestic hardware and models inside their own premises.",
+  "products": [
+   {
+    "name": "KT sovereign AI appliance",
+    "category": "system",
+    "description": "On-prem server combining Rebellions NPUs and Mi:dm LLM"
+   },
+   {
+    "name": "Mi:dm",
+    "category": "model",
+    "description": "KT's Korean large language model family"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [
+   "Rebellions"
+  ],
+  "notable_customers": [],
+  "differentiator": "Domestic chip plus domestic LLM in one enterprise server.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://koreatimes.co.kr/business/companies/20260819/kt-puts-korean-ai-chips-language-model-into-one-enterprise-server"
+  ]
+ },
+ {
+  "id": "mozn",
+  "name": "Mozn",
+  "verdict": "borderline",
+  "verdict_reason": "Enterprise AI for financial crime; deployed on sovereign HUMAIN infrastructure, local AI secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mozn.sa",
+  "hq_city": "Riyadh",
+  "hq_country": "Saudi Arabia",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": "Strategic investment from HUMAIN, Aug 2026 (amount undisclosed; unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "HUMAIN"
+  ],
+  "employees": 200,
+  "employees_band": "201-500",
+  "focus": "Enterprise AI for financial crime and knowledge intelligence.",
+  "problem": "Banks need compliant AI for fraud and AML that keeps data in-country.",
+  "products": [
+   {
+    "name": "FOCAL",
+    "category": "platform",
+    "description": "AI anti-money-laundering and financial-crime platform"
+   },
+   {
+    "name": "OSOS",
+    "category": "platform",
+    "description": "Enterprise AI decision platform"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "finance",
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [
+   "HUMAIN"
+  ],
+  "notable_customers": [],
+  "differentiator": "Saudi-built AI aligned with national sovereign infrastructure.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.wamda.com/2026/08/saudi-ai-firm-mozn-secures-strategic-investment-humain"
+  ]
+ },
+ {
+  "id": "polarise",
+  "name": "Polarise",
+  "verdict": "borderline",
+  "verdict_reason": "Builds sovereign European AI factories and GPU cloud; sovereign AI infrastructure, not customer-owned hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://polarise.com",
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 16,
+  "last_round": "Pre-seed ~EUR4M plus seed EUR10M; up to EUR117M Macquarie debt (2026)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Macquarie (debt)"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Sovereign AI factories and GPU cloud in Europe.",
+  "problem": "European firms need AI compute under European jurisdiction and data control.",
+  "products": [
+   {
+    "name": "Polarise AI Factory",
+    "category": "service",
+    "description": "Sovereign GPU data centers (Munich, Oslo)"
+   },
+   {
+    "name": "Polarise Sovereign AI Cloud",
+    "category": "platform",
+    "description": "Enterprise AI cloud launched at GTC Berlin"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Deutsche Telekom",
+   "WWT",
+   "DDN"
+  ],
+  "notable_customers": [
+   "Deutsche Telekom Industrial AI Cloud"
+  ],
+  "differentiator": "European-owned AI factories with NVIDIA, sovereign positioning.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.macquarie.com/ch/en/about/news/2026/polarise-and-macquarie-announce-up-to-117-million-euros-financing-deal-for-european-ai-ambitions.html",
+   "https://www.datacenterdynamics.com/en/news/ddn-signs-deal-with-european-ai-data-center-hopeful-polarise/"
+  ]
+ },
+ {
+  "id": "thundersoft-rubik-device-ai",
+  "name": "ThunderSoft",
+  "verdict": "in",
+  "verdict_reason": "Rubik on-device AI stack and LLM for phones, cars and IoT is a marketed product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.thundersoft.com",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2008,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (SZSE: 300496)",
+  "key_investors": [],
+  "employees": 5000,
+  "employees_band": "1001-5000",
+  "focus": "Intelligent OS and on-device AI software for phones, cars and IoT.",
+  "problem": "OEMs need on-device LLM and AI OS stacks without cloud dependence.",
+  "products": [
+   {
+    "name": "Rubik on-device LLM",
+    "category": "model",
+    "description": "On-device large model for phones, cars and IoT"
+   },
+   {
+    "name": "ThunderSoft AIOS",
+    "category": "platform",
+    "description": "On-device AI operating system stack for OEMs"
+   },
+   {
+    "name": "TurboX modules",
+    "category": "system",
+    "description": "Qualcomm-based edge AI compute modules"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "Qualcomm",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "OEM-ready on-device AI stack across SoCs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.thundersoft.com"
+  ]
+ }
+]

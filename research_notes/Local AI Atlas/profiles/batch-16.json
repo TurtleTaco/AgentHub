@@ -1,0 +1,2681 @@
+[
+ {
+  "id": "privately-sa",
+  "name": "Privately SA",
+  "verdict": "in",
+  "verdict_reason": "Core product is on-device facial age estimation and online-safety AI; no images leave device.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.privately.eu",
+  "hq_city": "Lausanne",
+  "hq_country": "Switzerland",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "On-device age assurance and child online-safety AI",
+  "problem": "Verifying user age without sending face images to cloud servers",
+  "products": [
+   {
+    "name": "Privately Age Estimation",
+    "category": "sdk",
+    "description": "On-device facial age estimation SDK for apps and devices, no image upload"
+   },
+   {
+    "name": "Privately Safety AI",
+    "category": "sdk",
+    "description": "On-device detection of harmful content and grooming in chats and images"
+   },
+   {
+    "name": "Privately Age Assurance Platform",
+    "category": "platform",
+    "description": "Age verification orchestration with privacy-preserving on-device checks"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "embedded-iot",
+   "browser"
+  ],
+  "layers": [
+   "inference-runtime",
+   "security-privacy",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [
+   "Yoti competitors",
+   "Mobile OEMs"
+  ],
+  "notable_customers": [],
+  "differentiator": "Privacy-by-design age estimation running fully on user device, certified for regulatory use",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "runanywhere",
+  "name": "RunAnywhere",
+  "verdict": "in",
+  "verdict_reason": "Open-source SDK and control plane dedicated to running multimodal AI on-device at scale.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.runanywhere.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 0.5,
+  "last_round": "Pre-seed/YC, Y Combinator W26 (amount conflicting: ~$0.13M-$0.5M)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator",
+   "645 Ventures"
+  ],
+  "employees": 4,
+  "employees_band": "1-10",
+  "focus": "SDK and control plane for deploying on-device LLM, speech and vision models",
+  "problem": "Shipping and managing AI models across phones without per-token cloud costs and privacy exposure",
+  "products": [
+   {
+    "name": "RunAnywhere SDK",
+    "category": "sdk",
+    "description": "Open-source SDK for on-device LLM, STT, TTS, vision on iOS, Android, React Native, Flutter"
+   },
+   {
+    "name": "RunAnywhere Control Plane",
+    "category": "platform",
+    "description": "OTA model rollouts, versioning, hybrid on-device/cloud routing policies"
+   },
+   {
+    "name": "MetalRT",
+    "category": "runtime",
+    "description": "Inference engine optimized for Apple Silicon"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "embedded-iot"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "One SDK plus fleet control plane for hybrid on-device and cloud AI",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ycombinator.com/companies/runanywhere",
+   "https://www.vcbacked.co/company/runanywhere",
+   "https://www.everydev.ai/developers/runanywhere-inc"
+  ]
+ },
+ {
+  "id": "second-state-llamaedge-wasmedge",
+  "name": "Second State",
+  "verdict": "in",
+  "verdict_reason": "Maintains WasmEdge and LlamaEdge, dedicated portable edge LLM inference stack.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.secondstate.io",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 3,
+  "last_round": "Series A, $3M, Jul 2019, led by Susquehanna International Group",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Susquehanna International Group"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "WasmEdge runtime and LlamaEdge for portable LLM inference on edge and laptops",
+  "problem": "Running LLM apps portably across heterogeneous edge devices without heavy Python/container stacks",
+  "products": [
+   {
+    "name": "WasmEdge",
+    "category": "runtime",
+    "description": "CNCF lightweight WebAssembly runtime with WASI-NN for AI inference"
+   },
+   {
+    "name": "LlamaEdge",
+    "category": "runtime",
+    "description": "Wasm-based framework with OpenAI-compatible API for local LLM apps"
+   },
+   {
+    "name": "Gaia",
+    "category": "platform",
+    "description": "Decentralized/self-hosted node software for running domain-specific LLM agents"
+   },
+   {
+    "name": "Second State Functions",
+    "category": "service",
+    "description": "Hosted/serverless Wasm functions and enterprise support for WasmEdge"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation",
+   "embedded-iot",
+   "private-cloud"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "CNCF",
+   "NVIDIA",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Wasm-based single portable binary for LLM inference across GPUs and CPUs",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/?p=485351",
+   "https://www.secondstate.io"
+  ]
+ },
+ {
+  "id": "sensory",
+  "name": "Sensory",
+  "verdict": "in",
+  "verdict_reason": "Veteran embedded on-device voice/vision AI vendor; all products run without cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sensory.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 1994,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 70,
+  "employees_band": "51-200",
+  "focus": "Embedded on-device speech, wake word and biometric AI",
+  "problem": "Adding voice and vision interfaces to devices without cloud dependence, latency or privacy risk",
+  "products": [
+   {
+    "name": "TrulyHandsfree",
+    "category": "sdk",
+    "description": "Ultra-low-power on-device wake word and voice triggers"
+   },
+   {
+    "name": "TrulyNatural",
+    "category": "sdk",
+    "description": "Embedded large-vocabulary speech recognition and NLU with LLM handoff"
+   },
+   {
+    "name": "VoiceHub",
+    "category": "platform",
+    "description": "Web tool to build and test custom wake words and commands"
+   },
+   {
+    "name": "TrulySecure",
+    "category": "sdk",
+    "description": "On-device face and voice biometric authentication"
+   },
+   {
+    "name": "SoundID",
+    "category": "sdk",
+    "description": "Embedded sound-event recognition"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "mobile",
+   "vehicle-robot-drone",
+   "pc-workstation"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "developers"
+  ],
+  "partners": [
+   "Qualcomm",
+   "Arm",
+   "Cadence",
+   "Synaptics"
+  ],
+  "notable_customers": [
+   "Samsung",
+   "Google",
+   "Motorola"
+  ],
+  "differentiator": "Three decades of on-device speech on microcontrollers, with no cloud requirement",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "software-mansion-react-native-executorch",
+  "name": "Software Mansion",
+  "verdict": "in",
+  "verdict_reason": "Maintains React Native ExecuTorch, a dedicated open-source on-device AI library, plus consulting.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://swmansion.com",
+  "hq_city": "Krakow",
+  "hq_country": "Poland",
+  "founded": 2012,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "React Native consultancy and maintainer of on-device AI library React Native ExecuTorch",
+  "problem": "Running LLM and vision models locally in React Native apps without bespoke native code",
+  "products": [
+   {
+    "name": "React Native ExecuTorch",
+    "category": "sdk",
+    "description": "Open-source declarative API to run ExecuTorch models (LLM, vision, STT) in React Native"
+   },
+   {
+    "name": "React Native ExecuTorch Models",
+    "category": "model",
+    "description": "Pre-exported on-device model collection on Hugging Face"
+   },
+   {
+    "name": "On-device AI consulting",
+    "category": "service",
+    "description": "App development services including local AI integration"
+   }
+  ],
+  "deployment": [
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "Meta (ExecuTorch)",
+   "Expo",
+   "Shopify"
+  ],
+  "notable_customers": [],
+  "differentiator": "Official-style React Native bindings for Meta's ExecuTorch, backed by large RN consultancy",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "soundhound-ai",
+  "name": "SoundHound AI",
+  "verdict": "borderline",
+  "verdict_reason": "Edge/on-device voice AI is a real line, but mostly cloud/hybrid voice platform and agents.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.soundhound.com",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2005,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: SOUN)",
+  "key_investors": [],
+  "employees": 1500,
+  "employees_band": "1001-5000",
+  "focus": "Voice AI platform for automotive, restaurants and devices",
+  "problem": "Adding conversational voice to cars and devices that works without constant connectivity",
+  "products": [
+   {
+    "name": "Houndify",
+    "category": "platform",
+    "description": "Voice AI development platform with embedded and hybrid deployment"
+   },
+   {
+    "name": "SoundHound Chat AI",
+    "category": "app",
+    "description": "In-vehicle voice assistant with generative AI"
+   },
+   {
+    "name": "Edge/embedded voice AI",
+    "category": "sdk",
+    "description": "On-device ASR, NLU and LLM on NVIDIA DRIVE and auto chips"
+   },
+   {
+    "name": "Amelia",
+    "category": "platform",
+    "description": "Enterprise conversational AI agents (cloud/private)"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem",
+   "enterprise",
+   "retail"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Stellantis",
+   "Hyundai",
+   "Kia"
+  ],
+  "notable_customers": [
+   "Hyundai",
+   "Stellantis",
+   "White Castle"
+  ],
+  "differentiator": "Independent voice AI with on-chip automotive deployments, not tied to a big-tech assistant",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "speechmatics",
+  "name": "Speechmatics",
+  "verdict": "in",
+  "verdict_reason": "Marketed on-prem containers and on-device speech-to-text alongside cloud API.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.speechmatics.com",
+  "hq_city": "Cambridge",
+  "hq_country": "United Kingdom",
+  "founded": 2006,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 75,
+  "last_round": "Series B, $62M, Jan 2023, led by Susquehanna Growth Equity (reported)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Susquehanna Growth Equity",
+   "Albion VC",
+   "IQ Capital",
+   "Amadeus Capital"
+  ],
+  "employees": 180,
+  "employees_band": "51-200",
+  "focus": "Speech recognition and voice AI with cloud, on-prem and on-device deployment",
+  "problem": "Transcribing speech in many languages with data staying in customer environment",
+  "products": [
+   {
+    "name": "Speechmatics Flow/Voice Agent API",
+    "category": "platform",
+    "description": "Voice agent API combining ASR, LLM and TTS"
+   },
+   {
+    "name": "Speechmatics Containers (On-prem)",
+    "category": "system",
+    "description": "Containerized ASR for private cloud, on-prem and air-gapped deployment"
+   },
+   {
+    "name": "Speechmatics On-Device",
+    "category": "runtime",
+    "description": "ASR running on end-user hardware without sending audio"
+   },
+   {
+    "name": "Realtime and Batch ASR",
+    "category": "service",
+    "description": "50+ language speech-to-text API"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "mobile",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "healthcare",
+   "telecom"
+  ],
+  "partners": [
+   "Microsoft",
+   "Nvidia"
+  ],
+  "notable_customers": [],
+  "differentiator": "Self-supervised speech models with true on-prem and on-device options across 50+ languages",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "tether-qvac",
+  "name": "Tether (QVAC)",
+  "verdict": "in",
+  "verdict_reason": "QVAC is a dedicated local-first AI SDK and app platform from Tether.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Tether Holdings",
+  "website": "https://tether.io",
+  "hq_city": "San Salvador",
+  "hq_country": "El Salvador",
+  "founded": 2014,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Private; Tether Group (profitable stablecoin issuer)",
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Stablecoin issuer with QVAC division for local, peer-to-peer AI",
+  "problem": "Running capable AI privately on user devices without centralized cloud providers",
+  "products": [
+   {
+    "name": "QVAC SDK",
+    "category": "sdk",
+    "description": "Open-source SDK for local, offline AI apps across phones, desktops, servers"
+   },
+   {
+    "name": "QVAC Fabric",
+    "category": "runtime",
+    "description": "llama.cpp-based inference and fine-tuning engine for heterogeneous devices"
+   },
+   {
+    "name": "QVAC Workbench",
+    "category": "app",
+    "description": "Local-first AI app for running models and agents on-device"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [
+   "llama.cpp",
+   "Holepunch"
+  ],
+  "notable_customers": [],
+  "differentiator": "Funded by stablecoin-issuer balance sheet; peer-to-peer, decentralized local AI",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "tracel-ai-burn",
+  "name": "Tracel AI",
+  "verdict": "in",
+  "verdict_reason": "Core product is Burn, a Rust deep-learning framework for portable edge and on-device inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://burn.dev",
+  "hq_city": "Montreal",
+  "hq_country": "Canada",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3,
+  "last_round": "Seed, $3M, Aug 2025, led by Golden Ventures and OSS Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Golden Ventures",
+   "OSS Capital"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Rust deep-learning framework Burn and CubeCL compute language",
+  "problem": "Deploying one model codebase across GPUs, browsers and embedded devices without framework lock-in",
+  "products": [
+   {
+    "name": "Burn",
+    "category": "runtime",
+    "description": "Rust deep-learning framework with WebGPU, Metal, CUDA, no_std embedded backends"
+   },
+   {
+    "name": "CubeCL",
+    "category": "sdk",
+    "description": "Rust GPU compute language for portable kernels"
+   },
+   {
+    "name": "Burn Central",
+    "category": "platform",
+    "description": "Cloud platform for training and deploying Burn models"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "browser",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Rust-native framework with no_std support for tiny devices and browser WebGPU",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://burn.dev/blog/funding-announcement"
+  ]
+ },
+ {
+  "id": "traceweave",
+  "name": "TraceWeave",
+  "verdict": "in",
+  "verdict_reason": "Core business is an on-device, constant-memory AI agent architecture.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.traceweave.net",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 2.26,
+  "last_round": "Seed, KRW 3B (~$2.26M), Oct 2026, led by Mirae Asset Capital with NAVER D2SF",
+  "valuation_usd_m": 22,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Mirae Asset Capital",
+   "NAVER D2SF"
+  ],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "Constant-memory post-Transformer architecture for on-device AI agents",
+  "problem": "Running long-context agents on memory-limited devices without cloud calls",
+  "products": [
+   {
+    "name": "Phase-TITAN",
+    "category": "model",
+    "description": "Post-Transformer architecture with constant memory for long-context on-device agents"
+   },
+   {
+    "name": "TraceWeave on-device agent runtime",
+    "category": "runtime",
+    "description": "Multi-step agent running CPU-only on smartphones and vehicles"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Constant memory regardless of context length enables agents on small devices",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://runtimewire.com/article/traceweave-naver-d2sf-seed-on-device-ai",
+   "https://pulse2.com/traceweave-raises-about-2-26-million-to-advance-constant-memory-on-device-ai-architecture/"
+  ]
+ },
+ {
+  "id": "visionary-ai",
+  "name": "Visionary.ai",
+  "verdict": "in",
+  "verdict_reason": "Core product is real-time AI image processing running on camera and phone chipsets.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.visionary.ai",
+  "hq_city": "Jerusalem",
+  "hq_country": "Israel",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 7,
+  "last_round": "Seed extension, $2.5M, 2022 (total seed $7M)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Ibex Investors",
+   "Spring Ventures",
+   "Capital Point",
+   "National Grid Partners"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "AI image signal processing and video denoising running on device chipsets",
+  "problem": "Producing clean low-light images and video in cameras without heavy cloud or ISP hardware",
+  "products": [
+   {
+    "name": "Visionary.ai AI ISP",
+    "category": "sdk",
+    "description": "Software AI image signal processor for sensors and cameras"
+   },
+   {
+    "name": "Real-time Video Denoiser",
+    "category": "sdk",
+    "description": "Low-light denoising running on edge chipsets"
+   },
+   {
+    "name": "AI Super Resolution/HDR",
+    "category": "sdk",
+    "description": "Exposure control, HDR and enhancement on device"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "mobile",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "consumer-electronics-oem",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "AI replaces traditional ISP tuning, running in real time on low-power chips",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.businesswire.com/news/home/20210519005431/en/",
+   "https://finsmes.com/2022/03/visionary-ai-raises-2-5m-in-funding.html"
+  ]
+ },
+ {
+  "id": "vivoka",
+  "name": "Vivoka",
+  "verdict": "in",
+  "verdict_reason": "VDK is a dedicated embedded offline speech platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://vivoka.com",
+  "hq_city": "Metz",
+  "hq_country": "France",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Embedded offline voice recognition and TTS development kit",
+  "problem": "Adding voice control to industrial and embedded products without internet connection",
+  "products": [
+   {
+    "name": "VDK (Voice Development Kit)",
+    "category": "sdk",
+    "description": "Offline ASR, TTS, wake-word and NLU toolkit for embedded devices"
+   },
+   {
+    "name": "VDK Studio",
+    "category": "platform",
+    "description": "Visual studio to design voice commands and deploy to devices"
+   },
+   {
+    "name": "Vivoka On-device LLM",
+    "category": "model",
+    "description": "Embedded small-LLM integration for offline conversational voice"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "mobile",
+   "vehicle-robot-drone",
+   "pc-workstation"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "consumer-electronics-oem",
+   "healthcare"
+  ],
+  "partners": [
+   "NXP",
+   "Renesas",
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Offline voice SDK supporting many languages on embedded hardware",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "zetic-ai",
+  "name": "Zetic.ai",
+  "verdict": "in",
+  "verdict_reason": "MLange platform dedicated to converting models for on-device mobile NPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://zetic.ai",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 1,
+  "last_round": "Seed, undisclosed, May 2024, Korea Investment Accelerator and TheVentures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TheVentures",
+   "Korea Investment Accelerator",
+   "LG Superstart"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "On-device AI deployment platform optimizing models for phone NPUs",
+  "problem": "Moving costly cloud GPU AI services onto user phones for lower cost and latency",
+  "products": [
+   {
+    "name": "ZETIC.MLange",
+    "category": "platform",
+    "description": "Converts and optimizes models into NPU-specific libraries for mobile apps"
+   },
+   {
+    "name": "MLange model library",
+    "category": "model",
+    "description": "Ready-to-run on-device models for vision, speech and LLM"
+   },
+   {
+    "name": "MLange SDK",
+    "category": "sdk",
+    "description": "Runtime SDK for iOS and Android deployment"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "embedded-iot"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Automatic per-chipset NPU compilation, claimed up to 60x over mobile CPU",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://wowtale.net/2024/05/21/76988",
+   "https://www.cbinsights.com/company/zeticai/"
+  ]
+ },
+ {
+  "id": "backyard-ai-formerly-faraday-dev",
+  "name": "Backyard AI",
+  "verdict": "in",
+  "verdict_reason": "Desktop app built to run character LLMs locally; cloud option secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://backyard.ai",
+  "hq_city": "Unknown",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Character-chat app running local LLMs on user hardware",
+  "problem": "Chatting with AI characters privately without censorship or cloud data exposure",
+  "products": [
+   {
+    "name": "Backyard AI Desktop",
+    "category": "app",
+    "description": "Desktop app running GGUF character models locally"
+   },
+   {
+    "name": "Backyard AI Cloud",
+    "category": "service",
+    "description": "Optional hosted models and cross-device sync"
+   },
+   {
+    "name": "Character Hub",
+    "category": "platform",
+    "description": "Community library of characters and models"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Local-first character chat app descended from Faraday.dev",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "beelink",
+  "name": "Beelink",
+  "verdict": "borderline",
+  "verdict_reason": "Generic mini-PCs marketed for local AI with Ryzen AI Max+ models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.bee-link.com",
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 2012,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 500,
+  "employees_band": "201-500",
+  "focus": "Mini-PC maker including AI-oriented Ryzen AI Max+ systems",
+  "problem": "Running LLMs locally on compact desktop hardware",
+  "products": [
+   {
+    "name": "Beelink GTR9 Pro",
+    "category": "device",
+    "description": "Ryzen AI Max+ 395 mini PC with up to 128GB unified memory"
+   },
+   {
+    "name": "Beelink SER series",
+    "category": "device",
+    "description": "Ryzen mini PCs positioned for local AI workloads"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "smb",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Low-cost compact boxes with large unified memory for local LLMs",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "boltai",
+  "name": "BoltAI",
+  "verdict": "borderline",
+  "verdict_reason": "Mac AI client; local models via Ollama/LM Studio are one option among cloud APIs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://boltai.com",
+  "hq_city": "Unknown",
+  "hq_country": "Unknown",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 3,
+  "employees_band": "1-10",
+  "focus": "Native Mac AI chat and inline assistant app",
+  "problem": "Using many AI models from one native Mac app, including local ones",
+  "products": [
+   {
+    "name": "BoltAI",
+    "category": "app",
+    "description": "Native macOS/iOS AI client supporting OpenAI, Anthropic, Ollama and LM Studio"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Native Mac app with local-model support, one-time purchase",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "brave-software",
+  "name": "Brave Software",
+  "verdict": "borderline",
+  "verdict_reason": "Leo assistant supports Bring Your Own Model with local Ollama; secondary to cloud models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://brave.com/leo/",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 130,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Founders Fund",
+   "Peter Thiel",
+   "Pantera",
+   "Propel"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Privacy browser with Leo AI assistant",
+  "problem": "Using AI in the browser without sending data to third parties",
+  "products": [
+   {
+    "name": "Brave Leo",
+    "category": "app",
+    "description": "Browser AI assistant with BYOM support for local Ollama models"
+   },
+   {
+    "name": "Leo confidential models",
+    "category": "service",
+    "description": "Privacy-preserving hosted models with TEE-based inference"
+   }
+  ],
+  "deployment": [
+   "browser",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Browser-native assistant allowing local model endpoints",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "brevilabs-obsidian-copilot",
+  "name": "Brevilabs (Obsidian Copilot)",
+  "verdict": "borderline",
+  "verdict_reason": "Obsidian plugin that supports local models but mostly used with cloud APIs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.obsidiancopilot.com",
+  "hq_city": "Unknown",
+  "hq_country": "Unknown",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "AI chat and vault Q&A plugin for Obsidian",
+  "problem": "Querying personal notes with AI privately",
+  "products": [
+   {
+    "name": "Copilot for Obsidian",
+    "category": "app",
+    "description": "Obsidian plugin for chat, vault QA, supporting Ollama and LM Studio local models"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open-source Obsidian plugin with local-first vault search option",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "cherry-studio",
+  "name": "Cherry Studio",
+  "verdict": "borderline",
+  "verdict_reason": "Desktop LLM client; local models via Ollama/LM Studio are one supported option.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.cherry-ai.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2024,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Open-source desktop LLM client with assistants and knowledge base",
+  "problem": "Using many cloud and local models from one desktop UI",
+  "products": [
+   {
+    "name": "Cherry Studio",
+    "category": "app",
+    "description": "Open-source desktop client with Ollama/LM Studio support and local knowledge bases"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Popular open-source multi-model desktop client from China",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "cloudstack-llc",
+  "name": "CloudStack, LLC (Msty)",
+  "verdict": "in",
+  "verdict_reason": "Msty Studio is a private desktop AI workspace built around local models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://msty.ai",
+  "hq_city": "Unknown",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Private desktop AI workspace mixing local and cloud models",
+  "problem": "Running and comparing local LLMs privately without telemetry",
+  "products": [
+   {
+    "name": "Msty Studio",
+    "category": "app",
+    "description": "Desktop app with built-in llama.cpp/Ollama engines, knowledge stacks, split chats"
+   },
+   {
+    "name": "Msty Nexus",
+    "category": "platform",
+    "description": "Self-hosted/team AI workspace"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "No-telemetry local-first desktop UI with built-in inference engines",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "comfy-org",
+  "name": "Comfy Org",
+  "verdict": "in",
+  "verdict_reason": "ComfyUI is core local generative-media engine; 4M+ users run it on own GPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.comfy.org",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Open-source node-based engine for local generative media",
+  "problem": "Running image, video and audio diffusion pipelines on own GPUs with full control",
+  "products": [
+   {
+    "name": "ComfyUI",
+    "category": "app",
+    "description": "Open-source node-based local engine for diffusion image, video, audio models"
+   },
+   {
+    "name": "ComfyUI Desktop",
+    "category": "app",
+    "description": "Packaged desktop installer for Windows and Mac"
+   },
+   {
+    "name": "Comfy Cloud",
+    "category": "service",
+    "description": "Hosted ComfyUI on cloud GPUs"
+   },
+   {
+    "name": "ComfyUI Manager/Registry",
+    "category": "platform",
+    "description": "Custom node and workflow registry"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "De facto open-source local workflow standard for generative media",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "continue",
+  "name": "Continue",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source IDE assistant; fully local use via Ollama is supported but optional.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.continue.dev",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 5.1,
+  "last_round": "Seed, $2.1M, 2023 (plus Series A reported 2025)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator",
+   "Heavybit",
+   "Susa Ventures"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Open-source IDE coding assistant and agents",
+  "problem": "Using AI coding help with any model, including self-hosted, for code privacy",
+  "products": [
+   {
+    "name": "Continue extension",
+    "category": "app",
+    "description": "Open-source VS Code/JetBrains assistant supporting Ollama and local models"
+   },
+   {
+    "name": "Continue Hub",
+    "category": "platform",
+    "description": "Shareable assistants, models and rules"
+   },
+   {
+    "name": "Continue CLI agents",
+    "category": "app",
+    "description": "Background coding agents with model choice"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Bring-any-model design enabling air-gapped coding assistants",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "conway-underdog",
+  "name": "Conway Research (Underdog)",
+  "verdict": "in",
+  "verdict_reason": "Underdog is a personal AI assistant processing entirely on the user's device.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.conway.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": "First round led by a16z, Oct 2026, undisclosed",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Andreessen Horowitz",
+   "Khosla Ventures",
+   "Hummingbird VC"
+  ],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "On-device personal AI assistant Underdog",
+  "problem": "Getting a capable personal assistant without sending personal data to cloud",
+  "products": [
+   {
+    "name": "Underdog",
+    "category": "app",
+    "description": "Invite-only on-device AI assistant for Mac, working offline with personal data"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Founder-led a16z-backed assistant monetized via purchase fees, not ads",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+   "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/"
+  ]
+ },
+ {
+  "id": "corsair",
+  "name": "Corsair",
+  "verdict": "borderline",
+  "verdict_reason": "PC hardware maker; AI Workstation 300 marketed for local LLMs but generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.corsair.com",
+  "hq_city": "Fremont",
+  "hq_country": "United States",
+  "founded": 1994,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: CRSR)",
+  "key_investors": [],
+  "employees": 2500,
+  "employees_band": "1001-5000",
+  "focus": "PC components and peripherals maker with AI Workstation 300",
+  "problem": "Running local LLMs on prebuilt compact PC",
+  "products": [
+   {
+    "name": "Corsair AI Workstation 300",
+    "category": "system",
+    "description": "Ryzen AI Max+ 395 compact PC with 128GB unified memory for local AI"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Mainstream PC brand offering turnkey local-AI desktop",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "dinoki-labs",
+  "name": "Dinoki Labs (Osaurus)",
+  "verdict": "in",
+  "verdict_reason": "Osaurus is a local Apple-silicon LLM server with on-device focus.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://osaurus.ai",
+  "hq_city": "Unknown",
+  "hq_country": "United States",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 3,
+  "employees_band": "1-10",
+  "focus": "Open-source Apple-silicon LLM server and menu-bar chat",
+  "problem": "Running MLX models locally with standard APIs and private files",
+  "products": [
+   {
+    "name": "Osaurus",
+    "category": "runtime",
+    "description": "Open-source MLX LLM server with OpenAI/Anthropic-compatible APIs and MCP server"
+   },
+   {
+    "name": "Dinoki",
+    "category": "app",
+    "description": "Desktop AI companion app"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Native Swift MLX server tuned for Mac with MCP integration",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "elephas",
+  "name": "Elephas",
+  "verdict": "borderline",
+  "verdict_reason": "Mac/iOS AI knowledge assistant with offline local LLM mode as an option.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://elephas.app",
+  "hq_city": "Unknown",
+  "hq_country": "Unknown",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Mac and iOS AI writing and personal knowledge assistant",
+  "problem": "Querying personal documents with AI while keeping data private",
+  "products": [
+   {
+    "name": "Elephas",
+    "category": "app",
+    "description": "Mac/iOS AI assistant with offline mode using local models and Super Brain document QA"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "legal",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Document-centric personal assistant with optional fully offline mode",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "ente-technologies",
+  "name": "Ente Technologies",
+  "verdict": "borderline",
+  "verdict_reason": "E2EE photos with on-device ML and Ensu local LLM app; AI is secondary to storage.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://ente.io",
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 0.7,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Everywhere Ventures"
+  ],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "End-to-end encrypted photo storage with on-device ML",
+  "problem": "Searching and organizing photos with AI without exposing them to the provider",
+  "products": [
+   {
+    "name": "Ente Photos",
+    "category": "app",
+    "description": "Encrypted photo storage with on-device face recognition and semantic search"
+   },
+   {
+    "name": "Ensu",
+    "category": "app",
+    "description": "Local LLM chat app running on-device"
+   },
+   {
+    "name": "Ente Auth",
+    "category": "app",
+    "description": "Open-source 2FA app"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "browser"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "On-device ML preserving end-to-end encryption",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "exo-labs",
+  "name": "Exo Labs",
+  "verdict": "in",
+  "verdict_reason": "Open-source exo clusters everyday devices for local inference; core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://exolabs.net",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": "Funding unconfirmed (public sources conflicting, mostly name collisions)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Open-source software clustering Macs and PCs for local AI inference",
+  "problem": "Running frontier-size models locally without datacenter GPUs or cloud",
+  "products": [
+   {
+    "name": "exo",
+    "category": "runtime",
+    "description": "Open-source distributed inference clustering Macs, PCs and phones into one AI cluster"
+   },
+   {
+    "name": "exo RDMA over Thunderbolt 5",
+    "category": "runtime",
+    "description": "Low-latency Mac-to-Mac tensor parallelism using RDMA"
+   },
+   {
+    "name": "EXO Labs hardware stacks",
+    "category": "system",
+    "description": "Reference Mac Studio clusters for local frontier models"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "mobile"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Peer-to-peer device clustering shards large models across consumer hardware",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://exolabs.net"
+  ]
+ },
+ {
+  "id": "fastrepl-anarlog-formerly-hyprnote",
+  "name": "fastrepl (anarlog, formerly Hyprnote)",
+  "verdict": "in",
+  "verdict_reason": "Open-source local-first meeting notepad with on-device transcription and local LLM.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/fastrepl/hyprnote",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Open-source local-first AI meeting notepad",
+  "problem": "Taking meeting notes with AI without uploading audio to cloud",
+  "products": [
+   {
+    "name": "anarlog (Hyprnote)",
+    "category": "app",
+    "description": "Local-first notepad with on-device STT, SQLite storage and optional local LLM summaries"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Meeting notes fully offline with bring-your-own local models",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "framework-computer",
+  "name": "Framework Computer",
+  "verdict": "borderline",
+  "verdict_reason": "Repairable laptop maker; Framework Desktop marketed for local LLMs but generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://frame.work/desktop",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 48,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Spark Capital",
+   "Kleiner Perkins",
+   "Anthos",
+   "Mike Cannon-Brookes"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Repairable modular laptops and Framework Desktop",
+  "problem": "Running large local LLMs on a compact repairable desktop",
+  "products": [
+   {
+    "name": "Framework Desktop",
+    "category": "system",
+    "description": "Ryzen AI Max+ 395 mini-PC with up to 128GB memory, clusterable for local AI"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Modular, repairable, upgradable hardware with large unified memory",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "futo",
+  "name": "FUTO",
+  "verdict": "borderline",
+  "verdict_reason": "Nonprofit-style org with offline voice input and Immich funding; AI is part of a broad portfolio.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://futo.org",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Software and grants organization with offline keyboard and voice input",
+  "problem": "Using speech and photo AI without surrendering data to big tech",
+  "products": [
+   {
+    "name": "FUTO Voice Input",
+    "category": "app",
+    "description": "Offline on-device speech recognition for Android based on Whisper"
+   },
+   {
+    "name": "FUTO Keyboard",
+    "category": "app",
+    "description": "Privacy-first keyboard with on-device prediction"
+   },
+   {
+    "name": "Immich (funded)",
+    "category": "app",
+    "description": "Self-hosted photo management with local ML search"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Privately funded org building offline, user-owned software",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "genta-technology-kolosal-ai",
+  "name": "Genta Technology (Kolosal AI)",
+  "verdict": "in",
+  "verdict_reason": "Kolosal AI is a lightweight desktop app for running and fine-tuning LLMs locally.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://kolosal.ai",
+  "hq_city": "Jakarta",
+  "hq_country": "Indonesia",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "Open-source desktop app for running LLMs locally",
+  "problem": "Running and fine-tuning models offline on CPU or GPU hardware",
+  "products": [
+   {
+    "name": "Kolosal AI",
+    "category": "app",
+    "description": "Open-source desktop GGUF inference app with local OpenAI-compatible server"
+   },
+   {
+    "name": "Kolosal Server",
+    "category": "runtime",
+    "description": "Local inference server for CPUs and AMD/NVIDIA GPUs"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Tiny footprint native app with local fine-tuning",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "gmktec",
+  "name": "GMKtec",
+  "verdict": "borderline",
+  "verdict_reason": "Mini-PC maker; EVO-X2 marketed for local LLMs but generic hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.gmktec.com",
+  "hq_city": "Shenzhen",
+  "hq_country": "China",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Mini-PC maker including AI mini PC EVO-X2",
+  "problem": "Running 70B-class LLMs locally on compact hardware",
+  "products": [
+   {
+    "name": "GMKtec EVO-X2",
+    "category": "device",
+    "description": "Ryzen AI Max+ 395 mini PC with up to 128GB unified memory"
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "image-video-gen"
+  ],
+  "customers": [
+   "consumers",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Early mover shipping Ryzen AI Max+ 395 mini PC",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "icewhale-technology-zimacube-casaos",
+  "name": "IceWhale Technology",
+  "verdict": "borderline",
+  "verdict_reason": "Personal NAS/cloud hardware marketed for self-hosted AI apps; AI secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zimaspace.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 3,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Kickstarter backers"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Personal cloud hardware ZimaCube/ZimaBoard and ZimaOS",
+  "problem": "Self-hosting data and apps, including AI, at home",
+  "products": [
+   {
+    "name": "ZimaCube",
+    "category": "system",
+    "description": "Personal NAS server running self-hosted apps incl. local AI"
+   },
+   {
+    "name": "ZimaBoard",
+    "category": "device",
+    "description": "Single-board server for home labs"
+   },
+   {
+    "name": "ZimaOS/CasaOS",
+    "category": "platform",
+    "description": "Open-source home server OS with app store including Ollama"
+   }
+  ],
+  "deployment": [
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "smb",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Crowdfunded home-server hardware with one-click AI apps",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "invoke-invoke-ai",
+  "name": "Invoke",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source InvokeAI still runs locally, but company team joined Adobe and platform ended.",
+  "status": "acquired",
+  "status_detail": "Team acquired by Adobe (Oct 2025, joined AI Foundry); terms undisclosed; open-source project continues",
+  "parent": "Adobe",
+  "website": "https://www.invoke.com",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 3.8,
+  "last_round": "Seed, $3.8M (reported; unconfirmed)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Intel Capital",
+   "Cherry Ventures"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Open-source InvokeAI local image-generation studio",
+  "problem": "Generating brand-safe images with models running on own hardware",
+  "products": [
+   {
+    "name": "InvokeAI",
+    "category": "app",
+    "description": "Open-source local Stable Diffusion/FLUX creative studio"
+   },
+   {
+    "name": "Invoke Enterprise",
+    "category": "platform",
+    "description": "Self-hosted/private-cloud image-generation platform (discontinued)"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "image-video-gen"
+  ],
+  "customers": [
+   "enterprise",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Pro-creative UI with IP-trained models, now community-maintained",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://thelettertwo.com/2025/10/20/adobe-ai-foundry-custom-generative-models/"
+  ]
+ },
+ {
+  "id": "khoj-inc",
+  "name": "Khoj Inc.",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hostable AI second brain; works with local LLMs but cloud is the main offering.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://khoj.dev",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "Open-source self-hostable AI second brain",
+  "problem": "Querying personal documents with AI while controlling where data lives",
+  "products": [
+   {
+    "name": "Khoj",
+    "category": "app",
+    "description": "Open-source assistant, self-host with local LLMs via Ollama"
+   },
+   {
+    "name": "Khoj Cloud",
+    "category": "service",
+    "description": "Hosted version"
+   },
+   {
+    "name": "Pipali",
+    "category": "app",
+    "description": "Local AI coworker app"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "private-cloud",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers",
+   "developers",
+   "smb"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Self-host with any local or cloud LLM over personal data",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "kin",
+  "name": "Kin",
+  "verdict": "borderline",
+  "verdict_reason": "Personal AI companion with local-first memory design; inference partly cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mykin.ai",
+  "hq_city": "Copenhagen",
+  "hq_country": "Denmark",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Personal AI advisor app with local-first memory",
+  "problem": "Getting personalized AI help while keeping personal memory on device",
+  "products": [
+   {
+    "name": "Kin",
+    "category": "app",
+    "description": "Personal AI advisor app storing memory locally on user's device"
+   }
+  ],
+  "deployment": [
+   "mobile"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Local-first personal memory store with advisor-style companion",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "librechat",
+  "name": "LibreChat",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hosted multi-model chat UI; local-model support via Ollama is a feature, not the focus.",
+  "status": "acquired",
+  "status_detail": "Acquired by ClickHouse (announced Nov 4, 2025); confirmed",
+  "parent": "ClickHouse",
+  "website": "https://www.librechat.ai",
+  "hq_city": "Unknown",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Open-source self-hosted multi-model chat platform",
+  "problem": "Giving teams a private ChatGPT-style UI over any model endpoint",
+  "products": [
+   {
+    "name": "LibreChat",
+    "category": "platform",
+    "description": "Open-source self-hosted chat UI supporting Ollama, OpenAI-compatible endpoints, agents, MCP"
+   },
+   {
+    "name": "LibreChat Cloud/ClickHouse embedding",
+    "category": "service",
+    "description": "Planned embedding in ClickHouse Cloud analytics"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "MIT-licensed self-hostable chat platform with wide model support",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://clickhouse.com/blog/clickhouse-acquires-librechat",
+   "https://www.businesswire.com/news/home/20251104505230/en/ClickHouse-Acquires-LibreChat-to-Democratize-AI-Driven-Analytics-Through-the-Open-Source-Agentic-Data-Stack"
+  ]
+ },
+ {
+  "id": "limitless-formerly-rewind-ai",
+  "name": "Limitless (formerly Rewind AI)",
+  "verdict": "out",
+  "verdict_reason": "Acquired by Meta; Rewind and Pendant sales wound down; no ongoing local-AI offering.",
+  "status": "acquired",
+  "status_detail": "Acquired by Meta (announced Dec 5, 2025); Rewind capture disabled Dec 19, 2025; confirmed",
+  "website": "https://www.limitless.ai"
+ },
+ {
+  "id": "liquid-ai",
+  "name": "Liquid AI",
+  "verdict": "in",
+  "verdict_reason": "Core business is efficient foundation models and LEAP SDK built for on-device inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.liquid.ai",
+  "hq_city": "Cambridge",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 297,
+  "last_round": "Series A, $250M, Dec 2024, led by AMD",
+  "valuation_usd_m": 2350,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "AMD",
+   "OSS Capital",
+   "Automatic Ventures",
+   "Duke Capital",
+   "Samsung Catalyst"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Efficient Liquid Foundation Models for on-device and edge deployment",
+  "problem": "Running capable generative models on phones, laptops and cars without cloud",
+  "products": [
+   {
+    "name": "LFM2 / LFM2.5 models",
+    "category": "model",
+    "description": "Open-weight small hybrid models for on-device text, vision and audio"
+   },
+   {
+    "name": "LEAP",
+    "category": "sdk",
+    "description": "SDK and model library for deploying LFMs on iOS, Android, laptops"
+   },
+   {
+    "name": "Apollo",
+    "category": "app",
+    "description": "Private on-device LLM chat app for iPhone"
+   },
+   {
+    "name": "Liquid Edge deployments",
+    "category": "service",
+    "description": "Custom model and enterprise on-prem/edge deployments"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "vehicle-robot-drone",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "enterprise",
+   "developers"
+  ],
+  "partners": [
+   "AMD",
+   "Qualcomm",
+   "Samsung",
+   "Mercedes-Benz"
+  ],
+  "notable_customers": [],
+  "differentiator": "Non-transformer architecture designed from first principles for memory-efficient edge inference",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2024/12/13/liquid-ai-just-raised-250m-to-develop-a-more-efficient-type-of-ai-model/",
+   "https://www.cbinsights.com/company/liquid-ai"
+  ]
+ }
+]

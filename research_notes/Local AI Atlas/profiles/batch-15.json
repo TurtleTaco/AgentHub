@@ -1,0 +1,2799 @@
+[
+ {
+  "id": "smallest-ai",
+  "name": "Smallest.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Voice models mainly cloud API; on-prem option via Tenstorrent hardware partnership.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://smallest.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Small, fast voice AI models (TTS/STT) for real-time voice agents.",
+  "problem": "Voice agents need low-latency, low-cost speech models that can also run on private infrastructure.",
+  "products": [
+   {
+    "name": "Lightning TTS",
+    "category": "model",
+    "description": "Low-latency text-to-speech model for real-time voice agents."
+   },
+   {
+    "name": "Pulse STT",
+    "category": "model",
+    "description": "Real-time speech-to-text model."
+   },
+   {
+    "name": "Atoms",
+    "category": "platform",
+    "description": "Voice agent platform with on-prem deployment option."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom"
+  ],
+  "partners": [
+   "Tenstorrent"
+  ],
+  "notable_customers": [],
+  "differentiator": "Compact voice models running on-prem on Tenstorrent Galaxy Blackhole servers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.unite.ai/on-prem-voice-agents-get-new-hardware-path-as-smallest-ai-joins-tenstorrent/"
+  ]
+ },
+ {
+  "id": "soket-ai",
+  "name": "Soket AI Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign Indian LLM lab; on-prem delivery for lenders but models not primarily edge.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://soket.ai",
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 4,
+  "last_round": "Seed, ~$4M, Nov 2026, Bajaj Finserv (Finserv Intelligence) and Pennant Technologies (~$2M each)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bajaj Finserv",
+   "Pennant Technologies",
+   "Finvolve",
+   "India Accelerator"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Sovereign multilingual foundation models for India, deployable on-premise.",
+  "problem": "Indian enterprises and lenders need indigenous LLMs they can run on their own infrastructure.",
+  "products": [
+   {
+    "name": "Project EKA",
+    "category": "model",
+    "description": "Open sovereign multilingual LLM effort under IndiaAI Mission."
+   },
+   {
+    "name": "On-prem LLMs for lenders",
+    "category": "service",
+    "description": "Self-hosted models for banking agents, document processing and collections."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "finance",
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "IndiaAI Mission lab building indigenous models with BFSI backing.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://yourstory.com/2026/11/bajaj-finserv-backs-soket-ai-with-4-million-investment-alongside-pennant",
+   "https://inc42.com/buzz/soket-ai-raises-4-mn-from-bajaj-finserv-to-expand-its-ai-model-horizon/"
+  ]
+ },
+ {
+  "id": "speakleash-bielik",
+  "name": "SpeakLeash (Bielik)",
+  "verdict": "borderline",
+  "verdict_reason": "Open Polish LLMs incl. small variants for self-hosting; research foundation, not a local-AI vendor.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://bielik.ai",
+  "hq_city": "Kraków",
+  "hq_country": "Poland",
+  "founded": 2022,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open-science community building Bielik Polish language models.",
+  "problem": "Polish organisations lack open, locally deployable LLMs that understand Polish well.",
+  "products": [
+   {
+    "name": "Bielik v3 small (1.5B/4.5B)",
+    "category": "model",
+    "description": "Compact open-weight Polish LLMs for edge and local use."
+   },
+   {
+    "name": "Bielik 11B",
+    "category": "model",
+    "description": "Open Polish instruct model for self-hosted deployment."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "developers"
+  ],
+  "partners": [
+   "ACK Cyfronet AGH"
+  ],
+  "notable_customers": [],
+  "differentiator": "Community-built open Polish models trained with ACK Cyfronet supercomputing.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://bielik.ai",
+   "https://huggingface.co/speakleash"
+  ]
+ },
+ {
+  "id": "squeezebits",
+  "name": "SqueezeBits",
+  "verdict": "in",
+  "verdict_reason": "Model compression/quantization and serving optimization toolkits for NPUs and edge chips.",
+  "status": "acquired",
+  "status_detail": "Acquired by Rebellions (announced Jun 30, 2026; one outlet says Jul 13); terms undisclosed",
+  "parent": "Rebellions",
+  "website": "https://squeezebits.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Quantization and inference optimization so models fit NPUs and efficient hardware.",
+  "problem": "AI models are too large and costly to run on NPUs and edge chips.",
+  "products": [
+   {
+    "name": "OwLite",
+    "category": "sdk",
+    "description": "Model compression and quantization toolkit for deployment on target devices."
+   },
+   {
+    "name": "Fits on Chips",
+    "category": "service",
+    "description": "Optimization toolkit for LLM/vision models on constrained hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Rebellions"
+  ],
+  "notable_customers": [],
+  "differentiator": "Quantization specialists now integrated into Rebellions NPU full stack.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://en.sedaily.com/technology/2026/06/30/rebellions-acquires-ai-optimization-firm-expanding-npu",
+   "https://www.storagenewsletter.com/2026/07/10/rebellions-acquires-ai-inference-optimization-leader-squeezebits-to-deliver-full-stack-ai-infrastructure/"
+  ]
+ },
+ {
+  "id": "stability-ai",
+  "name": "Stability AI",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight generative models run locally, but business is largely licensing/API with a self-hosted option.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://stability.ai",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Open-weight image, video, audio and 3D generative models.",
+  "problem": "Creators and enterprises need generative media models they can run on their own hardware.",
+  "products": [
+   {
+    "name": "Stable Diffusion family",
+    "category": "model",
+    "description": "Open-weight image generation models for consumer GPUs."
+   },
+   {
+    "name": "Stable Audio Open Small",
+    "category": "model",
+    "description": "Compact audio model optimized with Arm for phones."
+   },
+   {
+    "name": "Self-hosted enterprise license",
+    "category": "service",
+    "description": "Run Stability models on customer infrastructure."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "image-video-gen",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "consumer-electronics-oem",
+   "developers"
+  ],
+  "partners": [
+   "Arm",
+   "NVIDIA",
+   "AMD"
+  ],
+  "notable_customers": [],
+  "differentiator": "Widely used open-weight generative models with enterprise self-hosting licenses.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://stability.ai"
+  ]
+ },
+ {
+  "id": "stanhope-ai",
+  "name": "Stanhope AI",
+  "verdict": "in",
+  "verdict_reason": "Adaptive active-inference AI designed to run on-device in robots and defence systems.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.stanhopeai.com",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 10.9,
+  "last_round": "Seed, $8M, 2026 (Paladin Capital Group)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "UCL Technology Fund",
+   "Paladin Capital Group",
+   "MMC Ventures",
+   "Moonfire Ventures",
+   "Creator Fund"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Active-inference AI that runs on-device for robotics and defence.",
+  "problem": "Robots and drones need adaptive AI that works at the edge with little data and power.",
+  "products": [
+   {
+    "name": "Real-time Adaptive Intelligence (RAI)",
+    "category": "platform",
+    "description": "Active-inference decision software for autonomous machines running on-device."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "vision"
+  ],
+  "customers": [
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Neuroscience-based (Karl Friston) AI needing minimal data and compute at the edge.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2024/03/20/stanhope-raises-ps23m",
+   "https://www.paladincapgroup.com/?p=9292"
+  ]
+ },
+ {
+  "id": "stepfun",
+  "name": "StepFun",
+  "verdict": "borderline",
+  "verdict_reason": "Frontier model lab; Step Edge on-device models and open weights are a side line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.stepfun.com",
+  "hq_city": "Shanghai",
+  "hq_country": "China",
+  "founded": 2023,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Multimodal foundation models with open-weight and edge variants.",
+  "problem": "Phone and car makers need capable multimodal models running on devices.",
+  "products": [
+   {
+    "name": "Step Edge models",
+    "category": "model",
+    "description": "On-device models for phones, cars and devices."
+   },
+   {
+    "name": "Step-Audio",
+    "category": "model",
+    "description": "Open speech models for self-hosting."
+   },
+   {
+    "name": "Step-Video",
+    "category": "model",
+    "description": "Open video generation model."
+   },
+   {
+    "name": "Step3",
+    "category": "model",
+    "description": "Open multimodal model weights."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "vehicle-robot-drone",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "multimodal",
+   "speech-audio",
+   "image-video-gen",
+   "llm-text"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Chinese frontier lab shipping edge-sized and open multimodal models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.stepfun.com",
+   "https://huggingface.co/stepfun-ai"
+  ]
+ },
+ {
+  "id": "stockmark",
+  "name": "Stockmark",
+  "verdict": "borderline",
+  "verdict_reason": "Japanese business LLMs releasable as open/self-hosted weights; main business is SaaS.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://stockmark.co.jp",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Japanese business-domain LLMs and enterprise AI services.",
+  "problem": "Japanese enterprises need low-hallucination LLMs they can host themselves.",
+  "products": [
+   {
+    "name": "Stockmark-LLM",
+    "category": "model",
+    "description": "Open Japanese business LLMs for self-hosting."
+   },
+   {
+    "name": "Anews / SAT",
+    "category": "app",
+    "description": "Enterprise information-collection SaaS."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Japanese open LLMs trained for low-hallucination business use.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://stockmark.co.jp"
+  ]
+ },
+ {
+  "id": "supertone-supertonic",
+  "name": "Supertone (Supertonic)",
+  "verdict": "in",
+  "verdict_reason": "Dedicated open-weight Supertonic TTS that runs fully on device via ONNX.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "HYBE",
+  "website": "https://supertone.ai",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2020,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Voice AI company; Supertonic is open on-device text-to-speech.",
+  "problem": "Cloud TTS adds latency and cost; apps need speech synthesis that runs on-device.",
+  "products": [
+   {
+    "name": "Supertonic",
+    "category": "model",
+    "description": "Open-weight ONNX TTS, ~99M params, 31 languages, no GPU needed."
+   },
+   {
+    "name": "Supertone Shift/Play",
+    "category": "app",
+    "description": "Voice conversion and synthesis products."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "embedded-iot",
+   "browser"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Tiny CPU-only TTS with very high characters-per-second throughput.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://supertone.ai",
+   "https://mer.vin/2026/06/supertonic-3-99m-on-device-tts-with-onnx-31-languages-and-1200-chars-sec/"
+  ]
+ },
+ {
+  "id": "technology-innovation-institute-falcon",
+  "name": "Technology Innovation Institute (Falcon)",
+  "verdict": "borderline",
+  "verdict_reason": "Government research institute releasing open Falcon models including edge-sized ones; not a vendor.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Abu Dhabi Advanced Technology Research Council",
+  "website": "https://falconllm.tii.ae",
+  "hq_city": "Abu Dhabi",
+  "hq_country": "UAE",
+  "founded": 2020,
+  "org_type": "nonprofit",
+  "funding_stage": "Grant/Nonprofit",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open-weight Falcon models including small hybrid and ternary edge variants.",
+  "problem": "Governments and enterprises need sovereign open models runnable on-prem and on devices.",
+  "products": [
+   {
+    "name": "Falcon-H1",
+    "category": "model",
+    "description": "Hybrid attention-SSM open models, multiple sizes."
+   },
+   {
+    "name": "Falcon-E",
+    "category": "model",
+    "description": "1.58-bit ternary models for edge devices."
+   },
+   {
+    "name": "Falcon 3",
+    "category": "model",
+    "description": "Small open LLMs runnable on laptops."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "developers",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "State-backed lab publishing efficient open models, including 1.58-bit edge variants.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://falcon-lm.github.io/blog/falcon-edge",
+   "https://falconllm.tii.ae"
+  ]
+ },
+ {
+  "id": "thirdai",
+  "name": "ThirdAI",
+  "verdict": "in",
+  "verdict_reason": "Trains and serves LLMs on commodity CPUs on customer premises, avoiding GPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.thirdai.com",
+  "hq_city": "Houston",
+  "hq_country": "USA",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 6,
+  "last_round": "Seed, $6M, Aug 2021",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Neotribe Ventures",
+   "Cervin Ventures",
+   "Firebolt Ventures"
+  ],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "Sparse hashing-based deep learning engine for CPU training and inference.",
+  "problem": "Organisations lack GPUs and want to train and run models privately on existing CPUs.",
+  "products": [
+   {
+    "name": "BOLT engine",
+    "category": "runtime",
+    "description": "Hash-based sparse deep learning engine for CPU training and inference."
+   },
+   {
+    "name": "NeuralDB",
+    "category": "platform",
+    "description": "On-prem retrieval and RAG over private data on CPUs."
+   },
+   {
+    "name": "PocketLLM",
+    "category": "app",
+    "description": "Private document-aware LLM running on local machines."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "healthcare",
+   "finance",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "GPU-free training and serving of large models on customer CPUs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://techcrunch.com/2021/08/13/thirdai-raises-6m-to-democratize-ai-to-any-hardware"
+  ]
+ },
+ {
+  "id": "tilde-tildeopen",
+  "name": "Tilde (TildeOpen)",
+  "verdict": "borderline",
+  "verdict_reason": "Language-tech firm releasing open European-language LLM for sovereign self-hosting; local deployment secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://tilde.ai",
+  "hq_city": "Riga",
+  "hq_country": "Latvia",
+  "founded": 1991,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Language technology, machine translation and open European language LLMs.",
+  "problem": "European organisations need sovereign LLMs covering smaller EU languages.",
+  "products": [
+   {
+    "name": "TildeOpen LLM",
+    "category": "model",
+    "description": "Open 30B multilingual model for European languages."
+   },
+   {
+    "name": "Tilde MT",
+    "category": "service",
+    "description": "Private/on-prem machine translation engines."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "models",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Open model focused on under-served European languages for sovereign hosting.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://tilde.ai",
+   "https://huggingface.co/TildeAI"
+  ]
+ },
+ {
+  "id": "titanml-doubleword",
+  "name": "Doubleword (formerly TitanML)",
+  "verdict": "in",
+  "verdict_reason": "Self-hosted inference stack (Titan Takeoff) for running open models in customer VPC or on-prem.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.doubleword.ai",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 14.8,
+  "last_round": "Series A, $12M (GBP9M), May 2025, led by Dawn Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Dawn Capital",
+   "Octopus Ventures",
+   "K5 Global"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Enterprise self-hosted LLM inference and batch inference.",
+  "problem": "Enterprises need to run LLMs in their own infrastructure cheaply and securely.",
+  "products": [
+   {
+    "name": "Doubleword Inference Stack",
+    "category": "platform",
+    "description": "Self-hosted inference platform for open models across private infrastructure."
+   },
+   {
+    "name": "Titan Takeoff",
+    "category": "runtime",
+    "description": "Optimized inference server with quantization (original product)."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "inference-runtime",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Self-hosting-first inference with optimization expertise; rebranded from TitanML in 2025.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.techmarketview.com/ukhotviews/archive/2025/05/12/doubleword-rebrands-and-raises-12m-for-self-hosted-ai-inference",
+   "https://www.doubleword.ai/resources/doubleword-series-a-announcement"
+  ]
+ },
+ {
+  "id": "trillion-labs",
+  "name": "Trillion Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Korean open-weight LLM developer; self-hostable weights but no dedicated local product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://huggingface.co/trillionlabs",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open Korean-capable Tri-series LLMs.",
+  "problem": "Korean organisations want sovereign open models they can self-host.",
+  "products": [
+   {
+    "name": "Tri-series models",
+    "category": "model",
+    "description": "Open-weight Korean/English LLMs in several sizes."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Efficient Korean-capable open models trained from scratch.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://huggingface.co/trillionlabs"
+  ]
+ },
+ {
+  "id": "typhoon-scb-10x",
+  "name": "Typhoon (SCB 10X)",
+  "verdict": "borderline",
+  "verdict_reason": "Open Thai LLM family self-hostable; corporate venture arm project, local deployment secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "SCB 10X (SCBX Group)",
+  "website": "https://opentyphoon.ai",
+  "hq_city": "Bangkok",
+  "hq_country": "Thailand",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open Thai language LLMs and speech models.",
+  "problem": "Thai enterprises need capable Thai-language models they can host privately.",
+  "products": [
+   {
+    "name": "Typhoon LLMs",
+    "category": "model",
+    "description": "Open-weight Thai LLM family in multiple sizes."
+   },
+   {
+    "name": "Typhoon ASR/TTS",
+    "category": "model",
+    "description": "Thai speech models."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Leading open Thai-language model family.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://opentyphoon.ai"
+  ]
+ },
+ {
+  "id": "ultralytics",
+  "name": "Ultralytics",
+  "verdict": "in",
+  "verdict_reason": "YOLO vision models with export to ONNX/TensorRT/TFLite/CoreML; edge deployment is core use.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.ultralytics.com",
+  "hq_city": "Frederick",
+  "hq_country": "USA",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 30,
+  "last_round": "Series A, ~$30M, 2024 (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Real-time YOLO vision models and training platform.",
+  "problem": "Teams need accurate vision models that run in real time on edge devices.",
+  "products": [
+   {
+    "name": "YOLO11 / YOLOv8",
+    "category": "model",
+    "description": "Real-time detection, segmentation, pose models with edge export."
+   },
+   {
+    "name": "Ultralytics HUB / Platform",
+    "category": "platform",
+    "description": "Train, manage and deploy vision models."
+   },
+   {
+    "name": "Ultralytics Python package",
+    "category": "sdk",
+    "description": "Open-source library with export to edge runtimes."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "camera",
+   "mobile",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "developers",
+   "industrial-manufacturing",
+   "retail",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Most widely used open real-time vision model family with broad export targets.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.ultralytics.com",
+   "https://github.com/ultralytics/ultralytics"
+  ]
+ },
+ {
+  "id": "unsloth",
+  "name": "Unsloth",
+  "verdict": "in",
+  "verdict_reason": "Open-source tool to fine-tune and run quantized LLMs locally on consumer or on-prem GPUs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://unsloth.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "open-source-company",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator",
+   "Lightspeed (LSVP)"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Fast, memory-efficient LLM fine-tuning and dynamic GGUF quantization.",
+  "problem": "Developers cannot afford GPUs to fine-tune and run LLMs locally.",
+  "products": [
+   {
+    "name": "Unsloth library",
+    "category": "sdk",
+    "description": "Open-source fine-tuning and RL library with reduced memory use."
+   },
+   {
+    "name": "Dynamic GGUF quants",
+    "category": "model",
+    "description": "Quantized releases of popular open models for llama.cpp."
+   },
+   {
+    "name": "Unsloth Studio",
+    "category": "app",
+    "description": "Local UI to run and train models."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Hand-optimized kernels giving big fine-tuning speedups on single GPUs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://unsloth.ai",
+   "https://lsvp.com/company/unsloth/"
+  ]
+ },
+ {
+  "id": "upstage",
+  "name": "Upstage",
+  "verdict": "in",
+  "verdict_reason": "Solar LLMs and Document AI with marketed on-premise and domestic-NPU deployments for enterprises and government.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.upstage.ai",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 2020,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, ~$72M, 2024 (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Solar LLM family and Document AI for enterprises.",
+  "problem": "Enterprises and governments need strong LLMs and document AI under national data control.",
+  "products": [
+   {
+    "name": "Solar Pro / Solar Open",
+    "category": "model",
+    "description": "Solar LLM family incl. open-weight releases."
+   },
+   {
+    "name": "Document Parse / Document AI",
+    "category": "app",
+    "description": "Document OCR and parsing, deployable on-prem."
+   },
+   {
+    "name": "On-premise Solar deployment",
+    "category": "service",
+    "description": "Private deployment on customer or domestic NPU hardware."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "models",
+   "applications",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance"
+  ],
+  "partners": [
+   "Cohere",
+   "AWS"
+  ],
+  "notable_customers": [],
+  "differentiator": "Korean sovereign LLM maker with on-prem and domestic NPU support.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.upstage.ai"
+  ]
+ },
+ {
+  "id": "zeroentropy",
+  "name": "ZeroEntropy",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight rerankers usable in self-hosted RAG; mainly API retrieval company.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zeroentropy.dev",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Retrieval infrastructure with open-weight zerank rerankers and embeddings.",
+  "problem": "RAG accuracy suffers from weak ranking, and some teams must self-host retrieval.",
+  "products": [
+   {
+    "name": "zerank rerankers",
+    "category": "model",
+    "description": "Open-weight rerankers for self-hosted RAG."
+   },
+   {
+    "name": "ZeroEntropy API",
+    "category": "service",
+    "description": "Hosted retrieval and reranking API with on-prem option."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "High-accuracy open rerankers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.zeroentropy.dev",
+   "https://huggingface.co/zeroentropy"
+  ]
+ },
+ {
+  "id": "zhipu-ai-z-ai",
+  "name": "Zhipu AI (Z.ai)",
+  "verdict": "borderline",
+  "verdict_reason": "Open-weight GLM models widely self-hosted, plus private government deployments; core is frontier model API.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://z.ai",
+  "hq_city": "Beijing",
+  "hq_country": "China",
+  "founded": 2019,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (HKEX; IPO reported early 2026, unverified here)",
+  "key_investors": [],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "GLM foundation models and agents, open weights plus private deployment.",
+  "problem": "Chinese government and enterprises need capable LLMs deployable privately.",
+  "products": [
+   {
+    "name": "GLM-4.x / GLM-5",
+    "category": "model",
+    "description": "MIT-licensed open-weight LLM series."
+   },
+   {
+    "name": "GLM-V",
+    "category": "model",
+    "description": "Open vision-language models."
+   },
+   {
+    "name": "Private deployment",
+    "category": "service",
+    "description": "On-prem GLM for government and SOEs."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "models",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Tsinghua-spinout lab with permissively licensed frontier-scale open weights.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://z.ai",
+   "https://huggingface.co/zai-org"
+  ]
+ },
+ {
+  "id": "ziroh-labs",
+  "name": "Ziroh Labs",
+  "verdict": "in",
+  "verdict_reason": "Kompact AI runs LLMs on commodity CPUs without GPUs for local/private deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zirohlabs.com",
+  "hq_city": "Bengaluru",
+  "hq_country": "India",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "CPU-based LLM inference (Kompact AI) with IIT Madras.",
+  "problem": "Organisations cannot afford GPUs but need private, local LLM inference.",
+  "products": [
+   {
+    "name": "Kompact AI",
+    "category": "platform",
+    "description": "Runtime and optimized models for LLM inference on CPUs."
+   },
+   {
+    "name": "Ziroh private data products",
+    "category": "service",
+    "description": "Privacy-preserving data and AI solutions."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [
+   "IIT Madras",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "GPU-free LLM serving developed with IIT Madras.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://analyticsindiamag.com/ai-startups/this-indian-ai-startup-proves-llms-no-longer-need-expensive-gpus/"
+  ]
+ },
+ {
+  "id": "zyphra",
+  "name": "Zyphra",
+  "verdict": "borderline",
+  "verdict_reason": "Open small hybrid SSM models designed for on-device efficiency, but frontier lab with cloud focus.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zyphra.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 110,
+  "last_round": "Series A, $110M, Jun 2025 at $1B (Dealroom); $500M at >=$5B reported May 2026, unconfirmed",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "AMD"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Hybrid SSM-attention open models (Zamba2, ZAYA1) and Zonos TTS.",
+  "problem": "Efficient models are needed for low-latency on-device inference.",
+  "products": [
+   {
+    "name": "Zamba2",
+    "category": "model",
+    "description": "Small open hybrid SSM-transformer models for on-device use."
+   },
+   {
+    "name": "Zamba2-VL",
+    "category": "model",
+    "description": "Compact open vision-language model."
+   },
+   {
+    "name": "ZAYA1",
+    "category": "model",
+    "description": "MoE model trained on AMD hardware."
+   },
+   {
+    "name": "Zonos",
+    "category": "model",
+    "description": "Open-weight TTS model."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "AMD",
+   "IBM"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hybrid architectures and AMD-trained models targeting efficient inference.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://dealroom.co/companies/zyphra-technologies/",
+   "https://newsroom.amd.com/news/ibm-and-amd-collaborate-with-zyphra-on-next-generation/"
+  ]
+ },
+ {
+  "id": "alpha-cephei-vosk",
+  "name": "Alpha Cephei (Vosk)",
+  "verdict": "in",
+  "verdict_reason": "Vosk open-source offline speech recognition toolkit for edge, mobile and servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://alphacephei.com/vosk",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": null,
+  "org_type": "open-source-company",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Open-source offline speech recognition (Vosk) and related services.",
+  "problem": "Apps need accurate speech recognition that works offline without cloud APIs.",
+  "products": [
+   {
+    "name": "Vosk",
+    "category": "sdk",
+    "description": "Offline ASR toolkit with 20+ languages on Android, iOS, Raspberry Pi, servers."
+   },
+   {
+    "name": "Vosk models",
+    "category": "model",
+    "description": "Small and large ASR models per language."
+   },
+   {
+    "name": "Vosk server",
+    "category": "runtime",
+    "description": "Streaming ASR server for local deployment."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "embedded-iot",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Lightweight offline ASR with broad language and platform coverage.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://alphacephei.com/vosk/"
+  ]
+ },
+ {
+  "id": "argmax",
+  "name": "Argmax",
+  "verdict": "in",
+  "verdict_reason": "On-device speech AI SDKs (WhisperKit etc.) for Apple silicon and Android.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.argmaxinc.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 8,
+  "last_round": "Seed, $8M, Nov 2024 (Salesforce Ventures per Argmax; General Catalyst also cited)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Salesforce Ventures",
+   "General Catalyst"
+  ],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "On-device speech foundation model SDKs for Apple and Android.",
+  "problem": "Apps need fast, accurate, private speech AI running on device.",
+  "products": [
+   {
+    "name": "WhisperKit",
+    "category": "sdk",
+    "description": "Open-source on-device speech-to-text framework for Apple silicon."
+   },
+   {
+    "name": "SpeakerKit",
+    "category": "sdk",
+    "description": "On-device speaker diarization."
+   },
+   {
+    "name": "TTSKit",
+    "category": "sdk",
+    "description": "On-device text-to-speech."
+   },
+   {
+    "name": "Argmax Pro SDK",
+    "category": "sdk",
+    "description": "Commercial optimized speech models for Apple and Android."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation",
+   "wearable-xr"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Core ML/Neural Engine-optimized speech models at production quality.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.argmaxinc.com/blog/seed",
+   "https://www.generalcatalyst.com/perspectives/our-investment-in-argmax"
+  ]
+ },
+ {
+  "id": "cactus-compute",
+  "name": "Cactus Compute",
+  "verdict": "in",
+  "verdict_reason": "Cross-platform on-device inference engine and SDKs for LLMs on phones and wearables.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://cactuscompute.com",
+  "hq_city": "San Francisco",
+  "hq_country": "USA",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 0.5,
+  "last_round": "YC Summer 2025, ~$500K",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "On-device AI inference engine for phones and low-power devices.",
+  "problem": "Mobile developers cannot easily run LLMs efficiently on phones and wearables.",
+  "products": [
+   {
+    "name": "Cactus engine",
+    "category": "runtime",
+    "description": "C++ inference engine optimized for mobile CPUs/NPUs."
+   },
+   {
+    "name": "Cactus SDKs",
+    "category": "sdk",
+    "description": "Flutter, React Native, Kotlin and Swift bindings."
+   },
+   {
+    "name": "Cactus Chat",
+    "category": "app",
+    "description": "Local chat app on phones."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "wearable-xr",
+   "embedded-iot"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Energy-efficient mobile-first engine with optional cloud fallback.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.ycombinator.com/companies/cactus-compute",
+   "https://www.infoq.com/news/2025/12/cactus-on-device-inference"
+  ]
+ },
+ {
+  "id": "cephable",
+  "name": "Cephable",
+  "verdict": "in",
+  "verdict_reason": "On-device enterprise agents running on laptops that keep data off the cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://cephable.com",
+  "hq_city": "Seattle",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 11.4,
+  "last_round": "Seed, $7M, Nov 2026, MassMutual Ventures (Dealroom/Axios)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "MassMutual Ventures",
+   "Founder Collective",
+   "Triple Impact Capital",
+   "Hyperplane",
+   "Difference Partners"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "On-device AI agents and accessibility input for PCs.",
+  "problem": "Enterprises want AI assistants that act on devices without sending data to the cloud.",
+  "products": [
+   {
+    "name": "Cephable on-device agent",
+    "category": "app",
+    "description": "Private assistant controlling apps and drafting text, local by default."
+   },
+   {
+    "name": "Cephable accessibility platform",
+    "category": "platform",
+    "description": "Camera/voice-based device control using NPUs."
+   }
+  ],
+  "deployment": [
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "consumers",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Local-first agents with disclosed cloud fallback.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://dealroom.co/news/174103-massmutual-ventures-backs-cephable-s-7m-seed-for-on-device-ai-agents/",
+   "https://cephable.com/cephable-secures-4-6-million-in-seed-funding-to-bridge-the-gap-between-accessibility-and-everyday-tech-use/"
+  ]
+ },
+ {
+  "id": "cerence",
+  "name": "Cerence",
+  "verdict": "in",
+  "verdict_reason": "Embedded automotive voice AI and CaLLM Edge small LLM running in-vehicle.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.cerence.com",
+  "hq_city": "Burlington",
+  "hq_country": "USA",
+  "founded": 2019,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: CRNC)",
+  "key_investors": [],
+  "employees": 1500,
+  "employees_band": "1001-5000",
+  "focus": "Automotive voice assistants and in-car conversational AI.",
+  "problem": "Carmakers need voice AI that works offline in the vehicle.",
+  "products": [
+   {
+    "name": "Cerence xUI",
+    "category": "platform",
+    "description": "Embedded and hybrid in-car assistant."
+   },
+   {
+    "name": "CaLLM Edge",
+    "category": "model",
+    "description": "3.8B embedded small language model for head units."
+   },
+   {
+    "name": "Cerence embedded speech",
+    "category": "sdk",
+    "description": "Offline ASR/TTS for vehicles."
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models",
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "multimodal"
+  ],
+  "customers": [
+   "automotive"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft",
+   "Arm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Spun out of Nuance; supplier to most major carmakers with embedded SLM.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://investors.cerence.com/news-events/press-releases/detail/114/cerence-introduces-pioneering-embedded-small-language-model-purpose-built-for-automotive"
+  ]
+ },
+ {
+  "id": "datasapiens",
+  "name": "DataSapien",
+  "verdict": "in",
+  "verdict_reason": "Device-native AI SDK embedding small models in mobile apps without cloud inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.datasapien.com",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Low-code mobile SDK for on-device AI and personal data stores.",
+  "problem": "Brands want personalisation without sending customer data to the cloud.",
+  "products": [
+   {
+    "name": "DataSapien SDK",
+    "category": "sdk",
+    "description": "20MB mobile SDK with personal data store and SLM orchestration."
+   },
+   {
+    "name": "DataSapien web SDK",
+    "category": "sdk",
+    "description": "Planned WebAssembly-based web version."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "browser"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "retail",
+   "healthcare",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Privacy-first device-native AI for consumer-facing apps.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://thenewstack.io/datasapiens-sdk-the-low-code-way-to-build-on-device-ai/?p=22812232",
+   "https://itbrief.com.au/story/datasapien-unveils-ai-platform-for-secure-cloud-free-mobile-apps"
+  ]
+ },
+ {
+  "id": "flower-labs",
+  "name": "Flower Labs",
+  "verdict": "borderline",
+  "verdict_reason": "Federated learning keeps data on devices/sites, but it is training tooling rather than local inference.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://flower.ai",
+  "hq_city": "Hamburg",
+  "hq_country": "Germany",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 20,
+  "last_round": "Series A, $20M, Feb 2024, led by Felicis",
+  "valuation_usd_m": 100,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Felicis",
+   "Y Combinator",
+   "First Spark Ventures",
+   "Mozilla Ventures",
+   "Factorial Capital"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Open-source federated learning framework and platform.",
+  "problem": "Organisations cannot centralize sensitive data to train or fine-tune models.",
+  "products": [
+   {
+    "name": "Flower framework",
+    "category": "sdk",
+    "description": "Open-source federated learning framework."
+   },
+   {
+    "name": "Flower Intelligence",
+    "category": "sdk",
+    "description": "On-device inference with optional private cloud fallback."
+   },
+   {
+    "name": "Flower platform",
+    "category": "platform",
+    "description": "Managed federated AI platform."
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "mobile",
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "security-privacy",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "healthcare",
+   "finance",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "De facto standard open framework for federated learning.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://flower.ai/blog/2024-02-15-announcing-series-a",
+   "https://fortune.com/2024/02/15/flower-labs-federated-learning-pioneer-valued-at-100-million-in-venture-capital-funding-round/"
+  ]
+ },
+ {
+  "id": "fluent-ai",
+  "name": "Fluent.ai",
+  "verdict": "in",
+  "verdict_reason": "Offline on-device speech-to-intent models for embedded devices and hearables.",
+  "status": "active",
+  "status_detail": "Status not re-verified (not searched); discovery listed unknown",
+  "parent": null,
+  "website": "https://fluent.ai",
+  "hq_city": "Montreal",
+  "hq_country": "Canada",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Offline speech understanding for voice commands on embedded devices.",
+  "problem": "Devices need multilingual voice control that works offline with low power.",
+  "products": [
+   {
+    "name": "Fluent.ai Air",
+    "category": "sdk",
+    "description": "Offline speech-to-intent voice interface for embedded devices."
+   },
+   {
+    "name": "Fluent.ai wake word",
+    "category": "sdk",
+    "description": "On-device wake word and command recognition."
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Acoustic-model approach skipping text for small footprint multilingual commands.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://fluent.ai"
+  ]
+ },
+ {
+  "id": "fluid-inference-fluidaudio",
+  "name": "Fluid Inference (FluidAudio)",
+  "verdict": "in",
+  "verdict_reason": "FluidAudio is an open-source Swift SDK for local ASR, TTS, diarization on Apple Neural Engine.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/FluidInference/FluidAudio",
+  "hq_city": null,
+  "hq_country": null,
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Local audio AI SDK for Apple platforms.",
+  "problem": "Apple-platform developers need local speech models running efficiently on the Neural Engine.",
+  "products": [
+   {
+    "name": "FluidAudio",
+    "category": "sdk",
+    "description": "Swift SDK for on-device ASR, TTS, speaker diarization and VAD."
+   },
+   {
+    "name": "Parakeet Core ML models",
+    "category": "model",
+    "description": "Core ML conversions of speech models."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Apple Neural Engine-optimized audio stack used in shipping apps.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/FluidInference/FluidAudio"
+  ]
+ },
+ {
+  "id": "ggml-ai-llama-cpp",
+  "name": "ggml.ai (llama.cpp)",
+  "verdict": "in",
+  "verdict_reason": "Makers of ggml, llama.cpp and GGUF, the core engine and format for local LLMs.",
+  "status": "acquired",
+  "status_detail": "Team joined/acquired by Hugging Face, announced Feb 20, 2026; projects stay open source under MIT",
+  "parent": "Hugging Face",
+  "website": "https://ggml.ai",
+  "hq_city": "Sofia",
+  "hq_country": "Bulgaria",
+  "founded": 2023,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 3,
+  "employees_band": "1-10",
+  "focus": "Open-source tensor library and inference engine for local LLMs.",
+  "problem": "Running LLMs locally on consumer hardware needs a portable, efficient runtime.",
+  "products": [
+   {
+    "name": "llama.cpp",
+    "category": "runtime",
+    "description": "C/C++ LLM inference engine for CPU/GPU across laptops, phones and servers."
+   },
+   {
+    "name": "ggml",
+    "category": "runtime",
+    "description": "Tensor library underlying llama.cpp and whisper.cpp."
+   },
+   {
+    "name": "GGUF",
+    "category": "model",
+    "description": "Quantized model file format."
+   },
+   {
+    "name": "whisper.cpp",
+    "category": "runtime",
+    "description": "Local speech recognition runtime."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile",
+   "edge-server",
+   "embedded-iot",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "speech-audio"
+  ],
+  "customers": [
+   "developers",
+   "consumers",
+   "enterprise"
+  ],
+  "partners": [
+   "Hugging Face"
+  ],
+  "notable_customers": [],
+  "differentiator": "De facto standard local inference engine and model format.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/",
+   "https://www.plushcap.com/content/huggingface/blog/huggingface-ggml-and-llamacpp-join-hf-to-ensure-the-long-term-progress-of-local-ai"
+  ]
+ },
+ {
+  "id": "iconic",
+  "name": "Iconic",
+  "verdict": "borderline",
+  "verdict_reason": "Gaming startup with an on-device voice-control engine (ACT-1); local AI is enabling tech, not a platform for others.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.startupmag.co.uk/funding/iconic-2025-seed-funding/",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 13,
+  "last_round": "Seed, GBP10M, 2025",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "On-device voice-driven character control engine for games.",
+  "problem": "Games need responsive voice interaction without cloud latency or cost.",
+  "products": [
+   {
+    "name": "ACT-1",
+    "category": "model",
+    "description": "On-device engine interpreting speech to drive game characters."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "models",
+   "applications"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Real-time on-device voice interaction for games.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.startupmag.co.uk/funding/iconic-2025-seed-funding/"
+  ]
+ },
+ {
+  "id": "kardome",
+  "name": "Kardome",
+  "verdict": "borderline",
+  "verdict_reason": "Spatial-hearing voice AI deployed on edge hardware for cars and devices; edge is a delivery mode.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://kardome.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Spatial hearing voice AI isolating speakers by location.",
+  "problem": "Voice assistants fail in noisy multi-speaker environments like cars.",
+  "products": [
+   {
+    "name": "Kardome Spatial Hearing",
+    "category": "sdk",
+    "description": "Edge voice-separation software isolating speakers per seat."
+   },
+   {
+    "name": "Kardome on NVIDIA AGX",
+    "category": "system",
+    "description": "Edge voice AI deployment with NVIDIA Jetson AGX."
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "embedded-iot"
+  ],
+  "layers": [
+   "models",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "automotive",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "SoundHound",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Cocktail-party separation by speaker position at the edge.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.twice.com/the-wire/kardome-demonstrates-edge-based-voice-ai-at-ces-2026"
+  ]
+ },
+ {
+  "id": "lm-kit",
+  "name": "LM-Kit",
+  "verdict": "in",
+  "verdict_reason": "SDK and on-prem server (LM-Kit One) for local LLM inference and agents in .NET.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lm-kit.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Local LLM SDK and server for .NET developers.",
+  "problem": "Enterprises need to run LLMs and agents on local hardware for data sovereignty.",
+  "products": [
+   {
+    "name": "LM-Kit.NET",
+    "category": "sdk",
+    "description": "On-device LLM, vision, speech and agent SDK for .NET."
+   },
+   {
+    "name": "LM-Kit One",
+    "category": "system",
+    "description": "Self-contained on-prem AI server."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "vision",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Single dependency-free .NET stack for local agents.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://lm-kit.com",
+   "https://briefglance.com/articles/lm-kit-one-launches-offering-enterprises-an-ai-lifeline-to-data-sovereignty"
+  ]
+ },
+ {
+  "id": "locai",
+  "name": "Locai",
+  "verdict": "in",
+  "verdict_reason": "Moves inference from cloud APIs onto user-owned hardware for predictable costs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.locai.co.uk",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 1,
+  "last_round": "~$1M, Apr 2026",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 8,
+  "employees_band": "1-10",
+  "focus": "Off-cloud AI infrastructure on customer-owned hardware.",
+  "problem": "AI companies face unpredictable, high cloud API inference bills and data exposure.",
+  "products": [
+   {
+    "name": "Locai off-cloud inference",
+    "category": "platform",
+    "description": "Run models on user-owned hardware with fixed costs."
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "pc-workstation"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Fixed-cost local inference alternative to cloud APIs.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.uktech.news/ai/locai-raises-1m-to-develop-its-off-cloud-ai-infrastructure-20260422"
+  ]
+ },
+ {
+  "id": "mirai",
+  "name": "Mirai",
+  "verdict": "in",
+  "verdict_reason": "Rust inference engine and SDK for on-device model inference, starting with Apple silicon.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://trymirai.com",
+  "hq_city": "London",
+  "hq_country": "UK",
+  "founded": 2025,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 10,
+  "last_round": "Seed, $10M, Feb 2026, led by Uncork Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Uncork Capital"
+  ],
+  "employees": 14,
+  "employees_band": "11-50",
+  "focus": "On-device inference engine and AI capability layer.",
+  "problem": "App makers pay heavy cloud costs and need faster local model execution on devices.",
+  "products": [
+   {
+    "name": "uzu",
+    "category": "runtime",
+    "description": "Rust inference engine for on-device models, Apple silicon first."
+   },
+   {
+    "name": "Mirai SDK",
+    "category": "sdk",
+    "description": "SDK embedding local models in apps across text, voice, vision."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "pc-workstation"
+  ],
+  "layers": [
+   "inference-runtime",
+   "model-optimization"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Built-from-scratch Rust engine claiming faster generation than MLX.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/",
+   "https://uncorkcapital.com/blog/to-the-edge-again-welcoming-mirai-to-the-uncork-portfolio"
+  ]
+ },
+ {
+  "id": "nobodywho",
+  "name": "NobodyWho",
+  "verdict": "in",
+  "verdict_reason": "Open-source engine running small language models locally inside games and apps.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/nobodywho-ooo/nobodywho",
+  "hq_city": "Copenhagen",
+  "hq_country": "Denmark",
+  "founded": 2024,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 2.2,
+  "last_round": "Pre-seed, EUR2M",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 5,
+  "employees_band": "1-10",
+  "focus": "Local SLM plugins for games and apps.",
+  "problem": "Game and app developers need LLMs embedded on the player's device without cloud calls.",
+  "products": [
+   {
+    "name": "NobodyWho library",
+    "category": "runtime",
+    "description": "llama.cpp-based engine for local LLMs with plugins for Godot, Unity, Flutter, Python."
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "mobile"
+  ],
+  "layers": [
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "consumers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Easy drop-in local LLM plugins for game engines.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://github.com/nobodywho-ooo/nobodywho"
+  ]
+ },
+ {
+  "id": "out-of-set",
+  "name": "Out of Set",
+  "verdict": "in",
+  "verdict_reason": "On-device AI infrastructure: ground-up speech models built to run locally on devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": "Seed, undisclosed amount, May 2026, led by TheVentures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "TheVentures"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "On-device speech recognition and synthesis models.",
+  "problem": "Cloud speech AI limits privacy and latency for devices and regulated sectors.",
+  "products": [
+   {
+    "name": "Out of Set on-device ASR/TTS",
+    "category": "model",
+    "description": "Speech recognition and synthesis models engineered for local execution."
+   },
+   {
+    "name": "Airy Studio",
+    "category": "app",
+    "description": "Web-based voice content service."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "models"
+  ],
+  "modalities": [
+   "speech-audio"
+  ],
+  "customers": [
+   "healthcare",
+   "legal",
+   "finance",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Trains small models from scratch for devices rather than compressing cloud models.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://en.wowtale.net/2026/05/21/234111/",
+   "https://www.asiae.co.kr/en/article/2026052008384860915"
+  ]
+ },
+ {
+  "id": "picovoice",
+  "name": "Picovoice",
+  "verdict": "in",
+  "verdict_reason": "On-device voice AI SDKs and picoLLM compressed LLM inference running fully offline.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://picovoice.ai",
+  "hq_city": "Vancouver",
+  "hq_country": "Canada",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Offline voice AI platform: wake word, STT, TTS, LLM.",
+  "problem": "Voice and LLM features need to run privately on device without cloud latency.",
+  "products": [
+   {
+    "name": "Porcupine",
+    "category": "sdk",
+    "description": "On-device wake word engine."
+   },
+   {
+    "name": "Cheetah / Leopard",
+    "category": "sdk",
+    "description": "Streaming and batch on-device speech-to-text."
+   },
+   {
+    "name": "Orca",
+    "category": "sdk",
+    "description": "On-device text-to-speech."
+   },
+   {
+    "name": "Rhino",
+    "category": "sdk",
+    "description": "On-device speech-to-intent."
+   },
+   {
+    "name": "picoLLM",
+    "category": "sdk",
+    "description": "Compressed LLM inference engine across mobile, web, embedded."
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "browser",
+   "embedded-iot",
+   "pc-workstation",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "models",
+   "model-optimization"
+  ],
+  "modalities": [
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "consumer-electronics-oem",
+   "healthcare"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Complete cross-platform offline voice stack in one vendor.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://picovoice.ai"
+  ]
+ }
+]

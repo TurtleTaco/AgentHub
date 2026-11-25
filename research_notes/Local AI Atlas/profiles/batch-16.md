@@ -1,0 +1,13 @@
+# Batch 16 notes
+- Verdicts: 21 in, 18 borderline, 1 out (Limitless).
+- Confirmed by search: LibreChat acquired by ClickHouse (Nov 4, 2025); Limitless acquired by Meta (Dec 2025), Rewind/Pendant wound down -> out; Invoke team joined Adobe AI Foundry (Oct 2025; "acqui-hire" confirmed, terms undisclosed).
+- Invoke kept as borderline: open-source InvokeAI continues, company platform ended; status acquired.
+- RunAnywhere funding unconfirmed: sources conflict ($0.13M YC / $0.5M pre-seed / $12M dubious); used $0.5M, low confidence.
+- Exo Labs: funding unconfirmed; search hits were name collisions (Exo Labs edtech ~$3M). HQ in discovery (UK) not verified; London used.
+- TraceWeave: seed KRW 3B (~$2.26M), Oct 2026, Mirae Asset Capital + NAVER D2SF confirmed; website guessed (none in discovery).
+- Second State: only $3M Series A (2019) confirmed; CB Insights "Series B 2022" uncorroborated. LlamaEdge is a project, not a separate company.
+- Liquid AI: no 2026 round found; last is $250M Series A Dec 2024 (AMD), ~$2.35B valuation (unofficial). Another "Liquid" (trading) is unrelated.
+- Conway: a16z-led first round (Oct 2026), size undisclosed; website guessed.
+- Most consumer-app and mini-PC entries (Beelink, GMKtec, Framework, Corsair, BoltAI, Brave, etc.) borderline: local AI secondary or generic hardware.
+- Employees, founding years and HQ for small private firms are knowledge-based estimates (low confidence); several HQ cities "Unknown".
+- No duplicates spotted.
