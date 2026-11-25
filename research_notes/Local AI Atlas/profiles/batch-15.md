@@ -1,0 +1,13 @@
+# Batch 15 notes (40 companies: 24 in, 16 borderline, 0 out; 13 profiles with searched basis)
+- SqueezeBits: acquisition by Rebellions confirmed (announced Jun 30, 2026; one outlet says Jul 13; terms undisclosed).
+- ggml.ai: confirmed joined/acquired by Hugging Face (Feb 20, 2026); sources differ on "acquisition" wording; projects stay MIT open source.
+- Mirai: HQ conflicts (London per TechCrunch/discovery, SF per Dealroom); London used. $10M seed Feb 2026 led by Uncork confirmed.
+- Cephable: $7M seed (MassMutual) comes from a single undated Dealroom item; earlier $4.6M seed Oct 2024; totals inconsistent (4.7 vs 11.4M).
+- Soket AI: ~$4M (Bajaj Finserv + Pennant, ~$2M each), Nov 2026, confirmed; discovery's "backed by Bajaj Finance" is accurate.
+- Zyphra: Series A $110M at $1B (2025); $500M at >=$5B (May 2026) only reported via Forbes, unconfirmed.
+- Argmax: $8M seed Nov 2024; lead disputed (Salesforce Ventures vs General Catalyst). Discovery status "unknown" resolved to active.
+- Doubleword: $12M Series A May 2025 (Dawn Capital) confirmed; total ~14.8M.
+- Stanhope AI: founded year inconsistent (2021 spinout vs 2023); $8M seed 2026 per Paladin.
+- Unverified (knowledge only): Fluent.ai status, Zhipu public listing, Ultralytics/Upstage rounds, HQs/founding years for Alpha Cephei, Fluid Inference, LM-Kit, Locai, Out of Set.
+- DataSapien: discovery name "Datasapiens"; company is DataSapien, London (low confidence).
+- No duplicates spotted.

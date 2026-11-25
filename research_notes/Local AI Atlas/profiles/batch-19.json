@@ -1,0 +1,2763 @@
+[
+ {
+  "id": "intenseye",
+  "name": "Intenseye",
+  "verdict": "borderline",
+  "verdict_reason": "Cloud-first EHS vision SaaS on existing CCTV; edge/on-prem processing secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.intenseye.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 93,
+  "last_round": "Series B, $64M, Feb 2024, led by Lightspeed Venture Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Lightspeed Venture Partners",
+   "Point72 Ventures",
+   "Air Street Capital",
+   "Next47"
+  ],
+  "employees": 120,
+  "employees_band": "51-200",
+  "focus": "Computer-vision workplace safety (EHS) analytics on existing cameras",
+  "problem": "Safety teams cannot monitor every workplace hazard and near-miss across many sites manually.",
+  "products": [
+   {
+    "name": "Intenseye Platform",
+    "category": "platform",
+    "description": "Real-time EHS computer vision detecting unsafe acts across 30+ use cases on existing cameras"
+   },
+   {
+    "name": "Intenseye AI Agents / Safety Intelligence",
+    "category": "app",
+    "description": "Analytics, risk scoring and agentic safety insights for EHS teams"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "industrial-manufacturing",
+   "energy-utilities"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Coca-Cola",
+   "Dow",
+   "Baker Hughes"
+  ],
+  "differentiator": "Large library of pre-trained workplace-safety detectors deployed on customers' existing CCTV.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2024-02-27/ai-startup-gets-funds-to-help-prevent-widespread-work-accidents",
+   "https://www.cbinsights.com/company/intenseye/financials"
+  ]
+ },
+ {
+  "id": "invisible-ai",
+  "name": "Invisible AI",
+  "verdict": "in",
+  "verdict_reason": "Sells proprietary edge AI camera devices processing video on-site for manufacturers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://invisible.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Edge-AI camera system for manufacturing process visibility and compliance",
+  "problem": "Manufacturers lack objective, real-time data on how work is actually done on the line.",
+  "products": [
+   {
+    "name": "Invisible AI Camera / Edge Device",
+    "category": "device",
+    "description": "On-premise AI camera with embedded compute capturing station-level cycle data"
+   },
+   {
+    "name": "Invisible AI Platform",
+    "category": "platform",
+    "description": "Software for process compliance, cycle-time and ergonomics analytics"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Toyota"
+  ],
+  "differentiator": "Privacy-preserving on-device processing; only metadata leaves the camera.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "iotech-systems",
+  "name": "IOTech Systems",
+  "verdict": "borderline",
+  "verdict_reason": "Industrial edge data platform (EdgeX lineage) that hosts analytics/AI; AI not the core product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.iotechsys.com",
+  "hq_city": "Camberley",
+  "hq_country": "United Kingdom",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 50,
+  "employees_band": "11-50",
+  "focus": "Industrial edge software for data connectivity, analytics and device management",
+  "problem": "Industrial sites struggle to collect, process and act on OT data locally across heterogeneous devices.",
+  "products": [
+   {
+    "name": "Edge Xpert",
+    "category": "platform",
+    "description": "Commercial EdgeX Foundry-based edge data platform for industrial gateways"
+   },
+   {
+    "name": "Edge Central",
+    "category": "platform",
+    "description": "Orchestration and management of edge nodes and applications"
+   },
+   {
+    "name": "Edge Ultra",
+    "category": "runtime",
+    "description": "Lightweight edge data runtime for constrained devices"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot"
+  ],
+  "layers": [
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Intel",
+   "Dell",
+   "Arm",
+   "Linux Foundation (EdgeX)"
+  ],
+  "notable_customers": [],
+  "differentiator": "Commercial steward of EdgeX Foundry with edge management for AI-enabled industrial gateways.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "irisity",
+  "name": "Irisity",
+  "verdict": "borderline",
+  "verdict_reason": "Video analytics runs at edge/on-prem, but also cloud; security analytics vendor, not edge-AI-core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://irisity.com",
+  "hq_city": "Gothenburg",
+  "hq_country": "Sweden",
+  "founded": 2017,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (Nasdaq First North: IRIS)",
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "AI video analytics for security, safety and perimeter protection",
+  "problem": "Security operators drown in camera feeds and false alarms from conventional motion detection.",
+  "products": [
+   {
+    "name": "IRIS+",
+    "category": "platform",
+    "description": "Deep-learning video analytics for perimeter intrusion and behaviour detection"
+   },
+   {
+    "name": "IRIS Cloud/On-prem",
+    "category": "platform",
+    "description": "Deployment options on edge cameras, on-prem servers or cloud"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Low false-alarm analytics usable on cameras, edge or on-prem servers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "iteris",
+  "name": "Iteris",
+  "verdict": "borderline",
+  "verdict_reason": "Roadside edge detection sensors are part of broader traffic software business; AI secondary.",
+  "status": "acquired",
+  "status_detail": "Acquired by Almaviva (take-private, ~$335M, closed Oct 2024)",
+  "parent": "Almaviva",
+  "website": "https://www.iteris.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 1969,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 400,
+  "employees_band": "201-500",
+  "focus": "Smart mobility infrastructure sensors and traffic management software",
+  "problem": "Cities cannot detect and manage traffic at intersections reliably without cloud latency.",
+  "products": [
+   {
+    "name": "Vantage detection sensors",
+    "category": "device",
+    "description": "Roadside video/radar detection with embedded AI at the intersection"
+   },
+   {
+    "name": "ClearGuide / ClearMobility",
+    "category": "platform",
+    "description": "Traffic analytics and mobility software"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Long-installed base of roadside detection hardware with embedded vision.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.iteris.com/news/iteris-completes-transaction-with-almaviva",
+   "https://www.nasdaq.com/press-release/iteris-be-acquired-almaviva-335-million-2024-08-09"
+  ]
+ },
+ {
+  "id": "landing-ai",
+  "name": "Landing AI",
+  "verdict": "in",
+  "verdict_reason": "LandingEdge marketed deployment of vision inspection models on factory-floor edge devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://landing.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 57,
+  "last_round": "Strategic investment from ABB Motion Ventures, Sep 2025 (amount undisclosed); Series A $57M Nov 2021 led by McRock Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "McRock Capital",
+   "Insight Partners",
+   "Taiwania Capital",
+   "Intel Capital",
+   "ABB Motion Ventures"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Data-centric visual inspection AI platform for manufacturers",
+  "problem": "Factories need accurate defect detection but lack ML expertise and large labeled datasets.",
+  "products": [
+   {
+    "name": "LandingLens",
+    "category": "platform",
+    "description": "No-code platform to build and train vision models for inspection"
+   },
+   {
+    "name": "LandingEdge",
+    "category": "runtime",
+    "description": "Deploys trained models on factory-floor edge devices and PCs"
+   },
+   {
+    "name": "Agentic Document Extraction / Vision Agent",
+    "category": "sdk",
+    "description": "Agentic vision and document tools for developers"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "enterprise"
+  ],
+  "partners": [
+   "ABB",
+   "NVIDIA",
+   "Snowflake"
+  ],
+  "notable_customers": [],
+  "differentiator": "Founded by Andrew Ng; data-centric small-data vision with edge deployment.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.cbinsights.com/company/landingai/financials",
+   "https://www.therobotreport.com/abb-robotics-invests-in-landingai-to-accelerate-vision-ai/"
+  ]
+ },
+ {
+  "id": "lightmetrics",
+  "name": "LightMetrics",
+  "verdict": "in",
+  "verdict_reason": "AI dashcam with on-device inference is core proposition; sells platform to fleets and OEMs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lightmetrics.co",
+  "hq_city": "San Jose",
+  "hq_country": "India",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Video telematics with on-device AI for fleet driver safety",
+  "problem": "Fleets cannot detect risky driving in real time without costly cloud video streaming.",
+  "products": [
+   {
+    "name": "RideView",
+    "category": "platform",
+    "description": "Video telematics platform with AI event detection and coaching"
+   },
+   {
+    "name": "LightMetrics edge AI SDK",
+    "category": "sdk",
+    "description": "Embedded driver-monitoring and ADAS software for third-party dashcams"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Runs full vision stack on low-cost dashcam silicon, licensable to device makers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "litmus",
+  "name": "Litmus",
+  "verdict": "in",
+  "verdict_reason": "Litmus Edge is dedicated on-site industrial edge data and AI platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://litmus.io",
+  "hq_city": "Santa Clara",
+  "hq_country": "United States",
+  "founded": 2013,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 43.5,
+  "last_round": "Strategic investment (Series B-II), undisclosed, Nov 2025, led by Insight Partners with Munich Re Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Insight Partners",
+   "Munich Re Ventures",
+   "Belden",
+   "Cisco Investments"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Industrial edge platform connecting OT data and running analytics and AI on-site",
+  "problem": "Factories cannot unify machine data and run AI locally without cloud dependence.",
+  "products": [
+   {
+    "name": "Litmus Edge",
+    "category": "platform",
+    "description": "On-premise industrial data platform with connectors, analytics and ML runtime"
+   },
+   {
+    "name": "Litmus Edge Manager",
+    "category": "platform",
+    "description": "Fleet management of edge deployments across plants"
+   },
+   {
+    "name": "Litmus AI agents / Litmus Edge MCP",
+    "category": "platform",
+    "description": "Out-of-the-box AI agents and data pipelines for factories"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive",
+   "energy-utilities"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Google Cloud",
+   "Microsoft",
+   "Siemens"
+  ],
+  "notable_customers": [
+   "Mercedes-Benz",
+   "Johnson & Johnson"
+  ],
+  "differentiator": "Vendor-neutral edge data layer that feeds local AI across brownfield factories.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.insightpartners.com/ideas/litmus-secures-additional-investment-led-by-insight-partners-to-accelerate-industrial-ai/",
+   "https://www.cbinsights.com/company/litmus/financials"
+  ]
+ },
+ {
+  "id": "lumana",
+  "name": "Lumana",
+  "verdict": "borderline",
+  "verdict_reason": "Hybrid edge-cloud video security; local processing exists but platform is primarily cloud-managed.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.lumana.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 64,
+  "last_round": "Series A, $40M, 2025, led by Wing Venture Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Wing Venture Capital",
+   "Norwest",
+   "S Capital"
+  ],
+  "employees": 70,
+  "employees_band": "51-200",
+  "focus": "AI video security platform with real-time detection and AI agents",
+  "problem": "Security teams cannot review thousands of camera feeds or find incidents quickly.",
+  "products": [
+   {
+    "name": "Lumana Platform",
+    "category": "platform",
+    "description": "Hybrid edge-cloud AI video analytics and agents on any camera"
+   },
+   {
+    "name": "Lumana Edge Appliance",
+    "category": "system",
+    "description": "On-site processing appliance for local video analytics"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "security-surveillance",
+   "retail"
+  ],
+  "partners": [
+   "Convergint"
+  ],
+  "notable_customers": [],
+  "differentiator": "Turns existing cameras into AI sensors with local edge processing.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.lumana.ai/blog/lumana-secures-40-million-to-lead-the-next-era-of-ai-powered-video-intelligence",
+   "https://siliconangle.com/?p=705450"
+  ]
+ },
+ {
+  "id": "lumeo",
+  "name": "Lumeo",
+  "verdict": "in",
+  "verdict_reason": "No-code video analytics deployed on customers' on-prem gateways and Jetson devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lumeo.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 20,
+  "employees_band": "11-50",
+  "focus": "No-code platform to build and deploy video analytics pipelines on edge hardware",
+  "problem": "Teams find it hard to turn existing cameras into analytics without custom CV engineering.",
+  "products": [
+   {
+    "name": "Lumeo Platform",
+    "category": "platform",
+    "description": "No-code pipeline designer and fleet manager for video analytics"
+   },
+   {
+    "name": "Lumeo Gateway",
+    "category": "runtime",
+    "description": "Edge runtime running pipelines on NVIDIA Jetson and x86 servers"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "security-surveillance",
+   "retail",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Hailo"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic no-code video pipelines deployable on-prem or cloud.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "maneva",
+  "name": "Maneva",
+  "verdict": "in",
+  "verdict_reason": "Video-to-action factory AI agents run on NVIDIA edge devices at customer sites.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": null,
+  "hq_city": null,
+  "hq_country": "United States",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A, $27M, Jun 2026, led by U.S. Venture Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "U.S. Venture Partners",
+   "Bling Capital",
+   "Freestyle Capital"
+  ],
+  "employees": null,
+  "employees_band": null,
+  "focus": "Video-to-action AI agents on factory cameras for inspection and line control",
+  "problem": "Factories cannot turn camera video into real-time quality and line decisions.",
+  "products": [
+   {
+    "name": "VITA",
+    "category": "platform",
+    "description": "Agent for quality assurance and downtime reduction making accept/reject/reroute decisions"
+   },
+   {
+    "name": "ALIS",
+    "category": "platform",
+    "description": "Agent for line intelligence and factory orchestration"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Agentic decisions at up to 30 per second on edge hardware attached to existing cameras.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://pulse2.com/maneva-raises-27-million-series-a-to-improve-manufacturing-efficiency-with-video-to-action-ai/"
+  ]
+ },
+ {
+  "id": "mariner",
+  "name": "Mariner",
+  "verdict": "in",
+  "verdict_reason": "Spyglass deep-learning inspection deployed on on-prem NVIDIA edge servers in factories.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://marinerinnovations.com",
+  "hq_city": "Charlotte",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "Deep-learning visual inspection for manufacturing and textile lines",
+  "problem": "Manual and rule-based inspection misses defects and slows production.",
+  "products": [
+   {
+    "name": "Spyglass Visual Inspection",
+    "category": "platform",
+    "description": "AI visual inspection running on in-plant NVIDIA edge servers"
+   },
+   {
+    "name": "Spyglass Connected Worker/Analytics",
+    "category": "app",
+    "description": "Production data and quality analytics"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Deep-learning inspection productised for textiles and discrete manufacturing at the edge.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "matroid",
+  "name": "Matroid",
+  "verdict": "borderline",
+  "verdict_reason": "No-code CV platform primarily cloud; on-prem/edge detector deployment is an option.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.matroid.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "No-code computer vision detectors for video monitoring",
+  "problem": "Organizations need custom visual detection without building ML teams.",
+  "products": [
+   {
+    "name": "Matroid Platform",
+    "category": "platform",
+    "description": "Build, train and run custom vision detectors on video streams"
+   },
+   {
+    "name": "Matroid on-prem",
+    "category": "service",
+    "description": "Self-hosted deployment for sensitive environments"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "camera"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Stanford-founded no-code detector builder with on-prem option.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "microai",
+  "name": "MicroAI",
+  "verdict": "in",
+  "verdict_reason": "Embedded AI agents trained and run on MCUs/MPUs inside machines is core product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://micro.ai",
+  "hq_city": "Dallas",
+  "hq_country": "United States",
+  "founded": 2018,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Embedded AI for device health, predictive maintenance and edge security",
+  "problem": "Machines fail or get compromised before cloud analytics can react.",
+  "products": [
+   {
+    "name": "MicroAI Atom",
+    "category": "sdk",
+    "description": "Embedded AI engine that trains on-device on MCUs and MPUs"
+   },
+   {
+    "name": "MicroAI Launchpad",
+    "category": "platform",
+    "description": "Management of fleets of device-resident AI agents"
+   },
+   {
+    "name": "MicroAI Security",
+    "category": "app",
+    "description": "Edge cybersecurity anomaly detection"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "edge-server"
+  ],
+  "layers": [
+   "inference-runtime",
+   "security-privacy",
+   "applications"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities",
+   "enterprise"
+  ],
+  "partners": [
+   "Microsoft",
+   "NXP",
+   "Renesas"
+  ],
+  "notable_customers": [],
+  "differentiator": "Learns and runs entirely on the device with tiny footprint.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "micropsi-industries",
+  "name": "Micropsi Industries",
+  "verdict": "borderline",
+  "verdict_reason": "Neural robot-control runs on cell controller, but offering is robot-vision software for integrators.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.micropsi-industries.com",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2014,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 50,
+  "employees_band": "11-50",
+  "focus": "AI vision-based control that lets industrial robots adapt in real time",
+  "problem": "Robots fail when parts or positions vary because programmed paths are rigid.",
+  "products": [
+   {
+    "name": "MIRAI",
+    "category": "platform",
+    "description": "Neural-network robot control running on a local controller connected to arms"
+   },
+   {
+    "name": "MIRAI 2",
+    "category": "platform",
+    "description": "Updated version with faster teaching and wider robot support"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [
+   "Universal Robots",
+   "FANUC",
+   "Yaskawa",
+   "KUKA",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Learned reactive control taught by demonstration, running locally on the robot cell.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "milestone-systems",
+  "name": "Milestone Systems",
+  "verdict": "borderline",
+  "verdict_reason": "Open VMS hosting third-party AI analytics on customer servers; AI is ecosystem, not core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Canon",
+  "website": "https://www.milestonesys.com",
+  "hq_city": "Br\u00f8ndby",
+  "hq_country": "Denmark",
+  "founded": 1998,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 1000,
+  "employees_band": "501-1000",
+  "focus": "Open-platform video management software with AI analytics ecosystem",
+  "problem": "Organizations need to run and combine video AI on their own servers without lock-in.",
+  "products": [
+   {
+    "name": "XProtect",
+    "category": "platform",
+    "description": "Open VMS running on customer-run servers, integrating third-party AI analytics"
+   },
+   {
+    "name": "Hafnia",
+    "category": "platform",
+    "description": "Data-driven AI/vision platform and datasets for smart cities"
+   },
+   {
+    "name": "Project Hafnia / Milestone AI Bridge",
+    "category": "sdk",
+    "description": "Bridge to stream video to AI apps on-prem"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "applications",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "government-defense",
+   "enterprise",
+   "retail"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Axis"
+  ],
+  "notable_customers": [],
+  "differentiator": "Largest open VMS ecosystem enabling local AI analytics integration.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "mimik-technology",
+  "name": "mimik technology",
+  "verdict": "in",
+  "verdict_reason": "Hybrid edge platform and edge AI/agent runtime on devices is core offering.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mimik.com",
+  "hq_city": "Vancouver",
+  "hq_country": "Canada",
+  "founded": 2013,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Edge cloud platform running microservices and AI agents on devices",
+  "problem": "Apps depend on cloud backends that add latency, cost and privacy exposure.",
+  "products": [
+   {
+    "name": "mimik Hybrid Edge Cloud (mim OE)",
+    "category": "runtime",
+    "description": "Edge runtime turning devices into micro-servers"
+   },
+   {
+    "name": "mimik ai",
+    "category": "platform",
+    "description": "On-device LLM/agent runtime and orchestration across devices"
+   },
+   {
+    "name": "mimik Developer Edge",
+    "category": "sdk",
+    "description": "SDK and tooling for edge microservices"
+   }
+  ],
+  "deployment": [
+   "mobile",
+   "embedded-iot",
+   "pc-workstation",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "automotive",
+   "telecom",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Peer device mesh for running and coordinating AI agents without cloud.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "miovision",
+  "name": "Miovision",
+  "verdict": "borderline",
+  "verdict_reason": "Edge AI intersection devices exist but core is traffic data/signal platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://miovision.com",
+  "hq_city": "Kitchener",
+  "hq_country": "Canada",
+  "founded": 2005,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 450,
+  "employees_band": "201-500",
+  "focus": "Traffic intersection data and smart signal platform",
+  "problem": "Cities lack real-time intersection data to ease congestion and improve safety.",
+  "products": [
+   {
+    "name": "Miovision TrafficLink / Surtrac",
+    "category": "platform",
+    "description": "Adaptive signal control using on-intersection edge compute"
+   },
+   {
+    "name": "Miovision Scout / One",
+    "category": "device",
+    "description": "Edge video detection and traffic data collection"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Installed base of edge AI devices at intersections feeding adaptive control.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "mujin",
+  "name": "Mujin",
+  "verdict": "borderline",
+  "verdict_reason": "Robot controller runs AI locally, but offering is robotics automation systems, not edge-AI platform.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mujin-corp.com",
+  "hq_city": "Tokyo",
+  "hq_country": "Japan",
+  "founded": 2011,
+  "org_type": "startup",
+  "funding_stage": "Series D+",
+  "total_funding_usd_m": 411,
+  "last_round": "Series D, $233M (equity+debt), Dec 2025, led by NTT Group and QIA; extension reportedly valuing >$1B",
+  "valuation_usd_m": 1000,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "NTT Group",
+   "Qatar Investment Authority",
+   "Salesforce Ventures",
+   "Mitsubishi HC Capital Realty"
+  ],
+  "employees": 500,
+  "employees_band": "201-500",
+  "focus": "Intelligent robot controller and automation systems for logistics and manufacturing",
+  "problem": "Warehouses and factories cannot automate varied picking and handling with rigid programmed robots.",
+  "products": [
+   {
+    "name": "MujinOS",
+    "category": "platform",
+    "description": "Robot controller with real-time motion planning and vision running on-site"
+   },
+   {
+    "name": "MujinRobot / TruckBot / PalletRobot",
+    "category": "system",
+    "description": "Packaged robotic systems for depalletizing and truck unloading"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "edge-server"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "retail"
+  ],
+  "partners": [
+   "NVIDIA",
+   "DHL"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic robot OS with on-controller planning and vision.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.businesswire.com/news/home/20251202560677/en/Mujin-Raises-US%24-233-Million-to-Accelerate-Global-Growth-and-Drive-the-Future-of-Intelligent-Automation",
+   "https://www.robotics247.com/article/mujin_secures_233m_in_series_d_funding_round"
+  ]
+ },
+ {
+  "id": "mvtec-software",
+  "name": "MVTec Software",
+  "verdict": "in",
+  "verdict_reason": "HALCON/MERLIC deep-learning inference on industrial PCs and embedded boards is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.mvtec.com",
+  "hq_city": "Munich",
+  "hq_country": "Germany",
+  "founded": 1996,
+  "org_type": "scaleup",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Machine vision software with deep learning for industrial inspection",
+  "problem": "Industrial inspection needs robust deep-learning vision that runs locally on factory hardware.",
+  "products": [
+   {
+    "name": "HALCON",
+    "category": "sdk",
+    "description": "Machine vision library with deep-learning inference on PCs and embedded devices"
+   },
+   {
+    "name": "MERLIC",
+    "category": "platform",
+    "description": "No-code machine vision tool with built-in deep learning"
+   },
+   {
+    "name": "Deep Learning Tool",
+    "category": "app",
+    "description": "Data labeling and training tool for HALCON/MERLIC"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "embedded-iot",
+   "edge-server",
+   "camera"
+  ],
+  "layers": [
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Arm",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Decades-proven industrial vision toolkit with deep learning on embedded targets.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "nauto",
+  "name": "Nauto",
+  "verdict": "in",
+  "verdict_reason": "Predictive collision AI runs on in-vehicle device; on-device AI is core proposition.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nauto.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SoftBank Vision Fund",
+   "Greylock",
+   "BMW iVentures",
+   "Toyota AI Ventures"
+  ],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "AI driver-safety platform for commercial fleets with in-vehicle inference",
+  "problem": "Fleets suffer collisions from distracted and risky driving that cloud analytics detect too late.",
+  "products": [
+   {
+    "name": "Nauto Safety Platform",
+    "category": "platform",
+    "description": "In-cab AI device and cloud for collision prediction and coaching"
+   },
+   {
+    "name": "Nauto Edge AI Device",
+    "category": "device",
+    "description": "Dual-camera in-vehicle unit with on-device inference"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive"
+  ],
+  "partners": [
+   "Qualcomm"
+  ],
+  "notable_customers": [],
+  "differentiator": "Predictive on-device collision alerts trained on large driving dataset.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "netradyne",
+  "name": "Netradyne",
+  "verdict": "in",
+  "verdict_reason": "Driveri AI dashcam performs edge inference in the cab; on-device AI is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.netradyne.com",
+  "hq_city": "San Diego",
+  "hq_country": "United States",
+  "founded": 2015,
+  "org_type": "startup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": null,
+  "last_round": "Series C, $150M, 2021, led by SoftBank Vision Fund 2",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SoftBank Vision Fund 2",
+   "Reliance Industries",
+   "M12"
+  ],
+  "employees": 700,
+  "employees_band": "501-1000",
+  "focus": "AI dashcam and fleet safety platform with edge inference",
+  "problem": "Fleets cannot see and improve driver behavior across every minute of driving.",
+  "products": [
+   {
+    "name": "Driveri",
+    "category": "device",
+    "description": "Edge-AI dashcam analyzing driving in real time"
+   },
+   {
+    "name": "Driver\u2022i Platform / GreenZone",
+    "category": "platform",
+    "description": "Driver scoring, coaching and fleet analytics"
+   }
+  ],
+  "deployment": [
+   "vehicle-robot-drone",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Werner",
+   "Ryder"
+  ],
+  "differentiator": "Positive-recognition driver scoring from edge vision on every minute driven.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "network-optix-nx",
+  "name": "Network Optix (Nx)",
+  "verdict": "in",
+  "verdict_reason": "Nx AI Manager is a marketed product for deploying vision AI on edge servers and cameras.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.networkoptix.com",
+  "hq_city": "Walnut Creek",
+  "hq_country": "United States",
+  "founded": 2010,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Video management platform and Nx AI Manager for on-prem vision AI",
+  "problem": "Integrators cannot easily deploy and manage AI models across camera fleets.",
+  "products": [
+   {
+    "name": "Nx AI Manager",
+    "category": "runtime",
+    "description": "Plug-in running and managing AI models on edge devices/servers (from Scailable)"
+   },
+   {
+    "name": "Nx Witness / Nx EVOS",
+    "category": "platform",
+    "description": "Enterprise video platform running on customer hardware"
+   },
+   {
+    "name": "Nx Cloud",
+    "category": "service",
+    "description": "Optional cloud management of on-prem systems"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [
+   "Hailo",
+   "NVIDIA",
+   "Intel",
+   "Hanwha Vision"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic VMS with built-in edge AI model deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.networkoptix.com/announcement/scailable"
+  ]
+ },
+ {
+  "id": "neurala",
+  "name": "Neurala",
+  "verdict": "in",
+  "verdict_reason": "VIA inspection trains and runs lightweight models on local PCs and edge devices.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://neurala.com",
+  "hq_city": "Boston",
+  "hq_country": "United States",
+  "founded": 2006,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Lifelong-learning visual inspection software for manufacturing",
+  "problem": "Manufacturers need defect detection that trains on few images and runs on the line.",
+  "products": [
+   {
+    "name": "Neurala VIA",
+    "category": "platform",
+    "description": "Visual inspection automation software for training and edge deployment"
+   },
+   {
+    "name": "Neurala Brain SDK",
+    "category": "sdk",
+    "description": "Lightweight on-device learning neural network SDK"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "pc-workstation",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "retail"
+  ],
+  "partners": [
+   "Lenovo",
+   "Intel",
+   "Motorola Solutions"
+  ],
+  "notable_customers": [],
+  "differentiator": "Learns from small datasets and runs on low-cost edge hardware.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "neuton-ai",
+  "name": "Neuton.AI",
+  "verdict": "in",
+  "verdict_reason": "Automated TinyML producing sub-5KB models for MCUs is its entire offering.",
+  "status": "acquired",
+  "status_detail": "IP and team acquired by Nordic Semiconductor (announced Jun 2025); terms undisclosed",
+  "parent": "Nordic Semiconductor",
+  "website": "https://neuton.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 13,
+  "employees_band": "11-50",
+  "focus": "Automated TinyML model builder for microcontrollers",
+  "problem": "Embedded teams cannot fit accurate ML models into tiny MCUs without data-science expertise.",
+  "products": [
+   {
+    "name": "Neuton TinyML Platform",
+    "category": "platform",
+    "description": "No-code automated framework producing very small models for MCUs"
+   },
+   {
+    "name": "Neuton Model Zoo/tools",
+    "category": "model",
+    "description": "Free developer tooling for nRF54 and other MCUs"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "wearable-xr"
+  ],
+  "layers": [
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "developers",
+   "consumer-electronics-oem",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Nordic Semiconductor"
+  ],
+  "notable_customers": [],
+  "differentiator": "Models typically under 5 KB that run on 8/16/32-bit MCUs.",
+  "confidence": {
+   "funding": "low",
+   "employees": "medium",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.nordicsemi.com/Nordic-news/2025/06/Nordic-Semiconductor-accelerates-edge-AI-leadership-with-acquisition-of-Neuton-AI"
+  ]
+ },
+ {
+  "id": "nokia-mx-industrial-edge",
+  "name": "Nokia",
+  "verdict": "in",
+  "verdict_reason": "MX Industrial Edge is a dedicated on-premise edge compute appliance for local industrial AI.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.nokia.com",
+  "hq_city": "Espoo",
+  "hq_country": "Finland",
+  "founded": 1865,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NYSE: NOK; Nasdaq Helsinki: NOKIA)",
+  "key_investors": [],
+  "employees": 78000,
+  "employees_band": "10000+",
+  "focus": "Telecom vendor; on-site edge compute for private wireless and industrial apps",
+  "problem": "Industrial sites need AI and apps processing data on-premise with low latency and data control.",
+  "products": [
+   {
+    "name": "MX Industrial Edge (MXIE)",
+    "category": "system",
+    "description": "Ruggedized on-premise edge appliance running industrial AI and video apps"
+   },
+   {
+    "name": "Nokia Digital Automation Cloud (DAC)",
+    "category": "platform",
+    "description": "Private wireless plus on-site compute platform"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "energy-utilities",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft",
+   "Siemens"
+  ],
+  "notable_customers": [],
+  "differentiator": "Bundles private 5G with on-prem edge compute for local industrial AI.",
+  "confidence": {
+   "funding": "high",
+   "employees": "high",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "northern-tech-mender",
+  "name": "Northern.tech (Mender)",
+  "verdict": "borderline",
+  "verdict_reason": "OTA update/fleet management for embedded Linux; supports edge AI model delivery indirectly.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mender.io",
+  "hq_city": "Oslo",
+  "hq_country": "Norway",
+  "founded": 2010,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Secure over-the-air updates and device management for embedded Linux fleets",
+  "problem": "Device makers cannot safely update software and models on deployed edge devices.",
+  "products": [
+   {
+    "name": "Mender",
+    "category": "platform",
+    "description": "OTA update manager for embedded Linux devices"
+   },
+   {
+    "name": "Mender Edge/ML model delivery",
+    "category": "service",
+    "description": "Delivery of models and apps to edge AI devices"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "security-privacy"
+  ],
+  "modalities": [],
+  "customers": [
+   "automotive",
+   "industrial-manufacturing",
+   "consumer-electronics-oem"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "notraffic",
+  "name": "NoTraffic",
+  "verdict": "borderline",
+  "verdict_reason": "Edge sensors at intersections process locally but business is traffic signal management.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://notraffic.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2017,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "AI traffic-signal management with on-intersection edge sensing",
+  "problem": "Fixed signal timing wastes time and fails to prioritize vehicles in real time.",
+  "products": [
+   {
+    "name": "NoTraffic Platform",
+    "category": "platform",
+    "description": "Edge sensor and cloud AI for adaptive signal control and V2X"
+   },
+   {
+    "name": "Intersection edge sensor",
+    "category": "device",
+    "description": "Roadside sensor running detection locally"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "oosto-formerly-anyvision",
+  "name": "Oosto",
+  "verdict": "in",
+  "verdict_reason": "On-prem and edge face recognition processing is core to its product line.",
+  "status": "acquired",
+  "status_detail": "Acquired by Metropolis Technologies (announced Jan 2025, reported ~$125M all-share); discovery said 2024",
+  "parent": "Metropolis Technologies",
+  "website": "https://oosto.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2015,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": 160,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "SoftBank Vision Fund",
+   "Eldridge",
+   "Lightspeed",
+   "Qualcomm Ventures"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "On-prem vision AI for face and object recognition in security and access",
+  "problem": "Sites need accurate real-time identification without sending video to cloud.",
+  "products": [
+   {
+    "name": "OnWatch",
+    "category": "platform",
+    "description": "Real-time face and object recognition on-prem for watchlists"
+   },
+   {
+    "name": "OnAccess",
+    "category": "platform",
+    "description": "Face recognition access control"
+   },
+   {
+    "name": "Oosto Vision AI engine",
+    "category": "sdk",
+    "description": "Edge-optimized recognition SDK"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem",
+   "camera"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Large-scale face recognition engine deployable fully on-prem.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://techcrunch.com/2025/01/20/sources-ai-vision-startup-metropolis-is-buying-oosto-formerly-known-as-anyvision-for-just-125m",
+   "https://en.globes.co.il/en/article-1001499904"
+  ]
+ },
+ {
+  "id": "overview-ai",
+  "name": "Overview.ai",
+  "verdict": "in",
+  "verdict_reason": "Self-contained on-camera deep-learning inspection cameras sold to manufacturers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.overview.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "AI smart cameras for manufacturing inspection",
+  "problem": "Inspection needs deep-learning accuracy without cloud or PC infrastructure on the line.",
+  "products": [
+   {
+    "name": "OV20i / OV80i Smart Cameras",
+    "category": "device",
+    "description": "Smart cameras with on-device deep-learning inspection"
+   },
+   {
+    "name": "OV Platform / OV Fleet",
+    "category": "platform",
+    "description": "Browser tools for training and managing inspection models"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "hardware-systems",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "automotive"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "All-in-one camera, compute and software with no cloud required.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "plainsight",
+  "name": "Plainsight",
+  "verdict": "in",
+  "verdict_reason": "Vision AI platform and open-source OpenFilter deploy pipelines on edge and on-prem.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.plainsight.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": 45.9,
+  "last_round": "Unattributed round, $12M, Jun 2024 (CB Insights); totals conflict across sources",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 45,
+  "employees_band": "11-50",
+  "focus": "Vision AI platform and open-source OpenFilter for production CV pipelines",
+  "problem": "Enterprises struggle to move vision AI prototypes into reliable edge and on-prem production.",
+  "products": [
+   {
+    "name": "Plainsight Platform",
+    "category": "platform",
+    "description": "End-to-end vision AI lifecycle with edge/on-prem deployment"
+   },
+   {
+    "name": "OpenFilter",
+    "category": "sdk",
+    "description": "Open-source Apache-2.0 framework for composable vision pipelines"
+   },
+   {
+    "name": "Plainsight Early Access (commercial OpenFilter)",
+    "category": "platform",
+    "description": "Commercial offering of OpenFilter for enterprises"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem",
+   "camera",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "retail",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Open-source pipeline framework for deploying vision filters anywhere.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250521064729/en/Plainsight-Introduces-Open-Source-OpenFilter-for-Scalable-Computer-Vision-AI",
+   "https://www.cbinsights.com/company/sixgill/financials"
+  ]
+ },
+ {
+  "id": "protex-ai",
+  "name": "Protex AI",
+  "verdict": "borderline",
+  "verdict_reason": "Safety vision on existing CCTV with on-site edge processing option; mainly SaaS EHS product.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.protex.ai",
+  "hq_city": "Dublin",
+  "hq_country": "Ireland",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 54,
+  "last_round": "Series B, $36M, Jan 2025, led by Hedosophia with Salesforce Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Hedosophia",
+   "Salesforce Ventures",
+   "Elkstone",
+   "firstminute capital",
+   "Notion Capital",
+   "Playfair"
+  ],
+  "employees": 80,
+  "employees_band": "51-200",
+  "focus": "Workplace safety computer vision on existing CCTV",
+  "problem": "Safety teams miss near-misses and unsafe behaviour across sites.",
+  "products": [
+   {
+    "name": "Protex Platform",
+    "category": "platform",
+    "description": "Computer vision safety analytics for PPE, forklift and zone risks"
+   },
+   {
+    "name": "Protex edge processing",
+    "category": "system",
+    "description": "On-site edge compute analysing camera feeds so video stays local"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "enterprise",
+   "retail"
+  ],
+  "partners": [],
+  "notable_customers": [
+   "Amazon",
+   "DHL"
+  ],
+  "differentiator": "Privacy-minded edge processing of existing CCTV for EHS.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ishn.com/articles/114596-protex-ai-secures-36m-series-b-to-power-industrial-workplaces-with-ai"
+  ]
+ },
+ {
+  "id": "qeexo",
+  "name": "Qeexo",
+  "verdict": "in",
+  "verdict_reason": "Qeexo AutoML builds models that run on MCUs and sensors; TinyML core business.",
+  "status": "acquired",
+  "status_detail": "Acquired by TDK (announced Jan 2023, subject to CFIUS; closure not separately confirmed)",
+  "parent": "TDK",
+  "website": "https://qeexo.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "founded": 2012,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "No-code AutoML for sensor data on microcontrollers",
+  "problem": "Device makers cannot build ML for sensors quickly on tiny hardware.",
+  "products": [
+   {
+    "name": "Qeexo AutoML",
+    "category": "platform",
+    "description": "No-code end-to-end ML for sensor data on edge MCUs"
+   },
+   {
+    "name": "Qeexo FingerSense",
+    "category": "sdk",
+    "description": "Touch-surface ML classification software"
+   }
+  ],
+  "deployment": [
+   "embedded-iot",
+   "mobile",
+   "wearable-xr"
+  ],
+  "layers": [
+   "model-optimization",
+   "ai-platform"
+  ],
+  "modalities": [
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "consumer-electronics-oem",
+   "industrial-manufacturing",
+   "developers"
+  ],
+  "partners": [
+   "TDK",
+   "Arm",
+   "STMicroelectronics"
+  ],
+  "notable_customers": [],
+  "differentiator": "First fully automated ML pipeline for embedded sensor devices.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.tdk-electronics.tdk.com/en/373618/tech-library/articles/company-trends/company-trends/tdk-to-acquire-qeexo-to-enable-complete-smart-edge-platforms/3128986"
+  ]
+ },
+ {
+  "id": "rekor-systems",
+  "name": "Rekor Systems",
+  "verdict": "borderline",
+  "verdict_reason": "Roadside edge ALPR devices exist but business is traffic data/SaaS; local AI secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.rekor.ai",
+  "hq_city": "Columbia",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: REKR)",
+  "key_investors": [],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Roadway intelligence: ALPR, vehicle recognition and traffic analytics",
+  "problem": "Agencies lack accurate real-time vehicle and traffic data at the roadside.",
+  "products": [
+   {
+    "name": "Rekor Scout",
+    "category": "sdk",
+    "description": "Vehicle recognition software running on edge devices and servers"
+   },
+   {
+    "name": "Rekor Command / Discover",
+    "category": "platform",
+    "description": "Traffic intelligence and analytics"
+   },
+   {
+    "name": "Rekor edge devices",
+    "category": "device",
+    "description": "Roadside AI cameras with embedded inference"
+   }
+  ],
+  "deployment": [
+   "camera",
+   "edge-server",
+   "vehicle-robot-drone"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "government-defense",
+   "security-surveillance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Edge-deployable vehicle recognition with large road data network.",
+  "confidence": {
+   "funding": "high",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "roboflow",
+  "name": "Roboflow",
+  "verdict": "in",
+  "verdict_reason": "Open-source Inference server and edge deployment of vision models are core offerings.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://roboflow.com",
+  "hq_city": "Des Moines",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 62.75,
+  "last_round": "Series B, $40M, Nov 2024, led by GV",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "GV",
+   "Craft Ventures",
+   "Y Combinator",
+   "Google Ventures"
+  ],
+  "employees": 120,
+  "employees_band": "51-200",
+  "focus": "Computer vision developer platform with open-source models and edge Inference",
+  "problem": "Developers struggle to build, train and deploy vision models on their own hardware.",
+  "products": [
+   {
+    "name": "Roboflow Inference",
+    "category": "runtime",
+    "description": "Open-source server to run vision models on Jetson, CPUs and on-prem"
+   },
+   {
+    "name": "RF-DETR",
+    "category": "model",
+    "description": "Open real-time detection transformer models"
+   },
+   {
+    "name": "Roboflow Platform",
+    "category": "platform",
+    "description": "Labeling, training and deployment for vision"
+   },
+   {
+    "name": "Roboflow Universe",
+    "category": "platform",
+    "description": "Large open dataset and model community"
+   },
+   {
+    "name": "supervision",
+    "category": "sdk",
+    "description": "Open-source CV utilities library"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "embedded-iot",
+   "camera",
+   "pc-workstation",
+   "browser",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "developers",
+   "enterprise",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "Rivian",
+   "Walmart"
+  ],
+  "differentiator": "Open-source toolchain and large community for edge vision deployment.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "medium",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://fortune.com/2024/11/19/exclusive-roboflow-vision-ai-startup-raises-40-million-series-b/",
+   "https://www.cbinsights.com/company/roboflow/financials"
+  ]
+ },
+ {
+  "id": "robovision",
+  "name": "Robovision",
+  "verdict": "borderline",
+  "verdict_reason": "Vision AI platform deployed on-prem/edge but positioned as industrial vision software.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://robovision.ai",
+  "hq_city": "Ghent",
+  "hq_country": "Belgium",
+  "founded": 2008,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 130,
+  "employees_band": "51-200",
+  "focus": "Vision AI platform for manufacturing, agriculture and robotics",
+  "problem": "Industrial vision AI is hard to scale beyond pilots across production sites.",
+  "products": [
+   {
+    "name": "Robovision Platform",
+    "category": "platform",
+    "description": "End-to-end vision AI lifecycle with edge model deployment"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "industrial-manufacturing",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "safr-realnetworks",
+  "name": "SAFR",
+  "verdict": "in",
+  "verdict_reason": "SAFR runs face recognition on-prem and on edge devices for privacy-sensitive sites.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "RealNetworks",
+  "website": "https://safr.com",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 50,
+  "employees_band": "11-50",
+  "focus": "Face recognition and person detection platform running on-prem and at the edge",
+  "problem": "Sites need accurate, privacy-preserving identity detection without cloud video transfer.",
+  "products": [
+   {
+    "name": "SAFR Platform",
+    "category": "platform",
+    "description": "Face recognition running on edge devices and local servers"
+   },
+   {
+    "name": "SAFR Scan",
+    "category": "app",
+    "description": "Access control and visitor management with face recognition"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem",
+   "embedded-iot"
+  ],
+  "layers": [
+   "applications",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "education-research",
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "scailable",
+  "name": "Scailable",
+  "verdict": "in",
+  "verdict_reason": "Edge AI deployment platform; now the basis of Nx AI Manager after acquisition.",
+  "status": "acquired",
+  "status_detail": "Acquired by Network Optix (Jan 2024)",
+  "parent": "Network Optix",
+  "website": "https://scailable.net",
+  "hq_city": "Nijmegen",
+  "hq_country": "Netherlands",
+  "founded": 2020,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 15,
+  "employees_band": "11-50",
+  "focus": "Cloud-to-edge AI model deployment and fleet management",
+  "problem": "Teams cannot deploy and manage AI models across many edge devices.",
+  "products": [
+   {
+    "name": "Scailable Platform",
+    "category": "platform",
+    "description": "Platform to deploy and manage AI models on edge devices"
+   },
+   {
+    "name": "Nx AI Manager",
+    "category": "runtime",
+    "description": "Successor product in Network Optix's Nx platform"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "embedded-iot"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "security-surveillance",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Network Optix"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hardware-agnostic edge AI deployment based on WebAssembly.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://ioplus.nl/archive/en/network-optix-acquires-scailable-and-its-innovative-cloud-to-edge-ai-deployment/",
+   "https://www.networkoptix.com/announcement/scailable"
+  ]
+ },
+ {
+  "id": "scale-computing",
+  "name": "Scale Computing",
+  "verdict": "borderline",
+  "verdict_reason": "Edge HCI platform that hosts AI workloads; generic infrastructure with AI-at-edge marketing.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.scalecomputing.com",
+  "hq_city": "Indianapolis",
+  "hq_country": "United States",
+  "founded": 2007,
+  "org_type": "startup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Edge hyperconverged infrastructure and fleet management for distributed sites",
+  "problem": "Distributed sites need resilient local compute to run apps and AI without data-center staff.",
+  "products": [
+   {
+    "name": "SC//Platform",
+    "category": "system",
+    "description": "Edge HCI appliances running VMs and containers at remote sites"
+   },
+   {
+    "name": "SC//Fleet Manager",
+    "category": "platform",
+    "description": "Zero-touch management of large fleets of edge clusters"
+   },
+   {
+    "name": "SC//HyperCore",
+    "category": "runtime",
+    "description": "Self-healing hypervisor and storage layer"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "hardware-systems",
+   "infra-orchestration"
+  ],
+  "modalities": [],
+  "customers": [
+   "retail",
+   "industrial-manufacturing",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Dell",
+   "Lenovo",
+   "NVIDIA",
+   "Intel"
+  ],
+  "notable_customers": [],
+  "differentiator": "Edge-first HCI with zero-touch fleet management.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": []
+ },
+ {
+  "id": "scylla-ai",
+  "name": "Scylla AI",
+  "verdict": "in",
+  "verdict_reason": "Threat-detection video analytics sold for on-prem and edge appliance deployment.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.scylla.ai",
+  "hq_city": null,
+  "hq_country": "United States",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": null,
+  "focus": "AI video analytics for threat detection on existing cameras",
+  "problem": "Security teams miss weapons and threats because humans cannot watch every camera.",
+  "products": [
+   {
+    "name": "Scylla Platform",
+    "category": "platform",
+    "description": "AI detection of weapons, intrusion and behaviour on existing cameras"
+   },
+   {
+    "name": "Scylla Edge Appliance",
+    "category": "system",
+    "description": "On-prem/edge appliance for local video analytics"
+   }
+  ],
+  "deployment": [
+   "edge-server",
+   "camera",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "applications"
+  ],
+  "modalities": [
+   "vision"
+  ],
+  "customers": [
+   "security-surveillance",
+   "enterprise",
+   "government-defense",
+   "education-research"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Proactive threat detection on existing cameras with on-prem deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": []
+ }
+]
