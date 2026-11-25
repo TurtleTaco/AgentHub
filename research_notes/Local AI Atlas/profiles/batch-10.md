@@ -1,0 +1,11 @@
+# Batch 10 notes (40 companies: 18 in, 22 borderline, 0 out)
+- ~18 searches used; 14 profiles basis searched/mixed, rest from knowledge (confidence low where noted).
+- Langflow: acquisition chain confirmed (DataStax 2024 via Logspace; IBM announced DataStax deal Feb 2025; IBM page now "DataStax, an IBM company"). Status acquired.
+- Sinequa: ChapsVision acquisition confirmed (Nov 18, 2024).
+- Lamini: no AMD acquisition found; only a vague, unnamed CRN/CB Insights hint of an AMD team hire. Kept active, flagged unconfirmed. $25M Series A (May 2024).
+- Prem AI: $100M Series A is reported as in progress (Bloomberg, Jun 2026), not confirmed closed; one outlier claims closed. Total funding ~ $19.5M (PitchBook).
+- Shakudo: funding sources conflict (CB Insights $17.6M, FundedIQ $14.2M, BetaKit ~$18M; Series A C$9.5M/US$7M Jul 2023; later ~$7M customer-investor round dated Oct 2025 or Feb 2026). Used 18, medium confidence. Product names are partly generic descriptions.
+- Seekr total funding sources range $104M-$294M; used 104 (low). webAI: Series A at $700M (Sep 2024), extension at $2.5B pre-money (Jan 2026).
+- Rasa HQ: corrected from Germany to San Francisco (Berlin major office), low confidence. xpander.ai: HQ conflict (Israel vs San Francisco); used SF. Mindbreeze parent Fabasoft unverified. Xference website and founding year unverified.
+- Unknown/low-confidence funding: Labring, Lamatic, LLMWare, Pryon, Rafay, Saltlux, Squirro, Stack AI, Valohai, VDF AI, Trellis, Saptiva, Seldon, Private AI.
+- No duplicates spotted.

@@ -1,0 +1,3133 @@
+[
+ {
+  "id": "labring-fastgpt",
+  "name": "Labring (FastGPT)",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source self-hostable RAG/workflow platform; local deployment is a core usage but not a dedicated local-AI product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://github.com/labring/FastGPT",
+  "hq_city": "Hangzhou",
+  "hq_country": "China",
+  "founded": 2022,
+  "org_type": "open-source-company",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open-source knowledge-base QA and LLM workflow platform, self-hostable",
+  "problem": "Teams need private RAG and agent workflows over internal knowledge without sending data to SaaS.",
+  "products": [
+   {
+    "name": "FastGPT",
+    "category": "platform",
+    "description": "Open-source knowledge-base QA, RAG and visual workflow platform, self-hosted with local models"
+   },
+   {
+    "name": "Sealos",
+    "category": "platform",
+    "description": "Cloud OS on Kubernetes from the same company used to host FastGPT"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "smb"
+  ],
+  "partners": [
+   "Sealos",
+   "Ollama",
+   "OneAPI"
+  ],
+  "notable_customers": [],
+  "differentiator": "Popular open-source Chinese RAG platform deployable in one click on own Kubernetes or Docker.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://github.com/labring/FastGPT"
+  ]
+ },
+ {
+  "id": "lamatic-ai",
+  "name": "Lamatic.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Managed agent-building PaaS; private/VPC deployment option is secondary to its hosted service.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://lamatic.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Managed platform for building and deploying AI agents and RAG flows, with VPC option",
+  "problem": "Teams struggle to build and run production GenAI agents and RAG pipelines reliably.",
+  "products": [
+   {
+    "name": "Lamatic Studio",
+    "category": "platform",
+    "description": "Low-code studio for building agent and RAG flows"
+   },
+   {
+    "name": "Lamatic managed/private deployment",
+    "category": "service",
+    "description": "Hosted or customer-VPC deployment of agent workflows"
+   }
+  ],
+  "deployment": [
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Agent-building PaaS with edge-deployed flows and optional private deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://lamatic.ai"
+  ]
+ },
+ {
+  "id": "lamini",
+  "name": "Lamini",
+  "verdict": "in",
+  "verdict_reason": "Enterprise LLM tuning and inference platform sold on-prem, air-gapped and in VPC, core proposition.",
+  "status": "active",
+  "status_detail": "Status unconfirmed: a CB Insights snippet suggests AMD hired the team of an Instinct ISV (strictly hiring, not acquisition); not tied to Lamini with certainty.",
+  "parent": null,
+  "website": "https://www.lamini.ai",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 25,
+  "last_round": "Series A, $25M, May 2024, led by Amplify Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Amplify Partners",
+   "AMD Ventures",
+   "First Round Capital",
+   "Andrew Ng",
+   "Lip-Bu Tan"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "Enterprise LLM memory tuning and inference deployable on customer infrastructure",
+  "problem": "Enterprises need accurate, fine-tuned LLMs on their own data without exposing it to public clouds.",
+  "products": [
+   {
+    "name": "Lamini Platform",
+    "category": "platform",
+    "description": "LLM tuning and inference platform deployable on-prem, air-gapped or VPC"
+   },
+   {
+    "name": "Memory Tuning",
+    "category": "service",
+    "description": "Fine-tuning method embedding facts into LLM weights to cut hallucinations"
+   },
+   {
+    "name": "Lamini Inference",
+    "category": "runtime",
+    "description": "High-throughput inference on AMD Instinct and NVIDIA GPUs"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "model-optimization",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "government-defense"
+  ],
+  "partners": [
+   "AMD",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Early AMD Instinct-focused LLM tuning platform with memory tuning for factual accuracy.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://siliconangle.com/?p=654610",
+   "https://www.tomshardware.com/tech-industry/artificial-intelligence/amds-biggest-ai-gpu-booster-adds-support-for-nvidia-too-lamini-ai-preps-for-nvidia-hardware"
+  ]
+ },
+ {
+  "id": "langdock",
+  "name": "Langdock",
+  "verdict": "borderline",
+  "verdict_reason": "Enterprise AI workspace with EU hosting; self-hosted option exists but is secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.langdock.com",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 4,
+  "last_round": "Seed, $3M, Apr 2024, led by General Catalyst and La Famiglia",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "General Catalyst",
+   "La Famiglia",
+   "Y Combinator"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Model-agnostic enterprise AI chat, assistants and agents workspace with EU/self-host options",
+  "problem": "Companies want employees to use LLMs while keeping data under company and EU control.",
+  "products": [
+   {
+    "name": "Langdock Chat",
+    "category": "app",
+    "description": "Enterprise chat workspace across multiple LLMs"
+   },
+   {
+    "name": "Langdock Assistants",
+    "category": "app",
+    "description": "Custom assistants and agents connected to company data"
+   },
+   {
+    "name": "Langdock API / Integrations",
+    "category": "platform",
+    "description": "API and integrations platform for building AI workflows"
+   },
+   {
+    "name": "Langdock self-hosted",
+    "category": "service",
+    "description": "Deployment on customer infrastructure for regulated customers"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [
+   "Microsoft Azure",
+   "OpenAI",
+   "Anthropic",
+   "Mistral"
+  ],
+  "notable_customers": [],
+  "differentiator": "German, GDPR-first model-agnostic workspace with self-hosting for regulated buyers.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+   "https://www.cbinsights.com/company/langdock/financials"
+  ]
+ },
+ {
+  "id": "langflow",
+  "name": "Langflow",
+  "verdict": "borderline",
+  "verdict_reason": "Open-source visual agent/RAG builder, self-hostable and usable with local models; not local-AI specific.",
+  "status": "acquired",
+  "status_detail": "Acquired by DataStax (April 2024, via Logspace); DataStax acquired by IBM (announced Feb 2025, closing mid-2025 per IBM page title 'DataStax, an IBM company')",
+  "parent": "IBM (via DataStax)",
+  "website": "https://www.langflow.org",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Acquired by DataStax (Apr 2024); DataStax acquired by IBM (announced Feb 2025)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Open-source low-code builder for AI agents and RAG workflows",
+  "problem": "Developers need a fast way to prototype and deploy LLM agent and RAG workflows.",
+  "products": [
+   {
+    "name": "Langflow",
+    "category": "platform",
+    "description": "Open-source visual builder for agents and RAG, runs with local models via Ollama"
+   },
+   {
+    "name": "DataStax Langflow",
+    "category": "service",
+    "description": "Hosted Langflow offered by DataStax"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "pc-workstation"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "developers",
+   "enterprise"
+  ],
+  "partners": [
+   "DataStax",
+   "IBM watsonx",
+   "Ollama"
+  ],
+  "notable_customers": [],
+  "differentiator": "Widely adopted open-source visual builder, now part of IBM via DataStax.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.ibm.com/new/announcements/ibm-to-acquire-datastax-helping-clients-bring-the-power-of-unstructured-data-to-enterprise-ai-applications"
+  ]
+ },
+ {
+  "id": "llmware-ai-bloks",
+  "name": "LLMWare (AI Bloks)",
+  "verdict": "in",
+  "verdict_reason": "Small-model RAG framework and Model HQ app built for private AI on PCs and on-prem servers.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://llmware.ai",
+  "hq_city": "Boston",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Small local language models, RAG framework and Model HQ for AI PCs",
+  "problem": "Enterprises need private RAG and agents that run on laptops and own servers without cloud APIs.",
+  "products": [
+   {
+    "name": "llmware",
+    "category": "sdk",
+    "description": "Open-source framework for RAG and agent workflows with small models"
+   },
+   {
+    "name": "Model HQ",
+    "category": "app",
+    "description": "Desktop app to run and build with local models on AI PCs"
+   },
+   {
+    "name": "BLING / DRAGON / SLIM models",
+    "category": "model",
+    "description": "Small specialized open models for RAG and function calling"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "datacenter-onprem",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "models",
+   "ai-platform",
+   "inference-runtime",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "legal",
+   "developers"
+  ],
+  "partners": [
+   "Intel",
+   "Qualcomm",
+   "NVIDIA",
+   "Hugging Face"
+  ],
+  "notable_customers": [],
+  "differentiator": "Small specialized models plus tooling optimized for AI PCs and fully private enterprise RAG.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://llmware.ai"
+  ]
+ },
+ {
+  "id": "mattermost",
+  "name": "Mattermost",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hosted secure collaboration platform adding air-gapped agent/AI features; AI is secondary to collaboration.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://mattermost.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Series D",
+  "total_funding_usd_m": 70,
+  "last_round": "Series D, $50M, 2021",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Battery Ventures",
+   "S28 Capital",
+   "Redpoint",
+   "Y Combinator"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Self-hosted secure collaboration for defense and critical infrastructure with private AI agents",
+  "problem": "Regulated organizations need chat and AI assistants that stay inside their own air-gapped environments.",
+  "products": [
+   {
+    "name": "Mattermost Platform",
+    "category": "platform",
+    "description": "Self-hosted secure collaboration with workflow and playbooks"
+   },
+   {
+    "name": "Mattermost Agents / AI",
+    "category": "app",
+    "description": "AI assistant plugin connecting self-hosted or cloud LLMs to chat"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "energy-utilities"
+  ],
+  "partners": [
+   "Ollama",
+   "vLLM",
+   "Microsoft Azure OpenAI"
+  ],
+  "notable_customers": [
+   "US Department of Defense",
+   "US Air Force"
+  ],
+  "differentiator": "Self-hosted, open-core collaboration trusted for DoD/air-gapped use with bring-your-own-LLM.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://mattermost.com/blog/can-agentic-ai-work-in-air-gapped-environments/"
+  ]
+ },
+ {
+  "id": "mindbreeze",
+  "name": "Mindbreeze",
+  "verdict": "in",
+  "verdict_reason": "Insight engine sold as on-prem InSpire appliance with local LLMs as a marketed product line.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "Fabasoft (majority owner; unverified)",
+  "website": "https://www.mindbreeze.com",
+  "hq_city": "Linz",
+  "hq_country": "Austria",
+  "founded": 2005,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 250,
+  "employees_band": "201-500",
+  "focus": "Enterprise insight engine and GenAI search deployable as on-prem appliance",
+  "problem": "Enterprises need generative-AI search over internal data without sending it to external clouds.",
+  "products": [
+   {
+    "name": "Mindbreeze InSpire",
+    "category": "system",
+    "description": "Insight engine appliance for enterprise search and GenAI, on-prem or cloud"
+   },
+   {
+    "name": "Mindbreeze InSpire AI/GenAI",
+    "category": "platform",
+    "description": "RAG and answers with local or customer-selected LLMs"
+   },
+   {
+    "name": "Mindbreeze Cloud",
+    "category": "service",
+    "description": "Managed deployment option"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "Fabasoft",
+   "Microsoft",
+   "Google"
+  ],
+  "notable_customers": [],
+  "differentiator": "Appliance-based enterprise search with on-prem generative AI from an Austrian vendor.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.mindbreeze.com"
+  ]
+ },
+ {
+  "id": "mirantis-k0rdent-ai",
+  "name": "Mirantis (k0rdent AI)",
+  "verdict": "borderline",
+  "verdict_reason": "Kubernetes vendor with k0rdent AI product for private/sovereign AI inference clouds; infrastructure-focused.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.mirantis.com",
+  "hq_city": "Campbell",
+  "hq_country": "United States",
+  "founded": 2011,
+  "org_type": "scaleup",
+  "funding_stage": "Late/Growth",
+  "total_funding_usd_m": 220,
+  "last_round": "Unknown",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Intel Capital",
+   "Dell Technologies Capital",
+   "August Capital"
+  ],
+  "employees": 500,
+  "employees_band": "201-500",
+  "focus": "Open-source Kubernetes and cloud infrastructure, with k0rdent AI for private AI clouds",
+  "problem": "Operators need to build GPU-based private AI inference clouds on their own infrastructure.",
+  "products": [
+   {
+    "name": "k0rdent AI",
+    "category": "platform",
+    "description": "Multi-cluster Kubernetes-based platform for private and sovereign AI inference clouds"
+   },
+   {
+    "name": "k0rdent",
+    "category": "platform",
+    "description": "Open-source multi-cluster Kubernetes management"
+   },
+   {
+    "name": "Mirantis Kubernetes Engine / k0s",
+    "category": "platform",
+    "description": "Kubernetes distributions for on-prem and edge"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Dell"
+  ],
+  "notable_customers": [],
+  "differentiator": "Sovereign AI cloud reference stack on open-source Kubernetes with multi-cluster management.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.mirantis.com"
+  ]
+ },
+ {
+  "id": "n8n",
+  "name": "n8n",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hostable workflow automation with AI agent nodes and local LLM support; self-host is an option, not the AI core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://n8n.io",
+  "hq_city": "Berlin",
+  "hq_country": "Germany",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 240,
+  "last_round": "Series C, $180M, Oct 2025, led by Accel (reported); valuation about $2.5B",
+  "valuation_usd_m": 2500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Accel",
+   "Highland Europe",
+   "Sequoia",
+   "Felicis",
+   "NVentures"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Fair-code workflow automation with AI agents, self-hostable",
+  "problem": "Teams need to automate workflows with AI agents while keeping data on their own servers.",
+  "products": [
+   {
+    "name": "n8n",
+    "category": "platform",
+    "description": "Fair-code workflow automation with AI agent and LLM nodes, self-hostable"
+   },
+   {
+    "name": "n8n Cloud",
+    "category": "service",
+    "description": "Managed hosted n8n"
+   },
+   {
+    "name": "n8n Enterprise self-hosted",
+    "category": "service",
+    "description": "Enterprise edition for on-prem deployment with SSO and governance"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "smb"
+  ],
+  "partners": [
+   "Ollama",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "notable_customers": [],
+  "differentiator": "Massive open-source community; self-host and local-LLM nodes in a general automation tool.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://n8n.io"
+  ]
+ },
+ {
+  "id": "nextcloud-assistant",
+  "name": "Nextcloud (Assistant)",
+  "verdict": "borderline",
+  "verdict_reason": "Self-hosted collaboration suite with local-model AI Assistant and ethical-AI rating; AI is an add-on.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://nextcloud.com",
+  "hq_city": "Stuttgart",
+  "hq_country": "Germany",
+  "founded": 2016,
+  "org_type": "open-source-company",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Self-hosted collaboration suite with AI Assistant running local open-source models",
+  "problem": "Organizations want AI inside their file/collab suite without sharing data with big-tech clouds.",
+  "products": [
+   {
+    "name": "Nextcloud Hub",
+    "category": "platform",
+    "description": "Self-hosted file sync, collaboration and productivity suite"
+   },
+   {
+    "name": "Nextcloud Assistant",
+    "category": "app",
+    "description": "AI assistant for summaries, translation and generation using local or remote models"
+   },
+   {
+    "name": "Nextcloud local AI apps (LocalAI/llm2)",
+    "category": "runtime",
+    "description": "Integrations to run open-source LLMs and speech models on own servers"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "image-video-gen"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "education-research"
+  ],
+  "partners": [
+   "Ionos",
+   "OpenStack",
+   "Hugging Face"
+  ],
+  "notable_customers": [
+   "German federal government (reported)"
+  ],
+  "differentiator": "Self-hosted open-source suite with an 'Ethical AI Rating' and model choice.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://nextcloud.com"
+  ]
+ },
+ {
+  "id": "onyx-formerly-danswer",
+  "name": "Onyx (formerly Danswer)",
+  "verdict": "in",
+  "verdict_reason": "Open-source enterprise search/chat platform designed for self-hosting, including fully air-gapped with local LLMs.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://onyx.app",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 10,
+  "last_round": "Seed, $10M, Mar 2025, led by Khosla Ventures and First Round Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Khosla Ventures",
+   "First Round Capital",
+   "Y Combinator"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Open-source enterprise search, chat and agents, self-hosted and air-gapped",
+  "problem": "Companies need AI search and chat over internal knowledge without data leaving their environment.",
+  "products": [
+   {
+    "name": "Onyx Community Edition",
+    "category": "platform",
+    "description": "MIT-licensed self-hosted chat, RAG and connectors"
+   },
+   {
+    "name": "Onyx Enterprise Edition",
+    "category": "platform",
+    "description": "Self-hosted edition with SSO, permissions sync and admin controls"
+   },
+   {
+    "name": "Onyx Cloud",
+    "category": "service",
+    "description": "Managed hosted option"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "government-defense"
+  ],
+  "partners": [
+   "Ollama",
+   "vLLM",
+   "Vespa"
+  ],
+  "notable_customers": [],
+  "differentiator": "Open-source enterprise search with 40+ connectors and air-gapped local-LLM support.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://onyx.app/blog/seed-round",
+   "https://www.techcrunch.com/2025/03/12/why-onyx-thinks-its-open-source-solution-will-win-enterprise-search/"
+  ]
+ },
+ {
+  "id": "prem-ai",
+  "name": "Prem AI",
+  "verdict": "in",
+  "verdict_reason": "Private AI platform to fine-tune and deploy customer-owned small models on-prem, core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.premai.io",
+  "hq_city": "Lugano",
+  "hq_country": "Switzerland",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 19.5,
+  "last_round": "Seed, $14M, Apr 2024; $100M Series A reported in progress at 500M+ valuation (Bloomberg, Jun 2026), not confirmed closed",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Heartcore Capital",
+   "Round13",
+   "Cherry Ventures",
+   "Y Combinator (reported)"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "Private/sovereign platform for fine-tuning and deploying customer-owned small language models",
+  "problem": "Regulated firms need custom models running on their own servers rather than third-party APIs.",
+  "products": [
+   {
+    "name": "Prem Platform",
+    "category": "platform",
+    "description": "Fine-tune, evaluate and deploy custom small language models on own infrastructure"
+   },
+   {
+    "name": "Prem SLMs",
+    "category": "model",
+    "description": "Small language models customized per customer"
+   },
+   {
+    "name": "Prem Studio / Autonomous Fine-tuning",
+    "category": "service",
+    "description": "No-code model customization workflow"
+   },
+   {
+    "name": "PremSQL",
+    "category": "sdk",
+    "description": "Open-source local-first text-to-SQL library"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "model-optimization",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "code"
+  ],
+  "customers": [
+   "finance",
+   "legal",
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Hugging Face"
+  ],
+  "notable_customers": [],
+  "differentiator": "Swiss sovereign small-model customization with model ownership and on-prem deployment.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/06/18/prem-seeks-100m-series-export-bans-boost-sovereign-ai-demand/",
+   "https://pitchbook.com/profiles/company/539834-23"
+  ]
+ },
+ {
+  "id": "private-ai",
+  "name": "Private AI",
+  "verdict": "in",
+  "verdict_reason": "Ships PII detection/redaction models as containers run in customer environments; local deployment is core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.private-ai.com",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A, about $8.5M, 2022 (unverified)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "M12 (reported)",
+   "Mistral (unverified)"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "PII detection and redaction for text, audio and documents, deployed in customer environments",
+  "problem": "Organizations must remove sensitive data before AI use without sending it to a third-party service.",
+  "products": [
+   {
+    "name": "PrivateAI Container",
+    "category": "runtime",
+    "description": "On-prem/VPC container for PII detection and redaction of text, documents and images"
+   },
+   {
+    "name": "PrivateGPT (Private AI)",
+    "category": "app",
+    "description": "Redacting layer in front of LLM prompts"
+   },
+   {
+    "name": "Private AI Cloud API",
+    "category": "service",
+    "description": "Hosted API version"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "security-privacy",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio",
+   "vision"
+  ],
+  "customers": [
+   "enterprise",
+   "healthcare",
+   "finance",
+   "legal"
+  ],
+  "partners": [
+   "Microsoft Azure"
+  ],
+  "notable_customers": [],
+  "differentiator": "Lightweight PII models in containers supporting 50+ languages, runnable fully offline.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.private-ai.com"
+  ]
+ },
+ {
+  "id": "pryon",
+  "name": "Pryon",
+  "verdict": "in",
+  "verdict_reason": "Enterprise RAG platform deployable on-prem and in secure/air-gapped government environments, marketed as core.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.pryon.com",
+  "hq_city": "Raleigh",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": null,
+  "last_round": "Series B, $100M, Sep 2023, led by Smash Capital (reported)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Smash Capital",
+   "Ahren Innovation Capital"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Enterprise knowledge and RAG platform for government and regulated industry",
+  "problem": "Organizations need trusted answers from internal knowledge in secure, disconnected environments.",
+  "products": [
+   {
+    "name": "Pryon RAG Suite",
+    "category": "platform",
+    "description": "Ingestion, retrieval and generation platform for enterprise knowledge"
+   },
+   {
+    "name": "Pryon Ingestion Engine",
+    "category": "platform",
+    "description": "Document processing for RAG pipelines"
+   },
+   {
+    "name": "Pryon Retrieval Engine",
+    "category": "platform",
+    "description": "Retrieval with source attribution"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "industrial-manufacturing",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AWS",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "US Army (reported)"
+  ],
+  "differentiator": "RAG platform proven in air-gapped government and industrial use.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.pryon.com"
+  ]
+ },
+ {
+  "id": "rafay",
+  "name": "Rafay",
+  "verdict": "borderline",
+  "verdict_reason": "Kubernetes/GPU PaaS for enterprises and sovereign clouds; infra platform rather than local AI itself.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://rafay.co",
+  "hq_city": "Sunnyvale",
+  "hq_country": "United States",
+  "founded": 2017,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Menlo Ventures",
+   "Haystack",
+   "Costanoa"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Kubernetes and GPU platform-as-a-service for enterprise and sovereign AI clouds",
+  "problem": "Operators need self-service GPU/AI platforms on their own data centers and sovereign clouds.",
+  "products": [
+   {
+    "name": "Rafay Platform",
+    "category": "platform",
+    "description": "Kubernetes management and self-service platform on any infrastructure"
+   },
+   {
+    "name": "Rafay GPU PaaS",
+    "category": "platform",
+    "description": "Self-service GPU and AI/ML workbench for private and sovereign GPU clouds"
+   },
+   {
+    "name": "Rafay Inference / Model-as-a-service",
+    "category": "platform",
+    "description": "Serverless-style inference serving for GPU cloud operators"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "edge-server",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "telecom",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Dell"
+  ],
+  "notable_customers": [],
+  "differentiator": "Turns owned GPU fleets into governed self-service AI clouds for sovereign operators.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://rafay.co"
+  ]
+ },
+ {
+  "id": "rasa",
+  "name": "Rasa",
+  "verdict": "borderline",
+  "verdict_reason": "Conversational AI platform deployable self-managed on-prem or private cloud; local deployment secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://rasa.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2016,
+  "org_type": "scaleup",
+  "funding_stage": "Series C",
+  "total_funding_usd_m": 107,
+  "last_round": "Series C, $30M, 2022, led by StepStone (reported)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "StepStone",
+   "Andreessen Horowitz",
+   "Accel",
+   "Basis Set"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Enterprise conversational AI platform (CALM) deployable in own environment",
+  "problem": "Enterprises need controllable, secure AI assistants running in their own infrastructure.",
+  "products": [
+   {
+    "name": "Rasa Platform (CALM)",
+    "category": "platform",
+    "description": "Conversational AI framework combining LLMs with deterministic flows"
+   },
+   {
+    "name": "Rasa Open Source",
+    "category": "sdk",
+    "description": "Open-source conversational AI framework"
+   },
+   {
+    "name": "Rasa Studio",
+    "category": "app",
+    "description": "No-code interface for building assistants"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "telecom",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Hugging Face"
+  ],
+  "notable_customers": [
+   "Adobe",
+   "Deutsche Telekom (reported)"
+  ],
+  "differentiator": "Open-source heritage and CALM architecture limiting LLM risk with self-managed deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://rasa.com"
+  ]
+ },
+ {
+  "id": "saltlux",
+  "name": "Saltlux",
+  "verdict": "in",
+  "verdict_reason": "Korean AI firm selling LUXIA ON on-prem generative AI appliance and sovereign LLMs for government and enterprise.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.saltlux.com",
+  "hq_city": "Seoul",
+  "hq_country": "South Korea",
+  "founded": 1979,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 400,
+  "employees_band": "201-500",
+  "focus": "Korean LLM (LUXIA) and on-prem generative AI appliance for government and enterprise",
+  "problem": "Korean organizations need domestic LLMs running on-prem with data kept in-house.",
+  "products": [
+   {
+    "name": "LUXIA LLM",
+    "category": "model",
+    "description": "Korean-language large language model family"
+   },
+   {
+    "name": "LUXIA ON",
+    "category": "system",
+    "description": "On-prem generative AI appliance"
+   },
+   {
+    "name": "Saltlux Knowledge AI / AI Suite",
+    "category": "platform",
+    "description": "Enterprise knowledge, search and RAG platform"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "models",
+   "hardware-systems",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "speech-audio"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "finance"
+  ],
+  "partners": [
+   "Intel",
+   "Samsung (reported)"
+  ],
+  "notable_customers": [],
+  "differentiator": "Korea-centric sovereign LLM bundled with on-prem appliance.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.saltlux.com",
+   "https://view.asiae.co.kr/en/article/2024032009203932946"
+  ]
+ },
+ {
+  "id": "saptiva",
+  "name": "Saptiva",
+  "verdict": "in",
+  "verdict_reason": "Sovereign AI platform for enterprises and government with air-gapped and composable LLM stacks on local infrastructure.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://saptiva.com",
+  "hq_city": "Mexico City",
+  "hq_country": "Mexico",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Mexican sovereign AI platform with air-gapped and composable LLM stacks",
+  "problem": "Latin American organizations need AI that stays on national, controlled infrastructure.",
+  "products": [
+   {
+    "name": "Saptiva platform",
+    "category": "platform",
+    "description": "Sovereign enterprise AI platform with composable LLM stack"
+   },
+   {
+    "name": "Saptiva air-gapped training environments",
+    "category": "service",
+    "description": "Isolated model training/deployment on sovereign infrastructure"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "services"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "finance"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Latin-American sovereign AI vendor.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://mexicobusiness.news/cloudanddata/news/sovereign-ai-when-protocol-product"
+  ]
+ },
+ {
+  "id": "sas-viya",
+  "name": "SAS (Viya)",
+  "verdict": "borderline",
+  "verdict_reason": "Large analytics vendor; Viya deployable on customer Kubernetes or private cloud, but mainly cloud-oriented.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.sas.com",
+  "hq_city": "Cary",
+  "hq_country": "United States",
+  "founded": 1976,
+  "org_type": "big-tech",
+  "funding_stage": "Bootstrapped",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Privately held; revenue about $3B",
+  "key_investors": [],
+  "employees": 14000,
+  "employees_band": "10000+",
+  "focus": "Analytics and AI platform deployable on customer Kubernetes, on-prem or private cloud",
+  "problem": "Regulated enterprises need analytics and AI platforms running in controlled environments.",
+  "products": [
+   {
+    "name": "SAS Viya",
+    "category": "platform",
+    "description": "Analytics, ML and AI platform runnable on customer Kubernetes"
+   },
+   {
+    "name": "SAS Viya Workbench",
+    "category": "platform",
+    "description": "Self-service development environment for data science"
+   },
+   {
+    "name": "SAS Model Manager / Decisioning",
+    "category": "platform",
+    "description": "Governance and deployment of models"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "sensor-timeseries",
+   "llm-text",
+   "vision"
+  ],
+  "customers": [
+   "finance",
+   "healthcare",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Microsoft",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Long-standing regulated-industry analytics vendor with Kubernetes-based self-managed deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.sas.com"
+  ]
+ },
+ {
+  "id": "seekr",
+  "name": "Seekr",
+  "verdict": "in",
+  "verdict_reason": "SeekrFlow platform and appliances for building and running AI on-prem, air-gapped and contested edge.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.seekr.com",
+  "hq_city": "Leesburg",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "scaleup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 104,
+  "last_round": "$100M round (initial close Jun 2025), led by Danu Venture Group and AMD Ventures",
+  "valuation_usd_m": 1200,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Danu Venture Group",
+   "AMD Ventures",
+   "Intel Capital",
+   "Shell Ventures",
+   "Cisco Investments"
+  ],
+  "employees": 200,
+  "employees_band": "51-200",
+  "focus": "Trusted AI platform (SeekrFlow) for enterprise and government, deployable on-prem and air-gapped",
+  "problem": "Government and enterprise need verifiable, controllable AI running in secure environments.",
+  "products": [
+   {
+    "name": "SeekrFlow",
+    "category": "platform",
+    "description": "End-to-end platform to build, train, validate and deploy models and agents"
+   },
+   {
+    "name": "SeekrFlow Enterprise on AWS GovCloud",
+    "category": "service",
+    "description": "SeekrFlow available in AWS GovCloud (US), Jan 2026"
+   },
+   {
+    "name": "Seekr air-gapped system",
+    "category": "system",
+    "description": "Packaged system for standalone data centers and contested edge"
+   },
+   {
+    "name": "Seekr LLM family",
+    "category": "model",
+    "description": "Fine-tuned trusted models used inside SeekrFlow"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "edge-server",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "model-optimization",
+   "models",
+   "hardware-systems"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise",
+   "energy-utilities"
+  ],
+  "partners": [
+   "AMD",
+   "Intel",
+   "NVIDIA",
+   "Dell"
+  ],
+  "notable_customers": [
+   "US Air Force (reported)"
+  ],
+  "differentiator": "Gov-focused full-stack AI platform with explainable data curation and air-gapped options.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://executivebiz.com/article/seekr-danu-venture-group-amd-ventures-100m-funding-round",
+   "https://www.cbinsights.com/company/seekr-technologies/financials"
+  ]
+ },
+ {
+  "id": "seldon",
+  "name": "Seldon",
+  "verdict": "borderline",
+  "verdict_reason": "Model serving/MLOps (Seldon Core, LLM Module) deployed on customer Kubernetes; self-hosted is core but infra-generic.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.seldon.io",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "founded": 2014,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 20,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Index Ventures",
+   "Softbank (reported)",
+   "AlbionVC"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Kubernetes-native model serving and monitoring for ML and LLMs",
+  "problem": "Enterprises need to deploy, scale and monitor ML and LLMs on their own clusters.",
+  "products": [
+   {
+    "name": "Seldon Core",
+    "category": "runtime",
+    "description": "Open-source Kubernetes model serving framework (now source-available)"
+   },
+   {
+    "name": "Seldon Core 2",
+    "category": "runtime",
+    "description": "Modular data-centric model serving and pipelines"
+   },
+   {
+    "name": "Seldon LLM Module",
+    "category": "runtime",
+    "description": "LLM deployment and monitoring add-on"
+   },
+   {
+    "name": "Alibi",
+    "category": "sdk",
+    "description": "Open-source explainability and drift detection libraries"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare",
+   "telecom"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Red Hat",
+   "AWS"
+  ],
+  "notable_customers": [
+   "Capital One (reported)"
+  ],
+  "differentiator": "Well-known open-source MLOps serving stack for Kubernetes.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.seldon.io"
+  ]
+ },
+ {
+  "id": "shakudo",
+  "name": "Shakudo",
+  "verdict": "in",
+  "verdict_reason": "Operating system that installs and runs the full data and AI stack inside customer VPC, on-prem or air-gapped Kubernetes.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.shakudo.io",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 18,
+  "last_round": "About $7M USD customer/strategic round (reported Oct 2025-Feb 2026; sources differ); Series A $7M, Jul 2023, led by GreatPoint Ventures",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "GreatPoint Ventures",
+   "Wittington Ventures",
+   "Existing customers (participated as investors)"
+  ],
+  "employees": 60,
+  "employees_band": "51-200",
+  "focus": "Self-hosted operating system for data and AI stacks, bundling open-source tools and LLMs",
+  "problem": "Enterprises struggle to assemble, secure and run AI and data tooling on their own infrastructure.",
+  "products": [
+   {
+    "name": "Shakudo Platform",
+    "category": "platform",
+    "description": "Operating system deploying and integrating 200+ open-source data/AI tools in customer environment"
+   },
+   {
+    "name": "Shakudo AI Stack / LLM serving",
+    "category": "platform",
+    "description": "Self-hosted LLM and agent stack running on customer Kubernetes and GPUs"
+   },
+   {
+    "name": "Shakudo Stack Components catalog",
+    "category": "service",
+    "description": "Curated, pre-integrated open-source tools (vector DBs, orchestration, notebooks)"
+   },
+   {
+    "name": "Shakudo Managed Services",
+    "category": "service",
+    "description": "Forward-deployed engineering and managed operation of the stack"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "ai-platform",
+   "infra-orchestration",
+   "security-privacy",
+   "services"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal",
+   "code",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare",
+   "government-defense",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AWS",
+   "Google Cloud",
+   "Microsoft Azure",
+   "Snowflake",
+   "Databricks"
+  ],
+  "notable_customers": [
+   "Walmart Canada (reported)",
+   "Cisco (reported)"
+  ],
+  "differentiator": "Data-sovereign AI OS: whole stack runs in the customer's own Kubernetes without vendor data access.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://betakit.com/from-client-to-cap-table-shakudo-converts-customers-to-investors-with-7-million-usd-raise/",
+   "https://www.fasken.com/en/experience/2023/07/greatpoint-ventures-leads-series-a-funding-round-for-shakudo-inc",
+   "https://www.cbinsights.com/company/shakudo/financials",
+   "https://venturecapitaljournal.com/machine-learning-platform-shakudo-closes-3-4m-seed-round"
+  ]
+ },
+ {
+  "id": "sinequa",
+  "name": "Sinequa",
+  "verdict": "borderline",
+  "verdict_reason": "Enterprise search/GenAI assistants with on-prem and private deployments; mostly platform with local option.",
+  "status": "acquired",
+  "status_detail": "Acquired by ChapsVision (announced Nov 18, 2024); confirmed",
+  "parent": "ChapsVision",
+  "website": "https://www.sinequa.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "founded": 2002,
+  "org_type": "subsidiary",
+  "funding_stage": "Acquired",
+  "total_funding_usd_m": null,
+  "last_round": "Acquired by ChapsVision (announced Nov 2024)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Tikehau Capital (via ChapsVision)",
+   "Qualium (via ChapsVision)"
+  ],
+  "employees": 300,
+  "employees_band": "201-500",
+  "focus": "Enterprise search and GenAI assistant platform with on-prem and private deployment",
+  "problem": "Regulated enterprises need AI search and assistants over internal data under their control.",
+  "products": [
+   {
+    "name": "Sinequa Enterprise Search Platform",
+    "category": "platform",
+    "description": "AI-powered enterprise search with neural search and RAG"
+   },
+   {
+    "name": "Sinequa Assistants",
+    "category": "app",
+    "description": "Generative AI assistants for knowledge workers"
+   },
+   {
+    "name": "Sinequa Neural Search",
+    "category": "runtime",
+    "description": "Hybrid neural/keyword retrieval engine"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare",
+   "industrial-manufacturing"
+  ],
+  "partners": [
+   "Microsoft",
+   "Google",
+   "NVIDIA"
+  ],
+  "notable_customers": [
+   "Airbus (reported)",
+   "Pfizer (reported)"
+  ],
+  "differentiator": "Mature enterprise search vendor with neural retrieval and flexible deployment.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.businesswire.com/news/home/20241118794850/en/ChapsVision-Strengthens-AI-Capabilities-With-Sinequa-Acquisition-and-Completes-New-US90M-Funding-Round"
+  ]
+ },
+ {
+  "id": "squirro",
+  "name": "Squirro",
+  "verdict": "borderline",
+  "verdict_reason": "GenAI insight platform for banks deployable on-prem or private cloud; local is a deployment choice.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://squirro.com",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2012,
+  "org_type": "scaleup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Enterprise GenAI and insight engine for banks and central banks",
+  "problem": "Banks need trustworthy GenAI over internal data in controlled environments.",
+  "products": [
+   {
+    "name": "Squirro Platform",
+    "category": "platform",
+    "description": "Enterprise GenAI and insight engine with RAG"
+   },
+   {
+    "name": "Squirro Enterprise GenAI / Augmented Intelligence",
+    "category": "app",
+    "description": "Assistants and insight applications for financial services"
+   },
+   {
+    "name": "Squirro on-prem/private deployments",
+    "category": "service",
+    "description": "Customer-hosted deployments including with local LLMs"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "finance",
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "Central banks (reported)"
+  ],
+  "differentiator": "Swiss banking-focused GenAI with flexible deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://squirro.com"
+  ]
+ },
+ {
+  "id": "stack-ai",
+  "name": "Stack AI",
+  "verdict": "borderline",
+  "verdict_reason": "No-code agent builder; on-prem/VPC deployment is an enterprise option, secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.stack-ai.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "founded": 2022,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Y Combinator"
+  ],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "No-code enterprise agent builder with VPC and on-prem options",
+  "problem": "Enterprises need to build AI agents quickly without exposing data externally.",
+  "products": [
+   {
+    "name": "Stack AI Platform",
+    "category": "platform",
+    "description": "No-code builder for AI agents and workflows"
+   },
+   {
+    "name": "Stack AI on-prem/VPC",
+    "category": "service",
+    "description": "Deployment in customer VPC or on-prem for regulated customers"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "notable_customers": [],
+  "differentiator": "No-code agent builder with enterprise private deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.stack-ai.com"
+  ]
+ },
+ {
+  "id": "suse-suse-ai",
+  "name": "SUSE (SUSE AI)",
+  "verdict": "in",
+  "verdict_reason": "Dedicated, marketed SUSE AI private GenAI stack on customer-controlled Kubernetes, air-gapped capable.",
+  "status": "active",
+  "status_detail": null,
+  "parent": "EQT (taken private 2023)",
+  "website": "https://www.suse.com",
+  "hq_city": "Nuremberg",
+  "hq_country": "Germany",
+  "founded": 1992,
+  "org_type": "subsidiary",
+  "funding_stage": "Subsidiary",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 2300,
+  "employees_band": "1001-5000",
+  "focus": "Enterprise Linux and Kubernetes vendor with SUSE AI private GenAI stack",
+  "problem": "Enterprises need a secure, supported private AI stack on infrastructure they control.",
+  "products": [
+   {
+    "name": "SUSE AI",
+    "category": "platform",
+    "description": "Private GenAI stack with Open WebUI, Ollama, vLLM and observability on Rancher"
+   },
+   {
+    "name": "Rancher Prime",
+    "category": "platform",
+    "description": "Kubernetes management underlying SUSE AI"
+   },
+   {
+    "name": "SUSE Linux Enterprise Micro / SLES for AI",
+    "category": "runtime",
+    "description": "Linux with NVIDIA GPU support for AI workloads"
+   },
+   {
+    "name": "SUSE Security / Observability",
+    "category": "service",
+    "description": "Zero-trust security and observability for AI workloads"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "edge-server"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "telecom",
+   "finance"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AMD",
+   "Ollama",
+   "Open WebUI",
+   "Dell",
+   "HPE"
+  ],
+  "notable_customers": [],
+  "differentiator": "Enterprise-supported open-source private AI stack from a sovereign-friendly European vendor.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.suse.com"
+  ]
+ },
+ {
+  "id": "tabnine",
+  "name": "Tabnine",
+  "verdict": "in",
+  "verdict_reason": "AI code assistant with marketed self-hosted, VPC and fully air-gapped deployment as a core differentiator.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.tabnine.com",
+  "hq_city": "Tel Aviv",
+  "hq_country": "Israel",
+  "founded": 2013,
+  "org_type": "scaleup",
+  "funding_stage": "Series B",
+  "total_funding_usd_m": 55,
+  "last_round": "Series B, $25M, 2021",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Khosla Ventures",
+   "Telstra Ventures",
+   "Atlassian Ventures",
+   "Qualcomm Ventures",
+   "Samsung Next"
+  ],
+  "employees": 150,
+  "employees_band": "51-200",
+  "focus": "Enterprise AI coding assistant with private, self-hosted and air-gapped deployment",
+  "problem": "Enterprises want AI coding help without code leaving their infrastructure or being used for training.",
+  "products": [
+   {
+    "name": "Tabnine AI Code Assistant",
+    "category": "app",
+    "description": "IDE code completion, chat and agents"
+   },
+   {
+    "name": "Tabnine Enterprise self-hosted",
+    "category": "service",
+    "description": "On-prem, VPC or air-gapped deployment with customer-hosted models"
+   },
+   {
+    "name": "Tabnine Protected / private models",
+    "category": "model",
+    "description": "Models trained on permissively licensed code with IP indemnification"
+   },
+   {
+    "name": "Tabnine Code Review & Agents",
+    "category": "app",
+    "description": "AI code review and agentic workflows"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud",
+   "air-gapped",
+   "pc-workstation"
+  ],
+  "layers": [
+   "applications",
+   "models",
+   "security-privacy"
+  ],
+  "modalities": [
+   "code",
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "developers",
+   "finance",
+   "government-defense"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell",
+   "Atlassian"
+  ],
+  "notable_customers": [
+   "Telstra",
+   "Dell"
+  ],
+  "differentiator": "Longest-running AI code assistant with truly air-gapped deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.tabnine.com"
+  ]
+ },
+ {
+  "id": "tensor9",
+  "name": "Tensor9",
+  "verdict": "borderline",
+  "verdict_reason": "Platform for vendors to ship software, incl. AI, into customer cloud, on-prem or air-gapped; AI-adjacent.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.tensor9.com",
+  "hq_city": "Seattle",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 4,
+  "last_round": "Seed, $4M, May 2025, led by Wing VC",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Wing VC",
+   "NVAngels",
+   "Level Up Ventures",
+   "Devang Sachdev"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "Lets SaaS and AI vendors deploy into customer cloud, on-prem and air-gapped environments",
+  "problem": "Software vendors cannot easily deliver their product inside customers' private environments.",
+  "products": [
+   {
+    "name": "Tensor9 platform",
+    "category": "platform",
+    "description": "Deploys vendor software into customer environments with remote operations"
+   },
+   {
+    "name": "Tensor9 AI deployment",
+    "category": "service",
+    "description": "Ship AI applications to cloud-prem, on-prem or bare metal"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "services"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [
+   "AWS",
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Founded by early AWS S3 engineers; turns SaaS into deployable-in-customer-environment product.",
+  "confidence": {
+   "funding": "high",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.geekwire.com/2025/amazon-vets-land-4m-for-seattle-data-security-startup-tensor9/",
+   "https://www.businesswire.com/news/home/20250513615428/en"
+  ]
+ },
+ {
+  "id": "trellis-data",
+  "name": "Trellis Data",
+  "verdict": "borderline",
+  "verdict_reason": "Sovereign agent platform (AgentAus) for Australian government; likely Australia-hosted rather than customer-controlled hardware.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.trellisdata.com.au",
+  "hq_city": "Canberra",
+  "hq_country": "Australia",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Sovereign AI agent platform for Australian government and regulated customers",
+  "problem": "Government needs AI agents with data kept on Australian sovereign infrastructure.",
+  "products": [
+   {
+    "name": "AgentAus",
+    "category": "platform",
+    "description": "Sovereign AI agent platform hosted in Australia"
+   },
+   {
+    "name": "Trellis Data platform",
+    "category": "platform",
+    "description": "Data and AI platform for government agencies"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Australian-sovereign agent platform.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.canberratimes.com.au/story/9325923/trellis-data-ai-platform-agentaus-challenges-global-tech/"
+  ]
+ },
+ {
+  "id": "truefoundry",
+  "name": "TrueFoundry",
+  "verdict": "in",
+  "verdict_reason": "LLMOps/AI gateway platform installed in customer VPC, on-prem or air-gapped clusters as primary deployment model.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.truefoundry.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 21,
+  "last_round": "Series A, $19M, Feb 2025, led by Intel Capital (reported)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Intel Capital",
+   "Eniac Ventures",
+   "Peak XV (Surge)",
+   "Jump Capital"
+  ],
+  "employees": 90,
+  "employees_band": "51-200",
+  "focus": "Kubernetes-native LLMOps, AI gateway and agent deployment platform in customer environments",
+  "problem": "Enterprises need to deploy and govern models and agents on their own cloud and clusters.",
+  "products": [
+   {
+    "name": "TrueFoundry AI Gateway",
+    "category": "platform",
+    "description": "Unified gateway to hosted and self-hosted LLMs with governance"
+   },
+   {
+    "name": "TrueFoundry LLM Deployment",
+    "category": "platform",
+    "description": "Deploy and serve open models on own GPUs"
+   },
+   {
+    "name": "TrueFoundry Fine-tuning",
+    "category": "platform",
+    "description": "Fine-tune models on own infrastructure"
+   },
+   {
+    "name": "TrueFoundry Agent / MCP Gateway",
+    "category": "platform",
+    "description": "Deploy and govern agents and MCP servers"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "inference-runtime",
+   "ai-platform"
+  ],
+  "modalities": [
+   "llm-text",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AWS",
+   "Azure",
+   "GCP"
+  ],
+  "notable_customers": [
+   "Nvidia",
+   "Mastercard (reported)"
+  ],
+  "differentiator": "Control-plane-in-your-VPC LLMOps with strong Kubernetes foundation.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "mixed",
+  "sources": [
+   "https://www.truefoundry.com"
+  ]
+ },
+ {
+  "id": "unique",
+  "name": "Unique",
+  "verdict": "borderline",
+  "verdict_reason": "Agentic AI for financial institutions with single-tenant/self-hosted options; local scope unverified.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.unique.ai",
+  "hq_city": "Zurich",
+  "hq_country": "Switzerland",
+  "founded": 2021,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 53,
+  "last_round": "Series A, $30M, Feb 2025, led by CommerzVentures and DN Capital",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "CommerzVentures",
+   "DN Capital",
+   "VI Partners",
+   "Pictet Group"
+  ],
+  "employees": 120,
+  "employees_band": "51-200",
+  "focus": "Agentic AI platform for banking, wealth and insurance with single-tenant deployments",
+  "problem": "Financial institutions need compliant AI agents within their control and regulation.",
+  "products": [
+   {
+    "name": "Unique AI platform",
+    "category": "platform",
+    "description": "Agentic AI platform for financial services"
+   },
+   {
+    "name": "Unique Single-tenant deployment",
+    "category": "service",
+    "description": "Dedicated deployment in client-controlled environment"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "finance"
+  ],
+  "partners": [
+   "Microsoft Azure",
+   "OpenAI"
+  ],
+  "notable_customers": [
+   "UBS (reported)",
+   "Pictet"
+  ],
+  "differentiator": "Swiss bank-grade agentic platform with dedicated deployments.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.finextra.com/newsarticle/45576/swiss-ai-firm-unique-raises-30m-in-series-a-funding",
+   "https://www.walderwyss.com/it/news/2025-02-28_unique-announces-usd-30m-series-a-financing-led-by-commerzventures-and-dn-capital"
+  ]
+ },
+ {
+  "id": "valohai",
+  "name": "Valohai",
+  "verdict": "borderline",
+  "verdict_reason": "MLOps orchestration running on customer on-prem or cloud compute; generic MLOps not local-AI specific.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://valohai.com",
+  "hq_city": "Turku",
+  "hq_country": "Finland",
+  "founded": 2016,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 8,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": 40,
+  "employees_band": "11-50",
+  "focus": "MLOps platform orchestrating ML pipelines on any infrastructure",
+  "problem": "ML teams struggle to reproduce and run pipelines across on-prem and cloud compute.",
+  "products": [
+   {
+    "name": "Valohai MLOps platform",
+    "category": "platform",
+    "description": "ML pipeline orchestration and experiment tracking across clouds and on-prem"
+   },
+   {
+    "name": "Valohai on-prem/hybrid",
+    "category": "service",
+    "description": "Run jobs on customer GPU clusters"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "infra-orchestration",
+   "ai-platform"
+  ],
+  "modalities": [
+   "vision",
+   "llm-text",
+   "sensor-timeseries"
+  ],
+  "customers": [
+   "enterprise",
+   "automotive",
+   "healthcare"
+  ],
+  "partners": [
+   "NVIDIA"
+  ],
+  "notable_customers": [],
+  "differentiator": "Infrastructure-agnostic MLOps with strong reproducibility.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://valohai.com"
+  ]
+ },
+ {
+  "id": "vdf-ai",
+  "name": "VDF AI",
+  "verdict": "in",
+  "verdict_reason": "Private enterprise AI chat and agent platform with fully air-gapped installs on open-weight models.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://vdf.ai",
+  "hq_city": "Stockholm",
+  "hq_country": "Sweden",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Unknown",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [],
+  "employees": null,
+  "employees_band": "11-50",
+  "focus": "Private enterprise AI chat and agent platform for air-gapped, open-weight deployment",
+  "problem": "Organizations need governed AI chat and agents entirely inside their own perimeter.",
+  "products": [
+   {
+    "name": "VDF AI Chat",
+    "category": "app",
+    "description": "Private enterprise chat with governance"
+   },
+   {
+    "name": "VDF AI Agent Platform",
+    "category": "platform",
+    "description": "On-premise agent platform with open-weight models"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud"
+  ],
+  "layers": [
+   "applications",
+   "ai-platform",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense"
+  ],
+  "partners": [],
+  "notable_customers": [],
+  "differentiator": "Air-gapped-first Swedish enterprise AI platform.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://vdf.ai/resources/on-premise-ai-agent-platform/",
+   "https://vdf.ai/products/vdf-ai-chat/"
+  ]
+ },
+ {
+  "id": "vectara",
+  "name": "Vectara",
+  "verdict": "borderline",
+  "verdict_reason": "RAG-as-a-service with VPC/on-prem option for regulated customers; mostly managed cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.vectara.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "founded": 2020,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": 53.5,
+  "last_round": "Series A, $25M, Jul 2024, led by FPV and Race Capital (reported)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Race Capital",
+   "FPV Ventures",
+   "Samsung Next",
+   "Alumni Ventures"
+  ],
+  "employees": 70,
+  "employees_band": "51-200",
+  "focus": "RAG and agent platform with hallucination detection, offered also as VPC/on-prem",
+  "problem": "Enterprises need accurate grounded answers over their data, sometimes inside their own environment.",
+  "products": [
+   {
+    "name": "Vectara RAG Platform",
+    "category": "platform",
+    "description": "End-to-end retrieval-augmented generation as a service"
+   },
+   {
+    "name": "Vectara Agents",
+    "category": "platform",
+    "description": "Agent platform on RAG foundation"
+   },
+   {
+    "name": "Hughes Hallucination Evaluation Model",
+    "category": "model",
+    "description": "Open model scoring hallucination in LLM output"
+   },
+   {
+    "name": "Vectara VPC/on-prem",
+    "category": "service",
+    "description": "Private deployment for regulated customers"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "models"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "legal",
+   "healthcare"
+  ],
+  "partners": [
+   "Snowflake",
+   "AWS"
+  ],
+  "notable_customers": [],
+  "differentiator": "Hallucination-focused RAG with hosted and private deployment.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.vectara.com"
+  ]
+ },
+ {
+  "id": "veritone",
+  "name": "Veritone",
+  "verdict": "borderline",
+  "verdict_reason": "Public AI company whose aiWARE can deploy on-prem/air-gapped for public sector; core is largely cloud.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.veritone.com",
+  "hq_city": "Denver",
+  "hq_country": "United States",
+  "founded": 2014,
+  "org_type": "public",
+  "funding_stage": "Public",
+  "total_funding_usd_m": null,
+  "last_round": null,
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": "Public (NASDAQ: VERI)",
+  "key_investors": [],
+  "employees": 700,
+  "employees_band": "501-1000",
+  "focus": "Enterprise AI operating system (aiWARE) for media, government and public safety",
+  "problem": "Public-sector and media customers need AI over sensitive video/audio data, sometimes in secure environments.",
+  "products": [
+   {
+    "name": "aiWARE",
+    "category": "platform",
+    "description": "AI operating system orchestrating models; deployable on-prem or air-gapped"
+   },
+   {
+    "name": "Veritone Redact / IDentify / Track",
+    "category": "app",
+    "description": "Video and audio AI applications for public safety"
+   },
+   {
+    "name": "Veritone Data Refinery / Hire",
+    "category": "app",
+    "description": "AI data and workflow applications"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "vision",
+   "speech-audio",
+   "llm-text"
+  ],
+  "customers": [
+   "government-defense",
+   "security-surveillance",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "AWS",
+   "Microsoft"
+  ],
+  "notable_customers": [
+   "US Air Force (reported)",
+   "iHeartMedia (reported)"
+  ],
+  "differentiator": "Public AI OS with orchestration of many models and air-gap deployment option.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "knowledge",
+  "sources": [
+   "https://www.veritone.com"
+  ]
+ },
+ {
+  "id": "webai",
+  "name": "webAI",
+  "verdict": "in",
+  "verdict_reason": "Local AI platform (Navigator) for building and running models on customer-owned devices, core proposition.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.webai.com",
+  "hq_city": "Austin",
+  "hq_country": "United States",
+  "founded": 2019,
+  "org_type": "startup",
+  "funding_stage": "Series A",
+  "total_funding_usd_m": null,
+  "last_round": "Series A extension, high double-digit $M, Jan 2026 (pre-money $2.5B); Series A completed Sep 2024 at $700M valuation (total $60M then)",
+  "valuation_usd_m": 2500,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Atreides Management",
+   "Forerunner Ventures",
+   "Time Ventures",
+   "Oxcart Ventures"
+  ],
+  "employees": 100,
+  "employees_band": "51-200",
+  "focus": "Local AI platform for building and running models across customer-owned devices",
+  "problem": "Organizations want private AI that runs on their own devices rather than cloud APIs.",
+  "products": [
+   {
+    "name": "webAI Navigator",
+    "category": "platform",
+    "description": "Local platform for building, deploying and running AI models on own hardware"
+   },
+   {
+    "name": "webAI distributed inference",
+    "category": "runtime",
+    "description": "Shards models across owned devices for private inference"
+   },
+   {
+    "name": "webAI models / ColVec",
+    "category": "model",
+    "description": "Own models for enterprise tasks incl. vision and retrieval"
+   }
+  ],
+  "deployment": [
+   "pc-workstation",
+   "edge-server",
+   "embedded-iot",
+   "datacenter-onprem",
+   "air-gapped"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime",
+   "models"
+  ],
+  "modalities": [
+   "llm-text",
+   "vision",
+   "multimodal"
+  ],
+  "customers": [
+   "enterprise",
+   "government-defense",
+   "industrial-manufacturing",
+   "consumer-electronics-oem"
+  ],
+  "partners": [
+   "Apple",
+   "NVIDIA",
+   "Dell"
+  ],
+  "notable_customers": [],
+  "differentiator": "Distributed on-device inference across customers' own hardware with a $2.5B valuation.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "medium"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://siliconangle.com/2026/01/13/sovereign-ai-unicorn-webais-value-soars-2-5b-double-digit-funding-round/",
+   "https://www.webai.com/blog/new-board-members-and-additional-funding"
+  ]
+ },
+ {
+  "id": "xference-ai",
+  "name": "Xference.ai",
+  "verdict": "in",
+  "verdict_reason": "Private AI inference startup running customer models on own servers/dedicated Italian infrastructure.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://xference.ai",
+  "hq_city": "Cagliari",
+  "hq_country": "Italy",
+  "founded": null,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 0.8,
+  "last_round": "Pre-seed, EUR 700K, early 2026, from business angels",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Bastiano Sanna",
+   "Niccolo Perra"
+  ],
+  "employees": 10,
+  "employees_band": "1-10",
+  "focus": "No-code platform for private AI inference on European infrastructure",
+  "problem": "European companies need to run AI models under their own control instead of US clouds.",
+  "products": [
+   {
+    "name": "Xference platform",
+    "category": "platform",
+    "description": "No-code private AI inference platform"
+   },
+   {
+    "name": "Xference European infrastructure",
+    "category": "service",
+    "description": "Dedicated inference hosted at Aruba data centres, beta Apr 2026"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "private-cloud"
+  ],
+  "layers": [
+   "ai-platform",
+   "inference-runtime"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise",
+   "finance",
+   "healthcare"
+  ],
+  "partners": [
+   "Aruba"
+  ],
+  "notable_customers": [],
+  "differentiator": "European private-inference stack on sovereign Italian data centres.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://financecommunity.it/round-da-700-mila-euro-per-xference-ai/",
+   "https://www.intelligentcio.com/eu/2026/04/28/xference-launches-european-private-ai-infrastructure-from-aruba-data-centres/"
+  ]
+ },
+ {
+  "id": "xpander-ai",
+  "name": "xpander.ai",
+  "verdict": "borderline",
+  "verdict_reason": "Enterprise AI agent platform; customer-cloud/on-prem deployment option not verified and secondary.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://xpander.ai",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Seed",
+  "total_funding_usd_m": 13.5,
+  "last_round": "Seed, $7.5M, Aug 2026, led by Pico Venture Partners",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Pico Venture Partners",
+   "Emerge Ventures",
+   "Samsung Next",
+   "SeedIL"
+  ],
+  "employees": 30,
+  "employees_band": "11-50",
+  "focus": "Vendor-neutral enterprise AI agent platform and agent backend",
+  "problem": "Enterprises struggle to move AI agents from pilots to governed production.",
+  "products": [
+   {
+    "name": "xpander Agent Backend",
+    "category": "platform",
+    "description": "Backend for building and running enterprise AI agents"
+   },
+   {
+    "name": "Omni",
+    "category": "app",
+    "description": "Enterprise agent scoring 90.9% on GAIA"
+   }
+  ],
+  "deployment": [
+   "private-cloud",
+   "datacenter-onprem"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "enterprise"
+  ],
+  "partners": [
+   "AWS"
+  ],
+  "notable_customers": [],
+  "differentiator": "Vendor-neutral agent backend by ex-AWS engineers.",
+  "confidence": {
+   "funding": "low",
+   "employees": "low",
+   "founded": "low"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://www.hpcwire.com/aiwire/2026/08/17/xpander-raises-7-5m-to-expand-enterprise-ai-agent-platform/",
+   "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/"
+  ]
+ },
+ {
+  "id": "zylon-privategpt",
+  "name": "Zylon (PrivateGPT)",
+  "verdict": "in",
+  "verdict_reason": "Private AI workspace from PrivateGPT creators, sold fully on-prem including air-gapped installs, core business.",
+  "status": "active",
+  "status_detail": null,
+  "parent": null,
+  "website": "https://www.zylon.ai",
+  "hq_city": "Madrid",
+  "hq_country": "Spain",
+  "founded": 2023,
+  "org_type": "startup",
+  "funding_stage": "Pre-seed",
+  "total_funding_usd_m": 3.2,
+  "last_round": "Pre-seed, $3.2M, Feb 2024, led by Felicis (later rounds not checked)",
+  "valuation_usd_m": null,
+  "market_cap_or_revenue": null,
+  "key_investors": [
+   "Felicis",
+   "LifeX Ventures",
+   "Zypsy"
+  ],
+  "employees": 25,
+  "employees_band": "11-50",
+  "focus": "On-prem private AI workspace for regulated industries from the creators of PrivateGPT",
+  "problem": "Regulated firms want ChatGPT-like capabilities without data leaving their own infrastructure.",
+  "products": [
+   {
+    "name": "Zylon",
+    "category": "platform",
+    "description": "On-prem private AI workspace with chat, document Q&A and agents"
+   },
+   {
+    "name": "PrivateGPT",
+    "category": "sdk",
+    "description": "Open-source 100% private document Q&A with local LLMs"
+   },
+   {
+    "name": "Zylon bundled models and appliance setup",
+    "category": "service",
+    "description": "Includes models and deployment on customer hardware, incl. air-gapped"
+   }
+  ],
+  "deployment": [
+   "datacenter-onprem",
+   "air-gapped",
+   "private-cloud",
+   "pc-workstation"
+  ],
+  "layers": [
+   "ai-platform",
+   "applications",
+   "security-privacy"
+  ],
+  "modalities": [
+   "llm-text"
+  ],
+  "customers": [
+   "finance",
+   "legal",
+   "healthcare",
+   "government-defense",
+   "enterprise"
+  ],
+  "partners": [
+   "NVIDIA",
+   "Dell"
+  ],
+  "notable_customers": [],
+  "differentiator": "Creators of 50k+ star PrivateGPT now offering turnkey on-prem workspace.",
+  "confidence": {
+   "funding": "medium",
+   "employees": "low",
+   "founded": "high"
+  },
+  "basis": "searched",
+  "sources": [
+   "https://tech.eu/2024/02/14/from-the-creators-of-privategpt-zylon-emerges-from-stealth-announcing-a-3-2m-pre-seed-funding-round",
+   "https://www.zylon.ai/blog/zylon-pre-seed-funding-round"
+  ]
+ }
+]
