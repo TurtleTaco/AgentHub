@@ -1,0 +1,1466 @@
+[
+  {
+    "name": "BigBear.ai",
+    "website": "https://bigbear.ai",
+    "hq_country": "United States",
+    "one_liner": "Public decision-intelligence and generative AI vendor for US defense and national security.",
+    "local_ai_angle": "Local device supports air-gapped deployments up to TS/SCI with locally hosted models (July 2026).",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://bigbear.ai",
+      "https://www.hpcwire.com/aiwire/2026/07/15/bigbear-ai-expands-generative-ai-platform-for-secure-mission-environments/",
+      "https://www.executivebiz.com/articles/bigbear-ai-dow-genai-platform-expansion"
+    ]
+  },
+  {
+    "name": "Ask Sage",
+    "website": "https://www.asksage.ai",
+    "hq_country": "United States",
+    "one_liner": "Model-agnostic generative AI platform built for US government and defense users.",
+    "local_ai_angle": "Accredited secure-network gen AI; now delivered via BigBear.ai's air-gapped local device.",
+    "segment": "vertical-regulated",
+    "type": "subsidiary",
+    "status": "acquired by BigBear.ai (2025)",
+    "sources": [
+      "https://www.asksage.ai",
+      "https://www.hpcwire.com/aiwire/2026/07/15/bigbear-ai-expands-generative-ai-platform-for-secure-mission-environments/",
+      "https://www.executivebiz.com/articles/bigbear-ai-dow-genai-platform-expansion"
+    ]
+  },
+  {
+    "name": "EdgeRunner AI",
+    "website": "https://www.edgerunnerai.com",
+    "hq_country": "United States",
+    "one_liner": "Seattle startup building on-device AI agents for warfighters (logistics, maintenance, etc.).",
+    "local_ai_angle": "Air-gapped LLM agents run entirely on-device with no internet; $17.5M raised through 2025 Series A.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.geekwire.com/2025/seattle-startup-edgerunner-ai-raises-12m-to-help-military-use-ai-without-the-internet/",
+      "https://www.businesswire.com/news/home/20250501050946/en/EdgeRunner-Raises-$17.5M-to-Develop-Air-Gapped-On-Device-AI-for-the-Warfighter",
+      "https://www.madrona.com/edgerunner-ai-air-gapped-on-device-agents/"
+    ]
+  },
+  {
+    "name": "Seekr Technologies",
+    "website": "https://www.seekr.com",
+    "hq_country": "United States",
+    "one_liner": "Trustworthy-AI platform (SeekrFlow) for government and enterprise model building and deployment.",
+    "local_ai_angle": "All-in-one system for air-gapped environments, standalone data centers and contested edge.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.seekr.com",
+      "https://startupfortune.com/startups-building-ais-secure-backbone-for-us-intelligence/"
+    ]
+  },
+  {
+    "name": "Defense Unicorns",
+    "website": "https://defenseunicorns.com",
+    "hq_country": "United States",
+    "one_liner": "Open-source software delivery platform (UDS) for DoD mission systems.",
+    "local_ai_angle": "Packages and deploys software, including AI stacks, into air-gapped and classified networks.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://defenseunicorns.com"
+    ]
+  },
+  {
+    "name": "Primer AI",
+    "website": "https://primer.ai",
+    "hq_country": "United States",
+    "one_liner": "NLP/LLM intelligence-analysis platform for defense and intelligence agencies.",
+    "local_ai_angle": "Deployable on-premises, air-gapped and on classified government networks.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://primer.ai"
+    ]
+  },
+  {
+    "name": "Vannevar Labs",
+    "website": "https://www.vannevarlabs.com",
+    "hq_country": "United States",
+    "one_liner": "AI-enabled foreign-intelligence and OSINT analysis tools for US national security.",
+    "local_ai_angle": "Tools delivered into secure government environments rather than public consumer cloud (verify).",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.vannevarlabs.com"
+    ]
+  },
+  {
+    "name": "Shield AI",
+    "website": "https://shield.ai",
+    "hq_country": "United States",
+    "one_liner": "Defense autonomy company; Hivemind AI pilot for drones and aircraft.",
+    "local_ai_angle": "Hivemind autonomy runs on-board, operating without GPS or communications links.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://shield.ai"
+    ]
+  },
+  {
+    "name": "Anduril Industries",
+    "website": "https://www.anduril.com",
+    "hq_country": "United States",
+    "one_liner": "Defense technology company: Lattice software, autonomous systems, sensors.",
+    "local_ai_angle": "Lattice and autonomy run at the tactical edge on platforms without cloud connectivity.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.anduril.com"
+    ]
+  },
+  {
+    "name": "Helsing",
+    "website": "https://helsing.ai",
+    "hq_country": "Germany",
+    "one_liner": "European defense AI company: software, strike drones, underwater and EW systems.",
+    "local_ai_angle": "AI runs on-platform in drones/aircraft for operation in contested, disconnected environments.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://helsing.ai"
+    ]
+  },
+  {
+    "name": "CoVar",
+    "website": "https://covar.com",
+    "hq_country": "United States",
+    "one_liner": "AI/ML research and engineering firm for DARPA and DoD programs.",
+    "local_ai_angle": "Develops edge-deployable ML and autonomy algorithms for military platforms.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://covar.com"
+    ]
+  },
+  {
+    "name": "Legion Intelligence",
+    "website": "https://www.legionintel.com",
+    "hq_country": "United States",
+    "one_liner": "Secure AI agent/workflow platform for defense, intelligence and regulated enterprises.",
+    "local_ai_angle": "Deployable on-prem and in classified and air-gapped networks.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.legionintel.com"
+    ]
+  },
+  {
+    "name": "Rebellion Defense",
+    "website": "https://rebelliondefense.com",
+    "hq_country": "United States",
+    "one_liner": "Defense software company (Nova cyber, Iris data/C2 products).",
+    "local_ai_angle": "Software built for deployment in on-prem and classified DoD environments.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://rebelliondefense.com"
+    ]
+  },
+  {
+    "name": "Palantir Technologies",
+    "website": "https://www.palantir.com",
+    "hq_country": "United States",
+    "one_liner": "Public data and AI platform company (Gotham, Foundry, AIP).",
+    "local_ai_angle": "AIP deploys on classified, air-gapped and tactical-edge environments.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.palantir.com"
+    ]
+  },
+  {
+    "name": "Scale AI",
+    "website": "https://scale.com",
+    "hq_country": "United States",
+    "one_liner": "AI data and evaluation company with public-sector Donovan platform.",
+    "local_ai_angle": "Donovan and Defense Llama deployed inside classified government networks.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://scale.com"
+    ]
+  },
+  {
+    "name": "Yurts",
+    "website": "https://www.yurts.ai",
+    "hq_country": "United States",
+    "one_liner": "Secure enterprise generative AI platform for government and regulated organizations.",
+    "local_ai_angle": "Deploys on-prem and in air-gapped environments, keeping data in customer infrastructure.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.yurts.ai"
+    ]
+  },
+  {
+    "name": "Iternal Technologies (AirgapAI)",
+    "website": "https://iternal.ai",
+    "hq_country": "United States",
+    "one_liner": "Maker of AirgapAI, a private assistant for government and enterprise on AI PCs.",
+    "local_ai_angle": "Runs LLM and RAG fully offline on the user's PC.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://iternal.ai",
+      "https://iternal.ai/best-private-ai-coding-assistants"
+    ]
+  },
+  {
+    "name": "Rune Technologies",
+    "website": "https://www.runetech.co",
+    "hq_country": "United States",
+    "one_liner": "Defense logistics software (TyrOS) for predictive sustainment planning.",
+    "local_ai_angle": "Runs AI at the tactical edge in disconnected, denied environments.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.runetech.co"
+    ]
+  },
+  {
+    "name": "Striveworks",
+    "website": "https://www.striveworks.com",
+    "hq_country": "United States",
+    "one_liner": "MLOps platform (Chariot) for defense and regulated industries.",
+    "local_ai_angle": "Builds and serves models on-prem, at edge and in disconnected/classified settings.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.striveworks.com"
+    ]
+  },
+  {
+    "name": "Noah Labs",
+    "website": null,
+    "hq_country": "United States",
+    "one_liner": "Stanford spin-out building Sentinel, an AI-native IDE for defense, federal and aerospace code.",
+    "local_ai_angle": "Fully air-gapped, on-prem install with no telemetry or cloud calls.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://itbrief.com.au/story/noah-labs-ai-touts-governed-software-agents-for-defence",
+      "https://resiliencemedia.co/noah-labs-is-bringing-air-gapped-ai-to-militaries-and-governments/",
+      "https://techbullion.com/how-noah-labs-is-helping-government-agencies-and-defense-teams-securely-adopt-ai/"
+    ]
+  },
+  {
+    "name": "Adarga",
+    "website": "https://adarga.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "UK AI information-intelligence software for defense and national security analysts.",
+    "local_ai_angle": "Deployable on secure on-prem government networks.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://adarga.ai"
+    ]
+  },
+  {
+    "name": "Arondite",
+    "website": null,
+    "hq_country": "United Kingdom",
+    "one_liner": "UK defense AI startup building human-machine teaming software.",
+    "local_ai_angle": "Edge software for coordinating autonomous systems in disconnected operations (verify).",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": []
+  },
+  {
+    "name": "Safran.AI (formerly Preligens)",
+    "website": "https://www.preligens.com",
+    "hq_country": "France",
+    "one_liner": "Geospatial-intelligence AI analyzing satellite and aerial imagery for defense.",
+    "local_ai_angle": "On-premises deployment for sovereign defense intelligence users.",
+    "segment": "vertical-regulated",
+    "type": "subsidiary",
+    "status": "acquired by Safran (2024)",
+    "sources": [
+      "https://www.preligens.com"
+    ]
+  },
+  {
+    "name": "Auterion",
+    "website": "https://auterion.com",
+    "hq_country": "United States",
+    "one_liner": "Operating system and on-board computers for drones and robotic systems.",
+    "local_ai_angle": "Edge OS and on-board AI enable autonomy and targeting without connectivity.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://auterion.com"
+    ]
+  },
+  {
+    "name": "Lilt",
+    "website": "https://lilt.com",
+    "hq_country": "United States",
+    "one_liner": "AI translation and localization platform for enterprise and government.",
+    "local_ai_angle": "On-prem and air-gapped deployment options for defense and intelligence customers.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://lilt.com"
+    ]
+  },
+  {
+    "name": "AppTek",
+    "website": "https://www.apptek.com",
+    "hq_country": "United States",
+    "one_liner": "Speech recognition and machine translation vendor serving government and media.",
+    "local_ai_angle": "ASR/MT deployable on-premises for government and defense.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.apptek.com"
+    ]
+  },
+  {
+    "name": "Systran",
+    "website": "https://www.systransoft.com",
+    "hq_country": "France",
+    "one_liner": "Neural machine translation software vendor.",
+    "local_ai_angle": "On-prem/offline translation servers used by defense and security agencies.",
+    "segment": "vertical-regulated",
+    "type": "subsidiary",
+    "status": "acquired by ChapsVision (2024)",
+    "sources": [
+      "https://www.systransoft.com"
+    ]
+  },
+  {
+    "name": "Poolside",
+    "website": "https://poolside.ai",
+    "hq_country": "United States",
+    "one_liner": "Foundation-model company focused on software-engineering AI.",
+    "local_ai_angle": "Models built for on-premises and air-gapped deployment for government and enterprise.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://poolside.ai/government",
+      "https://poolside.ai/public-sector"
+    ]
+  },
+  {
+    "name": "Reflection AI",
+    "website": "https://reflection.ai",
+    "hq_country": "United States",
+    "one_liner": "NVIDIA-backed startup building open-weight frontier models.",
+    "local_ai_angle": "One of eight firms cleared (May 2026) to run models on DoW classified IL6/IL7 networks.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://winbuzzer.com/2026/05/03/pentagon-classified-ai-agreements-nvidia-microsoft-aws-google-openai-spacex-oracle-reflection-xcxwbn/",
+      "https://federalnewsnetwork.com/defense-news/2026/05/dod-strikes-deals-with-major-tech-firms-to-deploy-ai-on-classified-networks/"
+    ]
+  },
+  {
+    "name": "Ferrum Health",
+    "website": "https://ferrumhealth.com",
+    "hq_country": "United States",
+    "one_liner": "Clinical AI orchestration/governance platform with catalog of validated AI apps for health systems.",
+    "local_ai_angle": "On-prem and single-tenant private cloud; PHI never leaves the hospital environment.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://ferrumhealth.com",
+      "https://www.healthcareittoday.com/2024/11/01/ferrum-health-raises-16m-in-series-a-funding-to-unlock-ai-adoption-in-healthcare/",
+      "https://www.medtechdive.com/press-release/20241127-ferrum-health-expands-ai-orchestrator-platform-with-managed-private-cloud-d/"
+    ]
+  },
+  {
+    "name": "John Snow Labs",
+    "website": "https://www.johnsnowlabs.com",
+    "hq_country": "United States",
+    "one_liner": "Healthcare NLP and medical LLM vendor (Spark NLP for Healthcare, Medical LLMs).",
+    "local_ai_angle": "Models and platform deploy on-prem and air-gapped inside hospital infrastructure.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.johnsnowlabs.com"
+    ]
+  },
+  {
+    "name": "deepc",
+    "website": "https://www.deepc.ai",
+    "hq_country": "Germany",
+    "one_liner": "Radiology AI operating system (deepcOS) aggregating third-party imaging AI.",
+    "local_ai_angle": "Deployable on-premises in hospital IT as well as cloud.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.deepc.ai"
+    ]
+  },
+  {
+    "name": "CARPL.ai",
+    "website": "https://carpl.ai",
+    "hq_country": "India",
+    "one_liner": "Radiology AI platform for testing, deploying and monitoring imaging algorithms.",
+    "local_ai_angle": "Offered on-premises or cloud so imaging data can stay in-house.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://carpl.ai"
+    ]
+  },
+  {
+    "name": "Qure.ai",
+    "website": "https://www.qure.ai",
+    "hq_country": "India",
+    "one_liner": "Medical-imaging AI for chest X-ray, CT and TB screening.",
+    "local_ai_angle": "On-prem/offline deployment options for low-connectivity screening sites.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.qure.ai"
+    ]
+  },
+  {
+    "name": "Owkin",
+    "website": "https://www.owkin.com",
+    "hq_country": "France",
+    "one_liner": "AI biotech using federated learning across hospital and pharma data.",
+    "local_ai_angle": "Federated learning trains models at hospitals without moving patient data.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.owkin.com"
+    ]
+  },
+  {
+    "name": "Rhino Health (Rhino Federated Computing)",
+    "website": "https://www.rhinohealth.com",
+    "hq_country": "United States",
+    "one_liner": "Federated computing platform for healthcare and life-sciences AI.",
+    "local_ai_angle": "Runs AI at the data custodian's edge so sensitive data stays on-site.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.rhinohealth.com"
+    ]
+  },
+  {
+    "name": "BeeKeeperAI",
+    "website": "https://www.beekeeperai.com",
+    "hq_country": "United States",
+    "one_liner": "Confidential-computing collaboration platform (EscrowAI) for healthcare AI.",
+    "local_ai_angle": "Algorithms run on PHI inside enclaves in the data steward's environment.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.beekeeperai.com"
+    ]
+  },
+  {
+    "name": "OneAdvanced",
+    "website": "https://www.oneadvanced.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "UK business software vendor; launched private LLM for healthcare businesses (2025).",
+    "local_ai_angle": "UK-hosted private sovereign LLM; data not sent to public AI services (vendor-hosted, borderline).",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://digitalhealth.net/2025/04/oneadvanced-launches-private-llm-for-healthcare-businesses",
+      "https://www.healthcare-management.uk/uk-software-company-launches-private-sovereign-ai-healthcare-businesses"
+    ]
+  },
+  {
+    "name": "LAW.co (LLM.co)",
+    "website": "https://law.co",
+    "hq_country": "United States",
+    "one_liner": "Legal AI vendor offering custom private LLMs for law firms.",
+    "local_ai_angle": "On-prem 'LLM-in-a-Box' appliances, private cloud or hybrid nodes.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://law.co/private-llms-for-law-firms",
+      "https://law.co/private-hybrid-ai-deployment"
+    ]
+  },
+  {
+    "name": "Alexi",
+    "website": "https://www.alexi.com",
+    "hq_country": "Canada",
+    "one_liner": "AI legal research and litigation platform for law firms.",
+    "local_ai_angle": "Private-cloud deployment with complete model and data isolation per firm.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.alexi.com/private-cloud"
+    ]
+  },
+  {
+    "name": "Nuix",
+    "website": "https://www.nuix.com",
+    "hq_country": "Australia",
+    "one_liner": "Investigative analytics and eDiscovery software with AI (Nuix Neo).",
+    "local_ai_angle": "Deployable on-premises for law enforcement, regulators and legal teams.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.nuix.com"
+    ]
+  },
+  {
+    "name": "SBS (Sopra Banking Software)",
+    "website": "https://sbs-software.com",
+    "hq_country": "France",
+    "one_liner": "Core-banking software vendor; launched sovereign AI platform for banks with NVIDIA.",
+    "local_ai_angle": "Banks deploy AI on private cloud, managed cloud or fully on-premises.",
+    "segment": "vertical-regulated",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://sbs-software.com/news/sbs-launches-bankings-first-sovereign-ai-platform/",
+      "https://thepaypers.com/fintech/news/sbs-launches-sovereign-ai-platform-for-banks-with-nvidia"
+    ]
+  },
+  {
+    "name": "INDEV Software",
+    "website": "https://indevsoftware.io",
+    "hq_country": null,
+    "one_liner": "Sovereign AI software for European banks.",
+    "local_ai_angle": "Operates domain-specific LLMs inside banks' regulatory perimeter.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://indevsoftware.io/solutions/sovereignai/"
+    ]
+  },
+  {
+    "name": "Aveni",
+    "website": "https://aveni.ai",
+    "hq_country": "United Kingdom",
+    "one_liner": "Financial-services AI company; FinLLM built with Lloyds and Nationwide.",
+    "local_ai_angle": "Finance-specific sovereign LLM designed for private deployment by banks.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://aveni.ai",
+      "https://www.thestack.technology/two-uk-banks-team-up-to-release-custom-sovereign-llm/"
+    ]
+  },
+  {
+    "name": "Squirro",
+    "website": "https://squirro.com",
+    "hq_country": "Switzerland",
+    "one_liner": "Enterprise generative AI and insight engine for banks and central banks.",
+    "local_ai_angle": "Deployable on-premises or private cloud for regulated institutions.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://squirro.com"
+    ]
+  },
+  {
+    "name": "Unique AI",
+    "website": "https://www.unique.ai",
+    "hq_country": "Switzerland",
+    "one_liner": "Agentic AI platform for banking, wealth and insurance.",
+    "local_ai_angle": "Single-tenant deployment in client-controlled environments (verify on-prem scope).",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.unique.ai"
+    ]
+  },
+  {
+    "name": "Private AI",
+    "website": "https://www.private-ai.com",
+    "hq_country": "Canada",
+    "one_liner": "PII detection, redaction and de-identification for text, audio and documents.",
+    "local_ai_angle": "Container runs inside the customer's environment; data never sent to vendor.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.private-ai.com"
+    ]
+  },
+  {
+    "name": "Intelligent Voice",
+    "website": "https://intelligentvoice.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Speech transcription and analytics for financial compliance and legal.",
+    "local_ai_angle": "On-premises speech AI for regulated finance and eDiscovery.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://intelligentvoice.com"
+    ]
+  },
+  {
+    "name": "Tabnine",
+    "website": "https://www.tabnine.com",
+    "hq_country": "Israel",
+    "one_liner": "AI coding assistant for enterprises.",
+    "local_ai_angle": "Fully air-gapped on-prem deployment with self-hosted models; enterprise-only since early 2026.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.tabnine.com",
+      "https://tech-insider.org/au/tabnine-vs-copilot-vs-windsurf-2026/",
+      "https://context7.com/guides/air-gapped-ai-coding"
+    ]
+  },
+  {
+    "name": "Windsurf (formerly Codeium)",
+    "website": "https://windsurf.com",
+    "hq_country": "United States",
+    "one_liner": "AI coding IDE and assistant.",
+    "local_ai_angle": "Codeium offered self-hosted/hybrid enterprise and FedRAMP High deployments (verify current options).",
+    "segment": "vertical-regulated",
+    "type": "subsidiary",
+    "status": "acquired by Cognition (2025)",
+    "sources": [
+      "https://windsurf.com",
+      "https://tech-insider.org/au/tabnine-vs-copilot-vs-windsurf-2026/"
+    ]
+  },
+  {
+    "name": "Sourcegraph",
+    "website": "https://sourcegraph.com",
+    "hq_country": "United States",
+    "one_liner": "Code search and Cody Enterprise AI assistant.",
+    "local_ai_angle": "Self-hosted; strict air-gap requires disabling Cody Gateway and using internal models.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://sourcegraph.com",
+      "https://context7.com/guides/self-hosted-ai-coding-assistant"
+    ]
+  },
+  {
+    "name": "TabbyML",
+    "website": "https://www.tabbyml.com",
+    "hq_country": null,
+    "one_liner": "Open-source self-hosted AI coding assistant (Tabby).",
+    "local_ai_angle": "Self-contained server runs fully offline after one-time model download.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.tabbyml.com",
+      "https://context7.com/guides/air-gapped-ai-coding"
+    ]
+  },
+  {
+    "name": "Refact.ai",
+    "website": "https://refact.ai",
+    "hq_country": null,
+    "one_liner": "Open-source AI coding assistant and agent.",
+    "local_ai_angle": "Self-hosted server runs open code models on customer GPUs.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://refact.ai"
+    ]
+  },
+  {
+    "name": "Qodo (formerly CodiumAI)",
+    "website": "https://www.qodo.ai",
+    "hq_country": "Israel",
+    "one_liner": "AI code generation, testing and code-review platform.",
+    "local_ai_angle": "On-prem and air-gapped enterprise deployment options.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.qodo.ai"
+    ]
+  },
+  {
+    "name": "Continue",
+    "website": "https://www.continue.dev",
+    "hq_country": "United States",
+    "one_liner": "Open-source AI code assistant/agent framework for IDEs.",
+    "local_ai_angle": "Works with locally hosted models for fully self-hosted setups.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.continue.dev",
+      "https://context7.com/guides/air-gapped-ai-coding"
+    ]
+  },
+  {
+    "name": "JetBrains",
+    "website": "https://www.jetbrains.com",
+    "hq_country": "Czech Republic",
+    "one_liner": "Developer-tools company; JetBrains AI and Mellum code model.",
+    "local_ai_angle": "Open Mellum model and AI Enterprise support on-prem/self-hosted LLMs.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.jetbrains.com"
+    ]
+  },
+  {
+    "name": "Coder",
+    "website": "https://coder.com",
+    "hq_country": "United States",
+    "one_liner": "Self-hosted cloud development environments and Coder Agents.",
+    "local_ai_angle": "Coder Agents (GA Sept 2026) run agent and execution on customer infra, incl. air-gapped.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://coder.com/blog/coder-agents-ga",
+      "https://sdtimes.com/ai-coding-agents/coder-agents-bring-self-hosted-ai-coding/"
+    ]
+  },
+  {
+    "name": "GitLab",
+    "website": "https://about.gitlab.com",
+    "hq_country": "United States",
+    "one_liner": "Public DevSecOps platform with GitLab Duo AI.",
+    "local_ai_angle": "GitLab Duo Self-Hosted runs AI on customer-hosted models, including air-gapped.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://about.gitlab.com/the-source/ai/transforming-government-it-ai-for-air-gapped-environments/"
+    ]
+  },
+  {
+    "name": "aiXcoder",
+    "website": "https://www.aixcoder.com",
+    "hq_country": "China",
+    "one_liner": "Chinese code LLM and AI programming assistant vendor.",
+    "local_ai_angle": "Private on-prem deployment for enterprises and government.",
+    "segment": "international",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.aixcoder.com"
+    ]
+  },
+  {
+    "name": "Pieces for Developers",
+    "website": "https://pieces.app",
+    "hq_country": "United States",
+    "one_liner": "Developer long-term memory and copilot app.",
+    "local_ai_angle": "Local-first; runs on-device LLMs and stores context locally.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pieces.app"
+    ]
+  },
+  {
+    "name": "Speechmatics",
+    "website": "https://www.speechmatics.com",
+    "hq_country": "United Kingdom",
+    "one_liner": "Speech recognition and voice AI provider.",
+    "local_ai_angle": "On-prem and self-hosted deployments for secure enterprise environments.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.speechmatics.com/company/articles-and-news/how-to-deploy-on-premises-speech-recognition-for-secure-enterprise-environments",
+      "https://www.speechmatics.com/company/articles-and-news/the-return-of-on-prem-why-enterprise-is-no-longer-in-the-cloud"
+    ]
+  },
+  {
+    "name": "Deepgram",
+    "website": "https://deepgram.com",
+    "hq_country": "United States",
+    "one_liner": "Speech-to-text, TTS and voice-agent foundation models.",
+    "local_ai_angle": "Self-hosted/on-prem APIs; Fortanix partnership (June 2026) for on-prem regulated voice AI.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://deepgram.com/learn/deepgram-fortanix-press-release",
+      "https://deepgram.com/customers/prem-ai"
+    ]
+  },
+  {
+    "name": "Picovoice",
+    "website": "https://picovoice.ai",
+    "hq_country": "Canada",
+    "one_liner": "On-device voice AI SDKs: wake word, STT, TTS and picoLLM.",
+    "local_ai_angle": "Voice and LLM inference run fully on-device, no cloud.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://picovoice.ai"
+    ]
+  },
+  {
+    "name": "Sensory",
+    "website": "https://www.sensory.com",
+    "hq_country": "United States",
+    "one_liner": "Embedded speech recognition, wake word and biometrics.",
+    "local_ai_angle": "Runs on-device on low-power chips without cloud.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.sensory.com"
+    ]
+  },
+  {
+    "name": "SoundHound AI",
+    "website": "https://www.soundhound.com",
+    "hq_country": "United States",
+    "one_liner": "Public voice AI company (Houndify, automotive, restaurants, Amelia).",
+    "local_ai_angle": "Edge/hybrid voice AI runs on-device in vehicles and devices.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.soundhound.com"
+    ]
+  },
+  {
+    "name": "Cerence",
+    "website": "https://www.cerence.com",
+    "hq_country": "United States",
+    "one_liner": "Automotive voice assistant and in-car AI company.",
+    "local_ai_angle": "Embedded speech plus CaLLM Edge small LLM run in-vehicle.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.cerence.com"
+    ]
+  },
+  {
+    "name": "Phonexia",
+    "website": "https://www.phonexia.com",
+    "hq_country": "Czech Republic",
+    "one_liner": "Speech analytics and voice biometrics for security agencies and banks.",
+    "local_ai_angle": "On-premises deployment for police, intelligence and financial customers.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.phonexia.com"
+    ]
+  },
+  {
+    "name": "AssemblyAI",
+    "website": "https://www.assemblyai.com",
+    "hq_country": "United States",
+    "one_liner": "Speech-to-text and voice AI model provider.",
+    "local_ai_angle": "Models deployable on customer infrastructure, in cloud VPC or on-premises.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.assemblyai.com/features/self-hosted-voice-ai",
+      "https://assemblyai.com/deployments/self-hosted"
+    ]
+  },
+  {
+    "name": "Voxist",
+    "website": "https://www.voxist.com",
+    "hq_country": "France",
+    "one_liner": "Speech recognition, machine translation and TTS for enterprise.",
+    "local_ai_angle": "Installs ASR/MT/TTS models directly within the organization's environment.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.g2.com/products/voxist-enterprise/reviews"
+    ]
+  },
+  {
+    "name": "Cobalt Speech & Language",
+    "website": "https://www.cobaltspeech.com",
+    "hq_country": "United States",
+    "one_liner": "Custom speech recognition, TTS and language tech.",
+    "local_ai_angle": "Deploys on-prem, embedded or air-gapped for defense and enterprise.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.cobaltspeech.com"
+    ]
+  },
+  {
+    "name": "Voicegain",
+    "website": "https://www.voicegain.ai",
+    "hq_country": "United States",
+    "one_liner": "Speech-to-text and speech analytics platform.",
+    "local_ai_angle": "Deployable on-premises or in customer's private cloud/VPC.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.voicegain.ai"
+    ]
+  },
+  {
+    "name": "Spitch",
+    "website": "https://www.spitch.ai",
+    "hq_country": "Switzerland",
+    "one_liner": "Speech recognition, analytics and voice biometrics for contact centres and banks.",
+    "local_ai_angle": "On-premises deployment for regulated customers.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.spitch.ai"
+    ]
+  },
+  {
+    "name": "Veritone",
+    "website": "https://www.veritone.com",
+    "hq_country": "United States",
+    "one_liner": "Public enterprise AI company (aiWARE) for media, government and law enforcement.",
+    "local_ai_angle": "aiWARE deployable on-prem/air-gapped for public-sector customers.",
+    "segment": "vertical-regulated",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.veritone.com"
+    ]
+  },
+  {
+    "name": "Vivoka",
+    "website": "https://vivoka.com",
+    "hq_country": "France",
+    "one_liner": "Voice Development Kit for embedded speech recognition and TTS.",
+    "local_ai_angle": "Offline, on-device speech for industrial and embedded products.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://vivoka.com"
+    ]
+  },
+  {
+    "name": "OPAQUE",
+    "website": "https://www.opaque.co",
+    "hq_country": "United States",
+    "one_liner": "Confidential AI platform; raised $24M Series B at $300M valuation (Feb 2026).",
+    "local_ai_angle": "Confidential computing with cryptographic attestation of data/model handling; sovereign cloud expansion.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://siliconangle.com/2026/02/12/opaque-raises-24m-300m-valuation-confidential-ai-platform/",
+      "https://www.intelcapital.com/opaque-raises-24m-series-b-at-300m-valuation-to-advance-confidential-ai-for-the-enterprise/"
+    ]
+  },
+  {
+    "name": "Fortanix",
+    "website": "https://www.fortanix.com",
+    "hq_country": "United States",
+    "one_liner": "Data security and confidential-computing company (Armet AI).",
+    "local_ai_angle": "Confidential AI on-prem with NVIDIA; partnered with Deepgram for on-prem voice AI.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.fortanix.com",
+      "https://deepgram.com/learn/deepgram-fortanix-press-release"
+    ]
+  },
+  {
+    "name": "Anjuna Security",
+    "website": "https://www.anjuna.io",
+    "hq_country": "United States",
+    "one_liner": "Confidential-computing platform for running workloads in secure enclaves.",
+    "local_ai_angle": "Runs AI and other workloads in enclaves across cloud and on-prem.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.anjuna.io"
+    ]
+  },
+  {
+    "name": "Edgeless Systems",
+    "website": "https://www.edgeless.systems",
+    "hq_country": "Germany",
+    "one_liner": "Confidential-computing company (Privatemode, Continuum AI, Contrast).",
+    "local_ai_angle": "Confidential inference and Kubernetes enclaves deployable on own infrastructure.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.edgeless.systems"
+    ]
+  },
+  {
+    "name": "Duality Technologies",
+    "website": "https://dualitytech.com",
+    "hq_country": "United States",
+    "one_liner": "Privacy-enhancing technology platform (FHE, TEEs, federated learning).",
+    "local_ai_angle": "Secure AI/analytics on sensitive data without exposing it; gov and healthcare.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://dualitytech.com"
+    ]
+  },
+  {
+    "name": "Tinfoil",
+    "website": "https://tinfoil.sh",
+    "hq_country": "United States",
+    "one_liner": "Verifiably private AI inference startup.",
+    "local_ai_angle": "Models run inside attested GPU enclaves; open-source verifiable stack.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tinfoil.sh"
+    ]
+  },
+  {
+    "name": "Confident Security",
+    "website": "https://confident.security",
+    "hq_country": "United States",
+    "one_liner": "'Signal for AI': CONFSEC private inference ($4.2M, July 2025).",
+    "local_ai_angle": "Enterprise implementation of Apple Private Cloud Compute architecture for provably private inference.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2025/07/17/confident-security-the-signal-for-ai-comes-out-of-stealth-with-4-2m",
+      "https://www.businesswire.com/news/home/20250717403863/en/Confident-Security-Launches-The-First-Enterprise-Grade-System-for-Provably-Private-AI-Interactions"
+    ]
+  },
+  {
+    "name": "Enveil",
+    "website": "https://www.enveil.com",
+    "hq_country": "United States",
+    "one_liner": "Privacy-enhancing technology (ZeroReveal) for government and finance.",
+    "local_ai_angle": "Encrypted search, analytics and ML without exposing sensitive data.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.enveil.com"
+    ]
+  },
+  {
+    "name": "Mithril Security",
+    "website": "https://www.mithrilsecurity.io",
+    "hq_country": "France",
+    "one_liner": "Open-source confidential AI tooling (BlindLlama, BlindBox).",
+    "local_ai_angle": "Attested enclave-based LLM serving for private deployments.",
+    "segment": "vertical-regulated",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.mithrilsecurity.io"
+    ]
+  },
+  {
+    "name": "Zama",
+    "website": "https://www.zama.ai",
+    "hq_country": "France",
+    "one_liner": "Open-source fully homomorphic encryption company.",
+    "local_ai_angle": "Enables ML on encrypted data so sensitive inputs stay private.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.zama.ai"
+    ]
+  },
+  {
+    "name": "ABBYY",
+    "website": "https://www.abbyy.com",
+    "hq_country": "United States",
+    "one_liner": "Document AI / intelligent document processing vendor (Vantage, FineReader).",
+    "local_ai_angle": "On-premises deployment for regulated enterprises and government.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.abbyy.com"
+    ]
+  },
+  {
+    "name": "Hyperscience",
+    "website": "https://www.hyperscience.ai",
+    "hq_country": "United States",
+    "one_liner": "Intelligent document processing and automation platform.",
+    "local_ai_angle": "Deployable on-prem and air-gapped for government and financial services.",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.hyperscience.ai"
+    ]
+  },
+  {
+    "name": "Tungsten Automation (formerly Kofax)",
+    "website": "https://www.tungstenautomation.com",
+    "hq_country": "United States",
+    "one_liner": "Intelligent automation and document processing software.",
+    "local_ai_angle": "On-premises deployment of IDP and automation (TotalAgility).",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.tungstenautomation.com"
+    ]
+  },
+  {
+    "name": "Instabase",
+    "website": "https://instabase.com",
+    "hq_country": "United States",
+    "one_liner": "AI platform for unstructured-data and document understanding.",
+    "local_ai_angle": "Private deployment options for banks and regulated enterprises (verify).",
+    "segment": "vertical-regulated",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://instabase.com"
+    ]
+  },
+  {
+    "name": "Prem AI",
+    "website": "https://www.premai.io",
+    "hq_country": "Switzerland",
+    "one_liner": "Private/sovereign enterprise AI platform; reportedly seeking $100M Series A (2026).",
+    "local_ai_angle": "Self-hosted models and confidential APIs in TEEs for regulated enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.runtimewire.com/article/swiss-ai-startup-prem-ai-100m-series-a",
+      "https://deepgram.com/customers/prem-ai",
+      "https://www.premai.io/blog/private-ai-for-finance"
+    ]
+  },
+  {
+    "name": "TrueFoundry",
+    "website": "https://www.truefoundry.com",
+    "hq_country": "United States",
+    "one_liner": "AI/LLMOps platform for deploying models and agents.",
+    "local_ai_angle": "VPC, on-prem and air-gapped deployment for banks and regulated firms.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://truefoundry.com/solutions/banking-and-financial-services"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "website": "https://cohere.com",
+    "hq_country": "Canada",
+    "one_liner": "Enterprise LLM company (Command models, North agent platform).",
+    "local_ai_angle": "Private, on-prem and air-gapped deployments for government and regulated industries.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://cohere.com"
+    ]
+  },
+  {
+    "name": "Mistral AI",
+    "website": "https://mistral.ai",
+    "hq_country": "France",
+    "one_liner": "European open-weight and commercial LLM developer.",
+    "local_ai_angle": "Self-deployable models and sovereign AI offerings for finance and defense.",
+    "segment": "international",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://mistral.ai/industry/financial-services/"
+    ]
+  },
+  {
+    "name": "AI21 Labs",
+    "website": "https://www.ai21.com",
+    "hq_country": "Israel",
+    "one_liner": "LLM developer (Jamba) and enterprise AI systems.",
+    "local_ai_angle": "Private/on-prem deployment of models for regulated enterprises.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.ai21.com"
+    ]
+  },
+  {
+    "name": "Aleph Alpha",
+    "website": "https://aleph-alpha.com",
+    "hq_country": "Germany",
+    "one_liner": "German sovereign enterprise/government AI platform (PhariaAI).",
+    "local_ai_angle": "On-prem sovereign deployment for public sector; 2026 status not verified.",
+    "segment": "international",
+    "type": "scaleup",
+    "status": "unknown",
+    "sources": [
+      "https://aleph-alpha.com"
+    ]
+  },
+  {
+    "name": "LightOn",
+    "website": "https://www.lighton.ai",
+    "hq_country": "France",
+    "one_liner": "French gen AI company listed on Euronext Growth.",
+    "local_ai_angle": "On-prem/sovereign gen AI platform for regulated enterprises and public sector.",
+    "segment": "international",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.lighton.ai"
+    ]
+  },
+  {
+    "name": "Zylon",
+    "website": "https://www.zylon.ai",
+    "hq_country": "Spain",
+    "one_liner": "Private AI platform from creators of open-source PrivateGPT.",
+    "local_ai_angle": "On-prem private AI workspace for regulated industries.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.zylon.ai"
+    ]
+  },
+  {
+    "name": "H2O.ai",
+    "website": "https://h2o.ai",
+    "hq_country": "United States",
+    "one_liner": "Enterprise AI and gen AI platform (h2oGPTe).",
+    "local_ai_angle": "Air-gapped and on-prem deployment marketed to government and regulated industries.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://h2o.ai",
+      "https://dev.to/jaipalsingh/air-gapped-ai-solutions-7-platforms-for-disconnected-enterprise-deployment-2026-2d1p"
+    ]
+  },
+  {
+    "name": "Katonic AI",
+    "website": "https://www.katonic.ai",
+    "hq_country": "Australia",
+    "one_liner": "Sovereign enterprise gen AI platform.",
+    "local_ai_angle": "Air-gapped/on-prem deployment for disconnected enterprise environments.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.katonic.ai",
+      "https://dev.to/jaipalsingh/air-gapped-ai-solutions-7-platforms-for-disconnected-enterprise-deployment-2026-2d1p"
+    ]
+  },
+  {
+    "name": "ClearML",
+    "website": "https://clear.ml",
+    "hq_country": "Israel",
+    "one_liner": "Open-source MLOps/AI infrastructure platform.",
+    "local_ai_angle": "Integrates into classified, air-gapped and multi-domain defense networks.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://clear.ml/industry/defense"
+    ]
+  },
+  {
+    "name": "Clarifai",
+    "website": "https://www.clarifai.com",
+    "hq_country": "United States",
+    "one_liner": "AI platform for vision, LLMs and compute orchestration.",
+    "local_ai_angle": "On-prem/air-gapped deployments, long used by US government.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.clarifai.com"
+    ]
+  },
+  {
+    "name": "ibl.ai",
+    "website": "https://ibl.ai",
+    "hq_country": "United States",
+    "one_liner": "Agentic AI platform for education, government and regulated sectors.",
+    "local_ai_angle": "On-prem and air-gapped deployment of AI agents and LLMs.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://ibl.ai/blog/why-air-gapped-ai-is-non-negotiable-for-federal-agencies",
+      "https://ibl.ai/blog/on-premise-legal-ai-platform"
+    ]
+  },
+  {
+    "name": "Kamiwaza",
+    "website": "https://www.kamiwaza.ai",
+    "hq_country": "United States",
+    "one_liner": "Distributed private enterprise AI orchestration platform.",
+    "local_ai_angle": "Runs AI where data lives: on-prem, edge and air-gapped, incl. government.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.kamiwaza.ai"
+    ]
+  },
+  {
+    "name": "Mindbreeze",
+    "website": "https://www.mindbreeze.com",
+    "hq_country": "Austria",
+    "one_liner": "Enterprise insight engine and gen AI search (InSpire).",
+    "local_ai_angle": "On-prem appliance deployment with local LLMs.",
+    "segment": "private-ai-platforms",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.mindbreeze.com"
+    ]
+  },
+  {
+    "name": "ChapsVision",
+    "website": "https://www.chapsvision.com",
+    "hq_country": "France",
+    "one_liner": "French sovereign data-processing and AI group (owns Sinequa, Systran).",
+    "local_ai_angle": "Sovereign on-prem AI/data platforms for defense, security and enterprise.",
+    "segment": "international",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.chapsvision.com"
+    ]
+  },
+  {
+    "name": "Sinequa",
+    "website": "https://www.sinequa.com",
+    "hq_country": "France",
+    "one_liner": "Enterprise search and gen AI assistant platform.",
+    "local_ai_angle": "On-prem/private deployment for regulated industries.",
+    "segment": "international",
+    "type": "subsidiary",
+    "status": "acquired by ChapsVision (2024)",
+    "sources": [
+      "https://www.sinequa.com"
+    ]
+  },
+  {
+    "name": "Sarvam AI",
+    "website": "https://www.sarvam.ai",
+    "hq_country": "India",
+    "one_liner": "Indian sovereign LLM and voice AI company.",
+    "local_ai_angle": "Sovereign/on-prem deployment for Indian government and enterprise (verify).",
+    "segment": "international",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.sarvam.ai"
+    ]
+  },
+  {
+    "name": "Upstage",
+    "website": "https://www.upstage.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Korean LLM (Solar) and document AI company.",
+    "local_ai_angle": "Private/on-prem deployment for finance and public sector (verify).",
+    "segment": "international",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.upstage.ai"
+    ]
+  },
+  {
+    "name": "Utilidata",
+    "website": "https://utilidata.com",
+    "hq_country": "United States",
+    "one_liner": "Grid-edge AI platform (Karman) for utilities.",
+    "local_ai_angle": "AI computing runs at the grid edge in smart meters and infrastructure.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://utilidata.com"
+    ]
+  },
+  {
+    "name": "Avathon (formerly SparkCognition)",
+    "website": "https://avathon.com",
+    "hq_country": "United States",
+    "one_liner": "Industrial AI for energy, manufacturing and defense.",
+    "local_ai_angle": "Edge and on-prem deployment of industrial AI models.",
+    "segment": "industrial-edge",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://avathon.com"
+    ]
+  },
+  {
+    "name": "Skydio",
+    "website": "https://www.skydio.com",
+    "hq_country": "United States",
+    "one_liner": "Autonomous drone maker for defense, public safety and infrastructure.",
+    "local_ai_angle": "On-device AI autonomy runs on the drone without connectivity.",
+    "segment": "industrial-edge",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.skydio.com"
+    ]
+  }
+]

@@ -1,0 +1,2133 @@
+[
+  {
+    "name": "Neural Magic",
+    "website": "https://neuralmagic.com",
+    "hq_country": "USA",
+    "one_liner": "Sparsity and quantization tooling (LLM Compressor, nm-vllm, DeepSparse) for efficient LLM inference.",
+    "local_ai_angle": "Compressed models run on CPUs and commodity GPUs on-prem; now core of Red Hat AI.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by Red Hat (2025)",
+    "sources": [
+      "https://neuralmagic.com",
+      "https://huggingface.co/RedHatAI"
+    ]
+  },
+  {
+    "name": "Deci AI",
+    "website": "https://deci.ai",
+    "hq_country": "Israel",
+    "one_liner": "Neural architecture search (AutoNAC) producing efficient models like YOLO-NAS and DeciLM.",
+    "local_ai_angle": "Hardware-aware efficient models for edge and on-prem inference.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://deci.ai"
+    ]
+  },
+  {
+    "name": "OctoML / OctoAI",
+    "website": "https://octo.ai",
+    "hq_country": "USA",
+    "one_liner": "Apache TVM-based ML compilation and model-serving company.",
+    "local_ai_angle": "Compiler tech to optimize models for diverse local hardware; folded into NVIDIA.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2024)",
+    "sources": [
+      "https://octo.ai",
+      "https://tvm.apache.org"
+    ]
+  },
+  {
+    "name": "OmniML",
+    "website": "https://omniml.ai",
+    "hq_country": "USA",
+    "one_liner": "Hardware-aware model compression for edge ML workloads.",
+    "local_ai_angle": "Shrinks models to fit edge devices; tech absorbed into NVIDIA TensorRT Model Optimizer.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2023)",
+    "sources": [
+      "https://datacenterdynamics.com/en/news/nvidia-acquires-omniml-for-ai-edge-workloads"
+    ]
+  },
+  {
+    "name": "CentML",
+    "website": "https://centml.ai",
+    "hq_country": "Canada",
+    "one_liner": "ML compiler and inference-optimization platform (Hidet compiler) from University of Toronto researchers.",
+    "local_ai_angle": "Optimizes model execution on available GPUs, including self-managed clusters.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by NVIDIA (2025)",
+    "sources": [
+      "https://centml.ai"
+    ]
+  },
+  {
+    "name": "Brium",
+    "website": "https://brium.ai",
+    "hq_country": "USA",
+    "one_liner": "AI software optimization startup adapting models to run efficiently across hardware.",
+    "local_ai_angle": "Portability/optimization layer for non-NVIDIA (AMD) inference hardware.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by AMD (2025)",
+    "sources": [
+      "https://techcrunch.com/2025/06/04/amd-takes-aim-at-nvidias-ai-hardware-dominance-with-brium-acquisition"
+    ]
+  },
+  {
+    "name": "Nod.ai",
+    "website": "https://nod.ai",
+    "hq_country": "USA",
+    "one_liner": "MLIR/IREE-based ML compiler (SHARK) for running models efficiently on varied hardware.",
+    "local_ai_angle": "Compiled local inference on consumer GPUs/CPUs; now part of AMD software stack.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by AMD (2023)",
+    "sources": [
+      "https://nod.ai"
+    ]
+  },
+  {
+    "name": "Mipsology",
+    "website": "https://mipsology.com",
+    "hq_country": "France",
+    "one_liner": "Zebra inference-acceleration software for FPGAs and edge accelerators.",
+    "local_ai_angle": "Accelerates CNN inference on edge/on-prem FPGA hardware.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by AMD (2023)",
+    "sources": [
+      "https://mipsology.com"
+    ]
+  },
+  {
+    "name": "Nota AI",
+    "website": "https://www.nota.ai",
+    "hq_country": "South Korea",
+    "one_liner": "NetsPresso platform for hardware-aware AI model compression and optimization.",
+    "local_ai_angle": "Compresses vision and generative models for on-device and edge chips (Samsung, Arm, NVIDIA).",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.nota.ai",
+      "https://netspresso.ai"
+    ]
+  },
+  {
+    "name": "Pruna AI",
+    "website": "https://www.pruna.ai",
+    "hq_country": "Germany",
+    "one_liner": "Open-source model optimization framework combining quantization, pruning, caching and compilation.",
+    "local_ai_angle": "Makes image/LLM models smaller and faster for self-hosted or edge inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2025/03/20/pruna-ai-open-sources-its-ai-model-optimization-framework",
+      "https://www.munich-startup.de/en/106164/pruna-ai-seed-round/"
+    ]
+  },
+  {
+    "name": "Multiverse Computing",
+    "website": "https://multiversecomputing.com",
+    "hq_country": "Spain",
+    "one_liner": "CompactifAI tensor-network compression of LLMs; ships compressed and tiny models (SuperFly, ChickBrain).",
+    "local_ai_angle": "Compressed models run on-prem, at edge, even on phones/IoT; $570M Series C (2026).",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://multiversecomputing.com/resources/multiverse-computing-announces-series-c-fundraising-targeting-up-to-usd570m-eur500m-to-power",
+      "https://thequantuminsider.com/2026/07/27/multiverse-computing-announces-series-c-fundraising-targeting-up-to-570-million/",
+      "https://techcrunch.com/2025/06/12/multiverse-computing-raises-215m-for-tech-that-could-radically-slim-ai-costs"
+    ]
+  },
+  {
+    "name": "Embedl",
+    "website": "https://www.embedl.com",
+    "hq_country": "Sweden",
+    "one_liner": "Model optimization SDK and Embedl Hub for embedded AI in automotive, defence, robotics.",
+    "local_ai_angle": "Makes deep learning models run efficiently on existing embedded hardware.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2025/06/18/embedl-raises-eur55m-to-boost-ai-efficiency-in-embedded-systems/"
+    ]
+  },
+  {
+    "name": "CLIKA",
+    "website": "https://www.clika.io",
+    "hq_country": null,
+    "one_liner": "Automated AI model compression engine (ACE) for vision and generative models.",
+    "local_ai_angle": "Produces compact models deployable on edge devices and on-prem hardware.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.clika.io"
+    ]
+  },
+  {
+    "name": "Deeplite",
+    "website": "https://www.deeplite.ai",
+    "hq_country": "Canada",
+    "one_liner": "Neutrino model optimizer and DeepliteRT low-bit runtime for edge CPUs.",
+    "local_ai_angle": "Ultra-low-bit vision models on Arm CPUs and microcontrollers.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.deeplite.ai"
+    ]
+  },
+  {
+    "name": "ENOT",
+    "website": "https://enot.ai",
+    "hq_country": null,
+    "one_liner": "Neural network compression and acceleration framework (pruning, NAS, quantization).",
+    "local_ai_angle": "Optimizes models for edge devices and embedded hardware.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://enot.ai"
+    ]
+  },
+  {
+    "name": "Nyun AI",
+    "website": "https://nyunai.com",
+    "hq_country": "India",
+    "one_liner": "Model compression toolkit (Nyuntam) for quantizing and pruning LLMs and vision models.",
+    "local_ai_angle": "Smaller models for edge and private-infrastructure deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://nyunai.com"
+    ]
+  },
+  {
+    "name": "ThirdAI",
+    "website": "https://www.thirdai.com",
+    "hq_country": "USA",
+    "one_liner": "Hash-based sparse deep learning engine (BOLT) training and serving LLMs on commodity CPUs.",
+    "local_ai_angle": "GPU-free training/inference on customer CPUs; on-prem NeuralDB.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2021/08/13/thirdai-raises-6m-to-democratize-ai-to-any-hardware",
+      "https://www.cbinsights.com/company/third-ai"
+    ]
+  },
+  {
+    "name": "Unsloth",
+    "website": "https://unsloth.ai",
+    "hq_country": "USA",
+    "one_liner": "Open-source fast, memory-efficient LLM fine-tuning plus dynamic GGUF quantized model releases.",
+    "local_ai_angle": "Fine-tune and run quantized open models on a single consumer GPU locally.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://unsloth.ai",
+      "https://lsvp.com/company/unsloth/",
+      "https://github.com/unslothai/unsloth"
+    ]
+  },
+  {
+    "name": "Distil Labs",
+    "website": "https://www.distillabs.ai",
+    "hq_country": "Germany",
+    "one_liner": "Platform distilling task-specific small language models from a prompt and few examples.",
+    "local_ai_angle": "Small fine-tuned models replace cloud LLMs and run locally or self-hosted.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.distillabs.ai",
+      "https://www.wearedevelopers.com/videos/1654-distil-labs-small-model-training-made-simple"
+    ]
+  },
+  {
+    "name": "Fastino",
+    "website": "https://fastino.ai",
+    "hq_country": "USA",
+    "one_liner": "Task-specific language models (TLMs) trained on gaming GPUs, fast on CPUs.",
+    "local_ai_angle": "Small specialized models cheap enough for CPU/self-hosted inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2025/05/07/fastino-trains-ai-models-on-cheap-gaming-gpus-and-just-raised-17-5m-led-by-khosla"
+    ]
+  },
+  {
+    "name": "TitanML (Doubleword)",
+    "website": "https://www.doubleword.ai",
+    "hq_country": "UK",
+    "one_liner": "Titan Takeoff self-hosted inference server with quantization; rebranded as Doubleword.",
+    "local_ai_angle": "Self-hosted, optimized LLM serving inside enterprise infrastructure.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active (rebranded as Doubleword)",
+    "sources": [
+      "https://www.doubleword.ai",
+      "https://www.titanml.co"
+    ]
+  },
+  {
+    "name": "SqueezeBits",
+    "website": "https://squeezebits.com",
+    "hq_country": "South Korea",
+    "one_liner": "LLM quantization and inference optimization (OwLite toolkit, Fits on Chips).",
+    "local_ai_angle": "Compresses models to fit NPUs and edge chips; now part of Rebellions full stack.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by Rebellions (2026)",
+    "sources": [
+      "https://cloudnews.tech/rebellions-acquires-squeezebits-to-complete-the-ai-inference-cycle/",
+      "https://www.storagenewsletter.com/2026/07/10/rebellions-acquires-ai-inference-optimization-leader-squeezebits-to-deliver-full-stack-ai-infrastructure/"
+    ]
+  },
+  {
+    "name": "ENERZAi",
+    "website": "https://enerzai.com",
+    "hq_country": "South Korea",
+    "one_liner": "Optimium inference engine and extreme low-bit (1.58-bit) models for edge devices.",
+    "local_ai_angle": "Runs speech/LLM models at very low bit-width on edge hardware.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://enerzai.com"
+    ]
+  },
+  {
+    "name": "Latent AI",
+    "website": "https://latentai.com",
+    "hq_country": "USA",
+    "one_liner": "LEIP platform compressing and compiling models for edge, largely defense customers.",
+    "local_ai_angle": "Optimized models deployable on tactical/edge hardware without cloud.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://latentai.com"
+    ]
+  },
+  {
+    "name": "Plumerai",
+    "website": "https://plumerai.com",
+    "hq_country": "UK",
+    "one_liner": "Tiny, highly efficient vision models (people/face detection) and inference engine for microcontrollers.",
+    "local_ai_angle": "Accurate AI on low-power MCUs and smart cameras, fully on-device.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://plumerai.com"
+    ]
+  },
+  {
+    "name": "Ora Computing",
+    "website": "https://www.oracomputing.com",
+    "hq_country": "Austria",
+    "one_liner": "Optimizes and compresses AI foundation models as an efficiency layer of the AI stack.",
+    "local_ai_angle": "Smaller models cut hardware needs for on-prem/edge deployment; EUR3.5M seed (2026).",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2026/06/24/ora-computing-raises-eur35m-to-build-the-efficiency-layer-of-the-ai-stack/",
+      "https://www.therecursive.com/constructor-capital-backs-ora-computing-ai-model-compression.md"
+    ]
+  },
+  {
+    "name": "Refiant AI",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "Nature-inspired model compression algorithms claiming 80%+ energy reduction; $5M seed (2026).",
+    "local_ai_angle": "Compressed models lower compute needs for local deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://siliconangle.com/?p=737911"
+    ]
+  },
+  {
+    "name": "PrismML",
+    "website": "https://prismml.com",
+    "hq_country": "USA",
+    "one_liner": "Caltech spinout releasing 1-bit and ternary (1.58-bit) open-weight Bonsai LLMs.",
+    "local_ai_angle": "8B model in ~1.15 GB runs on phones, PCs and IoT devices; Apache 2.0.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://prismml.com/news/prismml-launches-worlds-first-1-bit-ai-model",
+      "https://prismml.com/news/ternary-bonsai",
+      "https://www.theregister.com/2026/04/04/prismml_1bit_llm/",
+      "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"
+    ]
+  },
+  {
+    "name": "Mobius Labs",
+    "website": "https://www.mobiuslabs.com",
+    "hq_country": "Germany",
+    "one_liner": "Efficient AI research lab behind HQQ half-quadratic quantization and low-bit model releases.",
+    "local_ai_angle": "Calibration-free low-bit quantization lets large models fit local GPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.mobiuslabs.com",
+      "https://github.com/mobiusml/hqq"
+    ]
+  },
+  {
+    "name": "Nolano AI",
+    "website": "https://huggingface.co/SpectraSuite",
+    "hq_country": null,
+    "one_liner": "Research startup behind Spectra/TriLM ternary language model suite (with Mila).",
+    "local_ai_angle": "Ternary LLMs drastically cut memory for local inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://huggingface.co/SpectraSuite"
+    ]
+  },
+  {
+    "name": "deepgrove",
+    "website": "https://huggingface.co/deepgrove",
+    "hq_country": null,
+    "one_liner": "Released Bonsai, a small ternary-weight language model (2025).",
+    "local_ai_angle": "Ternary weights target low-memory on-device inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://huggingface.co/deepgrove"
+    ]
+  },
+  {
+    "name": "Luminal",
+    "website": "https://github.com/luminal-ai/luminal",
+    "hq_country": "USA",
+    "one_liner": "YC-backed ML compiler that searches kernel optimizations for fast model inference.",
+    "local_ai_angle": "Compiles models to run fast on varied local hardware (Apple Silicon, GPUs).",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/luminal-ai/luminal"
+    ]
+  },
+  {
+    "name": "Aizip",
+    "website": "https://aizip.ai",
+    "hq_country": "USA",
+    "one_liner": "Tiny, efficient AI models (audio, vision, small LMs) for edge and IoT chips.",
+    "local_ai_angle": "Pre-built small models run fully on MCUs and edge SoCs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://aizip.ai"
+    ]
+  },
+  {
+    "name": "Numenta",
+    "website": "https://www.numenta.com",
+    "hq_country": "USA",
+    "one_liner": "Neuroscience-based sparse AI; NuPIC CPU inference; open-sourced Thousand Brains Project.",
+    "local_ai_angle": "Sparse models for efficient CPU inference on-prem.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.numenta.com",
+      "https://thousandbrains.org"
+    ]
+  },
+  {
+    "name": "Ultralytics",
+    "website": "https://www.ultralytics.com",
+    "hq_country": "USA",
+    "one_liner": "Maker of YOLO real-time vision models (YOLOv8/11) and training platform.",
+    "local_ai_angle": "Small vision models exported to edge runtimes (ONNX, TFLite, CoreML) for on-device use.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.ultralytics.com",
+      "https://github.com/ultralytics/ultralytics"
+    ]
+  },
+  {
+    "name": "EdgeRunner AI",
+    "website": "https://www.edgerunnerai.com",
+    "hq_country": "USA",
+    "one_liner": "Small task-specific 'ultra-efficient language models' that operate without internet, incl. military use.",
+    "local_ai_angle": "Air-gapped, offline generative AI on edge devices; $5.5M seed.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://vmblog.com/bylines/edgerunner-ai-emerges-from-stealth-with-5-5m-seed-funding-to-build-generative-ai-for-the-edge/"
+    ]
+  },
+  {
+    "name": "Liquid AI",
+    "website": "https://www.liquid.ai",
+    "hq_country": "USA",
+    "one_liner": "MIT spinout building Liquid Foundation Models (LFM2, LFM2.5, LFM3) and LEAP edge SDK.",
+    "local_ai_angle": "Non-transformer open-weight models built for phones, laptops, cars; Mercedes MBUX deal.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.liquid.ai/blog/we-raised-250m-to-scale-capable-and-efficient-general-purpose-ai",
+      "https://siliconangle.com/2024/12/13/liquid-ai-raises-250m-led-amd-build-new-type-generative-ai-model"
+    ]
+  },
+  {
+    "name": "Zyphra",
+    "website": "https://www.zyphra.com",
+    "hq_country": "USA",
+    "one_liner": "Hybrid SSM-attention models (Zamba2, ZAYA1, Zamba2-VL) and Zonos open TTS.",
+    "local_ai_angle": "Open-weight, low-latency small models designed for on-device inference.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.zyphra.com/post/zamba2-vl",
+      "https://www.zyphra.com"
+    ]
+  },
+  {
+    "name": "Cartesia",
+    "website": "https://cartesia.ai",
+    "hq_country": "USA",
+    "one_liner": "State-space-model lab behind Sonic real-time voice models and Edge on-device library.",
+    "local_ai_angle": "SSM architectures enable low-latency voice and models on-device.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://cartesia.ai"
+    ]
+  },
+  {
+    "name": "Inception Labs",
+    "website": "https://www.inceptionlabs.ai",
+    "hq_country": "USA",
+    "one_liner": "Diffusion-based LLMs (Mercury, Mercury 2) generating text in parallel at 1,000+ tok/s.",
+    "local_ai_angle": "Efficient dLLMs for latency-bound use; weights closed, enterprise deployments - borderline local.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text",
+      "https://the-decoder.com/inception-launches-mercury-2-the-first-diffusion-based-language-reasoning-model/"
+    ]
+  },
+  {
+    "name": "Celeris",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "Startup that emerged July 2026 with Celeris-1, a speed-focused diffusion LLM.",
+    "local_ai_angle": "Diffusion decoding for fast inference; weight licensing unconfirmed - borderline.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://app.dealroom.co/news/note/celeris-launches-celeris-1-a-diffusion-llm-built-for-speed-1"
+    ]
+  },
+  {
+    "name": "Kyutai",
+    "website": "https://kyutai.org",
+    "hq_country": "France",
+    "one_liner": "Open-science AI lab releasing Moshi, Helium, Kyutai STT/TTS and 100M-param Pocket TTS.",
+    "local_ai_angle": "Open small speech and language models that run on CPUs and devices.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://kyutai.org",
+      "https://medium.com/@cooksusan482/kyutai-pocket-tts-100m-parameter-that-runs-on-your-cpu-6cae1fd812bf"
+    ]
+  },
+  {
+    "name": "Gradium",
+    "website": "https://gradium.ai",
+    "hq_country": "France",
+    "one_liner": "Kyutai spinout voice-AI company; open-sourced Phonon 31M/40M on-device TTS models.",
+    "local_ai_angle": "TTS runs locally on phones, laptops, boards and browsers.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://gradium.ai/blog/release-phonon-open-weight",
+      "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/"
+    ]
+  },
+  {
+    "name": "Moondream (M87 Labs)",
+    "website": "https://moondream.ai",
+    "hq_country": "USA",
+    "one_liner": "Tiny open-weight vision-language model Moondream for captioning, detection, querying images.",
+    "local_ai_angle": "Runs on laptops, edge boards and phones without cloud.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://moondream.ai",
+      "https://github.com/vikhyat/moondream"
+    ]
+  },
+  {
+    "name": "Moonshine AI (formerly Useful Sensors)",
+    "website": "https://github.com/usefulsensors/moonshine",
+    "hq_country": "USA",
+    "one_liner": "Tiny, fast open speech-recognition models (Moonshine) for edge devices.",
+    "local_ai_angle": "Real-time ASR on-device, on low-cost hardware, no cloud.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active (rebranded from Useful Sensors)",
+    "sources": [
+      "https://github.com/usefulsensors/moonshine"
+    ]
+  },
+  {
+    "name": "Arcee AI",
+    "website": "https://www.arcee.ai",
+    "hq_country": "USA",
+    "one_liner": "Small/open-weight model maker (AFM, Trinity Nano/Mini/Large, Apache-2.0) and model merging tools.",
+    "local_ai_angle": "US-trained open weights deployable in customer VPC/on-prem; >$1B valuation (2026).",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://venturebeat.com/ai/arcee-aims-to-reboot-u-s-open-source-ai-with-new-trinity-models-released",
+      "https://www.techcrunch.com/2026/01/28/tiny-startup-arcee-ai-built-a-400b-open-source-llm-from-scratch-to-best-metas-llama/",
+      "https://arxiv.org/html/2602.17004v1"
+    ]
+  },
+  {
+    "name": "Essential AI",
+    "website": "https://www.essential.ai",
+    "hq_country": "USA",
+    "one_liner": "AI lab co-founded by Transformer co-author Ashish Vaswani; publishes open datasets and models.",
+    "local_ai_angle": "Open-weight model releases usable for self-hosting (details unverified this session).",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.essential.ai"
+    ]
+  },
+  {
+    "name": "Pleias",
+    "website": "https://pleias.fr",
+    "hq_country": "France",
+    "one_liner": "Small open LLMs trained on openly licensed Common Corpus, incl. Pleias-RAG models.",
+    "local_ai_angle": "Compact, auditable models for local/CPU RAG and sovereign deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pleias.fr",
+      "https://huggingface.co/PleIAs"
+    ]
+  },
+  {
+    "name": "Reka",
+    "website": "https://www.reka.ai",
+    "hq_country": "USA",
+    "one_liner": "Multimodal model lab; open-sourced Reka Flash 3 reasoning model.",
+    "local_ai_angle": "Offers on-prem/edge deployment and open weights for self-hosting.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.reka.ai"
+    ]
+  },
+  {
+    "name": "Nous Research",
+    "website": "https://nousresearch.com",
+    "hq_country": "USA",
+    "one_liner": "Open-source AI lab behind Hermes fine-tuned open-weight models and Psyche decentralized training.",
+    "local_ai_angle": "Hermes models are staples of local LLM use via llama.cpp/Ollama.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://nousresearch.com",
+      "https://huggingface.co/NousResearch"
+    ]
+  },
+  {
+    "name": "Ai2 (Allen Institute for AI)",
+    "website": "https://allenai.org",
+    "hq_country": "USA",
+    "one_liner": "Nonprofit releasing fully open models (OLMo, OLMo 3, Molmo) with data and code.",
+    "local_ai_angle": "Fully open weights and recipes for self-hosted and on-device use.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://allenai.org",
+      "https://huggingface.co/allenai"
+    ]
+  },
+  {
+    "name": "Stability AI",
+    "website": "https://stability.ai",
+    "hq_country": "UK",
+    "one_liner": "Open-weight generative image, audio, video and 3D models (Stable Diffusion, Stable Audio).",
+    "local_ai_angle": "Models run on consumer GPUs; Stable Audio Open Small optimized with Arm for phones.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://stability.ai"
+    ]
+  },
+  {
+    "name": "Black Forest Labs",
+    "website": "https://bfl.ai",
+    "hq_country": "Germany",
+    "one_liner": "Image-generation lab behind FLUX models, with open-weight [dev]/[schnell]/Kontext variants.",
+    "local_ai_angle": "Open FLUX weights widely self-hosted on local GPUs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://bfl.ai",
+      "https://huggingface.co/black-forest-labs"
+    ]
+  },
+  {
+    "name": "Mistral AI",
+    "website": "https://mistral.ai",
+    "hq_country": "France",
+    "one_liner": "European model lab shipping open-weight Ministral, Mistral Small, Magistral, Devstral, Voxtral.",
+    "local_ai_angle": "Edge-sized open models plus self-deployment/on-prem offers for enterprises.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://mistral.ai",
+      "https://venturebeat.com/ai/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and"
+    ]
+  },
+  {
+    "name": "Technology Innovation Institute (Falcon)",
+    "website": "https://falconllm.tii.ae",
+    "hq_country": "UAE",
+    "one_liner": "Abu Dhabi government lab releasing Falcon 3, Falcon-H1 hybrid, Falcon-E 1.58-bit models.",
+    "local_ai_angle": "Small hybrid and ternary open models designed for edge devices.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://falcon-lm.github.io/blog/falcon-edge",
+      "https://venturebeat.com/technology/tiis-falcon-h1r-7b-can-out-reason-models-up-to-7x-its-size-and-its-mostly"
+    ]
+  },
+  {
+    "name": "H2O.ai",
+    "website": "https://h2o.ai",
+    "hq_country": "USA",
+    "one_liner": "Enterprise AI company; releases H2O-Danube small language models and h2oGPTe.",
+    "local_ai_angle": "Danube SLMs for mobile/edge; h2oGPTe deploys on-prem and air-gapped.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://h2o.ai",
+      "https://huggingface.co/h2oai"
+    ]
+  },
+  {
+    "name": "ModelBest (OpenBMB)",
+    "website": "https://modelbest.cn",
+    "hq_country": "China",
+    "one_liner": "Beijing lab behind MiniCPM on-device LLM/VLM family and BitCPM 1.58-bit models.",
+    "local_ai_angle": "Phone- and PC-class open models; edge partnerships with automakers and OEMs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://dev.to/gentic_news/modelbest-drops-bitcpm-cann-first-158-bit-llm-on-ascend-910b-3llf"
+    ]
+  },
+  {
+    "name": "AI21 Labs",
+    "website": "https://www.ai21.com",
+    "hq_country": "Israel",
+    "one_liner": "Jamba hybrid Mamba-Transformer open-weight models incl. small Jamba Reasoning 3B.",
+    "local_ai_angle": "Open weights and private/on-prem deployment; 3B model aimed at devices.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.ai21.com",
+      "https://huggingface.co/ai21labs"
+    ]
+  },
+  {
+    "name": "Sakana AI",
+    "website": "https://sakana.ai",
+    "hq_country": "Japan",
+    "one_liner": "Tokyo lab building nature-inspired efficient models; released TinySwallow small Japanese LLM.",
+    "local_ai_angle": "Small Japanese models that run offline on devices.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://sakana.ai"
+    ]
+  },
+  {
+    "name": "Upstage",
+    "website": "https://www.upstage.ai",
+    "hq_country": "South Korea",
+    "one_liner": "Solar LLM family (Solar Pro, Solar Open) and Document AI.",
+    "local_ai_angle": "Open-weight and on-prem Solar deployments for enterprises/government.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.upstage.ai",
+      "https://huggingface.co/upstage"
+    ]
+  },
+  {
+    "name": "Sarvam AI",
+    "website": "https://www.sarvam.ai",
+    "hq_country": "India",
+    "one_liner": "Sovereign Indic LLM lab with open models (Sarvam-1 2B, Sarvam-M) and speech models.",
+    "local_ai_angle": "Small Indic models for edge and on-prem sovereign deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.sarvam.ai",
+      "https://huggingface.co/sarvamai"
+    ]
+  },
+  {
+    "name": "Swiss AI Initiative (Apertus)",
+    "website": "https://www.swiss-ai.org",
+    "hq_country": "Switzerland",
+    "one_liner": "ETH Zurich/EPFL consortium releasing fully open multilingual Apertus LLMs.",
+    "local_ai_angle": "Transparent open weights for sovereign self-hosting.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://www.swiss-ai.org",
+      "https://huggingface.co/swiss-ai"
+    ]
+  },
+  {
+    "name": "EleutherAI",
+    "website": "https://www.eleuther.ai",
+    "hq_country": "USA",
+    "one_liner": "Nonprofit open-source AI research collective (Pythia, GPT-NeoX, Common Pile).",
+    "local_ai_angle": "Fully open models and datasets underpinning self-hosted LLM ecosystem.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://www.eleuther.ai"
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "website": "https://huggingface.co",
+    "hq_country": "USA",
+    "one_liner": "Open model hub; builds SmolLM/SmolVLM small models and Optimum optimization libraries.",
+    "local_ai_angle": "Distribution hub for open weights; tiny models for browsers and phones.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/HuggingFaceTB",
+      "https://github.com/huggingface/optimum"
+    ]
+  },
+  {
+    "name": "Prime Intellect",
+    "website": "https://www.primeintellect.ai",
+    "hq_country": "USA",
+    "one_liner": "Decentralized training platform releasing open INTELLECT reasoning models.",
+    "local_ai_angle": "Open weights trained across distributed compute; self-hostable.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.primeintellect.ai"
+    ]
+  },
+  {
+    "name": "Deep Cogito",
+    "website": "https://www.deepcogito.com",
+    "hq_country": "USA",
+    "one_liner": "Open-weight hybrid reasoning models (Cogito v1/v2/v2.1) with iterated self-improvement.",
+    "local_ai_angle": "Open weights from small to 671B for self-hosting.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://techcrunch.com/2025/04/08/deep-cogito-emerges-from-stealth-with-hybrid-ai-reasoning-models"
+    ]
+  },
+  {
+    "name": "Reflection AI",
+    "website": "https://reflection.ai",
+    "hq_country": "USA",
+    "one_liner": "Lab building US open-weight frontier models; released Beam 1.0 weights Oct 2026.",
+    "local_ai_angle": "Open frontier weights enable sovereign/self-hosted deployment.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://aibusiness.com/foundation-models/reflection-s-beam-model-signals-deepening-split",
+      "https://app.dealroom.co/news/note/nvidia-backed-reflection-ai-prepares-first-open-weight-model-launch"
+    ]
+  },
+  {
+    "name": "Manifest AI",
+    "website": "https://manifestai.com",
+    "hq_country": "USA",
+    "one_liner": "Research lab developing power-retention architecture replacing attention (Brumby models).",
+    "local_ai_angle": "Linear-cost long-context inference for cheaper local deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://manifestai.com"
+    ]
+  },
+  {
+    "name": "Pathway",
+    "website": "https://pathway.com",
+    "hq_country": "USA",
+    "one_liner": "Live-data AI framework company that introduced BDH ('Dragon Hatchling') post-transformer architecture.",
+    "local_ai_angle": "Self-hostable data pipelines and efficient architectures for private deployment.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pathway.com",
+      "https://github.com/pathwaycom/pathway"
+    ]
+  },
+  {
+    "name": "Sapient Intelligence",
+    "website": "https://sapient.inc",
+    "hq_country": "Singapore",
+    "one_liner": "Developer of the Hierarchical Reasoning Model (HRM), a 27M-parameter brain-inspired reasoner.",
+    "local_ai_angle": "Tiny reasoning models suitable for edge devices.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/sapientinc/HRM"
+    ]
+  },
+  {
+    "name": "RWKV Project",
+    "website": "https://www.rwkv.com",
+    "hq_country": null,
+    "one_liner": "Open-source RNN-style LLM architecture (Linux Foundation project) with linear-time inference.",
+    "local_ai_angle": "Constant-memory inference ideal for CPUs, phones and edge.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://www.rwkv.com",
+      "https://github.com/BlinkDL/RWKV-LM"
+    ]
+  },
+  {
+    "name": "Recursal AI / Featherless AI",
+    "website": "https://featherless.ai",
+    "hq_country": null,
+    "one_liner": "Commercial steward of RWKV models; Featherless hosts thousands of open models.",
+    "local_ai_angle": "Commercial support for efficient RWKV models deployable locally.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://featherless.ai",
+      "https://recursal.ai"
+    ]
+  },
+  {
+    "name": "Lightricks (LTX-Video)",
+    "website": "https://www.lightricks.com",
+    "hq_country": "Israel",
+    "one_liner": "Creative-app company releasing open-weight LTX-Video/LTX-2 video generation models.",
+    "local_ai_angle": "Video generation that runs on consumer GPUs locally.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://github.com/Lightricks/LTX-Video"
+    ]
+  },
+  {
+    "name": "Genmo",
+    "website": "https://www.genmo.ai",
+    "hq_country": "USA",
+    "one_liner": "Video generation lab; open-sourced Mochi 1 video model under Apache 2.0.",
+    "local_ai_angle": "Open video weights self-hostable on local GPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.genmo.ai",
+      "https://github.com/genmoai/mochi"
+    ]
+  },
+  {
+    "name": "Trillion Labs",
+    "website": "https://huggingface.co/trillionlabs",
+    "hq_country": "South Korea",
+    "one_liner": "Korean LLM startup releasing open Tri-series models.",
+    "local_ai_angle": "Open Korean-capable weights for sovereign self-hosting.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/trillionlabs"
+    ]
+  },
+  {
+    "name": "Motif Technologies",
+    "website": "https://huggingface.co/Motif-Technologies",
+    "hq_country": "South Korea",
+    "one_liner": "Korean lab releasing small open LLMs (Motif 2.6B).",
+    "local_ai_angle": "Small open model for on-device and local use.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/Motif-Technologies"
+    ]
+  },
+  {
+    "name": "Preferred Networks (PLaMo)",
+    "website": "https://www.preferred.jp",
+    "hq_country": "Japan",
+    "one_liner": "Japanese AI company building PLaMo LLMs (incl. small PLaMo 2) and MN-Core chips.",
+    "local_ai_angle": "Small Japanese models for on-prem/edge; domestic sovereign stack.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.preferred.jp",
+      "https://huggingface.co/pfnet"
+    ]
+  },
+  {
+    "name": "ELYZA",
+    "website": "https://elyza.ai",
+    "hq_country": "Japan",
+    "one_liner": "Japanese LLM developer (Llama-based ELYZA models) for enterprise.",
+    "local_ai_angle": "Open Japanese models self-hostable; KDDI-backed enterprise deployments.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by KDDI (2024)",
+    "sources": [
+      "https://elyza.ai",
+      "https://huggingface.co/elyza"
+    ]
+  },
+  {
+    "name": "Almawave (Velvet)",
+    "website": "https://www.almawave.com",
+    "hq_country": "Italy",
+    "one_liner": "Italian AI firm releasing Velvet open small LLMs (2B, 14B).",
+    "local_ai_angle": "Sovereign Italian models designed for efficient on-prem deployment.",
+    "segment": "efficient-models",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.almawave.com",
+      "https://huggingface.co/Almawave"
+    ]
+  },
+  {
+    "name": "Tilde (TildeOpen)",
+    "website": "https://tilde.ai",
+    "hq_country": "Latvia",
+    "one_liner": "Language-tech company releasing TildeOpen open LLM for European languages.",
+    "local_ai_angle": "Open weights for sovereign European self-hosting.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tilde.ai",
+      "https://huggingface.co/TildeAI"
+    ]
+  },
+  {
+    "name": "SpeakLeash (Bielik)",
+    "website": "https://bielik.ai",
+    "hq_country": "Poland",
+    "one_liner": "Open-science foundation building Bielik Polish LLMs incl. small variants.",
+    "local_ai_angle": "Polish open models run locally/on-prem.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://bielik.ai",
+      "https://huggingface.co/speakleash"
+    ]
+  },
+  {
+    "name": "EuroLLM (Unbabel-led consortium)",
+    "website": "https://huggingface.co/utter-project",
+    "hq_country": "Portugal",
+    "one_liner": "EU-funded consortium releasing EuroLLM open multilingual models.",
+    "local_ai_angle": "Small open multilingual models for local European deployment.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/utter-project"
+    ]
+  },
+  {
+    "name": "MBZUAI Institute of Foundation Models",
+    "website": "https://mbzuai.ac.ae",
+    "hq_country": "UAE",
+    "one_liner": "University institute releasing fully open K2/K2-Think and LLM360 models.",
+    "local_ai_angle": "Open reasoning weights for sovereign self-hosting.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://mbzuai.ac.ae",
+      "https://huggingface.co/LLM360"
+    ]
+  },
+  {
+    "name": "Inception (G42) - Jais",
+    "website": "https://www.inceptionai.ai",
+    "hq_country": "UAE",
+    "one_liner": "G42 unit building Jais open Arabic-English LLMs.",
+    "local_ai_angle": "Open Arabic models for regional sovereign/on-prem deployment.",
+    "segment": "international",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://www.inceptionai.ai",
+      "https://huggingface.co/inceptionai"
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "website": "https://www.deepseek.com",
+    "hq_country": "China",
+    "one_liner": "High-Flyer-backed lab releasing open-weight DeepSeek-V3/R1 models and distilled small variants.",
+    "local_ai_angle": "MIT-licensed weights and R1 distills are among most self-hosted models.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.deepseek.com",
+      "https://huggingface.co/deepseek-ai"
+    ]
+  },
+  {
+    "name": "Moonshot AI",
+    "website": "https://www.moonshot.ai",
+    "hq_country": "China",
+    "one_liner": "Kimi chatbot maker; open-sourced Kimi K2 trillion-parameter MoE models.",
+    "local_ai_angle": "Open weights for on-prem/sovereign self-hosting of frontier-class models.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.moonshot.ai",
+      "https://huggingface.co/moonshotai"
+    ]
+  },
+  {
+    "name": "Zhipu AI (Z.ai)",
+    "website": "https://z.ai",
+    "hq_country": "China",
+    "one_liner": "GLM model developer releasing open-weight GLM-4.x/GLM-5 series.",
+    "local_ai_angle": "MIT-licensed GLM weights widely deployed on-prem.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://z.ai",
+      "https://huggingface.co/zai-org"
+    ]
+  },
+  {
+    "name": "MiniMax",
+    "website": "https://www.minimax.io",
+    "hq_country": "China",
+    "one_liner": "Model developer releasing open-weight MiniMax-M1/M2 MoE models and media models.",
+    "local_ai_angle": "Open weights enabling self-hosted agentic coding models.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.minimax.io",
+      "https://huggingface.co/MiniMaxAI"
+    ]
+  },
+  {
+    "name": "StepFun",
+    "website": "https://www.stepfun.com",
+    "hq_country": "China",
+    "one_liner": "Model developer releasing open Step-Audio, Step-Video and Step3 models.",
+    "local_ai_angle": "Open multimodal and speech weights for self-hosting.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.stepfun.com",
+      "https://huggingface.co/stepfun-ai"
+    ]
+  },
+  {
+    "name": "01.AI",
+    "website": "https://www.01.ai",
+    "hq_country": "China",
+    "one_liner": "Kai-Fu Lee's company behind open Yi models; pivoted to enterprise deployment.",
+    "local_ai_angle": "Yi weights self-hostable; enterprise on-prem solutions.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.01.ai",
+      "https://huggingface.co/01-ai"
+    ]
+  },
+  {
+    "name": "Baichuan AI",
+    "website": "https://www.baichuan-ai.com",
+    "hq_country": "China",
+    "one_liner": "Chinese LLM developer with open Baichuan models, now focused on medical AI.",
+    "local_ai_angle": "Open weights deployable on-prem (e.g., hospitals).",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.baichuan-ai.com",
+      "https://huggingface.co/baichuan-inc"
+    ]
+  },
+  {
+    "name": "Shanghai AI Laboratory (InternLM)",
+    "website": "https://internlm.intern-ai.org.cn",
+    "hq_country": "China",
+    "one_liner": "Government lab releasing InternLM/InternVL open model families incl. small sizes.",
+    "local_ai_angle": "Open small LLM/VLMs for local deployment.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://github.com/InternLM/InternLM"
+    ]
+  },
+  {
+    "name": "BAAI (Beijing Academy of AI)",
+    "website": "https://www.baai.ac.cn",
+    "hq_country": "China",
+    "one_liner": "Nonprofit lab behind BGE embedding/reranker models and FlagOpen.",
+    "local_ai_angle": "BGE-M3 and rerankers are default local RAG embeddings.",
+    "segment": "efficient-models",
+    "type": "nonprofit",
+    "status": "active",
+    "sources": [
+      "https://github.com/FlagOpen/FlagEmbedding"
+    ]
+  },
+  {
+    "name": "hexgrad (Kokoro)",
+    "website": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "hq_country": null,
+    "one_liner": "Open-source developer of Kokoro-82M, a tiny high-quality Apache-licensed TTS model.",
+    "local_ai_angle": "82M-param TTS runs on CPUs, phones and browsers.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/hexgrad/Kokoro-82M"
+    ]
+  },
+  {
+    "name": "Sesame",
+    "website": "https://www.sesame.com",
+    "hq_country": "USA",
+    "one_liner": "Conversational voice AI company; open-sourced CSM-1B speech generation model.",
+    "local_ai_angle": "Open 1B speech model self-hostable on local GPUs.",
+    "segment": "efficient-models",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://github.com/SesameAILabs/csm"
+    ]
+  },
+  {
+    "name": "Canopy Labs",
+    "website": "https://canopylabs.ai",
+    "hq_country": "USA",
+    "one_liner": "Voice AI startup behind open-weight Orpheus TTS (Llama-based) models.",
+    "local_ai_angle": "Open TTS weights with small variants for local real-time speech.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/canopyai/Orpheus-TTS"
+    ]
+  },
+  {
+    "name": "Resemble AI",
+    "website": "https://www.resemble.ai",
+    "hq_country": "USA",
+    "one_liner": "Voice cloning company; released open-source Chatterbox TTS.",
+    "local_ai_angle": "MIT-licensed TTS runs locally; also offers on-prem voice platform.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/resemble-ai/chatterbox"
+    ]
+  },
+  {
+    "name": "Nari Labs",
+    "website": "https://github.com/nari-labs/dia",
+    "hq_country": "South Korea",
+    "one_liner": "Small team behind Dia 1.6B open dialogue TTS model.",
+    "local_ai_angle": "Open-weight TTS that runs on consumer GPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/nari-labs/dia"
+    ]
+  },
+  {
+    "name": "Boson AI",
+    "website": "https://www.boson.ai",
+    "hq_country": "USA",
+    "one_liner": "AI lab releasing Higgs Audio open-weight speech generation models.",
+    "local_ai_angle": "Open audio models self-hostable on local GPUs.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/boson-ai/higgs-audio"
+    ]
+  },
+  {
+    "name": "Fish Audio",
+    "website": "https://fish.audio",
+    "hq_country": null,
+    "one_liner": "Voice platform releasing open Fish-Speech / OpenAudio TTS models.",
+    "local_ai_angle": "Open TTS weights deployable locally.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/fishaudio/fish-speech"
+    ]
+  },
+  {
+    "name": "Neuphonic",
+    "website": "https://www.neuphonic.com",
+    "hq_country": "UK",
+    "one_liner": "Voice AI startup with open NeuTTS Air on-device TTS (GGUF, voice cloning).",
+    "local_ai_angle": "TTS with cloning running fully on-device.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.neuphonic.com",
+      "https://huggingface.co/neuphonic"
+    ]
+  },
+  {
+    "name": "KittenML (Kitten TTS)",
+    "website": "https://github.com/KittenML/KittenTTS",
+    "hq_country": null,
+    "one_liner": "Open-source ultra-small TTS models under 25 MB.",
+    "local_ai_angle": "CPU-only TTS for embedded and edge devices.",
+    "segment": "efficient-models",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://github.com/KittenML/KittenTTS",
+      "https://rits.shanghai.nyu.edu/ai/kittentts-state-of-the-art-voice-synthesis-in-under-25-mb/"
+    ]
+  },
+  {
+    "name": "Supertone (Supertonic)",
+    "website": "https://supertone.ai",
+    "hq_country": "South Korea",
+    "one_liner": "HYBE-owned voice AI company releasing open-weight Supertonic on-device TTS.",
+    "local_ai_angle": "ONNX TTS runs entirely on device, 31 languages, no GPU.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://supertone.ai",
+      "https://mer.vin/2026/06/supertonic-3-99m-on-device-tts-with-onnx-31-languages-and-1200-chars-sec/"
+    ]
+  },
+  {
+    "name": "Coqui",
+    "website": "https://coqui.ai",
+    "hq_country": "Germany",
+    "one_liner": "Open-source speech company behind Coqui TTS and XTTS voice cloning.",
+    "local_ai_angle": "XTTS remains widely self-hosted for local TTS.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "defunct (2024)",
+    "sources": [
+      "https://github.com/coqui-ai/TTS"
+    ]
+  },
+  {
+    "name": "Nomic AI",
+    "website": "https://www.nomic.ai",
+    "hq_country": "USA",
+    "one_liner": "Open embedding models (nomic-embed-text, v2-moe) plus GPT4All local chat app and Atlas.",
+    "local_ai_angle": "Apache-licensed embeddings run via Ollama; GPT4All runs LLMs offline.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.nomic.ai",
+      "https://www.promptquorum.com/power-local-llm/best-embedding-models-local-rag-2026"
+    ]
+  },
+  {
+    "name": "Jina AI",
+    "website": "https://jina.ai",
+    "hq_country": "Germany",
+    "one_liner": "Embeddings, rerankers and small reader LMs, many with open weights.",
+    "local_ai_angle": "Open-weight retrieval models for self-hosted search/RAG.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by Elastic (2025)",
+    "sources": [
+      "https://jina.ai",
+      "https://surrealdb.com/blog/embedding-models-comparison"
+    ]
+  },
+  {
+    "name": "Mixedbread",
+    "website": "https://www.mixedbread.com",
+    "hq_country": "Germany",
+    "one_liner": "Open embedding and reranking models (mxbai-embed-large, mxbai-rerank).",
+    "local_ai_angle": "Open-weight retrieval models run locally via Ollama/sentence-transformers.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.mixedbread.com",
+      "https://huggingface.co/mixedbread-ai"
+    ]
+  },
+  {
+    "name": "ZeroEntropy",
+    "website": "https://www.zeroentropy.dev",
+    "hq_country": "USA",
+    "one_liner": "YC-backed retrieval company releasing open-weight zerank rerankers.",
+    "local_ai_angle": "Open rerankers deployable in self-hosted RAG stacks.",
+    "segment": "efficient-models",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.zeroentropy.dev",
+      "https://huggingface.co/zeroentropy"
+    ]
+  },
+  {
+    "name": "LightOn",
+    "website": "https://www.lighton.ai",
+    "hq_country": "France",
+    "one_liner": "Sovereign GenAI platform; co-created ModernBERT and open ColBERT retrieval models.",
+    "local_ai_angle": "On-prem enterprise GenAI and open retrieval models.",
+    "segment": "efficient-models",
+    "type": "public",
+    "status": "active",
+    "sources": [
+      "https://www.lighton.ai",
+      "https://huggingface.co/lightonai"
+    ]
+  },
+  {
+    "name": "Meta (Llama)",
+    "website": "https://www.llama.com",
+    "hq_country": "USA",
+    "one_liner": "Llama open-weight model family incl. small 1B/3B on-device models.",
+    "local_ai_angle": "Most widely self-hosted open weights; quantized Llama for phones.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.llama.com"
+    ]
+  },
+  {
+    "name": "Google (Gemma)",
+    "website": "https://ai.google.dev/gemma",
+    "hq_country": "USA",
+    "one_liner": "Gemma open models incl. Gemma 3n on-device, EmbeddingGemma, DiffusionGemma.",
+    "local_ai_angle": "Mobile-first open models for phones/laptops; LiteRT runtime.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://ai.google.dev/gemma",
+      "https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/"
+    ]
+  },
+  {
+    "name": "Microsoft (Phi, BitNet)",
+    "website": "https://azure.microsoft.com/en-us/products/phi",
+    "hq_country": "USA",
+    "one_liner": "Phi small language models, BitNet b1.58 1-bit LLM and bitnet.cpp.",
+    "local_ai_angle": "SLMs and 1-bit models designed for on-device/CPU inference.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://azure.microsoft.com/en-us/products/phi",
+      "https://arxiv.org/html/2504.12285v1"
+    ]
+  },
+  {
+    "name": "IBM (Granite)",
+    "website": "https://www.ibm.com/granite",
+    "hq_country": "USA",
+    "one_liner": "Apache-licensed Granite models incl. Granite 4.0 hybrid Mamba small models.",
+    "local_ai_angle": "Small efficient enterprise models for on-prem and edge.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.ibm.com/granite",
+      "https://huggingface.co/ibm-granite"
+    ]
+  },
+  {
+    "name": "OpenAI (gpt-oss)",
+    "website": "https://openai.com/open-models/",
+    "hq_country": "USA",
+    "one_liner": "Released gpt-oss-20b and gpt-oss-120b open-weight reasoning models (2025).",
+    "local_ai_angle": "20b model runs on 16GB consumer hardware locally.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://openai.com/open-models/"
+    ]
+  },
+  {
+    "name": "NVIDIA (Nemotron, Model Optimizer)",
+    "website": "https://developer.nvidia.com/nemotron",
+    "hq_country": "USA",
+    "one_liner": "Open Nemotron models (Nano, hybrid Mamba) plus TensorRT Model Optimizer quantization.",
+    "local_ai_angle": "Open efficient models and compression tooling for RTX/Jetson local inference.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://developer.nvidia.com/nemotron"
+    ]
+  },
+  {
+    "name": "Apple (OpenELM, Foundation Models)",
+    "website": "https://machinelearning.apple.com",
+    "hq_country": "USA",
+    "one_liner": "On-device Apple Foundation Models, open OpenELM and FastVLM research models.",
+    "local_ai_angle": "~3B on-device model exposed to developers; MLX for local inference.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://machinelearning.apple.com"
+    ]
+  },
+  {
+    "name": "Alibaba (Qwen)",
+    "website": "https://qwenlm.github.io",
+    "hq_country": "China",
+    "one_liner": "Qwen open-weight LLM/VLM/embedding family from 0.6B up, incl. Qwen3-Embedding.",
+    "local_ai_angle": "Most-downloaded open family for local and self-hosted inference.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://qwenlm.github.io",
+      "https://huggingface.co/Qwen"
+    ]
+  },
+  {
+    "name": "Tencent (Hunyuan)",
+    "website": "https://hunyuan.tencent.com",
+    "hq_country": "China",
+    "one_liner": "Open Hunyuan LLM, video and 3D models incl. small dense variants.",
+    "local_ai_angle": "Open weights incl. edge-size Hunyuan models for local use.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/tencent"
+    ]
+  },
+  {
+    "name": "Baidu (ERNIE open)",
+    "website": "https://github.com/PaddlePaddle/ERNIE",
+    "hq_country": "China",
+    "one_liner": "Open-sourced ERNIE 4.5 model family (2025) incl. 0.3B small model.",
+    "local_ai_angle": "Open weights for local deployment via PaddlePaddle/FastDeploy.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/PaddlePaddle/ERNIE"
+    ]
+  },
+  {
+    "name": "ByteDance (Seed)",
+    "website": "https://seed.bytedance.com",
+    "hq_country": "China",
+    "one_liner": "Seed team open models (Seed-OSS, diffusion LMs, UI-TARS).",
+    "local_ai_angle": "Open weights usable for self-hosted inference.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://seed.bytedance.com",
+      "https://huggingface.co/ByteDance-Seed"
+    ]
+  },
+  {
+    "name": "Xiaomi (MiMo)",
+    "website": "https://github.com/XiaomiMiMo",
+    "hq_country": "China",
+    "one_liner": "Open MiMo reasoning and audio models; also backs Next-gen Kaldi/sherpa on-device ASR.",
+    "local_ai_angle": "Small open models and on-device speech for phones/cars.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/XiaomiMiMo"
+    ]
+  },
+  {
+    "name": "Meituan (LongCat)",
+    "website": "https://huggingface.co/meituan-longcat",
+    "hq_country": "China",
+    "one_liner": "Open LongCat MoE models.",
+    "local_ai_angle": "Open weights for self-hosting.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/meituan-longcat"
+    ]
+  },
+  {
+    "name": "Ant Group (inclusionAI Ling/Ring)",
+    "website": "https://huggingface.co/inclusionAI",
+    "hq_country": "China",
+    "one_liner": "Open Ling/Ring MoE model families incl. lite versions.",
+    "local_ai_angle": "Open weights incl. small MoE for local deployment.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/inclusionAI"
+    ]
+  },
+  {
+    "name": "Salesforce (xLAM)",
+    "website": "https://huggingface.co/Salesforce",
+    "hq_country": "USA",
+    "one_liner": "Open xLAM small 'large action models' for function calling.",
+    "local_ai_angle": "Small agent models runnable locally.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/Salesforce"
+    ]
+  },
+  {
+    "name": "Samsung (SAIL Montreal TRM)",
+    "website": "https://github.com/SamsungSAILMontreal/TinyRecursiveModels",
+    "hq_country": "South Korea",
+    "one_liner": "Research released Tiny Recursive Model (7M params) reasoning architecture.",
+    "local_ai_angle": "Tiny reasoning models relevant to on-device AI.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/SamsungSAILMontreal/TinyRecursiveModels"
+    ]
+  },
+  {
+    "name": "ServiceNow (Apriel)",
+    "website": "https://huggingface.co/ServiceNow-AI",
+    "hq_country": "USA",
+    "one_liner": "Open Apriel small reasoning models (e.g., 15B) for enterprise.",
+    "local_ai_angle": "Single-GPU open models for self-hosting.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/ServiceNow-AI"
+    ]
+  },
+  {
+    "name": "Snowflake (Arctic Embed)",
+    "website": "https://github.com/Snowflake-Labs/arctic-embed",
+    "hq_country": "USA",
+    "one_liner": "Open Arctic Embed embedding models.",
+    "local_ai_angle": "Apache-licensed embeddings for local RAG.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/Snowflake-Labs/arctic-embed"
+    ]
+  },
+  {
+    "name": "AMD (Instella)",
+    "website": "https://huggingface.co/amd",
+    "hq_country": "USA",
+    "one_liner": "Fully open Instella small LMs trained on AMD GPUs; Ryzen AI local inference.",
+    "local_ai_angle": "Small open models plus NPU/GPU tooling for AI PCs.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/amd"
+    ]
+  },
+  {
+    "name": "Intel (OpenVINO, Neural Compressor)",
+    "website": "https://github.com/intel/neural-compressor",
+    "hq_country": "USA",
+    "one_liner": "OpenVINO toolkit, Neural Compressor and AutoRound quantization for Intel hardware.",
+    "local_ai_angle": "Quantize and run models on AI PCs, CPUs and edge devices.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://github.com/intel/neural-compressor",
+      "https://github.com/openvinotoolkit/openvino"
+    ]
+  },
+  {
+    "name": "LG AI Research (EXAONE)",
+    "website": "https://www.lgresearch.ai",
+    "hq_country": "South Korea",
+    "one_liner": "EXAONE open models incl. 1.2B on-device variant.",
+    "local_ai_angle": "Small Korean/English models for on-device use.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://www.lgresearch.ai",
+      "https://huggingface.co/LGAI-EXAONE"
+    ]
+  },
+  {
+    "name": "Naver (HyperCLOVA X SEED)",
+    "website": "https://huggingface.co/naver-hyperclovax",
+    "hq_country": "South Korea",
+    "one_liner": "Open lightweight HyperCLOVA X SEED models.",
+    "local_ai_angle": "Small Korean models for local deployment.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/naver-hyperclovax"
+    ]
+  },
+  {
+    "name": "Kakao (Kanana)",
+    "website": "https://huggingface.co/kakaocorp",
+    "hq_country": "South Korea",
+    "one_liner": "Open Kanana small language models.",
+    "local_ai_angle": "Korean SLMs for local/on-prem use.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/kakaocorp"
+    ]
+  },
+  {
+    "name": "SK Telecom (A.X)",
+    "website": "https://huggingface.co/skt",
+    "hq_country": "South Korea",
+    "one_liner": "Open A.X Korean LLMs incl. light variants.",
+    "local_ai_angle": "Sovereign Korean models self-hostable.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://huggingface.co/skt"
+    ]
+  },
+  {
+    "name": "NTT (tsuzumi)",
+    "website": "https://group.ntt/en/",
+    "hq_country": "Japan",
+    "one_liner": "Lightweight Japanese LLM tsuzumi designed for on-prem enterprise use.",
+    "local_ai_angle": "Small model runs on single GPU on-premises.",
+    "segment": "bigtech",
+    "type": "big-tech",
+    "status": "active",
+    "sources": [
+      "https://group.ntt/en/"
+    ]
+  },
+  {
+    "name": "Cohere",
+    "website": "https://cohere.com",
+    "hq_country": "Canada",
+    "one_liner": "Enterprise LLM company; Command A weights (non-commercial) and North private platform.",
+    "local_ai_angle": "Private/on-prem and air-gapped deployments of Command models.",
+    "segment": "private-ai-platforms",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://cohere.com"
+    ]
+  },
+  {
+    "name": "Aleph Alpha",
+    "website": "https://aleph-alpha.com",
+    "hq_country": "Germany",
+    "one_liner": "German sovereign AI company with PhariaAI stack and open Pharia models.",
+    "local_ai_angle": "On-prem sovereign GenAI for government/regulated sectors.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://aleph-alpha.com"
+    ]
+  },
+  {
+    "name": "Silo AI",
+    "website": "https://www.silo.ai",
+    "hq_country": "Finland",
+    "one_liner": "Nordic AI lab that built Poro/Viking open multilingual models.",
+    "local_ai_angle": "Open European models; now AMD's open-model team.",
+    "segment": "efficient-models",
+    "type": "subsidiary",
+    "status": "acquired by AMD (2024)",
+    "sources": [
+      "https://www.silo.ai"
+    ]
+  },
+  {
+    "name": "Prem AI",
+    "website": "https://www.premai.io",
+    "hq_country": "Switzerland",
+    "one_liner": "Private AI platform for fine-tuning and deploying small language models.",
+    "local_ai_angle": "Customer-owned SLMs deployed on-prem or edge.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://www.premai.io"
+    ]
+  },
+  {
+    "name": "Predibase",
+    "website": "https://predibase.com",
+    "hq_country": "USA",
+    "one_liner": "Fine-tuning and LoRAX multi-adapter serving for small open models.",
+    "local_ai_angle": "Serve many fine-tuned SLMs in customer VPC.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "subsidiary",
+    "status": "acquired by Rubrik (2025)",
+    "sources": [
+      "https://predibase.com"
+    ]
+  },
+  {
+    "name": "Lamini",
+    "website": "https://www.lamini.ai",
+    "hq_country": "USA",
+    "one_liner": "Enterprise LLM fine-tuning (memory tuning) platform.",
+    "local_ai_angle": "Deploys on-prem and air-gapped.",
+    "segment": "private-ai-platforms",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.lamini.ai"
+    ]
+  },
+  {
+    "name": "Modular",
+    "website": "https://www.modular.com",
+    "hq_country": "USA",
+    "one_liner": "MAX inference engine and Mojo language for portable high-performance AI.",
+    "local_ai_angle": "Self-hosted inference across NVIDIA/AMD/CPU hardware.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://www.modular.com"
+    ]
+  },
+  {
+    "name": "ggml.ai (llama.cpp)",
+    "website": "https://ggml.ai",
+    "hq_country": "Bulgaria",
+    "one_liner": "Company behind ggml, llama.cpp and the GGUF quantized model format.",
+    "local_ai_angle": "De facto engine/format for quantized local LLM inference.",
+    "segment": "selfhosted-inference-llmops",
+    "type": "open-source-org",
+    "status": "active",
+    "sources": [
+      "https://ggml.ai",
+      "https://github.com/ggml-org/llama.cpp"
+    ]
+  },
+  {
+    "name": "Nexa AI",
+    "website": "https://nexa.ai",
+    "hq_country": "USA",
+    "one_liner": "NexaSDK on-device inference and small multimodal models (Octopus, OmniVLM).",
+    "local_ai_angle": "Runs models on NPUs/CPUs/GPUs of phones and PCs.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://nexa.ai"
+    ]
+  },
+  {
+    "name": "Mirai",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "Startup building on-device inference/'AI capability layer'; $10M seed led by Uncork (2026).",
+    "local_ai_angle": "Runs models locally on consumer devices.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://pulse2.com/mirai-10-million-seed-funding-raised-for-building-ai-capability-layer/amp/"
+    ]
+  },
+  {
+    "name": "Cactus Compute",
+    "website": "https://cactuscompute.com",
+    "hq_country": null,
+    "one_liner": "YC-backed cross-platform on-device inference engine for phones.",
+    "local_ai_angle": "Run LLMs locally inside mobile apps.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://github.com/cactus-compute/cactus"
+    ]
+  },
+  {
+    "name": "NobodyWho",
+    "website": "https://github.com/nobodywho-ooo/nobodywho",
+    "hq_country": "Denmark",
+    "one_liner": "Open-source library running small language models locally in apps and games; EUR2M pre-seed.",
+    "local_ai_angle": "SLMs on laptops/phones without cloud.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://tech.eu/2025/12/17/nobodywho-raises-eur2m-to-challenge-big-techs-cloud-ai-with-slms-for-local-devices/"
+    ]
+  },
+  {
+    "name": "Zetic.ai",
+    "website": "https://zetic.ai",
+    "hq_country": "South Korea",
+    "one_liner": "ZETIC.MLange converts models to run on mobile NPUs.",
+    "local_ai_angle": "Serverless on-device AI across phone chipsets.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://zetic.ai"
+    ]
+  },
+  {
+    "name": "Picovoice",
+    "website": "https://picovoice.ai",
+    "hq_country": "Canada",
+    "one_liner": "On-device voice AI SDKs and picoLLM compressed LLM inference.",
+    "local_ai_angle": "Voice and LLMs run fully offline on device.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://picovoice.ai"
+    ]
+  },
+  {
+    "name": "Argmax",
+    "website": "https://www.argmaxinc.com",
+    "hq_country": "USA",
+    "one_liner": "WhisperKit and on-device speech SDKs for Apple silicon.",
+    "local_ai_angle": "On-device ASR/TTS without cloud.",
+    "segment": "on-device-sdks",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://www.argmaxinc.com"
+    ]
+  },
+  {
+    "name": "Menlo Research (Jan)",
+    "website": "https://jan.ai",
+    "hq_country": "Singapore",
+    "one_liner": "Open-source Jan local AI app plus Jan-nano/Lucy small agentic models.",
+    "local_ai_angle": "Desktop app and small models run fully offline.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://jan.ai",
+      "https://huggingface.co/Menlo"
+    ]
+  },
+  {
+    "name": "Tether (QVAC)",
+    "website": "https://tether.io",
+    "hq_country": "El Salvador",
+    "one_liner": "Stablecoin issuer's QVAC platform for local, peer-to-peer AI apps.",
+    "local_ai_angle": "Local-first AI apps and SDK running on user devices.",
+    "segment": "consumer-local-apps",
+    "type": "subsidiary",
+    "status": "active",
+    "sources": [
+      "https://tether.io"
+    ]
+  },
+  {
+    "name": "Tiiny AI",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "Optimizes LLMs to run on-device; first product is a portable personal AI device.",
+    "local_ai_angle": "Pocket hardware running large models offline.",
+    "segment": "onprem-hardware",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://dealroom.co/news/169762-tiiny-ai-raises-30m-seed-for-personal-ai-devices-sits-in-singapores-top"
+    ]
+  },
+  {
+    "name": "Conway (Underdog)",
+    "website": null,
+    "hq_country": null,
+    "one_liner": "a16z-backed startup whose Underdog assistant runs entirely on the user's device.",
+    "local_ai_angle": "Fully on-device consumer AI.",
+    "segment": "consumer-local-apps",
+    "type": "startup",
+    "status": "active",
+    "sources": [
+      "https://dealroom.co/news/158789-a16z-backs-conways-underdog-an-ai-that-runs-entirely-on-your-device"
+    ]
+  },
+  {
+    "name": "Taalas",
+    "website": "https://taalas.com",
+    "hq_country": "Canada",
+    "one_liner": "Startup hard-wiring specific model weights into custom silicon.",
+    "local_ai_angle": "Model-specific chips for very efficient local inference.",
+    "segment": "edge-silicon",
+    "type": "startup",
+    "status": "acquired by AMD (reported; unverified)",
+    "sources": [
+      "https://aiweekly.co/alerts/amd-acquires-taalas-startup-etching-ai-weights-into-silicon"
+    ]
+  },
+  {
+    "name": "Edge Impulse",
+    "website": "https://edgeimpulse.com",
+    "hq_country": "USA",
+    "one_liner": "Platform for building and optimizing ML models for embedded/edge devices.",
+    "local_ai_angle": "Compresses and deploys models to MCUs and edge SoCs.",
+    "segment": "industrial-edge",
+    "type": "subsidiary",
+    "status": "acquired by Qualcomm (2025)",
+    "sources": [
+      "https://edgeimpulse.com"
+    ]
+  },
+  {
+    "name": "Neuton.ai",
+    "website": "https://neuton.ai",
+    "hq_country": null,
+    "one_liner": "Automated tinyML producing extremely small models for microcontrollers.",
+    "local_ai_angle": "Tiny models run on low-power MCUs.",
+    "segment": "industrial-edge",
+    "type": "subsidiary",
+    "status": "acquired by Nordic Semiconductor (2025)",
+    "sources": [
+      "https://neuton.ai"
+    ]
+  },
+  {
+    "name": "Xailient",
+    "website": "https://xailient.com",
+    "hq_country": "Australia",
+    "one_liner": "Efficient computer-vision AI for edge cameras and devices.",
+    "local_ai_angle": "Low-power on-device vision without cloud.",
+    "segment": "industrial-edge",
+    "type": "startup",
+    "status": "unknown",
+    "sources": [
+      "https://xailient.com"
+    ]
+  },
+  {
+    "name": "Roboflow",
+    "website": "https://roboflow.com",
+    "hq_country": "USA",
+    "one_liner": "Computer vision platform with open RF-DETR models and self-hosted Inference server.",
+    "local_ai_angle": "Deploy vision models on edge devices and on-prem.",
+    "segment": "industrial-edge",
+    "type": "scaleup",
+    "status": "active",
+    "sources": [
+      "https://roboflow.com",
+      "https://github.com/roboflow/inference"
+    ]
+  }
+]

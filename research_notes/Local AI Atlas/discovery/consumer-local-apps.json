@@ -1,0 +1,1404 @@
+[
+ {
+  "name": "Ollama Inc.",
+  "website": "https://ollama.com",
+  "hq_country": "USA",
+  "one_liner": "Makes Ollama, the most popular open-source runtime and CLI for downloading and running open LLMs.",
+  "local_ai_angle": "One-command local model serving with OpenAI-compatible API on Mac/Windows/Linux; ~9M developers.",
+  "segment": "consumer-local-apps",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+   "https://siliconangle.com/2026/07/09/open-source-ai-developer-tool-ollama-raises-65m-grow-platform/"
+  ]
+ },
+ {
+  "name": "Element Labs",
+  "website": "https://lmstudio.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes LM Studio desktop app and Locally mobile app for discovering and running local LLMs.",
+  "local_ai_angle": "GUI plus local API server for GGUF/MLX models fully offline; acquired Locally AI in April 2026.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://lmstudio.ai/blog/locally-ai-joins-lm-studio",
+   "https://lmstudio.ai/blog/locally-lm-link",
+   "https://gigazine.net/gsc_news/en/20260410-lm-studio-acquired-locally-ai"
+  ]
+ },
+ {
+  "name": "Menlo Research",
+  "website": "https://jan.ai",
+  "hq_country": "Singapore",
+  "one_liner": "Makes Jan, open-source offline ChatGPT-alternative desktop app; formerly Homebrew Computer Company; also robotics.",
+  "local_ai_angle": "Runs open models locally via llama.cpp with local OpenAI-compatible server; no account needed.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://hackmd.io/@menlo",
+   "https://jan.ai/docs",
+   "https://github.com/janhq/jan"
+  ]
+ },
+ {
+  "name": "Nomic AI",
+  "website": "https://www.nomic.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes GPT4All desktop app, Nomic Embed models and Atlas data-mapping platform.",
+  "local_ai_angle": "Free open-source app runs LLMs and private document chat on consumer CPUs/GPUs offline.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.nomic.ai/gpt4all",
+   "https://github.com/nomic-ai/gpt4all"
+  ]
+ },
+ {
+  "name": "Mintplex Labs",
+  "website": "https://anythingllm.com",
+  "hq_country": "USA",
+  "one_liner": "Makes AnythingLLM, all-in-one desktop and Docker app for local RAG, agents and document chat.",
+  "local_ai_angle": "Bundles local LLM runner, embedder and vector DB so documents never leave the machine.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/Mintplex-Labs/anything-llm",
+   "https://anythingllm.com"
+  ]
+ },
+ {
+  "name": "Open WebUI, Inc.",
+  "website": "https://openwebui.com",
+  "hq_country": null,
+  "one_liner": "Makes Open WebUI, the leading self-hosted ChatGPT-style interface for Ollama and OpenAI-compatible backends.",
+  "local_ai_angle": "Self-hosted, offline-capable web UI with RAG and tools; enterprise edition for on-prem teams.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/open-webui/open-webui",
+   "https://www.cbinsights.com/company/open-webui"
+  ]
+ },
+ {
+  "name": "CloudStack, LLC",
+  "website": "https://msty.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes Msty Studio, a private desktop AI workspace mixing local and cloud models; also Msty Nexus.",
+  "local_ai_angle": "Runs local models via built-in llama.cpp/Ollama engines with no product telemetry.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://msty.ai/about/",
+   "https://www.promptquorum.com/power-local-llm/msty-review",
+   "https://msty.ai/blog/introducing-msty-nexus"
+  ]
+ },
+ {
+  "name": "LocalAI (open-source project, Ettore Di Giacinto)",
+  "website": "https://localai.io",
+  "hq_country": "Italy",
+  "one_liner": "Maintains LocalAI, drop-in OpenAI API replacement for running LLMs, image and audio models locally.",
+  "local_ai_angle": "Self-hosted multi-backend inference on consumer hardware, GPU optional.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/mudler/LocalAI",
+   "https://localai.io"
+  ]
+ },
+ {
+  "name": "Pinokio (cocktailpeanut)",
+  "website": "https://pinokio.computer",
+  "hq_country": null,
+  "one_liner": "Makes Pinokio, a one-click 'AI browser' that installs and runs open-source AI apps locally.",
+  "local_ai_angle": "Script-based installers for local LLM, image, video and audio tools on personal PCs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://pinokio.computer",
+   "https://github.com/pinokiocomputer/pinokio"
+  ]
+ },
+ {
+  "name": "Numen Technologies",
+  "website": "https://privatellm.app",
+  "hq_country": "India",
+  "one_liner": "Makes Private LLM, a paid offline AI chatbot app for iPhone, iPad and Mac.",
+  "local_ai_angle": "Runs quantized open models fully on-device with Siri and Shortcuts integration.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://apps.apple.com/gb/app/id6448106860",
+   "https://www.promptquorum.com/power-local-llm/private-llm-review"
+  ]
+ },
+ {
+  "name": "Locally AI (Adrien Grondin)",
+  "website": "https://locallyai.app",
+  "hq_country": null,
+  "one_liner": "Locally AI, iPhone/iPad app running MLX models offline; rebranded as LM Studio's mobile app.",
+  "local_ai_angle": "On-device MLX inference on Apple silicon phones; LM Link connects to desktop LM Studio.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "acquired by Element Labs (LM Studio) (2026)",
+  "sources": [
+   "https://lmstudio.ai/blog/locally-ai-joins-lm-studio",
+   "https://gigazine.net/gsc_news/en/20260410-lm-studio-acquired-locally-ai",
+   "https://www.simonwillison.net/2025/Sep/21/locally-ai"
+  ]
+ },
+ {
+  "name": "Enclave AI (Piotr Gorzelany)",
+  "website": "https://enclaveai.app",
+  "hq_country": null,
+  "one_liner": "Makes Enclave, a free on-device AI assistant app for iPhone and Mac.",
+  "local_ai_angle": "Runs hundreds of open models locally with no account, servers or analytics.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://apps.apple.com/us/app/enclave-local-ai-assistant/id6476614556",
+   "https://applevis.com/apps/ios/utilities/enclave-local-ai-assistant-anonymous-offline-private-ai"
+  ]
+ },
+ {
+  "name": "PocketPal AI (Asghar Ghorbani)",
+  "website": "https://github.com/a-ghorbani/pocketpal-ai",
+  "hq_country": null,
+  "one_liner": "Makes PocketPal AI, open-source iOS and Android app for running small LLMs on phones.",
+  "local_ai_angle": "llama.cpp-based on-device chat with Hugging Face model downloads; most-recommended free mobile app.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/a-ghorbani/pocketpal-ai",
+   "https://www.promptquorum.com/power-local-llm/best-local-llm-apps-android-2026",
+   "https://modelfit.io/guides/best-llm-for-iphone/"
+  ]
+ },
+ {
+  "name": "Apollo (private local AI app)",
+  "website": "https://www.liquid.ai/apollo",
+  "hq_country": null,
+  "one_liner": "Apollo, private on-device LLM chat app for iPhone; acquired and rebuilt by Liquid AI.",
+  "local_ai_angle": "Runs LEAP/LFM and open models offline; can also connect to LM Studio or Ollama.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "acquired by Liquid AI (2025)",
+  "sources": [
+   "https://www.liquid.ai/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer",
+   "https://apps.apple.com/app/apollo-powered-by-liquid/id6448019325"
+  ]
+ },
+ {
+  "name": "Mainframe (fullmoon)",
+  "website": "https://fullmoon.app",
+  "hq_country": null,
+  "one_liner": "Makes fullmoon, a free open-source MLX chat app for iPhone, iPad, Mac and Vision Pro.",
+  "local_ai_angle": "Runs small LLMs fully on Apple-silicon devices via MLX, offline.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/mainframecomputer/fullmoon-ios",
+   "https://modelfit.io/guides/best-llm-for-iphone/"
+  ]
+ },
+ {
+  "name": "Dinoki Labs",
+  "website": "https://osaurus.ai",
+  "hq_country": null,
+  "one_liner": "Makes Osaurus, open-source Apple-silicon LLM server and menu-bar chat; grew from Dinoki desktop companion.",
+  "local_ai_angle": "Runs MLX models locally with OpenAI/Anthropic-compatible APIs and MCP server; keeps files on-device.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+   "https://www.producthunt.com/products/osaurus"
+  ]
+ },
+ {
+  "name": "Sanctum (desktop app; publisher reportedly QXYZ Labs)",
+  "website": "https://sanctum.ai",
+  "hq_country": null,
+  "one_liner": "Makes Sanctum, an encrypted desktop app for running LLMs locally on Mac and Windows.",
+  "local_ai_angle": "Local encrypted model execution and document chat with no cloud dependency.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "unknown",
+  "sources": [
+   "https://www.producthunt.com/products/sanctum",
+   "https://get.nero.com/publishers/QXYZLabs/Sanctum\\Sanctum.html"
+  ]
+ },
+ {
+  "name": "Genta Technology (Kolosal AI)",
+  "website": "https://kolosal.ai",
+  "hq_country": null,
+  "one_liner": "Makes Kolosal AI, lightweight open-source desktop app for running and fine-tuning LLMs locally.",
+  "local_ai_angle": "Offline GGUF inference with OpenAI-compatible local server on CPUs and AMD/NVIDIA GPUs.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://awesome.ecosyste.ms/projects/github.com%2FGenta-Technology%2FKolosal",
+   "https://i-programmer.info/news/105-artificial-intelligence/17976-kolosal-ai-run-llms-locally-on-your-workstation-or-edge-devices-.html"
+  ]
+ },
+ {
+  "name": "Nexa AI",
+  "website": "https://nexa.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes Hyperlink, a local AI agent for searching PC files, plus NexaSDK on-device inference toolkit.",
+  "local_ai_angle": "Indexes and answers over local files fully on-device; optimized for NVIDIA RTX and AMD Ryzen AI.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://blogs.nvidia.com/blog/rtx-ai-garage-nexa-hyperlink-local-agent",
+   "https://www.amd.com/en/ecosystem/isv/consumer-partners/nexa.html",
+   "https://dataconomy.com/2025/11/17/meet-hyperlink-a-local-notebooklm-style-tool-for-you/"
+  ]
+ },
+ {
+  "name": "AMD (Lemonade / GAIA)",
+  "website": "https://lemonade-server.ai",
+  "hq_country": "USA",
+  "one_liner": "AMD-backed Lemonade open-source local LLM server and GAIA app for Ryzen AI PCs.",
+  "local_ai_angle": "Runs LLMs locally on Ryzen AI NPUs and Radeon GPUs with OpenAI-compatible API.",
+  "segment": "bigtech",
+  "type": "public",
+  "status": "active",
+  "sources": [
+   "https://github.com/lemonade-sdk/lemonade",
+   "https://lemonade-server.ai"
+  ]
+ },
+ {
+  "name": "ggml.ai",
+  "website": "https://ggml.ai",
+  "hq_country": "Bulgaria",
+  "one_liner": "Company behind llama.cpp and ggml, the inference engine underpinning most local LLM apps.",
+  "local_ai_angle": "C/C++ CPU/GPU inference and GGUF format enabling LLMs on laptops and phones.",
+  "segment": "on-device-sdks",
+  "type": "startup",
+  "status": "acquired by Hugging Face (2026)",
+  "sources": [
+   "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/",
+   "https://gihyo.jp/article/2026/02/ggml-join-hugging-face"
+  ]
+ },
+ {
+  "name": "Mozilla (llamafile / Mozilla.ai)",
+  "website": "https://github.com/Mozilla-Ocho/llamafile",
+  "hq_country": "USA",
+  "one_liner": "Mozilla's llamafile packages LLMs as single-file executables; Builders program funds local-AI projects.",
+  "local_ai_angle": "Run a model offline on most OSes and CPUs with one downloaded file.",
+  "segment": "consumer-local-apps",
+  "type": "nonprofit",
+  "status": "active",
+  "sources": [
+   "https://github.com/Mozilla-Ocho/llamafile"
+  ]
+ },
+ {
+  "name": "KoboldCpp (LostRuins, open-source)",
+  "website": "https://github.com/LostRuins/koboldcpp",
+  "hq_country": null,
+  "one_liner": "KoboldCpp, single-file llama.cpp-based app with UI for local LLM chat and storytelling.",
+  "local_ai_angle": "Zero-install local text, image and speech generation on consumer GPUs/CPUs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/LostRuins/koboldcpp"
+  ]
+ },
+ {
+  "name": "oobabooga (text-generation-webui)",
+  "website": "https://github.com/oobabooga/text-generation-webui",
+  "hq_country": null,
+  "one_liner": "text-generation-webui, Gradio web UI for running local LLMs with many backends.",
+  "local_ai_angle": "Supports llama.cpp, ExLlama, Transformers locally; long-time r/LocalLLaMA staple.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/oobabooga/text-generation-webui"
+  ]
+ },
+ {
+  "name": "SillyTavern (open-source community)",
+  "website": "https://sillytavern.app",
+  "hq_country": null,
+  "one_liner": "SillyTavern, power-user frontend for character and roleplay chat with LLMs.",
+  "local_ai_angle": "Connects to local backends (KoboldCpp, Ollama, llama.cpp) as well as APIs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/SillyTavern/SillyTavern"
+  ]
+ },
+ {
+  "name": "Chatbox AI (Bin Huang)",
+  "website": "https://chatboxai.app",
+  "hq_country": null,
+  "one_liner": "Makes Chatbox, cross-platform desktop and mobile AI chat client.",
+  "local_ai_angle": "Supports Ollama and LM Studio local models alongside cloud APIs.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/chatboxai/chatbox",
+   "https://chatboxai.app"
+  ]
+ },
+ {
+  "name": "CherryHQ (Cherry Studio)",
+  "website": "https://www.cherry-ai.com",
+  "hq_country": "China",
+  "one_liner": "Makes Cherry Studio, open-source desktop LLM client with assistants and knowledge base.",
+  "local_ai_angle": "Integrates Ollama/LM Studio local models and local knowledge bases.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/CherryHQ/cherry-studio"
+  ]
+ },
+ {
+  "name": "LobeHub",
+  "website": "https://lobehub.com",
+  "hq_country": null,
+  "one_liner": "Makes LobeChat/LobeHub, open-source self-hostable AI chat and agent workspace.",
+  "local_ai_angle": "Self-hosted deployment with Ollama local model support.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/lobehub/lobe-chat"
+  ]
+ },
+ {
+  "name": "LibreChat",
+  "website": "https://www.librechat.ai",
+  "hq_country": "USA",
+  "one_liner": "LibreChat, popular open-source self-hosted multi-model chat UI.",
+  "local_ai_angle": "Self-hosted interface supporting Ollama and other local OpenAI-compatible endpoints.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "acquired by ClickHouse (2025)",
+  "sources": [
+   "https://github.com/danny-avila/LibreChat",
+   "https://www.librechat.ai"
+  ]
+ },
+ {
+  "name": "Open Interpreter, Inc.",
+  "website": "https://www.openinterpreter.com",
+  "hq_country": "USA",
+  "one_liner": "Makes Open Interpreter, open-source natural-language computer-control agent, and 01 voice interface.",
+  "local_ai_angle": "Local mode runs fully offline with Ollama/LM Studio/llamafile models.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/OpenInterpreter/open-interpreter"
+  ]
+ },
+ {
+  "name": "OpenClaw Foundation",
+  "website": "https://openclaw.ai",
+  "hq_country": "USA",
+  "one_liner": "501(c)(3) stewarding OpenClaw, viral open-source personal AI agent created by Peter Steinberger.",
+  "local_ai_angle": "Runs on the user's own computer; hosted or local model providers via plugins.",
+  "segment": "consumer-local-apps",
+  "type": "nonprofit",
+  "status": "active",
+  "sources": [
+   "https://github.com/openclaw/openclaw"
+  ]
+ },
+ {
+  "name": "Backyard AI (formerly Faraday.dev)",
+  "website": "https://backyard.ai",
+  "hq_country": null,
+  "one_liner": "Backyard AI, character-chat app that began as Faraday desktop app for local LLMs.",
+  "local_ai_angle": "Desktop app ran character models locally on user hardware.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "unknown",
+  "sources": [
+   "https://backyard.ai"
+  ]
+ },
+ {
+  "name": "Layla Network",
+  "website": "https://www.layla-network.ai",
+  "hq_country": null,
+  "one_liner": "Makes Layla, offline AI assistant and character app for Android and iOS.",
+  "local_ai_angle": "Runs LLMs on phone hardware; native Android share-sheet integration.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.layla-network.ai",
+   "https://www.promptquorum.com/power-local-llm/best-local-llm-apps-android-2026"
+  ]
+ },
+ {
+  "name": "MLC (MLC LLM project)",
+  "website": "https://llm.mlc.ai",
+  "hq_country": "USA",
+  "one_liner": "Open-source MLC LLM compiler and MLC Chat app for native LLMs on phones, GPUs, browsers.",
+  "local_ai_angle": "Compiles models for on-device inference incl. Snapdragon NPU and WebGPU.",
+  "segment": "on-device-sdks",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/mlc-ai/mlc-llm",
+   "https://www.promptquorum.com/power-local-llm/best-local-llm-apps-android-2026"
+  ]
+ },
+ {
+  "name": "BoltAI",
+  "website": "https://boltai.com",
+  "hq_country": null,
+  "one_liner": "Makes BoltAI, native Mac AI chat and inline assistant app.",
+  "local_ai_angle": "Supports Ollama and LM Studio local models alongside cloud APIs.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://boltai.com"
+  ]
+ },
+ {
+  "name": "Elephas",
+  "website": "https://elephas.app",
+  "hq_country": null,
+  "one_liner": "Makes Elephas, Mac/iOS AI writing and personal knowledge assistant.",
+  "local_ai_angle": "Offers offline local LLM mode for private document Q&A.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://elephas.app"
+  ]
+ },
+ {
+  "name": "Enchanted (open-source, gluonfield)",
+  "website": "https://github.com/gluonfield/enchanted",
+  "hq_country": null,
+  "one_liner": "Enchanted, open-source iOS/macOS/visionOS client for self-hosted Ollama models.",
+  "local_ai_angle": "Native Apple front end for privately hosted local LLMs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "unknown",
+  "sources": [
+   "https://github.com/gluonfield/enchanted"
+  ]
+ },
+ {
+  "name": "Alpaca (Jeffser, open-source)",
+  "website": "https://github.com/Jeffser/Alpaca",
+  "hq_country": null,
+  "one_liner": "Alpaca, GTK/Linux desktop app for chatting with local Ollama models.",
+  "local_ai_angle": "Bundles/manages Ollama for offline Linux desktop LLM use.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/Jeffser/Alpaca"
+  ]
+ },
+ {
+  "name": "Page Assist (n4ze3m, open-source)",
+  "website": "https://github.com/n4ze3m/page-assist",
+  "hq_country": null,
+  "one_liner": "Page Assist, browser extension sidebar and web UI for local AI models.",
+  "local_ai_angle": "Chats with web pages and docs using Ollama/LM Studio models locally.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/n4ze3m/page-assist"
+  ]
+ },
+ {
+  "name": "Opera",
+  "website": "https://www.opera.com",
+  "hq_country": "Norway",
+  "one_liner": "Browser maker; Opera One developer added built-in download and use of local LLM variants.",
+  "local_ai_angle": "First major browser to run local LLMs on-device via Ollama-based integration (2024).",
+  "segment": "consumer-local-apps",
+  "type": "public",
+  "status": "active",
+  "sources": [
+   "https://www.opera.com"
+  ]
+ },
+ {
+  "name": "Brave Software",
+  "website": "https://brave.com/leo/",
+  "hq_country": "USA",
+  "one_liner": "Brave browser's Leo assistant supports Bring Your Own Model.",
+  "local_ai_angle": "BYOM lets users point Leo at local Ollama models instead of cloud.",
+  "segment": "consumer-local-apps",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://brave.com/leo/"
+  ]
+ },
+ {
+  "name": "Zylon (PrivateGPT)",
+  "website": "https://www.zylon.ai",
+  "hq_country": "Spain",
+  "one_liner": "Company behind open-source PrivateGPT; sells Zylon private AI workspace for regulated firms.",
+  "local_ai_angle": "100% private document Q&A with local LLMs, on-prem deployment.",
+  "segment": "private-ai-platforms",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/zylon-ai/private-gpt",
+   "https://www.zylon.ai"
+  ]
+ },
+ {
+  "name": "Docker, Inc. (Docker Model Runner)",
+  "website": "https://docs.docker.com/ai/model-runner/",
+  "hq_country": "USA",
+  "one_liner": "Docker Model Runner pulls and runs LLMs as OCI artifacts from Docker Desktop.",
+  "local_ai_angle": "Local GPU-accelerated model inference for developers via llama.cpp backend.",
+  "segment": "selfhosted-inference-llmops",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://docs.docker.com/ai/model-runner/"
+  ]
+ },
+ {
+  "name": "Comfy Org",
+  "website": "https://www.comfy.org",
+  "hq_country": "USA",
+  "one_liner": "Steward of ComfyUI, node-based open-source generative media engine; also Comfy Cloud.",
+  "local_ai_angle": "Runs image, video and audio diffusion models locally on user GPUs; 4M+ users.",
+  "segment": "consumer-local-apps",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+   "https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open",
+   "https://blog.comfy.org/p/comfy-raises-17m-funding"
+  ]
+ },
+ {
+  "name": "Invoke (Invoke AI)",
+  "website": "https://www.invoke.com",
+  "hq_country": "USA",
+  "one_liner": "Made InvokeAI, open-source local image-generation studio; team joined Adobe Firefly Foundry.",
+  "local_ai_angle": "Community open-source InvokeAI still runs Stable Diffusion/FLUX locally; commercial platform shut down.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "acquired by Adobe (2025, team acqui-hire)",
+  "sources": [
+   "https://news.adobe.com/news/2025/10/adobe-max-2025-firefly-foundry",
+   "https://github.com/invoke-ai/InvokeAI"
+  ]
+ },
+ {
+  "name": "Draw Things (Liu Liu)",
+  "website": "https://drawthings.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes Draw Things, offline image and video generation app for iPhone, iPad and Mac.",
+  "local_ai_angle": "Highly optimized on-device diffusion (SD, FLUX, Wan) on Apple silicon.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://drawthings.ai",
+   "https://github.com/drawthingsai/draw-things-community"
+  ]
+ },
+ {
+  "name": "DiffusionBee (Divam Gupta)",
+  "website": "https://diffusionbee.com",
+  "hq_country": null,
+  "one_liner": "DiffusionBee, one-click Stable Diffusion app for macOS.",
+  "local_ai_angle": "Offline image generation on Apple silicon without setup.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "unknown",
+  "sources": [
+   "https://diffusionbee.com",
+   "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui"
+  ]
+ },
+ {
+  "name": "Lykos AI (Stability Matrix)",
+  "website": "https://lykos.ai",
+  "hq_country": null,
+  "one_liner": "Makes Stability Matrix, package manager and launcher for local Stable Diffusion UIs.",
+  "local_ai_angle": "One-click install/manage ComfyUI, Forge, A1111 and models locally.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/LykosAI/StabilityMatrix"
+  ]
+ },
+ {
+  "name": "Topaz Labs",
+  "website": "https://www.topazlabs.com",
+  "hq_country": "USA",
+  "one_liner": "Makes Topaz Photo AI and Video AI desktop apps for upscaling, denoise and enhancement.",
+  "local_ai_angle": "Enhancement models run locally on user GPUs/NPUs.",
+  "segment": "consumer-local-apps",
+  "type": "scaleup",
+  "status": "acquired by Adobe (2026)",
+  "sources": [
+   "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+   "https://www.cmswire.com/digital-experience/adobe-to-acquire-topaz-labs-to-boost-ai-video-image-tools/"
+  ]
+ },
+ {
+  "name": "TensorStack (Amuse)",
+  "website": "https://www.amuse-ai.com",
+  "hq_country": null,
+  "one_liner": "Makes Amuse, free Windows app for local image and video generation, built with AMD.",
+  "local_ai_angle": "ONNX/DirectML diffusion running on AMD Ryzen AI and Radeon hardware offline.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.amuse-ai.com"
+  ]
+ },
+ {
+  "name": "lllyasviel (Fooocus / Forge / ControlNet)",
+  "website": "https://github.com/lllyasviel/Fooocus",
+  "hq_country": null,
+  "one_liner": "Open-source author of Fooocus, SD WebUI Forge and ControlNet image tools.",
+  "local_ai_angle": "Simplified offline Stable Diffusion/FLUX generation on consumer GPUs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/lllyasviel/Fooocus"
+  ]
+ },
+ {
+  "name": "AUTOMATIC1111 (Stable Diffusion WebUI)",
+  "website": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "hq_country": null,
+  "one_liner": "Stable Diffusion WebUI, the original popular local image-generation web interface.",
+  "local_ai_angle": "Self-hosted Gradio UI running diffusion models on local GPUs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "unknown",
+  "sources": [
+   "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  ]
+ },
+ {
+  "name": "Upscayl",
+  "website": "https://upscayl.org",
+  "hq_country": "India",
+  "one_liner": "Upscayl, free open-source AI image upscaler for Linux, macOS and Windows.",
+  "local_ai_angle": "Real-ESRGAN models run locally via Vulkan GPUs.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/upscayl/upscayl"
+  ]
+ },
+ {
+  "name": "Krita AI Diffusion (Acly)",
+  "website": "https://github.com/Acly/krita-ai-diffusion",
+  "hq_country": null,
+  "one_liner": "Open-source Krita plugin adding generative AI painting and inpainting.",
+  "local_ai_angle": "Uses a local ComfyUI backend on the artist's GPU.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/Acly/krita-ai-diffusion"
+  ]
+ },
+ {
+  "name": "Good Snooze (MacWhisper)",
+  "website": "https://goodsnooze.gumroad.com/l/macwhisper",
+  "hq_country": "Netherlands",
+  "one_liner": "Jordi Bruin's studio making MacWhisper transcription app for Mac.",
+  "local_ai_angle": "Runs Whisper speech-to-text fully on-device.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://goodsnooze.gumroad.com/l/macwhisper"
+  ]
+ },
+ {
+  "name": "Superwhisper",
+  "website": "https://superwhisper.com",
+  "hq_country": null,
+  "one_liner": "Makes Superwhisper, AI voice dictation app for Mac, iOS and Windows.",
+  "local_ai_angle": "Offers offline local Whisper models for private dictation.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://superwhisper.com"
+  ]
+ },
+ {
+  "name": "VoiceInk (Prakash Joshi Pax)",
+  "website": "https://tryvoiceink.com",
+  "hq_country": null,
+  "one_liner": "Makes VoiceInk, open-source Mac voice-to-text dictation app.",
+  "local_ai_angle": "whisper.cpp transcription entirely on-device.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/Beingpax/VoiceInk"
+  ]
+ },
+ {
+  "name": "Buzz (Chidi Williams)",
+  "website": "https://github.com/chidiwilliams/buzz",
+  "hq_country": null,
+  "one_liner": "Buzz, open-source desktop app for offline audio transcription and translation.",
+  "local_ai_angle": "Runs Whisper locally on personal computers.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/chidiwilliams/buzz"
+  ]
+ },
+ {
+  "name": "fastrepl (anarlog, formerly Hyprnote)",
+  "website": "https://github.com/fastrepl/hyprnote",
+  "hq_country": null,
+  "one_liner": "Makes anarlog (formerly Hyprnote), open-source local-first AI meeting notepad.",
+  "local_ai_angle": "On-device transcription, local SQLite storage, optional local LLM summaries.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/fastrepl/hyprnote"
+  ]
+ },
+ {
+  "name": "Zackriya Solutions (Meetily)",
+  "website": "https://github.com/Zackriya-Solutions/meeting-minutes",
+  "hq_country": null,
+  "one_liner": "Makes Meetily, open-source privacy-first AI meeting assistant.",
+  "local_ai_angle": "Local Whisper transcription and Ollama summarization, no cloud.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/Zackriya-Solutions/meeting-minutes"
+  ]
+ },
+ {
+  "name": "Mediar, Inc. (Screenpipe)",
+  "website": "https://screenpi.pe",
+  "hq_country": "USA",
+  "one_liner": "Makes Screenpipe, open-source 24/7 local screen and audio recorder with AI search; YC S26.",
+  "local_ai_angle": "Captures and indexes everything in local SQLite; local OCR/STT and LLM pipes.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.ycombinator.com/companies/screenpipe",
+   "https://dev.to/tekmag/screenpipe-the-open-source-screen-recorder-that-gives-ai-agents-persistent-memory-of-your-work-3l2e",
+   "https://www.crunchbase.com/organization/mediar-6241"
+  ]
+ },
+ {
+  "name": "Limitless (formerly Rewind AI)",
+  "website": "https://www.limitless.ai",
+  "hq_country": "USA",
+  "one_liner": "Made Rewind Mac lifelogging app and Limitless AI pendant.",
+  "local_ai_angle": "Rewind recorded and compressed screen history locally on the Mac; now wound down.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "acquired by Meta (2025)",
+  "sources": [
+   "https://www.techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/",
+   "https://www.engadget.com/ai/metas-latest-acquisition-suggests-hardware-plans-beyond-glasses-and-headsets-212930339.html"
+  ]
+ },
+ {
+  "name": "Khoj Inc.",
+  "website": "https://khoj.dev",
+  "hq_country": "USA",
+  "one_liner": "Makes Khoj, open-source self-hostable AI second brain, and Pipali local AI coworker.",
+  "local_ai_angle": "Self-host with any local LLM over personal docs; on-prem or hybrid.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/khoj-ai/khoj",
+   "https://dev.to/jovan_chan_9500711396d4e6/khoj-review-2026-your-self-hosted-ai-second-brain-28mi"
+  ]
+ },
+ {
+  "name": "Reor (open-source project)",
+  "website": "https://github.com/reorproject/reor",
+  "hq_country": null,
+  "one_liner": "Reor, open-source AI personal knowledge-management and note-taking app.",
+  "local_ai_angle": "Local LLMs and embeddings auto-link and search notes offline.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "unknown",
+  "sources": [
+   "https://github.com/reorproject/reor"
+  ]
+ },
+ {
+  "name": "Mesh Intelligent Technologies (Pieces)",
+  "website": "https://pieces.app",
+  "hq_country": "USA",
+  "one_liner": "Makes Pieces, developer long-term memory and AI copilot desktop app.",
+  "local_ai_angle": "On-device memory engine with local LLM option via Ollama.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://pieces.app"
+  ]
+ },
+ {
+  "name": "Kin",
+  "website": "https://mykin.ai",
+  "hq_country": "Denmark",
+  "one_liner": "Makes Kin, a personal AI advisor/companion app.",
+  "local_ai_angle": "Local-first design storing personal memory on the user's device.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://mykin.ai"
+  ]
+ },
+ {
+  "name": "Leon AI (open-source)",
+  "website": "https://getleon.ai",
+  "hq_country": null,
+  "one_liner": "Leon, open-source self-hosted personal assistant.",
+  "local_ai_angle": "Runs on your server with offline speech and local LLM support.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/leon-ai/leon"
+  ]
+ },
+ {
+  "name": "Brevilabs (Obsidian Copilot)",
+  "website": "https://www.obsidiancopilot.com",
+  "hq_country": null,
+  "one_liner": "Makes Copilot for Obsidian, AI chat and vault-QA plugin.",
+  "local_ai_angle": "Works with Ollama/LM Studio local models for private note Q&A.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/logancyang/obsidian-copilot"
+  ]
+ },
+ {
+  "name": "Olares (ByteFuture)",
+  "website": "https://www.olares.com",
+  "hq_country": null,
+  "one_liner": "Makes Olares OS open-source personal cloud OS and Olares One local AI desktop server.",
+  "local_ai_angle": "RTX 5090M personal AI cloud box runs LLMs and agents at home; Kickstarter $2.3M.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://siliconangle.com/2025/12/09/olares-launches-personal-ai-computer-turns-local-files-smart-assistant/",
+   "https://www.techpowerup.com/342779/olares-to-launch-a-personal-ai-device-bringing-cloud-level-performance-home",
+   "https://dealroom.co/news/150432-bytefuture-raises-55m-to-scale-local-ai-hardware-and-os/"
+  ]
+ },
+ {
+  "name": "Tiiny AI",
+  "website": "https://tiiny.ai",
+  "hq_country": null,
+  "one_liner": "Makes Tiiny AI Pocket Lab, pocket-size personal AI computer; $3M+ Kickstarter in 2026.",
+  "local_ai_angle": "Runs up to 120B-parameter LLMs offline; Guinness-certified smallest 100B-LLM mini PC.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://vir.com.vn/tiiny-ai-pocket-lab-raises-1-million-in-five-hours-on-kickstarter-148369.html",
+   "https://www.kicktraq.com/projects/tiinyai/tiiny-ai-pocket-lab/",
+   "https://www.livescience.com/technology/computing/meet-the-worlds-smallest-ai-supercomputer-it-packs-doctorate-level-intelligence-its-makers-say-and-can-fit-into-your-pocket"
+  ]
+ },
+ {
+  "name": "Umbrel",
+  "website": "https://umbrel.com",
+  "hq_country": "USA",
+  "one_liner": "Makes umbrelOS home-server OS and Umbrel Home device with one-click self-hosted app store.",
+  "local_ai_angle": "One-click Ollama, Open WebUI and other local AI apps on home hardware.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://umbrel.com",
+   "https://github.com/getumbrel/umbrel"
+  ]
+ },
+ {
+  "name": "EXO Labs",
+  "website": "https://exolabs.net",
+  "hq_country": "UK",
+  "one_liner": "Makes exo, open-source software clustering Macs and PCs into a local AI inference cluster.",
+  "local_ai_angle": "Runs frontier-size open models at home; RDMA over Thunderbolt 5 adopted in macOS.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/exo-explore/exo/",
+   "https://venturebeat.com/ai/you-can-now-run-the-most-powerful-open-source-ai-models-locally-on-mac-m4-computers-thanks-to-exo-labs",
+   "https://heise.de/-11085716"
+  ]
+ },
+ {
+  "name": "tiny corp",
+  "website": "https://tinygrad.org",
+  "hq_country": "USA",
+  "one_liner": "Makes tinygrad ML framework and tinybox AI computers for local training and inference.",
+  "local_ai_angle": "Sells multi-GPU tinybox machines for owners running models outside the cloud.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://tinygrad.org/#tinybox",
+   "https://github.com/tinygrad/tinygrad"
+  ]
+ },
+ {
+  "name": "Framework Computer",
+  "website": "https://frame.work/desktop",
+  "hq_country": "USA",
+  "one_liner": "Repairable-laptop maker; Framework Desktop uses Ryzen AI Max+ 395 with 128GB unified memory.",
+  "local_ai_angle": "Mini-PC marketed for running 70B-class LLMs locally; clusterable.",
+  "segment": "consumer-local-apps",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://frame.work/desktop"
+  ]
+ },
+ {
+  "name": "Start9 Labs",
+  "website": "https://start9.com",
+  "hq_country": "USA",
+  "one_liner": "Makes StartOS sovereign personal-server OS and Start9 server hardware.",
+  "local_ai_angle": "Self-hosted service marketplace including local AI apps such as Ollama.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://start9.com"
+  ]
+ },
+ {
+  "name": "IceWhale Technology (ZimaCube / CasaOS)",
+  "website": "https://www.zimaspace.com",
+  "hq_country": "China",
+  "one_liner": "Makes ZimaCube/ZimaBoard personal cloud hardware and CasaOS/ZimaOS.",
+  "local_ai_angle": "Personal NAS/servers marketed for self-hosted local AI apps.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.zimaspace.com",
+   "https://github.com/IceWhaleTech/CasaOS"
+  ]
+ },
+ {
+  "name": "Raspberry Pi Holdings",
+  "website": "https://www.raspberrypi.com",
+  "hq_country": "UK",
+  "one_liner": "Single-board computer maker; AI HAT+ and AI Kit add Hailo accelerators to Pi 5.",
+  "local_ai_angle": "Hobbyist on-device vision and small generative models on Raspberry Pi.",
+  "segment": "consumer-local-apps",
+  "type": "public",
+  "status": "active",
+  "sources": [
+   "https://www.raspberrypi.com/products/ai-hat/"
+  ]
+ },
+ {
+  "name": "Open Home Foundation",
+  "website": "https://www.openhomefoundation.org",
+  "hq_country": "Switzerland",
+  "one_liner": "Nonprofit owning Home Assistant, Piper TTS and Wyoming protocol for local smart homes.",
+  "local_ai_angle": "Local voice assistant pipeline (Whisper, Piper, local LLM) with no cloud.",
+  "segment": "consumer-local-apps",
+  "type": "nonprofit",
+  "status": "active",
+  "sources": [
+   "https://www.openhomefoundation.org",
+   "https://www.home-assistant.io/voice-pe/"
+  ]
+ },
+ {
+  "name": "Nabu Casa",
+  "website": "https://www.nabucasa.com",
+  "hq_country": "USA",
+  "one_liner": "Commercial arm funding Home Assistant; sells Home Assistant Green and Voice Preview Edition.",
+  "local_ai_angle": "Hardware for private, locally processed voice control and home automation.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.nabucasa.com",
+   "https://www.home-assistant.io/voice-pe/"
+  ]
+ },
+ {
+  "name": "GMKtec",
+  "website": "https://www.gmktec.com",
+  "hq_country": "China",
+  "one_liner": "Mini-PC maker; EVO-X2 'AI mini PC' uses AMD Ryzen AI Max+ 395.",
+  "local_ai_angle": "Up to 128GB unified memory marketed for local 70B LLM inference.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.gmktec.com"
+  ]
+ },
+ {
+  "name": "Minisforum",
+  "website": "https://www.minisforum.com",
+  "hq_country": "China",
+  "one_liner": "Mini-PC maker selling Ryzen AI Max+ based AI workstations.",
+  "local_ai_angle": "Compact high-memory boxes for running local LLMs at home.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.minisforum.com"
+  ]
+ },
+ {
+  "name": "Beelink",
+  "website": "https://www.bee-link.com",
+  "hq_country": "China",
+  "one_liner": "Mini-PC maker with Ryzen AI Max+ 'AI mini PC' models.",
+  "local_ai_angle": "Consumer boxes positioned for local LLM inference.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://www.bee-link.com"
+  ]
+ },
+ {
+  "name": "Corsair",
+  "website": "https://www.corsair.com",
+  "hq_country": "USA",
+  "one_liner": "PC hardware maker; AI Workstation 300 compact PC with Ryzen AI Max+.",
+  "local_ai_angle": "Prebuilt desktop marketed for running local LLMs with bundled tools.",
+  "segment": "consumer-local-apps",
+  "type": "public",
+  "status": "active",
+  "sources": [
+   "https://www.corsair.com"
+  ]
+ },
+ {
+  "name": "Apple (MLX / Harbor)",
+  "website": "https://www.apple.com",
+  "hq_country": "USA",
+  "one_liner": "Apple silicon Macs, MLX framework and on-device Apple Intelligence; Harbor private inference app reported Nov 2026.",
+  "local_ai_angle": "Unified-memory Macs are the default local-LLM hardware; macOS 26.2 adds Thunderbolt 5 RDMA clustering.",
+  "segment": "bigtech",
+  "type": "big-tech",
+  "status": "active",
+  "sources": [
+   "https://digitaltrends.com/computing/apple-wants-to-turn-your-mac-into-a-private-ai-server-without-making-you-touch-the-terminal",
+   "https://heise.de/-11085716"
+  ]
+ },
+ {
+  "name": "NVIDIA (ChatRTX / DGX Spark / RTX AI PC)",
+  "website": "https://www.nvidia.com",
+  "hq_country": "USA",
+  "one_liner": "GPU leader promoting RTX AI PCs, ChatRTX and DGX Spark desktop AI supercomputer.",
+  "local_ai_angle": "Consumer RTX GPUs and DGX Spark power most local LLM and diffusion use.",
+  "segment": "bigtech",
+  "type": "big-tech",
+  "status": "active",
+  "sources": [
+   "https://blogs.nvidia.com/blog/rtx-ai-garage-nexa-hyperlink-local-agent",
+   "https://www.tomshardware.com/software/two-nvidia-dgx-spark-systems-combined-with-m3-ultra-mac-studio-to-create-blistering-llm-system-exo-labs-demonstrates-disaggregated-ai-inference-and-achieves-a-2-8-benchmark-boost"
+  ]
+ },
+ {
+  "name": "Continue Dev, Inc.",
+  "website": "https://www.continue.dev",
+  "hq_country": "USA",
+  "one_liner": "Makes Continue, open-source IDE coding assistant and agents for VS Code and JetBrains.",
+  "local_ai_angle": "Bring-any-model design; widely used with Ollama/LM Studio for fully local coding.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/continuedev/continue"
+  ]
+ },
+ {
+  "name": "Cline Bot Inc.",
+  "website": "https://cline.bot",
+  "hq_country": "USA",
+  "one_liner": "Makes Cline, open-source autonomous coding agent for VS Code.",
+  "local_ai_angle": "Supports Ollama and LM Studio local models; client-side, no code sent to Cline servers.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/cline/cline"
+  ]
+ },
+ {
+  "name": "Roo Code, Inc.",
+  "website": "https://roocode.com",
+  "hq_country": null,
+  "one_liner": "Makes Roo Code, open-source VS Code coding agent forked from Cline.",
+  "local_ai_angle": "Works with local models via Ollama/LM Studio.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/RooCodeInc/Roo-Code"
+  ]
+ },
+ {
+  "name": "Kilo Code",
+  "website": "https://kilocode.ai",
+  "hq_country": null,
+  "one_liner": "Makes Kilo Code, open-source agentic coding extension combining Cline/Roo features.",
+  "local_ai_angle": "Supports local models through Ollama and LM Studio.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/Kilo-Org/kilocode"
+  ]
+ },
+ {
+  "name": "Glass Devtools (Void)",
+  "website": "https://voideditor.com",
+  "hq_country": "USA",
+  "one_liner": "YC startup behind Void, open-source Cursor-alternative AI code editor; development paused.",
+  "local_ai_angle": "Sends code directly to any provider, including Ollama models on your machine.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "unknown",
+  "sources": [
+   "https://www.ycombinator.com/companies/void",
+   "https://openalternative.co/void",
+   "https://www.everydev.ai/developers/glass-devtools"
+  ]
+ },
+ {
+  "name": "TabbyML",
+  "website": "https://www.tabbyml.com",
+  "hq_country": null,
+  "one_liner": "Makes Tabby, open-source self-hosted AI coding assistant server.",
+  "local_ai_angle": "Runs code models on your own GPU or laptop; no cloud required.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/TabbyML/tabby"
+  ]
+ },
+ {
+  "name": "Aider (Paul Gauthier)",
+  "website": "https://aider.chat",
+  "hq_country": "USA",
+  "one_liner": "Aider, open-source terminal AI pair-programming tool.",
+  "local_ai_angle": "Works with local models via Ollama and OpenAI-compatible servers.",
+  "segment": "consumer-local-apps",
+  "type": "open-source-org",
+  "status": "active",
+  "sources": [
+   "https://github.com/Aider-AI/aider"
+  ]
+ },
+ {
+  "name": "Refact.ai",
+  "website": "https://refact.ai",
+  "hq_country": null,
+  "one_liner": "Makes Refact, open-source AI coding agent with self-hosted server option.",
+  "local_ai_angle": "Self-host code models on own GPUs for private completion and chat.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/smallcloudai/refact"
+  ]
+ },
+ {
+  "name": "Zed Industries",
+  "website": "https://zed.dev",
+  "hq_country": "USA",
+  "one_liner": "Makes Zed, high-performance open-source code editor with AI agent panel.",
+  "local_ai_angle": "Native Ollama/LM Studio support; open Zeta edit-prediction model.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/zed-industries/zed",
+   "https://zed.dev"
+  ]
+ },
+ {
+  "name": "Block (goose)",
+  "website": "https://block.github.io/goose/",
+  "hq_country": "USA",
+  "one_liner": "Block's goose, open-source on-machine AI agent for coding and automation.",
+  "local_ai_angle": "Runs locally and supports Ollama-hosted open models.",
+  "segment": "consumer-local-apps",
+  "type": "public",
+  "status": "active",
+  "sources": [
+   "https://github.com/block/goose"
+  ]
+ },
+ {
+  "name": "Anomaly (OpenCode)",
+  "website": "https://opencode.ai",
+  "hq_country": "USA",
+  "one_liner": "Makes OpenCode, open-source terminal AI coding agent (from the SST team).",
+  "local_ai_angle": "Provider-agnostic, including local models via Ollama/LM Studio.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/sst/opencode",
+   "https://opencode.ai"
+  ]
+ },
+ {
+  "name": "Tabnine",
+  "website": "https://www.tabnine.com",
+  "hq_country": "Israel",
+  "one_liner": "AI code assistant vendor offering private, self-hosted and air-gapped deployments.",
+  "local_ai_angle": "On-prem/VPC model hosting for enterprises; historically local completion models.",
+  "segment": "private-ai-platforms",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://www.tabnine.com"
+  ]
+ },
+ {
+  "name": "Liquid AI",
+  "website": "https://www.liquid.ai",
+  "hq_country": "USA",
+  "one_liner": "MIT spinout building efficient Liquid Foundation Models, LEAP edge SDK and Apollo app.",
+  "local_ai_angle": "Small LFMs designed for on-device inference on phones and laptops.",
+  "segment": "efficient-models",
+  "type": "scaleup",
+  "status": "active",
+  "sources": [
+   "https://www.liquid.ai/press/liquid-ai-launches-leap-and-apollo-a-new-era-for-edge-ai-deployment-begins",
+   "https://venturebeat.com/ai/finally-a-dev-kit-for-designing-on-device-mobile-ai-apps-is-here-liquid-ais-leap"
+  ]
+ },
+ {
+  "name": "Cactus Compute",
+  "website": "https://cactuscompute.com",
+  "hq_country": null,
+  "one_liner": "YC startup making Cactus on-device inference engine and Cactus Chat app.",
+  "local_ai_angle": "Cross-platform SDK for running LLMs locally on phones.",
+  "segment": "on-device-sdks",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/cactus-compute/cactus"
+  ]
+ },
+ {
+  "name": "Ente Technologies",
+  "website": "https://ente.io",
+  "hq_country": null,
+  "one_liner": "Makes Ente Photos, end-to-end encrypted photo storage, and Ensu local LLM app.",
+  "local_ai_angle": "Face recognition and semantic search run on-device to preserve encryption.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://ente.io",
+   "https://github.com/ente-io/ente"
+  ]
+ },
+ {
+  "name": "FUTO",
+  "website": "https://futo.org",
+  "hq_country": "USA",
+  "one_liner": "Austin organization making FUTO Keyboard and Voice Input, and funding Immich self-hosted photos.",
+  "local_ai_angle": "Offline on-device speech recognition; Immich runs local ML for photo search.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://futo.org",
+   "https://github.com/immich-app/immich"
+  ]
+ },
+ {
+  "name": "PhotoPrism",
+  "website": "https://www.photoprism.app",
+  "hq_country": "Germany",
+  "one_liner": "Makes PhotoPrism, self-hosted AI-powered photo management app.",
+  "local_ai_angle": "Local TensorFlow/vision models tag, classify and recognize faces on your server.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/photoprism/photoprism"
+  ]
+ },
+ {
+  "name": "Frigate (Frigate NVR)",
+  "website": "https://frigate.video",
+  "hq_country": "USA",
+  "one_liner": "Makes Frigate, open-source home NVR with real-time AI object detection.",
+  "local_ai_angle": "Detection on local Coral/Hailo/GPU accelerators; optional local GenAI descriptions.",
+  "segment": "consumer-local-apps",
+  "type": "startup",
+  "status": "active",
+  "sources": [
+   "https://github.com/blakeblackshear/frigate",
+   "https://frigate.video"
+  ]
+ }
+]
